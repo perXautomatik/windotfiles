@@ -1,13 +1,13 @@
 {
   "$schema": "https://raw.githubusercontent.com/lukesampson/scoop/master/schema.json",
-  "homepage": "https://github.com/MarkMichaelis/ScoopBucket",
+  "homepage": "https://github.com/PerXautomatik/ScoopBucket",
   "description": "Setups my personal scoop bucket.",
-  "url": "https://raw.githubusercontent.com/MarkMichaelis/ScoopBucket/master/blank",
-  "notes": "Of course, this script is placed in the MarkMichaelis bucket so you it presents a chicken and egg problem.",
+  "url": "https://raw.githubusercontent.com/PerXautomatik/ScoopBucket/master/blank",
+  "notes": "Of course, this script is placed in the PerXautomatik bucket so you it presents a chicken and egg problem.",
   "version": "1.0.0",
   "installer": {
     "script": [
-      "scoop bucket add LocalRepo https://github.com/MarkMichaelis/ScoopBucket.git"
+      "scoop bucket add LocalRepo https://github.com/PerXautomatik/ScoopBucket.git"
     ]
   },
   "uninstaller": {

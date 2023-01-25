@@ -1,6 +1,6 @@
 
 # TODO: Generalize
-$UserBucket = "MarkMichaelis"
+$UserBucket = "PerXautomatik"
 
 if(!$env:SCOOP -and (test-path "$env:ProgramData\scoop\apps\scoop\current")) {
     $env:SCOOP = "$env:ProgramData\scoop"
