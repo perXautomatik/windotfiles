@@ -46,3 +46,9 @@ path = xEditScripts
 [submodule "Git"]
 url = https://gist.github.com/perXautomatik/e01f68f13580acea470e1ae1ce680a15
 path = Git
+[submodule "Vortex"]
+	path = Vortex
+	url = https://github.com/perXautomatik/AppData.git
+[submodule "UserFolder"]
+	path = UserFolder
+	url = B:\\ToGit\\Projectfolder\\scoopbucket-presist\\UserFolder
