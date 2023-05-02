@@ -1,3 +1,0 @@
-# windotfiles
-
-windows dotfiles
