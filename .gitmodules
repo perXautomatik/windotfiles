@@ -62,3 +62,6 @@ url = https://gist.github.com/perXautomatik/e01f68f13580acea470e1ae1ce680a15
 [submodule "xEditScripts"]
 	path = xEditScripts
 	url = https://github.com/perXautomatik/xEditScripts
+[submodule "JetBrains"]
+	path = JetBrains
+	url = https://github.com/perXautomatik/Datagrip-UserFolder.git
