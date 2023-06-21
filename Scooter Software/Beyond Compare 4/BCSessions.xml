@@ -1,0 +1,3534 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Produced by Beyond Compare 4 from Scooter Software -->
+<BCSessions Version="1" MinVersion="1">
+	<TSessionFolder Value="Datagrip">
+		<Items>
+			<TDirCompareSession Value=".DataGrip2019.3 &lt;--> .DataGrip2019.5">
+				<LastModified Value="2021-10-01 16:57:24"/>
+				<Rules>
+					<AlignWiths>
+						<_0>
+							<FindText Value="workspace.xml"/>
+							<PathMask Value=".\config\projects\Solen-Visoin-Vyer\.idea\"/>
+							<ReplaceText Value="workspace (3).xml"/>
+						</_0>
+						<_1>
+							<FindText Value="Fil-Till-Vision"/>
+							<PathMask Value=".\"/>
+							<ReplaceText Value="Vision-Fil-Insert"/>
+						</_1>
+						<_2>
+							<FindText Value="dump"/>
+							<PathMask Value=".\"/>
+							<ReplaceText Value="default"/>
+						</_2>
+						<_3>
+							<FindText Value="Solen-Visoin-Vyer"/>
+							<PathMask Value=".\"/>
+							<ReplaceText Value="Geosecma-Solen-Visoin-Vyer"/>
+						</_3>
+						<_4>
+							<FindText Value="projects"/>
+							<PathMask Value=".\"/>
+							<ReplaceText Value="proj"/>
+						</_4>
+						<_5>
+							<FindText Value="Geosecma-Solen-Visoin-Vyer"/>
+							<PathMask Value=".\"/>
+							<ReplaceText Value="Solen-Visoin-Vyer"/>
+						</_5>
+						<_6>
+							<FindText Value="Livsmedel-DbRensning"/>
+							<PathMask Value=".\"/>
+							<ReplaceText Value="LivsmedelDbRensning"/>
+						</_6>
+					</AlignWiths>
+					<UseContentComparison Value="True"/>
+					<UseTimestampComparison Value="False"/>
+				</Rules>
+				<Specs>
+					<Left Value="D:\Users\crbk01\.DataGrip2019.3"/>
+					<Right Value="D:\Users\crbk01\.DataGrip2019.5"/>
+				</Specs>
+				<State>
+					<ColExtVisible Value="True"/>
+					<ColExtWidth Value="123"/>
+					<DirHandling Value="dirCompareFilesOnly"/>
+					<InsigIgnored Value="True"/>
+				</State>
+			</TDirCompareSession>
+			<TDirCompareSession Value="2021.1 &lt;--> 2019.3">
+				<LastModified Value="2021-11-12 11:58:18"/>
+				<Rules>
+					<AlignWiths>
+						<_0>
+							<FindText Value="tgitchangelist"/>
+							<PathMask Value=".\EDPvisionRemote\output\output\TillMinaMedelanden\LatestHandelse(harAnsokan)\UpdateHandelser\VisionH-ndelserToEasyRead\.git\"/>
+							<ReplaceText Value="tgitchangelist."/>
+						</_0>
+						<_1>
+							<FindText Value="Livsmedel-DbRensning"/>
+							<PathMask Value=".\"/>
+							<ReplaceText Value="Livsmedel-DbRensning-Dev"/>
+						</_1>
+						<_2>
+							<FindText Value="8cc23256-e02c-43ea-8477-e740c4580b62"/>
+							<ReplaceText Value="5dd5ec07-b71c-48de-8aab-4cfa43540e71"/>
+						</_2>
+						<_3>
+							<FindText Value="5b682ee5-608b-4b16-bdfd-1132a4a5566f"/>
+							<ReplaceText Value="027c2d16-67ba-4eeb-837e-f99b41e4c813"/>
+						</_3>
+						<_4>
+							<FindText Value="947f2b47-af0c-4354-9696-9462b1a4bf8b"/>
+							<ReplaceText Value="2b0fb1ea-95a8-43ea-8c0a-7d90c065cf10"/>
+						</_4>
+					</AlignWiths>
+				</Rules>
+				<Specs>
+					<Left Value="C:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\projects"/>
+					<Right Value="C:\Users\crbk01\.DataGrip2019.3\config\projects"/>
+				</Specs>
+				<State>
+					<ColExtVisible Value="True"/>
+					<ColExtWidth Value="56"/>
+					<ColPathWidth Value="146"/>
+					<ColSizeWidth Value="59"/>
+					<InsigIgnored Value="True"/>
+					<SortCol Value="colSize"/>
+					<SortDown Value="True"/>
+				</State>
+			</TDirCompareSession>
+			<TDirCompareSession Value="db &lt;--> projects">
+				<Filters>
+					<NameFilter Value="*(*).*;*_*.*;*.~*;*.*.bak;*(.).*"/>
+				</Filters>
+				<LastModified Value="2021-10-06 08:04:50"/>
+				<Rules>
+					<AlignWiths>
+						<_0>
+							<FindText Value="Solen-Visoin-Vyer"/>
+							<PathMask Value=".\"/>
+							<ReplaceText Value="Geosecma-Solen-Visoin-Vyer"/>
+						</_0>
+						<_1>
+							<FindText Value="projects"/>
+							<PathMask Value=".\"/>
+							<ReplaceText Value="proj"/>
+						</_1>
+						<_2>
+							<FindText Value="UnknownUnsure"/>
+							<PathMask Value=".\"/>
+							<ReplaceText Value="default"/>
+						</_2>
+						<_3>
+							<FindText Value="Geosecma-Solen-Visoin-Vyer"/>
+							<PathMask Value=".\"/>
+							<ReplaceText Value="Solen-Visoin-Vyer"/>
+						</_3>
+						<_4>
+							<FindText Value="Livsmedel-DbRensning"/>
+							<PathMask Value=".\"/>
+							<ReplaceText Value="LivsmedelDbRensning"/>
+						</_4>
+					</AlignWiths>
+					<UseContentComparison Value="True"/>
+					<UseTimestampComparison Value="False"/>
+				</Rules>
+				<Specs>
+					<Left Value="C:\Users\crbk01\.DataGrip2019.3\config\consoles\db"/>
+					<Right Value="D:\Users\crbk01\.DataGrip2019.5\config\projects"/>
+				</Specs>
+				<State>
+					<ColExtVisible Value="True"/>
+					<ColExtWidth Value="123"/>
+					<DirHandling Value="dirCompareFilesOnly"/>
+					<SortCol Value="colSize"/>
+					<SortDown Value="True"/>
+				</State>
+			</TDirCompareSession>
+			<TDirCompareSession Value="Kv-FlaggGenerering">
+				<LastModified Value="2021-10-01 13:45:42"/>
+				<Rules>
+					<AlignWiths>
+						<_0>
+							<FindText Value="OneDrive - Region Gotlad"/>
+							<PathMask Value=".\"/>
+							<ReplaceText Value="OneDrive - Region Gotland"/>
+						</_0>
+						<_1>
+							<FindText Value="Documents"/>
+							<PathMask Value=".\"/>
+							<ReplaceText Value="Mina dokument"/>
+						</_1>
+						<_2>
+							<FindText Value="Downloads"/>
+							<PathMask Value=".\"/>
+							<ReplaceText Value="Downloads2"/>
+						</_2>
+					</AlignWiths>
+					<ContentCompareSkipSame Value="True"/>
+					<UseContentComparison Value="True"/>
+					<UseTimestampComparison Value="False"/>
+				</Rules>
+				<Specs>
+					<Left Value="D:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\projects\Kv-FlaggGenerering"/>
+					<Right Value="D:\Users\crbk01\.DataGrip2019.5\config\proj\Kv-FlaggGenerering"/>
+				</Specs>
+				<State>
+					<DirHandling Value="dirCompareFilesOnly"/>
+					<DisplayFilter Value="[showLeftAdded, showRightAdded]"/>
+					<SortCol Value="colSize"/>
+					<SortDown Value="True"/>
+					<SortSide Value="dsRight"/>
+				</State>
+			</TDirCompareSession>
+			<TDirCompareSession Value="projects &lt;--> RegionGotland">
+				<LastModified Value="2021-11-12 11:57:10"/>
+				<Rules>
+					<AlignWiths>
+						<_0>
+							<FindText Value="tgitchangelist"/>
+							<PathMask Value=".\EDPvisionRemote\output\output\TillMinaMedelanden\LatestHandelse(harAnsokan)\UpdateHandelser\VisionH-ndelserToEasyRead\.git\"/>
+							<ReplaceText Value="tgitchangelist."/>
+						</_0>
+						<_1>
+							<FindText Value="Livsmedel-DbRensning"/>
+							<PathMask Value=".\"/>
+							<ReplaceText Value="Livsmedel-DbRensning-Dev"/>
+						</_1>
+						<_2>
+							<FindText Value="8cc23256-e02c-43ea-8477-e740c4580b62"/>
+							<ReplaceText Value="5dd5ec07-b71c-48de-8aab-4cfa43540e71"/>
+						</_2>
+						<_3>
+							<FindText Value="5b682ee5-608b-4b16-bdfd-1132a4a5566f"/>
+							<ReplaceText Value="027c2d16-67ba-4eeb-837e-f99b41e4c813"/>
+						</_3>
+						<_4>
+							<FindText Value="947f2b47-af0c-4354-9696-9462b1a4bf8b"/>
+							<ReplaceText Value="2b0fb1ea-95a8-43ea-8c0a-7d90c065cf10"/>
+						</_4>
+					</AlignWiths>
+				</Rules>
+				<Specs>
+					<Left Value="C:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\projects"/>
+					<Right Value="D:\Project Shelf\RegionGotland"/>
+				</Specs>
+				<State>
+					<ColExtVisible Value="True"/>
+					<ColExtWidth Value="56"/>
+					<ColPathWidth Value="146"/>
+					<ColSizeWidth Value="59"/>
+					<DirHandling Value="dirCompareFilesOnly"/>
+					<InsigIgnored Value="True"/>
+					<SortCol Value="colSize"/>
+					<SortDown Value="True"/>
+					<SortSide Value="dsRight"/>
+				</State>
+			</TDirCompareSession>
+			<TDirCompareSession Value="projects &lt;--> Sql">
+				<Filters>
+					<NameFilter Value="-*.sql"/>
+				</Filters>
+				<LastModified Value="2021-11-02 10:14:09"/>
+				<Rules>
+					<AlignWiths>
+						<_0>
+							<FindText Value="8cc23256-e02c-43ea-8477-e740c4580b62"/>
+							<ReplaceText Value="5dd5ec07-b71c-48de-8aab-4cfa43540e71"/>
+						</_0>
+						<_1>
+							<FindText Value="5b682ee5-608b-4b16-bdfd-1132a4a5566f"/>
+							<ReplaceText Value="027c2d16-67ba-4eeb-837e-f99b41e4c813"/>
+						</_1>
+						<_2>
+							<FindText Value="947f2b47-af0c-4354-9696-9462b1a4bf8b"/>
+							<ReplaceText Value="2b0fb1ea-95a8-43ea-8c0a-7d90c065cf10"/>
+						</_2>
+					</AlignWiths>
+				</Rules>
+				<Specs>
+					<Left Value="D:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\projects"/>
+					<Right Value="D:\Project Shelf\Sql"/>
+				</Specs>
+				<State>
+					<ColExtVisible Value="True"/>
+					<ColExtWidth Value="56"/>
+					<ColPathWidth Value="146"/>
+					<ColSizeWidth Value="59"/>
+					<DirHandling Value="dirCompareFilesOnly"/>
+					<DisplayFilter Value="[showLeftAdded]"/>
+					<InsigIgnored Value="True"/>
+					<SortCol Value="colSize"/>
+					<SortDown Value="True"/>
+				</State>
+			</TDirCompareSession>
+			<TTextCompareSession Value="xml">
+				<LastModified Value="2021-12-13 09:31:15"/>
+				<Rules>
+					<AlignKind Value="alignQuick"/>
+					<ElementSigs>
+						<Item>
+							<ElementStr Value="&#2;String"/>
+							<ValueBool Value="False"/>
+						</Item>
+						<Item>
+							<ElementStr Value="&#2;Operator"/>
+							<ValueBool Value="False"/>
+						</Item>
+					</ElementSigs>
+					<UseCloseness Value="False"/>
+				</Rules>
+				<Specs>
+					<Left Value="C:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\projects\Kv-Utsökning\.idea\dataSources.xml"/>
+					<Right Value="C:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\projects\default\.idea\dataSources.xml"/>
+				</Specs>
+				<State>
+					<DisplayFilter Value="[showLeftMod, showRightMod, showDiffMod]"/>
+					<ShowContext Value="True"/>
+				</State>
+			</TTextCompareSession>
+		</Items>
+	</TSessionFolder>
+	<TSessionFolder Value="Git">
+		<Items>
+			<TDirCompareSession Value=".git">
+				<LastModified Value="2021-09-24 07:40:48"/>
+				<Specs>
+					<Left Value="C:\Users\crbk01\Desktop\Ny mapp\.git"/>
+					<Right Value="D:\Documents\WindowsPowerShell\.git"/>
+				</Specs>
+				<State>
+					<DirHandling Value="dirCompareFilesOnly"/>
+					<DisplayFilter Value="[showLeftAdded, showLeftChanged]"/>
+					<SortCol Value="colModified"/>
+					<SortDown Value="True"/>
+				</State>
+			</TDirCompareSession>
+			<TTextCompareSession Value="config">
+				<LastModified Value="2021-10-01 13:45:43"/>
+				<Specs>
+					<Left Value="D:\Users\crbk01\.DataGrip2019.5\config\proj\Geosecma-Solen-Visoin-Vyer\.git\config"/>
+					<Right Value="D:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\.git\config"/>
+				</Specs>
+				<State>
+					<DisplayFilter Value="[showLeftMod, showRightMod, showDiffMod]"/>
+					<ShowContext Value="True"/>
+				</State>
+			</TTextCompareSession>
+			<TTextMergeSession Value=".gitignore">
+				<LastModified Value="2021-10-01 09:32:53"/>
+				<Specs>
+					<Left Value="D:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\projects\Geosecma-Solen-Visoin-Vyer\.gitignore.LOCAL.gitignore"/>
+					<Right Value="D:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\projects\Geosecma-Solen-Visoin-Vyer\.gitignore.REMOTE.gitignore"/>
+					<Center Value="D:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\projects\Geosecma-Solen-Visoin-Vyer\.gitignore.BASE.gitignore"/>
+					<Output Value="D:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\projects\Geosecma-Solen-Visoin-Vyer\.gitignore"/>
+				</Specs>
+				<State>
+					<MergeFavorSide Value="mfsRight"/>
+				</State>
+			</TTextMergeSession>
+		</Items>
+	</TSessionFolder>
+	<TSessionFolder Value="PathOfExile">
+		<Items>
+			<TTextCompareSession Value="default.filter &lt;--> Highlight.filter">
+				<LastModified Value="2017-11-12 02:53:15"/>
+				<Rules>
+					<AlignKind Value="alignNone"/>
+				</Rules>
+				<Specs>
+					<Left Value="\\DESKTOP-V2JGKUR\My Games\Path of Exile\default.filter"/>
+					<Right Value="C:\Users\Dator\Documents\My Games\Path of Exile\Highlight.filter"/>
+				</Specs>
+			</TTextCompareSession>
+		</Items>
+	</TSessionFolder>
+	<TSessionFolder Value="Ps1">
+		<Items>
+			<TDirCompareSession Value="powershell &lt;--> WindowsPowerShell">
+				<LastModified Value="2021-09-16 14:49:35"/>
+				<Rules>
+					<UseTimestampComparison Value="False"/>
+				</Rules>
+				<Specs>
+					<Left Value="C:\Users\crbk01\Desktop\OnGithub\powershell"/>
+					<Right Value="D:\Documents\WindowsPowerShell"/>
+				</Specs>
+				<State>
+					<SortCol Value="colSize"/>
+				</State>
+			</TDirCompareSession>
+			<TDirSyncSession Value="Custom: Scripts &lt;--> Script">
+				<LastModified Value="2021-09-16 14:49:35"/>
+				<Rules>
+					<ExpandAllOnLoad Value="False"/>
+					<LeftAddedSyncOp Value="soLeave"/>
+					<LeftNewerSyncOp Value="soLeave"/>
+					<RightAddedSyncOp Value="soLeave"/>
+					<RightNewerSyncOp Value="soLeave"/>
+					<SameSyncOp Value="soDeleteLeft"/>
+					<UseTimestampComparison Value="False"/>
+				</Rules>
+				<Specs>
+					<Left Value="C:\Users\crbk01\Desktop\powershell\Scripts"/>
+					<Right Value="D:\Documents\WindowsPowerShell\Script"/>
+				</Specs>
+				<State>
+					<SortCol Value="colSize"/>
+					<SortSide Value="dsRight"/>
+				</State>
+				<Summary Value="2021-09-16 13:22:51  Successfully synchronized 1 items.  Completed in 0,02 seconds."/>
+			</TDirSyncSession>
+			<TTextCompareSession Value="firstPageOfEachPDf.ps1 &lt;--> pdfReverse.ps1">
+				<LastModified Value="2021-09-19 14:02:52"/>
+				<Specs>
+					<Left Value="D:\Documents\WindowsPowerShell\Scripts\firstPageOfEachPDf.ps1"/>
+					<Right Value="D:\Documents\WindowsPowerShell\Scripts\pdfReverse.ps1"/>
+				</Specs>
+				<State>
+					<InsigIgnored Value="True"/>
+					<ShowContext Value="True"/>
+				</State>
+			</TTextCompareSession>
+		</Items>
+	</TSessionFolder>
+	<TSessionFolder Value="Vscode">
+		<Items>
+			<TTextCompareSession Value="VsCodeSettings->Workspace">
+				<Description>
+					<_0 Value="Add Relevant settings to relevant workspace"/>
+				</Description>
+				<Formats>
+					<Left Value="&#2;JS"/>
+					<Right Value="&#2;JS"/>
+				</Formats>
+				<LastModified Value="2021-11-02 14:25:35"/>
+				<Rules>
+					<ElementSigs>
+						<Item>
+							<ElementStr Value="&#2;Operator"/>
+							<ValueBool Value="False"/>
+						</Item>
+						<Item>
+							<ElementStr Value="Schema id"/>
+							<ValueBool Value="False"/>
+						</Item>
+						<Item>
+							<ElementStr Value="Login id"/>
+							<ValueBool Value="False"/>
+						</Item>
+					</ElementSigs>
+					<Insigs>
+						<_0>
+							<FindText Value="&lt;secret-storage>master_key&lt;/secret-storage>"/>
+						</_0>
+					</Insigs>
+				</Rules>
+				<Specs>
+					<Left Value="C:\Users\crbk01\AppData\Roaming\Code\User\settings.json"/>
+					<Right Value="D:\Project Shelf\AhkProjectFolder\AhkProjectFolder.code-workspace"/>
+				</Specs>
+				<State>
+					<ShowContext Value="True"/>
+				</State>
+			</TTextCompareSession>
+		</Items>
+	</TSessionFolder>
+	<TTextCompareSession Value="acl">
+		<CodePageOverride>
+			<Left Value="1200"/>
+		</CodePageOverride>
+		<Formats>
+			<Left Value="acl"/>
+			<Right Value="acl"/>
+		</Formats>
+		<LastModified Value="2021-12-16 12:04:01"/>
+		<NoEdit>
+			<Left Value="True"/>
+			<Right Value="True"/>
+		</NoEdit>
+		<Rules>
+			<ElementSigs>
+				<Item>
+					<ElementStr Value="&#2;Operator"/>
+					<ValueBool Value="False"/>
+				</Item>
+				<Item>
+					<ElementStr Value="Schema id"/>
+					<ValueBool Value="False"/>
+				</Item>
+				<Item>
+					<ElementStr Value="Login id"/>
+					<ValueBool Value="False"/>
+				</Item>
+			</ElementSigs>
+			<NonWSSig Value="False"/>
+		</Rules>
+		<Specs>
+			<Left Value="C:\Users\crbk01\AppData\Roaming\Microsoft\Office\MSO2057.acl"/>
+			<Right Value="C:\Windows\Globalization\ELS\SpellDictionaries\MsSp7en-GB.acl"/>
+		</Specs>
+		<State>
+			<DisplayFilter Value="[showLeftMod, showRightMod, showDiffMod]"/>
+		</State>
+	</TTextCompareSession>
+	<TTextCompareSession Value="vwTrEaAnlaeggningPunkter_3015.sql &lt;--> vwTrEaAvloppsanlaeggningPunkter_3015.sql">
+		<LastModified Value="2019-07-29 11:03:34"/>
+		<Specs>
+			<Left Value="G:\sbf\Livsmiljö\Miljö- och hälsoskydd\Vatten\Gemensam\Avloppsregistret i EDP Vision\EDP Script\vwTrEaAnlaeggningPunkter_3015.sql"/>
+			<Right Value="G:\sbf\Livsmiljö\Miljö- och hälsoskydd\Vatten\Gemensam\Avloppsregistret i EDP Vision\EDP Script\vwTrEaAvloppsanlaeggningPunkter_3015.sql"/>
+		</Specs>
+		<State>
+			<InsigIgnored Value="True"/>
+			<ShowContext Value="True"/>
+		</State>
+	</TTextCompareSession>
+	<TSessionFolder>
+		<Items>
+			<TSessionFolder>
+				<Items>
+					<TTextCompareSession Value="config">
+						<LastModified Value="2021-12-27 13:34:41"/>
+						<Rules>
+							<ElementSigs>
+								<Item>
+									<ElementStr Value="&#2;Operator"/>
+									<ValueBool Value="False"/>
+								</Item>
+								<Item>
+									<ElementStr Value="Schema id"/>
+									<ValueBool Value="False"/>
+								</Item>
+								<Item>
+									<ElementStr Value="Login id"/>
+									<ValueBool Value="False"/>
+								</Item>
+							</ElementSigs>
+							<NonWSSig Value="False"/>
+						</Rules>
+						<Specs>
+							<Left Value="D:\Project Shelf\AhkProjectFolder\.git\config"/>
+						</Specs>
+					</TTextCompareSession>
+					<TTextCompareSession Value="config">
+						<LastModified Value="2021-12-27 11:35:35"/>
+						<Rules>
+							<ElementSigs>
+								<Item>
+									<ElementStr Value="&#2;Operator"/>
+									<ValueBool Value="False"/>
+								</Item>
+								<Item>
+									<ElementStr Value="Schema id"/>
+									<ValueBool Value="False"/>
+								</Item>
+								<Item>
+									<ElementStr Value="Login id"/>
+									<ValueBool Value="False"/>
+								</Item>
+							</ElementSigs>
+							<NonWSSig Value="False"/>
+						</Rules>
+						<Specs>
+							<Left Value="D:\Project Shelf\PowerShellProjectFolder\Scripts\.git\config"/>
+						</Specs>
+					</TTextCompareSession>
+					<TTextCompareSession Value="config &lt;--> config (2)">
+						<LastModified Value="2021-12-27 11:24:36"/>
+						<Rules>
+							<ElementSigs>
+								<Item>
+									<ElementStr Value="&#2;Operator"/>
+									<ValueBool Value="False"/>
+								</Item>
+								<Item>
+									<ElementStr Value="Schema id"/>
+									<ValueBool Value="False"/>
+								</Item>
+								<Item>
+									<ElementStr Value="Login id"/>
+									<ValueBool Value="False"/>
+								</Item>
+							</ElementSigs>
+							<NonWSSig Value="False"/>
+						</Rules>
+						<Specs>
+							<Left Value="D:\Project Shelf\PowerShellProjectFolder\.git\config"/>
+							<Right Value="D:\Project Shelf\PowerShellProjectFolder\.git\config (2)"/>
+						</Specs>
+					</TTextCompareSession>
+					<TTextCompareSession Value="HEAD (2)">
+						<LastModified Value="2021-12-27 11:22:43"/>
+						<Rules>
+							<ElementSigs>
+								<Item>
+									<ElementStr Value="&#2;Operator"/>
+									<ValueBool Value="False"/>
+								</Item>
+								<Item>
+									<ElementStr Value="Schema id"/>
+									<ValueBool Value="False"/>
+								</Item>
+								<Item>
+									<ElementStr Value="Login id"/>
+									<ValueBool Value="False"/>
+								</Item>
+							</ElementSigs>
+							<NonWSSig Value="False"/>
+						</Rules>
+						<Specs>
+							<Left Value="D:\Project Shelf\PowerShellProjectFolder\.git\HEAD (2)"/>
+						</Specs>
+					</TTextCompareSession>
+					<TTextCompareSession Value="FETCH_HEAD (2) &lt;--> FETCH_HEAD">
+						<LastModified Value="2021-12-27 11:22:11"/>
+						<Rules>
+							<ElementSigs>
+								<Item>
+									<ElementStr Value="&#2;Operator"/>
+									<ValueBool Value="False"/>
+								</Item>
+								<Item>
+									<ElementStr Value="Schema id"/>
+									<ValueBool Value="False"/>
+								</Item>
+								<Item>
+									<ElementStr Value="Login id"/>
+									<ValueBool Value="False"/>
+								</Item>
+							</ElementSigs>
+							<NonWSSig Value="False"/>
+						</Rules>
+						<Specs>
+							<Left Value="D:\Project Shelf\PowerShellProjectFolder\.git\FETCH_HEAD (2)"/>
+							<Right Value="D:\Project Shelf\PowerShellProjectFolder\.git\FETCH_HEAD"/>
+						</Specs>
+					</TTextCompareSession>
+					<TTextCompareSession Value=".gitconfig &lt;--> gitconfig">
+						<LastModified Value="2021-12-17 17:04:35"/>
+						<Rules>
+							<ElementSigs>
+								<Item>
+									<ElementStr Value="&#2;Operator"/>
+									<ValueBool Value="False"/>
+								</Item>
+								<Item>
+									<ElementStr Value="Schema id"/>
+									<ValueBool Value="False"/>
+								</Item>
+								<Item>
+									<ElementStr Value="Login id"/>
+									<ValueBool Value="False"/>
+								</Item>
+							</ElementSigs>
+							<NonWSSig Value="False"/>
+						</Rules>
+						<Specs>
+							<Left Value="H:\.gitconfig"/>
+							<Right Value="C:\Program Files\Git\etc\gitconfig"/>
+						</Specs>
+					</TTextCompareSession>
+					<TTextCompareSession Value="select Utbytes Filnamn HandelserMEdFIlnamn.sql">
+						<LastModified Value="2021-12-17 17:04:11"/>
+						<Rules>
+							<ElementSigs>
+								<Item>
+									<ElementStr Value="&#2;Operator"/>
+									<ValueBool Value="False"/>
+								</Item>
+								<Item>
+									<ElementStr Value="Schema id"/>
+									<ValueBool Value="False"/>
+								</Item>
+								<Item>
+									<ElementStr Value="Login id"/>
+									<ValueBool Value="False"/>
+								</Item>
+							</ElementSigs>
+							<NonWSSig Value="False"/>
+						</Rules>
+						<Specs>
+							<Left Value="C:\Users\crbk01\Desktop\Ny mapp\select\utbyte\select Utbytes Filnamn HandelserMEdFIlnamn.sql"/>
+							<Right Value="C:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\consoles\db\49f168c8-015c-43d2-b9f4-06de275bdc15\select\utbyte\select Utbytes Filnamn HandelserMEdFIlnamn.sql"/>
+						</Specs>
+					</TTextCompareSession>
+					<TDirCompareSession Value="Ny mapp &lt;--> 49f168c8-015c-43d2-b9f4-06de275bdc15">
+						<LastModified Value="2021-12-17 17:04:02"/>
+						<Rules>
+							<AlignWiths>
+								<_0>
+									<FindText Value="8cc23256-e02c-43ea-8477-e740c4580b62"/>
+									<ReplaceText Value="5dd5ec07-b71c-48de-8aab-4cfa43540e71"/>
+								</_0>
+								<_1>
+									<FindText Value="5b682ee5-608b-4b16-bdfd-1132a4a5566f"/>
+									<ReplaceText Value="027c2d16-67ba-4eeb-837e-f99b41e4c813"/>
+								</_1>
+								<_2>
+									<FindText Value="947f2b47-af0c-4354-9696-9462b1a4bf8b"/>
+									<ReplaceText Value="2b0fb1ea-95a8-43ea-8c0a-7d90c065cf10"/>
+								</_2>
+							</AlignWiths>
+							<UseTimestampComparison Value="False"/>
+						</Rules>
+						<Specs>
+							<Left Value="C:\Users\crbk01\Desktop\Ny mapp"/>
+							<Right Value="C:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\consoles\db\49f168c8-015c-43d2-b9f4-06de275bdc15"/>
+						</Specs>
+						<State>
+							<ColExtVisible Value="True"/>
+							<ColExtWidth Value="56"/>
+							<ColPathWidth Value="146"/>
+							<ColSizeWidth Value="59"/>
+							<DirHandling Value="dirCompareFilesOnly"/>
+							<InsigIgnored Value="True"/>
+						</State>
+					</TDirCompareSession>
+					<TTextMergeSession Value="SkapaHandelse.sql">
+						<LastModified Value="2021-12-17 16:47:17"/>
+						<Rules>
+							<AlignKind Value="alignQuick"/>
+						</Rules>
+						<Specs>
+							<Left Value="C:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\consoles\db\49f168c8-015c-43d2-b9f4-06de275bdc15\Pseudo\SkapaH\SkapaHandelse.sql.LOCAL.sql"/>
+							<Right Value="C:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\consoles\db\49f168c8-015c-43d2-b9f4-06de275bdc15\Pseudo\SkapaH\SkapaHandelse.sql.REMOTE.sql"/>
+							<Center Value="C:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\consoles\db\49f168c8-015c-43d2-b9f4-06de275bdc15\Pseudo\SkapaH\SkapaHandelse.sql.BASE.sql"/>
+							<Output Value="C:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\consoles\db\49f168c8-015c-43d2-b9f4-06de275bdc15\Pseudo\SkapaH\SkapaHandelse.sql"/>
+						</Specs>
+						<State>
+							<MergeFavorSide Value="mfsRight"/>
+						</State>
+					</TTextMergeSession>
+					<TTextCompareSession Value="gitconfig">
+						<LastModified Value="2021-12-17 16:28:21"/>
+						<Rules>
+							<ElementSigs>
+								<Item>
+									<ElementStr Value="&#2;Operator"/>
+									<ValueBool Value="False"/>
+								</Item>
+								<Item>
+									<ElementStr Value="Schema id"/>
+									<ValueBool Value="False"/>
+								</Item>
+								<Item>
+									<ElementStr Value="Login id"/>
+									<ValueBool Value="False"/>
+								</Item>
+							</ElementSigs>
+							<NonWSSig Value="False"/>
+						</Rules>
+						<Specs>
+							<Left Value="C:\Program Files\Git\etc\gitconfig"/>
+						</Specs>
+					</TTextCompareSession>
+					<TDirCompareSession Value="49f168c8-015c-43d2-b9f4-06de275bdc15">
+						<Filters>
+							<NameFilter Value="*.sql*;*.md"/>
+						</Filters>
+						<LastModified Value="2021-12-17 14:36:14"/>
+						<Rules>
+							<AlignWiths>
+								<_0>
+									<FindText Value="8cc23256-e02c-43ea-8477-e740c4580b62"/>
+									<ReplaceText Value="5dd5ec07-b71c-48de-8aab-4cfa43540e71"/>
+								</_0>
+								<_1>
+									<FindText Value="5b682ee5-608b-4b16-bdfd-1132a4a5566f"/>
+									<ReplaceText Value="027c2d16-67ba-4eeb-837e-f99b41e4c813"/>
+								</_1>
+								<_2>
+									<FindText Value="947f2b47-af0c-4354-9696-9462b1a4bf8b"/>
+									<ReplaceText Value="2b0fb1ea-95a8-43ea-8c0a-7d90c065cf10"/>
+								</_2>
+							</AlignWiths>
+						</Rules>
+						<Specs>
+							<Left Value="C:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\consoles\db\49f168c8-015c-43d2-b9f4-06de275bdc15"/>
+						</Specs>
+						<State>
+							<ColExtVisible Value="True"/>
+							<ColExtWidth Value="56"/>
+							<ColPathWidth Value="146"/>
+							<ColSizeWidth Value="59"/>
+							<DirHandling Value="dirFlatten"/>
+							<InsigIgnored Value="True"/>
+							<SortCol Value="colSize"/>
+							<SortDown Value="True"/>
+						</State>
+					</TDirCompareSession>
+					<TTextCompareSession Value="default.dic">
+						<LastModified Value="2021-12-17 10:14:06"/>
+						<Rules>
+							<ElementSigs>
+								<Item>
+									<ElementStr Value="&#2;Operator"/>
+									<ValueBool Value="False"/>
+								</Item>
+								<Item>
+									<ElementStr Value="Schema id"/>
+									<ValueBool Value="False"/>
+								</Item>
+								<Item>
+									<ElementStr Value="Login id"/>
+									<ValueBool Value="False"/>
+								</Item>
+							</ElementSigs>
+							<NonWSSig Value="False"/>
+						</Rules>
+						<Specs>
+							<Left Value="C:\Users\crbk01\AppData\Roaming\Microsoft\Spelling\sv-SE\default.dic"/>
+							<Right Value="C:\Users\crbk01\AppData\Roaming\Microsoft\Spelling\en-AU\default.dic"/>
+						</Specs>
+						<State>
+							<DisplayFilter Value="[showLeftMod, showRightMod, showDiffMod]"/>
+						</State>
+					</TTextCompareSession>
+					<TDirCompareSession Value="8cc23256-e02c-43ea-8477-e740c4580b62 &lt;--> old">
+						<LastModified Value="2021-12-16 12:04:40"/>
+						<Rules>
+							<AlignWiths>
+								<_0>
+									<FindText Value=" (2).gitignore"/>
+									<PathMask Value=".\.idea\"/>
+									<ReplaceText Value=".gitignore"/>
+								</_0>
+								<_1>
+									<FindText Value="ok"/>
+									<PathMask Value=".\"/>
+									<ReplaceText Value="about"/>
+								</_1>
+								<_2>
+									<FindText Value="modules.~xml"/>
+									<PathMask Value=".\.idea\"/>
+									<ReplaceText Value="modules.xml"/>
+								</_2>
+								<_3>
+									<FindText Value="8cc23256-e02c-43ea-8477-e740c4580b62"/>
+									<ReplaceText Value="5dd5ec07-b71c-48de-8aab-4cfa43540e71"/>
+								</_3>
+								<_4>
+									<FindText Value="5b682ee5-608b-4b16-bdfd-1132a4a5566f"/>
+									<ReplaceText Value="027c2d16-67ba-4eeb-837e-f99b41e4c813"/>
+								</_4>
+								<_5>
+									<FindText Value="947f2b47-af0c-4354-9696-9462b1a4bf8b"/>
+									<ReplaceText Value="2b0fb1ea-95a8-43ea-8c0a-7d90c065cf10"/>
+								</_5>
+							</AlignWiths>
+							<UseTimestampComparison Value="False"/>
+						</Rules>
+						<Specs>
+							<Left Value="D:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\consoles\db\8cc23256-e02c-43ea-8477-e740c4580b62"/>
+							<Right Value="D:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\consoles\db\8cc23256-e02c-43ea-8477-e740c4580b62\.idea\old"/>
+						</Specs>
+						<State>
+							<ColExtVisible Value="True"/>
+							<ColExtWidth Value="56"/>
+							<ColPathWidth Value="146"/>
+							<ColSizeWidth Value="59"/>
+							<DirHandling Value="dirCompareFilesOnly"/>
+							<InsigIgnored Value="True"/>
+							<SortCol Value="colCompareStatus"/>
+							<SortDown Value="True"/>
+							<SortSide Value="dsRight"/>
+						</State>
+					</TDirCompareSession>
+					<THexCompareSession Value="OutlPrnt">
+						<LastModified Value="2021-12-16 12:04:23"/>
+						<Specs>
+							<Left Value="C:\Users\crbk01\AppData\Roaming\Microsoft\Outlook\OutlPrnt"/>
+						</Specs>
+					</THexCompareSession>
+					<TTextCompareSession Value="VbaProject.OTM">
+						<LastModified Value="2021-12-16 12:04:21"/>
+						<Rules>
+							<ElementSigs>
+								<Item>
+									<ElementStr Value="&#2;Operator"/>
+									<ValueBool Value="False"/>
+								</Item>
+								<Item>
+									<ElementStr Value="Schema id"/>
+									<ValueBool Value="False"/>
+								</Item>
+								<Item>
+									<ElementStr Value="Login id"/>
+									<ValueBool Value="False"/>
+								</Item>
+							</ElementSigs>
+							<Insigs>
+								<_0>
+									<FindText Value="&lt;secret-storage>master_key&lt;/secret-storage>"/>
+								</_0>
+							</Insigs>
+						</Rules>
+						<Specs>
+							<Left Value="C:\Users\crbk01\AppData\Roaming\Microsoft\Outlook\VbaProject.OTM"/>
+						</Specs>
+						<State>
+							<DisplayFilter Value="[showLeftMod, showRightMod, showDiffMod]"/>
+						</State>
+					</TTextCompareSession>
+					<TTextCompareSession Value="MsSp7en-GB.acl">
+						<Formats>
+							<Left Value="acl"/>
+						</Formats>
+						<LastModified Value="2021-12-16 12:04:18"/>
+						<Rules>
+							<ElementSigs>
+								<Item>
+									<ElementStr Value="&#2;Operator"/>
+									<ValueBool Value="False"/>
+								</Item>
+								<Item>
+									<ElementStr Value="Schema id"/>
+									<ValueBool Value="False"/>
+								</Item>
+								<Item>
+									<ElementStr Value="Login id"/>
+									<ValueBool Value="False"/>
+								</Item>
+							</ElementSigs>
+							<Insigs>
+								<_0>
+									<FindText Value="&lt;secret-storage>master_key&lt;/secret-storage>"/>
+								</_0>
+							</Insigs>
+						</Rules>
+						<Specs>
+							<Left Value="C:\Windows\Globalization\ELS\SpellDictionaries\MsSp7en-GB.acl"/>
+						</Specs>
+						<State>
+							<DisplayFilter Value="[showLeftMod, showRightMod, showDiffMod]"/>
+						</State>
+					</TTextCompareSession>
+					<THexCompareSession Value="MSO2057.acl &lt;--> MsSp7en-GB.acl">
+						<LastModified Value="2021-12-16 12:04:04"/>
+						<NoEdit>
+							<Left Value="True"/>
+							<Right Value="True"/>
+						</NoEdit>
+						<Specs>
+							<Left Value="C:\Users\crbk01\AppData\Roaming\Microsoft\Office\MSO2057.acl"/>
+							<Right Value="C:\Windows\Globalization\ELS\SpellDictionaries\MsSp7en-GB.acl"/>
+						</Specs>
+					</THexCompareSession>
+					<THexCompareSession Value="MSO2057.acl">
+						<LastModified Value="2021-12-16 11:48:28"/>
+						<Specs>
+							<Left Value="C:\Users\crbk01\AppData\Roaming\Microsoft\Office\MSO2057.acl"/>
+						</Specs>
+					</THexCompareSession>
+					<TTextCompareSession Value="default.acl">
+						<LastModified Value="2021-12-16 11:46:31"/>
+						<Rules>
+							<ElementSigs>
+								<Item>
+									<ElementStr Value="&#2;Operator"/>
+									<ValueBool Value="False"/>
+								</Item>
+								<Item>
+									<ElementStr Value="Schema id"/>
+									<ValueBool Value="False"/>
+								</Item>
+								<Item>
+									<ElementStr Value="Login id"/>
+									<ValueBool Value="False"/>
+								</Item>
+							</ElementSigs>
+							<Insigs>
+								<_0>
+									<FindText Value="&lt;secret-storage>master_key&lt;/secret-storage>"/>
+								</_0>
+							</Insigs>
+						</Rules>
+						<Specs>
+							<Left Value="C:\Users\crbk01\AppData\Roaming\Microsoft\Spelling\en-GB\default.acl"/>
+						</Specs>
+						<State>
+							<DisplayFilter Value="[showLeftMod, showRightMod, showDiffMod]"/>
+						</State>
+					</TTextCompareSession>
+					<THexCompareSession Value="default.acl">
+						<LastModified Value="2021-12-16 11:46:29"/>
+						<Specs>
+							<Left Value="C:\Users\crbk01\AppData\Roaming\Microsoft\Spelling\en-GB\default.acl"/>
+						</Specs>
+					</THexCompareSession>
+					<THexCompareSession Value="Outlook.srs">
+						<LastModified Value="2021-12-16 11:42:27"/>
+						<Specs>
+							<Left Value="C:\Users\crbk01\AppData\Roaming\Microsoft\Outlook\Outlook.srs"/>
+						</Specs>
+					</THexCompareSession>
+					<TTextCompareSession Value="dataSources.xml">
+						<LastModified Value="2021-12-14 10:42:45"/>
+						<Rules>
+							<ElementSigs>
+								<Item>
+									<ElementStr Value="&#2;Operator"/>
+									<ValueBool Value="False"/>
+								</Item>
+								<Item>
+									<ElementStr Value="Schema id"/>
+									<ValueBool Value="False"/>
+								</Item>
+								<Item>
+									<ElementStr Value="Login id"/>
+									<ValueBool Value="False"/>
+								</Item>
+							</ElementSigs>
+							<Insigs>
+								<_0>
+									<FindText Value="&lt;secret-storage>master_key&lt;/secret-storage>"/>
+								</_0>
+							</Insigs>
+						</Rules>
+						<Specs>
+							<Left Value="D:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\projects\Fil-Till-Vision\.idea\dataSources.xml"/>
+							<Right Value="D:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\projects\Vision-Fil-Insert\.idea\dataSources.xml"/>
+						</Specs>
+					</TTextCompareSession>
+					<TDirCompareSession Value=".idea">
+						<LastModified Value="2021-12-14 10:42:43"/>
+						<Rules>
+							<AlignWiths>
+								<_0>
+									<FindText Value="8cc23256-e02c-43ea-8477-e740c4580b62"/>
+									<ReplaceText Value="5dd5ec07-b71c-48de-8aab-4cfa43540e71"/>
+								</_0>
+								<_1>
+									<FindText Value="5b682ee5-608b-4b16-bdfd-1132a4a5566f"/>
+									<ReplaceText Value="027c2d16-67ba-4eeb-837e-f99b41e4c813"/>
+								</_1>
+								<_2>
+									<FindText Value="947f2b47-af0c-4354-9696-9462b1a4bf8b"/>
+									<ReplaceText Value="2b0fb1ea-95a8-43ea-8c0a-7d90c065cf10"/>
+								</_2>
+							</AlignWiths>
+							<UseTimestampComparison Value="False"/>
+						</Rules>
+						<Specs>
+							<Left Value="D:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\projects\Fil-Till-Vision\.idea"/>
+							<Right Value="D:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\projects\Vision-Fil-Insert\.idea"/>
+						</Specs>
+						<State>
+							<ColExtVisible Value="True"/>
+							<ColExtWidth Value="56"/>
+							<ColPathWidth Value="146"/>
+							<ColSizeWidth Value="59"/>
+							<DirHandling Value="dirCompareFilesOnly"/>
+							<InsigIgnored Value="True"/>
+							<SortCol Value="colCompareStatus"/>
+							<SortDown Value="True"/>
+							<SortSide Value="dsRight"/>
+						</State>
+					</TDirCompareSession>
+					<TTextCompareSession Value="dataSources.merged.xml &lt;--> dataSources.xml">
+						<LastModified Value="2021-12-14 09:46:22"/>
+						<Rules>
+							<ElementSigs>
+								<Item>
+									<ElementStr Value="&#2;Operator"/>
+									<ValueBool Value="False"/>
+								</Item>
+								<Item>
+									<ElementStr Value="Schema id"/>
+									<ValueBool Value="False"/>
+								</Item>
+								<Item>
+									<ElementStr Value="Login id"/>
+									<ValueBool Value="False"/>
+								</Item>
+							</ElementSigs>
+							<Insigs>
+								<_0>
+									<FindText Value="&lt;secret-storage>master_key&lt;/secret-storage>"/>
+								</_0>
+							</Insigs>
+						</Rules>
+						<Specs>
+							<Left Value="D:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\projects\Vision-Fil-Insert\.idea\dataSources.merged.xml"/>
+							<Right Value="D:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\projects\Vision-Fil-Insert\.idea\dataSources.xml"/>
+						</Specs>
+					</TTextCompareSession>
+					<TDirMergeSession Value="Everything">
+						<LastModified Value="2021-12-13 10:43:30"/>
+						<Rules>
+							<UseTimestampComparison Value="False"/>
+						</Rules>
+						<Specs>
+							<Left Value="C:\Users\crbk01\Desktop\OnGithub\AutoHotkey\projects\CsvArtistMerge"/>
+							<Right Value="D:\OnGithub\AutoHotkey\projects\CsvArtistMerge"/>
+							<Center Value="D:\PortableApps\2. file Organization\PortableApps\Everything"/>
+							<Output Value="D:\PortableApps\2. file Organization\PortableApps\Everything"/>
+						</Specs>
+						<State>
+							<ColExtVisible Value="True"/>
+							<ColExtWidth Value="56"/>
+							<ColPathWidth Value="146"/>
+							<ColSizeWidth Value="59"/>
+							<DirHandling Value="dirCompareFilesOnly"/>
+							<InsigIgnored Value="True"/>
+							<ShowCenter Value="False"/>
+							<SortCol Value="colModified"/>
+						</State>
+					</TDirMergeSession>
+					<TTextMergeSession Value="Everything.ini">
+						<LastModified Value="2021-12-13 09:59:11"/>
+						<Specs>
+							<Left Value="D:\PortableApps\2. file Organization\PortableApps\Everything\Everything.ini.LOCAL.ini"/>
+							<Right Value="D:\PortableApps\2. file Organization\PortableApps\Everything\Everything.ini.REMOTE.ini"/>
+							<Center Value="D:\PortableApps\2. file Organization\PortableApps\Everything\Everything.ini.BASE.ini"/>
+							<Output Value="D:\PortableApps\2. file Organization\PortableApps\Everything\Everything.ini"/>
+						</Specs>
+						<State>
+							<MergeFavorSide Value="mfsRight"/>
+						</State>
+					</TTextMergeSession>
+					<TTextCompareSession Value="(TableType) Cp_Forbud1Utsok.sql">
+						<LastModified Value="2021-12-13 09:56:31"/>
+						<Rules>
+							<ElementSigs>
+								<Item>
+									<ElementStr Value="&#2;Operator"/>
+									<ValueBool Value="False"/>
+								</Item>
+								<Item>
+									<ElementStr Value="Schema id"/>
+									<ValueBool Value="False"/>
+								</Item>
+								<Item>
+									<ElementStr Value="Login id"/>
+									<ValueBool Value="False"/>
+								</Item>
+							</ElementSigs>
+							<Insigs>
+								<_0>
+									<FindText Value="&lt;secret-storage>master_key&lt;/secret-storage>"/>
+								</_0>
+							</Insigs>
+						</Rules>
+						<Specs>
+							<Left Value="D:\Users\crbk01\.DataGrip2019.3\consoles\db\7e4fb899-0567-4da7-8a60-86bca3049c5c\VisionH-ndelserToEasyRead\Modular\(TableType) Cp_Forbud1Utsok.sql"/>
+							<Right Value="D:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\consoles\db\7e4fb899-0567-4da7-8a60-86bca3049c5c\VisionH-ndelserToEasyRead\Modular\(TableType) Cp_Forbud1Utsok.sql"/>
+						</Specs>
+					</TTextCompareSession>
+					<TTextCompareSession Value="[EDPVisionRegionGotlandTest2].EDPVisionRegionGotland.dbo.tbAehAerende.sql">
+						<LastModified Value="2021-12-13 09:56:27"/>
+						<Rules>
+							<ElementSigs>
+								<Item>
+									<ElementStr Value="&#2;Operator"/>
+									<ValueBool Value="False"/>
+								</Item>
+								<Item>
+									<ElementStr Value="Schema id"/>
+									<ValueBool Value="False"/>
+								</Item>
+								<Item>
+									<ElementStr Value="Login id"/>
+									<ValueBool Value="False"/>
+								</Item>
+							</ElementSigs>
+							<Insigs>
+								<_0>
+									<FindText Value="&lt;secret-storage>master_key&lt;/secret-storage>"/>
+								</_0>
+							</Insigs>
+						</Rules>
+						<Specs>
+							<Left Value="D:\.DataGrip2019.1\config\consoles\db\8a03a885-46ba-4c73-91bf-7ffe5f67d5ff\[EDPVisionRegionGotlandTest2].EDPVisionRegionGotland.dbo.tbAehAerende.sql"/>
+							<Right Value="D:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\scratches\[EDPVisionRegionGotlandTest2].EDPVisionRegionGotland.dbo.tbAehAerende.sql"/>
+						</Specs>
+					</TTextCompareSession>
+					<TDirCompareSession Value="8a03a885-46ba-4c73-91bf-7ffe5f67d5ff &lt;--> scratches">
+						<LastModified Value="2021-12-13 09:56:25"/>
+						<Rules>
+							<AlignWiths>
+								<_0>
+									<FindText Value="8cc23256-e02c-43ea-8477-e740c4580b62"/>
+									<ReplaceText Value="5dd5ec07-b71c-48de-8aab-4cfa43540e71"/>
+								</_0>
+								<_1>
+									<FindText Value="5b682ee5-608b-4b16-bdfd-1132a4a5566f"/>
+									<ReplaceText Value="027c2d16-67ba-4eeb-837e-f99b41e4c813"/>
+								</_1>
+								<_2>
+									<FindText Value="947f2b47-af0c-4354-9696-9462b1a4bf8b"/>
+									<ReplaceText Value="2b0fb1ea-95a8-43ea-8c0a-7d90c065cf10"/>
+								</_2>
+							</AlignWiths>
+						</Rules>
+						<Specs>
+							<Left Value="D:\.DataGrip2019.1\config\consoles\db\8a03a885-46ba-4c73-91bf-7ffe5f67d5ff"/>
+							<Right Value="D:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\scratches"/>
+						</Specs>
+						<State>
+							<ColExtVisible Value="True"/>
+							<ColExtWidth Value="56"/>
+							<ColPathWidth Value="146"/>
+							<ColSizeWidth Value="59"/>
+							<DirHandling Value="dirCompareFilesOnly"/>
+							<InsigIgnored Value="True"/>
+							<SortCol Value="colSize"/>
+							<SortDown Value="True"/>
+						</State>
+					</TDirCompareSession>
+					<TTextCompareSession Value="[EDPVisionRegionGotlandAvlopp].dbo.tbTrEaAvloppsanlaeggning.sql">
+						<LastModified Value="2021-12-13 09:53:47"/>
+						<Rules>
+							<ElementSigs>
+								<Item>
+									<ElementStr Value="&#2;Operator"/>
+									<ValueBool Value="False"/>
+								</Item>
+								<Item>
+									<ElementStr Value="Schema id"/>
+									<ValueBool Value="False"/>
+								</Item>
+								<Item>
+									<ElementStr Value="Login id"/>
+									<ValueBool Value="False"/>
+								</Item>
+							</ElementSigs>
+							<Insigs>
+								<_0>
+									<FindText Value="&lt;secret-storage>master_key&lt;/secret-storage>"/>
+								</_0>
+							</Insigs>
+						</Rules>
+						<Specs>
+							<Left Value="D:\.DataGrip2019.1\config\consoles\db\6cfacdb4-5d47-4859-b85b-7b2ce07efa71\[EDPVisionRegionGotlandAvlopp].dbo.tbTrEaAvloppsanlaeggning.sql"/>
+							<Right Value="D:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\scratches\[EDPVisionRegionGotlandAvlopp].dbo.tbTrEaAvloppsanlaeggning.sql"/>
+						</Specs>
+					</TTextCompareSession>
+					<TDirCompareSession Value="6cfacdb4-5d47-4859-b85b-7b2ce07efa71 &lt;--> scratches">
+						<LastModified Value="2021-12-13 09:53:46"/>
+						<Rules>
+							<AlignWiths>
+								<_0>
+									<FindText Value="8cc23256-e02c-43ea-8477-e740c4580b62"/>
+									<ReplaceText Value="5dd5ec07-b71c-48de-8aab-4cfa43540e71"/>
+								</_0>
+								<_1>
+									<FindText Value="5b682ee5-608b-4b16-bdfd-1132a4a5566f"/>
+									<ReplaceText Value="027c2d16-67ba-4eeb-837e-f99b41e4c813"/>
+								</_1>
+								<_2>
+									<FindText Value="947f2b47-af0c-4354-9696-9462b1a4bf8b"/>
+									<ReplaceText Value="2b0fb1ea-95a8-43ea-8c0a-7d90c065cf10"/>
+								</_2>
+							</AlignWiths>
+							<UseTimestampComparison Value="False"/>
+						</Rules>
+						<Specs>
+							<Left Value="D:\.DataGrip2019.1\config\consoles\db\6cfacdb4-5d47-4859-b85b-7b2ce07efa71"/>
+							<Right Value="D:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\scratches"/>
+						</Specs>
+						<State>
+							<ColExtVisible Value="True"/>
+							<ColExtWidth Value="56"/>
+							<ColPathWidth Value="146"/>
+							<ColSizeWidth Value="59"/>
+							<DirHandling Value="dirCompareFilesOnly"/>
+							<InsigIgnored Value="True"/>
+							<SortCol Value="colSize"/>
+							<SortDown Value="True"/>
+						</State>
+					</TDirCompareSession>
+					<TDirCompareSession Value="7e4fb899-0567-4da7-8a60-86bca3049c5c">
+						<LastModified Value="2021-12-13 09:52:14"/>
+						<Rules>
+							<AlignWiths>
+								<_0>
+									<FindText Value="8cc23256-e02c-43ea-8477-e740c4580b62"/>
+									<ReplaceText Value="5dd5ec07-b71c-48de-8aab-4cfa43540e71"/>
+								</_0>
+								<_1>
+									<FindText Value="5b682ee5-608b-4b16-bdfd-1132a4a5566f"/>
+									<ReplaceText Value="027c2d16-67ba-4eeb-837e-f99b41e4c813"/>
+								</_1>
+								<_2>
+									<FindText Value="947f2b47-af0c-4354-9696-9462b1a4bf8b"/>
+									<ReplaceText Value="2b0fb1ea-95a8-43ea-8c0a-7d90c065cf10"/>
+								</_2>
+							</AlignWiths>
+							<UseTimestampComparison Value="False"/>
+						</Rules>
+						<Specs>
+							<Left Value="D:\Users\crbk01\.DataGrip2019.3\consoles\db\7e4fb899-0567-4da7-8a60-86bca3049c5c"/>
+							<Right Value="D:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\consoles\db\7e4fb899-0567-4da7-8a60-86bca3049c5c"/>
+						</Specs>
+						<State>
+							<ColExtVisible Value="True"/>
+							<ColExtWidth Value="56"/>
+							<ColPathWidth Value="146"/>
+							<ColSizeWidth Value="59"/>
+							<DirHandling Value="dirCompareFilesOnly"/>
+							<InsigIgnored Value="True"/>
+							<SortCol Value="colSize"/>
+							<SortDown Value="True"/>
+						</State>
+					</TDirCompareSession>
+					<TTextCompareSession Value="100 latest SQLite.sql">
+						<LastModified Value="2021-12-13 09:43:19"/>
+						<Rules>
+							<ElementSigs>
+								<Item>
+									<ElementStr Value="&#2;Operator"/>
+									<ValueBool Value="False"/>
+								</Item>
+								<Item>
+									<ElementStr Value="Schema id"/>
+									<ValueBool Value="False"/>
+								</Item>
+								<Item>
+									<ElementStr Value="Login id"/>
+									<ValueBool Value="False"/>
+								</Item>
+							</ElementSigs>
+							<Insigs>
+								<_0>
+									<FindText Value="&lt;secret-storage>master_key&lt;/secret-storage>"/>
+								</_0>
+							</Insigs>
+						</Rules>
+						<Specs>
+							<Left Value="D:\Project Shelf\Sql_Db\Ditto Db parsing\100 latest SQLite.sql"/>
+							<Right Value="D:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\consoles\db\1781354c-8195-4b53-903a-bbf9b4558cb0\100 latest SQLite.sql"/>
+						</Specs>
+					</TTextCompareSession>
+					<TDirCompareSession Value="Ditto Db parsing &lt;--> 1781354c-8195-4b53-903a-bbf9b4558cb0">
+						<LastModified Value="2021-12-13 09:43:18"/>
+						<Rules>
+							<AlignWiths>
+								<_0>
+									<FindText Value="8cc23256-e02c-43ea-8477-e740c4580b62"/>
+									<ReplaceText Value="5dd5ec07-b71c-48de-8aab-4cfa43540e71"/>
+								</_0>
+								<_1>
+									<FindText Value="5b682ee5-608b-4b16-bdfd-1132a4a5566f"/>
+									<ReplaceText Value="027c2d16-67ba-4eeb-837e-f99b41e4c813"/>
+								</_1>
+								<_2>
+									<FindText Value="947f2b47-af0c-4354-9696-9462b1a4bf8b"/>
+									<ReplaceText Value="2b0fb1ea-95a8-43ea-8c0a-7d90c065cf10"/>
+								</_2>
+							</AlignWiths>
+							<UseTimestampComparison Value="False"/>
+						</Rules>
+						<Specs>
+							<Left Value="D:\Project Shelf\Sql_Db\Ditto Db parsing"/>
+							<Right Value="D:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\consoles\db\1781354c-8195-4b53-903a-bbf9b4558cb0"/>
+						</Specs>
+						<State>
+							<ColExtVisible Value="True"/>
+							<ColExtWidth Value="56"/>
+							<ColPathWidth Value="146"/>
+							<ColSizeWidth Value="59"/>
+							<DirHandling Value="dirCompareFilesOnly"/>
+							<InsigIgnored Value="True"/>
+							<SortCol Value="colSize"/>
+							<SortDown Value="True"/>
+						</State>
+					</TDirCompareSession>
+					<TDirCompareSession Value="49f168c8-015c-43d2-b9f4-06de275bdc15 &lt;--> 7c36b93a-8e8d-4cff-8993-17267a5fb816">
+						<LastModified Value="2021-12-13 09:31:11"/>
+						<Rules>
+							<AlignWiths>
+								<_0>
+									<FindText Value="8cc23256-e02c-43ea-8477-e740c4580b62"/>
+									<ReplaceText Value="5dd5ec07-b71c-48de-8aab-4cfa43540e71"/>
+								</_0>
+								<_1>
+									<FindText Value="5b682ee5-608b-4b16-bdfd-1132a4a5566f"/>
+									<ReplaceText Value="027c2d16-67ba-4eeb-837e-f99b41e4c813"/>
+								</_1>
+								<_2>
+									<FindText Value="947f2b47-af0c-4354-9696-9462b1a4bf8b"/>
+									<ReplaceText Value="2b0fb1ea-95a8-43ea-8c0a-7d90c065cf10"/>
+								</_2>
+							</AlignWiths>
+							<UseTimestampComparison Value="False"/>
+						</Rules>
+						<Specs>
+							<Left Value="D:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\consoles\db\49f168c8-015c-43d2-b9f4-06de275bdc15"/>
+							<Right Value="D:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\consoles\db\7c36b93a-8e8d-4cff-8993-17267a5fb816"/>
+						</Specs>
+						<State>
+							<ColExtVisible Value="True"/>
+							<ColExtWidth Value="56"/>
+							<ColPathWidth Value="146"/>
+							<ColSizeWidth Value="59"/>
+							<DirHandling Value="dirCompareFilesOnly"/>
+							<InsigIgnored Value="True"/>
+							<SortCol Value="colSize"/>
+							<SortDown Value="True"/>
+						</State>
+					</TDirCompareSession>
+					<TDirCompareSession Value="DatagripRecoveredFiles &lt;--> Modular">
+						<LastModified Value="2021-12-13 09:31:11"/>
+						<Rules>
+							<AlignWiths>
+								<_0>
+									<FindText Value="8cc23256-e02c-43ea-8477-e740c4580b62"/>
+									<ReplaceText Value="5dd5ec07-b71c-48de-8aab-4cfa43540e71"/>
+								</_0>
+								<_1>
+									<FindText Value="5b682ee5-608b-4b16-bdfd-1132a4a5566f"/>
+									<ReplaceText Value="027c2d16-67ba-4eeb-837e-f99b41e4c813"/>
+								</_1>
+								<_2>
+									<FindText Value="947f2b47-af0c-4354-9696-9462b1a4bf8b"/>
+									<ReplaceText Value="2b0fb1ea-95a8-43ea-8c0a-7d90c065cf10"/>
+								</_2>
+							</AlignWiths>
+						</Rules>
+						<Specs>
+							<Left Value="D:\Users\crbk01\.DataGrip2019.3\config\DatagripRecoveredFiles"/>
+							<Right Value="D:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\consoles\db\7e4fb899-0567-4da7-8a60-86bca3049c5c\VisionH-ndelserToEasyRead\Modular"/>
+						</Specs>
+						<State>
+							<ColExtVisible Value="True"/>
+							<ColExtWidth Value="56"/>
+							<ColPathWidth Value="146"/>
+							<ColSizeWidth Value="59"/>
+							<DirHandling Value="dirCompareFilesOnly"/>
+							<InsigIgnored Value="True"/>
+							<SortCol Value="colSize"/>
+							<SortDown Value="True"/>
+						</State>
+					</TDirCompareSession>
+					<TDirCompareSession Value="DbKorrigering">
+						<LastModified Value="2021-12-13 09:31:11"/>
+						<Rules>
+							<AlignWiths>
+								<_0>
+									<FindText Value="8cc23256-e02c-43ea-8477-e740c4580b62"/>
+									<ReplaceText Value="5dd5ec07-b71c-48de-8aab-4cfa43540e71"/>
+								</_0>
+								<_1>
+									<FindText Value="5b682ee5-608b-4b16-bdfd-1132a4a5566f"/>
+									<ReplaceText Value="027c2d16-67ba-4eeb-837e-f99b41e4c813"/>
+								</_1>
+								<_2>
+									<FindText Value="947f2b47-af0c-4354-9696-9462b1a4bf8b"/>
+									<ReplaceText Value="2b0fb1ea-95a8-43ea-8c0a-7d90c065cf10"/>
+								</_2>
+							</AlignWiths>
+							<UseTimestampComparison Value="False"/>
+						</Rules>
+						<Specs>
+							<Left Value="D:\Project Shelf\Sql_Db\DbKorrigering"/>
+							<Right Value="D:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\consoles\db\49f168c8-015c-43d2-b9f4-06de275bdc15\DbKorrigering"/>
+						</Specs>
+						<State>
+							<ColExtVisible Value="True"/>
+							<ColExtWidth Value="56"/>
+							<ColPathWidth Value="146"/>
+							<ColSizeWidth Value="59"/>
+							<DirHandling Value="dirCompareFilesOnly"/>
+							<InsigIgnored Value="True"/>
+							<SortCol Value="colExt"/>
+							<SortSide Value="dsRight"/>
+						</State>
+					</TDirCompareSession>
+					<TTextCompareSession Value="(raw insert )tempExcel_dbo_2019_10_02_förbud_1.sql">
+						<LastModified Value="2021-12-13 09:31:11"/>
+						<Rules>
+							<ElementSigs>
+								<Item>
+									<ElementStr Value="&#2;Operator"/>
+									<ValueBool Value="False"/>
+								</Item>
+								<Item>
+									<ElementStr Value="Schema id"/>
+									<ValueBool Value="False"/>
+								</Item>
+								<Item>
+									<ElementStr Value="Login id"/>
+									<ValueBool Value="False"/>
+								</Item>
+							</ElementSigs>
+							<Insigs>
+								<_0>
+									<FindText Value="&lt;secret-storage>master_key&lt;/secret-storage>"/>
+								</_0>
+							</Insigs>
+						</Rules>
+						<Specs>
+							<Left Value="D:\Project Shelf\Sql_Db\DbKorrigering\(raw insert )tempExcel_dbo_2019_10_02_förbud_1.sql"/>
+							<Right Value="D:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\consoles\db\49f168c8-015c-43d2-b9f4-06de275bdc15\DbKorrigering\(raw insert )tempExcel_dbo_2019_10_02_förbud_1.sql"/>
+						</Specs>
+					</TTextCompareSession>
+					<TTextCompareSession Value="(raw insert )tempExcel_dbo_2019_10_02_förbud_1.sql">
+						<LastModified Value="2021-12-13 09:31:11"/>
+						<Rules>
+							<ElementSigs>
+								<Item>
+									<ElementStr Value="&#2;Operator"/>
+									<ValueBool Value="False"/>
+								</Item>
+								<Item>
+									<ElementStr Value="Schema id"/>
+									<ValueBool Value="False"/>
+								</Item>
+								<Item>
+									<ElementStr Value="Login id"/>
+									<ValueBool Value="False"/>
+								</Item>
+							</ElementSigs>
+							<Insigs>
+								<_0>
+									<FindText Value="&lt;secret-storage>master_key&lt;/secret-storage>"/>
+								</_0>
+							</Insigs>
+						</Rules>
+						<Specs>
+							<Left Value="D:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\consoles\db\49f168c8-015c-43d2-b9f4-06de275bdc15\DbKorrigering\(raw insert )tempExcel_dbo_2019_10_02_förbud_1.sql"/>
+							<Right Value="D:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\consoles\db\7c36b93a-8e8d-4cff-8993-17267a5fb816\DbKorrigering\(raw insert )tempExcel_dbo_2019_10_02_förbud_1.sql"/>
+						</Specs>
+					</TTextCompareSession>
+					<TTextCompareSession Value="(Rebuild)TableTypes.sql">
+						<LastModified Value="2021-12-13 09:31:11"/>
+						<Rules>
+							<ElementSigs>
+								<Item>
+									<ElementStr Value="&#2;Operator"/>
+									<ValueBool Value="False"/>
+								</Item>
+								<Item>
+									<ElementStr Value="Schema id"/>
+									<ValueBool Value="False"/>
+								</Item>
+								<Item>
+									<ElementStr Value="Login id"/>
+									<ValueBool Value="False"/>
+								</Item>
+							</ElementSigs>
+							<Insigs>
+								<_0>
+									<FindText Value="&lt;secret-storage>master_key&lt;/secret-storage>"/>
+								</_0>
+							</Insigs>
+						</Rules>
+						<Specs>
+							<Left Value="D:\Users\crbk01\.DataGrip2019.3\config\DatagripRecoveredFiles\(Rebuild)TableTypes.sql"/>
+							<Right Value="D:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\consoles\db\7e4fb899-0567-4da7-8a60-86bca3049c5c\VisionH-ndelserToEasyRead\Modular\(Rebuild)TableTypes.sql"/>
+						</Specs>
+					</TTextCompareSession>
+					<TTextCompareSession Value="(TableType) Cp_Forbud1Utsok.sql">
+						<LastModified Value="2021-12-13 09:31:11"/>
+						<Rules>
+							<ElementSigs>
+								<Item>
+									<ElementStr Value="&#2;Operator"/>
+									<ValueBool Value="False"/>
+								</Item>
+								<Item>
+									<ElementStr Value="Schema id"/>
+									<ValueBool Value="False"/>
+								</Item>
+								<Item>
+									<ElementStr Value="Login id"/>
+									<ValueBool Value="False"/>
+								</Item>
+							</ElementSigs>
+							<Insigs>
+								<_0>
+									<FindText Value="&lt;secret-storage>master_key&lt;/secret-storage>"/>
+								</_0>
+							</Insigs>
+						</Rules>
+						<Specs>
+							<Left Value="D:\Users\crbk01\.DataGrip2019.3\config\DatagripRecoveredFiles\(TableType) Cp_Forbud1Utsok.sql"/>
+							<Right Value="D:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\consoles\db\7e4fb899-0567-4da7-8a60-86bca3049c5c\VisionH-ndelserToEasyRead\Modular\(TableType) Cp_Forbud1Utsok.sql"/>
+						</Specs>
+					</TTextCompareSession>
+					<TTextCompareSession Value="(LatestHendelse)20194årsPåmHändelser.sql">
+						<LastModified Value="2021-12-13 09:23:56"/>
+						<Rules>
+							<ElementSigs>
+								<Item>
+									<ElementStr Value="&#2;Operator"/>
+									<ValueBool Value="False"/>
+								</Item>
+								<Item>
+									<ElementStr Value="Schema id"/>
+									<ValueBool Value="False"/>
+								</Item>
+								<Item>
+									<ElementStr Value="Login id"/>
+									<ValueBool Value="False"/>
+								</Item>
+							</ElementSigs>
+							<Insigs>
+								<_0>
+									<FindText Value="&lt;secret-storage>master_key&lt;/secret-storage>"/>
+								</_0>
+							</Insigs>
+						</Rules>
+						<Specs>
+							<Left Value="D:\Users\crbk01\.DataGrip2019.3\config\DatagripRecoveredFiles\(LatestHendelse)20194årsPåmHändelser.sql"/>
+							<Right Value="D:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\consoles\db\8b7c273a-baa2-4933-a5d5-4862e23c0af2\DupesWithOldNames\(LatestHendelse)20194årsPåmHändelser.sql"/>
+						</Specs>
+					</TTextCompareSession>
+					<TDirCompareSession Value="DatagripRecoveredFiles &lt;--> DupesWithOldNames">
+						<LastModified Value="2021-12-13 09:23:55"/>
+						<Rules>
+							<AlignWiths>
+								<_0>
+									<FindText Value="8cc23256-e02c-43ea-8477-e740c4580b62"/>
+									<ReplaceText Value="5dd5ec07-b71c-48de-8aab-4cfa43540e71"/>
+								</_0>
+								<_1>
+									<FindText Value="5b682ee5-608b-4b16-bdfd-1132a4a5566f"/>
+									<ReplaceText Value="027c2d16-67ba-4eeb-837e-f99b41e4c813"/>
+								</_1>
+								<_2>
+									<FindText Value="947f2b47-af0c-4354-9696-9462b1a4bf8b"/>
+									<ReplaceText Value="2b0fb1ea-95a8-43ea-8c0a-7d90c065cf10"/>
+								</_2>
+							</AlignWiths>
+						</Rules>
+						<Specs>
+							<Left Value="D:\Users\crbk01\.DataGrip2019.3\config\DatagripRecoveredFiles"/>
+							<Right Value="D:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\consoles\db\8b7c273a-baa2-4933-a5d5-4862e23c0af2\DupesWithOldNames"/>
+						</Specs>
+						<State>
+							<ColExtVisible Value="True"/>
+							<ColExtWidth Value="56"/>
+							<ColPathWidth Value="146"/>
+							<ColSizeWidth Value="59"/>
+							<DirHandling Value="dirCompareFilesOnly"/>
+							<InsigIgnored Value="True"/>
+						</State>
+					</TDirCompareSession>
+					<TTextCompareSession Value="(procedure(Cp_Forbud1Utsok.sql">
+						<LastModified Value="2021-12-13 09:23:53"/>
+						<Rules>
+							<ElementSigs>
+								<Item>
+									<ElementStr Value="&#2;Operator"/>
+									<ValueBool Value="False"/>
+								</Item>
+								<Item>
+									<ElementStr Value="Schema id"/>
+									<ValueBool Value="False"/>
+								</Item>
+								<Item>
+									<ElementStr Value="Login id"/>
+									<ValueBool Value="False"/>
+								</Item>
+							</ElementSigs>
+							<Insigs>
+								<_0>
+									<FindText Value="&lt;secret-storage>master_key&lt;/secret-storage>"/>
+								</_0>
+							</Insigs>
+						</Rules>
+						<Specs>
+							<Left Value="D:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\consoles\db\9bf5f6bc-10c6-4831-8b5e-6c51fbeae781\Function\Forbud1Utsok\(procedure(Cp_Forbud1Utsok.sql"/>
+							<Right Value="D:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\projects\Utsökning\VisionH-ndelserToEasyRead\(procedure(Cp_Forbud1Utsok.sql"/>
+						</Specs>
+					</TTextCompareSession>
+					<TDirCompareSession Value="Forbud1Utsok &lt;--> VisionH-ndelserToEasyRead">
+						<LastModified Value="2021-12-13 09:23:52"/>
+						<Rules>
+							<AlignWiths>
+								<_0>
+									<FindText Value="8cc23256-e02c-43ea-8477-e740c4580b62"/>
+									<ReplaceText Value="5dd5ec07-b71c-48de-8aab-4cfa43540e71"/>
+								</_0>
+								<_1>
+									<FindText Value="5b682ee5-608b-4b16-bdfd-1132a4a5566f"/>
+									<ReplaceText Value="027c2d16-67ba-4eeb-837e-f99b41e4c813"/>
+								</_1>
+								<_2>
+									<FindText Value="947f2b47-af0c-4354-9696-9462b1a4bf8b"/>
+									<ReplaceText Value="2b0fb1ea-95a8-43ea-8c0a-7d90c065cf10"/>
+								</_2>
+							</AlignWiths>
+							<UseTimestampComparison Value="False"/>
+						</Rules>
+						<Specs>
+							<Left Value="D:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\consoles\db\9bf5f6bc-10c6-4831-8b5e-6c51fbeae781\Function\Forbud1Utsok"/>
+							<Right Value="D:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\projects\Utsökning\VisionH-ndelserToEasyRead"/>
+						</Specs>
+						<State>
+							<ColExtVisible Value="True"/>
+							<ColExtWidth Value="56"/>
+							<ColPathWidth Value="146"/>
+							<ColSizeWidth Value="59"/>
+							<DirHandling Value="dirCompareFilesOnly"/>
+							<InsigIgnored Value="True"/>
+							<SortCol Value="colExt"/>
+							<SortSide Value="dsRight"/>
+						</State>
+					</TDirCompareSession>
+					<TTextCompareSession Value="(procedure(Cp_Forbud1Utsok.sql">
+						<LastModified Value="2021-12-13 09:22:13"/>
+						<Rules>
+							<ElementSigs>
+								<Item>
+									<ElementStr Value="&#2;Operator"/>
+									<ValueBool Value="False"/>
+								</Item>
+								<Item>
+									<ElementStr Value="Schema id"/>
+									<ValueBool Value="False"/>
+								</Item>
+								<Item>
+									<ElementStr Value="Login id"/>
+									<ValueBool Value="False"/>
+								</Item>
+							</ElementSigs>
+							<Insigs>
+								<_0>
+									<FindText Value="&lt;secret-storage>master_key&lt;/secret-storage>"/>
+								</_0>
+							</Insigs>
+						</Rules>
+						<Specs>
+							<Left Value="D:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\consoles\db\7e4fb899-0567-4da7-8a60-86bca3049c5c\Modular\CreateFunction\(procedure(Cp_Forbud1Utsok.sql"/>
+							<Right Value="D:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\consoles\db\9bf5f6bc-10c6-4831-8b5e-6c51fbeae781\Function\Forbud1Utsok\(procedure(Cp_Forbud1Utsok.sql"/>
+						</Specs>
+					</TTextCompareSession>
+					<TDirCompareSession Value="Modular &lt;--> Function">
+						<LastModified Value="2021-12-13 09:22:11"/>
+						<Rules>
+							<AlignWiths>
+								<_0>
+									<FindText Value="8cc23256-e02c-43ea-8477-e740c4580b62"/>
+									<ReplaceText Value="5dd5ec07-b71c-48de-8aab-4cfa43540e71"/>
+								</_0>
+								<_1>
+									<FindText Value="5b682ee5-608b-4b16-bdfd-1132a4a5566f"/>
+									<ReplaceText Value="027c2d16-67ba-4eeb-837e-f99b41e4c813"/>
+								</_1>
+								<_2>
+									<FindText Value="947f2b47-af0c-4354-9696-9462b1a4bf8b"/>
+									<ReplaceText Value="2b0fb1ea-95a8-43ea-8c0a-7d90c065cf10"/>
+								</_2>
+							</AlignWiths>
+							<UseTimestampComparison Value="False"/>
+						</Rules>
+						<Specs>
+							<Left Value="D:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\consoles\db\7e4fb899-0567-4da7-8a60-86bca3049c5c\Modular"/>
+							<Right Value="D:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\consoles\db\9bf5f6bc-10c6-4831-8b5e-6c51fbeae781\Function"/>
+						</Specs>
+						<State>
+							<ColExtVisible Value="True"/>
+							<ColExtWidth Value="56"/>
+							<ColPathWidth Value="146"/>
+							<ColSizeWidth Value="59"/>
+							<DirHandling Value="dirCompareFilesOnly"/>
+							<InsigIgnored Value="True"/>
+						</State>
+					</TDirCompareSession>
+					<TTextCompareSession Value="(LatestHendelse)20194årsPåmHändelser_1.sql &lt;--> (LatestHendelse)20194årsPåmHändelser.sql">
+						<CodePageOverride>
+							<Left Value="0"/>
+						</CodePageOverride>
+						<LastModified Value="2021-12-13 09:20:42"/>
+						<Rules>
+							<ElementSigs>
+								<Item>
+									<ElementStr Value="&#2;Operator"/>
+									<ValueBool Value="False"/>
+								</Item>
+								<Item>
+									<ElementStr Value="Schema id"/>
+									<ValueBool Value="False"/>
+								</Item>
+								<Item>
+									<ElementStr Value="Login id"/>
+									<ValueBool Value="False"/>
+								</Item>
+							</ElementSigs>
+							<Insigs>
+								<_0>
+									<FindText Value="&lt;secret-storage>master_key&lt;/secret-storage>"/>
+								</_0>
+							</Insigs>
+						</Rules>
+						<Specs>
+							<Left Value="D:\Users\crbk01\.DataGrip2019.3\config\DatagripRecoveredFiles\(LatestHendelse)20194årsPåmHändelser_1.sql"/>
+							<Right Value="D:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\consoles\db\8b7c273a-baa2-4933-a5d5-4862e23c0af2\DupesWithOldNames\(LatestHendelse)20194årsPåmHändelser.sql"/>
+						</Specs>
+					</TTextCompareSession>
+					<THexCompareSession Value="(LatestHendelse)20194årsPåmHändelser_1.sql &lt;--> (LatestHendelse)20194årsPåmHändelser.sql">
+						<LastModified Value="2021-12-13 09:20:39"/>
+						<Specs>
+							<Left Value="D:\Users\crbk01\.DataGrip2019.3\config\DatagripRecoveredFiles\(LatestHendelse)20194årsPåmHändelser_1.sql"/>
+							<Right Value="D:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\consoles\db\8b7c273a-baa2-4933-a5d5-4862e23c0af2\DupesWithOldNames\(LatestHendelse)20194årsPåmHändelser.sql"/>
+						</Specs>
+					</THexCompareSession>
+					<TTextMergeSession Value=".gitignore">
+						<LastModified Value="2021-12-07 11:00:20"/>
+						<Rules>
+							<AlignKind Value="alignQuick"/>
+						</Rules>
+						<Specs>
+							<Left Value="C:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\consoles\db\8cc23256-e02c-43ea-8477-e740c4580b62\.idea\.gitignore.LOCAL.gitignore"/>
+							<Right Value="C:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\consoles\db\8cc23256-e02c-43ea-8477-e740c4580b62\.idea\.gitignore.REMOTE.gitignore"/>
+							<Center Value="C:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\consoles\db\8cc23256-e02c-43ea-8477-e740c4580b62\.idea\.gitignore.BASE.gitignore"/>
+							<Output Value="C:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\consoles\db\8cc23256-e02c-43ea-8477-e740c4580b62\.idea\.gitignore"/>
+						</Specs>
+						<State>
+							<MergeFavorSide Value="mfsRight"/>
+						</State>
+					</TTextMergeSession>
+					<TTextCompareSession Value="recentProjects.xml">
+						<LastModified Value="2021-12-07 11:00:06"/>
+						<Rules>
+							<ElementSigs>
+								<Item>
+									<ElementStr Value="&#2;Operator"/>
+									<ValueBool Value="False"/>
+								</Item>
+								<Item>
+									<ElementStr Value="Schema id"/>
+									<ValueBool Value="False"/>
+								</Item>
+								<Item>
+									<ElementStr Value="Login id"/>
+									<ValueBool Value="False"/>
+								</Item>
+							</ElementSigs>
+							<Insigs>
+								<_0>
+									<FindText Value="&lt;secret-storage>master_key&lt;/secret-storage>"/>
+								</_0>
+							</Insigs>
+						</Rules>
+						<Specs>
+							<Left Value="D:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\options\recentProjects.xml"/>
+						</Specs>
+					</TTextCompareSession>
+					<TDirCompareSession Value="DataGrip2021.1 &lt;--> codestyles">
+						<LastModified Value="2021-12-07 11:00:05"/>
+						<Rules>
+							<AlignWiths>
+								<_0>
+									<FindText Value="8cc23256-e02c-43ea-8477-e740c4580b62"/>
+									<ReplaceText Value="5dd5ec07-b71c-48de-8aab-4cfa43540e71"/>
+								</_0>
+								<_1>
+									<FindText Value="5b682ee5-608b-4b16-bdfd-1132a4a5566f"/>
+									<ReplaceText Value="027c2d16-67ba-4eeb-837e-f99b41e4c813"/>
+								</_1>
+								<_2>
+									<FindText Value="947f2b47-af0c-4354-9696-9462b1a4bf8b"/>
+									<ReplaceText Value="2b0fb1ea-95a8-43ea-8c0a-7d90c065cf10"/>
+								</_2>
+							</AlignWiths>
+						</Rules>
+						<Specs>
+							<Left Value="C:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1"/>
+							<Right Value="C:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\codestyles"/>
+						</Specs>
+						<State>
+							<ColExtVisible Value="True"/>
+							<ColExtWidth Value="56"/>
+							<ColPathWidth Value="146"/>
+							<ColSizeWidth Value="59"/>
+							<DirHandling Value="dirCompareFilesOnly"/>
+							<InsigIgnored Value="True"/>
+							<SortCol Value="colSize"/>
+							<SortDown Value="True"/>
+						</State>
+					</TDirCompareSession>
+					<TTextMergeSession Value="modules.~xml">
+						<LastModified Value="2021-12-07 10:48:36"/>
+						<Rules>
+							<AlignKind Value="alignQuick"/>
+						</Rules>
+						<Specs>
+							<Left Value="C:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\consoles\.idea\modules.~xml.LOCAL.~xml"/>
+							<Right Value="C:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\consoles\.idea\modules.~xml.REMOTE.~xml"/>
+							<Center Value="C:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\consoles\.idea\modules.~xml.BASE.~xml"/>
+							<Output Value="C:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\consoles\.idea\modules.~xml"/>
+						</Specs>
+						<State>
+							<MergeFavorSide Value="mfsRight"/>
+						</State>
+					</TTextMergeSession>
+					<TTextCompareSession Value="temp.sql &lt;--> with ##excluded create ##toInsert.sql">
+						<LastModified Value="2021-12-03 15:51:32"/>
+						<Rules>
+							<ElementSigs>
+								<Item>
+									<ElementStr Value="&#2;Operator"/>
+									<ValueBool Value="False"/>
+								</Item>
+								<Item>
+									<ElementStr Value="Schema id"/>
+									<ValueBool Value="False"/>
+								</Item>
+								<Item>
+									<ElementStr Value="Login id"/>
+									<ValueBool Value="False"/>
+								</Item>
+							</ElementSigs>
+							<Insigs>
+								<_0>
+									<FindText Value="&lt;secret-storage>master_key&lt;/secret-storage>"/>
+								</_0>
+							</Insigs>
+						</Rules>
+						<Specs>
+							<Left Value="C:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\consoles\db\8b7c273a-baa2-4933-a5d5-4862e23c0af2\runConfig\temp.sql"/>
+							<Right Value="C:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\consoles\db\8b7c273a-baa2-4933-a5d5-4862e23c0af2\runConfig\with ##excluded create ##toInsert.sql"/>
+						</Specs>
+					</TTextCompareSession>
+					<TTextCompareSession Value=".gitmodules.~~: Working Tree">
+						<LastModified Value="2021-12-03 15:51:31"/>
+						<NoEdit>
+							<Left Value="True"/>
+						</NoEdit>
+						<Rules>
+							<ElementSigs>
+								<Item>
+									<ElementStr Value="&#2;Operator"/>
+									<ValueBool Value="False"/>
+								</Item>
+								<Item>
+									<ElementStr Value="Schema id"/>
+									<ValueBool Value="False"/>
+								</Item>
+								<Item>
+									<ElementStr Value="Login id"/>
+									<ValueBool Value="False"/>
+								</Item>
+							</ElementSigs>
+							<Insigs>
+								<_0>
+									<FindText Value="&lt;secret-storage>master_key&lt;/secret-storage>"/>
+								</_0>
+							</Insigs>
+						</Rules>
+						<Specs>
+							<Left Value="D:\Project Shelf\PowerShellProjectFolder\.gitmodules.~~"/>
+							<Right Value="D:\Project Shelf\PowerShellProjectFolder\.gitmodules.~~"/>
+						</Specs>
+					</TTextCompareSession>
+					<TTextCompareSession Value="Create #filterArendeWhomHasAnsokan2.sql &lt;--> ref.sql">
+						<LastModified Value="2021-12-01 16:19:53"/>
+						<Rules>
+							<ElementSigs>
+								<Item>
+									<ElementStr Value="&#2;Operator"/>
+									<ValueBool Value="False"/>
+								</Item>
+								<Item>
+									<ElementStr Value="Schema id"/>
+									<ValueBool Value="False"/>
+								</Item>
+								<Item>
+									<ElementStr Value="Login id"/>
+									<ValueBool Value="False"/>
+								</Item>
+							</ElementSigs>
+							<Insigs>
+								<_0>
+									<FindText Value="&lt;secret-storage>master_key&lt;/secret-storage>"/>
+								</_0>
+							</Insigs>
+						</Rules>
+						<Specs>
+							<Left Value="C:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\consoles\db\8b7c273a-baa2-4933-a5d5-4862e23c0af2\runConfig\InitilizingTemp\initiate\create\Create #filterArendeWhomHasAnsokan2.sql"/>
+							<Right Value="C:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\consoles\db\8b7c273a-baa2-4933-a5d5-4862e23c0af2\runConfig\ref.sql"/>
+						</Specs>
+					</TTextCompareSession>
+					<TTextCompareSession Value="Insert Table4 calling FnrToAdress .sql &lt;--> actOnAdressFormating.sql">
+						<LastModified Value="2021-12-01 16:13:47"/>
+						<Rules>
+							<ElementSigs>
+								<Item>
+									<ElementStr Value="&#2;Operator"/>
+									<ValueBool Value="False"/>
+								</Item>
+								<Item>
+									<ElementStr Value="Schema id"/>
+									<ValueBool Value="False"/>
+								</Item>
+								<Item>
+									<ElementStr Value="Login id"/>
+									<ValueBool Value="False"/>
+								</Item>
+							</ElementSigs>
+							<Insigs>
+								<_0>
+									<FindText Value="&lt;secret-storage>master_key&lt;/secret-storage>"/>
+								</_0>
+							</Insigs>
+						</Rules>
+						<Specs>
+							<Left Value="C:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\consoles\db\8b7c273a-baa2-4933-a5d5-4862e23c0af2\with Local\calling\Insert Table4 calling FnrToAdress .sql"/>
+							<Right Value="C:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\consoles\db\8b7c273a-baa2-4933-a5d5-4862e23c0af2\runConfig\actOnAdressFormating.sql"/>
+						</Specs>
+					</TTextCompareSession>
+					<TDirCompareSession Value="WithTemp &lt;--> initiate">
+						<LastModified Value="2021-12-01 10:48:58"/>
+						<Rules>
+							<AlignWiths>
+								<_0>
+									<FindText Value="insert ##filterSmallOwnersBadAdress.sql"/>
+									<PathMask Value=".\"/>
+									<ReplaceText Value="insert ##filterSmallOwnersBadAdress CreateFilterSmallAgare.sql"/>
+								</_0>
+								<_1>
+									<FindText Value="insert ##fordig GenerateFordiga.sql"/>
+									<PathMask Value=".\"/>
+									<ReplaceText Value="insert #fordig initiateFardiga.sql"/>
+								</_1>
+								<_2>
+									<FindText Value="insert ##kalla GenerateKalla22.sql"/>
+									<PathMask Value=".\"/>
+									<ReplaceText Value="insert #kalla initiateKalla.sql"/>
+								</_2>
+								<_3>
+									<FindText Value="insert #kalla initiateKalla.sql"/>
+									<PathMask Value=".\"/>
+									<ReplaceText Value="kalla.sql"/>
+								</_3>
+								<_4>
+									<FindText Value="insert #fordig initiateFardiga.sql"/>
+									<PathMask Value=".\"/>
+									<ReplaceText Value="fordiga.sql"/>
+								</_4>
+								<_5>
+									<FindText Value="insert #fulaAttKorrigera initiateKorrigerande.sql"/>
+									<PathMask Value=".\"/>
+									<ReplaceText Value="korrigerande.sql"/>
+								</_5>
+								<_6>
+									<FindText Value="with ##fordig n ##fulaattkorrigera TillMinaMedelanden.sql"/>
+									<PathMask Value=".\"/>
+									<ReplaceText Value="TillMinaMedelanden2.sql"/>
+								</_6>
+								<_7>
+									<FindText Value="8cc23256-e02c-43ea-8477-e740c4580b62"/>
+									<ReplaceText Value="5dd5ec07-b71c-48de-8aab-4cfa43540e71"/>
+								</_7>
+								<_8>
+									<FindText Value="5b682ee5-608b-4b16-bdfd-1132a4a5566f"/>
+									<ReplaceText Value="027c2d16-67ba-4eeb-837e-f99b41e4c813"/>
+								</_8>
+								<_9>
+									<FindText Value="947f2b47-af0c-4354-9696-9462b1a4bf8b"/>
+									<ReplaceText Value="2b0fb1ea-95a8-43ea-8c0a-7d90c065cf10"/>
+								</_9>
+							</AlignWiths>
+							<UseTimestampComparison Value="False"/>
+						</Rules>
+						<Specs>
+							<Left Value="C:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\consoles\db\8b7c273a-baa2-4933-a5d5-4862e23c0af2\TillMinaMedelanden\Adress\WithTemp"/>
+							<Right Value="C:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\consoles\db\8b7c273a-baa2-4933-a5d5-4862e23c0af2\TillMinaMedelanden\Adress\WithTemp\initiate"/>
+						</Specs>
+						<State>
+							<ColExtVisible Value="True"/>
+							<ColExtWidth Value="56"/>
+							<ColPathWidth Value="146"/>
+							<ColSizeWidth Value="59"/>
+							<DirHandling Value="dirCompareFilesOnly"/>
+							<InsigIgnored Value="True"/>
+						</State>
+					</TDirCompareSession>
+					<TDirCompareSession Value=".git">
+						<LastModified Value="2021-12-01 10:11:59"/>
+						<Rules>
+							<AlignWiths>
+								<_0>
+									<FindText Value="8cc23256-e02c-43ea-8477-e740c4580b62"/>
+									<ReplaceText Value="5dd5ec07-b71c-48de-8aab-4cfa43540e71"/>
+								</_0>
+								<_1>
+									<FindText Value="5b682ee5-608b-4b16-bdfd-1132a4a5566f"/>
+									<ReplaceText Value="027c2d16-67ba-4eeb-837e-f99b41e4c813"/>
+								</_1>
+								<_2>
+									<FindText Value="947f2b47-af0c-4354-9696-9462b1a4bf8b"/>
+									<ReplaceText Value="2b0fb1ea-95a8-43ea-8c0a-7d90c065cf10"/>
+								</_2>
+							</AlignWiths>
+							<UseTimestampComparison Value="False"/>
+						</Rules>
+						<Specs>
+							<Left Value="C:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\consoles\db\8b7c273a-baa2-4933-a5d5-4862e23c0af2\.git"/>
+							<Right Value="D:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\projects\EDPvisionRemote\.git"/>
+						</Specs>
+						<State>
+							<ColExtVisible Value="True"/>
+							<ColExtWidth Value="56"/>
+							<ColPathWidth Value="146"/>
+							<ColSizeWidth Value="59"/>
+							<DirHandling Value="dirCompareFilesOnly"/>
+							<InsigIgnored Value="True"/>
+							<SortCol Value="colSize"/>
+							<SortDown Value="True"/>
+						</State>
+					</TDirCompareSession>
+					<TTextCompareSession Value="TillMinaMedelanden.xml">
+						<LastModified Value="2021-12-01 09:51:29"/>
+						<Rules>
+							<ElementSigs>
+								<Item>
+									<ElementStr Value="&#2;Operator"/>
+									<ValueBool Value="False"/>
+								</Item>
+								<Item>
+									<ElementStr Value="Schema id"/>
+									<ValueBool Value="False"/>
+								</Item>
+								<Item>
+									<ElementStr Value="Login id"/>
+									<ValueBool Value="False"/>
+								</Item>
+							</ElementSigs>
+							<Insigs>
+								<_0>
+									<FindText Value="&lt;secret-storage>master_key&lt;/secret-storage>"/>
+								</_0>
+							</Insigs>
+						</Rules>
+						<Specs>
+							<Left Value="C:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\projects\Kv-Utsökning\.idea\runConfigurations\TillMinaMedelanden.xml"/>
+						</Specs>
+					</TTextCompareSession>
+					<TTextMergeSession Value="modules.xml">
+						<LastModified Value="2021-12-01 09:45:06"/>
+						<Rules>
+							<AlignKind Value="alignQuick"/>
+						</Rules>
+						<Specs>
+							<Left Value="D:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\projects\EDPvisionRemote\output\output\TillMinaMedelanden\.idea\modules.xml.LOCAL.xml"/>
+							<Right Value="D:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\projects\EDPvisionRemote\output\output\TillMinaMedelanden\.idea\modules.xml.REMOTE.xml"/>
+							<Center Value="D:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\projects\EDPvisionRemote\output\output\TillMinaMedelanden\.idea\modules.xml.BASE.xml"/>
+							<Output Value="D:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\projects\EDPvisionRemote\output\output\TillMinaMedelanden\.idea\modules.xml"/>
+						</Specs>
+						<State>
+							<MergeFavorSide Value="mfsRight"/>
+						</State>
+					</TTextMergeSession>
+					<TTextMergeSession Value=".gitignore">
+						<LastModified Value="2021-12-01 09:44:38"/>
+						<Rules>
+							<AlignKind Value="alignQuick"/>
+						</Rules>
+						<Specs>
+							<Left Value="D:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\projects\EDPvisionRemote\output\output\TillMinaMedelanden\.gitignore.LOCAL.gitignore"/>
+							<Right Value="D:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\projects\EDPvisionRemote\output\output\TillMinaMedelanden\.gitignore.REMOTE.gitignore"/>
+							<Center Value="D:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\projects\EDPvisionRemote\output\output\TillMinaMedelanden\.gitignore.BASE.gitignore"/>
+							<Output Value="D:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\projects\EDPvisionRemote\output\output\TillMinaMedelanden\.gitignore"/>
+						</Specs>
+						<State>
+							<MergeFavorSide Value="mfsRight"/>
+						</State>
+					</TTextMergeSession>
+					<TDirSyncSession Value="Custom: .git &lt;--> .git">
+						<LastModified Value="2021-11-25 13:01:25"/>
+						<Rules>
+							<AlignWiths>
+								<_0>
+									<FindText Value="8cc23256-e02c-43ea-8477-e740c4580b62"/>
+									<ReplaceText Value="5dd5ec07-b71c-48de-8aab-4cfa43540e71"/>
+								</_0>
+								<_1>
+									<FindText Value="5b682ee5-608b-4b16-bdfd-1132a4a5566f"/>
+									<ReplaceText Value="027c2d16-67ba-4eeb-837e-f99b41e4c813"/>
+								</_1>
+								<_2>
+									<FindText Value="947f2b47-af0c-4354-9696-9462b1a4bf8b"/>
+									<ReplaceText Value="2b0fb1ea-95a8-43ea-8c0a-7d90c065cf10"/>
+								</_2>
+							</AlignWiths>
+							<ExpandAllOnLoad Value="False"/>
+							<RightAddedSyncOp Value="soLeave"/>
+							<RightNewerSyncOp Value="soDeleteLeft"/>
+							<SameSyncOp Value="soDeleteLeft"/>
+							<SyncEmptyFolders Value="False"/>
+						</Rules>
+						<Specs>
+							<Left Value="C:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\codestyles\.git"/>
+							<Right Value="C:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\.git"/>
+						</Specs>
+						<State>
+							<ColExtVisible Value="True"/>
+							<ColExtWidth Value="56"/>
+							<ColPathWidth Value="146"/>
+							<ColSizeWidth Value="59"/>
+							<InsigIgnored Value="True"/>
+							<SortCol Value="colSize"/>
+							<SortDown Value="True"/>
+						</State>
+						<Summary Value="2021-11-25 13:01:21  Successfully synchronized 8 items.  Completed in 1,44 seconds."/>
+					</TDirSyncSession>
+					<TTextCompareSession Value="dataSources.xml">
+						<LastModified Value="2021-11-16 16:34:43"/>
+						<Rules>
+							<ElementSigs>
+								<Item>
+									<ElementStr Value="&#2;String"/>
+									<ValueBool Value="False"/>
+								</Item>
+								<Item>
+									<ElementStr Value="&#2;Operator"/>
+									<ValueBool Value="False"/>
+								</Item>
+							</ElementSigs>
+						</Rules>
+						<Specs>
+							<Left Value="C:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\projects\Kv-FlaggGenerering\.idea\dataSources.xml"/>
+							<Right Value="C:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\projects\Vision-Fil-Insert\.idea\dataSources.xml"/>
+						</Specs>
+						<State>
+							<DisplayFilter Value="[showLeftMod, showRightMod, showDiffMod]"/>
+							<ShowContext Value="True"/>
+						</State>
+					</TTextCompareSession>
+					<TTextCompareSession Value="workspace.xml">
+						<LastModified Value="2021-11-16 16:18:43"/>
+						<Rules>
+							<ElementSigs>
+								<Item>
+									<ElementStr Value="&#2;Operator"/>
+									<ValueBool Value="False"/>
+								</Item>
+								<Item>
+									<ElementStr Value="Schema id"/>
+									<ValueBool Value="False"/>
+								</Item>
+								<Item>
+									<ElementStr Value="Login id"/>
+									<ValueBool Value="False"/>
+								</Item>
+							</ElementSigs>
+							<Insigs>
+								<_0>
+									<FindText Value="&lt;secret-storage>master_key&lt;/secret-storage>"/>
+								</_0>
+							</Insigs>
+						</Rules>
+						<Specs>
+							<Left Value="D:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\projects\Geosecma-Solen-Visoin-Vyer\Sol-vision\.idea\workspace.xml"/>
+							<Right Value="C:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\projects\Vision-Fil-Insert\.idea\workspace.xml"/>
+						</Specs>
+					</TTextCompareSession>
+					<TTextCompareSession Value="workspace.xml">
+						<LastModified Value="2021-11-16 16:11:46"/>
+						<Rules>
+							<ElementSigs>
+								<Item>
+									<ElementStr Value="&#2;Operator"/>
+									<ValueBool Value="False"/>
+								</Item>
+								<Item>
+									<ElementStr Value="Schema id"/>
+									<ValueBool Value="False"/>
+								</Item>
+								<Item>
+									<ElementStr Value="Login id"/>
+									<ValueBool Value="False"/>
+								</Item>
+							</ElementSigs>
+							<Insigs>
+								<_0>
+									<FindText Value="&lt;secret-storage>master_key&lt;/secret-storage>"/>
+								</_0>
+							</Insigs>
+							<NeverAlignDiffs Value="True"/>
+							<UseCloseness Value="False"/>
+						</Rules>
+						<Specs>
+							<Left Value="C:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\projects\EDPvisionRemote\.idea\workspace.xml"/>
+							<Right Value="C:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\projects\MånsBrunnsArkiv\.idea\workspace.xml"/>
+						</Specs>
+						<State>
+							<DisplayFilter Value="[showLeftMod, showRightMod, showDiffMod]"/>
+						</State>
+					</TTextCompareSession>
+					<TTextCompareSession Value="2ca40bb3-aca4-412d-a610-84b4e5da6dbe.xml">
+						<LastModified Value="2021-11-16 16:04:27"/>
+						<Rules>
+							<ElementSigs>
+								<Item>
+									<ElementStr Value="&#2;Operator"/>
+									<ValueBool Value="False"/>
+								</Item>
+								<Item>
+									<ElementStr Value="Schema id"/>
+									<ValueBool Value="False"/>
+								</Item>
+								<Item>
+									<ElementStr Value="Login id"/>
+									<ValueBool Value="False"/>
+								</Item>
+							</ElementSigs>
+							<Insigs>
+								<_0>
+									<FindText Value="&lt;secret-storage>master_key&lt;/secret-storage>"/>
+								</_0>
+							</Insigs>
+						</Rules>
+						<Specs>
+							<Left Value="D:\Users\crbk01\.DataGrip2019.5\config\projects\Kv-FlaggGenerering\.idea\dataSources\2ca40bb3-aca4-412d-a610-84b4e5da6dbe.xml"/>
+						</Specs>
+						<State>
+							<DisplayFilter Value="[showLeftMod, showRightMod, showDiffMod]"/>
+						</State>
+					</TTextCompareSession>
+					<TTextCompareSession Value="workspace.xml">
+						<LastModified Value="2021-11-16 16:03:59"/>
+						<Rules>
+							<ElementSigs>
+								<Item>
+									<ElementStr Value="&#2;Operator"/>
+									<ValueBool Value="False"/>
+								</Item>
+								<Item>
+									<ElementStr Value="Schema id"/>
+									<ValueBool Value="False"/>
+								</Item>
+								<Item>
+									<ElementStr Value="Login id"/>
+									<ValueBool Value="False"/>
+								</Item>
+							</ElementSigs>
+							<Insigs>
+								<_0>
+									<FindText Value="&lt;secret-storage>master_key&lt;/secret-storage>"/>
+								</_0>
+							</Insigs>
+						</Rules>
+						<Specs>
+							<Left Value="D:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\projects\Geosecma-Solen-Visoin-Vyer\.idea\workspace.xml"/>
+						</Specs>
+						<State>
+							<DisplayFilter Value="[showLeftMod, showRightMod, showDiffMod]"/>
+						</State>
+					</TTextCompareSession>
+					<TDirCompareSession Value="EDPvisionRemote &lt;--> MånsBrunnsArkiv">
+						<LastModified Value="2021-11-16 15:36:52"/>
+						<Rules>
+							<AlignWiths>
+								<_0>
+									<FindText Value="Sol-vision"/>
+									<PathMask Value=".\"/>
+									<ReplaceText Value="Geosecma-Solen-Visoin-Vyer"/>
+								</_0>
+								<_1>
+									<FindText Value="etc"/>
+									<PathMask Value=".\"/>
+									<ReplaceText Value="dump"/>
+								</_1>
+								<_2>
+									<FindText Value="LivsmedelDbRensning"/>
+									<PathMask Value=".\"/>
+									<ReplaceText Value="Livsmedel"/>
+								</_2>
+								<_3>
+									<FindText Value="Livsmedel-DbRensning"/>
+									<PathMask Value=".\"/>
+									<ReplaceText Value="LivsmedelDbRensning"/>
+								</_3>
+								<_4>
+									<FindText Value="tgitchangelist"/>
+									<PathMask Value=".\EDPvisionRemote\output\output\TillMinaMedelanden\LatestHandelse(harAnsokan)\UpdateHandelser\VisionH-ndelserToEasyRead\.git\"/>
+									<ReplaceText Value="tgitchangelist."/>
+								</_4>
+								<_5>
+									<FindText Value="8cc23256-e02c-43ea-8477-e740c4580b62"/>
+									<ReplaceText Value="5dd5ec07-b71c-48de-8aab-4cfa43540e71"/>
+								</_5>
+								<_6>
+									<FindText Value="5b682ee5-608b-4b16-bdfd-1132a4a5566f"/>
+									<ReplaceText Value="027c2d16-67ba-4eeb-837e-f99b41e4c813"/>
+								</_6>
+								<_7>
+									<FindText Value="947f2b47-af0c-4354-9696-9462b1a4bf8b"/>
+									<ReplaceText Value="2b0fb1ea-95a8-43ea-8c0a-7d90c065cf10"/>
+								</_7>
+							</AlignWiths>
+						</Rules>
+						<Specs>
+							<Left Value="C:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\projects\EDPvisionRemote"/>
+							<Right Value="C:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\projects\MånsBrunnsArkiv"/>
+						</Specs>
+						<State>
+							<ColExtVisible Value="True"/>
+							<ColExtWidth Value="56"/>
+							<ColPathWidth Value="146"/>
+							<ColSizeWidth Value="59"/>
+							<DirHandling Value="dirCompareFilesOnly"/>
+							<InsigIgnored Value="True"/>
+						</State>
+					</TDirCompareSession>
+					<TTextCompareSession Value="1Yf1OgK7PqqJaz28C6S0bj6gAw4.xml">
+						<LastModified Value="2021-11-16 15:36:46"/>
+						<Rules>
+							<ElementSigs>
+								<Item>
+									<ElementStr Value="&#2;Operator"/>
+									<ValueBool Value="False"/>
+								</Item>
+								<Item>
+									<ElementStr Value="Schema id"/>
+									<ValueBool Value="False"/>
+								</Item>
+								<Item>
+									<ElementStr Value="Login id"/>
+									<ValueBool Value="False"/>
+								</Item>
+							</ElementSigs>
+							<Insigs>
+								<_0>
+									<FindText Value="&lt;secret-storage>master_key&lt;/secret-storage>"/>
+								</_0>
+							</Insigs>
+						</Rules>
+						<Specs>
+							<Left Value="D:\.DataGrip2019.1\config\workspace\1Yf1OgK7PqqJaz28C6S0bj6gAw4.xml"/>
+						</Specs>
+						<State>
+							<DisplayFilter Value="[showLeftMod, showRightMod, showDiffMod]"/>
+						</State>
+					</TTextCompareSession>
+					<TTextCompareSession Value="1iSkK2MQtql9lncK67lio60tVFB.xml">
+						<LastModified Value="2021-11-16 15:36:45"/>
+						<Rules>
+							<ElementSigs>
+								<Item>
+									<ElementStr Value="&#2;Operator"/>
+									<ValueBool Value="False"/>
+								</Item>
+								<Item>
+									<ElementStr Value="Schema id"/>
+									<ValueBool Value="False"/>
+								</Item>
+								<Item>
+									<ElementStr Value="Login id"/>
+									<ValueBool Value="False"/>
+								</Item>
+							</ElementSigs>
+							<Insigs>
+								<_0>
+									<FindText Value="&lt;secret-storage>master_key&lt;/secret-storage>"/>
+								</_0>
+							</Insigs>
+						</Rules>
+						<Specs>
+							<Left Value="D:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\workspace\1iSkK2MQtql9lncK67lio60tVFB.xml"/>
+						</Specs>
+						<State>
+							<DisplayFilter Value="[showLeftMod, showRightMod, showDiffMod]"/>
+						</State>
+					</TTextCompareSession>
+					<TTextCompareSession Value="1iSkK2MQtql9lncK67lio60tVFB.xml">
+						<LastModified Value="2021-11-16 15:36:44"/>
+						<Rules>
+							<ElementSigs>
+								<Item>
+									<ElementStr Value="&#2;Operator"/>
+									<ValueBool Value="False"/>
+								</Item>
+								<Item>
+									<ElementStr Value="Schema id"/>
+									<ValueBool Value="False"/>
+								</Item>
+								<Item>
+									<ElementStr Value="Login id"/>
+									<ValueBool Value="False"/>
+								</Item>
+							</ElementSigs>
+							<Insigs>
+								<_0>
+									<FindText Value="&lt;secret-storage>master_key&lt;/secret-storage>"/>
+								</_0>
+							</Insigs>
+						</Rules>
+						<Specs>
+							<Left Value="D:\.DataGrip2019.1\config\workspace\1iSkK2MQtql9lncK67lio60tVFB.xml"/>
+						</Specs>
+						<State>
+							<DisplayFilter Value="[showLeftMod, showRightMod, showDiffMod]"/>
+						</State>
+					</TTextCompareSession>
+					<TTextCompareSession Value="sqldialects.xml">
+						<LastModified Value="2021-11-16 15:36:44"/>
+						<Rules>
+							<ElementSigs>
+								<Item>
+									<ElementStr Value="&#2;Operator"/>
+									<ValueBool Value="False"/>
+								</Item>
+								<Item>
+									<ElementStr Value="Schema id"/>
+									<ValueBool Value="False"/>
+								</Item>
+								<Item>
+									<ElementStr Value="Login id"/>
+									<ValueBool Value="False"/>
+								</Item>
+							</ElementSigs>
+							<Insigs>
+								<_0>
+									<FindText Value="&lt;secret-storage>master_key&lt;/secret-storage>"/>
+								</_0>
+							</Insigs>
+						</Rules>
+						<Specs>
+							<Left Value="D:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\projects\default\.idea\sqldialects.xml"/>
+						</Specs>
+						<State>
+							<DisplayFilter Value="[showLeftMod, showRightMod, showDiffMod]"/>
+						</State>
+					</TTextCompareSession>
+					<TTextCompareSession Value="7c36b93a-8e8d-4cff-8993-17267a5fb816.xml">
+						<LastModified Value="2021-11-16 15:22:29"/>
+						<Rules>
+							<ElementSigs>
+								<Item>
+									<ElementStr Value="&#2;Operator"/>
+									<ValueBool Value="False"/>
+								</Item>
+								<Item>
+									<ElementStr Value="Schema id"/>
+									<ValueBool Value="False"/>
+								</Item>
+								<Item>
+									<ElementStr Value="Login id"/>
+									<ValueBool Value="False"/>
+								</Item>
+							</ElementSigs>
+							<Insigs>
+								<_0>
+									<FindText Value="&lt;secret-storage>master_key&lt;/secret-storage>"/>
+								</_0>
+							</Insigs>
+						</Rules>
+						<Specs>
+							<Left Value="D:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\consoles\db\8cc23256-e02c-43ea-8477-e740c4580b62\Utsökning\.idea\dataSources\7c36b93a-8e8d-4cff-8993-17267a5fb816.xml"/>
+						</Specs>
+						<State>
+							<DisplayFilter Value="[showLeftMod, showRightMod, showDiffMod]"/>
+						</State>
+					</TTextCompareSession>
+					<TTextCompareSession Value="dataSources.xml">
+						<LastModified Value="2021-11-15 09:21:23"/>
+						<Rules>
+							<ElementSigs>
+								<Item>
+									<ElementStr Value="&#2;Operator"/>
+									<ValueBool Value="False"/>
+								</Item>
+								<Item>
+									<ElementStr Value="Schema id"/>
+									<ValueBool Value="False"/>
+								</Item>
+								<Item>
+									<ElementStr Value="Login id"/>
+									<ValueBool Value="False"/>
+								</Item>
+							</ElementSigs>
+							<Insigs>
+								<_0>
+									<FindText Value="&lt;secret-storage>master_key&lt;/secret-storage>"/>
+								</_0>
+							</Insigs>
+							<NeverAlignDiffs Value="True"/>
+							<UseCloseness Value="False"/>
+						</Rules>
+						<Specs>
+							<Left Value="C:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\projects\EDPvisionRemote\.idea\dataSources.xml"/>
+							<Right Value="C:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\projects\Kv-Utsökning\.idea\dataSources.xml"/>
+						</Specs>
+						<State>
+							<ShowContext Value="True"/>
+						</State>
+					</TTextCompareSession>
+					<TDirCompareSession Value="Utsökning &lt;--> Kv-Utsökning">
+						<LastModified Value="2021-11-12 16:45:14"/>
+						<Rules>
+							<AlignWiths>
+								<_0>
+									<FindText Value="Sol-vision"/>
+									<PathMask Value=".\"/>
+									<ReplaceText Value="Geosecma-Solen-Visoin-Vyer"/>
+								</_0>
+								<_1>
+									<FindText Value="etc"/>
+									<PathMask Value=".\"/>
+									<ReplaceText Value="dump"/>
+								</_1>
+								<_2>
+									<FindText Value="LivsmedelDbRensning"/>
+									<PathMask Value=".\"/>
+									<ReplaceText Value="Livsmedel"/>
+								</_2>
+								<_3>
+									<FindText Value="Livsmedel-DbRensning"/>
+									<PathMask Value=".\"/>
+									<ReplaceText Value="LivsmedelDbRensning"/>
+								</_3>
+								<_4>
+									<FindText Value="tgitchangelist"/>
+									<PathMask Value=".\EDPvisionRemote\output\output\TillMinaMedelanden\LatestHandelse(harAnsokan)\UpdateHandelser\VisionH-ndelserToEasyRead\.git\"/>
+									<ReplaceText Value="tgitchangelist."/>
+								</_4>
+								<_5>
+									<FindText Value="8cc23256-e02c-43ea-8477-e740c4580b62"/>
+									<ReplaceText Value="5dd5ec07-b71c-48de-8aab-4cfa43540e71"/>
+								</_5>
+								<_6>
+									<FindText Value="5b682ee5-608b-4b16-bdfd-1132a4a5566f"/>
+									<ReplaceText Value="027c2d16-67ba-4eeb-837e-f99b41e4c813"/>
+								</_6>
+								<_7>
+									<FindText Value="947f2b47-af0c-4354-9696-9462b1a4bf8b"/>
+									<ReplaceText Value="2b0fb1ea-95a8-43ea-8c0a-7d90c065cf10"/>
+								</_7>
+							</AlignWiths>
+						</Rules>
+						<Specs>
+							<Left Value="C:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\projects\Utsökning"/>
+							<Right Value="C:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\projects\Kv-Utsökning"/>
+						</Specs>
+						<State>
+							<ColExtVisible Value="True"/>
+							<ColExtWidth Value="56"/>
+							<ColPathWidth Value="146"/>
+							<ColSizeWidth Value="59"/>
+							<DirHandling Value="dirCompareFilesOnly"/>
+							<InsigIgnored Value="True"/>
+							<SortCol Value="colSize"/>
+						</State>
+					</TDirCompareSession>
+					<TDirCompareSession Value="NyckelTal &lt;--> DbKorrigering">
+						<LastModified Value="2021-11-12 16:45:13"/>
+						<Rules>
+							<AlignWiths>
+								<_0>
+									<FindText Value="Sol-vision"/>
+									<PathMask Value=".\"/>
+									<ReplaceText Value="Geosecma-Solen-Visoin-Vyer"/>
+								</_0>
+								<_1>
+									<FindText Value="etc"/>
+									<PathMask Value=".\"/>
+									<ReplaceText Value="dump"/>
+								</_1>
+								<_2>
+									<FindText Value="LivsmedelDbRensning"/>
+									<PathMask Value=".\"/>
+									<ReplaceText Value="Livsmedel"/>
+								</_2>
+								<_3>
+									<FindText Value="Livsmedel-DbRensning"/>
+									<PathMask Value=".\"/>
+									<ReplaceText Value="LivsmedelDbRensning"/>
+								</_3>
+								<_4>
+									<FindText Value="tgitchangelist"/>
+									<PathMask Value=".\EDPvisionRemote\output\output\TillMinaMedelanden\LatestHandelse(harAnsokan)\UpdateHandelser\VisionH-ndelserToEasyRead\.git\"/>
+									<ReplaceText Value="tgitchangelist."/>
+								</_4>
+								<_5>
+									<FindText Value="8cc23256-e02c-43ea-8477-e740c4580b62"/>
+									<ReplaceText Value="5dd5ec07-b71c-48de-8aab-4cfa43540e71"/>
+								</_5>
+								<_6>
+									<FindText Value="5b682ee5-608b-4b16-bdfd-1132a4a5566f"/>
+									<ReplaceText Value="027c2d16-67ba-4eeb-837e-f99b41e4c813"/>
+								</_6>
+								<_7>
+									<FindText Value="947f2b47-af0c-4354-9696-9462b1a4bf8b"/>
+									<ReplaceText Value="2b0fb1ea-95a8-43ea-8c0a-7d90c065cf10"/>
+								</_7>
+							</AlignWiths>
+						</Rules>
+						<Specs>
+							<Left Value="C:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\projects\NyckelTal"/>
+							<Right Value="C:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\projects\DbKorrigering"/>
+						</Specs>
+						<State>
+							<ColExtVisible Value="True"/>
+							<ColExtWidth Value="56"/>
+							<ColPathWidth Value="146"/>
+							<ColSizeWidth Value="59"/>
+							<DirHandling Value="dirCompareFilesOnly"/>
+							<InsigIgnored Value="True"/>
+							<SortCol Value="colSize"/>
+						</State>
+					</TDirCompareSession>
+					<TDirCompareSession Value="Kv-FlaggGenerering &lt;--> Kv-Utsökning">
+						<LastModified Value="2021-11-12 16:45:12"/>
+						<Rules>
+							<AlignWiths>
+								<_0>
+									<FindText Value="Sol-vision"/>
+									<PathMask Value=".\"/>
+									<ReplaceText Value="Geosecma-Solen-Visoin-Vyer"/>
+								</_0>
+								<_1>
+									<FindText Value="etc"/>
+									<PathMask Value=".\"/>
+									<ReplaceText Value="dump"/>
+								</_1>
+								<_2>
+									<FindText Value="LivsmedelDbRensning"/>
+									<PathMask Value=".\"/>
+									<ReplaceText Value="Livsmedel"/>
+								</_2>
+								<_3>
+									<FindText Value="Livsmedel-DbRensning"/>
+									<PathMask Value=".\"/>
+									<ReplaceText Value="LivsmedelDbRensning"/>
+								</_3>
+								<_4>
+									<FindText Value="tgitchangelist"/>
+									<PathMask Value=".\EDPvisionRemote\output\output\TillMinaMedelanden\LatestHandelse(harAnsokan)\UpdateHandelser\VisionH-ndelserToEasyRead\.git\"/>
+									<ReplaceText Value="tgitchangelist."/>
+								</_4>
+								<_5>
+									<FindText Value="8cc23256-e02c-43ea-8477-e740c4580b62"/>
+									<ReplaceText Value="5dd5ec07-b71c-48de-8aab-4cfa43540e71"/>
+								</_5>
+								<_6>
+									<FindText Value="5b682ee5-608b-4b16-bdfd-1132a4a5566f"/>
+									<ReplaceText Value="027c2d16-67ba-4eeb-837e-f99b41e4c813"/>
+								</_6>
+								<_7>
+									<FindText Value="947f2b47-af0c-4354-9696-9462b1a4bf8b"/>
+									<ReplaceText Value="2b0fb1ea-95a8-43ea-8c0a-7d90c065cf10"/>
+								</_7>
+							</AlignWiths>
+						</Rules>
+						<Specs>
+							<Left Value="C:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\projects\Kv-FlaggGenerering"/>
+							<Right Value="C:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\projects\Kv-Utsökning"/>
+						</Specs>
+						<State>
+							<ColExtVisible Value="True"/>
+							<ColExtWidth Value="56"/>
+							<ColPathWidth Value="146"/>
+							<ColSizeWidth Value="59"/>
+							<DirHandling Value="dirCompareFilesOnly"/>
+							<InsigIgnored Value="True"/>
+						</State>
+					</TDirCompareSession>
+					<TDirCompareSession Value="VisionH-ndelserToEasyRead &lt;--> DbKorrigering">
+						<LastModified Value="2021-11-12 15:48:12"/>
+						<Rules>
+							<AlignWiths>
+								<_0>
+									<FindText Value="Sol-vision"/>
+									<PathMask Value=".\"/>
+									<ReplaceText Value="Geosecma-Solen-Visoin-Vyer"/>
+								</_0>
+								<_1>
+									<FindText Value="etc"/>
+									<PathMask Value=".\"/>
+									<ReplaceText Value="dump"/>
+								</_1>
+								<_2>
+									<FindText Value="LivsmedelDbRensning"/>
+									<PathMask Value=".\"/>
+									<ReplaceText Value="Livsmedel"/>
+								</_2>
+								<_3>
+									<FindText Value="Livsmedel-DbRensning"/>
+									<PathMask Value=".\"/>
+									<ReplaceText Value="LivsmedelDbRensning"/>
+								</_3>
+								<_4>
+									<FindText Value="tgitchangelist"/>
+									<PathMask Value=".\EDPvisionRemote\output\output\TillMinaMedelanden\LatestHandelse(harAnsokan)\UpdateHandelser\VisionH-ndelserToEasyRead\.git\"/>
+									<ReplaceText Value="tgitchangelist."/>
+								</_4>
+								<_5>
+									<FindText Value="8cc23256-e02c-43ea-8477-e740c4580b62"/>
+									<ReplaceText Value="5dd5ec07-b71c-48de-8aab-4cfa43540e71"/>
+								</_5>
+								<_6>
+									<FindText Value="5b682ee5-608b-4b16-bdfd-1132a4a5566f"/>
+									<ReplaceText Value="027c2d16-67ba-4eeb-837e-f99b41e4c813"/>
+								</_6>
+								<_7>
+									<FindText Value="947f2b47-af0c-4354-9696-9462b1a4bf8b"/>
+									<ReplaceText Value="2b0fb1ea-95a8-43ea-8c0a-7d90c065cf10"/>
+								</_7>
+							</AlignWiths>
+						</Rules>
+						<Specs>
+							<Left Value="C:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\projects\Utsökning\VisionH-ndelserToEasyRead"/>
+							<Right Value="C:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\projects\DbKorrigering"/>
+						</Specs>
+						<State>
+							<ColExtVisible Value="True"/>
+							<ColExtWidth Value="56"/>
+							<ColPathWidth Value="146"/>
+							<ColSizeWidth Value="59"/>
+							<DirHandling Value="dirCompareFilesOnly"/>
+							<InsigIgnored Value="True"/>
+							<SortCol Value="colSize"/>
+						</State>
+					</TDirCompareSession>
+					<TDirCompareSession Value="sql-harAns-kan &lt;--> Utsökning">
+						<LastModified Value="2021-11-12 15:45:18"/>
+						<Rules>
+							<AlignWiths>
+								<_0>
+									<FindText Value="Sol-vision"/>
+									<PathMask Value=".\"/>
+									<ReplaceText Value="Geosecma-Solen-Visoin-Vyer"/>
+								</_0>
+								<_1>
+									<FindText Value="etc"/>
+									<PathMask Value=".\"/>
+									<ReplaceText Value="dump"/>
+								</_1>
+								<_2>
+									<FindText Value="LivsmedelDbRensning"/>
+									<PathMask Value=".\"/>
+									<ReplaceText Value="Livsmedel"/>
+								</_2>
+								<_3>
+									<FindText Value="Livsmedel-DbRensning"/>
+									<PathMask Value=".\"/>
+									<ReplaceText Value="LivsmedelDbRensning"/>
+								</_3>
+								<_4>
+									<FindText Value="tgitchangelist"/>
+									<PathMask Value=".\EDPvisionRemote\output\output\TillMinaMedelanden\LatestHandelse(harAnsokan)\UpdateHandelser\VisionH-ndelserToEasyRead\.git\"/>
+									<ReplaceText Value="tgitchangelist."/>
+								</_4>
+								<_5>
+									<FindText Value="8cc23256-e02c-43ea-8477-e740c4580b62"/>
+									<ReplaceText Value="5dd5ec07-b71c-48de-8aab-4cfa43540e71"/>
+								</_5>
+								<_6>
+									<FindText Value="5b682ee5-608b-4b16-bdfd-1132a4a5566f"/>
+									<ReplaceText Value="027c2d16-67ba-4eeb-837e-f99b41e4c813"/>
+								</_6>
+								<_7>
+									<FindText Value="947f2b47-af0c-4354-9696-9462b1a4bf8b"/>
+									<ReplaceText Value="2b0fb1ea-95a8-43ea-8c0a-7d90c065cf10"/>
+								</_7>
+							</AlignWiths>
+						</Rules>
+						<Specs>
+							<Left Value="C:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\projects\sql-harAns-kan"/>
+							<Right Value="C:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\projects\Utsökning"/>
+						</Specs>
+						<State>
+							<ColExtVisible Value="True"/>
+							<ColExtWidth Value="56"/>
+							<ColPathWidth Value="146"/>
+							<ColSizeWidth Value="59"/>
+							<DirHandling Value="dirCompareFilesOnly"/>
+							<InsigIgnored Value="True"/>
+							<SortCol Value="colSize"/>
+						</State>
+					</TDirCompareSession>
+					<TTextCompareSession Value=" (2).gitmodules &lt;--> .gitmodules">
+						<LastModified Value="2021-11-12 11:34:49"/>
+						<Rules>
+							<ElementSigs>
+								<Item>
+									<ElementStr Value="&#2;Operator"/>
+									<ValueBool Value="False"/>
+								</Item>
+								<Item>
+									<ElementStr Value="Schema id"/>
+									<ValueBool Value="False"/>
+								</Item>
+								<Item>
+									<ElementStr Value="Login id"/>
+									<ValueBool Value="False"/>
+								</Item>
+							</ElementSigs>
+							<Insigs>
+								<_0>
+									<FindText Value="&lt;secret-storage>master_key&lt;/secret-storage>"/>
+								</_0>
+							</Insigs>
+						</Rules>
+						<Specs>
+							<Left Value="D:\Project Shelf\PowerShellProjectFolder\ (2).gitmodules"/>
+							<Right Value="D:\Project Shelf\PowerShellProjectFolder\.gitmodules"/>
+						</Specs>
+						<State>
+							<ShowContext Value="True"/>
+						</State>
+					</TTextCompareSession>
+					<TDirCompareSession Value="VisionH-ndelserToEasyRead &lt;--> EDPvisionRemote">
+						<Filters>
+							<NameFilter Value="*(*).*;*-5CG84229D5.*;*.~*;*.*.bak;-.\UpdateHandelser\"/>
+						</Filters>
+						<LastModified Value="2021-11-11 16:40:51"/>
+						<Rules>
+							<AlignWiths>
+								<_0>
+									<FindText Value="8cc23256-e02c-43ea-8477-e740c4580b62"/>
+									<ReplaceText Value="5dd5ec07-b71c-48de-8aab-4cfa43540e71"/>
+								</_0>
+								<_1>
+									<FindText Value="5b682ee5-608b-4b16-bdfd-1132a4a5566f"/>
+									<ReplaceText Value="027c2d16-67ba-4eeb-837e-f99b41e4c813"/>
+								</_1>
+								<_2>
+									<FindText Value="947f2b47-af0c-4354-9696-9462b1a4bf8b"/>
+									<ReplaceText Value="2b0fb1ea-95a8-43ea-8c0a-7d90c065cf10"/>
+								</_2>
+							</AlignWiths>
+						</Rules>
+						<Specs>
+							<Left Value="C:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\projects\EDPvisionRemote\UpdateHandelser\VisionH-ndelserToEasyRead"/>
+							<Right Value="C:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\projects\EDPvisionRemote"/>
+						</Specs>
+						<State>
+							<ColExtVisible Value="True"/>
+							<ColExtWidth Value="56"/>
+							<ColPathWidth Value="146"/>
+							<ColSizeWidth Value="59"/>
+							<DirHandling Value="dirCompareFilesOnly"/>
+							<InsigIgnored Value="True"/>
+						</State>
+					</TDirCompareSession>
+					<TTextCompareSession Value="dataSources.local.xml">
+						<LastModified Value="2021-11-11 16:40:51"/>
+						<Rules>
+							<ElementSigs>
+								<Item>
+									<ElementStr Value="&#2;String"/>
+									<ValueBool Value="False"/>
+								</Item>
+								<Item>
+									<ElementStr Value="&#2;Operator"/>
+									<ValueBool Value="False"/>
+								</Item>
+							</ElementSigs>
+						</Rules>
+						<Specs>
+							<Left Value="C:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\projects\Kv-FlaggGenerering\.idea\dataSources.local.xml"/>
+							<Right Value="C:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\projects\MånsBrunnsArkiv\.idea\dataSources.local.xml"/>
+						</Specs>
+						<State>
+							<ShowContext Value="True"/>
+						</State>
+					</TTextCompareSession>
+					<TTextCompareSession Value="dataSources.xml">
+						<LastModified Value="2021-11-08 09:14:07"/>
+						<Rules>
+							<ElementSigs>
+								<Item>
+									<ElementStr Value="&#2;String"/>
+									<ValueBool Value="False"/>
+								</Item>
+								<Item>
+									<ElementStr Value="&#2;Operator"/>
+									<ValueBool Value="False"/>
+								</Item>
+							</ElementSigs>
+						</Rules>
+						<Specs>
+							<Left Value="C:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\projects\default\.idea\dataSources.xml"/>
+							<Right Value="C:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\projects\MånsBrunnsArkiv\.idea\dataSources.xml"/>
+						</Specs>
+						<State>
+							<DisplayFilter Value="[showLeftMod, showRightMod, showDiffMod]"/>
+							<ShowContext Value="True"/>
+						</State>
+					</TTextCompareSession>
+					<TDirSyncSession Value="Custom: EDPvisionRemote &lt;--> VisionH-ndelserToEasyRead">
+						<Filters>
+							<NameFilter Value="*(*).*;*-5CG84229D5.*;*.~*;*.*.bak;-.\UpdateHandelser\\"/>
+						</Filters>
+						<LastModified Value="2021-11-05 11:38:40"/>
+						<Rules>
+							<AlignWiths>
+								<_0>
+									<FindText Value="8cc23256-e02c-43ea-8477-e740c4580b62"/>
+									<ReplaceText Value="5dd5ec07-b71c-48de-8aab-4cfa43540e71"/>
+								</_0>
+								<_1>
+									<FindText Value="5b682ee5-608b-4b16-bdfd-1132a4a5566f"/>
+									<ReplaceText Value="027c2d16-67ba-4eeb-837e-f99b41e4c813"/>
+								</_1>
+								<_2>
+									<FindText Value="947f2b47-af0c-4354-9696-9462b1a4bf8b"/>
+									<ReplaceText Value="2b0fb1ea-95a8-43ea-8c0a-7d90c065cf10"/>
+								</_2>
+							</AlignWiths>
+							<CopyACLs Value="True"/>
+							<CopyCreationDates Value="True"/>
+							<ExpandAllOnLoad Value="False"/>
+							<KeepShortNames Value="True"/>
+							<RightAddedSyncOp Value="soLeave"/>
+							<RightNewerSyncOp Value="soDeleteLeft"/>
+							<SameSyncOp Value="soDeleteLeft"/>
+							<SyncEmptyFolders Value="False"/>
+						</Rules>
+						<Specs>
+							<Left Value="C:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\projects\EDPvisionRemote"/>
+							<Right Value="C:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\projects\EDPvisionRemote\UpdateHandelser\VisionH-ndelserToEasyRead"/>
+						</Specs>
+						<State>
+							<ColExtVisible Value="True"/>
+							<ColExtWidth Value="56"/>
+							<ColPathWidth Value="146"/>
+							<ColSizeWidth Value="59"/>
+							<InsigIgnored Value="True"/>
+							<SortDown Value="True"/>
+						</State>
+						<Summary Value="2021-11-05 11:38:34  Successfully synchronized 48 items.  Completed in 0,05 seconds."/>
+					</TDirSyncSession>
+					<TDirSyncSession Value="Custom: VisionH-ndelserToEasyRead &lt;--> EDPvisionRemote">
+						<Filters>
+							<NameFilter Value="-*(*).*;-*-5CG84229D5.*;-*.~*;-*.*.bak;-.\UpdateHandelser\"/>
+						</Filters>
+						<LastModified Value="2021-11-05 11:37:04"/>
+						<Rules>
+							<AlignWiths>
+								<_0>
+									<FindText Value="8cc23256-e02c-43ea-8477-e740c4580b62"/>
+									<ReplaceText Value="5dd5ec07-b71c-48de-8aab-4cfa43540e71"/>
+								</_0>
+								<_1>
+									<FindText Value="5b682ee5-608b-4b16-bdfd-1132a4a5566f"/>
+									<ReplaceText Value="027c2d16-67ba-4eeb-837e-f99b41e4c813"/>
+								</_1>
+								<_2>
+									<FindText Value="947f2b47-af0c-4354-9696-9462b1a4bf8b"/>
+									<ReplaceText Value="2b0fb1ea-95a8-43ea-8c0a-7d90c065cf10"/>
+								</_2>
+							</AlignWiths>
+							<ExpandAllOnLoad Value="False"/>
+							<RightAddedSyncOp Value="soLeave"/>
+							<RightNewerSyncOp Value="soDeleteLeft"/>
+							<SameSyncOp Value="soDeleteLeft"/>
+						</Rules>
+						<Specs>
+							<Left Value="C:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\projects\EDPvisionRemote\UpdateHandelser\VisionH-ndelserToEasyRead"/>
+							<Right Value="C:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\projects\EDPvisionRemote"/>
+						</Specs>
+						<State>
+							<ColExtVisible Value="True"/>
+							<ColExtWidth Value="56"/>
+							<ColPathWidth Value="146"/>
+							<ColSizeWidth Value="59"/>
+							<InsigIgnored Value="True"/>
+							<SortDown Value="True"/>
+						</State>
+						<Summary Value="2021-11-05 11:37:02  Successfully synchronized 45 items.  Completed in 0,05 seconds."/>
+					</TDirSyncSession>
+					<TDirSyncSession Value="Custom: LatestHandelse(harAnsokan) &lt;--> EDPvisionRemote">
+						<LastModified Value="2021-11-05 11:20:06"/>
+						<Rules>
+							<AlignWiths>
+								<_0>
+									<FindText Value="8cc23256-e02c-43ea-8477-e740c4580b62"/>
+									<ReplaceText Value="5dd5ec07-b71c-48de-8aab-4cfa43540e71"/>
+								</_0>
+								<_1>
+									<FindText Value="5b682ee5-608b-4b16-bdfd-1132a4a5566f"/>
+									<ReplaceText Value="027c2d16-67ba-4eeb-837e-f99b41e4c813"/>
+								</_1>
+								<_2>
+									<FindText Value="947f2b47-af0c-4354-9696-9462b1a4bf8b"/>
+									<ReplaceText Value="2b0fb1ea-95a8-43ea-8c0a-7d90c065cf10"/>
+								</_2>
+							</AlignWiths>
+							<ExpandAllOnLoad Value="False"/>
+							<RightAddedSyncOp Value="soLeave"/>
+							<RightNewerSyncOp Value="soDeleteLeft"/>
+							<SameSyncOp Value="soDeleteLeft"/>
+						</Rules>
+						<Specs>
+							<Left Value="C:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\projects\EDPvisionRemote\Utsökning\LatestHandelse(harAnsokan)"/>
+							<Right Value="C:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\projects\EDPvisionRemote"/>
+						</Specs>
+						<State>
+							<ColExtVisible Value="True"/>
+							<ColExtWidth Value="56"/>
+							<ColPathWidth Value="146"/>
+							<ColSizeWidth Value="59"/>
+							<InsigIgnored Value="True"/>
+							<SortCol Value="colSize"/>
+							<SortDown Value="True"/>
+						</State>
+						<Summary Value="2021-11-05 11:20:02  Successfully synchronized 20 items.  Completed in 1,33 seconds."/>
+					</TDirSyncSession>
+					<TTextMergeSession Value="xml2csv.ps1">
+						<LastModified Value="2021-11-03 17:31:07"/>
+						<Rules>
+							<AlignKind Value="alignQuick"/>
+						</Rules>
+						<Specs>
+							<Left Value="D:\Project Shelf\PowerShellProjectFolder\submodule\xml2csv\kindljiri\xml2csv.ps1.LOCAL.ps1"/>
+							<Right Value="D:\Project Shelf\PowerShellProjectFolder\submodule\xml2csv\kindljiri\xml2csv.ps1.REMOTE.ps1"/>
+							<Center Value="D:\Project Shelf\PowerShellProjectFolder\submodule\xml2csv\kindljiri\xml2csv.ps1.BASE.ps1"/>
+							<Output Value="D:\Project Shelf\PowerShellProjectFolder\submodule\xml2csv\kindljiri\xml2csv.ps1"/>
+						</Specs>
+						<State>
+							<MergeFavorSide Value="mfsRight"/>
+						</State>
+					</TTextMergeSession>
+					<TDirCompareSession Value="projects &lt;--> Sql">
+						<Filters>
+							<NameFilter Value="-*.sql"/>
+						</Filters>
+						<LastModified Value="2021-11-02 10:10:00"/>
+						<Rules>
+							<AlignWiths>
+								<_0>
+									<FindText Value="8cc23256-e02c-43ea-8477-e740c4580b62"/>
+									<ReplaceText Value="5dd5ec07-b71c-48de-8aab-4cfa43540e71"/>
+								</_0>
+								<_1>
+									<FindText Value="5b682ee5-608b-4b16-bdfd-1132a4a5566f"/>
+									<ReplaceText Value="027c2d16-67ba-4eeb-837e-f99b41e4c813"/>
+								</_1>
+								<_2>
+									<FindText Value="947f2b47-af0c-4354-9696-9462b1a4bf8b"/>
+									<ReplaceText Value="2b0fb1ea-95a8-43ea-8c0a-7d90c065cf10"/>
+								</_2>
+							</AlignWiths>
+						</Rules>
+						<Specs>
+							<Left Value="D:\OnGithub\AutoHotkey\projects"/>
+							<Right Value="D:\Project Shelf\Sql"/>
+						</Specs>
+						<State>
+							<ColExtVisible Value="True"/>
+							<ColExtWidth Value="56"/>
+							<ColPathWidth Value="146"/>
+							<ColSizeWidth Value="59"/>
+							<DirHandling Value="dirCompareFilesOnly"/>
+							<InsigIgnored Value="True"/>
+							<SortCol Value="colSize"/>
+							<SortDown Value="True"/>
+						</State>
+					</TDirCompareSession>
+					<TTextCompareSession Value="aselect ÄrendenHandlingarFiltreraEfterFöljdMedEllerUtanText.sql &lt;--> select ÄrendenHandlingarFiltreraEfterFöljdMedEllerUtanText.sql">
+						<LastModified Value="2021-11-01 11:06:46"/>
+						<Rules>
+							<ElementSigs>
+								<Item>
+									<ElementStr Value="&#2;Operator"/>
+									<ValueBool Value="False"/>
+								</Item>
+								<Item>
+									<ElementStr Value="Schema id"/>
+									<ValueBool Value="False"/>
+								</Item>
+								<Item>
+									<ElementStr Value="Login id"/>
+									<ValueBool Value="False"/>
+								</Item>
+							</ElementSigs>
+							<Insigs>
+								<_0>
+									<FindText Value="&lt;secret-storage>master_key&lt;/secret-storage>"/>
+								</_0>
+							</Insigs>
+						</Rules>
+						<Specs>
+							<Left Value="C:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\consoles\db\8cc23256-e02c-43ea-8477-e740c4580b62\aselect ÄrendenHandlingarFiltreraEfterFöljdMedEllerUtanText.sql"/>
+							<Right Value="C:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\consoles\db\8cc23256-e02c-43ea-8477-e740c4580b62\select ÄrendenHandlingarFiltreraEfterFöljdMedEllerUtanText.sql"/>
+						</Specs>
+						<State>
+							<ShowContext Value="True"/>
+						</State>
+					</TTextCompareSession>
+					<TTextCompareSession Value="Select vwAehHaendelse SenastHändelse.sql &lt;--> select ÄrendenHandlingarFiltreraEfterFöljdMedEllerUtanText.sql">
+						<LastModified Value="2021-10-26 10:48:16"/>
+						<Rules>
+							<ElementSigs>
+								<Item>
+									<ElementStr Value="&#2;Operator"/>
+									<ValueBool Value="False"/>
+								</Item>
+								<Item>
+									<ElementStr Value="Schema id"/>
+									<ValueBool Value="False"/>
+								</Item>
+								<Item>
+									<ElementStr Value="Login id"/>
+									<ValueBool Value="False"/>
+								</Item>
+							</ElementSigs>
+							<Insigs>
+								<_0>
+									<FindText Value="&lt;secret-storage>master_key&lt;/secret-storage>"/>
+								</_0>
+							</Insigs>
+						</Rules>
+						<Specs>
+							<Left Value="C:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\consoles\db\8cc23256-e02c-43ea-8477-e740c4580b62\Select vwAehHaendelse SenastHändelse.sql"/>
+							<Right Value="C:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\consoles\db\8cc23256-e02c-43ea-8477-e740c4580b62\select ÄrendenHandlingarFiltreraEfterFöljdMedEllerUtanText.sql"/>
+						</Specs>
+						<State>
+							<ShowContext Value="True"/>
+						</State>
+					</TTextCompareSession>
+					<TDirCompareSession Value=".idea">
+						<LastModified Value="2021-10-19 10:44:14"/>
+						<Rules>
+							<AlignWiths>
+								<_0>
+									<FindText Value="8cc23256-e02c-43ea-8477-e740c4580b62"/>
+									<ReplaceText Value="5dd5ec07-b71c-48de-8aab-4cfa43540e71"/>
+								</_0>
+								<_1>
+									<FindText Value="5b682ee5-608b-4b16-bdfd-1132a4a5566f"/>
+									<ReplaceText Value="027c2d16-67ba-4eeb-837e-f99b41e4c813"/>
+								</_1>
+								<_2>
+									<FindText Value="947f2b47-af0c-4354-9696-9462b1a4bf8b"/>
+									<ReplaceText Value="2b0fb1ea-95a8-43ea-8c0a-7d90c065cf10"/>
+								</_2>
+							</AlignWiths>
+						</Rules>
+						<Specs>
+							<Left Value="C:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\projects\Kv-Utsökning\.idea"/>
+							<Right Value="D:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\projects\Kv-FlaggGenerering\.idea"/>
+						</Specs>
+						<State>
+							<ColExtVisible Value="True"/>
+							<ColExtWidth Value="56"/>
+							<ColPathWidth Value="146"/>
+							<ColSizeWidth Value="59"/>
+							<DirHandling Value="dirCompareFilesOnly"/>
+							<DisplayFilter Value="[showLeftAdded, showRightAdded]"/>
+							<InsigIgnored Value="True"/>
+							<SortCol Value="colSize"/>
+							<SortDown Value="True"/>
+						</State>
+					</TDirCompareSession>
+					<TDirCompareSession Value="output &lt;--> KvUtsökningsProjectFolder">
+						<LastModified Value="2021-10-19 10:40:28"/>
+						<Rules>
+							<AlignWiths>
+								<_0>
+									<FindText Value="8cc23256-e02c-43ea-8477-e740c4580b62"/>
+									<ReplaceText Value="5dd5ec07-b71c-48de-8aab-4cfa43540e71"/>
+								</_0>
+								<_1>
+									<FindText Value="5b682ee5-608b-4b16-bdfd-1132a4a5566f"/>
+									<ReplaceText Value="027c2d16-67ba-4eeb-837e-f99b41e4c813"/>
+								</_1>
+								<_2>
+									<FindText Value="947f2b47-af0c-4354-9696-9462b1a4bf8b"/>
+									<ReplaceText Value="2b0fb1ea-95a8-43ea-8c0a-7d90c065cf10"/>
+								</_2>
+							</AlignWiths>
+						</Rules>
+						<Specs>
+							<Left Value="D:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\projects\EDPvisionRemote\output"/>
+							<Right Value="D:\Project Shelf\KvUtsökningsProjectFolder"/>
+						</Specs>
+						<State>
+							<ColExtVisible Value="True"/>
+							<ColExtWidth Value="56"/>
+							<ColPathWidth Value="146"/>
+							<ColSizeWidth Value="59"/>
+							<DirHandling Value="dirCompareFilesOnly"/>
+							<DisplayFilter Value="[showLeftAdded, showRightAdded]"/>
+							<InsigIgnored Value="True"/>
+							<SortCol Value="colSize"/>
+							<SortDown Value="True"/>
+						</State>
+					</TDirCompareSession>
+					<TTextMergeSession Value=".gitignore">
+						<LastModified Value="2021-10-19 10:40:28"/>
+						<Rules>
+							<AlignKind Value="alignQuick"/>
+						</Rules>
+						<Specs>
+							<Left Value="D:\Project Shelf\KvUtsökningsProjectFolder\.gitignore.LOCAL.gitignore"/>
+							<Right Value="D:\Project Shelf\KvUtsökningsProjectFolder\.gitignore.REMOTE.gitignore"/>
+							<Center Value="D:\Project Shelf\KvUtsökningsProjectFolder\.gitignore.BASE.gitignore"/>
+							<Output Value="D:\Project Shelf\KvUtsökningsProjectFolder\.gitignore"/>
+						</Specs>
+						<State>
+							<MergeFavorSide Value="mfsRight"/>
+						</State>
+					</TTextMergeSession>
+					<TDirCompareSession Value=".idea">
+						<LastModified Value="2021-10-19 10:17:14"/>
+						<Rules>
+							<AlignWiths>
+								<_0>
+									<FindText Value="8cc23256-e02c-43ea-8477-e740c4580b62"/>
+									<ReplaceText Value="5dd5ec07-b71c-48de-8aab-4cfa43540e71"/>
+								</_0>
+								<_1>
+									<FindText Value="5b682ee5-608b-4b16-bdfd-1132a4a5566f"/>
+									<ReplaceText Value="027c2d16-67ba-4eeb-837e-f99b41e4c813"/>
+								</_1>
+								<_2>
+									<FindText Value="947f2b47-af0c-4354-9696-9462b1a4bf8b"/>
+									<ReplaceText Value="2b0fb1ea-95a8-43ea-8c0a-7d90c065cf10"/>
+								</_2>
+							</AlignWiths>
+						</Rules>
+						<Specs>
+							<Left Value="C:\Users\crbk01\.DataGrip2019.3\config\projects\Kv-FlaggGenerering\.idea"/>
+							<Right Value="C:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\projects\default\.idea"/>
+						</Specs>
+						<State>
+							<ColExtVisible Value="True"/>
+							<ColExtWidth Value="56"/>
+							<ColPathWidth Value="146"/>
+							<ColSizeWidth Value="59"/>
+							<DirHandling Value="dirShowAll"/>
+						</State>
+					</TDirCompareSession>
+					<TDirCompareSession Value="output &lt;--> TillMinaMedelanden">
+						<LastModified Value="2021-10-19 10:17:05"/>
+						<Rules>
+							<AlignWiths>
+								<_0>
+									<FindText Value="8cc23256-e02c-43ea-8477-e740c4580b62"/>
+									<ReplaceText Value="5dd5ec07-b71c-48de-8aab-4cfa43540e71"/>
+								</_0>
+								<_1>
+									<FindText Value="5b682ee5-608b-4b16-bdfd-1132a4a5566f"/>
+									<ReplaceText Value="027c2d16-67ba-4eeb-837e-f99b41e4c813"/>
+								</_1>
+								<_2>
+									<FindText Value="947f2b47-af0c-4354-9696-9462b1a4bf8b"/>
+									<ReplaceText Value="2b0fb1ea-95a8-43ea-8c0a-7d90c065cf10"/>
+								</_2>
+							</AlignWiths>
+						</Rules>
+						<Specs>
+							<Left Value="D:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\projects\EDPvisionRemote\output"/>
+							<Right Value="D:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\projects\EDPvisionRemote\output\TillMinaMedelanden"/>
+						</Specs>
+						<State>
+							<ColExtVisible Value="True"/>
+							<ColExtWidth Value="56"/>
+							<ColPathWidth Value="146"/>
+							<ColSizeWidth Value="59"/>
+							<DirHandling Value="dirCompareFilesOnly"/>
+							<InsigIgnored Value="True"/>
+							<SortCol Value="colSize"/>
+							<SortDown Value="True"/>
+						</State>
+					</TDirCompareSession>
+					<TDirCompareSession Value=".git">
+						<LastModified Value="2021-10-19 10:16:15"/>
+						<Rules>
+							<AlignWiths>
+								<_0>
+									<FindText Value="8cc23256-e02c-43ea-8477-e740c4580b62"/>
+									<ReplaceText Value="5dd5ec07-b71c-48de-8aab-4cfa43540e71"/>
+								</_0>
+								<_1>
+									<FindText Value="5b682ee5-608b-4b16-bdfd-1132a4a5566f"/>
+									<ReplaceText Value="027c2d16-67ba-4eeb-837e-f99b41e4c813"/>
+								</_1>
+								<_2>
+									<FindText Value="947f2b47-af0c-4354-9696-9462b1a4bf8b"/>
+									<ReplaceText Value="2b0fb1ea-95a8-43ea-8c0a-7d90c065cf10"/>
+								</_2>
+								<_3>
+									<FindText Value="*.."/>
+									<ReplaceText Value="*"/>
+								</_3>
+							</AlignWiths>
+						</Rules>
+						<Specs>
+							<Left Value="D:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\projects\EDPvisionRemote\output\TillMinaMedelanden\.git"/>
+							<Right Value="D:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\projects\EDPvisionRemote\output\.git"/>
+						</Specs>
+						<State>
+							<ColExtVisible Value="True"/>
+							<ColExtWidth Value="56"/>
+							<ColPathWidth Value="146"/>
+							<ColSizeWidth Value="59"/>
+							<DirHandling Value="dirCompareFilesOnly"/>
+							<InsigIgnored Value="True"/>
+							<SortCol Value="colSize"/>
+							<SortDown Value="True"/>
+						</State>
+					</TDirCompareSession>
+					<TTextCompareSession Value="dataSources.xml">
+						<LastModified Value="2021-10-19 09:54:29"/>
+						<Rules>
+							<ElementSigs>
+								<Item>
+									<ElementStr Value="&#2;String"/>
+									<ValueBool Value="False"/>
+								</Item>
+								<Item>
+									<ElementStr Value="&#2;Operator"/>
+									<ValueBool Value="False"/>
+								</Item>
+							</ElementSigs>
+						</Rules>
+						<Specs>
+							<Left Value="C:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\projects\Kv-Utsökning\.idea\dataSources.xml"/>
+							<Right Value="C:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\projects\default\.idea\dataSources.xml"/>
+						</Specs>
+						<State>
+							<ShowContext Value="True"/>
+						</State>
+					</TTextCompareSession>
+					<TTextCompareSession Value="dataSources.local.xml">
+						<LastModified Value="2021-10-19 09:54:27"/>
+						<Rules>
+							<ElementSigs>
+								<Item>
+									<ElementStr Value="&#2;Operator"/>
+									<ValueBool Value="False"/>
+								</Item>
+								<Item>
+									<ElementStr Value="Schema id"/>
+									<ValueBool Value="False"/>
+								</Item>
+								<Item>
+									<ElementStr Value="Login id"/>
+									<ValueBool Value="False"/>
+								</Item>
+							</ElementSigs>
+							<Insigs>
+								<_0>
+									<FindText Value="&lt;secret-storage>master_key&lt;/secret-storage>"/>
+								</_0>
+							</Insigs>
+						</Rules>
+						<Specs>
+							<Left Value="C:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\projects\Kv-Utsökning\.idea\dataSources.local.xml"/>
+							<Right Value="C:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\projects\default\.idea\dataSources.local.xml"/>
+						</Specs>
+						<State>
+							<ShowContext Value="True"/>
+						</State>
+					</TTextCompareSession>
+					<TPixCompareSession Value="dataSources.xml">
+						<LastModified Value="2021-10-19 09:54:21"/>
+						<Specs>
+							<Left Value="C:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\projects\Kv-Utsökning\.idea\dataSources.xml"/>
+							<Right Value="C:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\projects\default\.idea\dataSources.xml"/>
+						</Specs>
+					</TPixCompareSession>
+				</Items>
+			</TSessionFolder>
+			<TDirCompareSession>
+				<Rules>
+					<AlignWiths>
+						<_0>
+							<FindText Value="8cc23256-e02c-43ea-8477-e740c4580b62"/>
+							<ReplaceText Value="5dd5ec07-b71c-48de-8aab-4cfa43540e71"/>
+						</_0>
+						<_1>
+							<FindText Value="5b682ee5-608b-4b16-bdfd-1132a4a5566f"/>
+							<ReplaceText Value="027c2d16-67ba-4eeb-837e-f99b41e4c813"/>
+						</_1>
+						<_2>
+							<FindText Value="947f2b47-af0c-4354-9696-9462b1a4bf8b"/>
+							<ReplaceText Value="2b0fb1ea-95a8-43ea-8c0a-7d90c065cf10"/>
+						</_2>
+					</AlignWiths>
+				</Rules>
+				<State>
+					<ColExtVisible Value="True"/>
+					<ColExtWidth Value="56"/>
+					<ColPathWidth Value="146"/>
+					<ColSizeWidth Value="59"/>
+					<DirHandling Value="dirShowAll"/>
+					<InsigIgnored Value="True"/>
+					<SortCol Value="colSize"/>
+					<SortDown Value="True"/>
+					<SortSide Value="dsRight"/>
+				</State>
+			</TDirCompareSession>
+			<TDirMergeSession>
+				<State>
+					<ColExtVisible Value="True"/>
+					<ColExtWidth Value="56"/>
+					<ColPathWidth Value="146"/>
+					<ColSizeWidth Value="59"/>
+					<DirHandling Value="dirCompareFilesOnly"/>
+					<InsigIgnored Value="True"/>
+					<ShowCenter Value="False"/>
+					<SortCol Value="colModified"/>
+				</State>
+			</TDirMergeSession>
+			<TDirSyncSession>
+				<Filters>
+					<NameFilter Value="*(*).*;*-5CG84229D5.*;*.~*;*.*.bak;-.\UpdateHandelser\\"/>
+				</Filters>
+				<Rules>
+					<AlignWiths>
+						<_0>
+							<FindText Value="8cc23256-e02c-43ea-8477-e740c4580b62"/>
+							<ReplaceText Value="5dd5ec07-b71c-48de-8aab-4cfa43540e71"/>
+						</_0>
+						<_1>
+							<FindText Value="5b682ee5-608b-4b16-bdfd-1132a4a5566f"/>
+							<ReplaceText Value="027c2d16-67ba-4eeb-837e-f99b41e4c813"/>
+						</_1>
+						<_2>
+							<FindText Value="947f2b47-af0c-4354-9696-9462b1a4bf8b"/>
+							<ReplaceText Value="2b0fb1ea-95a8-43ea-8c0a-7d90c065cf10"/>
+						</_2>
+					</AlignWiths>
+					<CopyACLs Value="True"/>
+					<CopyCreationDates Value="True"/>
+					<ExpandAllOnLoad Value="False"/>
+					<KeepShortNames Value="True"/>
+					<RightAddedSyncOp Value="soLeave"/>
+					<RightNewerSyncOp Value="soDeleteLeft"/>
+					<SameSyncOp Value="soDeleteLeft"/>
+					<SyncEmptyFolders Value="False"/>
+				</Rules>
+				<State>
+					<ColExtVisible Value="True"/>
+					<ColExtWidth Value="56"/>
+					<ColPathWidth Value="146"/>
+					<ColSizeWidth Value="59"/>
+					<InsigIgnored Value="True"/>
+					<SortCol Value="colSize"/>
+					<SortDown Value="True"/>
+				</State>
+			</TDirSyncSession>
+			<TTextCompareSession>
+				<Rules>
+					<ElementSigs>
+						<Item>
+							<ElementStr Value="&#2;Operator"/>
+							<ValueBool Value="False"/>
+						</Item>
+						<Item>
+							<ElementStr Value="Schema id"/>
+							<ValueBool Value="False"/>
+						</Item>
+						<Item>
+							<ElementStr Value="Login id"/>
+							<ValueBool Value="False"/>
+						</Item>
+					</ElementSigs>
+					<NonWSSig Value="False"/>
+				</Rules>
+			</TTextCompareSession>
+			<TTextMergeSession>
+				<Rules>
+					<AlignKind Value="alignQuick"/>
+				</Rules>
+				<State>
+					<MergeFavorSide Value="mfsRight"/>
+				</State>
+			</TTextMergeSession>
+		</Items>
+	</TSessionFolder>
+</BCSessions>

@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Produced by Beyond Compare 4 from Scooter Software -->
+<BCFileFormats Version="1">
+	<TTextFormat Value="acl">
+		<CodePage Value="1200"/>
+		<CodePageDetect Value="False"/>
+		<ColBased Value="True"/>
+		<ConvertKind Value="convertDFM"/>
+		<CustomElementCaseSigs>
+			<Item>
+				<ElementStr Value="&quot;String\&quot;"/>
+				<ValueBool Value="False"/>
+			</Item>
+		</CustomElementCaseSigs>
+		<Description>
+			<_0/>
+			<_1 Value="office autocorrection"/>
+		</Description>
+		<LineBased Value="True"/>
+		<Mask Value="*.acl"/>
+		<TidyLeadingWS Value="True"/>
+		<TrimTrailingWS Value="True"/>
+	</TTextFormat>
+	<TTextFormat Value="&#2;CPP">
+		<UseRes Value="True"/>
+	</TTextFormat>
+	<TTextFormat Value="&#2;COBOL">
+		<UseRes Value="True"/>
+	</TTextFormat>
+	<TDataFormat Value="&#2;CSV">
+		<UseRes Value="True"/>
+	</TDataFormat>
+	<TTextFormat Value="&#2;DFM">
+		<UseRes Value="True"/>
+	</TTextFormat>
+	<TTextFormat Value="&#2;PAS">
+		<UseRes Value="True"/>
+	</TTextFormat>
+	<TVerFormat Value="&#2;EXE">
+		<UseRes Value="True"/>
+	</TVerFormat>
+	<TTextFormat Value="&#2;HTML">
+		<UseRes Value="True"/>
+	</TTextFormat>
+	<TTextFormat Value="&#2;JAVA">
+		<UseRes Value="True"/>
+	</TTextFormat>
+	<TTextFormat Value="&#2;JS">
+		<Mask Value="*.js;*.json"/>
+		<UseRes Value="True"/>
+	</TTextFormat>
+	<TMP3Format Value="&#2;MP3">
+		<UseRes Value="True"/>
+	</TMP3Format>
+	<TDataFormat Value="&#2;MSEXCEL">
+		<UseRes Value="True"/>
+	</TDataFormat>
+	<TTextFormat Value="&#2;MSWORD">
+		<UseRes Value="True"/>
+	</TTextFormat>
+	<TTextFormat Value="&#2;PDF">
+		<UseRes Value="True"/>
+	</TTextFormat>
+	<TTextFormat Value="&#2;PERL">
+		<UseRes Value="True"/>
+	</TTextFormat>
+	<TPixFormat Value="&#2;PIX">
+		<UseRes Value="True"/>
+	</TPixFormat>
+	<TTextFormat Value="&#2;PYTHON">
+		<UseRes Value="True"/>
+	</TTextFormat>
+	<TTextFormat Value="&#2;REG">
+		<UseRes Value="True"/>
+	</TTextFormat>
+	<TTextFormat Value="&#2;RTF">
+		<UseRes Value="True"/>
+	</TTextFormat>
+	<TTextFormat Value="&#2;SORT">
+		<UseRes Value="True"/>
+	</TTextFormat>
+	<TTextFormat Value="&#2;SQL">
+		<UseRes Value="True"/>
+	</TTextFormat>
+	<TTextFormat Value="&#2;VB">
+		<UseRes Value="True"/>
+	</TTextFormat>
+	<TTextFormat Value="&#2;XML">
+		<CustomElementCaseSigs>
+			<Item>
+				<ElementStr Value="uuid"/>
+				<ValueBool Value="False"/>
+			</Item>
+			<Item>
+				<ElementStr Value="Jdbc-url"/>
+				<ValueBool Value="False"/>
+			</Item>
+			<Item>
+				<ElementStr Value="Schema id"/>
+				<ValueBool Value="False"/>
+			</Item>
+			<Item>
+				<ElementStr Value="New Element"/>
+				<ValueBool Value="False"/>
+			</Item>
+			<Item>
+				<ElementStr Value="Login id"/>
+				<ValueBool Value="False"/>
+			</Item>
+			<Item>
+				<ElementStr Value="qname"/>
+				<ValueBool Value="False"/>
+			</Item>
+		</CustomElementCaseSigs>
+		<Grammar>
+			<_0 Value="TDelimitedTextGrammarItem">
+				<ElementStr Value="&#2;String"/>
+				<Text Value="&quot;"/>
+				<StopEOL Value="True"/>
+				<StopText Value="&quot;"/>
+			</_0>
+			<_1 Value="TDelimitedTextGrammarItem">
+				<ElementStr Value="&#2;Comment"/>
+				<Text Value="&lt;!--"/>
+				<StopText Value="-->"/>
+			</_1>
+			<_2 Value="TListTextGrammarItem">
+				<ElementStr Value="&#2;Operator"/>
+				<Items>
+					<_0 Value="&lt;"/>
+					<_1 Value="/>"/>
+					<_2 Value=">"/>
+				</Items>
+			</_2>
+			<_3 Value="TDelimitedTextGrammarItem">
+				<ElementStr Value="uuid"/>
+				<CaseSensitive Value="False"/>
+				<Text Value="uuid=&quot;"/>
+				<StopText Value="&quot;"/>
+			</_3>
+			<_4 Value="TDelimitedTextGrammarItem">
+				<ElementStr Value="Jdbc-url"/>
+				<CaseSensitive Value="False"/>
+				<Text Value="&lt;jdbc-url>jdbc:"/>
+				<StopText Value="&lt;/jdbc-url>"/>
+			</_4>
+			<_5 Value="TDelimitedTextGrammarItem">
+				<ElementStr Value="Schema id"/>
+				<CaseSensitive Value="False"/>
+				<Text Value="&lt;schema id=&quot;"/>
+				<StopText Value="&lt;/schema>"/>
+			</_5>
+			<_6 Value="TDelimitedTextGrammarItem">
+				<ElementStr Value="Login id"/>
+				<CaseSensitive Value="False"/>
+				<Text Value="&lt;login id=&quot;"/>
+				<StopText Value="&lt;/login>"/>
+			</_6>
+			<_7 Value="TDelimitedTextGrammarItem">
+				<ElementStr Value="qname"/>
+				<CaseSensitive Value="False"/>
+				<Text Value="qname=&quot;"/>
+				<StopEOL Value="True"/>
+				<StopText Value="&quot;"/>
+			</_7>
+		</Grammar>
+		<UseRes Value="True"/>
+	</TTextFormat>
+	<THexFormat>
+		<ConvertKind Value="convertApp"/>
+	</THexFormat>
+	<TTextFormat>
+		<ConvertKind Value="convertDFM"/>
+		<CustomElementCaseSigs>
+			<Item>
+				<ElementStr Value="&quot;String\&quot;"/>
+				<ValueBool Value="False"/>
+			</Item>
+		</CustomElementCaseSigs>
+		<Grammar>
+			<_0 Value="TBasicTextGrammarItem">
+				<ElementStr Value="&quot;String\&quot;"/>
+				<CaseSensitive Value="False"/>
+				<IsRegExp Value="True"/>
+				<Text Value="&quot;[^&quot;]*[\\]&quot;"/>
+			</_0>
+		</Grammar>
+		<Weights>
+			<_0>
+				<FindText Value=".*"/>
+				<Priority Value="wp5"/>
+			</_0>
+		</Weights>
+	</TTextFormat>
+</BCFileFormats>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Produced by Beyond Compare 4 from Scooter Software -->
+<BCColors Version="1" MinVersion="1">
+	<TFileColors>
+		<HasInsigOrphanBGColor Value="$FFFFFF"/>
+		<HasSigDiffBGColor Value="$F4F4FF"/>
+		<HasSigOrphanBGColor Value="$FFFFF0"/>
+		<SigDiffFGColor Value="$00009D"/>
+	</TFileColors>
+</BCColors>

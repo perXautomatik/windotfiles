@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Produced by Beyond Compare 4 from Scooter Software -->
+<BCProfiles Version="1" MinVersion="1">
+	<TFtpDefaultProfile>
+		<Listing>
+			<FetchIncompleteTimestamps Value="True"/>
+			<LinkResolution Value="flrSimple"/>
+			<ListOptions Value="[floUseMLSD, floShowHidden, floResolveLinks, floRecursive]"/>
+		</Listing>
+	</TFtpDefaultProfile>
+</BCProfiles>

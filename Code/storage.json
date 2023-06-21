@@ -1,0 +1,41 @@
+{
+    "telemetry.machineId": "22ad05d8523683622e57fdd02c2dd4a19ad3be7c754c7694eabd041f6b58b79c",
+    "theme": "vs-dark",
+    "themeBackground": "#1e1e1e",
+    "windowSplash": {
+        "baseTheme": "vs-dark",
+        "colorInfo": {
+            "foreground": "#cccccc",
+            "background": "#1e1e1e",
+            "editorBackground": "#1e1e1e",
+            "titleBarBackground": "#3c3c3c",
+            "activityBarBackground": "#333333",
+            "sideBarBackground": "#252526",
+            "statusBarBackground": "#007acc",
+            "statusBarNoFolderBackground": "#68217a"
+        },
+        "layoutInfo": {
+            "sideBarSide": "right",
+            "editorPartMinWidth": 220,
+            "titleBarHeight": 30,
+            "activityBarWidth": 48,
+            "sideBarWidth": 0,
+            "statusBarHeight": 22,
+            "windowBorder": false
+        }
+    },
+    "windowsState": {
+        "lastActiveWindow": {
+            "backupPath": "C:\\Users\\Användaren\\AppData\\Roaming\\Code\\Backups\\1647696200858",
+            "uiState": {
+                "mode": 1,
+                "x": 448,
+                "y": 156,
+                "width": 1024,
+                "height": 768
+            }
+        },
+        "openedWindows": []
+    },
+    "pickerWorkingDir": "D:\\ToGit"
+}

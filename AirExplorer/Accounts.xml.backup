@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<CloudAccounts version="1.0">
+  <accounts>
+    <account Name="Christoffer Brobäck" Provider="GoogleDrive" DisplayName="Christoffer Brobäck" Description="" Id="1033842694" Password="">
+      <property key="GoogleDrive.AccessToken" value="AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAFNTcUqvLLESzvErguPtG0gAAAAACAAAAAAAQZgAAAAEAACAAAAAWQigBCc0BPLrpGCqAfwPIwxBqiphWfXyKb0+7tL8wkwAAAAAOgAAAAAIAACAAAAA+4l96z+ziJVSAAtuEvLUxs/l9j6ur3tHoRapuqNVW+bAAAAAUtJgD5NMohH90fR2GLCk9hbNbXsPHlkEsL8dIrlmlrBOVaJ/CGK0r6vMSO12DBgQdg3qEIiB7aFHnZdgLU58HSMaMqfPWAtOXARn9hi3rdmxUXhpNf3ZrPPp2Sb/gezNYo/l2lyNOXjGyrxfBD28dzKVztRtkFUuSrscDj273Mpsq4F0wm4RhuDAm1q3oxMnqQd4nl7flNinOyJhCPhUKN9Oi6y4htfsXUfTCUpZ9VUAAAADDIU8ozRmcymnBsR197WSl+4MqkghVZlSEr324KE9+Xsw+AT4WX8Ayt9hU9ACFxfof9ZgVtDgvpykHNBwO8M+W" type="string" />
+      <property key="GoogleDrive.ExpireTime" value="2022-03-16 01:14:02" type="DateTime" />
+      <property key="GoogleDrive.RefreshToken" value="AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAFNTcUqvLLESzvErguPtG0gAAAAACAAAAAAAQZgAAAAEAACAAAAD7j8Ckb53NvQjdEHgVSbjB+QsyPyoR5cavuN7aNOvy0gAAAAAOgAAAAAIAACAAAACb/8Zwake3b7HI7dqJZPV9dkrZdjbE8L4eTCXC+keNSnAAAAA1w4Ckg15rQoE399B2ZNQw6bx159ThnJnXQhYcxokZici+xDWEkjZ7k5YWMHRdp94qXEOy2szlF7kN7tIOc87ucuL28Mwdtgi0bIS+wc6vnKB70Q9otpB1C1TtqPM44n9KHteqxJAvGWD6A8RH2E/nQAAAAH9NIZxaiQTzJohxIn7taUt9cQQ/03mvOxI9Suhklkay9apLu3OR/aKSOwhUjAUF4FX95p8uxHoFPzJoN5zktmw=" type="string" />
+      <property key="GoogleDrive.ShowOthersDrives" value="True" type="string" />
+      <property key="TreeVisible" value="True" type="bool" />
+      <property key="listview" value="details" type="string" />
+    </account>
+  </accounts>
+</CloudAccounts>

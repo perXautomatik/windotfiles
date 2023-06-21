@@ -1,0 +1,104 @@
+<?xml version="1.0"?>
+<AirExplorer version="0.1">
+  <properties>
+    <property key="SearchListColumnWidth-2" value="116" type="int" />
+    <property key="TasksListColumnWidth-2" value="173" type="int" />
+    <property key="ClearCompleted" value="1" type="int" />
+    <property key="leftPanelPages-providers" type="string[]">
+      <entry>GoogleDrive</entry>
+    </property>
+    <property key="ShowHiddenFiles" value="False" type="bool" />
+    <property key="SearchListColumnPosition-5" value="5" type="int" />
+    <property key="WindowWidth" value="1403" type="int" />
+    <property key="SaveLogs" value="False" type="bool" />
+    <property key="FilesListColumnWidth-0" value="348" type="int" />
+    <property key="SearchListColumnPosition-1" value="1" type="int" />
+    <property key="TasksListColumnWidth-3" value="83" type="int" />
+    <property key="ScheduledTasksListColumnPosition-1" value="1" type="int" />
+    <property key="LocalTreeVisible" value="True" type="bool" />
+    <property key="WindowLocationX" value="364" type="int" />
+    <property key="WindowLocationY" value="55" type="int" />
+    <property key="ScheduledTasksListColumnPosition-0" value="0" type="int" />
+    <property key="rightPanelPages-providers" type="string[]">
+      <entry>local</entry>
+    </property>
+    <property key="ScheduledTasksListColumnPosition-4" value="4" type="int" />
+    <property key="TasksListColumnPosition-5" value="5" type="int" />
+    <property key="FilesListColumnWidth-2" value="116" type="int" />
+    <property key="DefailtProxyAuth" value="True" type="bool" />
+    <property key="SearchListColumnPosition-3" value="3" type="int" />
+    <property key="leftPanelPages-path" type="string[]">
+      <entry>My Drive [Christoffer Brobäck]/url/TabSessionManager - Backup</entry>
+    </property>
+    <property key="OnePanel" value="False" type="bool" />
+    <property key="FilesListColumnPosition-2" value="2" type="int" />
+    <property key="FilesListColumnPosition-1" value="1" type="int" />
+    <property key="StartMaximized" value="False" type="bool" />
+    <property key="FilesListColumnPosition-3" value="3" type="int" />
+    <property key="TasksListColumnWidth-5" value="105" type="int" />
+    <property key="EnableUploadSpeedLimit" value="False" type="bool" />
+    <property key="ScheduledTasksListColumnWidth-1" value="82" type="int" />
+    <property key="ScheduledTasksListColumnWidth-0" value="163" type="int" />
+    <property key="ScheduledTasksListColumnWidth-3" value="126" type="int" />
+    <property key="ScheduledTasksListColumnWidth-2" value="327" type="int" />
+    <property key="ScheduledTasksListColumnWidth-4" value="127" type="int" />
+    <property key="EnableParallelChunks" value="False" type="bool" />
+    <property key="Theme" value="Auto" type="string" />
+    <property key="TasksListColumnWidth-7" value="78" type="int" />
+    <property key="TasksListColumnPosition-6" value="6" type="int" />
+    <property key="TasksListColumnPosition-7" value="7" type="int" />
+    <property key="TasksListColumnPosition-4" value="4" type="int" />
+    <property key="SimultaneousDownloads" value="2" type="int" />
+    <property key="TasksListColumnPosition-2" value="2" type="int" />
+    <property key="TasksListColumnPosition-3" value="3" type="int" />
+    <property key="TasksListColumnPosition-0" value="0" type="int" />
+    <property key="TasksListColumnPosition-1" value="1" type="int" />
+    <property key="SearchListColumnPosition-4" value="4" type="int" />
+    <property key="MinimizeToTray" value="False" type="bool" />
+    <property key="FilesListColumnWidth-1" value="110" type="int" />
+    <property key="SearchListColumnPosition-0" value="0" type="int" />
+    <property key="CacheSearchs" type="string[]">
+      <entry>a</entry>
+    </property>
+    <property key="rightPanelPages-path" type="string[]">
+      <entry>Skrivbord\Den här datorn\SolidHalfTerr (D:)\Unsorted\TabSessionManager - Backup</entry>
+    </property>
+    <property key="EnablePassword" value="False" type="bool" />
+    <property key="TasksListColumnWidth-1" value="174" type="int" />
+    <property key="WindowHeight" value="863" type="int" />
+    <property key="ScheduledTasksListColumnPosition-3" value="3" type="int" />
+    <property key="FilesListColumnWidth-3" value="116" type="int" />
+    <property key="SimultaneousUploads" value="2" type="int" />
+    <property key="SearchListColumnPosition-2" value="2" type="int" />
+    <property key="LastVersioncheck" value="2022-03-15 15:42:25" type="string" />
+    <property key="leftPanelPages-aliases" type="string[]">
+      <entry>Christoffer Brobäck</entry>
+    </property>
+    <property key="EnableCommandLine" value="False" type="bool" />
+    <property key="leftPanelPages-accounts" type="string[]">
+      <entry>Christoffer Brobäck</entry>
+    </property>
+    <property key="rightPanelPages-aliases" type="string[]">
+      <entry>local</entry>
+    </property>
+    <property key="Language" value="sv-SE" type="string" />
+    <property key="Retries" value="6" type="int" />
+    <property key="EnableDownloadSpeedLimit" value="False" type="bool" />
+    <property key="rightPanelPages-accounts" type="string[]">
+      <entry>local</entry>
+    </property>
+    <property key="EnableBandwidthScheduller" value="False" type="bool" />
+    <property key="FilesListColumnPosition-0" value="0" type="int" />
+    <property key="TasksListColumnWidth-6" value="75" type="int" />
+    <property key="TasksListColumnWidth-4" value="81" type="int" />
+    <property key="ScheduledTasksListColumnPosition-2" value="2" type="int" />
+    <property key="TasksListColumnWidth-0" value="98" type="int" />
+    <property key="DetailedLog" value="False" type="bool" />
+    <property key="localListViewMode" value="details" type="string" />
+    <property key="SearchListColumnWidth-5" value="116" type="int" />
+    <property key="SearchListColumnWidth-4" value="116" type="int" />
+    <property key="SearchListColumnWidth-1" value="110" type="int" />
+    <property key="SearchListColumnWidth-0" value="150" type="int" />
+    <property key="SearchListColumnWidth-3" value="116" type="int" />
+  </properties>
+</AirExplorer>
