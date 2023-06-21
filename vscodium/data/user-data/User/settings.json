@@ -1,0 +1,66 @@
+{
+    "security.workspace.trust.untrustedFiles": "open",
+    "pymakr.devices.configs": {
+        "serial://COM1": {
+            "autoConnect": "onLostConnection",
+            "username": "micro",
+            "password": "python",
+            "hidden": false,
+            "rootPath": null,
+            "adapterOptions": {}
+        },
+        "e661a4d4176db52b": {
+            "autoConnect": "always",
+            "name": "PicoIot",
+            "username": "micro",
+            "password": "python",
+            "hidden": false,
+            "rootPath": "/",
+            "adapterOptions": {}
+        },
+        "serial://": {
+            "autoConnect": "onLostConnection",
+            "name": "",
+            "username": "micro",
+            "password": "python",
+            "hidden": true,
+            "rootPath": null,
+            "adapterOptions": {}
+        },
+        "6&2838f1dc&0&3": {
+            "autoConnect": "onLostConnection",
+            "name": "",
+            "username": "micro",
+            "password": "python",
+            "hidden": false,
+            "rootPath": null,
+            "adapterOptions": {}
+        }
+    },
+    "pymakr.misc.notifications": {
+        "PicoIot / unknown seems to be busy. Do you wish restart it in safe mode": "Restart in safe mode",
+        "PicoIot / P2_Blink seems to be busy. Do you wish restart it in safe mode": "Restart in safe mode",
+        "Kommunikationsport (COM1) / unknown seems to be busy. Do you wish restart it in safe mode": "Restart in safe mode",
+        "A terminal for PicoIot / P2_Blink already exists.": "Open existing terminal",
+        "\"Open file on device.\" opens the corresponding file on all idle devices that are connected to the file's project.": "Don't show again",
+        "Could not safeboot device. Please hard reset the device and verify that a shield is installed.": "Don't show again",
+        "PicoIot / IoT seems to be busy. Do you wish restart it in safe mode": "Restart in safe mode",
+        "A terminal for PicoIot / IoT already exists.": "Create new shared terminal",
+        "A terminal for PicoIot / unknown already exists.": "Create new shared terminal"
+    },
+    "git.openRepositoryInParentFolders": "never",
+    "git.enableSmartCommit": true,
+    "debug.openDebug": "neverOpen",
+    "editor.tabCompletion": "on",
+    "files.defaultLanguage": "powershell",
+    "workbench.colorTheme": "Visual Studio 2019 Light",
+    "editor.wordSeparators": "`~!@#%^&*()-=+[{]}\\|;:'\",.<>/?",
+    "powershell.buttons.showPanelMovementButtons": true,
+    "powershell.codeFolding.showLastLine": false,
+    "git.confirmSync": false,
+    "omnisharp.dotNetCliPaths": [
+        "C:\\ProgramData\\scoop\\apps\\dotnet-script\\1.4.0\\dotnet-script.exe"
+    ],
+    "powershell.integratedConsole.startInBackground": true,
+    "powershell.debugging.createTemporaryIntegratedConsole": true
+}

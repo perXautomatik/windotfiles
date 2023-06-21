@@ -1,0 +1,5908 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Produced by Beyond Compare 4 from Scooter Software -->
+<BCPreferences Version="1" MinVersion="1">
+	<TBcPrefs>
+		<BackupDir Value="E:\bCompareBackups"/>
+		<BackupOnCopy Value="True"/>
+		<BackupOnSave Value="True"/>
+		<FileCheckForChangesAutoReload Value="True"/>
+		<FileComparePriority Value="tjpLow"/>
+		<FileUseLeftRatio Value="True"/>
+		<FileVertScrollBarSingle Value="True"/>
+		<FilterPresets Value="All files&#2;*.*&#4;C++ source&#2;*.cpp;*.hpp;*.c;*.h;*.cc&#4;Delphi source&#2;*.pas;*.inc;*.dfm;*.nfm;*.xfm;*.dpr;*.dpk&#4;HTML source&#2;*.htm;*.html;*.xml;*.jpg;*.gif;*.png&#4;Java source&#2;*.java;*.jj;*.jjt&#4;OneLvl&#2;*\*&#4;minus git&#2;-.git\&#4;notgit&#2;-.git\&#4;-WithoutExtensionAndgit&#2;-*.;-.\.git\&#4;Backups&#2;*(*).*;*_*.*;*.~*;*.*.bak&#4;Backups&#2;*(*).*;*-5CG84229D5.*;*.~*;*.*.bak&#4;"/>
+		<HomeMRUSessionOnly Value="True"/>
+		<LogAutoSaveFilename Value="E:\OneDrive - Region Gotland\PortableApps\Beyond Compare 4\BcLogTrace.txt"/>
+		<LogIncludeDebug Value="True"/>
+		<LogIncludeOpDetails Value="True"/>
+		<LogMaxSize Value="1000"/>
+		<NextDiffAfterCopy Value="True"/>
+		<NextDiffLoadFirst Value="True"/>
+		<NextDiffWrap Value="True"/>
+		<OpBeepWhenFinished Value="True"/>
+		<OpClearCDReadOnly Value="True"/>
+		<OpConfirmCompare Value="False"/>
+		<OpConfirmCopy Value="False"/>
+		<OpConfirmDeleteNoSides Value="True"/>
+		<OpConfirmMove Value="False"/>
+		<QuickCompareRulesBased Value="True"/>
+		<ScriptSharedDir Value="E:\OneDrive - Region Gotland\Till Github\important, backup, config\BcompareScripts"/>
+		<SharedSessionFilename Value="E:\OneDrive - Region Gotland\Till Github\important, backup, config\BcompareSessions\BCSessions-Shared.xml"/>
+		<TabNewNext Value="True"/>
+		<TextCursorBeyondEOL Value="True"/>
+		<TextRightGutter Value="True"/>
+		<TextSyntaxDiffs Value="True"/>
+		<TextUseInputFont Value="True"/>
+		<TextUseOrphanColor Value="True"/>
+		<WorkspaceAutoSaveName Value="last"/>
+		<Workspaces>
+			<Item Value="a">
+				<Windows>
+					<_0>
+						<PosStr Value="123;55;1208;967"/>
+						<Tabs>
+							<_0>
+								<TDirCompareSession>
+									<Rules>
+										<AlignWiths>
+											<_0>
+												<FindText Value="(.*)\s?[(]\d*[)](.*)"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1$2"/>
+											</_0>
+											<_1>
+												<FindText Value="(.*)\s?[(]\d*[)]"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_1>
+											<_2>
+												<FindText Value="(.*)[^a-zA-Z]{4}"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_2>
+											<_3>
+												<FindText Value="(.*)[^a-zA-Z]{4}(.*)"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1$2"/>
+											</_3>
+											<_4>
+												<FindText Value="(.*) [(]2[)]"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_4>
+											<_5>
+												<FindText Value="(.*)[.]bak"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_5>
+											<_6>
+												<FindText Value="(.*) [(].*conflicted.*[)](.*)"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1$2"/>
+											</_6>
+											<_7>
+												<FindText Value="(.*)~"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_7>
+										</AlignWiths>
+										<UseVersionComparison Value="True"/>
+									</Rules>
+									<Specs>
+										<Left Value="E:\distributions\anaconda3\lib"/>
+										<Right Value="D:\distributions\anaconda3\lib"/>
+									</Specs>
+									<State>
+										<ColExtVisible Value="True"/>
+										<ColExtWidth Value="7"/>
+										<ColModifiedWidth Value="220"/>
+										<ColPathWidth Value="200"/>
+										<ColSizeWidth Value="131"/>
+										<DirHandling Value="dirCompareFilesOnly"/>
+										<DisplayFilter Value="[showRightAdded, showRightChanged]"/>
+										<InsigIgnored Value="True"/>
+										<SortCol Value="colSize"/>
+										<SortDown Value="True"/>
+									</State>
+								</TDirCompareSession>
+								<ZOrder Value="2"/>
+							</_0>
+							<_1>
+								<TDirCompareSession>
+									<Filters>
+										<OtherFilters>
+											<_0 Value="TDirSmallerThanSizeFilterItem">
+												<Size Value="57"/>
+											</_0>
+										</OtherFilters>
+									</Filters>
+									<Rules>
+										<AlignWiths>
+											<_0>
+												<FindText Value="home"/>
+												<PathMask Value=".\wslunix\"/>
+												<ReplaceText Value="ubuntu homefolder"/>
+											</_0>
+											<_1>
+												<FindText Value="SteamLibrary"/>
+												<PathMask Value=".\"/>
+												<ReplaceText Value="GOG Games"/>
+											</_1>
+											<_2>
+												<FindText Value="Log"/>
+												<PathMask Value=".\ToDatabase\"/>
+												<ReplaceText Value="Similarity-logs"/>
+											</_2>
+											<_3>
+												<FindText Value="distributions"/>
+												<PathMask Value=".\"/>
+												<ReplaceText Value="Python25"/>
+											</_3>
+											<_4>
+												<FindText Value="Google Drive"/>
+												<PathMask Value=".\"/>
+												<ReplaceText Value="oldNonSmartPhone"/>
+											</_4>
+											<_5>
+												<FindText Value="Programming(projects)"/>
+												<PathMask Value=".\"/>
+												<ReplaceText Value="IdeaProjects"/>
+											</_5>
+											<_6>
+												<FindText Value="(.*)\s?[(]\d*[)](.*)"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1$2"/>
+											</_6>
+											<_7>
+												<FindText Value="(.*)\s?[(]\d*[)]"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_7>
+											<_8>
+												<FindText Value="(.*)[^a-zA-Z]{4}"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_8>
+											<_9>
+												<FindText Value="(.*)[^a-zA-Z]{4}(.*)"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1$2"/>
+											</_9>
+											<_10>
+												<FindText Value="(.*) [(]2[)]"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_10>
+											<_11>
+												<FindText Value="(.*)[.]bak"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_11>
+											<_12>
+												<FindText Value="(.*) [(].*conflicted.*[)](.*)"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1$2"/>
+											</_12>
+											<_13>
+												<FindText Value="(.*)~"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_13>
+										</AlignWiths>
+										<ArchiveHandling Value="ahFolderAlways"/>
+										<FollowSymLinks Value="True"/>
+										<UseContentComparison Value="True"/>
+										<UseVersionComparison Value="True"/>
+									</Rules>
+									<Specs>
+										<Left Value="E:\SteamLibrary"/>
+										<Right Value="D:\GOG Games"/>
+									</Specs>
+									<State>
+										<ColExtVisible Value="True"/>
+										<ColExtWidth Value="74"/>
+										<ColModifiedWidth Value="141"/>
+										<ColPathWidth Value="96"/>
+										<ColSizeWidth Value="146"/>
+										<DirHandling Value="dirCompareFilesOnly"/>
+										<DisplayFilter Value="[showRightAdded, showRightChanged]"/>
+										<InsigIgnored Value="True"/>
+										<SortCol Value="colModified"/>
+									</State>
+								</TDirCompareSession>
+								<ZOrder Value="3"/>
+							</_1>
+							<_2>
+								<TDirCompareSession>
+									<Filters>
+										<OtherFilters>
+											<_0 Value="TDirSmallerThanSizeFilterItem">
+												<Size Value="59"/>
+											</_0>
+										</OtherFilters>
+									</Filters>
+									<Rules>
+										<AlignWiths>
+											<_0>
+												<FindText Value="jdk1.8.0_211_x64"/>
+												<PathMask Value=".\Java\"/>
+												<ReplaceText Value="jdk1.8.0_101"/>
+											</_0>
+											<_1>
+												<FindText Value="jdk1.8.0_172"/>
+												<PathMask Value=".\Java\"/>
+												<ReplaceText Value="jre1.8.0_131"/>
+											</_1>
+											<_2>
+												<FindText Value="Beond Compare 4"/>
+												<PathMask Value=".\"/>
+												<ReplaceText Value="Beyond Compare 4"/>
+											</_2>
+											<_3>
+												<FindText Value="home"/>
+												<PathMask Value=".\wslunix\"/>
+												<ReplaceText Value="ubuntu homefolder"/>
+											</_3>
+											<_4>
+												<FindText Value="SteamLibrary"/>
+												<PathMask Value=".\"/>
+												<ReplaceText Value="GOG Games"/>
+											</_4>
+											<_5>
+												<FindText Value="Log"/>
+												<PathMask Value=".\ToDatabase\"/>
+												<ReplaceText Value="Similarity-logs"/>
+											</_5>
+											<_6>
+												<FindText Value="distributions"/>
+												<PathMask Value=".\"/>
+												<ReplaceText Value="Python25"/>
+											</_6>
+											<_7>
+												<FindText Value="Google Drive"/>
+												<PathMask Value=".\"/>
+												<ReplaceText Value="oldNonSmartPhone"/>
+											</_7>
+											<_8>
+												<FindText Value="Programming(projects)"/>
+												<PathMask Value=".\"/>
+												<ReplaceText Value="IdeaProjects"/>
+											</_8>
+											<_9>
+												<FindText Value="(.*)\s?[(]\d*[)](.*)"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1$2"/>
+											</_9>
+											<_10>
+												<FindText Value="(.*)\s?[(]\d*[)]"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_10>
+											<_11>
+												<FindText Value="(.*)[^a-zA-Z]{4}"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_11>
+											<_12>
+												<FindText Value="(.*)[^a-zA-Z]{4}(.*)"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1$2"/>
+											</_12>
+											<_13>
+												<FindText Value="(.*) [(]2[)]"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_13>
+											<_14>
+												<FindText Value="(.*)[.]bak"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_14>
+											<_15>
+												<FindText Value="(.*) [(].*conflicted.*[)](.*)"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1$2"/>
+											</_15>
+											<_16>
+												<FindText Value="(.*)~"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_16>
+										</AlignWiths>
+										<ArchiveHandling Value="ahFileAlways"/>
+										<FollowSymLinks Value="True"/>
+										<UseContentComparison Value="True"/>
+										<UseVersionComparison Value="True"/>
+									</Rules>
+									<Specs>
+										<Left Value="E:\Program Files (x86)"/>
+										<Right Value="D:\Program Files (x86)"/>
+									</Specs>
+									<State>
+										<ColExtVisible Value="True"/>
+										<ColExtWidth Value="82"/>
+										<ColModifiedWidth Value="83"/>
+										<ColPathWidth Value="96"/>
+										<ColSizeWidth Value="130"/>
+										<DirHandling Value="dirCompareFilesOnly"/>
+										<DisplayFilter Value="[showRightAdded, showRightChanged]"/>
+										<InsigIgnored Value="True"/>
+										<SortCol Value="colSize"/>
+										<SortDown Value="True"/>
+										<SortSide Value="dsRight"/>
+									</State>
+								</TDirCompareSession>
+								<ZOrder Value="1"/>
+							</_2>
+							<_3>
+								<TDirCompareSession>
+									<Filters>
+										<OtherFilters>
+											<_0 Value="TDirSmallerThanSizeFilterItem">
+												<Size Value="59"/>
+											</_0>
+										</OtherFilters>
+									</Filters>
+									<Rules>
+										<AlignWiths>
+											<_0>
+												<FindText Value="Avidemux64"/>
+												<PathMask Value=".\"/>
+												<ReplaceText Value="Avidemux 2.5"/>
+											</_0>
+											<_1>
+												<FindText Value="gimp"/>
+												<PathMask Value=".\"/>
+												<ReplaceText Value="GIMP 2"/>
+											</_1>
+											<_2>
+												<FindText Value="TortioseGit"/>
+												<PathMask Value=".\"/>
+												<ReplaceText Value="TortoiseGit"/>
+											</_2>
+											<_3>
+												<FindText Value="home"/>
+												<PathMask Value=".\wslunix\"/>
+												<ReplaceText Value="ubuntu homefolder"/>
+											</_3>
+											<_4>
+												<FindText Value="SteamLibrary"/>
+												<PathMask Value=".\"/>
+												<ReplaceText Value="GOG Games"/>
+											</_4>
+											<_5>
+												<FindText Value="Log"/>
+												<PathMask Value=".\ToDatabase\"/>
+												<ReplaceText Value="Similarity-logs"/>
+											</_5>
+											<_6>
+												<FindText Value="distributions"/>
+												<PathMask Value=".\"/>
+												<ReplaceText Value="Python25"/>
+											</_6>
+											<_7>
+												<FindText Value="Google Drive"/>
+												<PathMask Value=".\"/>
+												<ReplaceText Value="oldNonSmartPhone"/>
+											</_7>
+											<_8>
+												<FindText Value="Programming(projects)"/>
+												<PathMask Value=".\"/>
+												<ReplaceText Value="IdeaProjects"/>
+											</_8>
+											<_9>
+												<FindText Value="(.*)\s?[(]\d*[)](.*)"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1$2"/>
+											</_9>
+											<_10>
+												<FindText Value="(.*)\s?[(]\d*[)]"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_10>
+											<_11>
+												<FindText Value="(.*)[^a-zA-Z]{4}"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_11>
+											<_12>
+												<FindText Value="(.*)[^a-zA-Z]{4}(.*)"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1$2"/>
+											</_12>
+											<_13>
+												<FindText Value="(.*) [(]2[)]"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_13>
+											<_14>
+												<FindText Value="(.*)[.]bak"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_14>
+											<_15>
+												<FindText Value="(.*) [(].*conflicted.*[)](.*)"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1$2"/>
+											</_15>
+											<_16>
+												<FindText Value="(.*)~"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_16>
+										</AlignWiths>
+										<ArchiveHandling Value="ahFileAlways"/>
+										<FollowSymLinks Value="True"/>
+										<UseVersionComparison Value="True"/>
+									</Rules>
+									<Specs>
+										<Left Value="E:\Program Files"/>
+										<Right Value="D:\Program Files"/>
+									</Specs>
+									<State>
+										<ColExtVisible Value="True"/>
+										<ColExtWidth Value="65"/>
+										<ColModifiedWidth Value="141"/>
+										<ColPathWidth Value="96"/>
+										<ColSizeWidth Value="98"/>
+										<DirHandling Value="dirCompareFilesOnly"/>
+										<DisplayFilter Value="[showRightAdded, showRightChanged]"/>
+										<InsigIgnored Value="True"/>
+										<SortCol Value="colSize"/>
+										<SortDown Value="True"/>
+										<SortSide Value="dsRight"/>
+									</State>
+								</TDirCompareSession>
+								<ZOrder Value="0"/>
+							</_3>
+							<_4>
+								<TDirCompareSession>
+									<Filters>
+										<OtherFilters>
+											<_0 Value="TDirSmallerThanSizeFilterItem">
+												<Size Value="59"/>
+											</_0>
+										</OtherFilters>
+									</Filters>
+									<Rules>
+										<AlignWiths>
+											<_0>
+												<FindText Value="home"/>
+												<PathMask Value=".\wslunix\"/>
+												<ReplaceText Value="ubuntu homefolder"/>
+											</_0>
+											<_1>
+												<FindText Value="SteamLibrary"/>
+												<PathMask Value=".\"/>
+												<ReplaceText Value="GOG Games"/>
+											</_1>
+											<_2>
+												<FindText Value="Log"/>
+												<PathMask Value=".\ToDatabase\"/>
+												<ReplaceText Value="Similarity-logs"/>
+											</_2>
+											<_3>
+												<FindText Value="distributions"/>
+												<PathMask Value=".\"/>
+												<ReplaceText Value="Python25"/>
+											</_3>
+											<_4>
+												<FindText Value="Google Drive"/>
+												<PathMask Value=".\"/>
+												<ReplaceText Value="oldNonSmartPhone"/>
+											</_4>
+											<_5>
+												<FindText Value="Programming(projects)"/>
+												<PathMask Value=".\"/>
+												<ReplaceText Value="IdeaProjects"/>
+											</_5>
+											<_6>
+												<FindText Value="(.*)\s?[(]\d*[)](.*)"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1$2"/>
+											</_6>
+											<_7>
+												<FindText Value="(.*)\s?[(]\d*[)]"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_7>
+											<_8>
+												<FindText Value="(.*)[^a-zA-Z]{4}"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_8>
+											<_9>
+												<FindText Value="(.*)[^a-zA-Z]{4}(.*)"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1$2"/>
+											</_9>
+											<_10>
+												<FindText Value="(.*) [(]2[)]"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_10>
+											<_11>
+												<FindText Value="(.*)[.]bak"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_11>
+											<_12>
+												<FindText Value="(.*) [(].*conflicted.*[)](.*)"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1$2"/>
+											</_12>
+											<_13>
+												<FindText Value="(.*)~"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_13>
+										</AlignWiths>
+										<ArchiveHandling Value="ahFileAlways"/>
+										<FollowSymLinks Value="True"/>
+										<UseVersionComparison Value="True"/>
+									</Rules>
+									<Specs>
+										<Left Value="E:\ProgramData"/>
+										<Right Value="D:\ProgramData"/>
+									</Specs>
+									<State>
+										<ColExtVisible Value="True"/>
+										<ColExtWidth Value="49"/>
+										<ColModifiedWidth Value="133"/>
+										<ColPathWidth Value="96"/>
+										<ColSizeWidth Value="124"/>
+										<DirHandling Value="dirCompareFilesOnly"/>
+										<DisplayFilter Value="[showRightAdded, showRightChanged]"/>
+										<InsigIgnored Value="True"/>
+										<SortCol Value="colSize"/>
+										<SortSide Value="dsRight"/>
+									</State>
+								</TDirCompareSession>
+								<ZOrder Value="5"/>
+							</_4>
+							<_5>
+								<TDirCompareSession>
+									<Filters>
+										<OtherFilters>
+											<_0 Value="TDirSmallerThanSizeFilterItem">
+												<Size Value="59"/>
+											</_0>
+										</OtherFilters>
+									</Filters>
+									<Rules>
+										<AlignWiths>
+											<_0>
+												<FindText Value="SteamLibrary"/>
+												<PathMask Value=".\"/>
+												<ReplaceText Value="GOG Games"/>
+											</_0>
+											<_1>
+												<FindText Value="Log"/>
+												<PathMask Value=".\ToDatabase\"/>
+												<ReplaceText Value="Similarity-logs"/>
+											</_1>
+											<_2>
+												<FindText Value="distributions"/>
+												<PathMask Value=".\"/>
+												<ReplaceText Value="Python25"/>
+											</_2>
+											<_3>
+												<FindText Value="Google Drive"/>
+												<PathMask Value=".\"/>
+												<ReplaceText Value="oldNonSmartPhone"/>
+											</_3>
+											<_4>
+												<FindText Value="Programming(projects)"/>
+												<PathMask Value=".\"/>
+												<ReplaceText Value="IdeaProjects"/>
+											</_4>
+											<_5>
+												<FindText Value="(.*)\s?[(]\d*[)](.*)"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1$2"/>
+											</_5>
+											<_6>
+												<FindText Value="(.*)\s?[(]\d*[)]"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_6>
+											<_7>
+												<FindText Value="(.*)[^a-zA-Z]{4}"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_7>
+											<_8>
+												<FindText Value="(.*)[^a-zA-Z]{4}(.*)"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1$2"/>
+											</_8>
+											<_9>
+												<FindText Value="(.*) [(]2[)]"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_9>
+											<_10>
+												<FindText Value="(.*)[.]bak"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_10>
+											<_11>
+												<FindText Value="(.*) [(].*conflicted.*[)](.*)"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1$2"/>
+											</_11>
+											<_12>
+												<FindText Value="(.*)~"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_12>
+										</AlignWiths>
+										<ArchiveHandling Value="ahFolderAlways"/>
+										<FollowSymLinks Value="True"/>
+										<UseTimestampComparison Value="False"/>
+										<UseVersionComparison Value="True"/>
+									</Rules>
+									<Specs>
+										<Left Value="E:\Pictures"/>
+										<Right Value="D:\Pictures"/>
+									</Specs>
+									<State>
+										<ColExtVisible Value="True"/>
+										<ColExtWidth Value="7"/>
+										<ColModifiedWidth Value="220"/>
+										<ColPathWidth Value="200"/>
+										<ColSizeWidth Value="131"/>
+										<DirHandling Value="dirCompareFilesOnly"/>
+										<InsigIgnored Value="True"/>
+										<SortCol Value="colCompareStatus"/>
+										<SortDown Value="True"/>
+										<SortSide Value="dsRight"/>
+									</State>
+								</TDirCompareSession>
+								<ZOrder Value="4"/>
+							</_5>
+						</Tabs>
+						<ZOrder Value="1"/>
+					</_0>
+					<_1>
+						<PosStr Value="181;583;1501;1495;2"/>
+						<Tabs>
+							<_0>
+								<TDirCompareSession>
+									<Filters>
+										<NameFilter Value="-.\.git\"/>
+									</Filters>
+									<Rules>
+										<AlignWiths>
+											<_0>
+												<FindText Value="(.*)\s?[(]\d*[)](.*)"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1$2"/>
+											</_0>
+											<_1>
+												<FindText Value="(.*)\s?[(]\d*[)]"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_1>
+											<_2>
+												<FindText Value="(.*)[^a-zA-Z]{4}"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_2>
+											<_3>
+												<FindText Value="(.*)[^a-zA-Z]{4}(.*)"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1$2"/>
+											</_3>
+											<_4>
+												<FindText Value="(.*) [(]2[)]"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_4>
+											<_5>
+												<FindText Value="(.*)[.]bak"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_5>
+											<_6>
+												<FindText Value="(.*) [(].*conflicted.*[)](.*)"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1$2"/>
+											</_6>
+											<_7>
+												<FindText Value="(.*)~"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_7>
+										</AlignWiths>
+										<UseContentComparison Value="True"/>
+										<UseVersionComparison Value="True"/>
+									</Rules>
+									<Specs>
+										<Left Value="E:\SteamLibrary\Tools\Poe"/>
+										<Right Value="C:\ProgramData"/>
+									</Specs>
+									<State>
+										<ColExtVisible Value="True"/>
+										<ColExtWidth Value="74"/>
+										<ColModifiedWidth Value="141"/>
+										<ColPathWidth Value="96"/>
+										<ColSizeWidth Value="146"/>
+										<DirHandling Value="dirCompareFilesOnly"/>
+										<DisplayFilter Value="[showRightAdded, showRightChanged]"/>
+										<InsigIgnored Value="True"/>
+										<SortCol Value="colSize"/>
+										<SortDown Value="True"/>
+										<SortSide Value="dsRight"/>
+									</State>
+								</TDirCompareSession>
+								<ZOrder Value="0"/>
+							</_0>
+							<_1>
+								<TDirSyncSession>
+									<Filters>
+										<NameFilter Value="-.\.git\"/>
+									</Filters>
+									<Rules>
+										<AlignWiths>
+											<_0>
+												<FindText Value="(.*)\s?[(]\d*[)](.*)"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1$2"/>
+											</_0>
+											<_1>
+												<FindText Value="(.*)\s?[(]\d*[)]"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_1>
+											<_2>
+												<FindText Value="(.*)[^a-zA-Z]{4}"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_2>
+											<_3>
+												<FindText Value="(.*)[^a-zA-Z]{4}(.*)"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1$2"/>
+											</_3>
+											<_4>
+												<FindText Value="(.*) [(]2[)]"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_4>
+											<_5>
+												<FindText Value="(.*)[.]bak"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_5>
+											<_6>
+												<FindText Value="(.*) [(].*conflicted.*[)](.*)"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1$2"/>
+											</_6>
+											<_7>
+												<FindText Value="(.*)~"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_7>
+										</AlignWiths>
+										<ExpandAllOnLoad Value="False"/>
+										<RightAddedSyncOp Value="soLeave"/>
+										<RightNewerSyncOp Value="soDeleteLeft"/>
+										<SameSyncOp Value="soDeleteLeft"/>
+										<SyncEmptyFolders Value="False"/>
+										<UseContentComparison Value="True"/>
+										<UseRecycleBin Value="True"/>
+										<UseVersionComparison Value="True"/>
+									</Rules>
+									<Specs>
+										<Left Value="C:\ProgramData\Path of Building"/>
+										<Right Value="E:\SteamLibrary\Tools\Poe\Path of Building"/>
+									</Specs>
+									<State>
+										<ColExtVisible Value="True"/>
+										<ColExtWidth Value="74"/>
+										<ColModifiedWidth Value="141"/>
+										<ColPathWidth Value="96"/>
+										<ColSizeWidth Value="146"/>
+										<InsigIgnored Value="True"/>
+										<SortCol Value="colSize"/>
+										<SortDown Value="True"/>
+										<SortSide Value="dsRight"/>
+									</State>
+								</TDirSyncSession>
+								<ZOrder Value="1"/>
+							</_1>
+						</Tabs>
+						<ZOrder Value="0"/>
+					</_1>
+				</Windows>
+			</Item>
+			<Item Value="b">
+				<Windows>
+					<_0>
+						<PosStr Value="123;55;1208;967"/>
+						<Tabs>
+							<_0>
+								<TDirCompareSession>
+									<Rules>
+										<AlignWiths>
+											<_0>
+												<FindText Value="(.*)\s?[(]\d*[)](.*)"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1$2"/>
+											</_0>
+											<_1>
+												<FindText Value="(.*)\s?[(]\d*[)]"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_1>
+											<_2>
+												<FindText Value="(.*)[^a-zA-Z]{4}"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_2>
+											<_3>
+												<FindText Value="(.*)[^a-zA-Z]{4}(.*)"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1$2"/>
+											</_3>
+											<_4>
+												<FindText Value="(.*) [(]2[)]"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_4>
+											<_5>
+												<FindText Value="(.*)[.]bak"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_5>
+											<_6>
+												<FindText Value="(.*) [(].*conflicted.*[)](.*)"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1$2"/>
+											</_6>
+											<_7>
+												<FindText Value="(.*)~"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_7>
+										</AlignWiths>
+										<UseVersionComparison Value="True"/>
+									</Rules>
+									<Specs>
+										<Left Value="E:\distributions\anaconda3\lib"/>
+										<Right Value="D:\distributions\anaconda3\lib"/>
+									</Specs>
+									<State>
+										<ColExtVisible Value="True"/>
+										<ColExtWidth Value="7"/>
+										<ColModifiedWidth Value="220"/>
+										<ColPathWidth Value="200"/>
+										<ColSizeWidth Value="131"/>
+										<DirHandling Value="dirCompareFilesOnly"/>
+										<DisplayFilter Value="[showRightAdded, showRightChanged]"/>
+										<InsigIgnored Value="True"/>
+										<SortCol Value="colSize"/>
+										<SortDown Value="True"/>
+									</State>
+								</TDirCompareSession>
+								<ZOrder Value="1"/>
+							</_0>
+							<_1>
+								<TDirCompareSession>
+									<Filters>
+										<OtherFilters>
+											<_0 Value="TDirSmallerThanSizeFilterItem">
+												<Size Value="57"/>
+											</_0>
+										</OtherFilters>
+									</Filters>
+									<Rules>
+										<AlignWiths>
+											<_0>
+												<FindText Value="home"/>
+												<PathMask Value=".\wslunix\"/>
+												<ReplaceText Value="ubuntu homefolder"/>
+											</_0>
+											<_1>
+												<FindText Value="SteamLibrary"/>
+												<PathMask Value=".\"/>
+												<ReplaceText Value="GOG Games"/>
+											</_1>
+											<_2>
+												<FindText Value="Log"/>
+												<PathMask Value=".\ToDatabase\"/>
+												<ReplaceText Value="Similarity-logs"/>
+											</_2>
+											<_3>
+												<FindText Value="distributions"/>
+												<PathMask Value=".\"/>
+												<ReplaceText Value="Python25"/>
+											</_3>
+											<_4>
+												<FindText Value="Google Drive"/>
+												<PathMask Value=".\"/>
+												<ReplaceText Value="oldNonSmartPhone"/>
+											</_4>
+											<_5>
+												<FindText Value="Programming(projects)"/>
+												<PathMask Value=".\"/>
+												<ReplaceText Value="IdeaProjects"/>
+											</_5>
+											<_6>
+												<FindText Value="(.*)\s?[(]\d*[)](.*)"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1$2"/>
+											</_6>
+											<_7>
+												<FindText Value="(.*)\s?[(]\d*[)]"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_7>
+											<_8>
+												<FindText Value="(.*)[^a-zA-Z]{4}"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_8>
+											<_9>
+												<FindText Value="(.*)[^a-zA-Z]{4}(.*)"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1$2"/>
+											</_9>
+											<_10>
+												<FindText Value="(.*) [(]2[)]"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_10>
+											<_11>
+												<FindText Value="(.*)[.]bak"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_11>
+											<_12>
+												<FindText Value="(.*) [(].*conflicted.*[)](.*)"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1$2"/>
+											</_12>
+											<_13>
+												<FindText Value="(.*)~"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_13>
+										</AlignWiths>
+										<ArchiveHandling Value="ahFolderAlways"/>
+										<FollowSymLinks Value="True"/>
+										<UseContentComparison Value="True"/>
+										<UseVersionComparison Value="True"/>
+									</Rules>
+									<Specs>
+										<Left Value="E:\SteamLibrary"/>
+										<Right Value="D:\GOG Games"/>
+									</Specs>
+									<State>
+										<ColExtVisible Value="True"/>
+										<ColExtWidth Value="74"/>
+										<ColModifiedWidth Value="141"/>
+										<ColPathWidth Value="96"/>
+										<ColSizeWidth Value="146"/>
+										<DirHandling Value="dirCompareFilesOnly"/>
+										<DisplayFilter Value="[showRightAdded, showRightChanged]"/>
+										<InsigIgnored Value="True"/>
+										<SortCol Value="colModified"/>
+									</State>
+								</TDirCompareSession>
+								<ZOrder Value="2"/>
+							</_1>
+							<_2>
+								<TDirCompareSession>
+									<Filters>
+										<OtherFilters>
+											<_0 Value="TDirSmallerThanSizeFilterItem">
+												<Size Value="59"/>
+											</_0>
+										</OtherFilters>
+									</Filters>
+									<Rules>
+										<AlignWiths>
+											<_0>
+												<FindText Value="jdk1.8.0_211_x64"/>
+												<PathMask Value=".\Java\"/>
+												<ReplaceText Value="jdk1.8.0_101"/>
+											</_0>
+											<_1>
+												<FindText Value="jdk1.8.0_172"/>
+												<PathMask Value=".\Java\"/>
+												<ReplaceText Value="jre1.8.0_131"/>
+											</_1>
+											<_2>
+												<FindText Value="Beond Compare 4"/>
+												<PathMask Value=".\"/>
+												<ReplaceText Value="Beyond Compare 4"/>
+											</_2>
+											<_3>
+												<FindText Value="home"/>
+												<PathMask Value=".\wslunix\"/>
+												<ReplaceText Value="ubuntu homefolder"/>
+											</_3>
+											<_4>
+												<FindText Value="SteamLibrary"/>
+												<PathMask Value=".\"/>
+												<ReplaceText Value="GOG Games"/>
+											</_4>
+											<_5>
+												<FindText Value="Log"/>
+												<PathMask Value=".\ToDatabase\"/>
+												<ReplaceText Value="Similarity-logs"/>
+											</_5>
+											<_6>
+												<FindText Value="distributions"/>
+												<PathMask Value=".\"/>
+												<ReplaceText Value="Python25"/>
+											</_6>
+											<_7>
+												<FindText Value="Google Drive"/>
+												<PathMask Value=".\"/>
+												<ReplaceText Value="oldNonSmartPhone"/>
+											</_7>
+											<_8>
+												<FindText Value="Programming(projects)"/>
+												<PathMask Value=".\"/>
+												<ReplaceText Value="IdeaProjects"/>
+											</_8>
+											<_9>
+												<FindText Value="(.*)\s?[(]\d*[)](.*)"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1$2"/>
+											</_9>
+											<_10>
+												<FindText Value="(.*)\s?[(]\d*[)]"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_10>
+											<_11>
+												<FindText Value="(.*)[^a-zA-Z]{4}"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_11>
+											<_12>
+												<FindText Value="(.*)[^a-zA-Z]{4}(.*)"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1$2"/>
+											</_12>
+											<_13>
+												<FindText Value="(.*) [(]2[)]"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_13>
+											<_14>
+												<FindText Value="(.*)[.]bak"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_14>
+											<_15>
+												<FindText Value="(.*) [(].*conflicted.*[)](.*)"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1$2"/>
+											</_15>
+											<_16>
+												<FindText Value="(.*)~"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_16>
+										</AlignWiths>
+										<ArchiveHandling Value="ahFileAlways"/>
+										<FollowSymLinks Value="True"/>
+										<UseContentComparison Value="True"/>
+										<UseVersionComparison Value="True"/>
+									</Rules>
+									<Specs>
+										<Left Value="E:\Program Files (x86)"/>
+										<Right Value="D:\Program Files (x86)"/>
+									</Specs>
+									<State>
+										<ColExtVisible Value="True"/>
+										<ColExtWidth Value="82"/>
+										<ColModifiedWidth Value="83"/>
+										<ColPathWidth Value="96"/>
+										<ColSizeWidth Value="130"/>
+										<DirHandling Value="dirCompareFilesOnly"/>
+										<DisplayFilter Value="[showRightAdded, showRightChanged]"/>
+										<InsigIgnored Value="True"/>
+										<SortCol Value="colSize"/>
+										<SortDown Value="True"/>
+										<SortSide Value="dsRight"/>
+									</State>
+								</TDirCompareSession>
+								<ZOrder Value="0"/>
+							</_2>
+							<_3>
+								<TDirCompareSession>
+									<Filters>
+										<OtherFilters>
+											<_0 Value="TDirSmallerThanSizeFilterItem">
+												<Size Value="59"/>
+											</_0>
+										</OtherFilters>
+									</Filters>
+									<Rules>
+										<AlignWiths>
+											<_0>
+												<FindText Value="Avidemux64"/>
+												<PathMask Value=".\"/>
+												<ReplaceText Value="Avidemux 2.5"/>
+											</_0>
+											<_1>
+												<FindText Value="gimp"/>
+												<PathMask Value=".\"/>
+												<ReplaceText Value="GIMP 2"/>
+											</_1>
+											<_2>
+												<FindText Value="TortioseGit"/>
+												<PathMask Value=".\"/>
+												<ReplaceText Value="TortoiseGit"/>
+											</_2>
+											<_3>
+												<FindText Value="home"/>
+												<PathMask Value=".\wslunix\"/>
+												<ReplaceText Value="ubuntu homefolder"/>
+											</_3>
+											<_4>
+												<FindText Value="SteamLibrary"/>
+												<PathMask Value=".\"/>
+												<ReplaceText Value="GOG Games"/>
+											</_4>
+											<_5>
+												<FindText Value="Log"/>
+												<PathMask Value=".\ToDatabase\"/>
+												<ReplaceText Value="Similarity-logs"/>
+											</_5>
+											<_6>
+												<FindText Value="distributions"/>
+												<PathMask Value=".\"/>
+												<ReplaceText Value="Python25"/>
+											</_6>
+											<_7>
+												<FindText Value="Google Drive"/>
+												<PathMask Value=".\"/>
+												<ReplaceText Value="oldNonSmartPhone"/>
+											</_7>
+											<_8>
+												<FindText Value="Programming(projects)"/>
+												<PathMask Value=".\"/>
+												<ReplaceText Value="IdeaProjects"/>
+											</_8>
+											<_9>
+												<FindText Value="(.*)\s?[(]\d*[)](.*)"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1$2"/>
+											</_9>
+											<_10>
+												<FindText Value="(.*)\s?[(]\d*[)]"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_10>
+											<_11>
+												<FindText Value="(.*)[^a-zA-Z]{4}"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_11>
+											<_12>
+												<FindText Value="(.*)[^a-zA-Z]{4}(.*)"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1$2"/>
+											</_12>
+											<_13>
+												<FindText Value="(.*) [(]2[)]"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_13>
+											<_14>
+												<FindText Value="(.*)[.]bak"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_14>
+											<_15>
+												<FindText Value="(.*) [(].*conflicted.*[)](.*)"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1$2"/>
+											</_15>
+											<_16>
+												<FindText Value="(.*)~"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_16>
+										</AlignWiths>
+										<ArchiveHandling Value="ahFileAlways"/>
+										<FollowSymLinks Value="True"/>
+										<UseVersionComparison Value="True"/>
+									</Rules>
+									<Specs>
+										<Left Value="E:\Program Files"/>
+										<Right Value="D:\Program Files"/>
+									</Specs>
+									<State>
+										<ColExtVisible Value="True"/>
+										<ColExtWidth Value="65"/>
+										<ColModifiedWidth Value="141"/>
+										<ColPathWidth Value="96"/>
+										<ColSizeWidth Value="98"/>
+										<DirHandling Value="dirCompareFilesOnly"/>
+										<DisplayFilter Value="[showRightAdded, showRightChanged]"/>
+										<InsigIgnored Value="True"/>
+										<SortCol Value="colSize"/>
+										<SortDown Value="True"/>
+										<SortSide Value="dsRight"/>
+									</State>
+								</TDirCompareSession>
+								<ZOrder Value="5"/>
+							</_3>
+							<_4>
+								<TDirCompareSession>
+									<Filters>
+										<OtherFilters>
+											<_0 Value="TDirSmallerThanSizeFilterItem">
+												<Size Value="59"/>
+											</_0>
+										</OtherFilters>
+									</Filters>
+									<Rules>
+										<AlignWiths>
+											<_0>
+												<FindText Value="home"/>
+												<PathMask Value=".\wslunix\"/>
+												<ReplaceText Value="ubuntu homefolder"/>
+											</_0>
+											<_1>
+												<FindText Value="SteamLibrary"/>
+												<PathMask Value=".\"/>
+												<ReplaceText Value="GOG Games"/>
+											</_1>
+											<_2>
+												<FindText Value="Log"/>
+												<PathMask Value=".\ToDatabase\"/>
+												<ReplaceText Value="Similarity-logs"/>
+											</_2>
+											<_3>
+												<FindText Value="distributions"/>
+												<PathMask Value=".\"/>
+												<ReplaceText Value="Python25"/>
+											</_3>
+											<_4>
+												<FindText Value="Google Drive"/>
+												<PathMask Value=".\"/>
+												<ReplaceText Value="oldNonSmartPhone"/>
+											</_4>
+											<_5>
+												<FindText Value="Programming(projects)"/>
+												<PathMask Value=".\"/>
+												<ReplaceText Value="IdeaProjects"/>
+											</_5>
+											<_6>
+												<FindText Value="(.*)\s?[(]\d*[)](.*)"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1$2"/>
+											</_6>
+											<_7>
+												<FindText Value="(.*)\s?[(]\d*[)]"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_7>
+											<_8>
+												<FindText Value="(.*)[^a-zA-Z]{4}"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_8>
+											<_9>
+												<FindText Value="(.*)[^a-zA-Z]{4}(.*)"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1$2"/>
+											</_9>
+											<_10>
+												<FindText Value="(.*) [(]2[)]"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_10>
+											<_11>
+												<FindText Value="(.*)[.]bak"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_11>
+											<_12>
+												<FindText Value="(.*) [(].*conflicted.*[)](.*)"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1$2"/>
+											</_12>
+											<_13>
+												<FindText Value="(.*)~"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_13>
+										</AlignWiths>
+										<ArchiveHandling Value="ahFileAlways"/>
+										<FollowSymLinks Value="True"/>
+										<UseVersionComparison Value="True"/>
+									</Rules>
+									<Specs>
+										<Left Value="E:\ProgramData"/>
+										<Right Value="D:\ProgramData"/>
+									</Specs>
+									<State>
+										<ColExtVisible Value="True"/>
+										<ColExtWidth Value="49"/>
+										<ColModifiedWidth Value="133"/>
+										<ColPathWidth Value="96"/>
+										<ColSizeWidth Value="124"/>
+										<DirHandling Value="dirCompareFilesOnly"/>
+										<DisplayFilter Value="[showRightAdded, showRightChanged]"/>
+										<InsigIgnored Value="True"/>
+										<SortCol Value="colSize"/>
+										<SortSide Value="dsRight"/>
+									</State>
+								</TDirCompareSession>
+								<ZOrder Value="4"/>
+							</_4>
+							<_5>
+								<TDirCompareSession>
+									<Filters>
+										<OtherFilters>
+											<_0 Value="TDirSmallerThanSizeFilterItem">
+												<Size Value="59"/>
+											</_0>
+										</OtherFilters>
+									</Filters>
+									<Rules>
+										<AlignWiths>
+											<_0>
+												<FindText Value="SteamLibrary"/>
+												<PathMask Value=".\"/>
+												<ReplaceText Value="GOG Games"/>
+											</_0>
+											<_1>
+												<FindText Value="Log"/>
+												<PathMask Value=".\ToDatabase\"/>
+												<ReplaceText Value="Similarity-logs"/>
+											</_1>
+											<_2>
+												<FindText Value="distributions"/>
+												<PathMask Value=".\"/>
+												<ReplaceText Value="Python25"/>
+											</_2>
+											<_3>
+												<FindText Value="Google Drive"/>
+												<PathMask Value=".\"/>
+												<ReplaceText Value="oldNonSmartPhone"/>
+											</_3>
+											<_4>
+												<FindText Value="Programming(projects)"/>
+												<PathMask Value=".\"/>
+												<ReplaceText Value="IdeaProjects"/>
+											</_4>
+											<_5>
+												<FindText Value="(.*)\s?[(]\d*[)](.*)"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1$2"/>
+											</_5>
+											<_6>
+												<FindText Value="(.*)\s?[(]\d*[)]"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_6>
+											<_7>
+												<FindText Value="(.*)[^a-zA-Z]{4}"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_7>
+											<_8>
+												<FindText Value="(.*)[^a-zA-Z]{4}(.*)"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1$2"/>
+											</_8>
+											<_9>
+												<FindText Value="(.*) [(]2[)]"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_9>
+											<_10>
+												<FindText Value="(.*)[.]bak"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_10>
+											<_11>
+												<FindText Value="(.*) [(].*conflicted.*[)](.*)"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1$2"/>
+											</_11>
+											<_12>
+												<FindText Value="(.*)~"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_12>
+										</AlignWiths>
+										<ArchiveHandling Value="ahFolderAlways"/>
+										<FollowSymLinks Value="True"/>
+										<UseTimestampComparison Value="False"/>
+										<UseVersionComparison Value="True"/>
+									</Rules>
+									<Specs>
+										<Left Value="E:\Pictures"/>
+										<Right Value="D:\Pictures"/>
+									</Specs>
+									<State>
+										<ColExtVisible Value="True"/>
+										<ColExtWidth Value="7"/>
+										<ColModifiedWidth Value="220"/>
+										<ColPathWidth Value="200"/>
+										<ColSizeWidth Value="131"/>
+										<DirHandling Value="dirCompareFilesOnly"/>
+										<InsigIgnored Value="True"/>
+										<SortCol Value="colCompareStatus"/>
+										<SortDown Value="True"/>
+										<SortSide Value="dsRight"/>
+									</State>
+								</TDirCompareSession>
+								<ZOrder Value="3"/>
+							</_5>
+						</Tabs>
+						<ZOrder Value="1"/>
+					</_0>
+					<_1>
+						<PosStr Value="181;583;1501;1495;2"/>
+						<Tabs>
+							<_0>
+								<TDirCompareSession>
+									<Filters>
+										<NameFilter Value="-.\.git\"/>
+									</Filters>
+									<Rules>
+										<AlignWiths>
+											<_0>
+												<FindText Value="(.*)\s?[(]\d*[)](.*)"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1$2"/>
+											</_0>
+											<_1>
+												<FindText Value="(.*)\s?[(]\d*[)]"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_1>
+											<_2>
+												<FindText Value="(.*)[^a-zA-Z]{4}"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_2>
+											<_3>
+												<FindText Value="(.*)[^a-zA-Z]{4}(.*)"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1$2"/>
+											</_3>
+											<_4>
+												<FindText Value="(.*) [(]2[)]"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_4>
+											<_5>
+												<FindText Value="(.*)[.]bak"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_5>
+											<_6>
+												<FindText Value="(.*) [(].*conflicted.*[)](.*)"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1$2"/>
+											</_6>
+											<_7>
+												<FindText Value="(.*)~"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_7>
+										</AlignWiths>
+										<UseContentComparison Value="True"/>
+										<UseVersionComparison Value="True"/>
+									</Rules>
+									<Specs>
+										<Left Value="E:\SteamLibrary\Tools\Poe"/>
+										<Right Value="C:\ProgramData"/>
+									</Specs>
+									<State>
+										<ColExtVisible Value="True"/>
+										<ColExtWidth Value="74"/>
+										<ColModifiedWidth Value="141"/>
+										<ColPathWidth Value="96"/>
+										<ColSizeWidth Value="146"/>
+										<DirHandling Value="dirCompareFilesOnly"/>
+										<DisplayFilter Value="[showRightAdded, showRightChanged]"/>
+										<InsigIgnored Value="True"/>
+										<SortCol Value="colSize"/>
+										<SortDown Value="True"/>
+										<SortSide Value="dsRight"/>
+									</State>
+								</TDirCompareSession>
+								<ZOrder Value="0"/>
+							</_0>
+							<_1>
+								<TDirSyncSession>
+									<Filters>
+										<NameFilter Value="-.\.git\"/>
+									</Filters>
+									<Rules>
+										<AlignWiths>
+											<_0>
+												<FindText Value="(.*)\s?[(]\d*[)](.*)"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1$2"/>
+											</_0>
+											<_1>
+												<FindText Value="(.*)\s?[(]\d*[)]"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_1>
+											<_2>
+												<FindText Value="(.*)[^a-zA-Z]{4}"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_2>
+											<_3>
+												<FindText Value="(.*)[^a-zA-Z]{4}(.*)"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1$2"/>
+											</_3>
+											<_4>
+												<FindText Value="(.*) [(]2[)]"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_4>
+											<_5>
+												<FindText Value="(.*)[.]bak"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_5>
+											<_6>
+												<FindText Value="(.*) [(].*conflicted.*[)](.*)"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1$2"/>
+											</_6>
+											<_7>
+												<FindText Value="(.*)~"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_7>
+										</AlignWiths>
+										<ExpandAllOnLoad Value="False"/>
+										<RightAddedSyncOp Value="soLeave"/>
+										<RightNewerSyncOp Value="soDeleteLeft"/>
+										<SameSyncOp Value="soDeleteLeft"/>
+										<SyncEmptyFolders Value="False"/>
+										<UseContentComparison Value="True"/>
+										<UseRecycleBin Value="True"/>
+										<UseVersionComparison Value="True"/>
+									</Rules>
+									<Specs>
+										<Left Value="C:\ProgramData\Path of Building"/>
+										<Right Value="E:\SteamLibrary\Tools\Poe\Path of Building"/>
+									</Specs>
+									<State>
+										<ColExtVisible Value="True"/>
+										<ColExtWidth Value="74"/>
+										<ColModifiedWidth Value="141"/>
+										<ColPathWidth Value="96"/>
+										<ColSizeWidth Value="146"/>
+										<InsigIgnored Value="True"/>
+										<SortCol Value="colSize"/>
+										<SortDown Value="True"/>
+										<SortSide Value="dsRight"/>
+									</State>
+								</TDirSyncSession>
+								<ZOrder Value="1"/>
+							</_1>
+						</Tabs>
+						<ZOrder Value="0"/>
+					</_1>
+				</Windows>
+			</Item>
+			<Item Value="c">
+				<Windows>
+					<_0>
+						<PosStr Value="123;55;1208;967"/>
+						<Tabs>
+							<_0>
+								<TDirCompareSession>
+									<Rules>
+										<AlignWiths>
+											<_0>
+												<FindText Value="(.*)\s?[(]\d*[)](.*)"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1$2"/>
+											</_0>
+											<_1>
+												<FindText Value="(.*)\s?[(]\d*[)]"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_1>
+											<_2>
+												<FindText Value="(.*)[^a-zA-Z]{4}"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_2>
+											<_3>
+												<FindText Value="(.*)[^a-zA-Z]{4}(.*)"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1$2"/>
+											</_3>
+											<_4>
+												<FindText Value="(.*) [(]2[)]"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_4>
+											<_5>
+												<FindText Value="(.*)[.]bak"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_5>
+											<_6>
+												<FindText Value="(.*) [(].*conflicted.*[)](.*)"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1$2"/>
+											</_6>
+											<_7>
+												<FindText Value="(.*)~"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_7>
+										</AlignWiths>
+										<UseVersionComparison Value="True"/>
+									</Rules>
+									<Specs>
+										<Left Value="E:\distributions\anaconda3\lib"/>
+										<Right Value="D:\distributions\anaconda3\lib"/>
+									</Specs>
+									<State>
+										<ColExtVisible Value="True"/>
+										<ColExtWidth Value="7"/>
+										<ColModifiedWidth Value="220"/>
+										<ColPathWidth Value="200"/>
+										<ColSizeWidth Value="131"/>
+										<DirHandling Value="dirCompareFilesOnly"/>
+										<DisplayFilter Value="[showRightAdded, showRightChanged]"/>
+										<InsigIgnored Value="True"/>
+										<SortCol Value="colSize"/>
+										<SortDown Value="True"/>
+									</State>
+								</TDirCompareSession>
+								<ZOrder Value="0"/>
+							</_0>
+							<_1>
+								<TDirCompareSession>
+									<Filters>
+										<OtherFilters>
+											<_0 Value="TDirSmallerThanSizeFilterItem">
+												<Size Value="57"/>
+											</_0>
+										</OtherFilters>
+									</Filters>
+									<Rules>
+										<AlignWiths>
+											<_0>
+												<FindText Value="home"/>
+												<PathMask Value=".\wslunix\"/>
+												<ReplaceText Value="ubuntu homefolder"/>
+											</_0>
+											<_1>
+												<FindText Value="SteamLibrary"/>
+												<PathMask Value=".\"/>
+												<ReplaceText Value="GOG Games"/>
+											</_1>
+											<_2>
+												<FindText Value="Log"/>
+												<PathMask Value=".\ToDatabase\"/>
+												<ReplaceText Value="Similarity-logs"/>
+											</_2>
+											<_3>
+												<FindText Value="distributions"/>
+												<PathMask Value=".\"/>
+												<ReplaceText Value="Python25"/>
+											</_3>
+											<_4>
+												<FindText Value="Google Drive"/>
+												<PathMask Value=".\"/>
+												<ReplaceText Value="oldNonSmartPhone"/>
+											</_4>
+											<_5>
+												<FindText Value="Programming(projects)"/>
+												<PathMask Value=".\"/>
+												<ReplaceText Value="IdeaProjects"/>
+											</_5>
+											<_6>
+												<FindText Value="(.*)\s?[(]\d*[)](.*)"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1$2"/>
+											</_6>
+											<_7>
+												<FindText Value="(.*)\s?[(]\d*[)]"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_7>
+											<_8>
+												<FindText Value="(.*)[^a-zA-Z]{4}"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_8>
+											<_9>
+												<FindText Value="(.*)[^a-zA-Z]{4}(.*)"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1$2"/>
+											</_9>
+											<_10>
+												<FindText Value="(.*) [(]2[)]"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_10>
+											<_11>
+												<FindText Value="(.*)[.]bak"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_11>
+											<_12>
+												<FindText Value="(.*) [(].*conflicted.*[)](.*)"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1$2"/>
+											</_12>
+											<_13>
+												<FindText Value="(.*)~"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_13>
+										</AlignWiths>
+										<ArchiveHandling Value="ahFolderAlways"/>
+										<FollowSymLinks Value="True"/>
+										<UseContentComparison Value="True"/>
+										<UseVersionComparison Value="True"/>
+									</Rules>
+									<Specs>
+										<Left Value="E:\SteamLibrary"/>
+										<Right Value="D:\GOG Games"/>
+									</Specs>
+									<State>
+										<ColExtVisible Value="True"/>
+										<ColExtWidth Value="74"/>
+										<ColModifiedWidth Value="141"/>
+										<ColPathWidth Value="96"/>
+										<ColSizeWidth Value="146"/>
+										<DirHandling Value="dirCompareFilesOnly"/>
+										<DisplayFilter Value="[showRightAdded, showRightChanged]"/>
+										<InsigIgnored Value="True"/>
+										<SortCol Value="colModified"/>
+									</State>
+								</TDirCompareSession>
+								<ZOrder Value="1"/>
+							</_1>
+							<_2>
+								<TDirCompareSession>
+									<Filters>
+										<OtherFilters>
+											<_0 Value="TDirSmallerThanSizeFilterItem">
+												<Size Value="59"/>
+											</_0>
+										</OtherFilters>
+									</Filters>
+									<Rules>
+										<AlignWiths>
+											<_0>
+												<FindText Value="jdk1.8.0_211_x64"/>
+												<PathMask Value=".\Java\"/>
+												<ReplaceText Value="jdk1.8.0_101"/>
+											</_0>
+											<_1>
+												<FindText Value="jdk1.8.0_172"/>
+												<PathMask Value=".\Java\"/>
+												<ReplaceText Value="jre1.8.0_131"/>
+											</_1>
+											<_2>
+												<FindText Value="Beond Compare 4"/>
+												<PathMask Value=".\"/>
+												<ReplaceText Value="Beyond Compare 4"/>
+											</_2>
+											<_3>
+												<FindText Value="home"/>
+												<PathMask Value=".\wslunix\"/>
+												<ReplaceText Value="ubuntu homefolder"/>
+											</_3>
+											<_4>
+												<FindText Value="SteamLibrary"/>
+												<PathMask Value=".\"/>
+												<ReplaceText Value="GOG Games"/>
+											</_4>
+											<_5>
+												<FindText Value="Log"/>
+												<PathMask Value=".\ToDatabase\"/>
+												<ReplaceText Value="Similarity-logs"/>
+											</_5>
+											<_6>
+												<FindText Value="distributions"/>
+												<PathMask Value=".\"/>
+												<ReplaceText Value="Python25"/>
+											</_6>
+											<_7>
+												<FindText Value="Google Drive"/>
+												<PathMask Value=".\"/>
+												<ReplaceText Value="oldNonSmartPhone"/>
+											</_7>
+											<_8>
+												<FindText Value="Programming(projects)"/>
+												<PathMask Value=".\"/>
+												<ReplaceText Value="IdeaProjects"/>
+											</_8>
+											<_9>
+												<FindText Value="(.*)\s?[(]\d*[)](.*)"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1$2"/>
+											</_9>
+											<_10>
+												<FindText Value="(.*)\s?[(]\d*[)]"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_10>
+											<_11>
+												<FindText Value="(.*)[^a-zA-Z]{4}"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_11>
+											<_12>
+												<FindText Value="(.*)[^a-zA-Z]{4}(.*)"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1$2"/>
+											</_12>
+											<_13>
+												<FindText Value="(.*) [(]2[)]"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_13>
+											<_14>
+												<FindText Value="(.*)[.]bak"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_14>
+											<_15>
+												<FindText Value="(.*) [(].*conflicted.*[)](.*)"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1$2"/>
+											</_15>
+											<_16>
+												<FindText Value="(.*)~"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_16>
+										</AlignWiths>
+										<ArchiveHandling Value="ahFileAlways"/>
+										<FollowSymLinks Value="True"/>
+										<UseContentComparison Value="True"/>
+										<UseVersionComparison Value="True"/>
+									</Rules>
+									<Specs>
+										<Left Value="E:\Program Files (x86)"/>
+										<Right Value="D:\Program Files (x86)"/>
+									</Specs>
+									<State>
+										<ColExtVisible Value="True"/>
+										<ColExtWidth Value="82"/>
+										<ColModifiedWidth Value="83"/>
+										<ColPathWidth Value="96"/>
+										<ColSizeWidth Value="130"/>
+										<DirHandling Value="dirCompareFilesOnly"/>
+										<DisplayFilter Value="[showRightAdded, showRightChanged]"/>
+										<InsigIgnored Value="True"/>
+										<SortCol Value="colSize"/>
+										<SortDown Value="True"/>
+										<SortSide Value="dsRight"/>
+									</State>
+								</TDirCompareSession>
+								<ZOrder Value="5"/>
+							</_2>
+							<_3>
+								<TDirCompareSession>
+									<Filters>
+										<OtherFilters>
+											<_0 Value="TDirSmallerThanSizeFilterItem">
+												<Size Value="59"/>
+											</_0>
+										</OtherFilters>
+									</Filters>
+									<Rules>
+										<AlignWiths>
+											<_0>
+												<FindText Value="Avidemux64"/>
+												<PathMask Value=".\"/>
+												<ReplaceText Value="Avidemux 2.5"/>
+											</_0>
+											<_1>
+												<FindText Value="gimp"/>
+												<PathMask Value=".\"/>
+												<ReplaceText Value="GIMP 2"/>
+											</_1>
+											<_2>
+												<FindText Value="TortioseGit"/>
+												<PathMask Value=".\"/>
+												<ReplaceText Value="TortoiseGit"/>
+											</_2>
+											<_3>
+												<FindText Value="home"/>
+												<PathMask Value=".\wslunix\"/>
+												<ReplaceText Value="ubuntu homefolder"/>
+											</_3>
+											<_4>
+												<FindText Value="SteamLibrary"/>
+												<PathMask Value=".\"/>
+												<ReplaceText Value="GOG Games"/>
+											</_4>
+											<_5>
+												<FindText Value="Log"/>
+												<PathMask Value=".\ToDatabase\"/>
+												<ReplaceText Value="Similarity-logs"/>
+											</_5>
+											<_6>
+												<FindText Value="distributions"/>
+												<PathMask Value=".\"/>
+												<ReplaceText Value="Python25"/>
+											</_6>
+											<_7>
+												<FindText Value="Google Drive"/>
+												<PathMask Value=".\"/>
+												<ReplaceText Value="oldNonSmartPhone"/>
+											</_7>
+											<_8>
+												<FindText Value="Programming(projects)"/>
+												<PathMask Value=".\"/>
+												<ReplaceText Value="IdeaProjects"/>
+											</_8>
+											<_9>
+												<FindText Value="(.*)\s?[(]\d*[)](.*)"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1$2"/>
+											</_9>
+											<_10>
+												<FindText Value="(.*)\s?[(]\d*[)]"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_10>
+											<_11>
+												<FindText Value="(.*)[^a-zA-Z]{4}"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_11>
+											<_12>
+												<FindText Value="(.*)[^a-zA-Z]{4}(.*)"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1$2"/>
+											</_12>
+											<_13>
+												<FindText Value="(.*) [(]2[)]"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_13>
+											<_14>
+												<FindText Value="(.*)[.]bak"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_14>
+											<_15>
+												<FindText Value="(.*) [(].*conflicted.*[)](.*)"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1$2"/>
+											</_15>
+											<_16>
+												<FindText Value="(.*)~"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_16>
+										</AlignWiths>
+										<ArchiveHandling Value="ahFileAlways"/>
+										<FollowSymLinks Value="True"/>
+										<UseVersionComparison Value="True"/>
+									</Rules>
+									<Specs>
+										<Left Value="E:\Program Files"/>
+										<Right Value="D:\Program Files"/>
+									</Specs>
+									<State>
+										<ColExtVisible Value="True"/>
+										<ColExtWidth Value="65"/>
+										<ColModifiedWidth Value="141"/>
+										<ColPathWidth Value="96"/>
+										<ColSizeWidth Value="98"/>
+										<DirHandling Value="dirCompareFilesOnly"/>
+										<DisplayFilter Value="[showRightAdded, showRightChanged]"/>
+										<InsigIgnored Value="True"/>
+										<SortCol Value="colSize"/>
+										<SortDown Value="True"/>
+										<SortSide Value="dsRight"/>
+									</State>
+								</TDirCompareSession>
+								<ZOrder Value="4"/>
+							</_3>
+							<_4>
+								<TDirCompareSession>
+									<Filters>
+										<OtherFilters>
+											<_0 Value="TDirSmallerThanSizeFilterItem">
+												<Size Value="59"/>
+											</_0>
+										</OtherFilters>
+									</Filters>
+									<Rules>
+										<AlignWiths>
+											<_0>
+												<FindText Value="home"/>
+												<PathMask Value=".\wslunix\"/>
+												<ReplaceText Value="ubuntu homefolder"/>
+											</_0>
+											<_1>
+												<FindText Value="SteamLibrary"/>
+												<PathMask Value=".\"/>
+												<ReplaceText Value="GOG Games"/>
+											</_1>
+											<_2>
+												<FindText Value="Log"/>
+												<PathMask Value=".\ToDatabase\"/>
+												<ReplaceText Value="Similarity-logs"/>
+											</_2>
+											<_3>
+												<FindText Value="distributions"/>
+												<PathMask Value=".\"/>
+												<ReplaceText Value="Python25"/>
+											</_3>
+											<_4>
+												<FindText Value="Google Drive"/>
+												<PathMask Value=".\"/>
+												<ReplaceText Value="oldNonSmartPhone"/>
+											</_4>
+											<_5>
+												<FindText Value="Programming(projects)"/>
+												<PathMask Value=".\"/>
+												<ReplaceText Value="IdeaProjects"/>
+											</_5>
+											<_6>
+												<FindText Value="(.*)\s?[(]\d*[)](.*)"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1$2"/>
+											</_6>
+											<_7>
+												<FindText Value="(.*)\s?[(]\d*[)]"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_7>
+											<_8>
+												<FindText Value="(.*)[^a-zA-Z]{4}"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_8>
+											<_9>
+												<FindText Value="(.*)[^a-zA-Z]{4}(.*)"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1$2"/>
+											</_9>
+											<_10>
+												<FindText Value="(.*) [(]2[)]"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_10>
+											<_11>
+												<FindText Value="(.*)[.]bak"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_11>
+											<_12>
+												<FindText Value="(.*) [(].*conflicted.*[)](.*)"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1$2"/>
+											</_12>
+											<_13>
+												<FindText Value="(.*)~"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_13>
+										</AlignWiths>
+										<ArchiveHandling Value="ahFileAlways"/>
+										<FollowSymLinks Value="True"/>
+										<UseVersionComparison Value="True"/>
+									</Rules>
+									<Specs>
+										<Left Value="E:\ProgramData"/>
+										<Right Value="D:\ProgramData"/>
+									</Specs>
+									<State>
+										<ColExtVisible Value="True"/>
+										<ColExtWidth Value="49"/>
+										<ColModifiedWidth Value="133"/>
+										<ColPathWidth Value="96"/>
+										<ColSizeWidth Value="124"/>
+										<DirHandling Value="dirCompareFilesOnly"/>
+										<DisplayFilter Value="[showRightAdded, showRightChanged]"/>
+										<InsigIgnored Value="True"/>
+										<SortCol Value="colSize"/>
+										<SortSide Value="dsRight"/>
+									</State>
+								</TDirCompareSession>
+								<ZOrder Value="3"/>
+							</_4>
+							<_5>
+								<TDirCompareSession>
+									<Filters>
+										<OtherFilters>
+											<_0 Value="TDirSmallerThanSizeFilterItem">
+												<Size Value="59"/>
+											</_0>
+										</OtherFilters>
+									</Filters>
+									<Rules>
+										<AlignWiths>
+											<_0>
+												<FindText Value="SteamLibrary"/>
+												<PathMask Value=".\"/>
+												<ReplaceText Value="GOG Games"/>
+											</_0>
+											<_1>
+												<FindText Value="Log"/>
+												<PathMask Value=".\ToDatabase\"/>
+												<ReplaceText Value="Similarity-logs"/>
+											</_1>
+											<_2>
+												<FindText Value="distributions"/>
+												<PathMask Value=".\"/>
+												<ReplaceText Value="Python25"/>
+											</_2>
+											<_3>
+												<FindText Value="Google Drive"/>
+												<PathMask Value=".\"/>
+												<ReplaceText Value="oldNonSmartPhone"/>
+											</_3>
+											<_4>
+												<FindText Value="Programming(projects)"/>
+												<PathMask Value=".\"/>
+												<ReplaceText Value="IdeaProjects"/>
+											</_4>
+											<_5>
+												<FindText Value="(.*)\s?[(]\d*[)](.*)"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1$2"/>
+											</_5>
+											<_6>
+												<FindText Value="(.*)\s?[(]\d*[)]"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_6>
+											<_7>
+												<FindText Value="(.*)[^a-zA-Z]{4}"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_7>
+											<_8>
+												<FindText Value="(.*)[^a-zA-Z]{4}(.*)"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1$2"/>
+											</_8>
+											<_9>
+												<FindText Value="(.*) [(]2[)]"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_9>
+											<_10>
+												<FindText Value="(.*)[.]bak"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_10>
+											<_11>
+												<FindText Value="(.*) [(].*conflicted.*[)](.*)"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1$2"/>
+											</_11>
+											<_12>
+												<FindText Value="(.*)~"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_12>
+										</AlignWiths>
+										<ArchiveHandling Value="ahFolderAlways"/>
+										<FollowSymLinks Value="True"/>
+										<UseTimestampComparison Value="False"/>
+										<UseVersionComparison Value="True"/>
+									</Rules>
+									<Specs>
+										<Left Value="E:\Pictures"/>
+										<Right Value="D:\Pictures"/>
+									</Specs>
+									<State>
+										<ColExtVisible Value="True"/>
+										<ColExtWidth Value="7"/>
+										<ColModifiedWidth Value="220"/>
+										<ColPathWidth Value="200"/>
+										<ColSizeWidth Value="131"/>
+										<DirHandling Value="dirCompareFilesOnly"/>
+										<InsigIgnored Value="True"/>
+										<SortCol Value="colCompareStatus"/>
+										<SortDown Value="True"/>
+										<SortSide Value="dsRight"/>
+									</State>
+								</TDirCompareSession>
+								<ZOrder Value="2"/>
+							</_5>
+						</Tabs>
+						<ZOrder Value="1"/>
+					</_0>
+					<_1>
+						<PosStr Value="181;583;1501;1495;2"/>
+						<Tabs>
+							<_0>
+								<TDirCompareSession>
+									<Filters>
+										<NameFilter Value="-.\.git\"/>
+									</Filters>
+									<Rules>
+										<AlignWiths>
+											<_0>
+												<FindText Value="(.*)\s?[(]\d*[)](.*)"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1$2"/>
+											</_0>
+											<_1>
+												<FindText Value="(.*)\s?[(]\d*[)]"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_1>
+											<_2>
+												<FindText Value="(.*)[^a-zA-Z]{4}"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_2>
+											<_3>
+												<FindText Value="(.*)[^a-zA-Z]{4}(.*)"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1$2"/>
+											</_3>
+											<_4>
+												<FindText Value="(.*) [(]2[)]"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_4>
+											<_5>
+												<FindText Value="(.*)[.]bak"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_5>
+											<_6>
+												<FindText Value="(.*) [(].*conflicted.*[)](.*)"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1$2"/>
+											</_6>
+											<_7>
+												<FindText Value="(.*)~"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_7>
+										</AlignWiths>
+										<UseContentComparison Value="True"/>
+										<UseVersionComparison Value="True"/>
+									</Rules>
+									<Specs>
+										<Left Value="E:\SteamLibrary\Tools\Poe"/>
+										<Right Value="C:\ProgramData"/>
+									</Specs>
+									<State>
+										<ColExtVisible Value="True"/>
+										<ColExtWidth Value="74"/>
+										<ColModifiedWidth Value="141"/>
+										<ColPathWidth Value="96"/>
+										<ColSizeWidth Value="146"/>
+										<DirHandling Value="dirCompareFilesOnly"/>
+										<DisplayFilter Value="[showRightAdded, showRightChanged]"/>
+										<InsigIgnored Value="True"/>
+										<SortCol Value="colSize"/>
+										<SortDown Value="True"/>
+										<SortSide Value="dsRight"/>
+									</State>
+								</TDirCompareSession>
+								<ZOrder Value="0"/>
+							</_0>
+							<_1>
+								<TDirSyncSession>
+									<Filters>
+										<NameFilter Value="-.\.git\"/>
+									</Filters>
+									<Rules>
+										<AlignWiths>
+											<_0>
+												<FindText Value="(.*)\s?[(]\d*[)](.*)"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1$2"/>
+											</_0>
+											<_1>
+												<FindText Value="(.*)\s?[(]\d*[)]"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_1>
+											<_2>
+												<FindText Value="(.*)[^a-zA-Z]{4}"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_2>
+											<_3>
+												<FindText Value="(.*)[^a-zA-Z]{4}(.*)"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1$2"/>
+											</_3>
+											<_4>
+												<FindText Value="(.*) [(]2[)]"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_4>
+											<_5>
+												<FindText Value="(.*)[.]bak"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_5>
+											<_6>
+												<FindText Value="(.*) [(].*conflicted.*[)](.*)"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1$2"/>
+											</_6>
+											<_7>
+												<FindText Value="(.*)~"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_7>
+										</AlignWiths>
+										<ExpandAllOnLoad Value="False"/>
+										<RightAddedSyncOp Value="soLeave"/>
+										<RightNewerSyncOp Value="soDeleteLeft"/>
+										<SameSyncOp Value="soDeleteLeft"/>
+										<SyncEmptyFolders Value="False"/>
+										<UseContentComparison Value="True"/>
+										<UseRecycleBin Value="True"/>
+										<UseVersionComparison Value="True"/>
+									</Rules>
+									<Specs>
+										<Left Value="C:\ProgramData\Path of Building"/>
+										<Right Value="E:\SteamLibrary\Tools\Poe\Path of Building"/>
+									</Specs>
+									<State>
+										<ColExtVisible Value="True"/>
+										<ColExtWidth Value="74"/>
+										<ColModifiedWidth Value="141"/>
+										<ColPathWidth Value="96"/>
+										<ColSizeWidth Value="146"/>
+										<InsigIgnored Value="True"/>
+										<SortCol Value="colSize"/>
+										<SortDown Value="True"/>
+										<SortSide Value="dsRight"/>
+									</State>
+								</TDirSyncSession>
+								<ZOrder Value="1"/>
+							</_1>
+						</Tabs>
+						<ZOrder Value="0"/>
+					</_1>
+				</Windows>
+			</Item>
+			<Item Value="d">
+				<Windows>
+					<_0>
+						<PosStr Value="123;55;1208;967"/>
+						<Tabs>
+							<_0>
+								<TDirCompareSession>
+									<Rules>
+										<AlignWiths>
+											<_0>
+												<FindText Value="(.*)\s?[(]\d*[)](.*)"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1$2"/>
+											</_0>
+											<_1>
+												<FindText Value="(.*)\s?[(]\d*[)]"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_1>
+											<_2>
+												<FindText Value="(.*)[^a-zA-Z]{4}"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_2>
+											<_3>
+												<FindText Value="(.*)[^a-zA-Z]{4}(.*)"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1$2"/>
+											</_3>
+											<_4>
+												<FindText Value="(.*) [(]2[)]"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_4>
+											<_5>
+												<FindText Value="(.*)[.]bak"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_5>
+											<_6>
+												<FindText Value="(.*) [(].*conflicted.*[)](.*)"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1$2"/>
+											</_6>
+											<_7>
+												<FindText Value="(.*)~"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_7>
+										</AlignWiths>
+										<UseVersionComparison Value="True"/>
+									</Rules>
+									<Specs>
+										<Left Value="E:\distributions\anaconda3\lib"/>
+										<Right Value="D:\distributions\anaconda3\lib"/>
+									</Specs>
+									<State>
+										<ColExtVisible Value="True"/>
+										<ColExtWidth Value="7"/>
+										<ColModifiedWidth Value="220"/>
+										<ColPathWidth Value="200"/>
+										<ColSizeWidth Value="131"/>
+										<DirHandling Value="dirCompareFilesOnly"/>
+										<DisplayFilter Value="[showRightAdded, showRightChanged]"/>
+										<InsigIgnored Value="True"/>
+										<SortCol Value="colSize"/>
+										<SortDown Value="True"/>
+									</State>
+								</TDirCompareSession>
+								<ZOrder Value="0"/>
+							</_0>
+							<_1>
+								<TDirCompareSession>
+									<Filters>
+										<OtherFilters>
+											<_0 Value="TDirSmallerThanSizeFilterItem">
+												<Size Value="57"/>
+											</_0>
+										</OtherFilters>
+									</Filters>
+									<Rules>
+										<AlignWiths>
+											<_0>
+												<FindText Value="home"/>
+												<PathMask Value=".\wslunix\"/>
+												<ReplaceText Value="ubuntu homefolder"/>
+											</_0>
+											<_1>
+												<FindText Value="SteamLibrary"/>
+												<PathMask Value=".\"/>
+												<ReplaceText Value="GOG Games"/>
+											</_1>
+											<_2>
+												<FindText Value="Log"/>
+												<PathMask Value=".\ToDatabase\"/>
+												<ReplaceText Value="Similarity-logs"/>
+											</_2>
+											<_3>
+												<FindText Value="distributions"/>
+												<PathMask Value=".\"/>
+												<ReplaceText Value="Python25"/>
+											</_3>
+											<_4>
+												<FindText Value="Google Drive"/>
+												<PathMask Value=".\"/>
+												<ReplaceText Value="oldNonSmartPhone"/>
+											</_4>
+											<_5>
+												<FindText Value="Programming(projects)"/>
+												<PathMask Value=".\"/>
+												<ReplaceText Value="IdeaProjects"/>
+											</_5>
+											<_6>
+												<FindText Value="(.*)\s?[(]\d*[)](.*)"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1$2"/>
+											</_6>
+											<_7>
+												<FindText Value="(.*)\s?[(]\d*[)]"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_7>
+											<_8>
+												<FindText Value="(.*)[^a-zA-Z]{4}"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_8>
+											<_9>
+												<FindText Value="(.*)[^a-zA-Z]{4}(.*)"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1$2"/>
+											</_9>
+											<_10>
+												<FindText Value="(.*) [(]2[)]"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_10>
+											<_11>
+												<FindText Value="(.*)[.]bak"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_11>
+											<_12>
+												<FindText Value="(.*) [(].*conflicted.*[)](.*)"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1$2"/>
+											</_12>
+											<_13>
+												<FindText Value="(.*)~"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_13>
+										</AlignWiths>
+										<ArchiveHandling Value="ahFolderAlways"/>
+										<FollowSymLinks Value="True"/>
+										<UseContentComparison Value="True"/>
+										<UseVersionComparison Value="True"/>
+									</Rules>
+									<Specs>
+										<Left Value="E:\SteamLibrary"/>
+										<Right Value="D:\GOG Games"/>
+									</Specs>
+									<State>
+										<ColExtVisible Value="True"/>
+										<ColExtWidth Value="74"/>
+										<ColModifiedWidth Value="141"/>
+										<ColPathWidth Value="96"/>
+										<ColSizeWidth Value="146"/>
+										<DirHandling Value="dirCompareFilesOnly"/>
+										<DisplayFilter Value="[showRightAdded, showRightChanged]"/>
+										<InsigIgnored Value="True"/>
+										<SortCol Value="colModified"/>
+									</State>
+								</TDirCompareSession>
+								<ZOrder Value="1"/>
+							</_1>
+							<_2>
+								<TDirCompareSession>
+									<Filters>
+										<OtherFilters>
+											<_0 Value="TDirSmallerThanSizeFilterItem">
+												<Size Value="59"/>
+											</_0>
+										</OtherFilters>
+									</Filters>
+									<Rules>
+										<AlignWiths>
+											<_0>
+												<FindText Value="jdk1.8.0_211_x64"/>
+												<PathMask Value=".\Java\"/>
+												<ReplaceText Value="jdk1.8.0_101"/>
+											</_0>
+											<_1>
+												<FindText Value="jdk1.8.0_172"/>
+												<PathMask Value=".\Java\"/>
+												<ReplaceText Value="jre1.8.0_131"/>
+											</_1>
+											<_2>
+												<FindText Value="Beond Compare 4"/>
+												<PathMask Value=".\"/>
+												<ReplaceText Value="Beyond Compare 4"/>
+											</_2>
+											<_3>
+												<FindText Value="home"/>
+												<PathMask Value=".\wslunix\"/>
+												<ReplaceText Value="ubuntu homefolder"/>
+											</_3>
+											<_4>
+												<FindText Value="SteamLibrary"/>
+												<PathMask Value=".\"/>
+												<ReplaceText Value="GOG Games"/>
+											</_4>
+											<_5>
+												<FindText Value="Log"/>
+												<PathMask Value=".\ToDatabase\"/>
+												<ReplaceText Value="Similarity-logs"/>
+											</_5>
+											<_6>
+												<FindText Value="distributions"/>
+												<PathMask Value=".\"/>
+												<ReplaceText Value="Python25"/>
+											</_6>
+											<_7>
+												<FindText Value="Google Drive"/>
+												<PathMask Value=".\"/>
+												<ReplaceText Value="oldNonSmartPhone"/>
+											</_7>
+											<_8>
+												<FindText Value="Programming(projects)"/>
+												<PathMask Value=".\"/>
+												<ReplaceText Value="IdeaProjects"/>
+											</_8>
+											<_9>
+												<FindText Value="(.*)\s?[(]\d*[)](.*)"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1$2"/>
+											</_9>
+											<_10>
+												<FindText Value="(.*)\s?[(]\d*[)]"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_10>
+											<_11>
+												<FindText Value="(.*)[^a-zA-Z]{4}"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_11>
+											<_12>
+												<FindText Value="(.*)[^a-zA-Z]{4}(.*)"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1$2"/>
+											</_12>
+											<_13>
+												<FindText Value="(.*) [(]2[)]"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_13>
+											<_14>
+												<FindText Value="(.*)[.]bak"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_14>
+											<_15>
+												<FindText Value="(.*) [(].*conflicted.*[)](.*)"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1$2"/>
+											</_15>
+											<_16>
+												<FindText Value="(.*)~"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_16>
+										</AlignWiths>
+										<ArchiveHandling Value="ahFileAlways"/>
+										<FollowSymLinks Value="True"/>
+										<UseContentComparison Value="True"/>
+										<UseVersionComparison Value="True"/>
+									</Rules>
+									<Specs>
+										<Left Value="E:\Program Files (x86)"/>
+										<Right Value="D:\Program Files (x86)"/>
+									</Specs>
+									<State>
+										<ColExtVisible Value="True"/>
+										<ColExtWidth Value="82"/>
+										<ColModifiedWidth Value="83"/>
+										<ColPathWidth Value="96"/>
+										<ColSizeWidth Value="130"/>
+										<DirHandling Value="dirCompareFilesOnly"/>
+										<DisplayFilter Value="[showRightAdded, showRightChanged]"/>
+										<InsigIgnored Value="True"/>
+										<SortCol Value="colSize"/>
+										<SortDown Value="True"/>
+										<SortSide Value="dsRight"/>
+									</State>
+								</TDirCompareSession>
+								<ZOrder Value="4"/>
+							</_2>
+							<_3>
+								<TDirCompareSession>
+									<Filters>
+										<OtherFilters>
+											<_0 Value="TDirSmallerThanSizeFilterItem">
+												<Size Value="59"/>
+											</_0>
+										</OtherFilters>
+									</Filters>
+									<Rules>
+										<AlignWiths>
+											<_0>
+												<FindText Value="Avidemux64"/>
+												<PathMask Value=".\"/>
+												<ReplaceText Value="Avidemux 2.5"/>
+											</_0>
+											<_1>
+												<FindText Value="gimp"/>
+												<PathMask Value=".\"/>
+												<ReplaceText Value="GIMP 2"/>
+											</_1>
+											<_2>
+												<FindText Value="TortioseGit"/>
+												<PathMask Value=".\"/>
+												<ReplaceText Value="TortoiseGit"/>
+											</_2>
+											<_3>
+												<FindText Value="home"/>
+												<PathMask Value=".\wslunix\"/>
+												<ReplaceText Value="ubuntu homefolder"/>
+											</_3>
+											<_4>
+												<FindText Value="SteamLibrary"/>
+												<PathMask Value=".\"/>
+												<ReplaceText Value="GOG Games"/>
+											</_4>
+											<_5>
+												<FindText Value="Log"/>
+												<PathMask Value=".\ToDatabase\"/>
+												<ReplaceText Value="Similarity-logs"/>
+											</_5>
+											<_6>
+												<FindText Value="distributions"/>
+												<PathMask Value=".\"/>
+												<ReplaceText Value="Python25"/>
+											</_6>
+											<_7>
+												<FindText Value="Google Drive"/>
+												<PathMask Value=".\"/>
+												<ReplaceText Value="oldNonSmartPhone"/>
+											</_7>
+											<_8>
+												<FindText Value="Programming(projects)"/>
+												<PathMask Value=".\"/>
+												<ReplaceText Value="IdeaProjects"/>
+											</_8>
+											<_9>
+												<FindText Value="(.*)\s?[(]\d*[)](.*)"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1$2"/>
+											</_9>
+											<_10>
+												<FindText Value="(.*)\s?[(]\d*[)]"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_10>
+											<_11>
+												<FindText Value="(.*)[^a-zA-Z]{4}"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_11>
+											<_12>
+												<FindText Value="(.*)[^a-zA-Z]{4}(.*)"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1$2"/>
+											</_12>
+											<_13>
+												<FindText Value="(.*) [(]2[)]"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_13>
+											<_14>
+												<FindText Value="(.*)[.]bak"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_14>
+											<_15>
+												<FindText Value="(.*) [(].*conflicted.*[)](.*)"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1$2"/>
+											</_15>
+											<_16>
+												<FindText Value="(.*)~"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_16>
+										</AlignWiths>
+										<ArchiveHandling Value="ahFileAlways"/>
+										<FollowSymLinks Value="True"/>
+										<UseVersionComparison Value="True"/>
+									</Rules>
+									<Specs>
+										<Left Value="E:\Program Files"/>
+										<Right Value="D:\Program Files"/>
+									</Specs>
+									<State>
+										<ColExtVisible Value="True"/>
+										<ColExtWidth Value="65"/>
+										<ColModifiedWidth Value="141"/>
+										<ColPathWidth Value="96"/>
+										<ColSizeWidth Value="98"/>
+										<DirHandling Value="dirCompareFilesOnly"/>
+										<DisplayFilter Value="[showRightAdded, showRightChanged]"/>
+										<InsigIgnored Value="True"/>
+										<SortCol Value="colSize"/>
+										<SortDown Value="True"/>
+										<SortSide Value="dsRight"/>
+									</State>
+								</TDirCompareSession>
+								<ZOrder Value="3"/>
+							</_3>
+							<_4>
+								<TDirCompareSession>
+									<Filters>
+										<OtherFilters>
+											<_0 Value="TDirSmallerThanSizeFilterItem">
+												<Size Value="59"/>
+											</_0>
+										</OtherFilters>
+									</Filters>
+									<Rules>
+										<AlignWiths>
+											<_0>
+												<FindText Value="home"/>
+												<PathMask Value=".\wslunix\"/>
+												<ReplaceText Value="ubuntu homefolder"/>
+											</_0>
+											<_1>
+												<FindText Value="SteamLibrary"/>
+												<PathMask Value=".\"/>
+												<ReplaceText Value="GOG Games"/>
+											</_1>
+											<_2>
+												<FindText Value="Log"/>
+												<PathMask Value=".\ToDatabase\"/>
+												<ReplaceText Value="Similarity-logs"/>
+											</_2>
+											<_3>
+												<FindText Value="distributions"/>
+												<PathMask Value=".\"/>
+												<ReplaceText Value="Python25"/>
+											</_3>
+											<_4>
+												<FindText Value="Google Drive"/>
+												<PathMask Value=".\"/>
+												<ReplaceText Value="oldNonSmartPhone"/>
+											</_4>
+											<_5>
+												<FindText Value="Programming(projects)"/>
+												<PathMask Value=".\"/>
+												<ReplaceText Value="IdeaProjects"/>
+											</_5>
+											<_6>
+												<FindText Value="(.*)\s?[(]\d*[)](.*)"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1$2"/>
+											</_6>
+											<_7>
+												<FindText Value="(.*)\s?[(]\d*[)]"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_7>
+											<_8>
+												<FindText Value="(.*)[^a-zA-Z]{4}"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_8>
+											<_9>
+												<FindText Value="(.*)[^a-zA-Z]{4}(.*)"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1$2"/>
+											</_9>
+											<_10>
+												<FindText Value="(.*) [(]2[)]"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_10>
+											<_11>
+												<FindText Value="(.*)[.]bak"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_11>
+											<_12>
+												<FindText Value="(.*) [(].*conflicted.*[)](.*)"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1$2"/>
+											</_12>
+											<_13>
+												<FindText Value="(.*)~"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_13>
+										</AlignWiths>
+										<ArchiveHandling Value="ahFileAlways"/>
+										<FollowSymLinks Value="True"/>
+										<UseVersionComparison Value="True"/>
+									</Rules>
+									<Specs>
+										<Left Value="E:\ProgramData"/>
+										<Right Value="D:\ProgramData"/>
+									</Specs>
+									<State>
+										<ColExtVisible Value="True"/>
+										<ColExtWidth Value="49"/>
+										<ColModifiedWidth Value="133"/>
+										<ColPathWidth Value="96"/>
+										<ColSizeWidth Value="124"/>
+										<DirHandling Value="dirCompareFilesOnly"/>
+										<DisplayFilter Value="[showRightAdded, showRightChanged]"/>
+										<InsigIgnored Value="True"/>
+										<SortCol Value="colSize"/>
+										<SortSide Value="dsRight"/>
+									</State>
+								</TDirCompareSession>
+								<ZOrder Value="2"/>
+							</_4>
+							<_5>
+								<TDirCompareSession>
+									<Filters>
+										<OtherFilters>
+											<_0 Value="TDirSmallerThanSizeFilterItem">
+												<Size Value="59"/>
+											</_0>
+										</OtherFilters>
+									</Filters>
+									<Rules>
+										<AlignWiths>
+											<_0>
+												<FindText Value="SteamLibrary"/>
+												<PathMask Value=".\"/>
+												<ReplaceText Value="GOG Games"/>
+											</_0>
+											<_1>
+												<FindText Value="Log"/>
+												<PathMask Value=".\ToDatabase\"/>
+												<ReplaceText Value="Similarity-logs"/>
+											</_1>
+											<_2>
+												<FindText Value="distributions"/>
+												<PathMask Value=".\"/>
+												<ReplaceText Value="Python25"/>
+											</_2>
+											<_3>
+												<FindText Value="Google Drive"/>
+												<PathMask Value=".\"/>
+												<ReplaceText Value="oldNonSmartPhone"/>
+											</_3>
+											<_4>
+												<FindText Value="Programming(projects)"/>
+												<PathMask Value=".\"/>
+												<ReplaceText Value="IdeaProjects"/>
+											</_4>
+											<_5>
+												<FindText Value="(.*)\s?[(]\d*[)](.*)"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1$2"/>
+											</_5>
+											<_6>
+												<FindText Value="(.*)\s?[(]\d*[)]"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_6>
+											<_7>
+												<FindText Value="(.*)[^a-zA-Z]{4}"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_7>
+											<_8>
+												<FindText Value="(.*)[^a-zA-Z]{4}(.*)"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1$2"/>
+											</_8>
+											<_9>
+												<FindText Value="(.*) [(]2[)]"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_9>
+											<_10>
+												<FindText Value="(.*)[.]bak"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_10>
+											<_11>
+												<FindText Value="(.*) [(].*conflicted.*[)](.*)"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1$2"/>
+											</_11>
+											<_12>
+												<FindText Value="(.*)~"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_12>
+										</AlignWiths>
+										<ArchiveHandling Value="ahFolderAlways"/>
+										<FollowSymLinks Value="True"/>
+										<UseTimestampComparison Value="False"/>
+										<UseVersionComparison Value="True"/>
+									</Rules>
+									<Specs>
+										<Left Value="E:\Pictures"/>
+										<Right Value="D:\Pictures"/>
+									</Specs>
+									<State>
+										<ColExtVisible Value="True"/>
+										<ColExtWidth Value="7"/>
+										<ColModifiedWidth Value="220"/>
+										<ColPathWidth Value="200"/>
+										<ColSizeWidth Value="131"/>
+										<DirHandling Value="dirCompareFilesOnly"/>
+										<InsigIgnored Value="True"/>
+										<SortCol Value="colCompareStatus"/>
+										<SortDown Value="True"/>
+										<SortSide Value="dsRight"/>
+									</State>
+								</TDirCompareSession>
+								<ZOrder Value="5"/>
+							</_5>
+						</Tabs>
+						<ZOrder Value="1"/>
+					</_0>
+					<_1>
+						<PosStr Value="181;583;1501;1495;2"/>
+						<Tabs>
+							<_0>
+								<TDirCompareSession>
+									<Filters>
+										<NameFilter Value="-.\.git\"/>
+									</Filters>
+									<Rules>
+										<AlignWiths>
+											<_0>
+												<FindText Value="(.*)\s?[(]\d*[)](.*)"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1$2"/>
+											</_0>
+											<_1>
+												<FindText Value="(.*)\s?[(]\d*[)]"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_1>
+											<_2>
+												<FindText Value="(.*)[^a-zA-Z]{4}"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_2>
+											<_3>
+												<FindText Value="(.*)[^a-zA-Z]{4}(.*)"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1$2"/>
+											</_3>
+											<_4>
+												<FindText Value="(.*) [(]2[)]"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_4>
+											<_5>
+												<FindText Value="(.*)[.]bak"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_5>
+											<_6>
+												<FindText Value="(.*) [(].*conflicted.*[)](.*)"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1$2"/>
+											</_6>
+											<_7>
+												<FindText Value="(.*)~"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_7>
+										</AlignWiths>
+										<UseContentComparison Value="True"/>
+										<UseVersionComparison Value="True"/>
+									</Rules>
+									<Specs>
+										<Left Value="E:\SteamLibrary\Tools\Poe"/>
+										<Right Value="C:\ProgramData"/>
+									</Specs>
+									<State>
+										<ColExtVisible Value="True"/>
+										<ColExtWidth Value="74"/>
+										<ColModifiedWidth Value="141"/>
+										<ColPathWidth Value="96"/>
+										<ColSizeWidth Value="146"/>
+										<DirHandling Value="dirCompareFilesOnly"/>
+										<DisplayFilter Value="[showRightAdded, showRightChanged]"/>
+										<InsigIgnored Value="True"/>
+										<SortCol Value="colSize"/>
+										<SortDown Value="True"/>
+										<SortSide Value="dsRight"/>
+									</State>
+								</TDirCompareSession>
+								<ZOrder Value="0"/>
+							</_0>
+							<_1>
+								<TDirSyncSession>
+									<Filters>
+										<NameFilter Value="-.\.git\"/>
+									</Filters>
+									<Rules>
+										<AlignWiths>
+											<_0>
+												<FindText Value="(.*)\s?[(]\d*[)](.*)"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1$2"/>
+											</_0>
+											<_1>
+												<FindText Value="(.*)\s?[(]\d*[)]"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_1>
+											<_2>
+												<FindText Value="(.*)[^a-zA-Z]{4}"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_2>
+											<_3>
+												<FindText Value="(.*)[^a-zA-Z]{4}(.*)"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1$2"/>
+											</_3>
+											<_4>
+												<FindText Value="(.*) [(]2[)]"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_4>
+											<_5>
+												<FindText Value="(.*)[.]bak"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_5>
+											<_6>
+												<FindText Value="(.*) [(].*conflicted.*[)](.*)"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1$2"/>
+											</_6>
+											<_7>
+												<FindText Value="(.*)~"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_7>
+										</AlignWiths>
+										<ExpandAllOnLoad Value="False"/>
+										<RightAddedSyncOp Value="soLeave"/>
+										<RightNewerSyncOp Value="soDeleteLeft"/>
+										<SameSyncOp Value="soDeleteLeft"/>
+										<SyncEmptyFolders Value="False"/>
+										<UseContentComparison Value="True"/>
+										<UseRecycleBin Value="True"/>
+										<UseVersionComparison Value="True"/>
+									</Rules>
+									<Specs>
+										<Left Value="C:\ProgramData\Path of Building"/>
+										<Right Value="E:\SteamLibrary\Tools\Poe\Path of Building"/>
+									</Specs>
+									<State>
+										<ColExtVisible Value="True"/>
+										<ColExtWidth Value="74"/>
+										<ColModifiedWidth Value="141"/>
+										<ColPathWidth Value="96"/>
+										<ColSizeWidth Value="146"/>
+										<InsigIgnored Value="True"/>
+										<SortCol Value="colSize"/>
+										<SortDown Value="True"/>
+										<SortSide Value="dsRight"/>
+									</State>
+								</TDirSyncSession>
+								<ZOrder Value="1"/>
+							</_1>
+						</Tabs>
+						<ZOrder Value="0"/>
+					</_1>
+				</Windows>
+			</Item>
+			<Item Value="DE">
+				<Windows>
+					<_0>
+						<PosStr Value="435;0;1675;881"/>
+						<Tabs>
+							<_0>
+								<TDirCompareSession>
+									<Filters>
+										<NameFilter Value="-.\Videos\;-.\Windows\;-.\soulseek-downloads\;-.\my homebrewd porn\;-.\music creation Sampling Material\;-.\mp3\;-.\movies\;-.\Forbidden Files\;-.\Ebooks\;-.\Mail\"/>
+										<OtherFilters>
+											<_0 Value="TDirLargerThanSizeFilterItem">
+												<Size Value="100000000"/>
+											</_0>
+											<_1 Value="TDirSmallerThanSizeFilterItem">
+												<Size Value="58"/>
+											</_1>
+										</OtherFilters>
+									</Filters>
+									<Rules>
+										<AlignWiths>
+											<_0>
+												<FindText Value="(.*)\s?[(]\d*[)](.*)"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1$2"/>
+											</_0>
+											<_1>
+												<FindText Value="(.*)\s?[(]\d*[)]"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_1>
+											<_2>
+												<FindText Value="(.*)[^a-zA-Z]{4}"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_2>
+											<_3>
+												<FindText Value="(.*)[^a-zA-Z]{4}(.*)"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1$2"/>
+											</_3>
+											<_4>
+												<FindText Value="(.*) [(]2[)]"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_4>
+											<_5>
+												<FindText Value="(.*)[.]bak"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_5>
+											<_6>
+												<FindText Value="(.*) [(].*conflicted.*[)](.*)"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1$2"/>
+											</_6>
+											<_7>
+												<FindText Value="(.*)~"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_7>
+										</AlignWiths>
+										<ContentCompareOverrides Value="False"/>
+										<FollowSymLinks Value="True"/>
+										<IgnoreFileExts Value="True"/>
+										<NormalizedAlignment Value="False"/>
+										<UseSizeComparison Value="False"/>
+										<UseTimestampComparison Value="False"/>
+									</Rules>
+									<Specs>
+										<Left Value="D:\"/>
+										<Right Value="E:\"/>
+									</Specs>
+									<State>
+										<ColExtVisible Value="True"/>
+										<ColExtWidth Value="49"/>
+										<ColModifiedWidth Value="133"/>
+										<ColPathWidth Value="96"/>
+										<ColSizeWidth Value="124"/>
+										<DisplayFilter Value="[showLeftAdded]"/>
+										<InsigIgnored Value="True"/>
+										<SortCol Value="colSize"/>
+										<SortDown Value="True"/>
+									</State>
+								</TDirCompareSession>
+								<ZOrder Value="1"/>
+							</_0>
+							<_1>
+								<TDirCompareSession>
+									<Filters>
+										<OtherFilters>
+											<_0 Value="TDirSmallerThanSizeFilterItem">
+												<Size Value="100000000"/>
+											</_0>
+										</OtherFilters>
+									</Filters>
+									<Rules>
+										<AlignWiths>
+											<_0>
+												<FindText Value="(.*)\s?[(]\d*[)](.*)"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1$2"/>
+											</_0>
+											<_1>
+												<FindText Value="(.*)\s?[(]\d*[)]"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_1>
+											<_2>
+												<FindText Value="(.*)[^a-zA-Z]{4}"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_2>
+											<_3>
+												<FindText Value="(.*)[^a-zA-Z]{4}(.*)"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1$2"/>
+											</_3>
+											<_4>
+												<FindText Value="(.*) [(]2[)]"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_4>
+											<_5>
+												<FindText Value="(.*)[.]bak"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_5>
+											<_6>
+												<FindText Value="(.*) [(].*conflicted.*[)](.*)"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1$2"/>
+											</_6>
+											<_7>
+												<FindText Value="(.*)~"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_7>
+										</AlignWiths>
+										<ContentCompareOverrides Value="False"/>
+										<NormalizedAlignment Value="False"/>
+										<UseSizeComparison Value="False"/>
+										<UseTimestampComparison Value="False"/>
+									</Rules>
+									<Specs>
+										<Left Value="D:\SteamLibrary\steamapps\common\Fallout 4\"/>
+										<Right Value="E:\SteamLibrary\steamapps\common\Fallout 4\"/>
+									</Specs>
+									<State>
+										<ColExtVisible Value="True"/>
+										<ColExtWidth Value="49"/>
+										<ColModifiedWidth Value="133"/>
+										<ColPathWidth Value="96"/>
+										<ColSizeWidth Value="124"/>
+										<DisplayFilter Value="[showRightAdded]"/>
+										<InsigIgnored Value="True"/>
+										<SortCol Value="colSize"/>
+										<SortDown Value="True"/>
+									</State>
+								</TDirCompareSession>
+								<ZOrder Value="0"/>
+							</_1>
+						</Tabs>
+						<ZOrder Value="0"/>
+					</_0>
+				</Windows>
+			</Item>
+			<Item Value="e">
+				<Windows>
+					<_0>
+						<PosStr Value="123;55;1208;967"/>
+						<Tabs>
+							<_0>
+								<TDirCompareSession>
+									<Rules>
+										<AlignWiths>
+											<_0>
+												<FindText Value="(.*)\s?[(]\d*[)](.*)"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1$2"/>
+											</_0>
+											<_1>
+												<FindText Value="(.*)\s?[(]\d*[)]"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_1>
+											<_2>
+												<FindText Value="(.*)[^a-zA-Z]{4}"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_2>
+											<_3>
+												<FindText Value="(.*)[^a-zA-Z]{4}(.*)"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1$2"/>
+											</_3>
+											<_4>
+												<FindText Value="(.*) [(]2[)]"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_4>
+											<_5>
+												<FindText Value="(.*)[.]bak"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_5>
+											<_6>
+												<FindText Value="(.*) [(].*conflicted.*[)](.*)"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1$2"/>
+											</_6>
+											<_7>
+												<FindText Value="(.*)~"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_7>
+										</AlignWiths>
+										<UseVersionComparison Value="True"/>
+									</Rules>
+									<Specs>
+										<Left Value="E:\distributions\anaconda3\lib"/>
+										<Right Value="D:\distributions\anaconda3\lib"/>
+									</Specs>
+									<State>
+										<ColExtVisible Value="True"/>
+										<ColExtWidth Value="7"/>
+										<ColModifiedWidth Value="220"/>
+										<ColPathWidth Value="200"/>
+										<ColSizeWidth Value="131"/>
+										<DirHandling Value="dirCompareFilesOnly"/>
+										<DisplayFilter Value="[showRightAdded, showRightChanged]"/>
+										<InsigIgnored Value="True"/>
+										<SortCol Value="colSize"/>
+										<SortDown Value="True"/>
+									</State>
+								</TDirCompareSession>
+								<ZOrder Value="0"/>
+							</_0>
+							<_1>
+								<TDirCompareSession>
+									<Filters>
+										<OtherFilters>
+											<_0 Value="TDirSmallerThanSizeFilterItem">
+												<Size Value="57"/>
+											</_0>
+										</OtherFilters>
+									</Filters>
+									<Rules>
+										<AlignWiths>
+											<_0>
+												<FindText Value="home"/>
+												<PathMask Value=".\wslunix\"/>
+												<ReplaceText Value="ubuntu homefolder"/>
+											</_0>
+											<_1>
+												<FindText Value="SteamLibrary"/>
+												<PathMask Value=".\"/>
+												<ReplaceText Value="GOG Games"/>
+											</_1>
+											<_2>
+												<FindText Value="Log"/>
+												<PathMask Value=".\ToDatabase\"/>
+												<ReplaceText Value="Similarity-logs"/>
+											</_2>
+											<_3>
+												<FindText Value="distributions"/>
+												<PathMask Value=".\"/>
+												<ReplaceText Value="Python25"/>
+											</_3>
+											<_4>
+												<FindText Value="Google Drive"/>
+												<PathMask Value=".\"/>
+												<ReplaceText Value="oldNonSmartPhone"/>
+											</_4>
+											<_5>
+												<FindText Value="Programming(projects)"/>
+												<PathMask Value=".\"/>
+												<ReplaceText Value="IdeaProjects"/>
+											</_5>
+											<_6>
+												<FindText Value="(.*)\s?[(]\d*[)](.*)"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1$2"/>
+											</_6>
+											<_7>
+												<FindText Value="(.*)\s?[(]\d*[)]"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_7>
+											<_8>
+												<FindText Value="(.*)[^a-zA-Z]{4}"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_8>
+											<_9>
+												<FindText Value="(.*)[^a-zA-Z]{4}(.*)"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1$2"/>
+											</_9>
+											<_10>
+												<FindText Value="(.*) [(]2[)]"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_10>
+											<_11>
+												<FindText Value="(.*)[.]bak"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_11>
+											<_12>
+												<FindText Value="(.*) [(].*conflicted.*[)](.*)"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1$2"/>
+											</_12>
+											<_13>
+												<FindText Value="(.*)~"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_13>
+										</AlignWiths>
+										<ArchiveHandling Value="ahFolderAlways"/>
+										<FollowSymLinks Value="True"/>
+										<UseContentComparison Value="True"/>
+										<UseVersionComparison Value="True"/>
+									</Rules>
+									<Specs>
+										<Left Value="E:\SteamLibrary"/>
+										<Right Value="D:\GOG Games"/>
+									</Specs>
+									<State>
+										<ColExtVisible Value="True"/>
+										<ColExtWidth Value="74"/>
+										<ColModifiedWidth Value="141"/>
+										<ColPathWidth Value="96"/>
+										<ColSizeWidth Value="146"/>
+										<DirHandling Value="dirCompareFilesOnly"/>
+										<DisplayFilter Value="[showRightAdded, showRightChanged]"/>
+										<InsigIgnored Value="True"/>
+										<SortCol Value="colModified"/>
+									</State>
+								</TDirCompareSession>
+								<ZOrder Value="5"/>
+							</_1>
+							<_2>
+								<TDirCompareSession>
+									<Filters>
+										<OtherFilters>
+											<_0 Value="TDirSmallerThanSizeFilterItem">
+												<Size Value="59"/>
+											</_0>
+										</OtherFilters>
+									</Filters>
+									<Rules>
+										<AlignWiths>
+											<_0>
+												<FindText Value="jdk1.8.0_211_x64"/>
+												<PathMask Value=".\Java\"/>
+												<ReplaceText Value="jdk1.8.0_101"/>
+											</_0>
+											<_1>
+												<FindText Value="jdk1.8.0_172"/>
+												<PathMask Value=".\Java\"/>
+												<ReplaceText Value="jre1.8.0_131"/>
+											</_1>
+											<_2>
+												<FindText Value="Beond Compare 4"/>
+												<PathMask Value=".\"/>
+												<ReplaceText Value="Beyond Compare 4"/>
+											</_2>
+											<_3>
+												<FindText Value="home"/>
+												<PathMask Value=".\wslunix\"/>
+												<ReplaceText Value="ubuntu homefolder"/>
+											</_3>
+											<_4>
+												<FindText Value="SteamLibrary"/>
+												<PathMask Value=".\"/>
+												<ReplaceText Value="GOG Games"/>
+											</_4>
+											<_5>
+												<FindText Value="Log"/>
+												<PathMask Value=".\ToDatabase\"/>
+												<ReplaceText Value="Similarity-logs"/>
+											</_5>
+											<_6>
+												<FindText Value="distributions"/>
+												<PathMask Value=".\"/>
+												<ReplaceText Value="Python25"/>
+											</_6>
+											<_7>
+												<FindText Value="Google Drive"/>
+												<PathMask Value=".\"/>
+												<ReplaceText Value="oldNonSmartPhone"/>
+											</_7>
+											<_8>
+												<FindText Value="Programming(projects)"/>
+												<PathMask Value=".\"/>
+												<ReplaceText Value="IdeaProjects"/>
+											</_8>
+											<_9>
+												<FindText Value="(.*)\s?[(]\d*[)](.*)"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1$2"/>
+											</_9>
+											<_10>
+												<FindText Value="(.*)\s?[(]\d*[)]"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_10>
+											<_11>
+												<FindText Value="(.*)[^a-zA-Z]{4}"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_11>
+											<_12>
+												<FindText Value="(.*)[^a-zA-Z]{4}(.*)"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1$2"/>
+											</_12>
+											<_13>
+												<FindText Value="(.*) [(]2[)]"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_13>
+											<_14>
+												<FindText Value="(.*)[.]bak"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_14>
+											<_15>
+												<FindText Value="(.*) [(].*conflicted.*[)](.*)"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1$2"/>
+											</_15>
+											<_16>
+												<FindText Value="(.*)~"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_16>
+										</AlignWiths>
+										<ArchiveHandling Value="ahFileAlways"/>
+										<FollowSymLinks Value="True"/>
+										<UseContentComparison Value="True"/>
+										<UseVersionComparison Value="True"/>
+									</Rules>
+									<Specs>
+										<Left Value="E:\Program Files (x86)"/>
+										<Right Value="D:\Program Files (x86)"/>
+									</Specs>
+									<State>
+										<ColExtVisible Value="True"/>
+										<ColExtWidth Value="82"/>
+										<ColModifiedWidth Value="83"/>
+										<ColPathWidth Value="96"/>
+										<ColSizeWidth Value="130"/>
+										<DirHandling Value="dirCompareFilesOnly"/>
+										<DisplayFilter Value="[showRightAdded, showRightChanged]"/>
+										<InsigIgnored Value="True"/>
+										<SortCol Value="colSize"/>
+										<SortDown Value="True"/>
+										<SortSide Value="dsRight"/>
+									</State>
+								</TDirCompareSession>
+								<ZOrder Value="3"/>
+							</_2>
+							<_3>
+								<TDirCompareSession>
+									<Filters>
+										<OtherFilters>
+											<_0 Value="TDirSmallerThanSizeFilterItem">
+												<Size Value="59"/>
+											</_0>
+										</OtherFilters>
+									</Filters>
+									<Rules>
+										<AlignWiths>
+											<_0>
+												<FindText Value="Avidemux64"/>
+												<PathMask Value=".\"/>
+												<ReplaceText Value="Avidemux 2.5"/>
+											</_0>
+											<_1>
+												<FindText Value="gimp"/>
+												<PathMask Value=".\"/>
+												<ReplaceText Value="GIMP 2"/>
+											</_1>
+											<_2>
+												<FindText Value="TortioseGit"/>
+												<PathMask Value=".\"/>
+												<ReplaceText Value="TortoiseGit"/>
+											</_2>
+											<_3>
+												<FindText Value="home"/>
+												<PathMask Value=".\wslunix\"/>
+												<ReplaceText Value="ubuntu homefolder"/>
+											</_3>
+											<_4>
+												<FindText Value="SteamLibrary"/>
+												<PathMask Value=".\"/>
+												<ReplaceText Value="GOG Games"/>
+											</_4>
+											<_5>
+												<FindText Value="Log"/>
+												<PathMask Value=".\ToDatabase\"/>
+												<ReplaceText Value="Similarity-logs"/>
+											</_5>
+											<_6>
+												<FindText Value="distributions"/>
+												<PathMask Value=".\"/>
+												<ReplaceText Value="Python25"/>
+											</_6>
+											<_7>
+												<FindText Value="Google Drive"/>
+												<PathMask Value=".\"/>
+												<ReplaceText Value="oldNonSmartPhone"/>
+											</_7>
+											<_8>
+												<FindText Value="Programming(projects)"/>
+												<PathMask Value=".\"/>
+												<ReplaceText Value="IdeaProjects"/>
+											</_8>
+											<_9>
+												<FindText Value="(.*)\s?[(]\d*[)](.*)"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1$2"/>
+											</_9>
+											<_10>
+												<FindText Value="(.*)\s?[(]\d*[)]"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_10>
+											<_11>
+												<FindText Value="(.*)[^a-zA-Z]{4}"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_11>
+											<_12>
+												<FindText Value="(.*)[^a-zA-Z]{4}(.*)"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1$2"/>
+											</_12>
+											<_13>
+												<FindText Value="(.*) [(]2[)]"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_13>
+											<_14>
+												<FindText Value="(.*)[.]bak"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_14>
+											<_15>
+												<FindText Value="(.*) [(].*conflicted.*[)](.*)"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1$2"/>
+											</_15>
+											<_16>
+												<FindText Value="(.*)~"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_16>
+										</AlignWiths>
+										<ArchiveHandling Value="ahFileAlways"/>
+										<FollowSymLinks Value="True"/>
+										<UseVersionComparison Value="True"/>
+									</Rules>
+									<Specs>
+										<Left Value="E:\Program Files"/>
+										<Right Value="D:\Program Files"/>
+									</Specs>
+									<State>
+										<ColExtVisible Value="True"/>
+										<ColExtWidth Value="65"/>
+										<ColModifiedWidth Value="141"/>
+										<ColPathWidth Value="96"/>
+										<ColSizeWidth Value="98"/>
+										<DirHandling Value="dirCompareFilesOnly"/>
+										<DisplayFilter Value="[showRightAdded, showRightChanged]"/>
+										<InsigIgnored Value="True"/>
+										<SortCol Value="colSize"/>
+										<SortDown Value="True"/>
+										<SortSide Value="dsRight"/>
+									</State>
+								</TDirCompareSession>
+								<ZOrder Value="2"/>
+							</_3>
+							<_4>
+								<TDirCompareSession>
+									<Filters>
+										<OtherFilters>
+											<_0 Value="TDirSmallerThanSizeFilterItem">
+												<Size Value="59"/>
+											</_0>
+										</OtherFilters>
+									</Filters>
+									<Rules>
+										<AlignWiths>
+											<_0>
+												<FindText Value="home"/>
+												<PathMask Value=".\wslunix\"/>
+												<ReplaceText Value="ubuntu homefolder"/>
+											</_0>
+											<_1>
+												<FindText Value="SteamLibrary"/>
+												<PathMask Value=".\"/>
+												<ReplaceText Value="GOG Games"/>
+											</_1>
+											<_2>
+												<FindText Value="Log"/>
+												<PathMask Value=".\ToDatabase\"/>
+												<ReplaceText Value="Similarity-logs"/>
+											</_2>
+											<_3>
+												<FindText Value="distributions"/>
+												<PathMask Value=".\"/>
+												<ReplaceText Value="Python25"/>
+											</_3>
+											<_4>
+												<FindText Value="Google Drive"/>
+												<PathMask Value=".\"/>
+												<ReplaceText Value="oldNonSmartPhone"/>
+											</_4>
+											<_5>
+												<FindText Value="Programming(projects)"/>
+												<PathMask Value=".\"/>
+												<ReplaceText Value="IdeaProjects"/>
+											</_5>
+											<_6>
+												<FindText Value="(.*)\s?[(]\d*[)](.*)"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1$2"/>
+											</_6>
+											<_7>
+												<FindText Value="(.*)\s?[(]\d*[)]"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_7>
+											<_8>
+												<FindText Value="(.*)[^a-zA-Z]{4}"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_8>
+											<_9>
+												<FindText Value="(.*)[^a-zA-Z]{4}(.*)"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1$2"/>
+											</_9>
+											<_10>
+												<FindText Value="(.*) [(]2[)]"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_10>
+											<_11>
+												<FindText Value="(.*)[.]bak"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_11>
+											<_12>
+												<FindText Value="(.*) [(].*conflicted.*[)](.*)"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1$2"/>
+											</_12>
+											<_13>
+												<FindText Value="(.*)~"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_13>
+										</AlignWiths>
+										<ArchiveHandling Value="ahFileAlways"/>
+										<FollowSymLinks Value="True"/>
+										<UseVersionComparison Value="True"/>
+									</Rules>
+									<Specs>
+										<Left Value="E:\ProgramData"/>
+										<Right Value="D:\ProgramData"/>
+									</Specs>
+									<State>
+										<ColExtVisible Value="True"/>
+										<ColExtWidth Value="49"/>
+										<ColModifiedWidth Value="133"/>
+										<ColPathWidth Value="96"/>
+										<ColSizeWidth Value="124"/>
+										<DirHandling Value="dirCompareFilesOnly"/>
+										<DisplayFilter Value="[showRightAdded, showRightChanged]"/>
+										<InsigIgnored Value="True"/>
+										<SortCol Value="colSize"/>
+										<SortSide Value="dsRight"/>
+									</State>
+								</TDirCompareSession>
+								<ZOrder Value="1"/>
+							</_4>
+							<_5>
+								<TDirCompareSession>
+									<Filters>
+										<OtherFilters>
+											<_0 Value="TDirSmallerThanSizeFilterItem">
+												<Size Value="59"/>
+											</_0>
+										</OtherFilters>
+									</Filters>
+									<Rules>
+										<AlignWiths>
+											<_0>
+												<FindText Value="SteamLibrary"/>
+												<PathMask Value=".\"/>
+												<ReplaceText Value="GOG Games"/>
+											</_0>
+											<_1>
+												<FindText Value="Log"/>
+												<PathMask Value=".\ToDatabase\"/>
+												<ReplaceText Value="Similarity-logs"/>
+											</_1>
+											<_2>
+												<FindText Value="distributions"/>
+												<PathMask Value=".\"/>
+												<ReplaceText Value="Python25"/>
+											</_2>
+											<_3>
+												<FindText Value="Google Drive"/>
+												<PathMask Value=".\"/>
+												<ReplaceText Value="oldNonSmartPhone"/>
+											</_3>
+											<_4>
+												<FindText Value="Programming(projects)"/>
+												<PathMask Value=".\"/>
+												<ReplaceText Value="IdeaProjects"/>
+											</_4>
+											<_5>
+												<FindText Value="(.*)\s?[(]\d*[)](.*)"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1$2"/>
+											</_5>
+											<_6>
+												<FindText Value="(.*)\s?[(]\d*[)]"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_6>
+											<_7>
+												<FindText Value="(.*)[^a-zA-Z]{4}"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_7>
+											<_8>
+												<FindText Value="(.*)[^a-zA-Z]{4}(.*)"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1$2"/>
+											</_8>
+											<_9>
+												<FindText Value="(.*) [(]2[)]"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_9>
+											<_10>
+												<FindText Value="(.*)[.]bak"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_10>
+											<_11>
+												<FindText Value="(.*) [(].*conflicted.*[)](.*)"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1$2"/>
+											</_11>
+											<_12>
+												<FindText Value="(.*)~"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_12>
+										</AlignWiths>
+										<ArchiveHandling Value="ahFolderAlways"/>
+										<FollowSymLinks Value="True"/>
+										<UseTimestampComparison Value="False"/>
+										<UseVersionComparison Value="True"/>
+									</Rules>
+									<Specs>
+										<Left Value="E:\Pictures"/>
+										<Right Value="D:\Pictures"/>
+									</Specs>
+									<State>
+										<ColExtVisible Value="True"/>
+										<ColExtWidth Value="7"/>
+										<ColModifiedWidth Value="220"/>
+										<ColPathWidth Value="200"/>
+										<ColSizeWidth Value="131"/>
+										<DirHandling Value="dirCompareFilesOnly"/>
+										<InsigIgnored Value="True"/>
+										<SortCol Value="colCompareStatus"/>
+										<SortDown Value="True"/>
+										<SortSide Value="dsRight"/>
+									</State>
+								</TDirCompareSession>
+								<ZOrder Value="4"/>
+							</_5>
+						</Tabs>
+						<ZOrder Value="1"/>
+					</_0>
+					<_1>
+						<PosStr Value="181;583;1501;1495;2"/>
+						<Tabs>
+							<_0>
+								<TDirCompareSession>
+									<Filters>
+										<NameFilter Value="-.\.git\"/>
+									</Filters>
+									<Rules>
+										<AlignWiths>
+											<_0>
+												<FindText Value="(.*)\s?[(]\d*[)](.*)"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1$2"/>
+											</_0>
+											<_1>
+												<FindText Value="(.*)\s?[(]\d*[)]"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_1>
+											<_2>
+												<FindText Value="(.*)[^a-zA-Z]{4}"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_2>
+											<_3>
+												<FindText Value="(.*)[^a-zA-Z]{4}(.*)"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1$2"/>
+											</_3>
+											<_4>
+												<FindText Value="(.*) [(]2[)]"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_4>
+											<_5>
+												<FindText Value="(.*)[.]bak"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_5>
+											<_6>
+												<FindText Value="(.*) [(].*conflicted.*[)](.*)"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1$2"/>
+											</_6>
+											<_7>
+												<FindText Value="(.*)~"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_7>
+										</AlignWiths>
+										<UseContentComparison Value="True"/>
+										<UseVersionComparison Value="True"/>
+									</Rules>
+									<Specs>
+										<Left Value="E:\SteamLibrary\Tools\Poe"/>
+										<Right Value="C:\ProgramData"/>
+									</Specs>
+									<State>
+										<ColExtVisible Value="True"/>
+										<ColExtWidth Value="74"/>
+										<ColModifiedWidth Value="141"/>
+										<ColPathWidth Value="96"/>
+										<ColSizeWidth Value="146"/>
+										<DirHandling Value="dirCompareFilesOnly"/>
+										<DisplayFilter Value="[showRightAdded, showRightChanged]"/>
+										<InsigIgnored Value="True"/>
+										<SortCol Value="colSize"/>
+										<SortDown Value="True"/>
+										<SortSide Value="dsRight"/>
+									</State>
+								</TDirCompareSession>
+								<ZOrder Value="0"/>
+							</_0>
+							<_1>
+								<TDirSyncSession>
+									<Filters>
+										<NameFilter Value="-.\.git\"/>
+									</Filters>
+									<Rules>
+										<AlignWiths>
+											<_0>
+												<FindText Value="(.*)\s?[(]\d*[)](.*)"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1$2"/>
+											</_0>
+											<_1>
+												<FindText Value="(.*)\s?[(]\d*[)]"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_1>
+											<_2>
+												<FindText Value="(.*)[^a-zA-Z]{4}"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_2>
+											<_3>
+												<FindText Value="(.*)[^a-zA-Z]{4}(.*)"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1$2"/>
+											</_3>
+											<_4>
+												<FindText Value="(.*) [(]2[)]"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_4>
+											<_5>
+												<FindText Value="(.*)[.]bak"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_5>
+											<_6>
+												<FindText Value="(.*) [(].*conflicted.*[)](.*)"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1$2"/>
+											</_6>
+											<_7>
+												<FindText Value="(.*)~"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_7>
+										</AlignWiths>
+										<ExpandAllOnLoad Value="False"/>
+										<RightAddedSyncOp Value="soLeave"/>
+										<RightNewerSyncOp Value="soDeleteLeft"/>
+										<SameSyncOp Value="soDeleteLeft"/>
+										<SyncEmptyFolders Value="False"/>
+										<UseContentComparison Value="True"/>
+										<UseRecycleBin Value="True"/>
+										<UseVersionComparison Value="True"/>
+									</Rules>
+									<Specs>
+										<Left Value="C:\ProgramData\Path of Building"/>
+										<Right Value="E:\SteamLibrary\Tools\Poe\Path of Building"/>
+									</Specs>
+									<State>
+										<ColExtVisible Value="True"/>
+										<ColExtWidth Value="74"/>
+										<ColModifiedWidth Value="141"/>
+										<ColPathWidth Value="96"/>
+										<ColSizeWidth Value="146"/>
+										<InsigIgnored Value="True"/>
+										<SortCol Value="colSize"/>
+										<SortDown Value="True"/>
+										<SortSide Value="dsRight"/>
+									</State>
+								</TDirSyncSession>
+								<ZOrder Value="1"/>
+							</_1>
+						</Tabs>
+						<ZOrder Value="0"/>
+					</_1>
+				</Windows>
+			</Item>
+			<Item Value="Everything">
+				<Windows>
+					<_0>
+						<PosStr Value="0;156;1674;862"/>
+						<Tabs>
+							<_0>
+								<TDirMergeSession>
+									<Specs>
+										<Left Value="D:\PortableApps\2. file Organization\PortableApps\Everything"/>
+										<Right Value="D:\PortableApps\2. file Organization\PortableApps\Everything"/>
+										<Center Value="D:\PortableApps\2. file Organization\PortableApps\Everything"/>
+										<Output Value="D:\PortableApps\2. file Organization\PortableApps\Everything"/>
+									</Specs>
+									<State>
+										<ColExtVisible Value="True"/>
+										<ColExtWidth Value="56"/>
+										<ColPathWidth Value="146"/>
+										<ColSizeWidth Value="59"/>
+										<DirHandling Value="dirCompareFilesOnly"/>
+										<InsigIgnored Value="True"/>
+										<ShowCenter Value="False"/>
+										<SortCol Value="colModified"/>
+									</State>
+								</TDirMergeSession>
+								<ZOrder Value="5"/>
+							</_0>
+							<_1>
+								<TTextMergeSession>
+									<Specs>
+										<Left Value="D:\PortableApps\2. file Organization\PortableApps\Everything\Everything.ini"/>
+										<Right Value="D:\PortableApps\2. file Organization\PortableApps\Everything\Everything.ini"/>
+										<Center Value="D:\PortableApps\2. file Organization\PortableApps\Everything\Everything.ini"/>
+										<Output Value="D:\PortableApps\2. file Organization\PortableApps\Everything\Everything.ini"/>
+									</Specs>
+								</TTextMergeSession>
+								<ParentTab Value="0"/>
+								<ParentWindow Value="0"/>
+								<ZOrder Value="4"/>
+							</_1>
+							<_2>
+								<TDataCompareSession>
+									<Specs>
+										<Left Value="D:\PortableApps\2. file Organization\PortableApps\Everything\Run History.csv"/>
+										<Right Value="D:\PortableApps\2. file Organization\PortableApps\Everything\Run History.csv"/>
+									</Specs>
+								</TDataCompareSession>
+								<ParentTab Value="0"/>
+								<ParentWindow Value="0"/>
+								<ZOrder Value="3"/>
+							</_2>
+							<_3>
+								<TDataCompareSession>
+									<Specs>
+										<Left Value="D:\PortableApps\2. file Organization\PortableApps\Everything\Search History.csv"/>
+										<Right Value="D:\PortableApps\2. file Organization\PortableApps\Everything\Search History.csv"/>
+									</Specs>
+								</TDataCompareSession>
+								<ParentTab Value="0"/>
+								<ParentWindow Value="0"/>
+								<ZOrder Value="2"/>
+							</_3>
+							<_4>
+								<TDataCompareSession>
+									<Specs>
+										<Left Value="D:\PortableApps\2. file Organization\PortableApps\Everything\Filters.csv"/>
+										<Right Value="D:\PortableApps\2. file Organization\PortableApps\Everything\Filters.csv"/>
+									</Specs>
+								</TDataCompareSession>
+								<ParentTab Value="0"/>
+								<ParentWindow Value="0"/>
+								<ZOrder Value="1"/>
+							</_4>
+							<_5>
+								<TTextCompareSession>
+									<Specs>
+										<Left Value="D:\PortableApps\2. file Organization\PortableApps\Everything\Bookmarks.csv"/>
+										<Right Value="D:\PortableApps\2. file Organization\PortableApps\Everything\Bookmarks.csv"/>
+									</Specs>
+								</TTextCompareSession>
+								<ParentTab Value="0"/>
+								<ParentWindow Value="0"/>
+								<ZOrder Value="0"/>
+							</_5>
+						</Tabs>
+						<ZOrder Value="0"/>
+					</_0>
+				</Windows>
+			</Item>
+			<Item Value="f">
+				<Windows>
+					<_0>
+						<PosStr Value="123;55;1208;967"/>
+						<Tabs>
+							<_0>
+								<TDirCompareSession>
+									<Rules>
+										<AlignWiths>
+											<_0>
+												<FindText Value="(.*)\s?[(]\d*[)](.*)"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1$2"/>
+											</_0>
+											<_1>
+												<FindText Value="(.*)\s?[(]\d*[)]"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_1>
+											<_2>
+												<FindText Value="(.*)[^a-zA-Z]{4}"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_2>
+											<_3>
+												<FindText Value="(.*)[^a-zA-Z]{4}(.*)"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1$2"/>
+											</_3>
+											<_4>
+												<FindText Value="(.*) [(]2[)]"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_4>
+											<_5>
+												<FindText Value="(.*)[.]bak"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_5>
+											<_6>
+												<FindText Value="(.*) [(].*conflicted.*[)](.*)"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1$2"/>
+											</_6>
+											<_7>
+												<FindText Value="(.*)~"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_7>
+										</AlignWiths>
+										<UseVersionComparison Value="True"/>
+									</Rules>
+									<Specs>
+										<Left Value="E:\distributions\anaconda3\lib"/>
+										<Right Value="D:\distributions\anaconda3\lib"/>
+									</Specs>
+									<State>
+										<ColExtVisible Value="True"/>
+										<ColExtWidth Value="7"/>
+										<ColModifiedWidth Value="220"/>
+										<ColPathWidth Value="200"/>
+										<ColSizeWidth Value="131"/>
+										<DirHandling Value="dirCompareFilesOnly"/>
+										<DisplayFilter Value="[showRightAdded, showRightChanged]"/>
+										<InsigIgnored Value="True"/>
+										<SortCol Value="colSize"/>
+										<SortDown Value="True"/>
+									</State>
+								</TDirCompareSession>
+								<ZOrder Value="5"/>
+							</_0>
+							<_1>
+								<TDirCompareSession>
+									<Filters>
+										<OtherFilters>
+											<_0 Value="TDirSmallerThanSizeFilterItem">
+												<Size Value="57"/>
+											</_0>
+										</OtherFilters>
+									</Filters>
+									<Rules>
+										<AlignWiths>
+											<_0>
+												<FindText Value="home"/>
+												<PathMask Value=".\wslunix\"/>
+												<ReplaceText Value="ubuntu homefolder"/>
+											</_0>
+											<_1>
+												<FindText Value="SteamLibrary"/>
+												<PathMask Value=".\"/>
+												<ReplaceText Value="GOG Games"/>
+											</_1>
+											<_2>
+												<FindText Value="Log"/>
+												<PathMask Value=".\ToDatabase\"/>
+												<ReplaceText Value="Similarity-logs"/>
+											</_2>
+											<_3>
+												<FindText Value="distributions"/>
+												<PathMask Value=".\"/>
+												<ReplaceText Value="Python25"/>
+											</_3>
+											<_4>
+												<FindText Value="Google Drive"/>
+												<PathMask Value=".\"/>
+												<ReplaceText Value="oldNonSmartPhone"/>
+											</_4>
+											<_5>
+												<FindText Value="Programming(projects)"/>
+												<PathMask Value=".\"/>
+												<ReplaceText Value="IdeaProjects"/>
+											</_5>
+											<_6>
+												<FindText Value="(.*)\s?[(]\d*[)](.*)"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1$2"/>
+											</_6>
+											<_7>
+												<FindText Value="(.*)\s?[(]\d*[)]"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_7>
+											<_8>
+												<FindText Value="(.*)[^a-zA-Z]{4}"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_8>
+											<_9>
+												<FindText Value="(.*)[^a-zA-Z]{4}(.*)"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1$2"/>
+											</_9>
+											<_10>
+												<FindText Value="(.*) [(]2[)]"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_10>
+											<_11>
+												<FindText Value="(.*)[.]bak"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_11>
+											<_12>
+												<FindText Value="(.*) [(].*conflicted.*[)](.*)"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1$2"/>
+											</_12>
+											<_13>
+												<FindText Value="(.*)~"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_13>
+										</AlignWiths>
+										<ArchiveHandling Value="ahFolderAlways"/>
+										<FollowSymLinks Value="True"/>
+										<UseContentComparison Value="True"/>
+										<UseVersionComparison Value="True"/>
+									</Rules>
+									<Specs>
+										<Left Value="E:\SteamLibrary"/>
+										<Right Value="D:\GOG Games"/>
+									</Specs>
+									<State>
+										<ColExtVisible Value="True"/>
+										<ColExtWidth Value="74"/>
+										<ColModifiedWidth Value="141"/>
+										<ColPathWidth Value="96"/>
+										<ColSizeWidth Value="146"/>
+										<DirHandling Value="dirCompareFilesOnly"/>
+										<DisplayFilter Value="[showRightAdded, showRightChanged]"/>
+										<InsigIgnored Value="True"/>
+										<SortCol Value="colModified"/>
+									</State>
+								</TDirCompareSession>
+								<ZOrder Value="4"/>
+							</_1>
+							<_2>
+								<TDirCompareSession>
+									<Filters>
+										<OtherFilters>
+											<_0 Value="TDirSmallerThanSizeFilterItem">
+												<Size Value="59"/>
+											</_0>
+										</OtherFilters>
+									</Filters>
+									<Rules>
+										<AlignWiths>
+											<_0>
+												<FindText Value="jdk1.8.0_211_x64"/>
+												<PathMask Value=".\Java\"/>
+												<ReplaceText Value="jdk1.8.0_101"/>
+											</_0>
+											<_1>
+												<FindText Value="jdk1.8.0_172"/>
+												<PathMask Value=".\Java\"/>
+												<ReplaceText Value="jre1.8.0_131"/>
+											</_1>
+											<_2>
+												<FindText Value="Beond Compare 4"/>
+												<PathMask Value=".\"/>
+												<ReplaceText Value="Beyond Compare 4"/>
+											</_2>
+											<_3>
+												<FindText Value="home"/>
+												<PathMask Value=".\wslunix\"/>
+												<ReplaceText Value="ubuntu homefolder"/>
+											</_3>
+											<_4>
+												<FindText Value="SteamLibrary"/>
+												<PathMask Value=".\"/>
+												<ReplaceText Value="GOG Games"/>
+											</_4>
+											<_5>
+												<FindText Value="Log"/>
+												<PathMask Value=".\ToDatabase\"/>
+												<ReplaceText Value="Similarity-logs"/>
+											</_5>
+											<_6>
+												<FindText Value="distributions"/>
+												<PathMask Value=".\"/>
+												<ReplaceText Value="Python25"/>
+											</_6>
+											<_7>
+												<FindText Value="Google Drive"/>
+												<PathMask Value=".\"/>
+												<ReplaceText Value="oldNonSmartPhone"/>
+											</_7>
+											<_8>
+												<FindText Value="Programming(projects)"/>
+												<PathMask Value=".\"/>
+												<ReplaceText Value="IdeaProjects"/>
+											</_8>
+											<_9>
+												<FindText Value="(.*)\s?[(]\d*[)](.*)"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1$2"/>
+											</_9>
+											<_10>
+												<FindText Value="(.*)\s?[(]\d*[)]"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_10>
+											<_11>
+												<FindText Value="(.*)[^a-zA-Z]{4}"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_11>
+											<_12>
+												<FindText Value="(.*)[^a-zA-Z]{4}(.*)"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1$2"/>
+											</_12>
+											<_13>
+												<FindText Value="(.*) [(]2[)]"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_13>
+											<_14>
+												<FindText Value="(.*)[.]bak"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_14>
+											<_15>
+												<FindText Value="(.*) [(].*conflicted.*[)](.*)"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1$2"/>
+											</_15>
+											<_16>
+												<FindText Value="(.*)~"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_16>
+										</AlignWiths>
+										<ArchiveHandling Value="ahFileAlways"/>
+										<FollowSymLinks Value="True"/>
+										<UseContentComparison Value="True"/>
+										<UseVersionComparison Value="True"/>
+									</Rules>
+									<Specs>
+										<Left Value="E:\Program Files (x86)"/>
+										<Right Value="D:\Program Files (x86)"/>
+									</Specs>
+									<State>
+										<ColExtVisible Value="True"/>
+										<ColExtWidth Value="82"/>
+										<ColModifiedWidth Value="83"/>
+										<ColPathWidth Value="96"/>
+										<ColSizeWidth Value="130"/>
+										<DirHandling Value="dirCompareFilesOnly"/>
+										<DisplayFilter Value="[showRightAdded, showRightChanged]"/>
+										<InsigIgnored Value="True"/>
+										<SortCol Value="colSize"/>
+										<SortDown Value="True"/>
+										<SortSide Value="dsRight"/>
+									</State>
+								</TDirCompareSession>
+								<ZOrder Value="2"/>
+							</_2>
+							<_3>
+								<TDirCompareSession>
+									<Filters>
+										<OtherFilters>
+											<_0 Value="TDirSmallerThanSizeFilterItem">
+												<Size Value="59"/>
+											</_0>
+										</OtherFilters>
+									</Filters>
+									<Rules>
+										<AlignWiths>
+											<_0>
+												<FindText Value="Avidemux64"/>
+												<PathMask Value=".\"/>
+												<ReplaceText Value="Avidemux 2.5"/>
+											</_0>
+											<_1>
+												<FindText Value="gimp"/>
+												<PathMask Value=".\"/>
+												<ReplaceText Value="GIMP 2"/>
+											</_1>
+											<_2>
+												<FindText Value="TortioseGit"/>
+												<PathMask Value=".\"/>
+												<ReplaceText Value="TortoiseGit"/>
+											</_2>
+											<_3>
+												<FindText Value="home"/>
+												<PathMask Value=".\wslunix\"/>
+												<ReplaceText Value="ubuntu homefolder"/>
+											</_3>
+											<_4>
+												<FindText Value="SteamLibrary"/>
+												<PathMask Value=".\"/>
+												<ReplaceText Value="GOG Games"/>
+											</_4>
+											<_5>
+												<FindText Value="Log"/>
+												<PathMask Value=".\ToDatabase\"/>
+												<ReplaceText Value="Similarity-logs"/>
+											</_5>
+											<_6>
+												<FindText Value="distributions"/>
+												<PathMask Value=".\"/>
+												<ReplaceText Value="Python25"/>
+											</_6>
+											<_7>
+												<FindText Value="Google Drive"/>
+												<PathMask Value=".\"/>
+												<ReplaceText Value="oldNonSmartPhone"/>
+											</_7>
+											<_8>
+												<FindText Value="Programming(projects)"/>
+												<PathMask Value=".\"/>
+												<ReplaceText Value="IdeaProjects"/>
+											</_8>
+											<_9>
+												<FindText Value="(.*)\s?[(]\d*[)](.*)"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1$2"/>
+											</_9>
+											<_10>
+												<FindText Value="(.*)\s?[(]\d*[)]"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_10>
+											<_11>
+												<FindText Value="(.*)[^a-zA-Z]{4}"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_11>
+											<_12>
+												<FindText Value="(.*)[^a-zA-Z]{4}(.*)"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1$2"/>
+											</_12>
+											<_13>
+												<FindText Value="(.*) [(]2[)]"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_13>
+											<_14>
+												<FindText Value="(.*)[.]bak"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_14>
+											<_15>
+												<FindText Value="(.*) [(].*conflicted.*[)](.*)"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1$2"/>
+											</_15>
+											<_16>
+												<FindText Value="(.*)~"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_16>
+										</AlignWiths>
+										<ArchiveHandling Value="ahFileAlways"/>
+										<FollowSymLinks Value="True"/>
+										<UseVersionComparison Value="True"/>
+									</Rules>
+									<Specs>
+										<Left Value="E:\Program Files"/>
+										<Right Value="D:\Program Files"/>
+									</Specs>
+									<State>
+										<ColExtVisible Value="True"/>
+										<ColExtWidth Value="65"/>
+										<ColModifiedWidth Value="141"/>
+										<ColPathWidth Value="96"/>
+										<ColSizeWidth Value="98"/>
+										<DirHandling Value="dirCompareFilesOnly"/>
+										<DisplayFilter Value="[showRightAdded, showRightChanged]"/>
+										<InsigIgnored Value="True"/>
+										<SortCol Value="colSize"/>
+										<SortDown Value="True"/>
+										<SortSide Value="dsRight"/>
+									</State>
+								</TDirCompareSession>
+								<ZOrder Value="1"/>
+							</_3>
+							<_4>
+								<TDirCompareSession>
+									<Filters>
+										<OtherFilters>
+											<_0 Value="TDirSmallerThanSizeFilterItem">
+												<Size Value="59"/>
+											</_0>
+										</OtherFilters>
+									</Filters>
+									<Rules>
+										<AlignWiths>
+											<_0>
+												<FindText Value="home"/>
+												<PathMask Value=".\wslunix\"/>
+												<ReplaceText Value="ubuntu homefolder"/>
+											</_0>
+											<_1>
+												<FindText Value="SteamLibrary"/>
+												<PathMask Value=".\"/>
+												<ReplaceText Value="GOG Games"/>
+											</_1>
+											<_2>
+												<FindText Value="Log"/>
+												<PathMask Value=".\ToDatabase\"/>
+												<ReplaceText Value="Similarity-logs"/>
+											</_2>
+											<_3>
+												<FindText Value="distributions"/>
+												<PathMask Value=".\"/>
+												<ReplaceText Value="Python25"/>
+											</_3>
+											<_4>
+												<FindText Value="Google Drive"/>
+												<PathMask Value=".\"/>
+												<ReplaceText Value="oldNonSmartPhone"/>
+											</_4>
+											<_5>
+												<FindText Value="Programming(projects)"/>
+												<PathMask Value=".\"/>
+												<ReplaceText Value="IdeaProjects"/>
+											</_5>
+											<_6>
+												<FindText Value="(.*)\s?[(]\d*[)](.*)"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1$2"/>
+											</_6>
+											<_7>
+												<FindText Value="(.*)\s?[(]\d*[)]"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_7>
+											<_8>
+												<FindText Value="(.*)[^a-zA-Z]{4}"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_8>
+											<_9>
+												<FindText Value="(.*)[^a-zA-Z]{4}(.*)"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1$2"/>
+											</_9>
+											<_10>
+												<FindText Value="(.*) [(]2[)]"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_10>
+											<_11>
+												<FindText Value="(.*)[.]bak"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_11>
+											<_12>
+												<FindText Value="(.*) [(].*conflicted.*[)](.*)"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1$2"/>
+											</_12>
+											<_13>
+												<FindText Value="(.*)~"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_13>
+										</AlignWiths>
+										<ArchiveHandling Value="ahFileAlways"/>
+										<FollowSymLinks Value="True"/>
+										<UseVersionComparison Value="True"/>
+									</Rules>
+									<Specs>
+										<Left Value="E:\ProgramData"/>
+										<Right Value="D:\ProgramData"/>
+									</Specs>
+									<State>
+										<ColExtVisible Value="True"/>
+										<ColExtWidth Value="49"/>
+										<ColModifiedWidth Value="133"/>
+										<ColPathWidth Value="96"/>
+										<ColSizeWidth Value="124"/>
+										<DirHandling Value="dirCompareFilesOnly"/>
+										<DisplayFilter Value="[showRightAdded, showRightChanged]"/>
+										<InsigIgnored Value="True"/>
+										<SortCol Value="colSize"/>
+										<SortSide Value="dsRight"/>
+									</State>
+								</TDirCompareSession>
+								<ZOrder Value="0"/>
+							</_4>
+							<_5>
+								<TDirCompareSession>
+									<Filters>
+										<OtherFilters>
+											<_0 Value="TDirSmallerThanSizeFilterItem">
+												<Size Value="59"/>
+											</_0>
+										</OtherFilters>
+									</Filters>
+									<Rules>
+										<AlignWiths>
+											<_0>
+												<FindText Value="SteamLibrary"/>
+												<PathMask Value=".\"/>
+												<ReplaceText Value="GOG Games"/>
+											</_0>
+											<_1>
+												<FindText Value="Log"/>
+												<PathMask Value=".\ToDatabase\"/>
+												<ReplaceText Value="Similarity-logs"/>
+											</_1>
+											<_2>
+												<FindText Value="distributions"/>
+												<PathMask Value=".\"/>
+												<ReplaceText Value="Python25"/>
+											</_2>
+											<_3>
+												<FindText Value="Google Drive"/>
+												<PathMask Value=".\"/>
+												<ReplaceText Value="oldNonSmartPhone"/>
+											</_3>
+											<_4>
+												<FindText Value="Programming(projects)"/>
+												<PathMask Value=".\"/>
+												<ReplaceText Value="IdeaProjects"/>
+											</_4>
+											<_5>
+												<FindText Value="(.*)\s?[(]\d*[)](.*)"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1$2"/>
+											</_5>
+											<_6>
+												<FindText Value="(.*)\s?[(]\d*[)]"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_6>
+											<_7>
+												<FindText Value="(.*)[^a-zA-Z]{4}"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_7>
+											<_8>
+												<FindText Value="(.*)[^a-zA-Z]{4}(.*)"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1$2"/>
+											</_8>
+											<_9>
+												<FindText Value="(.*) [(]2[)]"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_9>
+											<_10>
+												<FindText Value="(.*)[.]bak"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_10>
+											<_11>
+												<FindText Value="(.*) [(].*conflicted.*[)](.*)"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1$2"/>
+											</_11>
+											<_12>
+												<FindText Value="(.*)~"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_12>
+										</AlignWiths>
+										<ArchiveHandling Value="ahFolderAlways"/>
+										<FollowSymLinks Value="True"/>
+										<UseTimestampComparison Value="False"/>
+										<UseVersionComparison Value="True"/>
+									</Rules>
+									<Specs>
+										<Left Value="E:\Pictures"/>
+										<Right Value="D:\Pictures"/>
+									</Specs>
+									<State>
+										<ColExtVisible Value="True"/>
+										<ColExtWidth Value="7"/>
+										<ColModifiedWidth Value="220"/>
+										<ColPathWidth Value="200"/>
+										<ColSizeWidth Value="131"/>
+										<DirHandling Value="dirCompareFilesOnly"/>
+										<InsigIgnored Value="True"/>
+										<SortCol Value="colCompareStatus"/>
+										<SortDown Value="True"/>
+										<SortSide Value="dsRight"/>
+									</State>
+								</TDirCompareSession>
+								<ZOrder Value="3"/>
+							</_5>
+						</Tabs>
+						<ZOrder Value="1"/>
+					</_0>
+					<_1>
+						<PosStr Value="181;583;1501;1495;2"/>
+						<Tabs>
+							<_0>
+								<TDirCompareSession>
+									<Filters>
+										<NameFilter Value="-.\.git\"/>
+									</Filters>
+									<Rules>
+										<AlignWiths>
+											<_0>
+												<FindText Value="(.*)\s?[(]\d*[)](.*)"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1$2"/>
+											</_0>
+											<_1>
+												<FindText Value="(.*)\s?[(]\d*[)]"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_1>
+											<_2>
+												<FindText Value="(.*)[^a-zA-Z]{4}"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_2>
+											<_3>
+												<FindText Value="(.*)[^a-zA-Z]{4}(.*)"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1$2"/>
+											</_3>
+											<_4>
+												<FindText Value="(.*) [(]2[)]"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_4>
+											<_5>
+												<FindText Value="(.*)[.]bak"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_5>
+											<_6>
+												<FindText Value="(.*) [(].*conflicted.*[)](.*)"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1$2"/>
+											</_6>
+											<_7>
+												<FindText Value="(.*)~"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_7>
+										</AlignWiths>
+										<UseContentComparison Value="True"/>
+										<UseVersionComparison Value="True"/>
+									</Rules>
+									<Specs>
+										<Left Value="E:\SteamLibrary\Tools\Poe"/>
+										<Right Value="C:\ProgramData"/>
+									</Specs>
+									<State>
+										<ColExtVisible Value="True"/>
+										<ColExtWidth Value="74"/>
+										<ColModifiedWidth Value="141"/>
+										<ColPathWidth Value="96"/>
+										<ColSizeWidth Value="146"/>
+										<DirHandling Value="dirCompareFilesOnly"/>
+										<DisplayFilter Value="[showRightAdded, showRightChanged]"/>
+										<InsigIgnored Value="True"/>
+										<SortCol Value="colSize"/>
+										<SortDown Value="True"/>
+										<SortSide Value="dsRight"/>
+									</State>
+								</TDirCompareSession>
+								<ZOrder Value="0"/>
+							</_0>
+							<_1>
+								<TDirSyncSession>
+									<Filters>
+										<NameFilter Value="-.\.git\"/>
+									</Filters>
+									<Rules>
+										<AlignWiths>
+											<_0>
+												<FindText Value="(.*)\s?[(]\d*[)](.*)"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1$2"/>
+											</_0>
+											<_1>
+												<FindText Value="(.*)\s?[(]\d*[)]"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_1>
+											<_2>
+												<FindText Value="(.*)[^a-zA-Z]{4}"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_2>
+											<_3>
+												<FindText Value="(.*)[^a-zA-Z]{4}(.*)"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1$2"/>
+											</_3>
+											<_4>
+												<FindText Value="(.*) [(]2[)]"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_4>
+											<_5>
+												<FindText Value="(.*)[.]bak"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_5>
+											<_6>
+												<FindText Value="(.*) [(].*conflicted.*[)](.*)"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1$2"/>
+											</_6>
+											<_7>
+												<FindText Value="(.*)~"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_7>
+										</AlignWiths>
+										<ExpandAllOnLoad Value="False"/>
+										<RightAddedSyncOp Value="soLeave"/>
+										<RightNewerSyncOp Value="soDeleteLeft"/>
+										<SameSyncOp Value="soDeleteLeft"/>
+										<SyncEmptyFolders Value="False"/>
+										<UseContentComparison Value="True"/>
+										<UseRecycleBin Value="True"/>
+										<UseVersionComparison Value="True"/>
+									</Rules>
+									<Specs>
+										<Left Value="C:\ProgramData\Path of Building"/>
+										<Right Value="E:\SteamLibrary\Tools\Poe\Path of Building"/>
+									</Specs>
+									<State>
+										<ColExtVisible Value="True"/>
+										<ColExtWidth Value="74"/>
+										<ColModifiedWidth Value="141"/>
+										<ColPathWidth Value="96"/>
+										<ColSizeWidth Value="146"/>
+										<InsigIgnored Value="True"/>
+										<SortCol Value="colSize"/>
+										<SortDown Value="True"/>
+										<SortSide Value="dsRight"/>
+									</State>
+								</TDirSyncSession>
+								<ZOrder Value="1"/>
+							</_1>
+						</Tabs>
+						<ZOrder Value="0"/>
+					</_1>
+				</Windows>
+			</Item>
+			<Item Value="folder placements">
+				<Windows>
+					<_0>
+						<PosStr Value="26;56;1626;828"/>
+						<Tabs>
+							<_0>
+								<TDirCompareSession>
+									<Filters>
+										<NameFilter Value="-.\Windows\"/>
+										<OtherFilters>
+											<_0 Value="TDirSmallerThanSizeFilterItem">
+												<Size Value="1"/>
+											</_0>
+										</OtherFilters>
+									</Filters>
+									<Rules>
+										<UseTimestampComparison Value="False"/>
+									</Rules>
+									<Specs>
+										<Left Value="F:\"/>
+										<Right Value="C:\"/>
+									</Specs>
+									<State>
+										<ColExtVisible Value="True"/>
+										<ColExtWidth Value="106"/>
+										<ColModifiedWidth Value="53"/>
+										<ColPathWidth Value="202"/>
+										<ColSizeWidth Value="51"/>
+										<DirHandling Value="dirFlatten"/>
+										<DisplayFilter Value="[showSame, showLeftChanged, showRightChanged, showConflict]"/>
+										<InsigIgnored Value="True"/>
+										<SortCol Value="colSize"/>
+										<SortDown Value="True"/>
+									</State>
+								</TDirCompareSession>
+								<ZOrder Value="20"/>
+							</_0>
+							<_1>
+								<TDirCompareSession>
+									<Filters>
+										<NameFilter Value="-*-5CG84229D5.*"/>
+										<OtherFilters>
+											<_0 Value="TDirSmallerThanSizeFilterItem">
+												<Size Value="1"/>
+											</_0>
+										</OtherFilters>
+									</Filters>
+									<Rules>
+										<UseTimestampComparison Value="False"/>
+									</Rules>
+									<Specs>
+										<Left Value="F:\ToDatabase\Json\ImageMetaData\2018-09-23"/>
+										<Right Value="C:\Pictures\Dokument\commonlytakenpictures"/>
+									</Specs>
+									<State>
+										<ColExtVisible Value="True"/>
+										<ColExtWidth Value="106"/>
+										<ColModifiedWidth Value="53"/>
+										<ColPathWidth Value="202"/>
+										<ColSizeWidth Value="51"/>
+										<DirHandling Value="dirCompareFilesOnly"/>
+										<InsigIgnored Value="True"/>
+										<SortCol Value="colSize"/>
+										<SortDown Value="True"/>
+									</State>
+								</TDirCompareSession>
+								<ZOrder Value="19"/>
+							</_1>
+							<_2>
+								<TDirCompareSession>
+									<Filters>
+										<NameFilter Value="-*-5CG84229D5.*"/>
+										<OtherFilters>
+											<_0 Value="TDirSmallerThanSizeFilterItem">
+												<Size Value="1"/>
+											</_0>
+										</OtherFilters>
+									</Filters>
+									<Rules>
+										<UseTimestampComparison Value="False"/>
+									</Rules>
+									<Specs>
+										<Left Value="F:\.vscode"/>
+										<Right Value="C:\wslunix\home\.vscode-server"/>
+									</Specs>
+									<State>
+										<ColExtVisible Value="True"/>
+										<ColExtWidth Value="106"/>
+										<ColModifiedWidth Value="53"/>
+										<ColPathWidth Value="202"/>
+										<ColSizeWidth Value="51"/>
+										<DirHandling Value="dirCompareFilesOnly"/>
+										<InsigIgnored Value="True"/>
+										<SortCol Value="colSize"/>
+										<SortDown Value="True"/>
+									</State>
+								</TDirCompareSession>
+								<ZOrder Value="18"/>
+							</_2>
+							<_3>
+								<TDirCompareSession>
+									<Filters>
+										<NameFilter Value="-*-5CG84229D5.*"/>
+										<OtherFilters>
+											<_0 Value="TDirSmallerThanSizeFilterItem">
+												<Size Value="1"/>
+											</_0>
+										</OtherFilters>
+									</Filters>
+									<Rules>
+										<UseTimestampComparison Value="False"/>
+									</Rules>
+									<Specs>
+										<Left Value="F:\Users\Dator\AppData\Local\Google\Chrome\User Data"/>
+										<Right Value="C:\Users\Tora\AppData\Local\Google\Chrome\User Data"/>
+									</Specs>
+									<State>
+										<ColExtVisible Value="True"/>
+										<ColExtWidth Value="106"/>
+										<ColModifiedWidth Value="53"/>
+										<ColPathWidth Value="202"/>
+										<ColSizeWidth Value="51"/>
+										<DirHandling Value="dirCompareFilesOnly"/>
+										<InsigIgnored Value="True"/>
+										<SortCol Value="colSize"/>
+										<SortDown Value="True"/>
+									</State>
+								</TDirCompareSession>
+								<ZOrder Value="17"/>
+							</_3>
+							<_4>
+								<TDirCompareSession>
+									<Filters>
+										<NameFilter Value="-*-5CG84229D5.*"/>
+										<OtherFilters>
+											<_0 Value="TDirSmallerThanSizeFilterItem">
+												<Size Value="1"/>
+											</_0>
+										</OtherFilters>
+									</Filters>
+									<Rules>
+										<UseTimestampComparison Value="False"/>
+									</Rules>
+									<Specs>
+										<Left Value="F:\Users\Dator\AppData\Local\Google\Chrome Beta\User Data"/>
+										<Right Value="C:\Users\Tora\AppData\Local\Google\Chrome\User Data"/>
+									</Specs>
+									<State>
+										<ColExtVisible Value="True"/>
+										<ColExtWidth Value="106"/>
+										<ColModifiedWidth Value="53"/>
+										<ColPathWidth Value="202"/>
+										<ColSizeWidth Value="51"/>
+										<DirHandling Value="dirCompareFilesOnly"/>
+										<InsigIgnored Value="True"/>
+										<SortCol Value="colSize"/>
+										<SortDown Value="True"/>
+									</State>
+								</TDirCompareSession>
+								<ZOrder Value="16"/>
+							</_4>
+							<_5>
+								<TDirCompareSession>
+									<Filters>
+										<NameFilter Value="-*-5CG84229D5.*"/>
+										<OtherFilters>
+											<_0 Value="TDirSmallerThanSizeFilterItem">
+												<Size Value="1"/>
+											</_0>
+										</OtherFilters>
+									</Filters>
+									<Rules>
+										<UseTimestampComparison Value="False"/>
+									</Rules>
+									<Specs>
+										<Left Value="F:\Program Files (x86)\Microsoft SQL Server Management Studio 18\Common7\IDE\Extensions\Application"/>
+										<Right Value="C:\Program Files (x86)\Microsoft SQL Server\130\Tools\Binn\ManagementStudio\Extensions\Application"/>
+									</Specs>
+									<State>
+										<ColExtVisible Value="True"/>
+										<ColExtWidth Value="106"/>
+										<ColModifiedWidth Value="53"/>
+										<ColPathWidth Value="202"/>
+										<ColSizeWidth Value="51"/>
+										<DirHandling Value="dirCompareFilesOnly"/>
+										<InsigIgnored Value="True"/>
+										<SortCol Value="colSize"/>
+										<SortDown Value="True"/>
+									</State>
+								</TDirCompareSession>
+								<ZOrder Value="15"/>
+							</_5>
+							<_6>
+								<TDirCompareSession>
+									<Filters>
+										<NameFilter Value="-*-5CG84229D5.*"/>
+										<OtherFilters>
+											<_0 Value="TDirSmallerThanSizeFilterItem">
+												<Size Value="1"/>
+											</_0>
+										</OtherFilters>
+									</Filters>
+									<Rules>
+										<UseTimestampComparison Value="False"/>
+									</Rules>
+									<Specs>
+										<Left Value="F:\PortableApps\5. video\PortableApps\VLCPortable\App\vlc\plugins\codec"/>
+										<Right Value="C:\Program Files (x86)\VideoLAN\VLC\plugins\codec"/>
+									</Specs>
+									<State>
+										<ColExtVisible Value="True"/>
+										<ColExtWidth Value="106"/>
+										<ColModifiedWidth Value="53"/>
+										<ColPathWidth Value="202"/>
+										<ColSizeWidth Value="51"/>
+										<DirHandling Value="dirCompareFilesOnly"/>
+										<InsigIgnored Value="True"/>
+										<SortCol Value="colSize"/>
+										<SortDown Value="True"/>
+									</State>
+								</TDirCompareSession>
+								<ZOrder Value="14"/>
+							</_6>
+							<_7>
+								<TDirCompareSession>
+									<Filters>
+										<NameFilter Value="-*-5CG84229D5.*"/>
+										<OtherFilters>
+											<_0 Value="TDirSmallerThanSizeFilterItem">
+												<Size Value="1"/>
+											</_0>
+										</OtherFilters>
+									</Filters>
+									<Rules>
+										<UseTimestampComparison Value="False"/>
+									</Rules>
+									<Specs>
+										<Left Value="F:\.DataGrip2019.1\system\index\trigram.index"/>
+										<Right Value="C:\OneDrive - Region Gotland\.IdeaIC2016.2\system\index\trigram.index"/>
+									</Specs>
+									<State>
+										<ColExtVisible Value="True"/>
+										<ColExtWidth Value="106"/>
+										<ColModifiedWidth Value="53"/>
+										<ColPathWidth Value="202"/>
+										<ColSizeWidth Value="51"/>
+										<DirHandling Value="dirCompareFilesOnly"/>
+										<InsigIgnored Value="True"/>
+										<SortCol Value="colSize"/>
+										<SortDown Value="True"/>
+									</State>
+								</TDirCompareSession>
+								<ZOrder Value="13"/>
+							</_7>
+							<_8>
+								<TDirCompareSession>
+									<Filters>
+										<NameFilter Value="-*-5CG84229D5.*"/>
+										<OtherFilters>
+											<_0 Value="TDirSmallerThanSizeFilterItem">
+												<Size Value="1"/>
+											</_0>
+										</OtherFilters>
+									</Filters>
+									<Rules>
+										<UseTimestampComparison Value="False"/>
+									</Rules>
+									<Specs>
+										<Left Value="F:\Users\Dator\AppData\Local\Google\Chrome\User Data\Default\Cache"/>
+										<Right Value="C:\Users\Tora\AppData\Local\Google\Chrome\User Data\Default\Cache"/>
+									</Specs>
+									<State>
+										<ColExtVisible Value="True"/>
+										<ColExtWidth Value="106"/>
+										<ColModifiedWidth Value="53"/>
+										<ColPathWidth Value="202"/>
+										<ColSizeWidth Value="51"/>
+										<DirHandling Value="dirCompareFilesOnly"/>
+										<InsigIgnored Value="True"/>
+										<SortCol Value="colSize"/>
+										<SortDown Value="True"/>
+									</State>
+								</TDirCompareSession>
+								<ZOrder Value="12"/>
+							</_8>
+							<_9>
+								<TDirCompareSession>
+									<Filters>
+										<NameFilter Value="-*-5CG84229D5.*"/>
+										<OtherFilters>
+											<_0 Value="TDirSmallerThanSizeFilterItem">
+												<Size Value="1"/>
+											</_0>
+										</OtherFilters>
+									</Filters>
+									<Rules>
+										<UseTimestampComparison Value="False"/>
+									</Rules>
+									<Specs>
+										<Left Value="F:\ToDatabase\SpiderOakOldProfile\SpiderOak"/>
+										<Right Value="C:\OneDrive - Region Gotland\SpiderOakOldProfile\SpiderOak"/>
+									</Specs>
+									<State>
+										<ColExtVisible Value="True"/>
+										<ColExtWidth Value="106"/>
+										<ColModifiedWidth Value="53"/>
+										<ColPathWidth Value="202"/>
+										<ColSizeWidth Value="51"/>
+										<DirHandling Value="dirCompareFilesOnly"/>
+										<InsigIgnored Value="True"/>
+										<SortCol Value="colSize"/>
+										<SortDown Value="True"/>
+									</State>
+								</TDirCompareSession>
+								<ZOrder Value="11"/>
+							</_9>
+							<_10>
+								<TDirCompareSession>
+									<Filters>
+										<NameFilter Value="-*-5CG84229D5.*"/>
+										<OtherFilters>
+											<_0 Value="TDirSmallerThanSizeFilterItem">
+												<Size Value="1"/>
+											</_0>
+										</OtherFilters>
+									</Filters>
+									<Rules>
+										<UseTimestampComparison Value="False"/>
+									</Rules>
+									<Specs>
+										<Left Value="F:\PortableApps\9. browser Network Database\PortableApps\FirefoxPortable\Data\profile"/>
+										<Right Value="C:\FirefoxPortableBackup1\FirefoxPortableBackup1\FirefoxPortable\Data(1)\profile"/>
+									</Specs>
+									<State>
+										<ColExtVisible Value="True"/>
+										<ColExtWidth Value="106"/>
+										<ColModifiedWidth Value="53"/>
+										<ColPathWidth Value="202"/>
+										<ColSizeWidth Value="51"/>
+										<DirHandling Value="dirCompareFilesOnly"/>
+										<InsigIgnored Value="True"/>
+										<SortCol Value="colSize"/>
+										<SortDown Value="True"/>
+									</State>
+								</TDirCompareSession>
+								<ZOrder Value="10"/>
+							</_10>
+							<_11>
+								<TDirCompareSession>
+									<Filters>
+										<NameFilter Value="-*-5CG84229D5.*"/>
+										<OtherFilters>
+											<_0 Value="TDirSmallerThanSizeFilterItem">
+												<Size Value="1"/>
+											</_0>
+										</OtherFilters>
+									</Filters>
+									<Rules>
+										<UseTimestampComparison Value="False"/>
+									</Rules>
+									<Specs>
+										<Left Value="F:\OneDrive\Portable\GoogleChromePortable\Data\profile\PepperFlash\32.0.0.414"/>
+										<Right Value="C:\Users\Tora\AppData\Local\Google\Chrome\User Data\PepperFlash\32.0.0.414"/>
+									</Specs>
+									<State>
+										<ColExtVisible Value="True"/>
+										<ColExtWidth Value="106"/>
+										<ColModifiedWidth Value="53"/>
+										<ColPathWidth Value="202"/>
+										<ColSizeWidth Value="51"/>
+										<DirHandling Value="dirCompareFilesOnly"/>
+										<InsigIgnored Value="True"/>
+										<SortCol Value="colSize"/>
+										<SortDown Value="True"/>
+									</State>
+								</TDirCompareSession>
+								<ZOrder Value="9"/>
+							</_11>
+							<_12>
+								<TVerCompareSession>
+									<Specs>
+										<Left Value="F:\Users\Dator\AppData\Roaming\discord\0.0.305\modules\discord_voice\discord_voice.node"/>
+										<Right Value="C:\Users\Tora\AppData\Roaming\discord\0.0.298\modules\discord_voice\discord_voice.node"/>
+									</Specs>
+								</TVerCompareSession>
+								<ParentTab Value="0"/>
+								<ParentWindow Value="0"/>
+								<ZOrder Value="7"/>
+							</_12>
+							<_13>
+								<TDirCompareSession>
+									<Filters>
+										<NameFilter Value="-*-5CG84229D5.*"/>
+										<OtherFilters>
+											<_0 Value="TDirSmallerThanSizeFilterItem">
+												<Size Value="1"/>
+											</_0>
+										</OtherFilters>
+									</Filters>
+									<Rules>
+										<UseTimestampComparison Value="False"/>
+									</Rules>
+									<Specs>
+										<Left Value="F:\Users\Dator\AppData\Roaming\discord\0.0.305\modules\discord_voice"/>
+										<Right Value="C:\Users\Tora\AppData\Roaming\discord\0.0.298\modules\discord_voice"/>
+									</Specs>
+									<State>
+										<ColExtVisible Value="True"/>
+										<ColExtWidth Value="106"/>
+										<ColModifiedWidth Value="53"/>
+										<ColPathWidth Value="202"/>
+										<ColSizeWidth Value="51"/>
+										<DirHandling Value="dirCompareFilesOnly"/>
+										<InsigIgnored Value="True"/>
+										<SortCol Value="colSize"/>
+										<SortDown Value="True"/>
+									</State>
+								</TDirCompareSession>
+								<ZOrder Value="8"/>
+							</_13>
+							<_14>
+								<TDirCompareSession>
+									<Filters>
+										<OtherFilters>
+											<_0 Value="TDirSmallerThanSizeFilterItem">
+												<Size Value="1"/>
+											</_0>
+										</OtherFilters>
+									</Filters>
+									<Rules>
+										<UseTimestampComparison Value="False"/>
+									</Rules>
+									<Specs>
+										<Left Value="F:\PortableApps\5. audio\PortableApps\Tomahawk"/>
+										<Right Value="C:\Program Files\Tomahawk"/>
+									</Specs>
+									<State>
+										<ColExtVisible Value="True"/>
+										<ColExtWidth Value="106"/>
+										<ColModifiedWidth Value="53"/>
+										<ColPathWidth Value="202"/>
+										<ColSizeWidth Value="51"/>
+										<DirHandling Value="dirCompareFilesOnly"/>
+										<DisplayFilter Value="[showSame, showLeftChanged, showRightChanged, showConflict]"/>
+										<InsigIgnored Value="True"/>
+										<SortCol Value="colSize"/>
+										<SortDown Value="True"/>
+									</State>
+								</TDirCompareSession>
+								<ZOrder Value="6"/>
+							</_14>
+							<_15>
+								<TDirCompareSession>
+									<Filters>
+										<NameFilter Value="-.\Windows\"/>
+										<OtherFilters>
+											<_0 Value="TDirSmallerThanSizeFilterItem">
+												<Size Value="1"/>
+											</_0>
+										</OtherFilters>
+									</Filters>
+									<Rules>
+										<UseTimestampComparison Value="False"/>
+									</Rules>
+									<Specs>
+										<Left Value="F:\Google Drive"/>
+										<Right Value="C:\Documents\archives\music creation"/>
+									</Specs>
+									<State>
+										<ColExtVisible Value="True"/>
+										<ColExtWidth Value="106"/>
+										<ColModifiedWidth Value="53"/>
+										<ColPathWidth Value="202"/>
+										<ColSizeWidth Value="51"/>
+										<DirHandling Value="dirCompareFilesOnly"/>
+										<DisplayFilter Value="[showSame, showLeftChanged, showRightChanged, showConflict]"/>
+										<InsigIgnored Value="True"/>
+										<SortCol Value="colSize"/>
+										<SortDown Value="True"/>
+									</State>
+								</TDirCompareSession>
+								<ZOrder Value="5"/>
+							</_15>
+							<_16>
+								<TDirCompareSession>
+									<Filters>
+										<NameFilter Value="-*-5CG84229D5.*"/>
+										<OtherFilters>
+											<_0 Value="TDirSmallerThanSizeFilterItem">
+												<Size Value="1"/>
+											</_0>
+										</OtherFilters>
+									</Filters>
+									<Rules>
+										<UseTimestampComparison Value="False"/>
+									</Rules>
+									<Specs>
+										<Left Value="F:\PortableApps\1. Dedup\PortableApps\dupeGuruPortable\Data\Hardcoded Software\dupeGuru"/>
+										<Right Value="C:\Users\Tora\AppData\Local\Hardcoded Software\dupeGuru"/>
+									</Specs>
+									<State>
+										<ColExtVisible Value="True"/>
+										<ColExtWidth Value="106"/>
+										<ColModifiedWidth Value="53"/>
+										<ColPathWidth Value="202"/>
+										<ColSizeWidth Value="51"/>
+										<DirHandling Value="dirCompareFilesOnly"/>
+										<InsigIgnored Value="True"/>
+										<SortCol Value="colSize"/>
+										<SortDown Value="True"/>
+									</State>
+								</TDirCompareSession>
+								<ZOrder Value="4"/>
+							</_16>
+							<_17>
+								<TDirCompareSession>
+									<Filters>
+										<NameFilter Value="-*-5CG84229D5.*"/>
+										<OtherFilters>
+											<_0 Value="TDirSmallerThanSizeFilterItem">
+												<Size Value="1"/>
+											</_0>
+										</OtherFilters>
+									</Filters>
+									<Rules>
+										<UseTimestampComparison Value="False"/>
+									</Rules>
+									<Specs>
+										<Left Value="F:\PortableApps\6, Text,programming, x Editing\PortableApps\Beyond Compare 4"/>
+										<Right Value="C:\Program Files (x86)\Beyond Compare 4"/>
+									</Specs>
+									<State>
+										<ColExtVisible Value="True"/>
+										<ColExtWidth Value="106"/>
+										<ColModifiedWidth Value="53"/>
+										<ColPathWidth Value="202"/>
+										<ColSizeWidth Value="51"/>
+										<DirHandling Value="dirCompareFilesOnly"/>
+										<InsigIgnored Value="True"/>
+										<SortCol Value="colSize"/>
+										<SortDown Value="True"/>
+									</State>
+								</TDirCompareSession>
+								<ZOrder Value="3"/>
+							</_17>
+							<_18>
+								<TDirCompareSession>
+									<Filters>
+										<NameFilter Value="-*-5CG84229D5.*"/>
+										<OtherFilters>
+											<_0 Value="TDirSmallerThanSizeFilterItem">
+												<Size Value="1"/>
+											</_0>
+										</OtherFilters>
+									</Filters>
+									<Rules>
+										<UseTimestampComparison Value="False"/>
+									</Rules>
+									<Specs>
+										<Left Value="F:\Program Files (x86)\Steam"/>
+										<Right Value="C:\GOG Games\Steam"/>
+									</Specs>
+									<State>
+										<ColExtVisible Value="True"/>
+										<ColExtWidth Value="106"/>
+										<ColModifiedWidth Value="53"/>
+										<ColPathWidth Value="202"/>
+										<ColSizeWidth Value="51"/>
+										<DirHandling Value="dirCompareFilesOnly"/>
+										<DisplayFilter Value="[showSame, showLeftChanged, showRightChanged, showConflict]"/>
+										<InsigIgnored Value="True"/>
+										<SortCol Value="colSize"/>
+										<SortDown Value="True"/>
+									</State>
+								</TDirCompareSession>
+								<ZOrder Value="0"/>
+							</_18>
+							<_19>
+								<TDirCompareSession>
+									<Filters>
+										<NameFilter Value="-*-5CG84229D5.*"/>
+										<OtherFilters>
+											<_0 Value="TDirSmallerThanSizeFilterItem">
+												<Size Value="1"/>
+											</_0>
+										</OtherFilters>
+									</Filters>
+									<Rules>
+										<UseTimestampComparison Value="False"/>
+									</Rules>
+									<Specs>
+										<Left Value="F:\Program Files\Microsoft SQL Server\MSSQL14.SQLEXPRESS\MSSQL\Template Data"/>
+										<Right Value="C:\Program Files\Microsoft SQL Server\MSSQL12.SQLEXPRESS\MSSQL\DATA"/>
+									</Specs>
+									<State>
+										<ColExtVisible Value="True"/>
+										<ColExtWidth Value="106"/>
+										<ColModifiedWidth Value="53"/>
+										<ColPathWidth Value="202"/>
+										<ColSizeWidth Value="51"/>
+										<DirHandling Value="dirFlatten"/>
+										<DisplayFilter Value="[showSame, showLeftChanged, showRightChanged, showConflict]"/>
+										<InsigIgnored Value="True"/>
+										<SortCol Value="colSize"/>
+										<SortDown Value="True"/>
+									</State>
+								</TDirCompareSession>
+								<ZOrder Value="1"/>
+							</_19>
+							<_20>
+								<TDirCompareSession>
+									<Filters>
+										<NameFilter Value="-*-5CG84229D5.*"/>
+										<OtherFilters>
+											<_0 Value="TDirSmallerThanSizeFilterItem">
+												<Size Value="1"/>
+											</_0>
+										</OtherFilters>
+									</Filters>
+									<Rules>
+										<UseTimestampComparison Value="False"/>
+									</Rules>
+									<Specs>
+										<Left Value="F:\Program Files\Microsoft VS Code"/>
+										<Right Value="C:\Program Files (x86)\Microsoft VS Code"/>
+									</Specs>
+									<State>
+										<ColExtVisible Value="True"/>
+										<ColExtWidth Value="106"/>
+										<ColModifiedWidth Value="53"/>
+										<ColPathWidth Value="202"/>
+										<ColSizeWidth Value="51"/>
+										<DirHandling Value="dirCompareFilesOnly"/>
+										<DisplayFilter Value="[showSame, showLeftChanged, showRightChanged, showConflict]"/>
+										<InsigIgnored Value="True"/>
+										<SortCol Value="colSize"/>
+										<SortDown Value="True"/>
+									</State>
+								</TDirCompareSession>
+								<ZOrder Value="2"/>
+							</_20>
+						</Tabs>
+						<ZOrder Value="0"/>
+					</_0>
+				</Windows>
+			</Item>
+			<Item Value="last">
+				<Windows>
+					<_0>
+						<PosStr Value="1167;448;2728;1389"/>
+						<Tabs>
+							<_0>
+								<TDirSyncSession>
+									<Rules>
+										<AlignWiths>
+											<_0>
+												<FindText Value="OneDrive - Region Gotlad"/>
+												<PathMask Value=".\"/>
+												<ReplaceText Value="OneDrive - Region Gotland"/>
+											</_0>
+											<_1>
+												<FindText Value="Documents"/>
+												<PathMask Value=".\"/>
+												<ReplaceText Value="Mina dokument"/>
+											</_1>
+											<_2>
+												<FindText Value="Downloads"/>
+												<PathMask Value=".\"/>
+												<ReplaceText Value="Downloads2"/>
+											</_2>
+										</AlignWiths>
+										<ContentCompareSkipSame Value="True"/>
+										<ExpandAllOnLoad Value="False"/>
+										<UseContentComparison Value="True"/>
+										<UseTimestampComparison Value="False"/>
+									</Rules>
+									<Specs>
+										<Left Value="D:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\projects\Kv-FlaggGenerering"/>
+										<Right Value="D:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\projects\Geosecma-Solen-Visoin-Vyer\.git"/>
+									</Specs>
+									<State>
+										<SortCol Value="colSize"/>
+										<SortDown Value="True"/>
+										<SortSide Value="dsRight"/>
+									</State>
+								</TDirSyncSession>
+								<ZOrder Value="0"/>
+							</_0>
+						</Tabs>
+						<ZOrder Value="0"/>
+					</_0>
+				</Windows>
+			</Item>
+			<Item Value="OneDrivePortableVsLocal">
+				<Windows>
+					<_0>
+						<PosStr Value="181;318;1501;1230"/>
+						<Tabs>
+							<_0>
+								<TDirCompareSession>
+									<Filters>
+										<NameFilter Value="-.\.git\"/>
+									</Filters>
+									<Rules>
+										<AlignWiths>
+											<_0>
+												<FindText Value="(.*)\s?[(]\d*[)](.*)"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1$2"/>
+											</_0>
+											<_1>
+												<FindText Value="(.*)\s?[(]\d*[)]"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_1>
+											<_2>
+												<FindText Value="(.*)[^a-zA-Z]{4}"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_2>
+											<_3>
+												<FindText Value="(.*)[^a-zA-Z]{4}(.*)"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1$2"/>
+											</_3>
+											<_4>
+												<FindText Value="(.*) [(]2[)]"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_4>
+											<_5>
+												<FindText Value="(.*)[.]bak"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_5>
+											<_6>
+												<FindText Value="(.*) [(].*conflicted.*[)](.*)"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1$2"/>
+											</_6>
+											<_7>
+												<FindText Value="(.*)~"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_7>
+										</AlignWiths>
+										<UseContentComparison Value="True"/>
+										<UseVersionComparison Value="True"/>
+									</Rules>
+									<Specs>
+										<Left Value="E:\OneDrive - Region Gotland\PortableApps"/>
+										<Right Value="E:\PortableApps"/>
+									</Specs>
+									<State>
+										<ColExtVisible Value="True"/>
+										<ColExtWidth Value="49"/>
+										<ColModifiedWidth Value="133"/>
+										<ColPathWidth Value="96"/>
+										<ColSizeWidth Value="124"/>
+										<DirHandling Value="dirCompareFilesOnly"/>
+										<DisplayFilter Value="[showSame]"/>
+										<InsigIgnored Value="True"/>
+										<SortCol Value="colSize"/>
+										<SortSide Value="dsRight"/>
+									</State>
+								</TDirCompareSession>
+								<ZOrder Value="0"/>
+							</_0>
+						</Tabs>
+						<ZOrder Value="0"/>
+					</_0>
+				</Windows>
+			</Item>
+			<Item Value="VscodeProfileSwitcher">
+				<Windows>
+					<_0>
+						<PosStr Value="246;78;1566;990;3"/>
+						<Tabs>
+							<_0>
+								<TDirCompareSession>
+									<Filters>
+										<NameFilter Value="-*.;-.\.git\"/>
+									</Filters>
+									<Rules>
+										<AlignWiths>
+											<_0>
+												<FindText Value="(.*)\s?[(]\d*[)](.*)"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1$2"/>
+											</_0>
+											<_1>
+												<FindText Value="(.*)\s?[(]\d*[)]"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_1>
+											<_2>
+												<FindText Value="(.*)[^a-zA-Z]{4}"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_2>
+											<_3>
+												<FindText Value="(.*)[^a-zA-Z]{4}(.*)"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1$2"/>
+											</_3>
+											<_4>
+												<FindText Value="(.*) [(]2[)]"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_4>
+											<_5>
+												<FindText Value="(.*)[.]bak"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_5>
+											<_6>
+												<FindText Value="(.*) [(].*conflicted.*[)](.*)"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1$2"/>
+											</_6>
+											<_7>
+												<FindText Value="(.*)~"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_7>
+										</AlignWiths>
+										<UseContentComparison Value="True"/>
+										<UseVersionComparison Value="True"/>
+									</Rules>
+									<Specs>
+										<Left Value="E:\OneDrive - Region Gotland\PortableApps"/>
+										<Right Value="E:\PortableApps"/>
+									</Specs>
+									<State>
+										<ColExtVisible Value="True"/>
+										<ColExtWidth Value="49"/>
+										<ColModifiedWidth Value="133"/>
+										<ColPathWidth Value="96"/>
+										<ColSizeWidth Value="124"/>
+										<DirHandling Value="dirCompareFilesOnly"/>
+										<DisplayFilter Value="[showSame]"/>
+										<InsigIgnored Value="True"/>
+										<SortCol Value="colSize"/>
+										<SortSide Value="dsRight"/>
+									</State>
+								</TDirCompareSession>
+								<ZOrder Value="0"/>
+							</_0>
+							<_1>
+								<TDirCompareSession>
+									<Filters>
+										<NameFilter Value="-.\.git\"/>
+									</Filters>
+									<Rules>
+										<AlignWiths>
+											<_0>
+												<FindText Value="(.*)\s?[(]\d*[)](.*)"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1$2"/>
+											</_0>
+											<_1>
+												<FindText Value="(.*)\s?[(]\d*[)]"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_1>
+											<_2>
+												<FindText Value="(.*)[^a-zA-Z]{4}"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_2>
+											<_3>
+												<FindText Value="(.*)[^a-zA-Z]{4}(.*)"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1$2"/>
+											</_3>
+											<_4>
+												<FindText Value="(.*) [(]2[)]"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_4>
+											<_5>
+												<FindText Value="(.*)[.]bak"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_5>
+											<_6>
+												<FindText Value="(.*) [(].*conflicted.*[)](.*)"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1$2"/>
+											</_6>
+											<_7>
+												<FindText Value="(.*)~"/>
+												<IsRegExp Value="True"/>
+												<ReplaceText Value="$1"/>
+											</_7>
+										</AlignWiths>
+										<UseContentComparison Value="True"/>
+										<UseVersionComparison Value="True"/>
+									</Rules>
+									<Specs>
+										<Left Value="E:\Users\Dator\AppData\Roaming\Code\User\globalStorage\aaronpowell.vscode-profile-switcher"/>
+										<Right Value="E:\.vscode\extensions"/>
+									</Specs>
+									<State>
+										<ColExtVisible Value="True"/>
+										<ColExtWidth Value="49"/>
+										<ColModifiedWidth Value="133"/>
+										<ColPathWidth Value="96"/>
+										<ColSizeWidth Value="124"/>
+										<DirHandling Value="dirCompareFilesOnly"/>
+										<InsigIgnored Value="True"/>
+										<SortCol Value="colSize"/>
+										<SortSide Value="dsRight"/>
+									</State>
+								</TDirCompareSession>
+								<ZOrder Value="1"/>
+							</_1>
+						</Tabs>
+						<ZOrder Value="0"/>
+					</_0>
+				</Windows>
+			</Item>
+		</Workspaces>
+	</TBcPrefs>
+</BCPreferences>

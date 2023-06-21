@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Produced by Beyond Compare 4 from Scooter Software -->
+<BCState Version="1" MinVersion="1">
+	<TBcState>
+		<FirstStartup Value="False"/>
+		<FormPositions>
+<<<<<<< HEAD
+			<TDataCompareSessionDialog Value="885;235;1416;772"/>
+			<TDataFormatDialog Value="660;262;1181;818"/>
+			<TDirCompareSessionDialog Value="718;266;1249;803"/>
+			<TDirLoadErrorDialog Value="670;509;1153;629"/>
+			<TDirSyncSessionDialog Value="479;535;1010;1072"/>
+			<TProfileBrowseDialog Value="644;255;1389;975"/>
+			<TTextCompareSessionDialog Value="718;266;1249;803"/>
+			<TTextMergeSessionDialog Value="655;271;1186;808"/>
+			<TViewFrame Value="603;151;1904;908"/>
+=======
+			<TCheckForUpdatesDialog Value="750;450;1240;796"/>
+			<TDirLoadErrorDialog Value="795;523;1278;643"/>
+			<TDirSyncSessionDialog Value="651;416;1182;953"/>
+			<TProfileBrowseDialog Value="743;156;1488;876"/>
+			<TSessionSaveAsDialog Value="2271;-37;2648;250"/>
+			<TSourceControlManagerDialog Value="622;263;1367;983"/>
+			<TTextCompareSessionDialog Value="532;295;1063;832"/>
+			<TTextFormatDialog Value="537;286;1058;842"/>
+			<TViewFrame Value="160;321;1674;1049"/>
+>>>>>>> 9817c6df303bb5e06b7c1b66d4ae51f5f31602a0
+		</FormPositions>
+	</TBcState>
+	<TCheckForUpdatesState>
+		<Build Value="25886"/>
+<<<<<<< HEAD
+		<LastChecked Value="2021-09-24 07:35:59"/>
+	</TCheckForUpdatesState>
+	<TDataCompareState>
+		<LeftMRUSpecs>
+			<_0 Value="C:\Users\crbk01\AppData\Local\Temp\TortoiseGit\Visual Studio Code Host_history-0f8543aa.001.txt"/>
+			<_1 Value="C:\Users\crbk01\AppData\Local\Temp\TortoiseGit\Visual Studio Code Host_history-0d044a85.000.txt"/>
+			<_2 Value="D:\PortableApps\2. file Organization\PortableApps\Everything\Bookmarks.csv"/>
+		</LeftMRUSpecs>
+		<MRUFonts>
+			<_0 Value="Courier New;9"/>
+		</MRUFonts>
+		<RightMRUSpecs>
+			<_0 Value="C:\Users\crbk01\AppData\Local\Temp\TortoiseGit\Visual Studio Code Host_history-0d044a85.000.txt"/>
+			<_1 Value="C:\Users\crbk01\AppData\Local\Temp\TortoiseGit\Visual Studio Code Host_history-0f8543aa.001.txt"/>
+			<_2 Value="D:\PortableApps\2. file Organization\PortableApps\Everything\Filters.csv"/>
+		</RightMRUSpecs>
+	</TDataCompareState>
+	<TDirCompareState>
+		<LeftMRUSpecs>
+			<_0 Value="D:\Documents\WindowsPowerShell\Scripts"/>
+			<_1 Value="D:\Documents\WindowsPowerShell\Scripts\WindowsAdmin"/>
+			<_2 Value="C:\Users\crbk01"/>
+			<_3 Value="C:\Users\crbk01\Desktop\Ny mapp\.git"/>
+			<_4 Value="C:\Users\crbk01\Desktop\OnGithub\powershell"/>
+			<_5 Value="C:\Users\crbk01\Desktop\powershell"/>
+			<_6 Value="C:\Users\crbk01\Desktop\powershell\Scripts"/>
+			<_7 Value="D:\Documents\WindowsPowerShell\Script"/>
+			<_8 Value="C:\Users\crbk01\.DataGrip2019.3\config\projects\Fil-Till-Vision\.idea"/>
+		</LeftMRUSpecs>
+		<RightMRUSpecs>
+			<_0 Value="D:\Documents\WindowsPowerShell\Scripts\SymLinks"/>
+			<_1 Value="D:\Documents\WindowsPowerShell\Scripts\Pdf"/>
+			<_2 Value="D:\Documents\WindowsPowerShell\Scripts\filesystem"/>
+			<_3 Value="D:\Documents\WindowsPowerShell\Scripts\git"/>
+			<_4 Value="D:\Documents\WindowsPowerShell\Scripts\Regestry"/>
+			<_5 Value="D:\Documents\WindowsPowerShell\Scripts\Pictures"/>
+			<_6 Value="D:\Documents\WindowsPowerShell\Scripts\TextTransformation"/>
+			<_7 Value="D:\Documents\WindowsPowerShell\Scripts\Processes"/>
+			<_8 Value="D:\Documents\WindowsPowerShell\Scripts\json"/>
+=======
+		<LastChecked Value="2021-09-16 16:26:55"/>
+	</TCheckForUpdatesState>
+	<TDataCompareState>
+		<LeftMRUSpecs>
+			<_0 Value="C:\Users\crbk01\Desktop\OnGithub\MapInfoTabToCsv\.git\logs\HEAD"/>
+		</LeftMRUSpecs>
+		<MRUFonts>
+			<_0 Value="Consolas;10"/>
+		</MRUFonts>
+	</TDataCompareState>
+	<TDataFindState>
+		<FindItems>
+			<_0 Value="44f384ad30c91dd19b359f97b8fee567e01ff031"/>
+		</FindItems>
+	</TDataFindState>
+	<TDirCompareState>
+		<LeftMRUSpecs>
+			<_0 Value="C:\Users\crbk01\Desktop\OnGithub\DittoPortable"/>
+			<_1 Value="C:\Users\crbk01\OneDrive - Region Gotland\PortableApps\Beyond Compare 4"/>
+			<_2 Value="C:\Users\crbk01\Desktop\OnGithub\InsteadOfSheets (1)\.idea"/>
+			<_3 Value="C:\Users\crbk01\Desktop\OnGithub\MapInfoTabToCsv\Komponent"/>
+			<_4 Value="C:\Users\crbk01\OneDrive - Region Gotland\Till Github\important, backup, config"/>
+			<_5 Value="C:\Users\crbk01\.DataGrip2019.1"/>
+			<_6 Value="C:\Users\crbk01\OneDrive - Region Gotland\Archive"/>
+			<_7 Value="C:\Users\crbk01\Documents"/>
+			<_8 Value="C:\Users\crbk01\OneDrive - Region Gotland\Documents\Documents"/>
+		</LeftMRUSpecs>
+		<RightMRUSpecs>
+			<_0 Value="C:\Users\crbk01\OneDrive - Region Gotland\PortableApps\DittoPortable"/>
+			<_1 Value="C:\Users\crbk01\Desktop\OnGithub\BeondCompare4"/>
+			<_2 Value="C:\Users\crbk01\OneDrive - Region Gotland\.DataGrip2019.1\config\projects\default\.idea"/>
+			<_3 Value="C:\Users\crbk01\OneDrive - Region Gotland\Archive\OneDrive\Mapinfo-TabToCsv-1a917ac2ab8090e52771a06bea33be399f4ae6ea.zip"/>
+			<_4 Value="C:\Users\crbk01\OneDrive - Region Gotland\Solen till vision\KomponentProgramm"/>
+			<_5 Value="C:\Users\crbk01\OneDrive - Region Gotland\To Vision, GDPR cleanup\MapInfoTables\skikt"/>
+			<_6 Value="C:\Users\crbk01\OneDrive - Region Gotland\Till Github\Mapinfo\skikt"/>
+			<_7 Value="C:\Users\crbk01\Desktop\OnGithub\MapInfoTabToCsv"/>
+>>>>>>> 9817c6df303bb5e06b7c1b66d4ae51f5f31602a0
+		</RightMRUSpecs>
+	</TDirCompareState>
+	<TDirSyncState>
+		<LeftMRUSpecs>
+<<<<<<< HEAD
+			<_0 Value="C:\Users\crbk01"/>
+			<_1 Value="C:\Users\crbk01\Desktop\powershell\Scripts"/>
+=======
+			<_0 Value="C:\Users\crbk01\AppData\Local\Microsoft\Outlook"/>
+			<_1 Value="C:\Users\crbk01\AppData\Local\Spotify"/>
+			<_2 Value="C:\Users\crbk01\OneDrive - Region Gotland\.DataGrip2019.1"/>
+			<_3 Value="C:\Users\crbk01\.DataGrip2019.1"/>
+			<_4 Value="C:\EDPTemp"/>
+			<_5 Value="C:\Users\crbk01\OneDrive\programming"/>
+>>>>>>> 9817c6df303bb5e06b7c1b66d4ae51f5f31602a0
+		</LeftMRUSpecs>
+		<MRUFilters>
+			<_0 Value=".data"/>
+		</MRUFilters>
+		<RightMRUSpecs>
+<<<<<<< HEAD
+			<_0 Value="D:\DatagripRecoveredFiles"/>
+			<_1 Value="D:\Documents\WindowsPowerShell\Script"/>
+=======
+			<_0 Value="H:\Users\crbk01\AppData\Local\Microsoft\Outlook"/>
+			<_1 Value="C:\Users\crbk01\OneDrive - Region Gotland\Mina dokument"/>
+			<_2 Value="H:\Users\crbk01\AppData\Local\Spotify"/>
+			<_3 Value="H:\Users\crbk01\.DataGrip2019.1"/>
+			<_4 Value="H:\EDPTemp"/>
+			<_5 Value="C:\Users\crbk01\Desktop\Till vision"/>
+>>>>>>> 9817c6df303bb5e06b7c1b66d4ae51f5f31602a0
+		</RightMRUSpecs>
+	</TDirSyncState>
+	<THexCompareState>
+		<LeftMRUSpecs>
+<<<<<<< HEAD
+			<_0 Value="C:\Users\crbk01\Desktop\Ny mapp\.git\index"/>
+		</LeftMRUSpecs>
+		<MRUFonts>
+			<_0 Value="Courier New;9"/>
+		</MRUFonts>
+		<RightMRUSpecs>
+			<_0 Value="D:\Documents\WindowsPowerShell\.git\index"/>
+		</RightMRUSpecs>
+	</THexCompareState>
+	<THomeState>
+=======
+			<_0 Value="C:\Users\crbk01\OneDrive - Region Gotland\PortableApps\Beyond Compare 4\mime.types"/>
+			<_1 Value="H:\TabToCsvWorkingBkp.zip\.git\index"/>
+		</LeftMRUSpecs>
+		<MRUFonts>
+			<_0 Value="Consolas;10"/>
+		</MRUFonts>
+		<RightMRUSpecs>
+			<_0 Value="C:\Users\crbk01\Desktop\OnGithub\BeondCompare4\mime.types"/>
+			<_1 Value="C:\Users\crbk01\Desktop\OnGithub\MapInfoTabToCsv\.git\index"/>
+		</RightMRUSpecs>
+	</THexCompareState>
+	<THomeState>
+		<NewExpanded Value="True"/>
+>>>>>>> 9817c6df303bb5e06b7c1b66d4ae51f5f31602a0
+		<SessionType Value="TDirCompareSession"/>
+	</THomeState>
+	<TTextCompareState>
+		<AlignDetails Value="True"/>
+		<LeftMRUSpecs>
+<<<<<<< HEAD
+			<_0 Value="D:\Documents\WindowsPowerShell\Scripts\splitFile.ps1"/>
+			<_1 Value="D:\Documents\WindowsPowerShell\Scripts\Skicka pdfer till skrivare.ps1"/>
+			<_2 Value="D:\Documents\WindowsPowerShell\Scripts\MakeSoftlink.ps1"/>
+			<_3 Value="D:\Documents\WindowsPowerShell\Scripts\ConvertExcelToCsvInBatch.ps1"/>
+			<_4 Value="D:\Documents\WindowsPowerShell\Scripts\actOnJson.ps1"/>
+			<_5 Value="D:\Documents\WindowsPowerShell\Scripts\firstPageOfEachPDfFromList.ps1"/>
+			<_6 Value="D:\Documents\WindowsPowerShell\Scripts\MergeWithBlankPage.ps1"/>
+			<_7 Value="D:\Documents\WindowsPowerShell\Scripts\PdfSharp5.ps1"/>
+			<_8 Value="D:\Documents\WindowsPowerShell\Scripts\Microsoft.PowerShellISE_profile.ps1"/>
+=======
+			<_0 Value="C:\Users\chris\OneDrive\Desktop\New folder\bCompareGit\.git\FETCH_HEAD"/>
+			<_1 Value="C:\Users\chris\OneDrive\Desktop\New folder\bCompareGit\.git\COMMIT_EDITMSG"/>
+			<_2 Value="C:\Users\chris\OneDrive\Desktop\New folder\bCompareGit\.git\logs\HEAD"/>
+			<_3 Value="C:\Users\chris\OneDrive\Desktop\New folder\bCompareGit\.git\logs\refs\heads\master"/>
+			<_4 Value="C:\Users\crbk01\Desktop\OnGithub\DittoPortable\Data\settings\DittoPortableSettings.ini"/>
+			<_5 Value="C:\Users\crbk01\OneDrive - Region Gotland\PortableApps\Beyond Compare 4\BCSessions.xml"/>
+			<_6 Value="C:\Users\crbk01\Desktop\OnGithub\BeondCompare4\BCSessions.xml.bak"/>
+			<_7 Value="C:\Users\crbk01\OneDrive - Region Gotland\PortableApps\Beyond Compare 4\BCState.xml"/>
+			<_8 Value="G:\sbf\Livsmiljö\Miljö- och hälsoskydd\Vatten\Gemensam\Avloppsregistret i EDP Vision\EDP Script\vwTrEaAnlaeggningPunkter_3015.sql"/>
+>>>>>>> 9817c6df303bb5e06b7c1b66d4ae51f5f31602a0
+		</LeftMRUSpecs>
+		<MRUFonts>
+			<_0 Value="Courier New;9"/>
+			<_1 Value="Consolas;10"/>
+		</MRUFonts>
+		<RightMRUSpecs>
+<<<<<<< HEAD
+			<_0 Value="D:\Documents\WindowsPowerShell\Scripts\filesystem\SplitFileLineByLine.ps1"/>
+			<_1 Value="D:\Documents\WindowsPowerShell\Scripts\Pdf\SendPdfToPRinter.ps1"/>
+			<_2 Value="D:\Documents\WindowsPowerShell\Scripts\SymLinks\MakeSoftlink.ps1"/>
+			<_3 Value="D:\Documents\WindowsPowerShell\Scripts\TextTransformation\ConvertExcelToCsvInBatch.ps1"/>
+			<_4 Value="D:\Documents\WindowsPowerShell\Scripts\json\actOnJson.ps1"/>
+			<_5 Value="D:\Documents\WindowsPowerShell\Scripts\Pdf\firstPageOfEachPDfFromList.ps1"/>
+			<_6 Value="D:\Documents\WindowsPowerShell\Scripts\Pdf\MergeWithBlankPage.ps1"/>
+			<_7 Value="D:\Documents\WindowsPowerShell\Scripts\Pdf\PdfSharp5.ps1"/>
+			<_8 Value="D:\Documents\WindowsPowerShell\Scripts\TodoProjects\Microsoft.PowerShellISE_profile.ps1"/>
+=======
+			<_0 Value="C:\Users\chris\AppData\Roaming\Vortex\AppLauncher\mods\Beyond Compare 4\.git\FETCH_HEAD"/>
+			<_1 Value="C:\Users\chris\AppData\Roaming\Vortex\AppLauncher\mods\Beyond Compare 4\.git\COMMIT_EDITMSG"/>
+			<_2 Value="C:\Users\chris\AppData\Roaming\Vortex\AppLauncher\mods\Beyond Compare 4\.git\logs\HEAD"/>
+			<_3 Value="C:\Users\chris\AppData\Roaming\Vortex\AppLauncher\mods\Beyond Compare 4\.git\logs\refs\heads\master"/>
+			<_4 Value="C:\Users\crbk01\OneDrive - Region Gotland\PortableApps\DittoPortable\Data\settings\DittoPortableSettings.ini"/>
+			<_5 Value="C:\Users\crbk01\Desktop\OnGithub\BeondCompare4\BCSessions.xml"/>
+			<_6 Value="C:\Users\crbk01\Desktop\OnGithub\BeondCompare4\BCState.xml"/>
+			<_7 Value="G:\sbf\Livsmiljö\Miljö- och hälsoskydd\Vatten\Gemensam\Avloppsregistret i EDP Vision\EDP Script\vwTrEaAvloppsanlaeggningPunkter_3015.sql"/>
+			<_8 Value="C:\Users\crbk01\OneDrive\objektw3Vsvision.sql"/>
+>>>>>>> 9817c6df303bb5e06b7c1b66d4ae51f5f31602a0
+		</RightMRUSpecs>
+		<ShowItemNum Value="True"/>
+	</TTextCompareState>
+<<<<<<< HEAD
+	<TTextEditState>
+		<LeftMRUSpecs>
+			<_0 Value="D:\PortableApps\2. file Organization\PortableApps\Everything\Bookmarks.csv"/>
+		</LeftMRUSpecs>
+		<MRUFonts>
+			<_0 Value="Courier New;9"/>
+		</MRUFonts>
+	</TTextEditState>
+	<TTextFindState>
+		<All Value="True"/>
+		<CurSideOnly Value="False"/>
+		<FindItems>
+			<_0 Value="\s{10,}"/>
+			<_1 Value="\s*"/>
+=======
+	<TTextFindState>
+		<All Value="True"/>
+		<FindItems>
+			<_0 Value=" &quot;\s*&quot;"/>
+			<_1 Value="(([&quot;][^&quot;]*[&quot;])[)]{2} = )enforceFormat[(]([^(]*)[,][^,]*[,]\s?\d{0,}[)]$"/>
+			<_2 Value="[&quot;][^&quot;]*[&quot;][)]{2} = enforceFormat[(]([^(]*)[,][^,]*[,]\s\d*[)]$"/>
+			<_3 Value="enforceFormat[(][^(]*[,][^,]*[,]\s\d*[)]$"/>
+			<_4 Value="[^(]*[,][^,]*[,]\s\d*[)]$"/>
+			<_5 Value="[,][^,]*[,]\s\d*[)]$"/>
+			<_6 Value="([^=]*)\s{1,}[=]\s{1,}([^=¤]*)[¤]([^)(¤]){3,}[(]?(\d{0,})[)]?[,]?[¤]"/>
+>>>>>>> 9817c6df303bb5e06b7c1b66d4ae51f5f31602a0
+		</FindItems>
+		<IsRegExp Value="True"/>
+		<Replace Value="True"/>
+		<ReplaceItems>
+<<<<<<< HEAD
+			<_0 Value=" "/>
+			<_1/>
+		</ReplaceItems>
+		<Sides Value="[fsRight]"/>
+	</TTextFindState>
+	<TTextMergeState>
+		<CenterMRUSpecs>
+			<_0 Value="D:\Documents\WindowsPowerShell\PSReadline\Windows PowerShell ISE Host_history.txt.BASE.txt"/>
+			<_1 Value="D:\Documents\WindowsPowerShell\.gitmodules.BASE.gitmodules"/>
+			<_2 Value="D:\Documents\WindowsPowerShell\Scripts\ConsoleHost_history.txt.BASE.txt"/>
+			<_3 Value="D:\Documents\WindowsPowerShell\Scripts\PSReadline\ConsoleHost_history.txt.BASE.txt"/>
+			<_4 Value="D:\Documents\WindowsPowerShell\Scripts\PSReadline\Windows PowerShell ISE Host_history.txt.BASE.txt"/>
+			<_5 Value="D:\OneDrive\TabSessionManager - Backup\0a80bc16-57e2-42a0-b58d-c9c3d8f14e77.BASE"/>
+		</CenterMRUSpecs>
+		<LeftMRUSpecs>
+			<_0 Value="C:\Users\crbk01\AppData\Local\Temp\TortoiseGit\ConsoleHost_history-0d044a85.000.txt"/>
+			<_1 Value="C:\Users\crbk01\AppData\Local\Temp\TortoiseGit\ConsoleHost_history-a3cdb979.002.txt"/>
+			<_2 Value="D:\Documents\WindowsPowerShell\PSReadline\Windows PowerShell ISE Host_history.txt.LOCAL.txt"/>
+			<_3 Value="D:\Documents\WindowsPowerShell\.gitmodules.LOCAL.gitmodules"/>
+			<_4 Value="D:\Documents\WindowsPowerShell\Scripts\ConsoleHost_history.txt.LOCAL.txt"/>
+			<_5 Value="D:\Documents\WindowsPowerShell\Scripts\PSReadline\ConsoleHost_history.txt.LOCAL.txt"/>
+			<_6 Value="D:\Documents\WindowsPowerShell\Scripts\PSReadline\Windows PowerShell ISE Host_history.txt.LOCAL.txt"/>
+			<_7 Value="D:\OneDrive\TabSessionManager - Backup\0a80bc16-57e2-42a0-b58d-c9c3d8f14e77.LOCAL"/>
+		</LeftMRUSpecs>
+		<MRUFonts>
+			<_0 Value="Courier New;9"/>
+		</MRUFonts>
+		<RightMRUSpecs>
+			<_0 Value="C:\Users\crbk01\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadline\ConsoleHost_history.txt"/>
+			<_1 Value="D:\Documents\WindowsPowerShell\PSReadline\Windows PowerShell ISE Host_history.txt.REMOTE.txt"/>
+			<_2 Value="D:\Documents\WindowsPowerShell\.gitmodules.REMOTE.gitmodules"/>
+			<_3 Value="D:\Documents\WindowsPowerShell\Scripts\ConsoleHost_history.txt.REMOTE.txt"/>
+			<_4 Value="D:\Documents\WindowsPowerShell\Scripts\PSReadline\ConsoleHost_history.txt.REMOTE.txt"/>
+			<_5 Value="D:\Documents\WindowsPowerShell\Scripts\PSReadline\Windows PowerShell ISE Host_history.txt.REMOTE.txt"/>
+			<_6 Value="D:\OneDrive\TabSessionManager - Backup\0a80bc16-57e2-42a0-b58d-c9c3d8f14e77.REMOTE"/>
+		</RightMRUSpecs>
+	</TTextMergeState>
+=======
+			<_0 Value="&quot;&quot;"/>
+			<_1 Value="$1enforceFormTa($3,$2)"/>
+			<_2 Value="enforceFormTa"/>
+			<_3 Value="$1 =  enforceFormat($2,&quot;$3&quot;,$4),"/>
+			<_4 Value="$1 =  enforceFormat($2,$3,$4),"/>
+			<_5 Value="= $1 enforceFormat($2,$3,$4)"/>
+			<_6 Value="värde(resTabPos(&quot;$1&quot;)) = "/>
+		</ReplaceItems>
+		<Wrap Value="True"/>
+	</TTextFindState>
+	<TVerCompareState>
+		<LeftMRUSpecs>
+			<_0 Value="H:\Vivaldi\Application\vivaldi.exe"/>
+		</LeftMRUSpecs>
+		<MRUFonts>
+			<_0 Value="Segoe UI;9;;1"/>
+		</MRUFonts>
+	</TVerCompareState>
+>>>>>>> 9817c6df303bb5e06b7c1b66d4ae51f5f31602a0
+</BCState>
