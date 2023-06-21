@@ -1,0 +1,1273 @@
+{
+  "projectManager.sortList": "Recent",
+  "projectManager.ignoreProjectsWithinProjects": true,
+  "projectManager.filterOnFullPath": true,
+  "git-assistant.checkConfigVariables": "disabled",
+  "projectManager.hg.maxDepthRecursion": 0,
+  "projectManager.vscode.baseFolders": [
+      "D:\\ToDatabase\\To Dokument Generating app",
+      "D:\\Programming(projects)\\workspace\\Vscode",
+      "D:\\Programming(projects)\\Python",
+      "D:\\Programming(projects)\\projectz\\",
+      "D:\\OneDrive - Region Gotland\\Project Shelf",
+      "D:\\wslunix\\home\\",
+      "D:\\ToDatabase"
+  ],
+  "markdown.preview.breaks": true,
+  "editor.renderIndentGuides": false,
+  "files.autoSave": "onFocusChange",
+  "git.ignoreWindowsGit27Warning": true,
+  "todo-tree.tree.scanMode": "current file",
+  "todo-tree.regex.regex": "((<!--|[;'#\\\\/\\s]*|^)($TAGS)|^\\s*- \\[ \\])",
+  "regExpSaver.saved": [
+      {
+          "label": "WrongEncodeDelete",
+          "regExp": "[åöä�ÅÄÖ?]?(?=[a-zA-Z])?",
+          "replacePattern": ""
+      },
+      {
+          "label": "idIndex",
+          "regExp": ",\n^[ ]{0,}\"index\": \"",
+          "replacePattern": ""
+      },
+      {
+          "label": "databaseConnection",
+          "regExp": "'(.*)' as (.*)",
+          "replacePattern": "#DataSourceSettings# #LocalDataSource: $2 #BEGIN# <data-source source=\"LOCAL\" name=\"$2\" uuid=\"b85e1ec3-7395-4f05-ac67-3ce1ace9f902\"> <database-info product=\"SQLite\" version=\"3.25.1\" jdbc-version=\"2.1\" driver-name=\"SQLite JDBC\" driver-version=\"3.25.1\" dbms=\"SQLITE\" exact-version=\"3.25.1\" exact-driver-version=\"3.25\"> <identifier-quote-string>&quot;</identifier-quote-string> </database-info> <case-sensitivity plain-identifiers=\"mixed\" quoted-identifiers=\"mixed\" /> <driver-ref>sqlite.xerial</driver-ref> <synchronize>true</synchronize> <jdbc-driver>org.sqlite.JDBC</jdbc-driver> <jdbc-url>jdbc:sqlite:$1</jdbc-url> <secret-storage>master_key</secret-storage> <auth-required>false</auth-required> <introspection-schemas>*:@</introspection-schemas> <legacy-introspector>true</legacy-introspector> <driver-properties> <property name=\"enable_load_extension\" value=\"true\" /> </driver-properties> </data-source> #END#"
+      }
+  ],
+  "git.enableSmartCommit": true,
+  "git.ignoreLegacyWarning": true,
+  "git.postCommitCommand": "push",
+  "git.scanRepositories": [
+      "D:\\OnGithub"
+  ],
+  "git.showPushSuccessNotification": true,
+  "git.autofetch": true,
+  "git.autoStash": true,
+  "extensions.ignoreRecomendations": false,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "files.associations": {
+      "*.mb": "vb"
+  },
+  "files.exclude": {
+      "*.DAT": true,
+      "*.ID": true,
+      "*.IND": true,
+      "*.lnk": true,
+      "*.MAP": true,
+      "*.MBO": true,
+      "*.MBX": true,
+      "*.TAB": true,
+      "*.TDA": true,
+      "*.TIN": true,
+      "*.TMA": true,
+      "**/.classpath": true,
+      "**/.project": true,
+      "**/.settings": true,
+      "**/.factorypath": true
+  },
+  "moveby.regex": {
+      "regex1": {
+          "forward": "åäö",
+          "forwardNext": false
+      }
+  },
+  
+  "replacerules.rules": {
+    "RepeatedWords Alias overshaddowing": {
+      "find": "\\(\\\\W\\(\\[\\^\\\\s\\]\\{2,\\}\\)\\)\\\\s\\\\2\\(\\\\W\\)",
+      "replace": "$1$3"
+  },
+    "Flipp Title/url to Url/title": {
+        "find": "(.title.: .*,)[\n]?[ \t]*(.url.:.*,)",
+        "replace": "$2$1"
+    },
+    "NewLineAfterOpeningBracket": {
+        "find": "[{]+",
+        "replace": "{\n"
+    },
+    "NormalizeTabs": {
+        "find": "^[ \t]*$",
+        "replace": "^\t"
+    },
+    "OneTAB Rm Groups where url ~ url": {
+        "find": "[\t ]{2,}(.url.: .((chrome|chrome-extension|file|http|https):..([^/]){1,}).*\n[\t ]{2,}.id.: ..*)[\t ]{2,}.[\t ]{2,}..[\t ]{2,}.id.: ..*[\t ]{2,}..[\t ]{2,}.[\t ]{2,}.createDate.: .*[\t ]{2,}.tabsMeta.: .[\t ]{2,}.[\t ]{2,}(.url.: .$2.*)",
+        "replace": "$1},{$5"
+    },
+    "OneTAB split where url !~ url": {
+        "find": "(\n[\t ]{2,}.url.: .((chrome|chrome-extension|file|http|https):..([^/]){1,}[/]).*\n[\t ]{2,}.id.: ..*)\n[\t ]{2,}..\n[\t ]{2,}.(\n[\t ]{2,}.url.: .(?!$2).*)",
+        "replace": " $1 \n },{ \n $5"
+    },
+    "OneTabMerge": {
+        "find": ".[}].\n[ \t]*.state.: .[{]..tabgroups..:.",
+        "replace": ","
+    },
+    "Remove blank lines": {
+        "find": "\n[\t]?\n",
+        "replace": ""
+    },
+    "Remove trailing and leading whitespace": {
+        "find": "^[ ]*(.*)[ ]*$",
+        "replace": "$1"
+    },
+    "RemoveWebStart": {
+        "find": "http[s]?[:][/][/]|www.",
+        "replace": ""
+    },
+    "SurrondJson": {
+        "find": "(.*)",
+        "replace": "{\"script\":\"$1\"}"
+    },
+    "UnChromeExtension": {
+        "find": "chrome-extension:[//]{2}[^\"]*&uri=",
+        "replace": ""
+    },
+    "WrongEncodeDelete": {
+        "find": "[åöä�ÅÄÖ?]?(?=[a-zA-Z])?",
+        "replace": ""
+    },
+    "conflictreportToPlantuml": {
+        "find": "((<?([-]{16} (\\[((FE 0[0-6][0-9A-Z])|([0-5][0-9A-Z]))\\] (.{3,43}[.]es[pm][lrR]?) [-]{16}))\n {4,8}Overrides \\(wins conflict\\)\\:\n)(<?( {8,16}\\[((FE 0[0-6][0-9A-Z])|([0-5][0-9A-Z]))\\] .{3,43}[.]es[pm][lrR]?)\n){0,37}) {8,16}\\[((FE 0[0-6][0-9A-Z])|([0-5][0-9A-Z]))\\] (.{3,43}[.]es[pm][lrR]?)",
+        "replace": "$1$8 --|> $17"
+    },
+    "databaseConnection": {
+        "find": "'(.*)' as (.*)",
+        "replace": "#DataSourceSettings# #LocalDataSource: $2 #BEGIN# <data-source source=\"LOCAL\" name=\"$2\" uuid=\"b85e1ec3-7395-4f05-ac67-3ce1ace9f902\"> <database-info product=\"SQLite\" version=\"3.25.1\" jdbc-version=\"2.1\" driver-name=\"SQLite JDBC\" driver-version=\"3.25.1\" dbms=\"SQLITE\" exact-version=\"3.25.1\" exact-driver-version=\"3.25\"> <identifier-quote-string>&quot;</identifier-quote-string> </database-info> <case-sensitivity plain-identifiers=\"mixed\" quoted-identifiers=\"mixed\" /> <driver-ref>sqlite.xerial</driver-ref> <synchronize>true</synchronize> <jdbc-driver>org.sqlite.JDBC</jdbc-driver> <jdbc-url>jdbc:sqlite:$1</jdbc-url> <secret-storage>master_key</secret-storage> <auth-required>false</auth-required> <introspection-schemas>*:@</introspection-schemas> <legacy-introspector>true</legacy-introspector> <driver-properties> <property name=\"enable_load_extension\" value=\"true\" /> </driver-properties> </data-source> #END#"
+    },
+    "idIndex": {
+        "find": ",\n^[ ]{0,}\"index\": \"",
+        "replace": ""
+    },
+    "linebreakes for tabs": {
+        "find": "^(.*)\n$",
+        "replace": "$1  "
+    },
+    "markFileDupes": {
+        "find": "(([(][0-9]][)][.]|.bak[.\"]|conflicted).*)",
+        "replace": "$1åäö"
+    },
+    "newSubFunction": {
+        "find": "(.*)",
+        "replace": "Declare sub $1 \n \n sub $1 \n \n onError goto Err $1\n \n onError goto 0\n \n exit sub\n Err $1: print \" [ERROR] $1 \" & error$() resume next\n end sub\n "
+    },
+    "surroundWithTypicalErrorCheck": {
+        "find": "(.*)",
+        "replace": "onError goto $1\n $1\n onError goto 0\n\n exit sub\n \t$1:\tnote \" + $1 + Error\"\tprint error$()\tend program\n"
+    },
+    "tableNrRows": {
+        "find": "(.*)",
+        "replace": "tableInfo($1,tab_info_nrows)"
+    },
+    "todo-tree.regex.regex": {
+        "find": "((<!--|[;'#\\/\\ ]*|^)($TAGS)|^\\ *- \\[ \\])",
+        "replace": "$1"
+    },
+      "AliasGsubtree": {            
+          "find": "git subtree split",
+          "replace": "Gsubtree"
+      },   
+      "AliasBranchToStream": {            
+          "find": "git branch [|] out-string -stream",
+          "replace": "BranchToStream"
+      },        
+      "AliasfilesInFolAsStream": {            
+          "find": "filesInFol [|] out-string -stream",
+          "replace": "filesInFolAsStream"
+      },
+      
+      "AliasfilesInFol": {            
+          "find": "get-childitem [|] select name",
+          "replace": "filesInFol"
+      },
+      "AliasRootNoDrive": {            
+          "find": "split-path -path [(]get-location[)] -noQualifier",
+          "replace": "RootNoDrive"
+      },
+      "AliasGitRoot": {            
+          "find": "git rev-parse --show-toplevel",
+          "replace": "GitRoot"
+      },
+      "AliasTortoiseGitProc": {            
+          "find": "C:\\\\Program Files\\\\TortoiseGit\\\\bin\\\\TortoiseGitProc\\.exe",
+          "replace": "TortoiseGitProc"
+      },
+      "AliasBSArch": {            
+          "find": "\\.\"C:\\\\Modding\\\\Fallout4\\\\fallout4\\\\Tools\\\\BSArch\\\\bsarch\\.exe\"",
+          "replace": "BSArch"
+      },
+      "AliasJsonFx": {            
+          "find": "cat 'D:\\\\OneDrive\\\\TabSessionManager - Backup\\\\EdgeBookmarksFile\\\\bookmarks' \\| \\.\\\\fx-win\\.exe",
+          "replace": "JsonFx"
+      },
+      "AliasGit": {            
+          "find": "\\.\"D:\\\\PortableApplauncher\\\\Apps\\\\\\.free\\\\GitHubDesktopPortable\\\\App\\\\GitHubDesktop\\\\app-2\\.9\\.5\\\\resources\\\\app\\\\git\\\\cmd\\\\git\\.exe\"|\"D:\\\\PortableApplauncher\\\\Apps\\\\\\.free\\\\GitHubDesktopPortable\\\\App\\\\GitHubDesktop\\\\app-2\\.9\\.5\\\\resources\\\\app\\\\git\\\\cmd\\\\git\\.exe\"",
+          "replace": "Git"
+      },
+      "AdjecendingInrement": {            
+          "find": "^(.*)$\n(\\1.*)",
+          "replace": "$2"
+      },
+      "AdjecendingInrementFluff": {            
+          "find": "^[ ]*(.*)[ ]*\n[ ]*(\\1.*)",
+          "replace": "$2"
+      },
+      "AdjecendingRepeat": {
+          "find": "^(.*)\n\\1$",
+          "replace": "$1"
+      },
+      "AdjecendingRepeatFluff": {
+          "find": "^[ ]*(.*)[ ]*\n[ ]*\\1[ ]*$",
+          "replace": "$1"
+      },
+      "UnChromeExtension": {
+          "find": "chrome-extension:[//]{2}[^\"]*&uri=",
+          "replace": ""
+      },
+      "AliasLDBSETTfiles": {            
+          "find": "\\[System\\.IO\\.File\\]::ReadLines\\('X:\\\\ToDatabase\\\\Files\\\\LDBSETTfiles\\.txt'\\) \\| Select-Object -Skip 12 \\| Select-Object -first 10",
+          "replace": "LDBSETTfiles"
+      },
+      
+      "AliasFilerAttFlytta": {            
+          "find": "Get-Content -Path ..filerAttFlytta.txt",
+          "replace": "FilerAttFlytta"
+      },
+      "AliasUDPE": {            
+          "find": "Get-NetUDPEndpoint -LocalAddress 127.0.0.1",
+          "replace": "UDPE"
+      },
+      "AliasUDPEL": {            
+          "find": "[(]UDPE[)].localPort",
+          "replace": "UDPEL"
+      },
+      "OneTAB split where url !~ url": {
+          "find": "(\n[\t ]{2,}.url.: .((chrome|chrome-extension|file|http|https):..([^/]){1,}[/]).*\n[\t ]{2,}.id.: ..*)\n[\t ]{2,}..\n[\t ]{2,}.(\n[\t ]{2,}.url.: .(?!$2).*)",
+          "replace": " $1 \n },{ \n $5"
+      },
+      "OneTAB Rm Groups where url ~ url": {
+          "find": "[\t ]{2,}(.url.: .((chrome|chrome-extension|file|http|https):..([^/]){1,}).*\n[\t ]{2,}.id.: ..*)[\t ]{2,}.[\t ]{2,}..[\t ]{2,}.id.: ..*[\t ]{2,}..[\t ]{2,}.[\t ]{2,}.createDate.: .*[\t ]{2,}.tabsMeta.: .[\t ]{2,}.[\t ]{2,}(.url.: .$2.*)",
+          "replace": "$1},{$5"
+      },
+      "OneTabMerge": {
+          "find": ".[}].\n[ \t]*.state.: .[{]..tabgroups..:.",
+          "replace": ","
+      },
+      "Flipp Title/url to Url/title": {
+          "find": "(.title.: .*,)[\n]?[ \t]*(.url.:.*,)",
+          "replace": "$2$1"
+      },
+      "Remove trailing and leading whitespace": {
+          "find": "^[ ]*(.*)[ ]*$",
+          "replace": "$1"
+      },
+      "NormalizeTabs": {
+          "find": "^[ \t]*$",
+          "replace": "^\t"
+      },
+      "todo-tree.regex.regex": {
+          "find": "((<!--|[;'#\\/\\ ]*|^)($TAGS)|^\\ *- \\[ \\])",
+          "replace": "$1"
+      },
+      "linebreakes for tabs": {
+          "find": "^(.*)\n$",
+          "replace": "$1  "
+      },
+      "Remove blank lines": {
+          "find": "\n[\t]?\n",
+          "replace": ""
+      },
+      "WrongEncodeDelete": {
+          "find": "[åöä�ÅÄÖ?]?(?=[a-zA-Z])?",
+          "replace": ""
+      },
+      "idIndex": {
+          "find": ",\n^[ ]{0,}\"index\": \"",
+          "replace": ""
+      },
+      "databaseConnection": {
+          "find": "'(.*)' as (.*)",
+          "replace": "#DataSourceSettings# #LocalDataSource: $2 #BEGIN# <data-source source=\"LOCAL\" name=\"$2\" uuid=\"b85e1ec3-7395-4f05-ac67-3ce1ace9f902\"> <database-info product=\"SQLite\" version=\"3.25.1\" jdbc-version=\"2.1\" driver-name=\"SQLite JDBC\" driver-version=\"3.25.1\" dbms=\"SQLITE\" exact-version=\"3.25.1\" exact-driver-version=\"3.25\"> <identifier-quote-string>&quot;</identifier-quote-string> </database-info> <case-sensitivity plain-identifiers=\"mixed\" quoted-identifiers=\"mixed\" /> <driver-ref>sqlite.xerial</driver-ref> <synchronize>true</synchronize> <jdbc-driver>org.sqlite.JDBC</jdbc-driver> <jdbc-url>jdbc:sqlite:$1</jdbc-url> <secret-storage>master_key</secret-storage> <auth-required>false</auth-required> <introspection-schemas>*:@</introspection-schemas> <legacy-introspector>true</legacy-introspector> <driver-properties> <property name=\"enable_load_extension\" value=\"true\" /> </driver-properties> </data-source> #END#"
+      },
+      "SurrondJson": {
+          "find": "(.*)",
+          "replace": "{\"script\":\"$1\"}"
+      },
+      "markFileDupes": {
+          "find": "(([(][0-9]][)][.]|.bak[.\"]|conflicted).*)",
+          "replace": "$1åäö"
+      },
+      "RemoveWebStart": {
+          "find": "http[s]?[:][/][/]|www.",
+          "replace": ""
+      },
+      "NewLineAfterOpeningBracket": {
+          "find": "[{]+",
+          "replace": "{\n"
+      },
+      "surroundWithTypicalErrorCheck": {
+          "find": "(.*)",
+          "replace": "onError goto $1\n $1\n onError goto 0\n\n exit sub\n \t$1:\tnote \" + $1 + Error\"\tprint error$()\tend program\n"
+      },
+      "tableNrRows": {
+          "find": "(.*)",
+          "replace": "tableInfo($1,tab_info_nrows)"
+      },
+      "newSubFunction": {
+          "find": "(.*)",
+          "replace": "Declare sub $1 \n \n sub $1 \n \n onError goto Err $1\n \n onError goto 0\n \n exit sub\n Err $1: print \" [ERROR] $1 \" & error$() resume next\n end sub\n "
+      },
+      "conflictreportToPlantuml": {
+          "find": "((<?([-]{16} (\\[((FE 0[0-6][0-9A-Z])|([0-5][0-9A-Z]))\\] (.{3,43}[.]es[pm][lrR]?) [-]{16}))\n {4,8}Overrides \\(wins conflict\\)\\:\n)(<?( {8,16}\\[((FE 0[0-6][0-9A-Z])|([0-5][0-9A-Z]))\\] .{3,43}[.]es[pm][lrR]?)\n){0,37}) {8,16}\\[((FE 0[0-6][0-9A-Z])|([0-5][0-9A-Z]))\\] (.{3,43}[.]es[pm][lrR]?)",
+          "replace": "$1$8 --|> $17"
+      }
+  },
+  "workbench.iconTheme": "vs-seti",
+  "workbench.sideBar.location": "right",
+  "workspaceSidebar.depth": 4,
+  "workspaceSidebar.folder": "D:\\Project Shelf",
+  "workspaceSidebar.searchMinimum": 10,
+  "macros.list": {
+      "SelectNSort": [
+          "cursorEndSelect",
+          "extension.sort",
+          "cursorDown",
+          "cursorHome"
+      ],
+      "XebelToOneTab": [
+          "sortJSON.sortJSON",
+          "extension.sort",
+          "cursorDown",
+          "cursorHome"
+      ],
+      "regexReplace36": [
+          "replacerules.rules",
+          "conflictreportToPlantuml",
+          "enter"
+      ]
+  },
+  "editor.minimap.enabled": false,
+  "xmlTools.enableXmlTreeViewCursorSync": true,
+  "xmlTools.removeCommentsOnMinify": true,
+  "xmlTools.enforcePrettySelfClosingTagOnFormat": true,
+  "editor.suggestSelection": "first",
+  "editor.matchBrackets": "always",
+  "bracket-pair-colorizer-2.forceUniqueOpeningColor": true,
+  "bracket-pair-colorizer-2.colors": [
+      "Gold",
+      "Gold",
+      "Orchid",
+      "Orchid",
+      "LightSkyBlue",
+      "LightSkyBlue",
+      "LightSkyBlue",
+      "LightSkyBlue",
+      "LightSkyBlue",
+      "LightSkyBlue",
+      "LightSkyBlue"
+  ],
+  "bracket-pair-colorizer-2.depreciation-notice": false,
+  "editor.maxTokenizationLineLength": 2000000,
+  "editor.renderControlCharacters": true,
+  "[javascript]": {
+      "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "sortJSON.orderOverride": [
+      "title",
+      "url",
+      "uri",
+      "id",
+      "index"
+  ],
+  "sortJSON.orderUnderride": [
+      "description"
+  ],
+  "todo-tree.tree.showScanModeButton": true,
+  "[json]": {
+      "editor.defaultFormatter": null
+  },
+  "[xml]": {
+      "editor.defaultFormatter": "DotJoshJohnson.xml"
+  },
+  "incrementalSearch.inputMode": "inline",
+  "sync.removeExtensions": false,
+  "sync.syncExtensions": false,
+  "todo-pusher.trelloToken": "2333e4c64286dff81f31b5ff3ff1d3441d7c5fa477d3efbbcd065d12c15b2066",
+  "GithubGistExplorer.explorer.gistSortBy": "Last Updated",
+  "GithubGistExplorer.explorer.gistAscending": false,
+  "GithubGistExplorer.explorer.subscriptionSortBy": "Last Updated",
+  "GithubGistExplorer.explorer.subscriptionAscending": false,
+  "GithubGistExplorer.github.token": "2df7122728aca07af4fa08dd92e1eb38a2c93397",
+  "GithubGistExplorer.github.username": "perXautomatik",
+  "github.username": "PerXautomatik",
+  "github.token": "2df7122728aca07af4fa08dd92e1eb38a2c93397",
+  "explorer.sortBy": "Last Updated",
+  "gitProjectManager.storeRepositoriesBetweenSessions": true,
+  "sync.forceUpload": true,
+  "sync.autoUpload": true,
+  "sync.quietSync": true,
+  "sync.autoDownload": true,
+  "gitProjectManager.openInNewWindow": true,
+  "gitProjectManager.displayProjectPath": true,
+  "gitProjectManager.baseProjectsFolders": [
+      "D://OnGithub/",
+      "D:\\OnGithub"
+  ],
+  "cSpell.enabledLanguageIds": [
+      "asciidoc",
+      "bat",
+      "coffeescript",
+      "csv",
+      "diff",
+      "excel",
+      "git-commit",
+      "git-rebase",
+      "html",
+      "ignore",
+      "ini",
+      "java",
+      "javascript",
+      "json",
+      "jsonc",
+      "plaintext",
+      "powershell",
+      "properties",
+      "python",
+      "sql",
+      "text",
+      "xml"
+  ],
+  "codestream.disableStrictSSL": true,
+  "codestream.email": "christoffer.broback@edu.gotland.se",
+  "todo-tree.highlights.enabled": true,
+  "csv-preview.openStdin": true,
+  "csv-preview.separator": ";",
+  "sync.gist": "eb18e67484142ca0d5f0ccb5dceb4bee",
+  "merge-n-paste.pathToMergeTool": "D:\\PortableApps\\2. fileOrganization\\PortableApps\\Beyond Compare 4\\BCompare.exe %E %E %M %M",
+  "open-file-from-path.matchPureFilename": true,
+  "todo-tree.filtering.useBuiltInExcludes": "file excludes",
+  "todo-tree.general.debug": true,
+  "todo-tree.general.revealBehaviour": "start of todo",
+  "todo-tree.general.statusBar": "top three",
+  "todo-tree.general.statusBarClickBehaviour": "cycle",
+  "todo-tree.general.tags": [
+      "Todo",
+      "FIXME"
+  ],
+  "todo-tree.tree.expanded": true,
+  "todo-tree.tree.grouped": true,
+  "todo-tree.tree.hideIconsWhenGroupedByTag": true,
+  "todo-tree.tree.showCountsInTree": true,
+  "enableTelemetry": true,
+  "maven.executable.preferMavenWrapper": false,
+  "maven.pomfile.autoUpdateEffectivePOM": true,
+  "meld-diff.diffCommand": "'D:\\PortableApps\\2. fileOrganization\\PortableApps\\Beyond Compare 4\\BCompare.exe' %E %E %M %M",
+  "python.analysis.memory.keepLibraryAst": true,
+  "python.analysis.memory.keepLibraryLocalVariables": true,
+  "python.condaPath": "C:\\Users\\Dator\\.DataGrip2019.1\\config\\plugins\\python-ce\\helpers",
+  "python.defaultInterpreterPath": "C:\\Users\\Dator\\AppData\\Local\\Programs\\Python\\Python37\\python.exe",
+  "projectManager.git.baseFolders": [
+      "H:\\mina grejer\\OnGithub",
+      "D:\\Programming(projects)\\workspace\\Vscode",
+      "D:\\Programming(projects)\\workspace\\projects",
+      "D:\\Programming(projects)\\workspace\\IdeaProjects",
+      "D:\\Programming(projects)\\WindowsPowerShell",
+      "D:\\Programming(projects)\\Unix",
+      "D:\\Programming(projects)\\Sql\\scratches",
+      "D:\\Programming(projects)\\Python",
+      "D:\\Programming(projects)\\projectz",
+      "D:\\Programming(projects)\\mapinfo",
+      "D:\\Programming(projects)\\lessons",
+      "D:\\Programming(projects)\\javascript",
+      "D:\\Programming(projects)\\fork",
+      "D:\\Programming(projects)\\c++ projekt",
+      "D:\\Programming(projects)\\Batch Files",
+      "D:\\Programming(projects)",
+      "D:\\PortableApps\\6, Text,programming, x Editing\\PortableApps",
+      "D:\\PortableApps\\4, windows enhance\\PortableApps",
+      "D:\\PortableApps\\3. Clipboard\\PortableApps",
+      "D:\\PortableApps\\10. unknown Legacy Broken\\PortableApps",
+      "D:\\OneDrive\\Portable",
+      "D:\\OneDrive - Region Gotland\\Till Github",
+      "D:\\OneDrive - Region Gotland\\Solen till vision",
+      "D:\\OneDrive - Region Gotland\\Project Shelf",
+      "D:\\OneDrive - Region Gotland\\PortableApps\\4, windows enhance\\PortableApps",
+      "D:\\OneDrive - Region Gotland\\PortableApps\\3. Clipboard\\PortableApps",
+      "D:\\OneDrive - Region Gotland\\PortableApps\\2. file Organization\\PortableApps",
+      "C:\\Users\\crbk01\\OneDrive - Region Gotland\\Till Github",
+      "C:\\Users\\crbk01\\Desktop\\OnGithub",
+      "C:\\Users\\crbk01\\.DataGrip2019.3\\config\\projects",
+      "C:\\Users\\crbk01\\OneDrive\\Dokument\\ToGit",
+      "C:\\Users\\crbk01\\OneDrive\\Dokument\\ToGit\\Notebook-Foam\\Notebook-Foam",
+      "C:\\Users\\crbk01\\OneDrive\\Dokument\\ToGit\\chromeExtensions to merge"
+  ],
+  "projectManager.any.maxDepthRecursion": 0,
+  "plantuml.server": "https://www.plantuml.com/plantuml",
+  "projectManager.git.maxDepthRecursion": 1,
+  "FSharp.useSdkScripts": true,
+  "profileSwitcher.profiles": [
+      "json angular"
+  ],
+  "profileSwitcher.storage": {
+      "json angular": {
+          "FSharp.useSdkScripts": true,
+          "GithubGistExplorer.explorer.gistAscending": true,
+          "GithubGistExplorer.explorer.gistSortBy": "Last Updated",
+          "GithubGistExplorer.explorer.subscriptionAscending": false,
+          "GithubGistExplorer.explorer.subscriptionSortBy": "Last Updated",
+          "GithubGistExplorer.github.token": "2df7122728aca07af4fa08dd92e1eb38a2c93397",
+          "GithubGistExplorer.github.username": "perXautomatik",
+          "[javascript]": {
+              "editor.defaultFormatter": "vscode.typescript-language-features"
+          },
+          "[json]": {
+              "editor.defaultFormatter": "HookyQR.beautify"
+          },
+          "[xml]": {
+              "editor.defaultFormatter": "DotJoshJohnson.xml"
+          },
+          "bracket-pair-colorizer-2.colors": [
+              "Gold",
+              "Gold",
+              "Orchid",
+              "Orchid",
+              "LightSkyBlue",
+              "LightSkyBlue",
+              "LightSkyBlue",
+              "LightSkyBlue",
+              "LightSkyBlue",
+              "LightSkyBlue",
+              "LightSkyBlue"
+          ],
+          "bracket-pair-colorizer-2.forceUniqueOpeningColor": true,
+          "cSpell.enabledLanguageIds": [
+              "asciidoc",
+              "bat",
+              "coffeescript",
+              "csv",
+              "diff",
+              "excel",
+              "git-commit",
+              "git-rebase",
+              "html",
+              "ignore",
+              "ini",
+              "java",
+              "javascript",
+              "json",
+              "jsonc",
+              "plaintext",
+              "powershell",
+              "properties",
+              "python",
+              "sql",
+              "text",
+              "xml"
+          ],
+          "csv-preview.openStdin": true,
+          "csv-preview.separator": ";",
+          "editor.columnSelection": false,
+          "editor.matchBrackets": "always",
+          "editor.maxTokenizationLineLength": 2000000,
+          "editor.minimap.enabled": false,
+          "editor.multiCursorModifier": "ctrlCmd",
+          "editor.renderControlCharacters": true,
+          "editor.renderIndentGuides": false,
+          "editor.suggestSelection": "first",
+          "enableTelemetry": true,
+          "explorer.sortBy": "Last Updated",
+          "extensions.showRecommendationsOnlyOnDemand": true,
+          "files.associations": {
+              "*.mb": "vb"
+          },
+          "files.autoSave": "off",
+          "files.exclude": {
+              "**/.classpath": true,
+              "**/.factorypath": true,
+              "**/.project": true,
+              "**/.settings": true,
+              "*.DAT": true,
+              "*.ID": true,
+              "*.IND": true,
+              "*.MAP": true,
+              "*.MBO": true,
+              "*.MBX": true,
+              "*.TAB": true,
+              "*.TDA": true,
+              "*.TIN": true,
+              "*.TMA": true,
+              "*.lnk": true
+          },
+          "git-assistant.checkConfigVariables": "disabled",
+          "git.autoStash": true,
+          "git.autofetch": true,
+          "git.defaultCloneDirectory": "D:\\OnGithub",
+          "git.enableSmartCommit": true,
+          "git.ignoreLegacyWarning": true,
+          "git.ignoreWindowsGit27Warning": true,
+          "git.postCommitCommand": "push",
+          "git.scanRepositories": [
+              "D:\\OnGithub"
+          ],
+          "git.showPushSuccessNotification": true,
+          "gitProjectManager.baseProjectsFolders": [
+              "D://OnGithub/",
+              "D:\\OnGithub"
+          ],
+          "gitProjectManager.displayProjectPath": true,
+          "gitProjectManager.openInNewWindow": true,
+          "gitProjectManager.storeRepositoriesBetweenSessions": true,
+          "github.token": "2df7122728aca07af4fa08dd92e1eb38a2c93397",
+          "github.username": "PerXautomatik",
+          "incrementalSearch.inputMode": "inline",
+          "macros.list": {
+              "SelectNSort": [
+                  "cursorEndSelect",
+                  "extension.sort",
+                  "cursorDown",
+                  "cursorHome"
+              ],
+              "XebelToOneTab": [
+                  "sortJSON.sortJSON",
+                  "extension.sort",
+                  "cursorDown",
+                  "cursorHome"
+              ]
+          },
+          "markdown.preview.breaks": true,
+          "maven.executable.options": "D:\\PortableApps\\6, Text,programming, x Editing\\PortableApps\\apache-maven-3.6.3-bin\\apache-maven-3.6.3\\bin\\mvn.exe",
+          "maven.executable.path": "D:\\PortableApps\\6, Text,programming, x Editing\\PortableApps\\apache-maven-3.6.3-bin\\apache-maven-3.6.3\\bin\\mvn.exe",
+          "maven.executable.preferMavenWrapper": false,
+          "maven.pomfile.autoUpdateEffectivePOM": true,
+          "merge-n-paste.pathToMergeTool": "\"C:\\Users\\crbk01\\Desktop\\WhenOffline\\BeondCompare4\\BComp.exe\" %E %E %M %M",
+          "moveby.regex": {
+              "regex1": {
+                  "forward": "åäö",
+                  "forwardNext": false
+              }
+          },
+          "open-file-from-path.matchPureFilename": true,
+          "peacock.favoriteColors": [
+              {
+                  "name": "Angular Red",
+                  "value": "#b52e31"
+              },
+              {
+                  "name": "Auth0 Orange",
+                  "value": "#eb5424"
+              },
+              {
+                  "name": "Azure Blue",
+                  "value": "#007fff"
+              },
+              {
+                  "name": "C# Purple",
+                  "value": "#68217A"
+              },
+              {
+                  "name": "Gatsby Purple",
+                  "value": "#639"
+              },
+              {
+                  "name": "Go Cyan",
+                  "value": "#5dc9e2"
+              },
+              {
+                  "name": "Java Blue-Gray",
+                  "value": "#557c9b"
+              },
+              {
+                  "name": "JavaScript Yellow",
+                  "value": "#f9e64f"
+              },
+              {
+                  "name": "Mandalorian Blue",
+                  "value": "#1857a4"
+              },
+              {
+                  "name": "Node Green",
+                  "value": "#215732"
+              },
+              {
+                  "name": "React Blue",
+                  "value": "#00b3e6"
+              },
+              {
+                  "name": "Something Different",
+                  "value": "#832561"
+              },
+              {
+                  "name": "Vue Green",
+                  "value": "#42b883"
+              }
+          ],
+          "plantuml.server": "https://www.plantuml.com/plantuml",
+          "projectManager.any.maxDepthRecursion": 0,
+          "projectManager.filterOnFullPath": true,
+          "projectManager.git.maxDepthRecursion": 1,
+          "projectManager.groupList": true,
+          "projectManager.hg.maxDepthRecursion": 0,
+          "projectManager.ignoreProjectsWithinProjects": true,
+          "projectManager.sortList": "Recent",
+          "projectManager.vscode.baseFolders": [
+              "D:\\ToDatabase\\To Dokument Generating app",
+              "D:\\Programming(projects)\\workspace\\Vscode",
+              "D:\\Programming(projects)\\Python",
+              "D:\\Programming(projects)\\projectz\\",
+              "D:\\OneDrive - Region Gotland\\Project Shelf",
+              "D:\\wslunix\\home\\",
+              "D:\\ToDatabase"
+          ],
+          "python.analysis.memory.keepLibraryAst": true,
+          "python.analysis.memory.keepLibraryLocalVariables": true,
+          "python.condaPath": "C:\\Users\\crbk01\\.DataGrip2019.1\\config\\plugins\\python-ce\\helpers",
+          "python.defaultInterpreterPath": "C:\\crbk01\\Dator\\AppData\\Local\\Programs\\Python\\Python37\\python.exe",
+          "regExpSaver.saved": [
+              {
+                  "label": "WrongEncodeDelete",
+                  "regExp": "[åöä�ÅÄÖ?]?(?=[a-zA-Z])?",
+                  "replacePattern": ""
+              },
+              {
+                  "label": "idIndex",
+                  "regExp": ",\n^[ ]{0,}\"index\": \"",
+                  "replacePattern": ""
+              },
+              {
+                  "label": "databaseConnection",
+                  "regExp": "'(.*)' as (.*)",
+                  "replacePattern": "#DataSourceSettings# #LocalDataSourcD: $2 #BEGIN# <data-source source=\"LOCAL\" name=\"$2\" uuid=\"b85e1ec3-7395-4f05-ac67-3ce1ace9f902\"> <database-info product=\"SQLite\" version=\"3.25.1\" jdbc-version=\"2.1\" driver-name=\"SQLite JDBC\" driver-version=\"3.25.1\" dbms=\"SQLITE\" exact-version=\"3.25.1\" exact-driver-version=\"3.25\"> <identifier-quote-string>&quot;</identifier-quote-string> </database-info> <case-sensitivity plain-identifiers=\"mixed\" quoted-identifiers=\"mixed\" /> <driver-ref>sqlite.xerial</driver-ref> <synchronize>true</synchronize> <jdbc-driver>org.sqlite.JDBC</jdbc-driver> <jdbc-url>jdbc:sqlite:$1</jdbc-url> <secret-storage>master_key</secret-storage> <auth-required>false</auth-required> <introspection-schemas>*:@</introspection-schemas> <legacy-introspector>true</legacy-introspector> <driver-properties> <property name=\"enable_load_extension\" value=\"true\" /> </driver-properties> </data-source> #END#"
+              }
+          ],
+          "sortJSON.orderOverride": [
+              "title",
+              "url",
+              "uri",
+              "id",
+              "index"
+          ],
+          "sortJSON.orderUnderride": [
+              "description",
+              "title",
+              "url",
+              "uri",
+              "id",
+              "index"
+          ],
+          "surround.custom": {
+              "ErroMb": {
+                  "label": "surroundWithTypicalErrorCheck",
+                  "snippet": "onError goto $TM_SELECTED_TEXT\n $TM_SELECTED_TEXT\n onError goto 0\n\n exit sub\n \t$TM_SELECTED_TEXT:\tnote \" + $TM_SELECTED_TEXT + Error\"\tprint error$()\tend program\n$0"
+              },
+              "mbtbInfo": {
+                  "label": "tableNrRows",
+                  "snippet": "tableInfo($TM_SELECTED_TEXT,tab_info_nrows)$0"
+              },
+              "newSub": {
+                  "label": "newSubFunction",
+                  "snippet": "Declare sub $TM_SELECTED_TEXT \n \n sub $TM_SELECTED_TEXT \n \n onError goto Err $TM_SELECTED_TEXT\n \n onError goto 0\n \n exit sub\n Err $TM_SELECTED_TEXT: print \" [ERROR] $TM_SELECTED_TEXT \" & error$() resume next\n end sub\n $0"
+              }
+          },
+          "sync.autoDownload": true,
+          "sync.autoUpload": true,
+          "sync.forceUpload": true,
+          "sync.gist": "eb18e67484142ca0d5f0ccb5dceb4bee",
+          "sync.quietSync": true,
+          "sync.removeExtensions": false,
+          "sync.syncExtensions": false,
+          "todo-tree.filtering.useBuiltInExcludes": "file excludes",
+          "todo-tree.general.debug": true,
+          "todo-tree.general.revealBehaviour": "highlight todo",
+          "todo-tree.general.statusBar": "top three",
+          "todo-tree.general.statusBarClickBehaviour": "cycle",
+          "todo-tree.highlights.enabled": true,
+          "todo-tree.regex.regex": "((<!--|[;'#\\\\/\\s]*|^)($TAGS)|^\\s*- \\[ \\])",
+          "todo-tree.tree.expanded": true,
+          "todo-tree.tree.grouped": true,
+          "todo-tree.tree.hideIconsWhenGroupedByTag": true,
+          "todo-tree.tree.showCountsInTree": true,
+          "todo-tree.tree.showScanModeButton": true,
+          "todo-tree.tree.showScanOpenFilesOrWorkspaceButton": true,
+          "window.zoomLevel": -1,
+          "workbench.iconTheme": "vs-seti",
+          "workbench.sideBar.location": "right",
+          "xmlTools.enableXmlTreeViewCursorSync": true,
+          "xmlTools.enforcePrettySelfClosingTagOnFormat": true,
+          "xmlTools.removeCommentsOnMinify": true
+      }
+  },
+  "profileSwitcher.extensions": {
+      "json angular": [
+          {
+              "id": "447845d1-2206-4012-be63-d87445860fd2",
+              "publisherId": "abierbaum.vscode-file-peek",
+              "publisherName": "abierbaum",
+              "version": "1.0.1",
+              "name": "vscode-file-peek"
+          },
+          {
+              "id": "1b747f06-3789-4ebd-ac99-f1fe430c3347",
+              "publisherId": "alefragnani.project-manager",
+              "publisherName": "alefragnani",
+              "version": "12.0.1",
+              "name": "project-manager"
+          },
+          {
+              "id": "6f70a104-e7a5-49bd-806b-3be0731b140a",
+              "publisherId": "alfnielsen.vsc-rename-files",
+              "publisherName": "alfnielsen",
+              "version": "2.1.0",
+              "name": "vsc-rename-files"
+          },
+          {
+              "id": "71ddd5f0-8aa4-4b28-9930-24153b39f579",
+              "publisherId": "astral-keks.folder-indexing",
+              "publisherName": "astral-keks",
+              "version": "0.2.0",
+              "name": "folder-indexing"
+          },
+          {
+              "id": "c6ca8451-e183-44f7-8477-6c860aa7039e",
+              "publisherId": "auchenberg.vscode-open-file-folder",
+              "publisherName": "auchenberg",
+              "version": "0.0.4",
+              "name": "vscode-open-file-folder"
+          },
+          {
+              "id": "f832049e-c59d-4f81-a972-9d40fe9e2fa9",
+              "publisherId": "BateleurIO.vscode-combine-scripts",
+              "publisherName": "BateleurIO",
+              "version": "2.0.5",
+              "name": "vscode-combine-scripts"
+          },
+          {
+              "id": "8d1109da-544e-4ecb-a8e4-c2574afa0ef7",
+              "publisherId": "bhughes339.replacerules",
+              "publisherName": "bhughes339",
+              "version": "0.4.1",
+              "name": "replacerules"
+          },
+          {
+              "id": "a225bb1b-d82f-4036-953e-293523b9eb71",
+              "publisherId": "bibhasdn.unique-lines",
+              "publisherName": "bibhasdn",
+              "version": "1.0.0",
+              "name": "unique-lines"
+          },
+          {
+              "id": "6a35a27c-7ef8-4231-84ec-fba8c6b82096",
+              "publisherId": "ChaunceyKiwi.json-tree-view",
+              "publisherName": "ChaunceyKiwi",
+              "version": "2.6.0",
+              "name": "json-tree-view"
+          },
+          {
+              "id": "5a6e2b21-1d61-4acd-b31b-907f9c23f18a",
+              "publisherId": "CoenraadS.bracket-pair-colorizer-2",
+              "publisherName": "CoenraadS",
+              "version": "0.2.0",
+              "name": "bracket-pair-colorizer-2"
+          },
+          {
+              "id": "8874d4b7-5d3a-4ea4-bda5-a48d7f0f3c58",
+              "publisherId": "dagra.jsonschemautils",
+              "publisherName": "dagra",
+              "version": "0.1.1",
+              "name": "jsonschemautils"
+          },
+          {
+              "id": "e74697c7-82c2-42d0-9502-a19a602732df",
+              "publisherId": "dakara.transformer",
+              "publisherName": "dakara",
+              "version": "1.11.0",
+              "name": "transformer"
+          },
+          {
+              "id": "58bfd79f-7b8f-47c9-949f-6db11c6450a4",
+              "publisherId": "earshinov.sort-lines-by-selection",
+              "publisherName": "earshinov",
+              "version": "1.0.0",
+              "name": "sort-lines-by-selection"
+          },
+          {
+              "id": "ae9e3eb0-3357-4cc0-90ee-598d2d384757",
+              "publisherId": "eg2.vscode-npm-script",
+              "publisherName": "eg2",
+              "version": "0.3.13",
+              "name": "vscode-npm-script"
+          },
+          {
+              "id": "2ff7b762-b42f-4ec9-a7d7-98eb099ca0c7",
+              "publisherId": "electrotype.windows-explorer-context-menu",
+              "publisherName": "electrotype",
+              "version": "2.1.0",
+              "name": "windows-explorer-context-menu"
+          },
+          {
+              "id": "43335a8d-5929-408b-874a-65f08362642c",
+              "publisherId": "file-icons.file-icons",
+              "publisherName": "file-icons",
+              "version": "1.0.28",
+              "name": "file-icons"
+          },
+          {
+              "id": "9a3d81ec-d459-4139-aa0f-d07452e0e894",
+              "publisherId": "Gruntfuggly.global-config",
+              "publisherName": "Gruntfuggly",
+              "version": "0.0.12",
+              "name": "global-config"
+          },
+          {
+              "id": "eb23060d-48ee-4ed1-b5af-e4a402697dbb",
+              "publisherId": "imagio.vscode-dimmer-block",
+              "publisherName": "imagio",
+              "version": "2.2.0",
+              "name": "vscode-dimmer-block"
+          },
+          {
+              "id": "b05f1fb9-46cf-4fb3-97d1-2b2c6feed2db",
+              "publisherId": "jianbingfang.dupchecker",
+              "publisherName": "jianbingfang",
+              "version": "0.1.6",
+              "name": "dupchecker"
+          },
+          {
+              "id": "f74994ea-773f-4262-bb69-096eacaebea6",
+              "publisherId": "jomeinaster.bracket-peek",
+              "publisherName": "jomeinaster",
+              "version": "1.3.0",
+              "name": "bracket-peek"
+          },
+          {
+              "id": "27256a3d-9a0f-40ce-93bd-c1010c497dfa",
+              "publisherId": "juliencroain.markdown-viewer",
+              "publisherName": "juliencroain",
+              "version": "1.0.0",
+              "name": "markdown-viewer"
+          },
+          {
+              "id": "224c16c8-0a6e-45f7-8827-beae23ff8106",
+              "publisherId": "JulioGold.vscode-smart-split-into-lines",
+              "publisherName": "JulioGold",
+              "version": "0.0.1",
+              "name": "vscode-smart-split-into-lines"
+          },
+          {
+              "id": "f30b63fa-e34a-40af-a573-5de5ecfb6c5e",
+              "publisherId": "k--kato.intellij-idea-keybindings",
+              "publisherName": "k--kato",
+              "version": "0.2.41",
+              "name": "intellij-idea-keybindings"
+          },
+          {
+              "id": "d2d7a30c-2706-47b9-9dd5-5ab6ead0fbbe",
+              "publisherId": "khaeransori.json2csv",
+              "publisherName": "khaeransori",
+              "version": "0.0.1",
+              "name": "json2csv"
+          },
+          {
+              "id": "d90165bd-4323-4b19-a369-50a20cb4e3de",
+              "publisherId": "krizzdewizz.goto-last-edit-location",
+              "publisherName": "krizzdewizz",
+              "version": "0.2.1",
+              "name": "goto-last-edit-location"
+          },
+          {
+              "id": "211869d4-b905-46f3-b45d-8718837bd559",
+              "publisherId": "matthewlindsey.auto-add-parent-folder",
+              "publisherName": "matthewlindsey",
+              "version": "0.0.1",
+              "name": "auto-add-parent-folder"
+          },
+          {
+              "id": "50acd6a2-eb2a-4fb8-9c08-f1d9f2874302",
+              "publisherId": "mbinic.tgit-cmds",
+              "publisherName": "mbinic",
+              "version": "1.3.0",
+              "name": "tgit-cmds"
+          },
+          {
+              "id": "3792588c-3d35-442d-91ea-fe6a755e8155",
+              "publisherId": "mechatroner.rainbow-csv",
+              "publisherName": "mechatroner",
+              "version": "1.8.0",
+              "name": "rainbow-csv"
+          },
+          {
+              "id": "c5e2e144-aae6-4eee-8ee2-9cbce01704e5",
+              "publisherId": "Molunerfinn.revealfileinfolder",
+              "publisherName": "Molunerfinn",
+              "version": "0.0.3",
+              "name": "revealfileinfolder"
+          },
+          {
+              "id": "f1f59ae4-9318-4f3c-a9b5-81b2eaa5f8a5",
+              "publisherId": "ms-python.python",
+              "publisherName": "ms-python",
+              "version": "2020.11.371526539",
+              "name": "python"
+          },
+          {
+              "id": "6c2f1801-1e7f-45b2-9b5c-7782f1e076e8",
+              "publisherId": "ms-toolsai.jupyter",
+              "publisherName": "ms-toolsai",
+              "version": "2020.12.414227025",
+              "name": "jupyter"
+          },
+          {
+              "id": "40d39ce9-c381-47a0-80c8-a6661f731eab",
+              "publisherId": "ms-vscode.powershell",
+              "publisherName": "ms-vscode",
+              "version": "2020.6.0",
+              "name": "powershell"
+          },
+          {
+              "id": "f491b818-446d-4d30-af60-fea27bee80b9",
+              "publisherId": "nextfaze.json-parse-stringify",
+              "publisherName": "nextfaze",
+              "version": "1.0.2",
+              "name": "json-parse-stringify"
+          },
+          {
+              "id": "951c33b7-6ec9-4351-8a17-ededc09c997f",
+              "publisherId": "nickdemayo.vscode-json-editor",
+              "publisherName": "nickdemayo",
+              "version": "0.2.3",
+              "name": "vscode-json-editor"
+          },
+          {
+              "id": "da88ed17-dd66-424b-8d92-d6a2222ac171",
+              "publisherId": "oliversturm.fix-json",
+              "publisherName": "oliversturm",
+              "version": "0.1.2",
+              "name": "fix-json"
+          },
+          {
+              "id": "b74f68dd-91c4-4669-9ef5-60b6def92207",
+              "publisherId": "onatm.open-in-new-window",
+              "publisherName": "onatm",
+              "version": "1.0.0",
+              "name": "open-in-new-window"
+          },
+          {
+              "id": "7632e3e0-7d47-4be3-a5e3-a5873293f815",
+              "publisherId": "pomber.git-file-history",
+              "publisherName": "pomber",
+              "version": "1.0.1",
+              "name": "git-file-history"
+          },
+          {
+              "id": "4890b437-7d1d-4331-b958-4b31e72259b5",
+              "publisherId": "richie5um2.vscode-filter-json",
+              "publisherName": "richie5um2",
+              "version": "1.0.0",
+              "name": "vscode-filter-json"
+          },
+          {
+              "id": "3fb77af3-b8b3-4cb9-9137-f555bd80e2b1",
+              "publisherId": "richie5um2.vscode-sort-json",
+              "publisherName": "richie5um2",
+              "version": "1.18.1",
+              "name": "vscode-sort-json"
+          },
+          {
+              "id": "1ec6eb10-6b49-418a-95d3-34d9a54e3101",
+              "publisherId": "richie5um2.vscode-statusbar-json-path",
+              "publisherName": "richie5um2",
+              "version": "1.4.4",
+              "name": "vscode-statusbar-json-path"
+          },
+          {
+              "id": "0ef57579-c0cb-4d43-9d4f-c53c5590836f",
+              "publisherId": "runarsf.platform-settings",
+              "publisherName": "runarsf",
+              "version": "0.0.2",
+              "name": "platform-settings"
+          },
+          {
+              "id": "7f04fa4c-3b21-4624-8c0f-267687e7ddda",
+              "publisherId": "tomsaunders.vscode-workspace-explorer",
+              "publisherName": "tomsaunders",
+              "version": "1.5.0",
+              "name": "vscode-workspace-explorer"
+          },
+          {
+              "id": "20ab0ac4-96b5-4560-a566-4699a58c38e8",
+              "publisherId": "VoIlAlex.extract-folder",
+              "publisherName": "VoIlAlex",
+              "version": "1.0.2",
+              "name": "extract-folder"
+          },
+          {
+              "id": "0cfb9d1d-3e59-4c36-a597-157b54e4442b",
+              "publisherId": "vsls-contrib.gistfs",
+              "publisherName": "vsls-contrib",
+              "version": "0.1.12",
+              "name": "gistfs"
+          },
+          {
+              "id": "aae0701b-111f-49c1-9000-abd37a442f28",
+              "publisherId": "WallabyJs.quokka-vscode",
+              "publisherName": "WallabyJs",
+              "version": "1.0.335",
+              "name": "quokka-vscode"
+          },
+          {
+              "id": "7015fdfd-f56d-43d7-95f0-fc91de28e26f",
+              "publisherId": "wengerk.highlight-bad-chars",
+              "publisherName": "wengerk",
+              "version": "0.0.3",
+              "name": "highlight-bad-chars"
+          },
+          {
+              "id": "40f51cc7-aa05-4769-8d36-c823e1328c70",
+              "publisherId": "williamtfligor.settings-extender",
+              "publisherName": "williamtfligor",
+              "version": "0.0.1",
+              "name": "settings-extender"
+          },
+          {
+              "id": "216714ff-236a-4718-bd08-9d24ea9c4346",
+              "publisherId": "wraith13.unsaved-files-vscode",
+              "publisherName": "wraith13",
+              "version": "2.1.1",
+              "name": "unsaved-files-vscode"
+          },
+          {
+              "id": "db320de3-3bc1-4a01-a5ea-57b1aeb9bf6a",
+              "publisherId": "yamajyn.commandlist",
+              "publisherName": "yamajyn",
+              "version": "1.0.3",
+              "name": "commandlist"
+          },
+          {
+              "id": "42a19d78-8550-49db-958b-561a7bfdee7d",
+              "publisherId": "YuTengjing.open-in-external-app",
+              "publisherName": "YuTengjing",
+              "version": "0.2.1",
+              "name": "open-in-external-app"
+          },
+          {
+              "id": "311c4d7f-e81f-47f8-9956-6a9919ddef43",
+              "publisherId": "ZainChen.json",
+              "publisherName": "ZainChen",
+              "version": "2.0.2",
+              "name": "json"
+          }
+      ]
+  },
+  "peacock.favoriteColors": [
+      {
+          "name": "Angular Red",
+          "value": "#b52e31"
+      },
+      {
+          "name": "Auth0 Orange",
+          "value": "#eb5424"
+      },
+      {
+          "name": "Azure Blue",
+          "value": "#007fff"
+      },
+      {
+          "name": "C# Purple",
+          "value": "#68217A"
+      },
+      {
+          "name": "Gatsby Purple",
+          "value": "#639"
+      },
+      {
+          "name": "Go Cyan",
+          "value": "#5dc9e2"
+      },
+      {
+          "name": "Java Blue-Gray",
+          "value": "#557c9b"
+      },
+      {
+          "name": "JavaScript Yellow",
+          "value": "#f9e64f"
+      },
+      {
+          "name": "Mandalorian Blue",
+          "value": "#1857a4"
+      },
+      {
+          "name": "Node Green",
+          "value": "#215732"
+      },
+      {
+          "name": "React Blue",
+          "value": "#00b3e6"
+      },
+      {
+          "name": "Something Different",
+          "value": "#832561"
+      },
+      {
+          "name": "Vue Green",
+          "value": "#42b883"
+      }
+  ],
+  "diffEditor.maxComputationTime": 0,
+  "git.allowNoVerifyCommit": true,
+  "yaml.schemas": {
+      "file:///toc.schema.json": "/toc\\.yml/i"
+  },
+  "editor.gotoLocation.alternativeImplementationCommand": "editor.action.goToImplementation",
+  "editor.gotoLocation.alternativeReferenceCommand": "editor.action.referenceSearch.trigger",
+  "editor.linkedEditing": true,
+  "editor.parameterHints.cycle": true,
+  "editor.stickyTabStops": true,
+  "editor.tabCompletion": "on",
+  "editor.unfoldOnClickAfterEndOfLine": true,
+  "editor.wrappingStrategy": "advanced",
+  "diffEditor.codeLens": true,
+  "editor.inlineSuggest.enabled": true,
+  "editor.suggest.localityBonus": true,
+  "editor.suggest.preview": true,
+  "editor.suggest.shareSuggestSelections": true,
+  "[plaintext]": {
+  
+      "editor.quickSuggestions": true
+  },
+  "security.workspace.trust.untrustedFiles": "open",
+  "search.useGlobalIgnoreFiles": true,
+  "security.workspace.trust.banner": "never",
+  "security.workspace.trust.enabled": false,
+  "settingsSync.ignoredExtensions": [],
+  "window.title": "${appName}${separator}${dirty}${activeEditorShort}${separator}${rootName}${separator}",
+  "workspaceExplorer.workspaceStorageDirectory": "C:\\Users\\crbk01\\OneDrive\\Dokument\\ToGit",
+  "triggerTaskOnSave.on": true,
+  "triggerTaskOnSave.showNotifications": true,
+  "triggerTaskOnSave.showStatusBarToggle": true,
+  "triggerTaskOnSave.tasks": {
+      "build": [
+          "*.md"
+      ]
+  },
+  "update.mode": "start",
+"vscodextrello.trelloToken": "2333e4c64286dff81f31b5ff3ff1d3441d7c5fa477d3efbbcd065d12c15b2066",
+  "git.confirmSync": false,
+  "compareHelper.externalTools": [
+      {
+          "name": "Bcomp",
+          "path": "D:\\PortableApps\\2. fileOrganization\\PortableApps\\Beyond Compare 4\\BCompare.exe",
+          "args": [
+              "${FOLDER_ITEM_1}",
+              "${FOLDER_ITEM_2}",
+              "${FOLDER_ITEM_3}",
+              "${FOLDER_ITEM_4}"
+          ],
+          "compares": [
+              "text",
+              "images"
+          ]
+      }
+  ],
+  "workbench.tree.renderIndentGuides": "always",
+"terminal.integrated.gpuAcceleration": "canvas",
+"editor.unicodeHighlight.ambiguousCharacters": false
+}
