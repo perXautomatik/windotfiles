@@ -9259,6 +9259,7 @@ gitRootSettingsSet:
     push: {}
     commitNotes:
       commitNotesHistory:
+      - Actual persist state
       - |-
         Vscodium instead of code
 

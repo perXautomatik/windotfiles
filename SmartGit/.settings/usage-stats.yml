@@ -1,10 +1,10 @@
 header: {started: 1686932531183, uid: 3OVVOEten4s, licenseType: foundation, build: 19278,
   os: windows+10, osv: '10.0', transferred: 1686932531183}
 stats:
-  changesview.syntax.<unknown>: {invocations: 3814, invocationLast: 20230704, invocationDays: 13}
-  action.stage: {invocations: 478, invocationLast: 20230704, invocationDays: 13}
-  toolbar.main.action.commit: {invocations: 191, invocationLast: 20230704, invocationDays: 12}
-  action.commit: {invocations: 195, invocationLast: 20230704, invocationDays: 12}
+  changesview.syntax.<unknown>: {invocations: 3816, invocationLast: 20230704, invocationDays: 13}
+  action.stage: {invocations: 479, invocationLast: 20230704, invocationDays: 13}
+  toolbar.main.action.commit: {invocations: 192, invocationLast: 20230704, invocationDays: 12}
+  action.commit: {invocations: 196, invocationLast: 20230704, invocationDays: 12}
   repo.opens.wt: {invocations: 397, invocationLast: 20230704, invocationDays: 13}
   repo.opens.wt.files.0: {invocations: 110, invocationLast: 20230704, invocationDays: 9}
   repo.opens.wt.submodules.0: {invocations: 375, invocationLast: 20230704, invocationDays: 13}
@@ -22,11 +22,11 @@ stats:
   action.checkout: {invocations: 6, invocationLast: 20230621, invocationDays: 2}
   repo.opens.wt.files.0-1000: {invocations: 271, invocationLast: 20230704, invocationDays: 12}
   action.submoduleRegister: {invocations: 67, invocationLast: 20230704, invocationDays: 9}
-  changesview.syntax.python: {invocations: 8, invocationLast: 20230704, invocationDays: 4}
+  changesview.syntax.python: {invocations: 9, invocationLast: 20230704, invocationDays: 4}
   changesview.syntax.json: {invocations: 267, invocationLast: 20230704, invocationDays: 10}
   action.submoduleInit: {invocations: 107, invocationLast: 20230704, invocationDays: 5}
   changesview.syntax.pascal: {invocations: 7, invocationLast: 20230627, invocationDays: 3}
-  changesview.syntax.yaml: {invocations: 13, invocationLast: 20230704, invocationDays: 3}
+  changesview.syntax.yaml: {invocations: 16, invocationLast: 20230704, invocationDays: 3}
   toolbar.main.action.sync: {invocations: 1, invocationLast: 20230619, invocationDays: 1}
   action.sync: {invocations: 3, invocationLast: 20230619, invocationDays: 1}
   action.conflictSolver: {invocations: 1, invocationLast: 20230619, invocationDays: 1}
@@ -43,7 +43,7 @@ stats:
   action.open: {invocations: 3, invocationLast: 20230619, invocationDays: 1}
   action.rename: {invocations: 6, invocationLast: 20230629, invocationDays: 4}
   window.compare: {invocations: 9, invocationLast: 20230703, invocationDays: 5}
-  changesview.syntax.cmd: {invocations: 33, invocationLast: 20230704, invocationDays: 5}
+  changesview.syntax.cmd: {invocations: 34, invocationLast: 20230704, invocationDays: 5}
   changesview.syntax.shell script: {invocations: 2, invocationLast: 20230627, invocationDays: 2}
   action.copyRelativePath: {invocations: 1, invocationLast: 20230619, invocationDays: 1}
   changesview.syntax.javascript/typescript: {invocations: 34, invocationLast: 20230704,
