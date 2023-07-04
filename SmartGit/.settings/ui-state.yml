@@ -1,0 +1,178 @@
+bounds:
+- {key: project, x: 418, y: 75, width: 1440, height: 866, state: 1}
+- {key: welcome}
+- {key: preferences, x: -67, y: 49, width: 1165, height: 498}
+- {key: compare, x: 38, y: 174, width: 1440, height: 866}
+- {key: output, x: -282, y: 2, width: 1168, height: 743}
+- {key: git.commit, width: 1245, height: 889, x: 96, y: -40}
+- {key: git.commit.selectFromLog, width: 640, height: 395}
+- {key: log, x: 569, y: 76, width: 1440, height: 866, state: 1}
+- {key: editor, x: 240, y: 58, width: 1440, height: 866}
+- {key: git.indexEditor, x: 240, y: 58, width: 1440, height: 866, state: 1}
+- {key: git.discard, width: 500, height: 654, x: 0, y: 172}
+- {key: git.squashCommits, width: 630, height: 400}
+- {key: editMessage, width: 500, height: 309, x: -139, y: -6}
+- {key: rename}
+- {key: git.ignore.file}
+- {key: configureToolbar, width: 600, height: 370}
+- {key: git.remove, width: 500, height: 309}
+- {key: git.stashSave, width: 500, height: 309}
+- {key: annotate, x: 0, y: 174, width: 1440, height: 866}
+- {key: conflictSolver, x: 240, y: 58, width: 1440, height: 866}
+- {key: splitOff, width: 500, height: 309}
+- {key: git.tag, width: 400, height: 300}
+conflictSolverFrame: {}
+indexEditorFrame: {}
+columns:
+  project.files.git:
+    columnNames: "Name\tState\tRelative Directory\tExt.\tIndex State\tLFS\tLast Changed\
+      \ On\tRelative Path\tRenamed From\tSize\tWorking Tree State"
+    visibleColumnNames: "Name\tRelative Directory\tState"
+    columnWidths:
+    - {id: Name, width: 200, width2x: 0}
+    - {id: State, width: 75, width2x: 0}
+    - {id: Relative Directory, width: 300, width2x: 0}
+    - {id: Relative Path, width: 500, width2x: 0}
+    sortOrders:
+    - {id: Name, reverse: false}
+    - {id: Relative Directory, reverse: false}
+  project.files.git.wt:
+    columnNames: "Name\tSize\tExt.\tState\tRelative Directory\tLast Changed On\tLFS\t\
+      Relative Path\tRenamed From"
+    visibleColumnNames: "Ext.\tLast Changed On\tName\tRelative Directory\tSize\tState"
+    columnWidths:
+    - {id: Name, width: 611, width2x: 0}
+    - {id: Size, width: 61, width2x: 0}
+    - {id: Ext., width: 63, width2x: 0}
+    - {id: State, width: 131, width2x: 0}
+    - {id: Relative Directory, width: 919, width2x: 0}
+    - {id: Last Changed On, width: 117, width2x: 0}
+    - {id: Relative Path, width: 500, width2x: 0}
+    sortOrders:
+    - {id: Name, reverse: false}
+    - {id: Relative Directory, reverse: false}
+    - {id: State, reverse: false}
+    - {id: Size, reverse: false}
+    - {id: Ext., reverse: false}
+    - {id: Last Changed On, reverse: true}
+  project.files.git.index:
+    columnNames: "Name\tExt.\tState\tRelative Directory\tRelative Path\tRenamed From"
+    visibleColumnNames: "Ext.\tName\tRelative Directory\tState"
+    columnWidths:
+    - {id: Name, width: 670, width2x: 0}
+    - {id: Ext., width: 94, width2x: 0}
+    - {id: State, width: 75, width2x: 0}
+    - {id: Relative Directory, width: 784, width2x: 0}
+    - {id: Relative Path, width: 500, width2x: 0}
+    sortOrders:
+    - {id: State, reverse: false}
+    - {id: Name, reverse: false}
+    - {id: Ext., reverse: true}
+    - {id: Relative Directory, reverse: false}
+  log.comments:
+    columnNames: "Author\tText\tPath\tDate\tAssignee\tCommit"
+    visibleColumnNames: "Assignee\tAuthor\tDate\tPath\tText"
+    columnWidths:
+    - {id: Author, width: 51, width2x: 0}
+    - {id: Text, width: 36, width2x: 0}
+    - {id: Path, width: 38, width2x: 0}
+    - {id: Date, width: 38, width2x: 0}
+    - {id: Assignee, width: 96, width2x: 0}
+    sortOrders:
+    - {id: Assignee, reverse: false}
+    - {id: Date, reverse: false}
+  git.log.files.mixed:
+    columnNames: "Name\tModification\tRelative Directory\tRenamed Path\tExt.\tLFS\t\
+      Relative Path"
+    visibleColumnNames: "Modification\tName\tRelative Directory\tRenamed Path"
+    columnWidths:
+    - {id: Name, width: 200, width2x: 0}
+    - {id: Modification, width: 60, width2x: 0}
+    - {id: Relative Directory, width: 200, width2x: 0}
+    - {id: Renamed Path, width: 150, width2x: 0}
+    - {id: Relative Path, width: 500, width2x: 0}
+    sortOrders:
+    - {id: Modification, reverse: false}
+    - {id: Relative Directory, reverse: false}
+    - {id: Name, reverse: false}
+  git.log.files.wt:
+    columnNames: "Name\tState\tRelative Directory\tRenamed Path\tExt.\tLFS\tLast Changed\
+      \ On\tRelative Path\tSize"
+    visibleColumnNames: "Name\tRelative Directory\tRenamed Path\tState"
+    columnWidths:
+    - {id: Name, width: 200, width2x: 0}
+    - {id: State, width: 60, width2x: 0}
+    - {id: Relative Directory, width: 200, width2x: 0}
+    - {id: Renamed Path, width: 150, width2x: 0}
+    - {id: Relative Path, width: 500, width2x: 0}
+    sortOrders:
+    - {id: State, reverse: false}
+    - {id: Name, reverse: false}
+    - {id: Relative Directory, reverse: false}
+  git.log.files.index:
+    columnNames: "Name\tState\tRelative Directory\tRenamed Path\tExt.\tLFS\tLast Changed\
+      \ On\tRelative Path\tSize"
+    visibleColumnNames: "Name\tRelative Directory\tRenamed Path\tState"
+    columnWidths:
+    - {id: Name, width: 200, width2x: 0}
+    - {id: State, width: 60, width2x: 0}
+    - {id: Relative Directory, width: 200, width2x: 0}
+    - {id: Renamed Path, width: 135, width2x: 0}
+    - {id: Relative Path, width: 500, width2x: 0}
+    sortOrders:
+    - {id: Renamed Path, reverse: false}
+    - {id: State, reverse: false}
+    - {id: Name, reverse: false}
+    - {id: Relative Directory, reverse: false}
+  git.log.files:
+    columnNames: "Name\tModification\tRelative Directory\tRenamed Path\tExt.\tRelative\
+      \ Path"
+    visibleColumnNames: "Modification\tName\tRelative Directory\tRenamed Path"
+    columnWidths:
+    - {id: Name, width: 200, width2x: 0}
+    - {id: Modification, width: 60, width2x: 0}
+    - {id: Relative Directory, width: 200, width2x: 0}
+    - {id: Renamed Path, width: 150, width2x: 0}
+    - {id: Relative Path, width: 500, width2x: 0}
+    sortOrders:
+    - {id: Name, reverse: false}
+    - {id: Relative Directory, reverse: false}
+gitViewFileFilter: {viewRecursive: true, viewFromSubmodules: true, viewIgnoredFiles: false,
+  viewRenameSources: true, viewSkipped: false, viewUnversionedFiles: true, viewUnchangedFiles: false,
+  viewUnchangedAssumed: false}
+deepGitUiConfiguration: {}
+confirmations: {exit.showConfirmation: true, git.push: true, git.switchBranch.confirmation: true,
+  close.unpushedCommits: true, commit.amend.replaceWarning: true, rebase.continue: true,
+  rebaseContinue: true, git.switchBranch.fastForward: true, sync: true, splitCommit: true}
+repositoriesToReopen:
+- window: log
+  repositories: ['B:\PF\PowershellProjectFolder']
+project.files.git.separateWtIndex: true
+gitProjectLayout.main: (([+311x554:directories ][+311x369:branches ])((([+1606x473:files
+  ][+1606x305:changes ])[-3x1:message ])([+1606x142:outgoing ][-3x1:output ])))
+log.wtIndex.onDemand: true
+gitProjectLayout.mainIsdefault: true
+gitProjectLayout.review: ([+2x1:directories ][+7x1:files ][+3x1:message ])[+10x3:changes
+  ]([-1x1:branches ][-3x1:outgoing ][-3x1:output ])
+lastRepositoryPath: C:\ProgramData\scoop\persist
+commit.expandOptions: true
+log.files.git.separateWtIndex: true
+gitLogRootLayout.main: (([+379x461:repositories ][+379x462:branches ])(([+377x703:graph
+  ]([+1158x203:details -1x1:output -1x1:debug-log details ][+1158x497:files +1158x497:comments
+  files ]))[+1538x220:changes ]))
+gitLogRootLayout.mainIsdefault: true
+gitLogRootLayout.review: (([+1x1:repositories ][+1x1:branches ])(([+4x1:graph ]([+2x1:details
+  -1x1:output -1x1:debug-log details ][+2x2:files +2x1:comments files ]))[+4x4:changes
+  ]))
+gitLogSubtreeLayout: ([+120x366:branches ][+335x366:graph ]([+737x161:details -1x1:output
+  details ][+737x202:files ]))[+1198x367:changes ]
+subtree.add.createLocalBranch: false
+discard.stash: false
+ignore.location: 1
+git.remove.deleteLocalFile: false
+stashApply.restoreIndex: true
+gitAnnotateLayout: '[+1424x678:document ][+1424x126:line-history ]'
+git.pull.defaultFetch: true
+lastClonedUrls: ['https://github.com/perXautomatik/BAO', 'https://github.com/perXautomatik/initApps.git']
+cloneSkipSize: 5242880
+git.reset: 0

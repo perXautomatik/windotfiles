@@ -1,0 +1,42 @@
+{
+  "folders": [
+    {
+      "path": "."
+    },
+    {
+      "name": "PowerShell",
+      "path": "C:\\Users\\crbk01\\AppData\\Roaming\\Microsoft\\Windows\\PowerShell"
+    },
+    {
+      "name": "PowerShell",
+      "path": "C:\\Users\\crbk01\\Documents\\PowerShell"
+    },
+    {
+      "path": "C:\\Users\\crbk01\\AppData\\Roaming\\Microsoft\\Windows\\PowerShell\\PSReadline"
+    },
+    {
+      "path": ".."
+    }
+  ],
+  "settings": {
+    "powershell.cwd": "b:\\PF\\PowerShell"
+  },
+  "extensions": {
+    "recommendations": [
+      "ms-vscode.powershell",
+      "ogranny.md-template",
+      "spmeesseman.vscode-taskexplorer",
+      "robole.snippets-ranger",
+      "ms-dotnettools.dotnet-interactive-vscode",
+      "bmuskalla.vscode-tldr",
+      "formulahendry.code-runner",
+      "rechinformatica.rech-editor-batch",
+      "ironmansoftware.powershell-universal",
+      "usernamehw.errorlens",
+      "pod212.vscode-github-projects",
+      "qualiu.vscode-msr",
+      "shan.code-settings-sync",
+      "muzaisimao.vscode-disable-extensions",
+    ]
+  }
+}

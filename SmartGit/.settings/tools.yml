@@ -1,0 +1,122 @@
+tools:
+- name: ignore subfolder
+  fileStarter: {command: powershell.exe, parameters: '$p1 = "''${filePath}''" ; $p1
+      = convert-path $p1  ;  $p2 ="''${repositoryRootPath}''" ;  $p2 = convert-path
+      $p2; invoke-command -scriptblock {param($param1,$param2) ;   (coreutils realpath
+      --relative-to="$param2" ( $param1 | split-path -parent )).replace(''\'',''/'')
+      >> (Join-Path -Path $param2 -ChildPath ''.gitignore'')} -ArgumentList $p1, $p2'}
+  useForOpen: false
+  waitUntilFinished: true
+  filePattern: '*'
+  forFilesNotDirectories: true
+- id: openFile
+  name: Open File
+  fileStarter: {command: '${smartGitDir}\bin\open.exe', parameters: '${filePath}'}
+  useForOpen: true
+  waitUntilFinished: false
+  filePattern: '*'
+  forFilesNotDirectories: true
+- id: openInExplorer
+  name: Open in Explorer
+  fileStarter: {command: explorer.exe, parameters: '/e, ${filePath}'}
+  useForOpen: true
+  waitUntilFinished: false
+  filePattern: '*'
+  forFilesNotDirectories: false
+- id: openInCmd
+  name: Open in Terminal
+  fileStarter: {command: cmd.exe, parameters: '/c start pushd ${filePath}'}
+  useForOpen: true
+  waitUntilFinished: false
+  filePattern: '*'
+  forFilesNotDirectories: false
+- id: revealInExplorer
+  name: Reveal in Explorer
+  fileStarter: {command: explorer.exe, parameters: '/select, ${filePath}'}
+  useForOpen: true
+  waitUntilFinished: false
+  filePattern: '*'
+- id: editInNotepad
+  name: Edit
+  fileStarter: {command: 'C:\ProgramData\scoop\apps\beyondcompare\current\BComp.exe',
+    parameters: '${filePath}'}
+  useForOpen: true
+  waitUntilFinished: false
+  filePattern: '*'
+  forFilesNotDirectories: true
+- name: Commit with TGit
+  fileStarter: {command: 'C:\Program Files\TortoiseGit\bin\TortoiseGitProc.exe', parameters: '/command:commit
+      /path ${filePath}'}
+  useForOpen: true
+  waitUntilFinished: false
+  filePattern: '*'
+- name: DeleteIndex
+  keystroke: CTRL+DEL
+  fileStarter: {command: '${git}', parameters: 'rm --cached -r ${fileName}'}
+  useForOpen: true
+  waitUntilFinished: false
+  filePattern: '*'
+  confirmationMessage: --cd=${repositoryRootPath} -c "git rm --cached -r ${fileName}"
+- name: GitPushOnDemand
+  fileStarter: {command: '${git}', parameters: push --recurse-submodules=on-demand}
+  useForOpen: false
+  waitUntilFinished: true
+  filePattern: '*'
+  confirmationMessage: --cd=${filePath} -c "git submodule absorbgitdir"
+- name: GitAbsorbe
+  fileStarter: {command: '${git}', parameters: submodule absorbgitdirs}
+  useForOpen: false
+  waitUntilFinished: true
+  filePattern: '*'
+  confirmationMessage: --cd=${filePath} -c "git submodule absorbgitdir"
+- name: AddAsSafeDir
+  fileStarter: {command: '${git}', parameters: 'config --global --add safe.directory
+      ${filePath}'}
+  useForOpen: false
+  waitUntilFinished: true
+  filePattern: '*'
+  forFilesNotDirectories: false
+  requiresConfirmation: true
+  confirmationMessage: --cd=${filePath} -c "git config --global --add safe.directory
+    $(pwd)"
+- id: openGitShell
+  name: Open in Git-Shell
+  fileStarter: {command: '${git}', parameters: '--cd=${filePath}'}
+  useForOpen: true
+  waitUntilFinished: false
+  filePattern: '*'
+  forFilesNotDirectories: false
+- id: setExecutable
+  name: Set Executable Flag
+  fileStarter: {command: '${git}', parameters: 'update-index --chmod=+x -- ${filePath}'}
+  useForOpen: false
+  waitUntilFinished: true
+  filePattern: '*'
+  forFilesNotDirectories: true
+- id: unsetExecutable
+  name: Unset Executable Flag
+  fileStarter: {command: '${git}', parameters: 'update-index --chmod=-x -- ${filePath}'}
+  useForOpen: false
+  waitUntilFinished: true
+  filePattern: '*'
+  forFilesNotDirectories: true
+- id: applyPatch
+  name: Apply Patch
+  fileStarter: {command: '${git}', parameters: 'apply ${fileOpen}'}
+  useForOpen: false
+  waitUntilFinished: true
+  filePattern: '*'
+- id: verifyDatabase
+  name: Verify Database
+  fileStarter: {command: '${git}', parameters: fsck --full --no-progress}
+  useForOpen: false
+  waitUntilFinished: true
+  filePattern: '*'
+- id: gitConfigList
+  name: Git Config
+  keystroke: CTRL+C
+  fileStarter: {command: '${git}', parameters: config --list --show-origin}
+  useForOpen: false
+  waitUntilFinished: true
+  filePattern: '*'
+manuallyDeletedIds: []

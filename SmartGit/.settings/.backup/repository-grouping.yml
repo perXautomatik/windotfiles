@@ -1,0 +1,49 @@
+structure:
+- name: B:\
+  children:
+  - {name: B-ToGit, path: 'B:\ToGit'}
+  - name: chris
+    children:
+    - {name: Documents, path: 'B:\Users\chris\Documents'}
+    expanded: false
+  - name: SteamLibrary
+    children:
+    - {name: steamapps, path: 'B:\SteamLibrary\steamapps'}
+    - {name: SubmoduleFromGitmodules, path: 'B:\ToGit\SubmoduleFromGitmodules'}
+    - {name: General-ProjectFolders, path: 'B:\New folder (2)\General-ProjectFolders'}
+    - {name: PF, path: 'B:\PF'}
+    - {name: IoT, path: 'B:\ToGit\IoT'}
+    - {name: scoopbucket-1, path: \\DESKTOP-FIQ183H\BLoppy\ToGit\scoopbucket-1}
+    - {name: Archive, path: 'B:\PF\Archive'}
+    - {name: ps1, path: 'B:\PF\Archive\ps1'}
+    - {name: GitPs1Module, path: 'B:\GitPs1Module'}
+    - {name: Filtered, path: 'B:\Filtered'}
+    - {name: PowerShell, path: 'B:\PF\PowerShell'}
+    - {name: NewWindows2, path: 'B:\PF\NewWindows2'}
+    - {name: NewWindows3, path: 'B:\PF\NewWindows3'}
+    - {name: TIG-stack, path: 'B:\ToGit\IoT\TIG-stack'}
+    expanded: false
+  - {name: ToGit, path: 'G:\ToGit'}
+  - {name: scoopbucket-presist, path: 'G:\ToGit\projectFolderBare\scoopbucket-presist'}
+  expanded: true
+- name: I:\Downloads\2022
+  children:
+  - {name: assorted, path: 'I:\Downloads\2022\assorted'}
+  expanded: true
+- name: I:\ToGit
+  children:
+  - {name: PowerShellProjectFolder, path: 'I:\ToGit\PowerShellProjectFolder'}
+  expanded: true
+- {name: loppy-projectFolderBare, path: \\Sabrina\b\ToGit\Ny mapp\projectFolderBare}
+- name: Scoop
+  children:
+  - {name: Deployed, path: 'C:\ProgramData\scoop\buckets'}
+  - {name: scoopbucket-1, path: 'B:\PF\scoopbucket-1'}
+  expanded: true
+recentlyUsed: ['B:\PF\scoopbucket-1', 'C:\ProgramData\scoop\buckets', 'B:\ToGit\IoT\TIG-stack',
+  'B:\ToGit\IoT', 'B:\PF\Archive\ps1', 'B:\PF\NewWindows3', 'B:\PF\NewWindows2', 'B:\PF',
+  'B:\PF\PowerShell', 'B:\GitPs1Module', 'B:\PF\Archive', 'B:\Filtered', \\DESKTOP-FIQ183H\BLoppy\ToGit\scoopbucket-1,
+  'B:\Users\chris\Documents', 'B:\New folder (2)\General-ProjectFolders', 'B:\ToGit',
+  \\Sabrina\b\ToGit\Ny mapp\projectFolderBare, 'G:\ToGit\projectFolderBare\scoopbucket-presist',
+  'G:\ToGit', 'B:\ToGit\SubmoduleFromGitmodules', 'I:\ToGit\PowerShellProjectFolder',
+  'B:\SteamLibrary\steamapps', 'I:\Downloads\2022\assorted']

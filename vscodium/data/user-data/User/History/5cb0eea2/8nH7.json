@@ -1,0 +1,30 @@
+{
+    "security.workspace.trust.untrustedFiles": "open",
+    "pymakr.devices.configs": {
+        "serial://COM1": {
+            "autoConnect": "onLostConnection",
+            "name": "",
+            "username": "micro",
+            "password": "python",
+            "hidden": false,
+            "rootPath": null,
+            "adapterOptions": {}
+        },
+        "e661a4d4176db52b": {
+            "autoConnect": "always",
+            "name": "PicoIot",
+            "username": "micro",
+            "password": "python",
+            "hidden": false,
+            "rootPath": "/",
+            "adapterOptions": {}
+        }
+    },
+    "pymakr.misc.notifications": {
+        "PicoIot / unknown seems to be busy. Do you wish restart it in safe mode": "Restart in safe mode",
+        "PicoIot / P2_Blink seems to be busy. Do you wish restart it in safe mode": "Restart in safe mode",
+        "Kommunikationsport (COM1) / unknown seems to be busy. Do you wish restart it in safe mode": "Restart in safe mode",
+        "A terminal for PicoIot / P2_Blink already exists.": "Open existing terminal",
+        "\"Open file on device.\" opens the corresponding file on all idle devices that are connected to the file's project.": "Don't show again"
+    }
+}

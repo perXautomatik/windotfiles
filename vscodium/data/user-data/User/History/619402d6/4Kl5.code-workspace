@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../../.."
+		},
+		{
+			"name": "serial:/COM3",
+			"uri": "serial://com3/"
+		},
+		{
+			"name": "IoT",
+			"path": "../../../../../PF/IoT"
+		}
+	],
+	"settings": {}
+}

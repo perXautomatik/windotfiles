@@ -1,0 +1,127 @@
+actions:
+  cleanup: {gcIntervalDays: 7}
+  commit: {preferStaged: true}
+  compare:
+    fileComparators:
+    - filePattern: '*'
+      compareType: 0
+      externalFileCompare: {}
+    compareWithWorkingTree: false
+    showChooser: false
+  conflictSolver:
+    conflictSolvers:
+    - filePattern: '*'
+      useExternal: false
+      externalTool: {}
+  stash: {stashAutomatically: true, includeUntrackedFiles: true}
+  allowModificationOfPushedHistory: true
+  pushTags: true
+  refreshInspectEols: true
+  refreshRenameDetectionWarnings: false
+  backgroundFetchClosed: true
+  backgroundFetchOpen: true
+logSettings:
+  filterConfiguration: {}
+comparePreviewSettings: {selectCompareTypeAutomatically: false, compareType: working-tree-vs-index}
+dateFormat: {datePattern: MM/dd/yyyy, timePattern: 'hh:mm a', showTimeForLastDays: true}
+defaultViewSettings:
+  compareSettings:
+    textSettings: {whitespaces: 0}
+git:
+  maxCount: 3
+  alternatives: ['${smartgit.install}\git\bin\git.exe', 'C:\Program Files\Git\cmd\git.exe']
+  executable: C:\Program Files\Git\bin\git.exe
+  useSystemGitFlow: true
+ssh: {useOwnSshClient: true}
+deepGit2: {}
+globalTextComponentSettings:
+  font: {family: Lucida Console, size: 9}
+  actions: {focusNextChangeAfterTakingChange: false, tabToSpaces: false, homeEndToLineNotDocument: true,
+    smartHome: true, cursorLeftRightLimitToLine: true, smartEnterAutoIndent: true,
+    smartEnterIgnoreEmptyLinesForIndentation: true, smartEnterDeleteWhitespace: true}
+  syntaxHighlightingSettings:
+    entries:
+    - {language: ANTLR4, pattern: '*.g4'}
+    - {language: Basic, pattern: '*.basic, *.cbm, *.vb, *.vbs'}
+    - {language: C#, pattern: '*.cs'}
+    - {language: C(++), pattern: '*.c, *.cc, *.cpp, *.cxx, *.cyc, *.h, *.ino'}
+    - {language: CMake, pattern: '*.cmake'}
+    - {language: CSS, pattern: '*.css, *.css-kw, *.css-str'}
+    - {language: Clojure, pattern: '*.clj'}
+    - {language: Cmd, pattern: '*.bat, *.cmd'}
+    - {language: Crystal, pattern: '*.cr'}
+    - {language: Dart, pattern: '*.dart'}
+    - {language: Embedded Ruby Template, pattern: '*.erb'}
+    - {language: Go, pattern: '*.go'}
+    - {language: Groovy, pattern: '*.gradle, *.groovy'}
+    - {language: HTML, pattern: '*.htm, *.html, *.xhtml'}
+    - {language: InnoSetup, pattern: '*.iss'}
+    - {language: JSON, pattern: '*.json'}
+    - {language: Java, pattern: '*.java'}
+    - {language: JavaScript/TypeScript, pattern: '*.javascript, *.js, *.ts'}
+    - {language: Kotlin, pattern: '*.kt, *.kts'}
+    - {language: Mumps, pattern: '*.mumps'}
+    - {language: Nim, pattern: '*.nim'}
+    - {language: Objective-C, pattern: '*.m'}
+    - {language: PHP, pattern: '*.php, *.php3, *.php4, *.php5, *.phps, *.phtml'}
+    - {language: Pascal, pattern: '*.pas, *.pascal'}
+    - {language: Perl, pattern: '*.perl, *.pl, *.pm'}
+    - {language: Properties, pattern: '*.properties'}
+    - {language: Python, pattern: '*.cv, *.py, *.python, *.pyw'}
+    - {language: Ruby, pattern: '*.rb, *.ruby'}
+    - {language: Rust, pattern: '*.rc, *.rs, *.rust'}
+    - {language: SQL, pattern: '*.sql'}
+    - {language: Scala, pattern: '*.scala'}
+    - {language: Shell Script, pattern: '*.bash, *.bsh, *.csh, *.sh'}
+    - {language: Swift, pattern: '*.swift'}
+    - {language: V, pattern: '*.v'}
+    - {language: VHDL '93, pattern: '*.vhd, *.vhdl'}
+    - {language: XML, pattern: '*.csproj, *.mxml, *.plist, *.storyboard, *.svg, *.xib,
+        *.xml'}
+    - {language: Yaml, pattern: '*.yaml, *.yml'}
+    - {language: Zig, pattern: '*.zig'}
+  colors.light: {color-annotation: 11564032, color-attrib-name: 255, color-attrib-value: 32768,
+    color-comment: 8421504, color-pragma: 8547840, color-invalid: 16727871, color-keyword: 32768,
+    color-literal: 255, color-plain-text: 0, color-punctuation: 16721920, color-identifier: 0,
+    color-string: 12583104, color-tag: 128, color-type: 4227200, foregroundText: 0,
+    foregroundGutter: 9868950, foregroundWhitespace: 12632256, foregroundTrailingWhitespace: 12624064,
+    foregroundCompactSeparator: 10526880, backgroundEditable: 16777215, backgroundReadOnly: 16185078,
+    backgroundGutter: 16316661, backgroundCurrentLine: 16185004, backgroundModified: 16763080,
+    backgroundModifiedLight: 16772589, backgroundAdded: 12513470, backgroundAddedLight: 15399658,
+    backgroundRemoved: 13158655, backgroundRemovedLight: 15592959, backgroundConflict: 16755370,
+    backgroundConflictLight: 16770019, backgroundCompactSeparator: 15132390, backgroundComment: 16182243,
+    backgroundModifiedCS: 16763080, backgroundAddedCS: 12513470, backgroundRemovedCS: 13158655,
+    highlightCurrentLine: false}
+  colors.dark: {color-annotation: 13092749, color-attrib-name: 9291719, color-attrib-value: 12558303,
+    color-comment: 8421504, color-pragma: 13876905, color-invalid: 16744319, color-keyword: 10733475,
+    color-literal: 11184853, color-plain-text: 12566463, color-punctuation: 12561045,
+    color-identifier: 12632256, color-string: 14002901, color-tag: 10274701, color-type: 11513807,
+    foregroundText: 12632256, foregroundGutter: 12632256, foregroundWhitespace: 8421504,
+    foregroundTrailingWhitespace: 12624064, foregroundCompactSeparator: 7895160, backgroundEditable: 3157803,
+    backgroundReadOnly: 3157803, backgroundGutter: 4802111, backgroundCurrentLine: 7566169,
+    backgroundModified: 6694952, backgroundModifiedLight: 3878442, backgroundAdded: 2647608,
+    backgroundAddedLight: 3029550, backgroundRemoved: 2639718, backgroundRemovedLight: 3028023,
+    backgroundConflict: 8400896, backgroundConflictLight: 4468512, backgroundCompactSeparator: 3947580,
+    backgroundComment: 7299927, backgroundModifiedCS: 10047311, backgroundAddedCS: 5216610,
+    backgroundRemovedCS: 5207193, highlightCurrentLine: false}
+  colors.useDark: true
+listx: {uid: en4ssg7d23lk}
+project: {defaultWindowType: wt}
+uiSettings: {theme: auto, themeChanged: false, fileSearchPatternType: 1}
+vcsRecords: {lastGitUsage: 1688472640415}
+updateCheck: {prevCheckTime: 1688390808916, checkedBuild: 19278, mode: download, upgradeInstallation: false}
+updateCheckDg: {}
+proxy: {enabled: false, autoDetect: true}
+spellCheck:
+  dictionaries:
+  - {name: en_US, file: '${smartgit.install}\dictionaries\en_US.dic', file.absolute: 'C:\ProgramData\scoop\apps\SmartGit\current\dictionaries\en_US.dic'}
+  deleted: false
+  activeDictionary: 0
+lastUsedVersion: '22.1'
+firstUsedTime: 1684316673740
+tempDirs: ['C:\Users\CrRoot\AppData\Local\Temp\smartgit2055331668728028929', 'C:\Users\CrRoot\AppData\Local\Temp\e4jB217.tmp_dir1688390806',
+  'C:\Users\CrRoot\AppData\Local\Temp\smartgit5021041882435891261']
+machineId: 41587a14
+warnForMissingMasterPassword: false
+sendStacktraces2: true
+sendUsageStats: true

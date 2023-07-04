@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "B:/ToGit/IoT"
+		},
+		{
+			"name": "serial:/COM3",
+			"uri": "serial://com3/"
+		},
+		{
+			"name": "P2_Blink",
+			"path": "B:/ToGit/IoT/Raspberry Pi Pico (W) Micropython/sensor-examples/P2_Blink"
+		}
+	],
+	"settings": {}
+}
