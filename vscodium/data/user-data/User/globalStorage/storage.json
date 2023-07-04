@@ -1,0 +1,87 @@
+{
+    "userDataProfilesMigration": true,
+    "profileAssociations": {
+        "workspaces": {
+            "file:///b%3A/ToGit/Project%20Shelf/BucketTemplate/bucket": "__default__profile__",
+            "file:///b%3A/ToGit/IoT": "__default__profile__",
+            "file:///b%3A/ToGit/IoT/Raspberry%20Pi%20Pico%20%28W%29%20Micropython/sensor-examples/P2_Blink/IoT.code-workspace": "__default__profile__",
+            "file:///b%3A/Users/chris/Documents/WindowsPowerShell/Modules/PhatGit": "__default__profile__",
+            "file:///b%3A/ToGit/IoT/TIG-stack": "__default__profile__",
+            "file:///b%3A/PF/PowerShell": "__default__profile__",
+            "file:///b%3A/PF/PowerShell/powerShellProjectFolder.code-workspace": "__default__profile__",
+            "file:///b%3A/PF/PowerShell-Scripts/powerShellProjectFolder.code-workspace": "__default__profile__",
+            "file:///b%3A/PF/Archive/ps1/.vscode": "__default__profile__",
+            "file:///b%3A/PF/Archive/ps1/git/repair/Gitmodules/New%20folder": "__default__profile__",
+            "file:///b%3A/PF/CSharpVisualStudio/repos/Boras2/Project/WPF-EF6-Sqlite/WPF-EF6-Sqlite.code-workspace": "__default__profile__",
+            "file:///b%3A/PF/PowerShell-Scripts": "__default__profile__",
+            "file:///b%3A/PF/CSharpVisualStudio/repos/WIthoutStudio/C.code-workspace": "__default__profile__",
+            "file:///b%3A/PF/CSharpVisualStudio/repos/New%20folder": "__default__profile__",
+            "file:///b%3A/PF/CSharpVisualStudio/repos/Boras2/BioFilmer": "__default__profile__",
+            "file:///b%3A/PF/CSharpVisualStudio/repos/Boras2/Project/WPF-EF6-Sqlite": "__default__profile__",
+            "file:///b%3A/GitPs1Module": "__default__profile__",
+            "file:///b%3A/PF/Pascal": "__default__profile__",
+            "file:///b%3A/PF/.git/modules/AhkProjectFolder": "__default__profile__",
+            "file:///b%3A/PF": "__default__profile__",
+            "file:///b%3A/ToGit/Archive/ps1": "__default__profile__",
+            "file:///b%3A/ToGit/Archive/ps1/PowerShell.code-workspace": "__default__profile__",
+            "file:///b%3A/ToGit/PowerShellProjectFolder/ps1.code-workspace": "__default__profile__",
+            "file:///b%3A/PF/CSharpVisualStudio/repos": "__default__profile__",
+            "file:///b%3A/PF/Archive/ps1/PowerShell.code-workspace": "__default__profile__",
+            "file:///b%3A/PF/Modding/modding": "__default__profile__",
+            "gitlens://7b22726566223a2265666635633436613066356339663463623063326261663461393862323038313039393336363536222c227265706f50617468223a22623a2f50462f417263686976652f707331227d/b%3A/PF/Archive/ps1?%7B%22ref%22%3A%22eff5c46%22%7D": "__default__profile__",
+            "file:///b%3A/PF/Archive/ps1": "__default__profile__"
+        },
+        "emptyWindows": {}
+    },
+    "profileAssociationsMigration": true,
+    "telemetry.machineId": "43b2f78b9133472da9df405d4b0940e2df1f4bac66d61a01814155213dabb309",
+    "backupWorkspaces": {
+        "workspaces": [],
+        "folders": [
+            {
+                "folderUri": "file:///b%3A/PF/Archive/ps1"
+            }
+        ],
+        "emptyWindows": []
+    },
+    "windowControlHeight": 30,
+    "theme": "vs",
+    "themeBackground": "#ffffff",
+    "windowSplash": {
+        "zoomLevel": 0,
+        "baseTheme": "vs",
+        "colorInfo": {
+            "foreground": "#616161",
+            "background": "#ffffff",
+            "editorBackground": "#ffffff",
+            "titleBarBackground": "#dddddd",
+            "activityBarBackground": "#e1ecf9",
+            "sideBarBackground": "#f3f3f3",
+            "statusBarBackground": "#999999",
+            "statusBarNoFolderBackground": "#999999"
+        },
+        "layoutInfo": {
+            "sideBarSide": "left",
+            "editorPartMinWidth": 220,
+            "titleBarHeight": 30,
+            "activityBarWidth": 48,
+            "sideBarWidth": 1024,
+            "statusBarHeight": 22,
+            "windowBorder": false
+        }
+    },
+    "windowsState": {
+        "lastActiveWindow": {
+            "folder": "file:///b%3A/PF/Archive/ps1",
+            "backupPath": "C:\\ProgramData\\scoop\\apps\\vscodium\\1.80.0.23188\\data\\user-data\\Backups\\76317f146591116761123f44f11f6998",
+            "uiState": {
+                "mode": 0,
+                "x": 341,
+                "y": 167,
+                "width": 1024,
+                "height": 768
+            }
+        },
+        "openedWindows": []
+    }
+}
