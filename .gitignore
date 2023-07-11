@@ -68,6 +68,7 @@ ruby/gems/bin
 ruby/gems/cache
 ruby/gems/doc/rake-13.0.6/ri
 ruby/gems/gems/rake-13.0.6/doc
+<<<<<<< HEAD
 sierra wireless
 skype
 slack
@@ -119,3 +120,20 @@ wizards of the coast
 wmcore
 zoom
 zoomrooms
+=======
+*.rb
+SmartGit/.settings/gravatar-cache
+flow-launcher/UserData/Plugins/Window Walker-2.2.2
+*.7z
+*.dll
+LOCK
+*.~
+MANIFEST-000001
+the-real-index
+*.ri
+*.pyi
+LICENSE
+*.pyc
+__init__.py
+*.~yml
+>>>>>>> 383186bd19 (state)

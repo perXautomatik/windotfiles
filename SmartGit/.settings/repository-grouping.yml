@@ -5,7 +5,12 @@ structure:
   - name: chris
     children:
     - {name: Documents, path: 'B:\Users\chris\Documents'}
+<<<<<<< HEAD
     expanded: false
+=======
+    - {name: chris, path: 'B:\Users\chris'}
+    expanded: true
+>>>>>>> 383186bd19 (state)
   - name: SteamLibrary
     children:
     - {name: steamapps, path: 'B:\SteamLibrary\steamapps'}
@@ -19,6 +24,18 @@ structure:
     - {name: NewWindows2, path: 'B:\PF\NewWindows2'}
     - {name: NewWindows3, path: 'B:\PF\NewWindows3'}
     - {name: TIG-stack, path: 'B:\ToGit\IoT\TIG-stack'}
+<<<<<<< HEAD
+=======
+    - {name: RegionGotland, path: 'B:\PF\RegionGotland'}
+    - {name: Modding, path: 'B:\PF\Modding'}
+    - {name: diablo-ii-resurrectedb, path: 'B:\PF\Modding\Diablo II ressurected\modding.worktrees\diablo-ii-resurrectedb'}
+    - {name: Diablo II ressurected, path: 'B:\PF\Modding\Diablo II ressurected'}
+    - {name: repos, path: 'B:\PF\CSharpVisualStudio\repos'}
+    - {name: InvalidMarkup, path: 'B:\PF\CSharpVisualStudio\repos\InvalidMarkup'}
+    - {name: PetStore, path: 'B:\PF\CSharpVisualStudio\repos\Boras2\PetStore'}
+    - {name: chris, path: 'B:\PF\chris'}
+    - {name: autohotkey, path: 'B:\PF\chris\autohotkey'}
+>>>>>>> 383186bd19 (state)
     expanded: false
   - {name: ToGit, path: 'G:\ToGit'}
   - {name: scoopbucket-presist, path: 'G:\ToGit\projectFolderBare\scoopbucket-presist'}
@@ -28,7 +45,11 @@ structure:
     - {name: ps1, path: 'B:\PF\Archive\ps1'}
     - {name: PowerShell, path: 'B:\PF\PowerShell'}
     - {name: PowershellProjectFolder, path: 'B:\PF\PowershellProjectFolder'}
+<<<<<<< HEAD
     - {name: ps1, path: 'B:\ps1'}
+=======
+    expanded: true
+>>>>>>> 383186bd19 (state)
   expanded: true
 - name: I:\Downloads\2022
   children:
@@ -44,6 +65,7 @@ structure:
   - {name: scoopbucket-1, path: 'B:\PF\scoopbucket-1'}
   - {name: scoopbucket-presist, path: 'B:\PF\scoopbucket-presist'}
   - {name: Deployed-persist, path: 'C:\ProgramData\scoop\persist'}
+<<<<<<< HEAD
   expanded: true
 recentlyUsed: ['C:\ProgramData\scoop\persist', 'B:\PF\scoopbucket-presist', 'B:\PF\scoopbucket-1',
   'B:\PF\PowershellProjectFolder', 'B:\PF\PowerShell', 'B:\PF\Archive\ps1', 'C:\ProgramData\scoop\buckets',
@@ -52,3 +74,18 @@ recentlyUsed: ['C:\ProgramData\scoop\persist', 'B:\PF\scoopbucket-presist', 'B:\
   'B:\Users\chris\Documents', 'B:\New folder (2)\General-ProjectFolders', 'B:\ToGit',
   \\Sabrina\b\ToGit\Ny mapp\projectFolderBare, 'G:\ToGit\projectFolderBare\scoopbucket-presist',
   'G:\ToGit', 'B:\ToGit\SubmoduleFromGitmodules', 'B:\SteamLibrary\steamapps', 'I:\Downloads\2022\assorted']
+=======
+  - {name: PowerShell, path: 'C:\Users\CrRoot\AppData\Local\Temp\tmp7434.tmp\PowerShell'}
+  - {name: CrRoot, path: 'C:\Users\CrRoot'}
+  expanded: true
+recentlyUsed: ['C:\ProgramData\scoop\persist', 'C:\Users\CrRoot', 'B:\PF\chris', 'B:\PF\chris\autohotkey',
+  'B:\PF', 'B:\Users\chris', 'B:\PF\CSharpVisualStudio\repos', 'B:\PF\Modding', 'B:\PF\Modding\Diablo
+    II ressurected', 'B:\PF\RegionGotland', \\DESKTOP-FIQ183H\BLoppy\ToGit\scoopbucket-1,
+  'B:\PF\Archive\ps1', 'C:\Users\CrRoot\AppData\Local\Temp\tmp7434.tmp\PowerShell',
+  'B:\PF\PowerShell', 'B:\PF\PowershellProjectFolder', 'B:\PF\scoopbucket-1', 'C:\ProgramData\scoop\buckets',
+  'B:\PF\scoopbucket-presist', 'B:\GitPs1Module', 'B:\ToGit\IoT\TIG-stack', 'B:\ToGit\IoT',
+  'B:\PF\NewWindows3', 'B:\PF\NewWindows2', 'B:\PF\Archive', 'B:\Filtered', 'B:\Users\chris\Documents',
+  'B:\New folder (2)\General-ProjectFolders', 'B:\ToGit', \\Sabrina\b\ToGit\Ny mapp\projectFolderBare,
+  'G:\ToGit\projectFolderBare\scoopbucket-presist', 'G:\ToGit', 'B:\ToGit\SubmoduleFromGitmodules',
+  'B:\SteamLibrary\steamapps', 'I:\Downloads\2022\assorted']
+>>>>>>> 383186bd19 (state)
