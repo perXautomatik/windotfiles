@@ -2,7 +2,6 @@
 	path = .config/powershell
 	url = https://github.com/perXautomatik/Powershell-Profile
 [submodule "AHK"]
-	path = AHK
 	url = https://github.com/perXautomatik/AHK-EverydayScripts
 path = autohotkey
 [submodule "AdvancedRenamer"]
