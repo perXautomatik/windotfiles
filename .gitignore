@@ -1,62 +1,72 @@
-*.bak
 *.*.bak
-LOG
-vscodium\data\extensions\pycom.pymakr-preview-2.25.2\src\terminal\bin\client-macos
-vscodium\data\extensions\pycom.pymakr-preview-2.25.2\src\terminal\bin
-vscodium/data/extensions/pycom.pymakr-preview-2.25.2/src/terminal/bin
-vscodium/data/user-data/Cache/Cache_Data
-SmartGit/.settings/logs
-snappy-driver-installer-origin/logs
+*.~
+*.~*
+*.~yml
+*.0-win32-x64
+*.7z
+*.bak
+*.db
+*.dll
+*.exe
+*.gif
+*.lock
+*.png
+*.postlock
+*.prelock
+*.pyc
+*.pyi
+*.rb
+*.rdoc
+*.ri
+*.sqlite
+*.txt.0
+*.vscdb
+*.vscdb.backup
+*.zip
+__init__.py
+_lock_
 beeftext/Data/Backup
+cache
+Cache
+Cache_Data
+CachedData
+CachedExtensionVSIXs
+CachedProfilesData
+CacheStorage
+Code Cache
+DawnCache
+doc
 flow-launcher/UserData/Cache
 flow-launcher/UserData/Environments/Python/PythonEmbeddable-v3.8.9
 flow-launcher/UserData/Logs/1.15.0
+flow-launcher/UserData/Plugins
+GPUCache
+gravatar-cache
+LICENSE
+Local Storage/leveldb
+LOCK
+LOG
+LOG.old
+MANIFEST-000001
+nodejs/bin/node_modules/git-pull-all
 nodejs/cache
+obsolete
 python/Lib/site-packages
-*.exe
+REQUESTED
 ruby/gems/bin
-ruby/gems/cache
+ruby/gems/doc/rake-13.0.6/ri
+ScriptCache
+Service Worker/Database
+SmartGit/.settings/logs
 snappy-driver-installer-origin/indexes/SDI
+snappy-driver-installer-origin/logs
 snappy-driver-installer-origin/update/SDIO_Update/tools/SDI/langs
+sophiapp/Logs
+the-real-index
 vscodium/data/extensions
 vscodium/data/user-data/Backups
-vscodium/data/user-data/CachedData/e06ea6147733c975d26c3d3552462681e05cb147
-vscodium/data/user-data/CachedExtensionVSIXs
-vscodium/data/user-data/CachedProfilesData/__default__profile__
-vscodium/data/user-data/Service Worker/CacheStorage/2a08e05dd8317823ff0c8e25274646c6fdffd494/33422d09-81e0-4dab-9210-13edb0bc97e0
-vscodium/data/user-data/DawnCache
-vscodium/data/user-data/GPUCache
-*.png
-vscodium/data/user-data/Service Worker/CacheStorage/a7d8bed39f467f956fcc1418b01cf3e4d7b08889/e27a8c64-d16a-4d43-9514-9d1ca2e339ba
-*.vscdb.backup
-vscodium/data/user-data/Service Worker/CacheStorage/7fb96837ad2fd80737ebd228516bc7f344d87939/b1d5eced-76a0-4385-a6c7-67a4b90f0acb
-vscodium/data/user-data/Service Worker/CacheStorage/c1e1b3df3d0d989c64c61b899f531ab7d2a18b8b/96dc4d1a-997e-444c-be7b-61b02a1453cd
-*.gif
-*.txt.0
-sophiapp/Logs
-*.rdoc
-*.vscdb
-*.sqlite
-*.db
-vscodium/data/user-data/Service Worker/ScriptCache
-vscodium/data/user-data/Service Worker/CacheStorage/6e486b7685d2db59328fcb8f71d88884d7bcb1ec/c8cd325e-007d-4ee1-b389-6ab5b91a2531
-ruby/gems/gems/rake-13.0.6/doc
-*.rb
-SmartGit/.settings/gravatar-cache
-flow-launcher/UserData/Plugins/Window Walker-2.2.2
-*.7z
-*.dll
-LOCK
-*.~
-MANIFEST-000001
-the-real-index
-*.ri
-*.pyi
-LICENSE
-*.pyc
-__init__.py
-*.~yml
-*.lock
-_lock_
-*.postlock
-*.prelock
+vscodium/data/user-data/Network
+vscodium/data/user-data/Session Storage
+vscodium/data/user-data/WebStorage
+vscodium\data\extensions\pycom.pymakr-preview-2.25.2\src\terminal\bin
+vscodium\data\extensions\pycom.pymakr-preview-2.25.2\src\terminal\bin\client-macos

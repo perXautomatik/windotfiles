@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "B:/PF/IoT"
+		},
+		{
+			"path": "B:/Unsorted/ToGit/IoT"
+		}
+	],
+	"settings": {
+		"powershell.cwd": "b:\\PF\\Archive\\ps1"
+	}
+}

@@ -331,9 +331,9 @@
             "description": "",
             "enabled": true,
             "group": "{6b2a733e-8c8b-4974-83ea-b133926dc39b}",
-            "keyword": "psudopowershell",
+            "keyword": "pseudops",
             "matchingMode": 0,
-            "modificationDateTime": "2023-07-04T09:09:08.736",
+            "modificationDateTime": "2023-07-06T23:44:58.410",
             "name": "rewrite pseudo",
             "snippet": "rewrite this pseudocode into powershell functions with synopsis, with parameter validations and error checking ; #{clipboard}",
             "uuid": "{6474ec34-92d9-4df4-9308-53a8981de919}"
@@ -389,6 +389,19 @@
             "name": "function",
             "snippet": "function ()\n{\nparam()\n#{clipboard}\n}",
             "uuid": "{5a74569d-2a35-49ea-8553-3f584ee0b409}"
+        },
+        {
+            "caseSensitivity": 0,
+            "creationDateTime": "2023-07-07T01:00:05.425",
+            "description": "",
+            "enabled": true,
+            "group": "{6b2a733e-8c8b-4974-83ea-b133926dc39b}",
+            "keyword": "hashtags",
+            "matchingMode": 0,
+            "modificationDateTime": "2023-07-07T01:00:26.451",
+            "name": "20 hashtags",
+            "snippet": "can you suggest me up to 20 suitable hashtags for the answere you got",
+            "uuid": "{2469f569-93bd-42db-958c-2f53223cb99d}"
         }
     ],
     "fileFormatVersion": 10,

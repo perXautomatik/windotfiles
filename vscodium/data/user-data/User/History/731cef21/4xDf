@@ -1,0 +1,29 @@
+Remove memory for Splash2
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# Date:      Sat Jul 29 15:01:41 2023 +0200
+#
+# On branch diablo-ii-resurrectedb
+# Changes to be committed:
+	new file:   solitary
+#
+# Changes not staged for commit:
+#	modified:   D2RMM (untracked content)
+#	modified:   Display Item levels (modified content, untracked content)
+#	modified:   LuckyUniques (untracked content)
+#	modified:   colours (untracked content)
+#	modified:   magicpot (untracked content)
+#	modified:   mercenaries6 (modified content)
+#	modified:   newitems2 (untracked content)
+#	modified:   run98 (modified content)
+#	modified:   solitary (modified content)
+#	modified:   stashtabs (untracked content)
+#	modified:   superuniques (untracked content)
+#
+# Submodule changes to be committed:
+#
+# * solitary 0000000...76525e4 (3):
+#   > etc
+#

@@ -1,0 +1,73 @@
+
+  <#
+  .SYNOPSIS
+  A function to get chunks of paths for trid based on a chunk size and a wildcard match criteria.
+  
+  .DESCRIPTION
+  This function takes an array of paths and a chunk size as parameters and returns an array of chunks of paths for trid. It groups the paths by their parent paths and creates chunks based on the chunk size and the wildcard match criteria. If there are no other files in the group that would be matched by the prefix wildcard, it uses the prefix wildcard as the path for trid. Otherwise, it uses each individual path in the chunk as separate paths for trid.
+  
+  .PARAMETER Paths
+  The array of paths to be chunked.
+  
+  .PARAMETER ChunkSize
+  The maximum number of paths in a chunk for trid.
+  
+  .EXAMPLE
+  Get-TridChunks -Paths @("C:\foo\bar1.txt", "C:\foo\bar2.txt", "C:\foo\baz1.txt", "C:\foo\baz2.txt") -ChunkSize 2
+  
+  This will return an array of @("C:\foo\bar*", "C:\foo\baz*").
+  #>
+  function Get-TridChunks {
+    [CmdletBinding()]
+    param(
+      [Parameter(Mandatory = $true)]
+      [string[]]$Paths,
+      [Parameter(Mandatory = $true)]
+      [ValidateRange(1, 100)]
+      [int]$ChunkSize
+    )
+  
+    # Create an array to store the chunks of paths for trid
+    $chunks = @()
+  
+    # Loop through the paths and group them by their parent paths
+    $groups = $Paths | Group-Object -Property {Split-Path -Path $_ -Parent}
+  
+    # Loop through each group and create chunks of paths based on the chunk size and the wildcard match criteria
+    foreach ($group in $groups) {
+      # Get the parent path of the group
+      $parentPath = $group.Name
+  
+      # Get the number of files in the group
+      $count = $group.Count
+  
+      # Calculate the number of chunks needed for the group based on the chunk size
+      $numChunks = [Math]::Ceiling($count / $ChunkSize)
+  
+      # Loop through each chunk and create a wildcard path for trid
+      for ($i = 0; $i -lt $numChunks; $i++) {
+        # Get the start index and the length of the chunk
+        $startIndex = $i * $ChunkSize
+        $length = [Math]::Min($ChunkSize, $count - $startIndex)
+  
+        # Get the chunk of paths from the group
+        $chunk = $group.Group[$startIndex..($startIndex + $length - 1)]
+  
+        # Get the common prefix of the file names in the chunk
+        $prefix = [System.IO.Path]::GetCommonPrefix($chunk | Split-Path -Leaf)
+  
+        # Check if there are any other files in the group that would be matched by the prefix wildcard
+        $otherFiles = $group.Group | Where-Object {$_ -like "$parentPath\$prefix*"} | Where-Object {$chunk -notcontains $_}
+  
+        # If there are no other files, use the prefix wildcard as the path for trid
+        if (-not $otherFiles) {
+          $chunks += "$parentPath\$prefix*"
+        }
+        else {
+          # Otherwise, use each individual path in the chunk as separate paths for trid
+          foreach ($path in $chunk) {
+            $chunks += "$path"
+          }
+        }
+    }
+}  

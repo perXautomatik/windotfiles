@@ -1,0 +1,5 @@
+providers:
+- {account: perXautomatik, password: 8, tokenScopes: 'gist,read:org,repo,user,workflow',
+  name: github.com, createUpstreamRemote: true, useSshUrl: false, useOAuthRepositoryAuthentication: true,
+  providerId: github}
+fingerprint: []

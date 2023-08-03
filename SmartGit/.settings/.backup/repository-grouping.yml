@@ -1,0 +1,67 @@
+structure:
+- name: B:\
+  children:
+  - {name: B-ToGit, path: 'B:\ToGit'}
+  - name: chris
+    children:
+    - {name: Documents, path: 'B:\Users\chris\Documents'}
+    - {name: chris, path: 'B:\Users\chris'}
+    expanded: true
+  - name: SteamLibrary
+    children:
+    - {name: steamapps, path: 'B:\SteamLibrary\steamapps'}
+    - {name: SubmoduleFromGitmodules, path: 'B:\ToGit\SubmoduleFromGitmodules'}
+    - {name: General-ProjectFolders, path: 'B:\New folder (2)\General-ProjectFolders'}
+    - {name: PF, path: 'B:\PF'}
+    - {name: IoT, path: 'B:\ToGit\IoT'}
+    - {name: scoopbucket-1, path: \\DESKTOP-FIQ183H\BLoppy\ToGit\scoopbucket-1}
+    - {name: Archive, path: 'B:\PF\Archive'}
+    - {name: Filtered, path: 'B:\Filtered'}
+    - {name: NewWindows2, path: 'B:\PF\NewWindows2'}
+    - {name: NewWindows3, path: 'B:\PF\NewWindows3'}
+    - {name: TIG-stack, path: 'B:\ToGit\IoT\TIG-stack'}
+    - {name: RegionGotland, path: 'B:\PF\RegionGotland'}
+    - {name: Modding, path: 'B:\PF\Modding'}
+    - {name: diablo-ii-resurrectedb, path: 'B:\PF\Modding\Diablo II ressurected\modding.worktrees\diablo-ii-resurrectedb'}
+    - {name: Diablo II ressurected, path: 'B:\PF\Modding\Diablo II ressurected'}
+    - {name: repos, path: 'B:\PF\CSharpVisualStudio\repos'}
+    - {name: InvalidMarkup, path: 'B:\PF\CSharpVisualStudio\repos\InvalidMarkup'}
+    - {name: PetStore, path: 'B:\PF\CSharpVisualStudio\repos\Boras2\PetStore'}
+    - {name: chris, path: 'B:\PF\chris'}
+    expanded: false
+  - {name: ToGit, path: 'G:\ToGit'}
+  - {name: scoopbucket-presist, path: 'G:\ToGit\projectFolderBare\scoopbucket-presist'}
+  - name: psw
+    children:
+    - {name: GitPs1Module, path: 'B:\GitPs1Module'}
+    - {name: ps1, path: 'B:\PF\Archive\ps1'}
+    - {name: PowerShell, path: 'B:\PF\PowerShell'}
+    - {name: PowershellProjectFolder, path: 'B:\PF\PowershellProjectFolder'}
+    expanded: true
+  expanded: true
+- name: I:\Downloads\2022
+  children:
+  - {name: assorted, path: 'I:\Downloads\2022\assorted'}
+  expanded: true
+- name: I:\ToGit
+  children: []
+  expanded: true
+- {name: loppy-projectFolderBare, path: \\Sabrina\b\ToGit\Ny mapp\projectFolderBare}
+- name: Scoop
+  children:
+  - {name: Deployed, path: 'C:\ProgramData\scoop\buckets'}
+  - {name: scoopbucket-1, path: 'B:\PF\scoopbucket-1'}
+  - {name: scoopbucket-presist, path: 'B:\PF\scoopbucket-presist'}
+  - {name: Deployed-persist, path: 'C:\ProgramData\scoop\persist'}
+  - {name: PowerShell, path: 'C:\Users\CrRoot\AppData\Local\Temp\tmp7434.tmp\PowerShell'}
+  - {name: CrRoot, path: 'C:\Users\CrRoot'}
+  expanded: true
+recentlyUsed: ['C:\Users\CrRoot', 'B:\PF', 'B:\Users\chris', 'B:\PF\chris', 'B:\PF\CSharpVisualStudio\repos',
+  'B:\PF\Modding', 'B:\PF\Modding\Diablo II ressurected', 'B:\PF\RegionGotland', \\DESKTOP-FIQ183H\BLoppy\ToGit\scoopbucket-1,
+  'B:\PF\Archive\ps1', 'C:\Users\CrRoot\AppData\Local\Temp\tmp7434.tmp\PowerShell',
+  'B:\PF\PowerShell', 'B:\PF\PowershellProjectFolder', 'B:\PF\scoopbucket-1', 'C:\ProgramData\scoop\buckets',
+  'C:\ProgramData\scoop\persist', 'B:\PF\scoopbucket-presist', 'B:\GitPs1Module',
+  'B:\ToGit\IoT\TIG-stack', 'B:\ToGit\IoT', 'B:\PF\NewWindows3', 'B:\PF\NewWindows2',
+  'B:\PF\Archive', 'B:\Filtered', 'B:\Users\chris\Documents', 'B:\New folder (2)\General-ProjectFolders',
+  'B:\ToGit', \\Sabrina\b\ToGit\Ny mapp\projectFolderBare, 'G:\ToGit\projectFolderBare\scoopbucket-presist',
+  'G:\ToGit', 'B:\ToGit\SubmoduleFromGitmodules', 'B:\SteamLibrary\steamapps', 'I:\Downloads\2022\assorted']

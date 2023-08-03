@@ -1,0 +1,20 @@
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch master
+# Your branch and 'origin/master' have diverged,
+# and have 103 and 2 different commits each, respectively.
+#   (use "git pull" to merge the remote branch into yours)
+#
+# Changes to be committed:
+#	new file:   .git.~
+#
+# Changes not staged for commit:
+#	modified:   PowerShell.code-workspace
+#	modified:   git/repair/submodule/add_submodule (untracked content)
+#	modified:   workflow/CsharpI (untracked content)
+#
+# Untracked files:
+#	git/subtree/NewBranchPerFile.ps1
+#	tmp9569.git/
+#

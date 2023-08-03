@@ -1,0 +1,35 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"name": "GeneralSourceCompare",
+			"path": "D:\\Documents\\WindowsPowerShell\\Scripts"
+		},
+		{
+			"path": "../Archive/ps1"
+		}
+	],
+	"settings": {
+		"powershell.cwd": "b:\\PF\\PowerShell-Scripts"
+	},
+	"extensions": {
+		"recommendations": [
+			"ogranny.md-template",
+			"spmeesseman.vscode-taskexplorer",
+			"robole.snippets-ranger",
+			"ms-dotnettools.dotnet-interactive-vscode",
+			"bmuskalla.vscode-tldr",
+			"formulahendry.code-runner",
+			"rechinformatica.rech-editor-batch",
+			"ironmansoftware.powershell-universal",
+			"usernamehw.errorlens",
+			"mhutchie.git-graph",
+			"vsls-contrib.gistfs",
+			"pod212.vscode-github-projects",
+			"qualiu.vscode-msr",
+			"ypresto.vscode-intelli-refactor"
+		]
+	}
+}

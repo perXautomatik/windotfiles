@@ -1115,58 +1115,6 @@
     {
       "Query": "\u0026 re",
       "ExecutedDateTime": "2023-07-26T21:54:37.2550009+02:00"
-    },
-    {
-      "Query": "\u0026 ch",
-      "ExecutedDateTime": "2023-07-27T11:10:11.2371362+02:00"
-    },
-    {
-      "Query": "vs",
-      "ExecutedDateTime": "2023-07-27T11:14:03.3819321+02:00"
-    },
-    {
-      "Query": "\u0026 ditt",
-      "ExecutedDateTime": "2023-07-28T16:53:18.7428735+02:00"
-    },
-    {
-      "Query": "\u0026 dupe",
-      "ExecutedDateTime": "2023-07-28T21:06:37.5551979+02:00"
-    },
-    {
-      "Query": "\u0026 proc",
-      "ExecutedDateTime": "2023-07-28T21:12:28.7942241+02:00"
-    },
-    {
-      "Query": "\u0026 pws",
-      "ExecutedDateTime": "2023-07-29T11:56:12.4389572+02:00"
-    },
-    {
-      "Query": "\u0026 psp",
-      "ExecutedDateTime": "2023-07-29T12:08:43.160548+02:00"
-    },
-    {
-      "Query": "\u0026 smart",
-      "ExecutedDateTime": "2023-07-30T14:09:25.1575786+02:00"
-    },
-    {
-      "Query": "\u0026 pws",
-      "ExecutedDateTime": "2023-07-31T16:11:18.9753935+02:00"
-    },
-    {
-      "Query": "vs",
-      "ExecutedDateTime": "2023-07-31T17:24:44.3972404+02:00"
-    },
-    {
-      "Query": "\u0026 dupe",
-      "ExecutedDateTime": "2023-08-01T14:12:59.4985498+02:00"
-    },
-    {
-      "Query": "\u0026 psp",
-      "ExecutedDateTime": "2023-08-01T15:21:20.7899934+02:00"
-    },
-    {
-      "Query": "vs",
-      "ExecutedDateTime": "2023-08-03T11:57:17.3443015+02:00"
     }
   ]
 }
