@@ -10,6 +10,7 @@ gitRootSettingsSet:
     commitNotes: {}
     journal: {}
 <<<<<<< HEAD
+<<<<<<< HEAD
   roots: ['B:\PF\scoopbucket-1', 'B:\PF\scoopbucket-1\Scripts\AllowAccessWindowsDefender',
     'B:\PF\scoopbucket-1\Scripts\Export-Inst-Choco', 'B:\PF\scoopbucket-1\Scripts\GetInstalled',
     'B:\PF\scoopbucket-1\Scripts\TakeOwnerShip', 'B:\PF\scoopbucket-1\Scripts\powershellAliasesUserProfile',
@@ -36,6 +37,8 @@ gitRootSettingsSet:
     'B:\PF\scoopbucket-presist\Datagrip\DataGrip2021.1', 'B:\PF\scoopbucket-presist\Datagrip\datagrip2019.4',
     'B:\PF\scoopbucket-presist\AdvancedRenamer', 'C:\ProgramData\scoop\persist', 'C:\ProgramData\scoop\persist\everything']
 =======
+=======
+>>>>>>> 383186bd19 (state)
   roots: ['B:\PF', 'B:\PF\AhkProjectFolder', 'B:\PF\Archive', 'B:\PF\CSharpVisualStudio',
     'B:\PF\Cv -Project', 'B:\PF\ForksDownloadedCode\boxsocial', 'B:\PF\ForksDownloadedCode\gmaster_tour',
     'B:\PF\ForksDownloadedCode\google-photos-delete-tool', 'B:\PF\GitPs1Module', 'B:\PF\chris',
@@ -57,6 +60,9 @@ gitRootSettingsSet:
       Item In Explorer', 'B:\PF\chris\autohotkey\script\fork\SelectedTextWithoutDisturbingClipboard',
     'B:\PF\chris\autohotkey\script\fork\WindowToforeground', ~, ~\AppData, 'C:\ProgramData\scoop\persist',
     'C:\ProgramData\scoop\persist\Everything-Paf']
+<<<<<<< HEAD
+>>>>>>> 383186bd19 (state)
+=======
 >>>>>>> 383186bd19 (state)
   rootB:\ToGit:
     databaseCleanup: {}
@@ -5037,7 +5043,11 @@ gitRootSettingsSet:
     journal: {}
   rootC:\ProgramData\scoop\buckets:
 <<<<<<< HEAD
+<<<<<<< HEAD
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1687696494416}
+=======
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1689512819577}
+>>>>>>> 383186bd19 (state)
 =======
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1689512819577}
 >>>>>>> 383186bd19 (state)
@@ -5052,7 +5062,11 @@ gitRootSettingsSet:
     journal: {}
   rootC:\ProgramData\scoop\buckets\extras:
 <<<<<<< HEAD
+<<<<<<< HEAD
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1687696494291}
+=======
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1689512819685}
+>>>>>>> 383186bd19 (state)
 =======
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1689512819685}
 >>>>>>> 383186bd19 (state)
@@ -5066,7 +5080,11 @@ gitRootSettingsSet:
     journal: {}
   rootC:\ProgramData\scoop\buckets\games:
 <<<<<<< HEAD
+<<<<<<< HEAD
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1687696494484}
+=======
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1689512819846}
+>>>>>>> 383186bd19 (state)
 =======
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1689512819846}
 >>>>>>> 383186bd19 (state)
@@ -5080,7 +5098,11 @@ gitRootSettingsSet:
     journal: {}
   rootC:\ProgramData\scoop\buckets\main:
 <<<<<<< HEAD
+<<<<<<< HEAD
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1687696494224}
+=======
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1689512819431}
+>>>>>>> 383186bd19 (state)
 =======
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1689512819431}
 >>>>>>> 383186bd19 (state)
@@ -5094,7 +5116,11 @@ gitRootSettingsSet:
     journal: {}
   rootC:\ProgramData\scoop\buckets\nonportable:
 <<<<<<< HEAD
+<<<<<<< HEAD
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1687696494378}
+=======
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1689512819541}
+>>>>>>> 383186bd19 (state)
 =======
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1689512819541}
 >>>>>>> 383186bd19 (state)
@@ -5729,7 +5755,11 @@ gitRootSettingsSet:
     journal: {}
   rootB:\PF:
 <<<<<<< HEAD
+<<<<<<< HEAD
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1687611990702}
+=======
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690888437533}
+>>>>>>> 383186bd19 (state)
 =======
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690888437533}
 >>>>>>> 383186bd19 (state)
@@ -5741,6 +5771,7 @@ gitRootSettingsSet:
       logRootSettings: {}
     push: {}
     commitNotes:
+<<<<<<< HEAD
 <<<<<<< HEAD
       commitNotesHistory:
       - |
@@ -5756,6 +5787,8 @@ gitRootSettingsSet:
       rootSettings: {baseRoots: "!remote://origin\tref://HEAD\tref://refs/heads/master",
         extendedRoots: ''}
 =======
+=======
+>>>>>>> 383186bd19 (state)
       commitNotesHistory: [separate repo, etc, toread, toRead, ToRead, evernote, ryc,
         state, etdx]
     journal: {}
@@ -5764,6 +5797,9 @@ gitRootSettingsSet:
     log:
       rootSettings: {baseRoots: "!local-tags://\t!remote://origin\t!others://\t!remote://poshGist\t\
           ref://HEAD\tref://refs/heads/master", extendedRoots: ''}
+<<<<<<< HEAD
+>>>>>>> 383186bd19 (state)
+=======
 >>>>>>> 383186bd19 (state)
       fileFilterConfiguration: {}
     merge:
@@ -5771,12 +5807,15 @@ gitRootSettingsSet:
     push: {}
     commitNotes:
 <<<<<<< HEAD
+<<<<<<< HEAD
       commitNotesHistory: [gpt, Rewriting with gpt, Reorganized, Rewritten with GPT,
         reorganized, included bcompare script, FROM REGULAR REPO, etc, new features]
     journal: {}
   rootB:\PF\CSharpVisualStudio\repos:
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1687890283163}
 =======
+=======
+>>>>>>> 383186bd19 (state)
       commitNotesHistory:
       - etc
       - |-
@@ -5794,6 +5833,9 @@ gitRootSettingsSet:
     journal: {}
   rootB:\PF\CSharpVisualStudio\repos:
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690888402135}
+<<<<<<< HEAD
+>>>>>>> 383186bd19 (state)
+=======
 >>>>>>> 383186bd19 (state)
     log:
       rootSettings: {}
@@ -5802,16 +5844,22 @@ gitRootSettingsSet:
       logRootSettings: {}
     push: {}
 <<<<<<< HEAD
+<<<<<<< HEAD
     commitNotes: {}
     journal: {}
   rootB:\PF\NewWindows:
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1687611588861}
 =======
+=======
+>>>>>>> 383186bd19 (state)
     commitNotes:
       commitNotesHistory: [Moved into repos repo, etc]
     journal: {}
   rootB:\PF\NewWindows:
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690888402603}
+<<<<<<< HEAD
+>>>>>>> 383186bd19 (state)
+=======
 >>>>>>> 383186bd19 (state)
     log:
       rootSettings: {}
@@ -5823,7 +5871,11 @@ gitRootSettingsSet:
     journal: {}
   rootB:\PF\PowerShell:
 <<<<<<< HEAD
+<<<<<<< HEAD
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1688390896744}
+=======
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690390572488}
+>>>>>>> 383186bd19 (state)
 =======
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690390572488}
 >>>>>>> 383186bd19 (state)
@@ -5836,6 +5888,7 @@ gitRootSettingsSet:
     push: {}
     commitNotes:
 <<<<<<< HEAD
+<<<<<<< HEAD
       commitNotesHistory: [ToVerify - Removed Dupes, Further renaming, ToVerify, Reorganized,
         stage, 'somewhat funcitonal. need to distinguish functions, maybe worth comparing
           with the original tokenization script', personal utilization of GPT generated
@@ -5844,6 +5897,8 @@ gitRootSettingsSet:
   rootB:\PF\VisualStudio\213c939651e0bef7612b2f910909a21d:
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1687295977247}
 =======
+=======
+>>>>>>> 383186bd19 (state)
       commitNotesHistory:
       - etc
       - "is submodlue\n\n# Conflicts:\n#\t.gitmodules\n#\tWindowsAdmin/forked-sysadmin/Add-LocalAdmin.ps1\n\
@@ -6001,6 +6056,9 @@ gitRootSettingsSet:
     journal: {}
   rootB:\PF\VisualStudio\213c939651e0bef7612b2f910909a21d:
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690336171477}
+<<<<<<< HEAD
+>>>>>>> 383186bd19 (state)
+=======
 >>>>>>> 383186bd19 (state)
     log:
       rootSettings: {}
@@ -6012,7 +6070,11 @@ gitRootSettingsSet:
     journal: {}
   rootB:\PF\VisualStudio\3714794:
 <<<<<<< HEAD
+<<<<<<< HEAD
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1687295977158}
+=======
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690336176464}
+>>>>>>> 383186bd19 (state)
 =======
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690336176464}
 >>>>>>> 383186bd19 (state)
@@ -6026,7 +6088,11 @@ gitRootSettingsSet:
     journal: {}
   rootB:\PF\VisualStudio\7327483:
 <<<<<<< HEAD
+<<<<<<< HEAD
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1687295977203}
+=======
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690336180575}
+>>>>>>> 383186bd19 (state)
 =======
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690336180575}
 >>>>>>> 383186bd19 (state)
@@ -6040,7 +6106,11 @@ gitRootSettingsSet:
     journal: {}
   rootB:\PF\VisualStudio\8691414\WpfApp1:
 <<<<<<< HEAD
+<<<<<<< HEAD
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1687895104114}
+=======
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690226749676}
+>>>>>>> 383186bd19 (state)
 =======
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690226749676}
 >>>>>>> 383186bd19 (state)
@@ -6055,7 +6125,11 @@ gitRootSettingsSet:
     journal: {}
   rootB:\PF\scoopbucket-1:
 <<<<<<< HEAD
+<<<<<<< HEAD
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1688390813359}
+=======
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690723808426}
+>>>>>>> 383186bd19 (state)
 =======
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690723808426}
 >>>>>>> 383186bd19 (state)
@@ -6079,14 +6153,20 @@ gitRootSettingsSet:
     journal: {}
   rootB:\PF\scoopbucket-presist:
 <<<<<<< HEAD
+<<<<<<< HEAD
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1688453930021}
     log:
       rootSettings: {}
 =======
+=======
+>>>>>>> 383186bd19 (state)
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1689085938099}
     log:
       rootSettings: {baseRoots: "!local-branches://\t!remote://origin\t!others://\t\
           ref://HEAD", extendedRoots: '!stashes://'}
+<<<<<<< HEAD
+>>>>>>> 383186bd19 (state)
+=======
 >>>>>>> 383186bd19 (state)
       fileFilterConfiguration: {}
     merge:
@@ -6094,12 +6174,15 @@ gitRootSettingsSet:
     push: {}
     commitNotes:
 <<<<<<< HEAD
+<<<<<<< HEAD
       commitNotesHistory: [Vscodium instead of code, etc, submodules added, toread,
         toVerify]
     journal: {}
   rootB:\PF\xgit\SparseCheckout\test-git-partial-clone-big-small:
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1687895104161}
 =======
+=======
+>>>>>>> 383186bd19 (state)
       commitNotesHistory:
       - etdx
       - etx
@@ -6113,6 +6196,9 @@ gitRootSettingsSet:
     journal: {}
   rootB:\PF\xgit\SparseCheckout\test-git-partial-clone-big-small:
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690226836834}
+<<<<<<< HEAD
+>>>>>>> 383186bd19 (state)
+=======
 >>>>>>> 383186bd19 (state)
     log:
       rootSettings: {}
@@ -6125,7 +6211,11 @@ gitRootSettingsSet:
     journal: {}
   rootB:\PF\CSharpVisualStudio\repos\DataBindingDemo:
 <<<<<<< HEAD
+<<<<<<< HEAD
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1687890283330}
+=======
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690893373795}
+>>>>>>> 383186bd19 (state)
 =======
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690893373795}
 >>>>>>> 383186bd19 (state)
@@ -6139,7 +6229,11 @@ gitRootSettingsSet:
     journal: {}
   rootB:\PF\CSharpVisualStudio\repos\DataBindingDemoSparse:
 <<<<<<< HEAD
+<<<<<<< HEAD
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1687890283443}
+=======
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690893373731}
+>>>>>>> 383186bd19 (state)
 =======
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690893373731}
 >>>>>>> 383186bd19 (state)
@@ -6153,7 +6247,11 @@ gitRootSettingsSet:
     journal: {}
   rootB:\PF\CSharpVisualStudio\repos\WPF-Samples:
 <<<<<<< HEAD
+<<<<<<< HEAD
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1687890283388}
+=======
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690893374039}
+>>>>>>> 383186bd19 (state)
 =======
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690893374039}
 >>>>>>> 383186bd19 (state)
@@ -6167,7 +6265,11 @@ gitRootSettingsSet:
     journal: {}
   rootB:\PF\CSharpVisualStudio\repos\borås\upgift1:
 <<<<<<< HEAD
+<<<<<<< HEAD
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1687895103963}
+=======
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690893373659}
+>>>>>>> 383186bd19 (state)
 =======
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690893373659}
 >>>>>>> 383186bd19 (state)
@@ -6181,7 +6283,11 @@ gitRootSettingsSet:
     journal: {}
   rootB:\PF\CSharpVisualStudio\repos\upg11:
 <<<<<<< HEAD
+<<<<<<< HEAD
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1687895104066}
+=======
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690893373892}
+>>>>>>> 383186bd19 (state)
 =======
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690893373892}
 >>>>>>> 383186bd19 (state)
@@ -6286,7 +6392,11 @@ gitRootSettingsSet:
     journal: {}
   rootB:\PF\scoopbucket-presist\AppData:
 <<<<<<< HEAD
+<<<<<<< HEAD
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1687891448202}
+=======
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690221097233}
+>>>>>>> 383186bd19 (state)
 =======
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690221097233}
 >>>>>>> 383186bd19 (state)
@@ -6418,7 +6528,11 @@ gitRootSettingsSet:
     journal: {}
   rootB:\PF\scoopbucket-presist\Powershell:
 <<<<<<< HEAD
+<<<<<<< HEAD
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1685972422459}
+=======
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1689085942349}
+>>>>>>> 383186bd19 (state)
 =======
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1689085942349}
 >>>>>>> 383186bd19 (state)
@@ -6675,7 +6789,11 @@ gitRootSettingsSet:
     journal: {}
   rootB:\PF\chris:
 <<<<<<< HEAD
+<<<<<<< HEAD
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1687611969487}
+=======
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1688564063717}
+>>>>>>> 383186bd19 (state)
 =======
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1688564063717}
 >>>>>>> 383186bd19 (state)
@@ -6687,7 +6805,12 @@ gitRootSettingsSet:
     push: {}
     commitNotes:
 <<<<<<< HEAD
+<<<<<<< HEAD
       commitNotesHistory: [ToRead, yp, etc, removed dupes]
+=======
+      commitNotesHistory: [taste, As submodule, state, etc, etdx, etx, ryv, ToRead,
+        yp]
+>>>>>>> 383186bd19 (state)
 =======
       commitNotesHistory: [taste, As submodule, state, etc, etdx, etx, ryv, ToRead,
         yp]
@@ -6705,7 +6828,11 @@ gitRootSettingsSet:
     journal: {}
   rootB:\PF\scoopbucket-1\Scripts\AllowAccessWindowsDefender:
 <<<<<<< HEAD
+<<<<<<< HEAD
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1687972148832}
+=======
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1689172935094}
+>>>>>>> 383186bd19 (state)
 =======
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1689172935094}
 >>>>>>> 383186bd19 (state)
@@ -6719,7 +6846,11 @@ gitRootSettingsSet:
     journal: {}
   rootB:\PF\scoopbucket-1\Scripts\Export-Inst-Choco:
 <<<<<<< HEAD
+<<<<<<< HEAD
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1687972148919}
+=======
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1689172935047}
+>>>>>>> 383186bd19 (state)
 =======
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1689172935047}
 >>>>>>> 383186bd19 (state)
@@ -6733,7 +6864,11 @@ gitRootSettingsSet:
     journal: {}
   rootB:\PF\scoopbucket-1\Scripts\GetInstalled:
 <<<<<<< HEAD
+<<<<<<< HEAD
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1687972148875}
+=======
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1689172935142}
+>>>>>>> 383186bd19 (state)
 =======
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1689172935142}
 >>>>>>> 383186bd19 (state)
@@ -6747,7 +6882,11 @@ gitRootSettingsSet:
     journal: {}
   rootB:\PF\scoopbucket-1\Scripts\TakeOwnerShip:
 <<<<<<< HEAD
+<<<<<<< HEAD
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1687972148787}
+=======
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1689172935238}
+>>>>>>> 383186bd19 (state)
 =======
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1689172935238}
 >>>>>>> 383186bd19 (state)
@@ -6761,7 +6900,11 @@ gitRootSettingsSet:
     journal: {}
   rootB:\PF\scoopbucket-1\Scripts\powershellAliasesUserProfile:
 <<<<<<< HEAD
+<<<<<<< HEAD
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1687965601743}
+=======
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1689172935190}
+>>>>>>> 383186bd19 (state)
 =======
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1689172935190}
 >>>>>>> 383186bd19 (state)
@@ -6775,7 +6918,11 @@ gitRootSettingsSet:
     journal: {}
   rootB:\PF\chris\AppData:
 <<<<<<< HEAD
+<<<<<<< HEAD
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1687612269624}
+=======
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690899679817}
+>>>>>>> 383186bd19 (state)
 =======
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690899679817}
 >>>>>>> 383186bd19 (state)
@@ -6787,15 +6934,21 @@ gitRootSettingsSet:
     push: {}
     commitNotes:
 <<<<<<< HEAD
+<<<<<<< HEAD
       commitNotesHistory: [etc, ToRead]
     journal: {}
   rootB:\PF\chris\scoop\apps\scoop\current:
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1686059977696}
 =======
+=======
+>>>>>>> 383186bd19 (state)
       commitNotesHistory: [etc, erec, ToRead]
     journal: {}
   rootB:\PF\chris\scoop\apps\scoop\current:
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690234545143}
+<<<<<<< HEAD
+>>>>>>> 383186bd19 (state)
+=======
 >>>>>>> 383186bd19 (state)
     log:
       rootSettings: {}
@@ -6807,7 +6960,11 @@ gitRootSettingsSet:
     journal: {}
   rootB:\PF\chris\AppData\Roaming\Scooter Software\Beyond Compare 4:
 <<<<<<< HEAD
+<<<<<<< HEAD
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1686060827907}
+=======
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690228936705}
+>>>>>>> 383186bd19 (state)
 =======
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690228936705}
 >>>>>>> 383186bd19 (state)
@@ -6832,7 +6989,11 @@ gitRootSettingsSet:
     journal: {}
   rootB:\PF\chris\AppData\Roaming\Everything:
 <<<<<<< HEAD
+<<<<<<< HEAD
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1686061121569}
+=======
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690228936575}
+>>>>>>> 383186bd19 (state)
 =======
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690228936575}
 >>>>>>> 383186bd19 (state)
@@ -6847,7 +7008,11 @@ gitRootSettingsSet:
     journal: {}
   rootB:\PF\chris\AppData\Roaming\JetBrains:
 <<<<<<< HEAD
+<<<<<<< HEAD
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1687328595593}
+=======
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690222009888}
+>>>>>>> 383186bd19 (state)
 =======
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690222009888}
 >>>>>>> 383186bd19 (state)
@@ -6889,14 +7054,20 @@ gitRootSettingsSet:
     journal: {}
   rootB:\PF\chris\AppData\Roaming\Vortex:
 <<<<<<< HEAD
+<<<<<<< HEAD
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1686066077479}
     log:
       rootSettings: {}
 =======
+=======
+>>>>>>> 383186bd19 (state)
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690228936628}
     log:
       rootSettings: {baseRoots: "!local-branches://\t!remote://origin\tref://HEAD",
         extendedRoots: ''}
+<<<<<<< HEAD
+>>>>>>> 383186bd19 (state)
+=======
 >>>>>>> 383186bd19 (state)
       fileFilterConfiguration: {}
     merge:
@@ -6904,7 +7075,11 @@ gitRootSettingsSet:
     push: {}
     commitNotes:
 <<<<<<< HEAD
+<<<<<<< HEAD
       commitNotesHistory: [appDataState]
+=======
+      commitNotesHistory: [appDataState, asd]
+>>>>>>> 383186bd19 (state)
 =======
       commitNotesHistory: [appDataState, asd]
 >>>>>>> 383186bd19 (state)
@@ -7032,7 +7207,11 @@ gitRootSettingsSet:
     journal: {}
   rootB:\PF\chris\AppData\Roaming\Vortex\fallout3\masterlist:
 <<<<<<< HEAD
+<<<<<<< HEAD
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1686067735615}
+=======
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690228972271}
+>>>>>>> 383186bd19 (state)
 =======
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690228972271}
 >>>>>>> 383186bd19 (state)
@@ -7046,7 +7225,11 @@ gitRootSettingsSet:
     journal: {}
   rootB:\PF\chris\AppData\Roaming\Vortex\fallout4\masterlist:
 <<<<<<< HEAD
+<<<<<<< HEAD
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1686067751457}
+=======
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690228979702}
+>>>>>>> 383186bd19 (state)
 =======
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690228979702}
 >>>>>>> 383186bd19 (state)
@@ -7060,7 +7243,11 @@ gitRootSettingsSet:
     journal: {}
   rootB:\PF\chris\AppData\Roaming\Vortex\falloutnv\masterlist:
 <<<<<<< HEAD
+<<<<<<< HEAD
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1686067776292}
+=======
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690228987106}
+>>>>>>> 383186bd19 (state)
 =======
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690228987106}
 >>>>>>> 383186bd19 (state)
@@ -7074,14 +7261,20 @@ gitRootSettingsSet:
     journal: {}
   rootB:\PF\chris\Documents:
 <<<<<<< HEAD
+<<<<<<< HEAD
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1687888875064}
     log:
       rootSettings: {}
 =======
+=======
+>>>>>>> 383186bd19 (state)
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690899833712}
     log:
       rootSettings: {baseRoots: "!local-branches://\t!remote://origin\tref://HEAD",
         extendedRoots: ''}
+<<<<<<< HEAD
+>>>>>>> 383186bd19 (state)
+=======
 >>>>>>> 383186bd19 (state)
       fileFilterConfiguration: {}
     merge:
@@ -7089,15 +7282,21 @@ gitRootSettingsSet:
     push: {}
     commitNotes:
 <<<<<<< HEAD
+<<<<<<< HEAD
       commitNotesHistory: [ToRead, cleared gitmoudules]
     journal: {}
   rootB:\PF\chris\Documents\PowerShell:
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1686123531732}
 =======
+=======
+>>>>>>> 383186bd19 (state)
       commitNotesHistory: [state, etc, cxz, ToRead, cleared gitmoudules]
     journal: {}
   rootB:\PF\chris\Documents\PowerShell:
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690220617429}
+<<<<<<< HEAD
+>>>>>>> 383186bd19 (state)
+=======
 >>>>>>> 383186bd19 (state)
     log:
       rootSettings: {}
@@ -7150,7 +7349,11 @@ gitRootSettingsSet:
     journal: {}
   rootB:\PF\VisualStudio\WPF-Samples:
 <<<<<<< HEAD
+<<<<<<< HEAD
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1687890283219}
+=======
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690220565456}
+>>>>>>> 383186bd19 (state)
 =======
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690220565456}
 >>>>>>> 383186bd19 (state)
@@ -7165,7 +7368,11 @@ gitRootSettingsSet:
     journal: {}
   rootB:\PF\VisualStudio\DataBindingDemo:
 <<<<<<< HEAD
+<<<<<<< HEAD
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1687890283273}
+=======
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690220565509}
+>>>>>>> 383186bd19 (state)
 =======
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690220565509}
 >>>>>>> 383186bd19 (state)
@@ -7179,7 +7386,11 @@ gitRootSettingsSet:
     journal: {}
   rootB:\PF\Pascal\Edit Scripts\FyTy:
 <<<<<<< HEAD
+<<<<<<< HEAD
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1687895103904}
+=======
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690390793856}
+>>>>>>> 383186bd19 (state)
 =======
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690390793856}
 >>>>>>> 383186bd19 (state)
@@ -7215,7 +7426,11 @@ gitRootSettingsSet:
     journal: {}
   rootB:\PF\Archive:
 <<<<<<< HEAD
+<<<<<<< HEAD
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1687791479576}
+=======
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690889952075}
+>>>>>>> 383186bd19 (state)
 =======
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690889952075}
 >>>>>>> 383186bd19 (state)
@@ -7229,7 +7444,11 @@ gitRootSettingsSet:
     journal: {}
   rootB:\PF\SqlNoteBook\10pairs-Of-Folders-WithMostFilesIncommon:
 <<<<<<< HEAD
+<<<<<<< HEAD
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1687895104015}
+=======
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690390573541}
+>>>>>>> 383186bd19 (state)
 =======
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690390573541}
 >>>>>>> 383186bd19 (state)
@@ -7274,7 +7493,11 @@ gitRootSettingsSet:
     journal: {}
   rootC:\ProgramData\scoop\buckets\anderlli0053_DEV-tools:
 <<<<<<< HEAD
+<<<<<<< HEAD
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1687696503464}
+=======
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1689512819290}
+>>>>>>> 383186bd19 (state)
 =======
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1689512819290}
 >>>>>>> 383186bd19 (state)
@@ -7722,7 +7945,11 @@ gitRootSettingsSet:
     journal: {}
   rootB:\PF\gists:
 <<<<<<< HEAD
+<<<<<<< HEAD
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1687888875939}
+=======
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690889952966}
+>>>>>>> 383186bd19 (state)
 =======
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690889952966}
 >>>>>>> 383186bd19 (state)
@@ -7746,7 +7973,11 @@ gitRootSettingsSet:
     journal: {}
   rootB:\PF\gists\097a4f79a366b2d6d2b66ae43eef28ab:
 <<<<<<< HEAD
+<<<<<<< HEAD
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1687888874227}
+=======
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690223476050}
+>>>>>>> 383186bd19 (state)
 =======
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690223476050}
 >>>>>>> 383186bd19 (state)
@@ -8330,7 +8561,11 @@ gitRootSettingsSet:
     journal: {}
   rootB:\PF\NoteTakingProjectFolder:
 <<<<<<< HEAD
+<<<<<<< HEAD
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1687890396819}
+=======
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1688564454344}
+>>>>>>> 383186bd19 (state)
 =======
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1688564454344}
 >>>>>>> 383186bd19 (state)
@@ -8344,12 +8579,18 @@ gitRootSettingsSet:
     commitNotes:
       commitNotesHistory:
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 383186bd19 (state)
       - toread
       - state
       - etdx
       - czxca
       - rycv
+<<<<<<< HEAD
+>>>>>>> 383186bd19 (state)
+=======
 >>>>>>> 383186bd19 (state)
       - Reorganized
       - |-
@@ -8363,12 +8604,16 @@ gitRootSettingsSet:
         #\tTo Microsoft To-Do List/lastfmDataThoughts.md\n#\tTo Microsoft To-Do List/politics.md\n\
         #\tTo Microsoft To-Do List/thoughts.md\n#\tmusic creation/idea - samplingmaterial.txt"
 <<<<<<< HEAD
+<<<<<<< HEAD
       - state
       - to dedupe
       - Obsidian files
       - evernote Files
       - papyrus files
       - sabrina google Drive
+=======
+      - to dedupe
+>>>>>>> 383186bd19 (state)
 =======
       - to dedupe
 >>>>>>> 383186bd19 (state)
@@ -8985,7 +9230,11 @@ gitRootSettingsSet:
     journal: {}
   rootB:\PF\NoteTakingProjectFolder\gists:
 <<<<<<< HEAD
+<<<<<<< HEAD
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1687896632679}
+=======
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690220565403}
+>>>>>>> 383186bd19 (state)
 =======
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690220565403}
 >>>>>>> 383186bd19 (state)
@@ -8999,7 +9248,11 @@ gitRootSettingsSet:
     journal: {}
   rootB:\PF\NoteTakingProjectFolder\gists\065327f4f5c7607dd2cb9d11d85e2bc2:
 <<<<<<< HEAD
+<<<<<<< HEAD
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1687896632029}
+=======
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690226747197}
+>>>>>>> 383186bd19 (state)
 =======
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690226747197}
 >>>>>>> 383186bd19 (state)
@@ -9013,7 +9266,11 @@ gitRootSettingsSet:
     journal: {}
   rootB:\PF\NoteTakingProjectFolder\gists\097a4f79a366b2d6d2b66ae43eef28ab:
 <<<<<<< HEAD
+<<<<<<< HEAD
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1687896632398}
+=======
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690226749436}
+>>>>>>> 383186bd19 (state)
 =======
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690226749436}
 >>>>>>> 383186bd19 (state)
@@ -9027,7 +9284,11 @@ gitRootSettingsSet:
     journal: {}
   rootB:\PF\NoteTakingProjectFolder\gists\15d352bfb2bc6be567177a71adcf1b1e:
 <<<<<<< HEAD
+<<<<<<< HEAD
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1687896631727}
+=======
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690226747064}
+>>>>>>> 383186bd19 (state)
 =======
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690226747064}
 >>>>>>> 383186bd19 (state)
@@ -9041,7 +9302,11 @@ gitRootSettingsSet:
     journal: {}
   rootB:\PF\NoteTakingProjectFolder\gists\17abca7baec04b17d1704f3318b995d6:
 <<<<<<< HEAD
+<<<<<<< HEAD
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1687896631879}
+=======
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690226746963}
+>>>>>>> 383186bd19 (state)
 =======
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690226746963}
 >>>>>>> 383186bd19 (state)
@@ -9055,7 +9320,11 @@ gitRootSettingsSet:
     journal: {}
   rootB:\PF\NoteTakingProjectFolder\gists\1d5a90b4975101fa1666d66382799002:
 <<<<<<< HEAD
+<<<<<<< HEAD
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1687896630563}
+=======
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690226747239}
+>>>>>>> 383186bd19 (state)
 =======
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690226747239}
 >>>>>>> 383186bd19 (state)
@@ -9069,7 +9338,11 @@ gitRootSettingsSet:
     journal: {}
   rootB:\PF\NoteTakingProjectFolder\gists\1d666b03e2df181e230ee39dcb4b9a99:
 <<<<<<< HEAD
+<<<<<<< HEAD
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1687896632247}
+=======
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690226747676}
+>>>>>>> 383186bd19 (state)
 =======
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690226747676}
 >>>>>>> 383186bd19 (state)
@@ -9083,7 +9356,11 @@ gitRootSettingsSet:
     journal: {}
   rootB:\PF\NoteTakingProjectFolder\gists\202dc1e0a71c31d2cc49ffced1b516f9:
 <<<<<<< HEAD
+<<<<<<< HEAD
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1687896631931}
+=======
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690226749276}
+>>>>>>> 383186bd19 (state)
 =======
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690226749276}
 >>>>>>> 383186bd19 (state)
@@ -9097,7 +9374,11 @@ gitRootSettingsSet:
     journal: {}
   rootB:\PF\NoteTakingProjectFolder\gists\212e18fff05e5c7cfe7bb4c4dee3eaac:
 <<<<<<< HEAD
+<<<<<<< HEAD
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1687896630715}
+=======
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690226749757}
+>>>>>>> 383186bd19 (state)
 =======
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690226749757}
 >>>>>>> 383186bd19 (state)
@@ -9111,7 +9392,11 @@ gitRootSettingsSet:
     journal: {}
   rootB:\PF\NoteTakingProjectFolder\gists\2475881905263ca13559884754ae3cb5:
 <<<<<<< HEAD
+<<<<<<< HEAD
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1687896631588}
+=======
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690226748997}
+>>>>>>> 383186bd19 (state)
 =======
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690226748997}
 >>>>>>> 383186bd19 (state)
@@ -9122,16 +9407,22 @@ gitRootSettingsSet:
       logRootSettings: {}
     push: {}
 <<<<<<< HEAD
+<<<<<<< HEAD
     commitNotes: {}
     journal: {}
   rootB:\PF\NoteTakingProjectFolder\gists\316c3c97e84e6c8c3a84b1015be8a8c7:
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1687896630873}
 =======
+=======
+>>>>>>> 383186bd19 (state)
     commitNotes:
       commitNotesHistory: [zero sanitation]
     journal: {}
   rootB:\PF\NoteTakingProjectFolder\gists\316c3c97e84e6c8c3a84b1015be8a8c7:
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690226748329}
+<<<<<<< HEAD
+>>>>>>> 383186bd19 (state)
+=======
 >>>>>>> 383186bd19 (state)
     log:
       rootSettings: {}
@@ -9143,7 +9434,11 @@ gitRootSettingsSet:
     journal: {}
   rootB:\PF\NoteTakingProjectFolder\gists\34a7ecf3253508fdd13ca5fdec0718b6:
 <<<<<<< HEAD
+<<<<<<< HEAD
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1687896630225}
+=======
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690226747964}
+>>>>>>> 383186bd19 (state)
 =======
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690226747964}
 >>>>>>> 383186bd19 (state)
@@ -9157,7 +9452,11 @@ gitRootSettingsSet:
     journal: {}
   rootB:\PF\NoteTakingProjectFolder\gists\38cef86fbe5324681ee9d0463ebee5c7:
 <<<<<<< HEAD
+<<<<<<< HEAD
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1687896630971}
+=======
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690226748657}
+>>>>>>> 383186bd19 (state)
 =======
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690226748657}
 >>>>>>> 383186bd19 (state)
@@ -9171,7 +9470,11 @@ gitRootSettingsSet:
     journal: {}
   rootB:\PF\NoteTakingProjectFolder\gists\3a61a62908be6a76230ef608e9da535c:
 <<<<<<< HEAD
+<<<<<<< HEAD
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1687896632448}
+=======
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690226746921}
+>>>>>>> 383186bd19 (state)
 =======
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690226746921}
 >>>>>>> 383186bd19 (state)
@@ -9185,7 +9488,11 @@ gitRootSettingsSet:
     journal: {}
   rootB:\PF\NoteTakingProjectFolder\gists\3a8414791f93cd6aead77eb786cdb4cb:
 <<<<<<< HEAD
+<<<<<<< HEAD
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1687896631221}
+=======
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690226749078}
+>>>>>>> 383186bd19 (state)
 =======
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690226749078}
 >>>>>>> 383186bd19 (state)
@@ -9199,7 +9506,11 @@ gitRootSettingsSet:
     journal: {}
   rootB:\PF\NoteTakingProjectFolder\gists\45280886942fca246ca9c21c571b5686:
 <<<<<<< HEAD
+<<<<<<< HEAD
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1687896631666}
+=======
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690226747417}
+>>>>>>> 383186bd19 (state)
 =======
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690226747417}
 >>>>>>> 383186bd19 (state)
@@ -9213,7 +9524,11 @@ gitRootSettingsSet:
     journal: {}
   rootB:\PF\NoteTakingProjectFolder\gists\475d6628a67e9e362ab4bcd1e7ed7f93:
 <<<<<<< HEAD
+<<<<<<< HEAD
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1687896630824}
+=======
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690226747462}
+>>>>>>> 383186bd19 (state)
 =======
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690226747462}
 >>>>>>> 383186bd19 (state)
@@ -9224,16 +9539,22 @@ gitRootSettingsSet:
       logRootSettings: {}
     push: {}
 <<<<<<< HEAD
+<<<<<<< HEAD
     commitNotes: {}
     journal: {}
   rootB:\PF\NoteTakingProjectFolder\gists\496929351ed6c3d6c01c29cb0604236e:
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1687896632899}
 =======
+=======
+>>>>>>> 383186bd19 (state)
     commitNotes:
       commitNotesHistory: [zero sanitation]
     journal: {}
   rootB:\PF\NoteTakingProjectFolder\gists\496929351ed6c3d6c01c29cb0604236e:
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690226747761}
+<<<<<<< HEAD
+>>>>>>> 383186bd19 (state)
+=======
 >>>>>>> 383186bd19 (state)
     log:
       rootSettings: {}
@@ -9245,7 +9566,11 @@ gitRootSettingsSet:
     journal: {}
   rootB:\PF\NoteTakingProjectFolder\gists\49b768e0deaa4bbf0fcd849432de2f51:
 <<<<<<< HEAD
+<<<<<<< HEAD
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1687896632297}
+=======
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690226749316}
+>>>>>>> 383186bd19 (state)
 =======
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690226749316}
 >>>>>>> 383186bd19 (state)
@@ -9259,7 +9584,11 @@ gitRootSettingsSet:
     journal: {}
   rootB:\PF\NoteTakingProjectFolder\gists\4ad34351159b079a106aeac960149e4c:
 <<<<<<< HEAD
+<<<<<<< HEAD
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1687896630272}
+=======
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690226749356}
+>>>>>>> 383186bd19 (state)
 =======
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690226749356}
 >>>>>>> 383186bd19 (state)
@@ -9273,7 +9602,11 @@ gitRootSettingsSet:
     journal: {}
   rootB:\PF\NoteTakingProjectFolder\gists\4caa8a01ac0f3eccdf50992b25561024:
 <<<<<<< HEAD
+<<<<<<< HEAD
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1687896632836}
+=======
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690226749717}
+>>>>>>> 383186bd19 (state)
 =======
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690226749717}
 >>>>>>> 383186bd19 (state)
@@ -9287,7 +9620,11 @@ gitRootSettingsSet:
     journal: {}
   rootB:\PF\NoteTakingProjectFolder\gists\4d9c4ed6ecb2c159a48a0479104056ec:
 <<<<<<< HEAD
+<<<<<<< HEAD
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1687896629890}
+=======
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690226747327}
+>>>>>>> 383186bd19 (state)
 =======
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690226747327}
 >>>>>>> 383186bd19 (state)
@@ -9301,7 +9638,11 @@ gitRootSettingsSet:
     journal: {}
   rootB:\PF\NoteTakingProjectFolder\gists\4e448e326cc894becca9dd27b5b3f357:
 <<<<<<< HEAD
+<<<<<<< HEAD
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1687896631279}
+=======
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690226747881}
+>>>>>>> 383186bd19 (state)
 =======
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690226747881}
 >>>>>>> 383186bd19 (state)
@@ -9312,16 +9653,22 @@ gitRootSettingsSet:
       logRootSettings: {}
     push: {}
 <<<<<<< HEAD
+<<<<<<< HEAD
     commitNotes: {}
     journal: {}
   rootB:\PF\NoteTakingProjectFolder\gists\518bd463f068d6e3047415e521b4878e:
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1687896630015}
 =======
+=======
+>>>>>>> 383186bd19 (state)
     commitNotes:
       commitNotesHistory: [zero sanitation]
     journal: {}
   rootB:\PF\NoteTakingProjectFolder\gists\518bd463f068d6e3047415e521b4878e:
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690226749237}
+<<<<<<< HEAD
+>>>>>>> 383186bd19 (state)
+=======
 >>>>>>> 383186bd19 (state)
     log:
       rootSettings: {}
@@ -9333,7 +9680,11 @@ gitRootSettingsSet:
     journal: {}
   rootB:\PF\NoteTakingProjectFolder\gists\5601f8961903f7f23c498ef1c3d92b3d:
 <<<<<<< HEAD
+<<<<<<< HEAD
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1687896630123}
+=======
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690226748003}
+>>>>>>> 383186bd19 (state)
 =======
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690226748003}
 >>>>>>> 383186bd19 (state)
@@ -9347,7 +9698,11 @@ gitRootSettingsSet:
     journal: {}
   rootB:\PF\NoteTakingProjectFolder\gists\5965aecb14831e784591edd71674b016:
 <<<<<<< HEAD
+<<<<<<< HEAD
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1687896632733}
+=======
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690226747372}
+>>>>>>> 383186bd19 (state)
 =======
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690226747372}
 >>>>>>> 383186bd19 (state)
@@ -9361,7 +9716,11 @@ gitRootSettingsSet:
     journal: {}
   rootB:\PF\NoteTakingProjectFolder\gists\5aefd714df92ddd27d6feb8343d2ea59:
 <<<<<<< HEAD
+<<<<<<< HEAD
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1687896631776}
+=======
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690226749038}
+>>>>>>> 383186bd19 (state)
 =======
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690226749038}
 >>>>>>> 383186bd19 (state)
@@ -9375,7 +9734,11 @@ gitRootSettingsSet:
     journal: {}
   rootB:\PF\NoteTakingProjectFolder\gists\66d9a432f9929ece9fe8e6c574f723e5:
 <<<<<<< HEAD
+<<<<<<< HEAD
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1687896632787}
+=======
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690226746880}
+>>>>>>> 383186bd19 (state)
 =======
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690226746880}
 >>>>>>> 383186bd19 (state)
@@ -9389,7 +9752,11 @@ gitRootSettingsSet:
     journal: {}
   rootB:\PF\NoteTakingProjectFolder\gists\6ec7af4dc7dfdc054b8eb8b93ca227fa:
 <<<<<<< HEAD
+<<<<<<< HEAD
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1687896631383}
+=======
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690226748207}
+>>>>>>> 383186bd19 (state)
 =======
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690226748207}
 >>>>>>> 383186bd19 (state)
@@ -9403,7 +9770,11 @@ gitRootSettingsSet:
     journal: {}
   rootB:\PF\NoteTakingProjectFolder\gists\715c8ce5568f048c0810ae0569883e1e:
 <<<<<<< HEAD
+<<<<<<< HEAD
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1687896630513}
+=======
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690226748451}
+>>>>>>> 383186bd19 (state)
 =======
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690226748451}
 >>>>>>> 383186bd19 (state)
@@ -9417,7 +9788,11 @@ gitRootSettingsSet:
     journal: {}
   rootB:\PF\NoteTakingProjectFolder\gists\8632683de649a5d585b4583d6446246c:
 <<<<<<< HEAD
+<<<<<<< HEAD
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1687896631117}
+=======
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690226749517}
+>>>>>>> 383186bd19 (state)
 =======
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690226749517}
 >>>>>>> 383186bd19 (state)
@@ -9431,7 +9806,11 @@ gitRootSettingsSet:
     journal: {}
   rootB:\PF\NoteTakingProjectFolder\gists\873e54bb115fd28f79f867e69bdc105c:
 <<<<<<< HEAD
+<<<<<<< HEAD
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1687896630465}
+=======
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690226749396}
+>>>>>>> 383186bd19 (state)
 =======
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690226749396}
 >>>>>>> 383186bd19 (state)
@@ -9445,7 +9824,11 @@ gitRootSettingsSet:
     journal: {}
   rootB:\PF\NoteTakingProjectFolder\gists\882f2865406937c0cc2fa2303a4a1f7f:
 <<<<<<< HEAD
+<<<<<<< HEAD
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1687896633059}
+=======
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690226748492}
+>>>>>>> 383186bd19 (state)
 =======
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690226748492}
 >>>>>>> 383186bd19 (state)
@@ -9459,7 +9842,11 @@ gitRootSettingsSet:
     journal: {}
   rootB:\PF\NoteTakingProjectFolder\gists\8add4fa4e7ea4426ad96e6d6ddf196c6:
 <<<<<<< HEAD
+<<<<<<< HEAD
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1687896632603}
+=======
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690226749198}
+>>>>>>> 383186bd19 (state)
 =======
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690226749198}
 >>>>>>> 383186bd19 (state)
@@ -9473,7 +9860,11 @@ gitRootSettingsSet:
     journal: {}
   rootB:\PF\NoteTakingProjectFolder\gists\98f04579b779e6accabc676d8d5a1c71:
 <<<<<<< HEAD
+<<<<<<< HEAD
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1687896632177}
+=======
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690226747549}
+>>>>>>> 383186bd19 (state)
 =======
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690226747549}
 >>>>>>> 383186bd19 (state)
@@ -9487,7 +9878,11 @@ gitRootSettingsSet:
     journal: {}
   rootB:\PF\NoteTakingProjectFolder\gists\99a6acb566c1174b26d701ab44fc12cb:
 <<<<<<< HEAD
+<<<<<<< HEAD
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1687896630613}
+=======
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690226749839}
+>>>>>>> 383186bd19 (state)
 =======
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690226749839}
 >>>>>>> 383186bd19 (state)
@@ -9501,7 +9896,11 @@ gitRootSettingsSet:
     journal: {}
   rootB:\PF\NoteTakingProjectFolder\gists\9d19eaabc3e6d11d7f98dedb3e2f5a05:
 <<<<<<< HEAD
+<<<<<<< HEAD
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1687896633107}
+=======
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690226746793}
+>>>>>>> 383186bd19 (state)
 =======
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690226746793}
 >>>>>>> 383186bd19 (state)
@@ -9515,7 +9914,11 @@ gitRootSettingsSet:
     journal: {}
   rootB:\PF\NoteTakingProjectFolder\gists\9ffa46cf42547285a812da910e5f1591:
 <<<<<<< HEAD
+<<<<<<< HEAD
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1687896632959}
+=======
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690226748915}
+>>>>>>> 383186bd19 (state)
 =======
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690226748915}
 >>>>>>> 383186bd19 (state)
@@ -9529,7 +9932,11 @@ gitRootSettingsSet:
     journal: {}
   rootB:\PF\NoteTakingProjectFolder\gists\a16f0d876b9af6e71dd4227453166f87:
 <<<<<<< HEAD
+<<<<<<< HEAD
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1687896632554}
+=======
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690226749477}
+>>>>>>> 383186bd19 (state)
 =======
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690226749477}
 >>>>>>> 383186bd19 (state)
@@ -9540,16 +9947,22 @@ gitRootSettingsSet:
       logRootSettings: {}
     push: {}
 <<<<<<< HEAD
+<<<<<<< HEAD
     commitNotes: {}
     journal: {}
   rootB:\PF\NoteTakingProjectFolder\gists\aeae329148b25b95aeba9550a8fedd72:
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1687896631434}
 =======
+=======
+>>>>>>> 383186bd19 (state)
     commitNotes:
       commitNotesHistory: [zero sanitation]
     journal: {}
   rootB:\PF\NoteTakingProjectFolder\gists\aeae329148b25b95aeba9550a8fedd72:
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690226748410}
+<<<<<<< HEAD
+>>>>>>> 383186bd19 (state)
+=======
 >>>>>>> 383186bd19 (state)
     log:
       rootSettings: {}
@@ -9561,7 +9974,11 @@ gitRootSettingsSet:
     journal: {}
   rootB:\PF\NoteTakingProjectFolder\gists\af54de9368c24f336e40b9e28e05af58:
 <<<<<<< HEAD
+<<<<<<< HEAD
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1687896630320}
+=======
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690226747152}
+>>>>>>> 383186bd19 (state)
 =======
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690226747152}
 >>>>>>> 383186bd19 (state)
@@ -9575,7 +9992,11 @@ gitRootSettingsSet:
     journal: {}
   rootB:\PF\NoteTakingProjectFolder\gists\b3e173044d28f4dc9ba8b96fec4e2bcb:
 <<<<<<< HEAD
+<<<<<<< HEAD
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1687896630368}
+=======
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690226748247}
+>>>>>>> 383186bd19 (state)
 =======
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690226748247}
 >>>>>>> 383186bd19 (state)
@@ -9589,7 +10010,11 @@ gitRootSettingsSet:
     journal: {}
   rootB:\PF\NoteTakingProjectFolder\gists\b686f12691d0ed9649fa25141c6934d0:
 <<<<<<< HEAD
+<<<<<<< HEAD
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1687896631829}
+=======
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690226747110}
+>>>>>>> 383186bd19 (state)
 =======
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690226747110}
 >>>>>>> 383186bd19 (state)
@@ -9603,7 +10028,11 @@ gitRootSettingsSet:
     journal: {}
   rootB:\PF\NoteTakingProjectFolder\gists\b8e10ab0177788e717913ae267e7794a:
 <<<<<<< HEAD
+<<<<<<< HEAD
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1687896631067}
+=======
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690226749158}
+>>>>>>> 383186bd19 (state)
 =======
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690226749158}
 >>>>>>> 383186bd19 (state)
@@ -9617,7 +10046,11 @@ gitRootSettingsSet:
     journal: {}
   rootB:\PF\NoteTakingProjectFolder\gists\b9a9a02ca7fbbc1ecbba1ef04cafc1d1:
 <<<<<<< HEAD
+<<<<<<< HEAD
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1687896631019}
+=======
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690226747592}
+>>>>>>> 383186bd19 (state)
 =======
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690226747592}
 >>>>>>> 383186bd19 (state)
@@ -9631,7 +10064,11 @@ gitRootSettingsSet:
     journal: {}
   rootB:\PF\NoteTakingProjectFolder\gists\bd3232c472f78470ed75f3560677df3a:
 <<<<<<< HEAD
+<<<<<<< HEAD
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1687896632127}
+=======
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690226748123}
+>>>>>>> 383186bd19 (state)
 =======
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690226748123}
 >>>>>>> 383186bd19 (state)
@@ -9645,7 +10082,11 @@ gitRootSettingsSet:
     journal: {}
   rootB:\PF\NoteTakingProjectFolder\gists\be31650ecdc875d50d2f8d538840add4:
 <<<<<<< HEAD
+<<<<<<< HEAD
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1687896632502}
+=======
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690226747634}
+>>>>>>> 383186bd19 (state)
 =======
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690226747634}
 >>>>>>> 383186bd19 (state)
@@ -9659,7 +10100,11 @@ gitRootSettingsSet:
     journal: {}
   rootB:\PF\NoteTakingProjectFolder\gists\browserBookmarkss:
 <<<<<<< HEAD
+<<<<<<< HEAD
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1687896631487}
+=======
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690226748874}
+>>>>>>> 383186bd19 (state)
 =======
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690226748874}
 >>>>>>> 383186bd19 (state)
@@ -9670,16 +10115,22 @@ gitRootSettingsSet:
       logRootSettings: {}
     push: {}
 <<<<<<< HEAD
+<<<<<<< HEAD
     commitNotes: {}
     journal: {}
   rootB:\PF\NoteTakingProjectFolder\gists\c2854443345ea46fe30f9e6eb9ffbbc3:
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1687896629964}
 =======
+=======
+>>>>>>> 383186bd19 (state)
     commitNotes:
       commitNotesHistory: [asd]
     journal: {}
   rootB:\PF\NoteTakingProjectFolder\gists\c2854443345ea46fe30f9e6eb9ffbbc3:
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690226749798}
+<<<<<<< HEAD
+>>>>>>> 383186bd19 (state)
+=======
 >>>>>>> 383186bd19 (state)
     log:
       rootSettings: {}
@@ -9691,7 +10142,11 @@ gitRootSettingsSet:
     journal: {}
   rootB:\PF\NoteTakingProjectFolder\gists\c35030fae06786c4cf77be48df76f26d:
 <<<<<<< HEAD
+<<<<<<< HEAD
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1687896630922}
+=======
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690226749880}
+>>>>>>> 383186bd19 (state)
 =======
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690226749880}
 >>>>>>> 383186bd19 (state)
@@ -9705,7 +10160,11 @@ gitRootSettingsSet:
     journal: {}
   rootB:\PF\NoteTakingProjectFolder\gists\c82ffe4de99921c1b7cb93eb99e58e9a:
 <<<<<<< HEAD
+<<<<<<< HEAD
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1687896630767}
+=======
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690226748956}
+>>>>>>> 383186bd19 (state)
 =======
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690226748956}
 >>>>>>> 383186bd19 (state)
@@ -9719,7 +10178,11 @@ gitRootSettingsSet:
     journal: {}
   rootB:\PF\NoteTakingProjectFolder\gists\cbb2caafec9fda2934ce782e53f0a5ef:
 <<<<<<< HEAD
+<<<<<<< HEAD
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1687896630174}
+=======
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690226746836}
+>>>>>>> 383186bd19 (state)
 =======
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690226746836}
 >>>>>>> 383186bd19 (state)
@@ -9733,7 +10196,11 @@ gitRootSettingsSet:
     journal: {}
   rootB:\PF\NoteTakingProjectFolder\gists\dd1b53fe276ef1ec891b37f7d2530f7b:
 <<<<<<< HEAD
+<<<<<<< HEAD
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1687896631166}
+=======
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690226749556}
+>>>>>>> 383186bd19 (state)
 =======
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690226749556}
 >>>>>>> 383186bd19 (state)
@@ -9747,7 +10214,11 @@ gitRootSettingsSet:
     journal: {}
   rootB:\PF\NoteTakingProjectFolder\gists\e28c649362d05d8a124da798d2a9c452:
 <<<<<<< HEAD
+<<<<<<< HEAD
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1687896630417}
+=======
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690226748370}
+>>>>>>> 383186bd19 (state)
 =======
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690226748370}
 >>>>>>> 383186bd19 (state)
@@ -9761,7 +10232,11 @@ gitRootSettingsSet:
     journal: {}
   rootB:\PF\NoteTakingProjectFolder\gists\e3f35ab2cfd031d08baaa63057372060:
 <<<<<<< HEAD
+<<<<<<< HEAD
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1687896632077}
+=======
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690226747925}
+>>>>>>> 383186bd19 (state)
 =======
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690226747925}
 >>>>>>> 383186bd19 (state)
@@ -9775,7 +10250,11 @@ gitRootSettingsSet:
     journal: {}
   rootB:\PF\NoteTakingProjectFolder\gists\e7a7bcbbc9bae7c972a1abc434bb8226:
 <<<<<<< HEAD
+<<<<<<< HEAD
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1687896630663}
+=======
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690226748163}
+>>>>>>> 383186bd19 (state)
 =======
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690226748163}
 >>>>>>> 383186bd19 (state)
@@ -9789,7 +10268,11 @@ gitRootSettingsSet:
     journal: {}
   rootB:\PF\NoteTakingProjectFolder\gists\edbb8f03d7b400aee02d08634a1ca655:
 <<<<<<< HEAD
+<<<<<<< HEAD
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1687896633012}
+=======
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690226748740}
+>>>>>>> 383186bd19 (state)
 =======
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690226748740}
 >>>>>>> 383186bd19 (state)
@@ -9803,7 +10286,11 @@ gitRootSettingsSet:
     journal: {}
   rootB:\PF\NoteTakingProjectFolder\gists\f0380aca6a64cd169b637087b49556cf:
 <<<<<<< HEAD
+<<<<<<< HEAD
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1687896630065}
+=======
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690226748044}
+>>>>>>> 383186bd19 (state)
 =======
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690226748044}
 >>>>>>> 383186bd19 (state)
@@ -9817,7 +10304,11 @@ gitRootSettingsSet:
     journal: {}
   rootB:\PF\NoteTakingProjectFolder\gists\f5cc64744ea2f0467fac1c8ca2af9bf6:
 <<<<<<< HEAD
+<<<<<<< HEAD
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1687896632347}
+=======
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690226749637}
+>>>>>>> 383186bd19 (state)
 =======
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690226749637}
 >>>>>>> 383186bd19 (state)
@@ -9831,7 +10322,11 @@ gitRootSettingsSet:
     journal: {}
   rootB:\PF\NoteTakingProjectFolder\gists\f84ff3c25cec6518f7adee14e2e00a39:
 <<<<<<< HEAD
+<<<<<<< HEAD
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1687896631537}
+=======
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690226749118}
+>>>>>>> 383186bd19 (state)
 =======
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690226749118}
 >>>>>>> 383186bd19 (state)
@@ -9845,7 +10340,11 @@ gitRootSettingsSet:
     journal: {}
   rootB:\PF\NoteTakingProjectFolder\gists\ff4251ae54b84da01a523a18ebe04b92:
 <<<<<<< HEAD
+<<<<<<< HEAD
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1687896631330}
+=======
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690226746751}
+>>>>>>> 383186bd19 (state)
 =======
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690226746751}
 >>>>>>> 383186bd19 (state)
@@ -9859,7 +10358,11 @@ gitRootSettingsSet:
     journal: {}
   rootB:\PF\NoteTakingProjectFolder\gists\useFullRegEdits:
 <<<<<<< HEAD
+<<<<<<< HEAD
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1687896631978}
+=======
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690368191516}
+>>>>>>> 383186bd19 (state)
 =======
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690368191516}
 >>>>>>> 383186bd19 (state)
@@ -9873,7 +10376,11 @@ gitRootSettingsSet:
     journal: {}
   rootB:\PF\NoteTakingProjectFolder\Notebook-Foam:
 <<<<<<< HEAD
+<<<<<<< HEAD
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1687896941004}
+=======
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690888402205}
+>>>>>>> 383186bd19 (state)
 =======
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690888402205}
 >>>>>>> 383186bd19 (state)
@@ -9884,16 +10391,22 @@ gitRootSettingsSet:
       logRootSettings: {}
     push: {}
 <<<<<<< HEAD
+<<<<<<< HEAD
     commitNotes: {}
     journal: {}
   rootB:\PF\NoteTakingProjectFolder\Notebook-Foam\NoteTakingProjectFolder:
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1687896941066}
 =======
+=======
+>>>>>>> 383186bd19 (state)
     commitNotes:
       commitNotesHistory: [etc]
     journal: {}
   rootB:\PF\NoteTakingProjectFolder\Notebook-Foam\NoteTakingProjectFolder:
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690226747020}
+<<<<<<< HEAD
+>>>>>>> 383186bd19 (state)
+=======
 >>>>>>> 383186bd19 (state)
     log:
       rootSettings: {}
@@ -9906,7 +10419,11 @@ gitRootSettingsSet:
     journal: {}
   rootB:\PF\NoteTakingProjectFolder\Notebooks:
 <<<<<<< HEAD
+<<<<<<< HEAD
     databaseCleanup: {}
+=======
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690235596872}
+>>>>>>> 383186bd19 (state)
 =======
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690235596872}
 >>>>>>> 383186bd19 (state)
@@ -9920,7 +10437,11 @@ gitRootSettingsSet:
     journal: {}
   rootB:\PF\NewWindows2:
 <<<<<<< HEAD
+<<<<<<< HEAD
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1688038309538}
+=======
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690889952604}
+>>>>>>> 383186bd19 (state)
 =======
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690889952604}
 >>>>>>> 383186bd19 (state)
@@ -9931,16 +10452,22 @@ gitRootSettingsSet:
       logRootSettings: {}
     push: {}
 <<<<<<< HEAD
+<<<<<<< HEAD
     commitNotes: {}
     journal: {}
   rootB:\PF\NewWindows3:
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1688038476960}
 =======
+=======
+>>>>>>> 383186bd19 (state)
     commitNotes:
       commitNotesHistory: ['[WIP] Rewrite scripts']
     journal: {}
   rootB:\PF\NewWindows3:
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690889952315}
+<<<<<<< HEAD
+>>>>>>> 383186bd19 (state)
+=======
 >>>>>>> 383186bd19 (state)
     log:
       rootSettings: {}
@@ -9979,14 +10506,20 @@ gitRootSettingsSet:
     journal: {}
   rootB:\PF\PowershellProjectFolder:
 <<<<<<< HEAD
+<<<<<<< HEAD
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1688391066112}
     log:
       rootSettings: {baseRoots: "!local-branches://\tref://HEAD", extendedRoots: ''}
 =======
+=======
+>>>>>>> 383186bd19 (state)
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1689763617301}
     log:
       rootSettings: {baseRoots: "!remote://CmdHist\t!local-branches://\t!local-tags://\t\
           !others://\t!remote://Ps1-SysAdmin\tref://HEAD", extendedRoots: '!stashes://'}
+<<<<<<< HEAD
+>>>>>>> 383186bd19 (state)
+=======
 >>>>>>> 383186bd19 (state)
       fileFilterConfiguration: {}
     merge:
@@ -9994,9 +10527,12 @@ gitRootSettingsSet:
     push: {}
     commitNotes:
 <<<<<<< HEAD
+<<<<<<< HEAD
       commitNotesHistory: [auto commit on move, corrected functionallity, Reorganized,
         stage]
 =======
+=======
+>>>>>>> 383186bd19 (state)
       commitNotesHistory:
       - etc
       - |-
@@ -10126,6 +10662,9 @@ gitRootSettingsSet:
       - retored files from f874d40275761cf2039c3e510a299b64012b3609
       - asd
       - sdf
+<<<<<<< HEAD
+>>>>>>> 383186bd19 (state)
+=======
 >>>>>>> 383186bd19 (state)
     journal: {}
   rootB:\ps1:
@@ -10141,7 +10680,11 @@ gitRootSettingsSet:
     journal: {}
   rootC:\ProgramData\scoop\persist:
 <<<<<<< HEAD
+<<<<<<< HEAD
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1688457245988}
+=======
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1691073904465}
+>>>>>>> 383186bd19 (state)
 =======
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1691073904465}
 >>>>>>> 383186bd19 (state)
@@ -10171,7 +10714,10 @@ gitRootSettingsSet:
     commitNotes: {}
     journal: {}
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> 383186bd19 (state)
   rootB:\PF\scoopbucket-presist\Microsoft\Windows\PowerShell:
     databaseCleanup: {}
     log:
@@ -12916,5 +13462,8 @@ gitRootSettingsSet:
     push: {}
     commitNotes: {}
     journal: {}
+<<<<<<< HEAD
+>>>>>>> 383186bd19 (state)
+=======
 >>>>>>> 383186bd19 (state)
 pushMultiRoot: {}

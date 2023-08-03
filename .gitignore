@@ -136,4 +136,7 @@ LICENSE
 *.pyc
 __init__.py
 *.~yml
+<<<<<<< HEAD
+>>>>>>> 383186bd19 (state)
+=======
 >>>>>>> 383186bd19 (state)

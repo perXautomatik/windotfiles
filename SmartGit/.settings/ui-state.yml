@@ -1,5 +1,6 @@
 bounds:
 <<<<<<< HEAD
+<<<<<<< HEAD
 - {key: project, x: -8, y: -8, width: 1936, height: 1056, state: 1}
 - {key: welcome}
 - {key: preferences, x: -67, y: 49, width: 1165, height: 498}
@@ -9,6 +10,8 @@ bounds:
 - {key: git.commit.selectFromLog, width: 640, height: 395}
 - {key: log, x: 569, y: 76, width: 1440, height: 866, state: 1}
 =======
+=======
+>>>>>>> 383186bd19 (state)
 - {key: project, x: 240, y: 58, width: 1440, height: 866}
 - {key: welcome}
 - {key: preferences, x: -67, y: 49, width: 1165, height: 498}
@@ -17,6 +20,9 @@ bounds:
 - {key: git.commit, width: 1245, height: 514, x: -14, y: -66}
 - {key: git.commit.selectFromLog, width: 640, height: 395}
 - {key: log, x: 205, y: 89, width: 1440, height: 866}
+<<<<<<< HEAD
+>>>>>>> 383186bd19 (state)
+=======
 >>>>>>> 383186bd19 (state)
 - {key: editor, x: 240, y: 58, width: 1440, height: 866}
 - {key: git.indexEditor, x: 240, y: 58, width: 1440, height: 866, state: 1}
@@ -37,6 +43,7 @@ indexEditorFrame: {}
 columns:
   project.files.git:
 <<<<<<< HEAD
+<<<<<<< HEAD
     columnNames: "Name\tState\tRelative Directory\tExt.\tIndex State\tLFS\tLast Changed\
       \ On\tRelative Path\tRenamed From\tSize\tWorking Tree State"
     visibleColumnNames: "Name\tRelative Directory\tState"
@@ -49,6 +56,8 @@ columns:
     - {id: Name, reverse: false}
     - {id: Relative Directory, reverse: false}
 =======
+=======
+>>>>>>> 383186bd19 (state)
     columnNames: "Name\tState\tRelative Directory\tIndex State\tExt.\tLFS\tLast Changed\
       \ On\tRelative Path\tRenamed From\tSize\tWorking Tree State"
     visibleColumnNames: "Index State\tName\tRelative Directory\tState"
@@ -63,6 +72,9 @@ columns:
     - {id: Relative Directory, reverse: false}
     - {id: Name, reverse: false}
     - {id: Index State, reverse: false}
+<<<<<<< HEAD
+>>>>>>> 383186bd19 (state)
+=======
 >>>>>>> 383186bd19 (state)
   project.files.git.wt:
     columnNames: "Name\tSize\tExt.\tState\tRelative Directory\tLast Changed On\tLFS\t\
@@ -70,20 +82,27 @@ columns:
     visibleColumnNames: "Ext.\tLast Changed On\tName\tRelative Directory\tSize\tState"
     columnWidths:
 <<<<<<< HEAD
+<<<<<<< HEAD
     - {id: Name, width: 611, width2x: 0}
     - {id: Size, width: 61, width2x: 0}
     - {id: Ext., width: 63, width2x: 0}
     - {id: State, width: 131, width2x: 0}
 =======
+=======
+>>>>>>> 383186bd19 (state)
     - {id: Name, width: 224, width2x: 0}
     - {id: Size, width: 61, width2x: 0}
     - {id: Ext., width: 63, width2x: 0}
     - {id: State, width: 532, width2x: 0}
+<<<<<<< HEAD
+>>>>>>> 383186bd19 (state)
+=======
 >>>>>>> 383186bd19 (state)
     - {id: Relative Directory, width: 919, width2x: 0}
     - {id: Last Changed On, width: 117, width2x: 0}
     - {id: Relative Path, width: 500, width2x: 0}
     sortOrders:
+<<<<<<< HEAD
 <<<<<<< HEAD
     - {id: Name, reverse: false}
     - {id: Relative Directory, reverse: false}
@@ -105,6 +124,8 @@ columns:
     - {id: Name, reverse: false}
     - {id: Ext., reverse: true}
 =======
+=======
+>>>>>>> 383186bd19 (state)
     - {id: State, reverse: false}
     - {id: Ext., reverse: false}
     - {id: Name, reverse: true}
@@ -125,6 +146,9 @@ columns:
     - {id: Relative Path, reverse: true}
     - {id: Name, reverse: false}
     - {id: Ext., reverse: false}
+<<<<<<< HEAD
+>>>>>>> 383186bd19 (state)
+=======
 >>>>>>> 383186bd19 (state)
     - {id: Relative Directory, reverse: false}
   log.comments:
@@ -145,7 +169,11 @@ columns:
     visibleColumnNames: "Modification\tName\tRelative Directory\tRenamed Path"
     columnWidths:
 <<<<<<< HEAD
+<<<<<<< HEAD
     - {id: Name, width: 200, width2x: 0}
+=======
+    - {id: Name, width: 366, width2x: 0}
+>>>>>>> 383186bd19 (state)
 =======
     - {id: Name, width: 366, width2x: 0}
 >>>>>>> 383186bd19 (state)
@@ -155,8 +183,13 @@ columns:
     - {id: Relative Path, width: 500, width2x: 0}
     sortOrders:
 <<<<<<< HEAD
+<<<<<<< HEAD
     - {id: Modification, reverse: false}
     - {id: Relative Directory, reverse: false}
+=======
+    - {id: Relative Directory, reverse: false}
+    - {id: Modification, reverse: false}
+>>>>>>> 383186bd19 (state)
 =======
     - {id: Relative Directory, reverse: false}
     - {id: Modification, reverse: false}
@@ -205,6 +238,7 @@ columns:
     - {id: Name, reverse: false}
     - {id: Relative Directory, reverse: false}
 <<<<<<< HEAD
+<<<<<<< HEAD
 gitViewFileFilter: {viewRecursive: true, viewFromSubmodules: true, viewIgnoredFiles: false,
   viewRenameSources: true, viewSkipped: false, viewUnversionedFiles: true, viewUnchangedFiles: false,
   viewUnchangedAssumed: false}
@@ -219,6 +253,8 @@ project.files.git.separateWtIndex: true
 gitProjectLayout.main: (([+311x554:directories ][+311x369:branches ])((([+1606x473:files
   ][+1606x305:changes ])[-3x1:message ])([+1606x142:outgoing ][-3x1:output ])))
 =======
+=======
+>>>>>>> 383186bd19 (state)
 gitViewFileFilter: {viewRecursive: true, viewFromSubmodules: false, viewIgnoredFiles: false,
   viewRenameSources: true, viewSkipped: true, viewUnversionedFiles: true, viewUnchangedFiles: true,
   viewUnchangedAssumed: true}
@@ -232,11 +268,15 @@ repositoriesToReopen:
 project.files.git.separateWtIndex: true
 gitProjectLayout.main: (([+449x440:directories ][+449x293:branches ])((([+972x225:files
   ][+972x392:changes ])[-3x1:message ])([+972x113:outgoing ][-3x1:output ])))
+<<<<<<< HEAD
+>>>>>>> 383186bd19 (state)
+=======
 >>>>>>> 383186bd19 (state)
 log.wtIndex.onDemand: true
 gitProjectLayout.mainIsdefault: true
 gitProjectLayout.review: ([+2x1:directories ][+7x1:files ][+3x1:message ])[+10x3:changes
   ]([-1x1:branches ][-3x1:outgoing ][-3x1:output ])
+<<<<<<< HEAD
 <<<<<<< HEAD
 lastRepositoryPath: C:\ProgramData\scoop\persist
 commit.expandOptions: true
@@ -245,20 +285,30 @@ gitLogRootLayout.main: (([+379x461:repositories ][+379x462:branches ])(([+377x70
   ]([+1158x203:details -1x1:output -1x1:debug-log details ][+1158x497:files +1158x497:comments
   files ]))[+1538x220:changes ]))
 =======
+=======
+>>>>>>> 383186bd19 (state)
 lastRepositoryPath: B:\PF\chris\autohotkey
 commit.expandOptions: true
 log.files.git.separateWtIndex: true
 gitLogRootLayout.main: (([+281x366:repositories ][+281x367:branches ])(([+377x558:graph
   ]([+760x161:details -1x1:output -1x1:debug-log details ][+760x394:files +760x394:comments
   files ]))[+1140x175:changes ]))
+<<<<<<< HEAD
+>>>>>>> 383186bd19 (state)
+=======
 >>>>>>> 383186bd19 (state)
 gitLogRootLayout.mainIsdefault: true
 gitLogRootLayout.review: (([+1x1:repositories ][+1x1:branches ])(([+4x1:graph ]([+2x1:details
   -1x1:output -1x1:debug-log details ][+2x2:files +2x1:comments files ]))[+4x4:changes
   ]))
 <<<<<<< HEAD
+<<<<<<< HEAD
 gitLogSubtreeLayout: ([+120x366:branches ][+335x366:graph ]([+737x161:details -1x1:output
   details ][+737x202:files ]))[+1198x367:changes ]
+=======
+gitLogSubtreeLayout: ([+120x366:branches ][+335x366:graph ]([+963x161:details -1x1:output
+  details ][+963x202:files ]))[+1424x367:changes ]
+>>>>>>> 383186bd19 (state)
 =======
 gitLogSubtreeLayout: ([+120x366:branches ][+335x366:graph ]([+963x161:details -1x1:output
   details ][+963x202:files ]))[+1424x367:changes ]
@@ -274,6 +324,10 @@ lastClonedUrls: ['https://github.com/perXautomatik/BAO', 'https://github.com/per
 cloneSkipSize: 5242880
 git.reset: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+git.pull.fetchAll: true
+>>>>>>> 383186bd19 (state)
 =======
 git.pull.fetchAll: true
 >>>>>>> 383186bd19 (state)

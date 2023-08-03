@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 2023-07-02 13:53:03.912 - INFO    - Beeftext started.
 2023-07-02 13:53:03.912 - INFO    - Build info: Visual Studio 2022 - Release (64bit) - Qt v6.4.1
 2023-07-02 13:53:03.919 - ERROR   - The combo last use date/time file is not a valid JSON document
@@ -23,6 +24,8 @@
 2023-07-04 09:08:52.526 - INFO    - Update check ended.
 2023-07-04 09:09:08.743 - INFO    - Backed up combo file to C:\ProgramData\scoop\apps\beeftext\current\Data\Backup\20230704_090908742_backup.json
 =======
+=======
+>>>>>>> 383186bd19 (state)
 2023-07-27 11:01:24.509 - INFO    - Beeftext started.
 2023-07-27 11:01:24.509 - INFO    - Build info: Visual Studio 2022 - Release (64bit) - Qt v6.4.1
 2023-07-27 11:01:24.520 - ERROR   - The combo last use date/time file is not a valid JSON document
@@ -54,4 +57,7 @@
 2023-08-02 19:50:55.526 - INFO    - Downloaded latest version information. Latest version is Beeftext 16.0.
 2023-08-02 19:50:55.526 - INFO    - No new version is available.
 2023-08-02 19:50:55.526 - INFO    - Update check ended.
+<<<<<<< HEAD
+>>>>>>> 383186bd19 (state)
+=======
 >>>>>>> 383186bd19 (state)
