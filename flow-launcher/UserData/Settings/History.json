@@ -1,6 +1,34 @@
 {
   "Items": [
     {
+      "Query": "kill ope",
+      "ExecutedDateTime": "2023-05-18T12:50:18.5651019+02:00"
+    },
+    {
+      "Query": "power",
+      "ExecutedDateTime": "2023-05-18T14:14:49.7042225+02:00"
+    },
+    {
+      "Query": "bucket",
+      "ExecutedDateTime": "2023-05-18T14:19:35.307956+02:00"
+    },
+    {
+      "Query": "beo",
+      "ExecutedDateTime": "2023-05-18T14:54:14.7307979+02:00"
+    },
+    {
+      "Query": "kill steam",
+      "ExecutedDateTime": "2023-05-18T15:01:58.9523639+02:00"
+    },
+    {
+      "Query": "https://github.com/bailey27/cppcryptfs",
+      "ExecutedDateTime": "2023-05-18T15:02:54.1514618+02:00"
+    },
+    {
+      "Query": "https://github.com/Tichau/FileConverter",
+      "ExecutedDateTime": "2023-05-18T15:07:50.3594074+02:00"
+    },
+    {
       "Query": "https://github.com/files-community",
       "ExecutedDateTime": "2023-05-18T15:09:02.8387659+02:00"
     },
@@ -1089,122 +1117,6 @@
       "ExecutedDateTime": "2023-07-26T21:54:37.2550009+02:00"
     },
     {
-<<<<<<< HEAD
-      "Query": "\u0026 smar",
-      "ExecutedDateTime": "2023-08-03T20:48:09.6692307+02:00"
-    },
-    {
-      "Query": "\u0026 bee",
-      "ExecutedDateTime": "2023-08-03T20:48:16.4108586+02:00"
-    },
-    {
-      "Query": "vs",
-      "ExecutedDateTime": "2023-08-03T21:09:44.8589592+02:00"
-    },
-    {
-      "Query": "\u0026 dup",
-      "ExecutedDateTime": "2023-08-03T23:25:21.5483297+02:00"
-    },
-    {
-      "Query": "\u0026 adv",
-      "ExecutedDateTime": "2023-08-03T23:27:51.5130753+02:00"
-    },
-    {
-      "Query": "ps scoop uninstall AdvancedRenamer ; scoop install advancedrenamer",
-      "ExecutedDateTime": "2023-08-03T23:31:48.2463732+02:00"
-    },
-    {
-      "Query": "\u0026 advanc",
-      "ExecutedDateTime": "2023-08-03T23:34:08.3938506+02:00"
-    },
-    {
-      "Query": "\u0026 du",
-      "ExecutedDateTime": "2023-08-05T14:14:51.6042283+02:00"
-    },
-    {
-      "Query": "\u0026 ps",
-      "ExecutedDateTime": "2023-08-05T14:38:02.8567807+02:00"
-    },
-    {
-      "Query": "ps scoop reinstall pspad",
-      "ExecutedDateTime": "2023-08-05T14:41:36.6177246+02:00"
-    },
-    {
-      "Query": "\u0026 autoh",
-      "ExecutedDateTime": "2023-08-05T16:05:10.4809469+02:00"
-    },
-    {
-      "Query": "\u0026 ps",
-      "ExecutedDateTime": "2023-08-05T19:21:04.1362351+02:00"
-    },
-    {
-      "Query": "ps scoop install nonportable/files-np",
-      "ExecutedDateTime": "2023-08-05T21:28:12.9942003+02:00"
-    },
-    {
-      "Query": "ps scoop install ACooper81_scoop-apps/Files-Install",
-      "ExecutedDateTime": "2023-08-05T21:29:11.5640954+02:00"
-    },
-    {
-      "Query": "\u0026 dup",
-      "ExecutedDateTime": "2023-08-07T00:49:26.5902175+02:00"
-    },
-    {
-      "Query": "\u0026 be",
-      "ExecutedDateTime": "2023-08-07T01:19:49.4179142+02:00"
-    },
-    {
-      "Query": "\u0026 d",
-      "ExecutedDateTime": "2023-08-07T01:39:21.5893098+02:00"
-    },
-    {
-      "Query": "\u0026 pip",
-      "ExecutedDateTime": "2023-08-07T09:06:10.9050973+02:00"
-    },
-    {
-      "Query": "ps pip install git-corrupt",
-      "ExecutedDateTime": "2023-08-07T09:06:32.7921514+02:00"
-    },
-    {
-      "Query": "ps git status",
-      "ExecutedDateTime": "2023-08-07T09:31:34.4913184+02:00"
-    },
-    {
-      "Query": "r pwsh",
-      "ExecutedDateTime": "2023-08-07T09:36:26.1172818+02:00"
-    },
-    {
-      "Query": "\u0026 be",
-      "ExecutedDateTime": "2023-08-07T10:14:58.3280501+02:00"
-    },
-    {
-      "Query": "r",
-      "ExecutedDateTime": "2023-08-07T11:35:25.1560329+02:00"
-    },
-    {
-      "Query": "\u0026 p",
-      "ExecutedDateTime": "2023-08-07T11:52:31.501808+02:00"
-    },
-    {
-      "Query": "\u0026 pdf",
-      "ExecutedDateTime": "2023-08-07T13:05:35.9836654+02:00"
-    },
-    {
-      "Query": "\u0026 p",
-      "ExecutedDateTime": "2023-08-07T13:07:35.0771413+02:00"
-    },
-    {
-      "Query": "r",
-      "ExecutedDateTime": "2023-08-07T14:37:08.810437+02:00"
-    },
-    {
-      "Query": "\u0026 p",
-      "ExecutedDateTime": "2023-08-07T14:57:01.2673012+02:00"
-    },
-    {
-      "Query": "r",
-      "ExecutedDateTime": "2023-08-08T00:00:05.6523289+02:00"
-=======
       "Query": "\u0026 ch",
       "ExecutedDateTime": "2023-07-27T11:10:11.2371362+02:00"
     },
@@ -1255,7 +1167,6 @@
     {
       "Query": "vs",
       "ExecutedDateTime": "2023-08-03T11:57:17.3443015+02:00"
->>>>>>> 5477ba7ac8 (state)
     }
   ]
 }

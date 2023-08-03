@@ -9,16 +9,6 @@ gitRootSettingsSet:
     push: {}
     commitNotes: {}
     journal: {}
-<<<<<<< HEAD
-  roots: ['B:\PF\Archive\ps1', 'B:\PF\Archive\ps1\Aggregation\TextProcessingProjectF',
-    'B:\PF\Archive\ps1\git\repair\submodule\add_submodule', 'B:\PF\Archive\ps1\workflow\CsharpI',
-    'C:\Users\Public', 'C:\Users\Public\.config', 'C:\Users\Public\AppData', 'C:\Users\Public\Documents
-      - Junction', 'C:\Users\Public\My Documents', 'C:\Users\Public\scoop\persist',
-    'C:\Users\Public\source', 'C:\Users\Public\.config\git', 'C:\Users\Public\.config\powershell',
-    'C:\Users\Public\AppData\Roaming\Scooter Software\Beyond Compare 4', 'C:\Users\Public\AppData\Roaming\d2rmm',
-    'C:\Users\Public\scoop\apps\scoop\current', 'C:\Users\Public\Documents', 'C:\Users\Public\Documents\PowerShell',
-    'B:\PF\Archive\New folder', 'B:\PF\Archive\New folder\git', 'C:\Users\Public\AppData\Roaming\Everything']
-=======
   roots: ['B:\PF', 'B:\PF\AhkProjectFolder', 'B:\PF\Archive', 'B:\PF\CSharpVisualStudio',
     'B:\PF\Cv -Project', 'B:\PF\ForksDownloadedCode\boxsocial', 'B:\PF\ForksDownloadedCode\gmaster_tour',
     'B:\PF\ForksDownloadedCode\google-photos-delete-tool', 'B:\PF\GitPs1Module', 'B:\PF\chris',
@@ -40,7 +30,6 @@ gitRootSettingsSet:
       Item In Explorer', 'B:\PF\chris\autohotkey\script\fork\SelectedTextWithoutDisturbingClipboard',
     'B:\PF\chris\autohotkey\script\fork\WindowToforeground', ~, ~\AppData, 'C:\ProgramData\scoop\persist',
     'C:\ProgramData\scoop\persist\Everything-Paf']
->>>>>>> 5477ba7ac8 (state)
   rootB:\ToGit:
     databaseCleanup: {}
     log:
@@ -5714,8 +5703,6 @@ gitRootSettingsSet:
     push: {}
     commitNotes:
       commitNotesHistory:
-      - ads
-      - submodules
       - etc
       - |-
         new to incorperate in modules
@@ -5727,6 +5714,8 @@ gitRootSettingsSet:
       - Tokenization submodule
       - reverted pre gpt with atom config
       - '[feature] Git-grep and Git-lstree'
+      - Reverted to pre gpt
+      - Reorganized git
     journal: {}
   rootB:\PF\CSharpVisualStudio\repos:
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690888402135}
@@ -11377,7 +11366,7 @@ gitRootSettingsSet:
     commitNotes: {}
     journal: {}
   rootB:\PF\Archive\ps1\git\repair\submodule\add_submodule:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1691093152987}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690330815572}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
@@ -11387,7 +11376,7 @@ gitRootSettingsSet:
     commitNotes: {}
     journal: {}
   rootB:\PF\Archive\ps1\workflow\CsharpI:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1691093152666}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690330815618}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
@@ -12332,191 +12321,4 @@ gitRootSettingsSet:
     push: {}
     commitNotes: {}
     journal: {}
-<<<<<<< HEAD
-  rootB:\PF\Archive\ps1\git\repair\xsubmodule\add_submodule:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1691095394944}
-    log:
-      rootSettings: {}
-      fileFilterConfiguration: {}
-    merge:
-      logRootSettings: {}
-    push: {}
-    commitNotes: {}
-    journal: {}
-  rootC:\Users\Public:
-    databaseCleanup: {}
-    log:
-      rootSettings: {}
-      fileFilterConfiguration: {}
-    merge:
-      logRootSettings: {}
-    push: {}
-    commitNotes:
-      commitNotesHistory: [toVerify2]
-    journal: {}
-  rootC:\Users\Public\.config:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1691266975622}
-    log:
-      rootSettings: {}
-      fileFilterConfiguration: {}
-    merge:
-      logRootSettings: {}
-    push: {}
-    commitNotes: {}
-    journal: {}
-  rootC:\Users\Public\AppData:
-    databaseCleanup: {}
-    log:
-      rootSettings: {baseRoots: "!local-branches://\t!remote://origin\t!others://\t\
-          ref://HEAD", extendedRoots: ''}
-      fileFilterConfiguration: {}
-    merge:
-      logRootSettings: {}
-    push: {}
-    commitNotes:
-      commitNotesHistory: [etc]
-    journal: {}
-  rootC:\Users\Public\Documents - Junction:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1691266975045}
-    log:
-      rootSettings: {}
-      fileFilterConfiguration: {}
-    merge:
-      logRootSettings: {}
-    push: {}
-    commitNotes: {}
-    journal: {}
-  rootC:\Users\Public\My Documents:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1691266975214}
-    log:
-      rootSettings: {}
-      fileFilterConfiguration: {}
-    merge:
-      logRootSettings: {}
-    push: {}
-    commitNotes: {}
-    journal: {}
-  rootC:\Users\Public\scoop\persist:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1691266975720}
-    log:
-      rootSettings: {}
-      fileFilterConfiguration: {}
-    merge:
-      logRootSettings: {}
-    push: {}
-    commitNotes: {}
-    journal: {}
-  rootC:\Users\Public\source:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1691266975938}
-    log:
-      rootSettings: {}
-      fileFilterConfiguration: {}
-    merge:
-      logRootSettings: {}
-    push: {}
-    commitNotes: {}
-    journal: {}
-  rootC:\Users\Public\.config\git:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1691266975160}
-    log:
-      rootSettings: {}
-      fileFilterConfiguration: {}
-    merge:
-      logRootSettings: {}
-    push: {}
-    commitNotes: {}
-    journal: {}
-  rootC:\Users\Public\.config\powershell:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1691266975326}
-    log:
-      rootSettings: {}
-      fileFilterConfiguration: {}
-    merge:
-      logRootSettings: {}
-    push: {}
-    commitNotes: {}
-    journal: {}
-  rootC:\Users\Public\AppData\Roaming\Scooter Software\Beyond Compare 4:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1691266975274}
-    log:
-      rootSettings: {}
-      fileFilterConfiguration: {}
-    merge:
-      logRootSettings: {}
-    push: {}
-    commitNotes: {}
-    journal: {}
-  rootC:\Users\Public\AppData\Roaming\d2rmm:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1691266975369}
-    log:
-      rootSettings: {baseRoots: "!local-branches://\tref://HEAD", extendedRoots: ''}
-      fileFilterConfiguration: {}
-    merge:
-      logRootSettings: {}
-    push: {}
-    commitNotes: {}
-    journal: {}
-  rootC:\Users\Public\scoop\apps\scoop\current:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1691267009378}
-    log:
-      rootSettings: {}
-      fileFilterConfiguration: {}
-    merge:
-      logRootSettings: {}
-    push: {}
-    commitNotes: {}
-    journal: {}
-  rootC:\Users\Public\Documents:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1691267026261}
-    log:
-      rootSettings: {}
-      fileFilterConfiguration: {}
-    merge:
-      logRootSettings: {}
-    push: {}
-    commitNotes: {}
-    journal: {}
-  rootC:\Users\Public\Documents\PowerShell:
-    databaseCleanup: {}
-    log:
-      rootSettings: {}
-      fileFilterConfiguration: {}
-    merge:
-      logRootSettings: {}
-    push: {}
-    commitNotes: {}
-    journal: {}
-  rootB:\PF\Archive\New folder:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1691396625223}
-    log:
-      rootSettings: {}
-      fileFilterConfiguration: {}
-    merge:
-      logRootSettings: {}
-    push: {}
-    commitNotes:
-      commitNotesHistory: [asSubmodule]
-    journal: {}
-  rootB:\PF\Archive\New folder\git:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1691396634213}
-    log:
-      rootSettings: {}
-      fileFilterConfiguration: {}
-    merge:
-      logRootSettings: {}
-    push: {}
-    commitNotes: {}
-    journal: {}
-  rootC:\Users\Public\AppData\Roaming\Everything:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1691445294318}
-    log:
-      rootSettings: {}
-      fileFilterConfiguration: {}
-    merge:
-      logRootSettings: {}
-    push: {}
-    commitNotes: {}
-    journal: {}
-=======
->>>>>>> 5477ba7ac8 (state)
 pushMultiRoot: {}

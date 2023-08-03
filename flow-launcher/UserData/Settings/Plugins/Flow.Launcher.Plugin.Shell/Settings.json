@@ -53,16 +53,6 @@
     "scoop install scoop-completion": 1,
     "scoop install virtualhere-server": 1,
     "\u0026 systeminfo.exe": 1,
-<<<<<<< HEAD
-    "scoop install main/vswhere": 1,
-    "scoop uninstall AdvancedRenamer ; scoop install advancedrenamer": 1,
-    "scoop reinstall pspad": 1,
-    "scoop install nonportable/files-np": 1,
-    "scoop install ACooper81_scoop-apps/Files-Install": 1,
-    "pip install git-corrupt": 1,
-    "git status": 1
-=======
     "scoop install main/vswhere": 1
->>>>>>> 5477ba7ac8 (state)
   }
 }
