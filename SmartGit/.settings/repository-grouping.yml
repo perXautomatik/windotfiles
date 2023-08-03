@@ -5,17 +5,8 @@ structure:
   - name: chris
     children:
     - {name: Documents, path: 'B:\Users\chris\Documents'}
-<<<<<<< HEAD
-<<<<<<< HEAD
-    expanded: false
-=======
     - {name: chris, path: 'B:\Users\chris'}
     expanded: true
->>>>>>> 383186bd19 (state)
-=======
-    - {name: chris, path: 'B:\Users\chris'}
-    expanded: true
->>>>>>> 383186bd19 (state)
   - name: SteamLibrary
     children:
     - {name: steamapps, path: 'B:\SteamLibrary\steamapps'}
@@ -29,11 +20,6 @@ structure:
     - {name: NewWindows2, path: 'B:\PF\NewWindows2'}
     - {name: NewWindows3, path: 'B:\PF\NewWindows3'}
     - {name: TIG-stack, path: 'B:\ToGit\IoT\TIG-stack'}
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 383186bd19 (state)
     - {name: RegionGotland, path: 'B:\PF\RegionGotland'}
     - {name: Modding, path: 'B:\PF\Modding'}
     - {name: diablo-ii-resurrectedb, path: 'B:\PF\Modding\Diablo II ressurected\modding.worktrees\diablo-ii-resurrectedb'}
@@ -43,10 +29,6 @@ structure:
     - {name: PetStore, path: 'B:\PF\CSharpVisualStudio\repos\Boras2\PetStore'}
     - {name: chris, path: 'B:\PF\chris'}
     - {name: autohotkey, path: 'B:\PF\chris\autohotkey'}
-<<<<<<< HEAD
->>>>>>> 383186bd19 (state)
-=======
->>>>>>> 383186bd19 (state)
     expanded: false
   - {name: ToGit, path: 'G:\ToGit'}
   - {name: scoopbucket-presist, path: 'G:\ToGit\projectFolderBare\scoopbucket-presist'}
@@ -56,15 +38,7 @@ structure:
     - {name: ps1, path: 'B:\PF\Archive\ps1'}
     - {name: PowerShell, path: 'B:\PF\PowerShell'}
     - {name: PowershellProjectFolder, path: 'B:\PF\PowershellProjectFolder'}
-<<<<<<< HEAD
-<<<<<<< HEAD
-    - {name: ps1, path: 'B:\ps1'}
-=======
     expanded: true
->>>>>>> 383186bd19 (state)
-=======
-    expanded: true
->>>>>>> 383186bd19 (state)
   expanded: true
 - name: I:\Downloads\2022
   children:
@@ -80,19 +54,6 @@ structure:
   - {name: scoopbucket-1, path: 'B:\PF\scoopbucket-1'}
   - {name: scoopbucket-presist, path: 'B:\PF\scoopbucket-presist'}
   - {name: Deployed-persist, path: 'C:\ProgramData\scoop\persist'}
-<<<<<<< HEAD
-<<<<<<< HEAD
-  expanded: true
-recentlyUsed: ['C:\ProgramData\scoop\persist', 'B:\PF\scoopbucket-presist', 'B:\PF\scoopbucket-1',
-  'B:\PF\PowershellProjectFolder', 'B:\PF\PowerShell', 'B:\PF\Archive\ps1', 'C:\ProgramData\scoop\buckets',
-  'B:\GitPs1Module', 'B:\ps1', 'B:\ToGit\IoT\TIG-stack', 'B:\ToGit\IoT', 'B:\PF\NewWindows3',
-  'B:\PF\NewWindows2', 'B:\PF', 'B:\PF\Archive', 'B:\Filtered', \\DESKTOP-FIQ183H\BLoppy\ToGit\scoopbucket-1,
-  'B:\Users\chris\Documents', 'B:\New folder (2)\General-ProjectFolders', 'B:\ToGit',
-  \\Sabrina\b\ToGit\Ny mapp\projectFolderBare, 'G:\ToGit\projectFolderBare\scoopbucket-presist',
-  'G:\ToGit', 'B:\ToGit\SubmoduleFromGitmodules', 'B:\SteamLibrary\steamapps', 'I:\Downloads\2022\assorted']
-=======
-=======
->>>>>>> 383186bd19 (state)
   - {name: PowerShell, path: 'C:\Users\CrRoot\AppData\Local\Temp\tmp7434.tmp\PowerShell'}
   - {name: CrRoot, path: 'C:\Users\CrRoot'}
   expanded: true
@@ -106,7 +67,3 @@ recentlyUsed: ['C:\ProgramData\scoop\persist', 'C:\Users\CrRoot', 'B:\PF\chris',
   'B:\New folder (2)\General-ProjectFolders', 'B:\ToGit', \\Sabrina\b\ToGit\Ny mapp\projectFolderBare,
   'G:\ToGit\projectFolderBare\scoopbucket-presist', 'G:\ToGit', 'B:\ToGit\SubmoduleFromGitmodules',
   'B:\SteamLibrary\steamapps', 'I:\Downloads\2022\assorted']
-<<<<<<< HEAD
->>>>>>> 383186bd19 (state)
-=======
->>>>>>> 383186bd19 (state)

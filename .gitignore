@@ -1,126 +1,46 @@
-*.*.bak
-*.~
-*.~*
-*.~yml
-*.0-win32-x64
-*.7z
 *.bak
-*.db
-*.dll
-*.exe
-*.gif
-*.png
-*.pyc
-*.pyi
-*.rb
-*.rdoc
-*.ri
-*.sqlite
-*.txt.0
-*.vscdb
-*.vscdb.backup
-.mono
-__init__.py
-adobe
-beeftext/data/backup
-bnb_saves
-cache_data
-cyberlink
-desktopapp
-digitalpersona
-discord
-dvdcss
-flexnet
-flow-launcher/userdata/cache
-flow-launcher/userdata/environments/python/pythonembeddable-v3.8.9
-flow-launcher/userdata/logs/1.15.0
-flow-launcher/userdata/plugins/window walker-2.2.2
-flow-launcher/userdata/plugins/winsflow-1.0.0/lib/flowlauncher
-flow-launcher/userdata/plugins/winsflow-1.0.0/lib/flowlauncher/__pycache__
-flow-launcher/userdata/plugins/winsflow-1.0.0/lib/flowlauncher-0.2.0.dist-info
-github desktop
-github desktop.backupbygithubdesktopportable
-hewlett-packard
-hp
-hpqlog
-identities
-intel
-intel corporation
-intel.sav
-license
-lock
-log
-macrovision
-manifest-000001
-marcomastroddisw
-media center programs
-microsoft
-microsoft fxcop
-nodejs/bin/node_modules/git-pull-all
+*.*.bak
+LOG
+vscodium\data\extensions\pycom.pymakr-preview-2.25.2\src\terminal\bin\client-macos
+vscodium\data\extensions\pycom.pymakr-preview-2.25.2\src\terminal\bin
+vscodium/data/extensions/pycom.pymakr-preview-2.25.2/src/terminal/bin
+vscodium/data/user-data/Cache/Cache_Data
+SmartGit/.settings/logs
+snappy-driver-installer-origin/logs
+beeftext/Data/Backup
+flow-launcher/UserData/Cache
+flow-launcher/UserData/Environments/Python/PythonEmbeddable-v3.8.9
+flow-launcher/UserData/Logs/1.15.0
 nodejs/cache
-nuget
-nutaku
-openoffice
-opera software
-python/lib/site-packages
-renpy
+python/Lib/site-packages
+*.exe
 ruby/gems/bin
 ruby/gems/cache
-ruby/gems/doc/rake-13.0.6/ri
-ruby/gems/gems/rake-13.0.6/doc
-<<<<<<< HEAD
-sierra wireless
-skype
-slack
-smartgit/.settings/gravatar-cache
-smartgit/.settings/logs
-snappy-driver-installer-origin/indexes/sdi
-snappy-driver-installer-origin/logs
-snappy-driver-installer-origin/update/sdio_update/tools/sdi/langs
-sophiapp/logs
-spotify
-squirreltemp
-sun
-synaptics
-tapdb
-teams
-the-real-index
-unity
-valve corporation
-visual studio setup
-vlc
-vs_installershell
+snappy-driver-installer-origin/indexes/SDI
+snappy-driver-installer-origin/update/SDIO_Update/tools/SDI/langs
 vscodium/data/extensions
-vscodium/data/extensions/pycom.pymakr-preview-2.25.2/src/terminal/bin
-vscodium/data/user-data/backups
-vscodium/data/user-data/cache/cache_data
-vscodium/data/user-data/cacheddata/e06ea6147733c975d26c3d3552462681e05cb147
-vscodium/data/user-data/cachedextensionvsixs
-vscodium/data/user-data/cachedprofilesdata/__default__profile__
-vscodium/data/user-data/code cache/js
-vscodium/data/user-data/code cache/wasm
-vscodium/data/user-data/dawncache
-vscodium/data/user-data/gpucache
-vscodium/data/user-data/local storage/leveldb
-vscodium/data/user-data/network
-vscodium/data/user-data/service worker/cachestorage/2a08e05dd8317823ff0c8e25274646c6fdffd494/33422d09-81e0-4dab-9210-13edb0bc97e0
-vscodium/data/user-data/service worker/cachestorage/6e486b7685d2db59328fcb8f71d88884d7bcb1ec/c8cd325e-007d-4ee1-b389-6ab5b91a2531
-vscodium/data/user-data/service worker/cachestorage/7fb96837ad2fd80737ebd228516bc7f344d87939/b1d5eced-76a0-4385-a6c7-67a4b90f0acb
-vscodium/data/user-data/service worker/cachestorage/a7d8bed39f467f956fcc1418b01cf3e4d7b08889/e27a8c64-d16a-4d43-9514-9d1ca2e339ba
-vscodium/data/user-data/service worker/cachestorage/c1e1b3df3d0d989c64c61b899f531ab7d2a18b8b/96dc4d1a-997e-444c-be7b-61b02a1453cd
-vscodium/data/user-data/service worker/database
-vscodium/data/user-data/service worker/scriptcache
-vscodium/data/user-data/session storage
-vscodium/data/user-data/webstorage
-vscodium\data\extensions\pycom.pymakr-preview-2.25.2\src\terminal\bin
-vscodium\data\extensions\pycom.pymakr-preview-2.25.2\src\terminal\bin\client-macos
-vstelemetry
-winscp.rnd
-wizards of the coast
-wmcore
-zoom
-zoomrooms
-=======
+vscodium/data/user-data/Backups
+vscodium/data/user-data/CachedData/e06ea6147733c975d26c3d3552462681e05cb147
+vscodium/data/user-data/CachedExtensionVSIXs
+vscodium/data/user-data/CachedProfilesData/__default__profile__
+vscodium/data/user-data/Service Worker/CacheStorage/2a08e05dd8317823ff0c8e25274646c6fdffd494/33422d09-81e0-4dab-9210-13edb0bc97e0
+vscodium/data/user-data/DawnCache
+vscodium/data/user-data/GPUCache
+*.png
+vscodium/data/user-data/Service Worker/CacheStorage/a7d8bed39f467f956fcc1418b01cf3e4d7b08889/e27a8c64-d16a-4d43-9514-9d1ca2e339ba
+*.vscdb.backup
+vscodium/data/user-data/Service Worker/CacheStorage/7fb96837ad2fd80737ebd228516bc7f344d87939/b1d5eced-76a0-4385-a6c7-67a4b90f0acb
+vscodium/data/user-data/Service Worker/CacheStorage/c1e1b3df3d0d989c64c61b899f531ab7d2a18b8b/96dc4d1a-997e-444c-be7b-61b02a1453cd
+*.gif
+*.txt.0
+sophiapp/Logs
+*.rdoc
+*.vscdb
+*.sqlite
+*.db
+vscodium/data/user-data/Service Worker/ScriptCache
+vscodium/data/user-data/Service Worker/CacheStorage/6e486b7685d2db59328fcb8f71d88884d7bcb1ec/c8cd325e-007d-4ee1-b389-6ab5b91a2531
+ruby/gems/gems/rake-13.0.6/doc
 *.rb
 SmartGit/.settings/gravatar-cache
 flow-launcher/UserData/Plugins/Window Walker-2.2.2
@@ -136,7 +56,7 @@ LICENSE
 *.pyc
 __init__.py
 *.~yml
-<<<<<<< HEAD
->>>>>>> 383186bd19 (state)
-=======
->>>>>>> 383186bd19 (state)
+*.lock
+_lock_
+*.postlock
+*.prelock

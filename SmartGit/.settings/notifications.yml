@@ -6,12 +6,6 @@ readNotifications: [hosting-provider-could-be-configured-github-null, needsResta
     4-null', 'repository-model-problem-b:/pf/chris/appdata/roaming/vortex-null', repositories-no-favorites-null,
   update-fetch-22.1.6-success, 'repository-git-core-ignorecase-mismatch-b:/pf/notetakingprojectfolder/1d5a90b4975101fa1666d66382799002-null',
   'repository-model-problem-b:/pf/scoopbucket-presist/jetbrains-null', 'repository-git-cleanup-b:/pf/notetakingprojectfolder/notebooks-null',
-<<<<<<< HEAD
-<<<<<<< HEAD
-  'repository-git-cleanup-o:/d2rmm 1.4.5/mods-null', follow-us-on-twitter-null]
-=======
-=======
->>>>>>> 383186bd19 (state)
   'repository-git-cleanup-o:/d2rmm 1.4.5/mods-null', follow-us-on-twitter-null, 'repository-model-problem-c:/programdata/scoop/persist/everything-null',
   update-fetch-22.1.7-success, 'repository-model-problem-b:/pf/powershell/donendeserted/git/generalsourcecompare-null',
   'repository-model-problem-b:/pf/chris/.config/powershell-null', 'repository-model-problem-b:/pf/chris/documents/powershell-null',
@@ -27,45 +21,20 @@ readNotifications: [hosting-provider-could-be-configured-github-null, needsResta
   'repository-model-problem-b:/pf/chris/autohotkey/script/fork/selected item in explorer-null',
   'repository-model-problem-b:/pf/chris/autohotkey/script/fork/windowtoforeground-null',
   'repository-model-problem-b:/pf/chris/scoop/apps/scoop/current-null']
-<<<<<<< HEAD
->>>>>>> 383186bd19 (state)
-=======
->>>>>>> 383186bd19 (state)
 dontPublishNotifications: ['repository-git-core-ignorecase-mismatch-b:/togit/project
     shelf/archive/sql_db/ffx-null', 'repository-git-core-ignorecase-mismatch-b:/togit/project
     shelf/archive/regiongotland/utskicksstruktur/brev-null', 'repository-git-core-ignorecase-mismatch-b:/togit/project
     shelf/projectfolderbare/newwindows/scoopbucket-1/windowsdebloat-null', credential.helper-null,
-<<<<<<< HEAD
-<<<<<<< HEAD
-  'repository-git-core-ignorecase-mismatch-b:/togit-null', repositories-no-favorites-null]
-=======
   'repository-git-core-ignorecase-mismatch-b:/togit-null', 'repository-refs-reading-many-loose-b:/pf/powershellprojectfolder/scripts-null',
   'repository-refs-reading-many-loose-b:/pf/powershellprojectfolder-null', repositories-no-favorites-null]
->>>>>>> 383186bd19 (state)
-=======
-  'repository-git-core-ignorecase-mismatch-b:/togit-null', 'repository-refs-reading-many-loose-b:/pf/powershellprojectfolder/scripts-null',
-  'repository-refs-reading-many-loose-b:/pf/powershellprojectfolder-null', repositories-no-favorites-null]
->>>>>>> 383186bd19 (state)
 dontPublishUntil-repository-git-core-ignorecase-mismatch-b:/togit/project shelf/archive/sql_db/ffx-null: 1684575209016
 ? dontPublishUntil-repository-git-core-ignorecase-mismatch-b:/togit/project shelf/archive/regiongotland/utskicksstruktur/brev-null
 : 1684592755884
 ? dontPublishUntil-repository-git-core-ignorecase-mismatch-b:/togit/project shelf/projectfolderbare/newwindows/scoopbucket-1/windowsdebloat-null
 : 1684755209637
-<<<<<<< HEAD
-<<<<<<< HEAD
-dontPublishUntil-repositories-no-favorites-null: 1688502066175
-dontPublishUntil-credential.helper-null: 0
-dontPublishUntil-repository-git-core-ignorecase-mismatch-b:/togit-null: 1686047834063
-=======
-=======
->>>>>>> 383186bd19 (state)
 dontPublishUntil-repositories-no-favorites-null: 1691140300483
 dontPublishUntil-credential.helper-null: 0
 dontPublishUntil-repository-git-core-ignorecase-mismatch-b:/togit-null: 1686047834063
 dontPublishUntil-repository-refs-reading-many-loose-b:/pf/powershellprojectfolder/scripts-null: 1690310089540
 dontPublishUntil-repository-refs-reading-many-loose-b:/pf/powershellprojectfolder-null: 1690310092296
 dontPublishUntil-repository-git-core-ignorecase-mismatch-b:/pf/forksdownloadedcode/google-photos-delete-tool-null: 1690313775242
-<<<<<<< HEAD
->>>>>>> 383186bd19 (state)
-=======
->>>>>>> 383186bd19 (state)
