@@ -1,11 +1,16 @@
 *.*.bak
+*.*.bak
+*.~
 *.~
 *.~*
 *.~yml
 *.0-win32-x64
 *.7z
+*.7z
+*.bak
 *.bak
 *.db
+*.dll
 *.dll
 *.exe
 *.gif
@@ -14,6 +19,7 @@
 *.postlock
 *.prelock
 *.pyc
+*.pyi
 *.pyi
 *.rb
 *.rdoc
@@ -64,6 +70,7 @@ snappy-driver-installer-origin/update/SDIO_Update/tools/SDI/langs
 sophiapp/Logs
 the-real-index
 vscodium/data/extensions
+vscodium/data/extensions/pycom.pymakr-preview-2.25.2/src/terminal/bin
 vscodium/data/user-data/Backups
 vscodium/data/user-data/Network
 vscodium/data/user-data/Session Storage

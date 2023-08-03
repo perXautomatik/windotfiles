@@ -1,6 +1,7 @@
 {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     "security.workspace.trust.untrustedFiles": "open",
     "pymakr.devices.configs": {
         "serial://COM1": {
@@ -22,6 +23,8 @@
         },
         "serial://": {
 =======
+=======
+>>>>>>> 159d1b1f27 (state)
 =======
 >>>>>>> 159d1b1f27 (state)
     "[javascript]": {
@@ -1177,6 +1180,9 @@
     "pymakr.devices.configs": {
         "6&2838f1dc&0&3": {
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 159d1b1f27 (state)
+=======
 >>>>>>> 159d1b1f27 (state)
 =======
 >>>>>>> 159d1b1f27 (state)
@@ -1184,6 +1190,7 @@
             "name": "",
             "username": "micro",
             "password": "python",
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
             "hidden": true,
@@ -1194,12 +1201,17 @@
 =======
 =======
 >>>>>>> 159d1b1f27 (state)
+=======
+>>>>>>> 159d1b1f27 (state)
             "hidden": false,
             "rootPath": null,
             "adapterOptions": {}
         },
         "serial://COM1": {
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 159d1b1f27 (state)
+=======
 >>>>>>> 159d1b1f27 (state)
 =======
 >>>>>>> 159d1b1f27 (state)
@@ -1212,6 +1224,7 @@
             "adapterOptions": {}
         }
     },
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
     "pymakr.misc.notifications": {
@@ -1243,6 +1256,8 @@
 =======
 =======
 >>>>>>> 159d1b1f27 (state)
+=======
+>>>>>>> 159d1b1f27 (state)
     "vscodemacros.macroFilePath": "B:\\PF\\Archive\\ps1\\.vscode\\",
     "vscodemacros.userMacroCommands": [
 
@@ -1266,6 +1281,9 @@
     "workbench.colorTheme": "PowerShell ISE"
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 159d1b1f27 (state)
+=======
 >>>>>>> 159d1b1f27 (state)
 =======
 >>>>>>> 159d1b1f27 (state)
