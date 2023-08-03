@@ -1,0 +1,6 @@
+global:
+- {action: ignore}
+- {action: ignoreWhitespaceOnlyChanges}
+- {action: submoduleInit, keyStroke: CTRL+I}
+- {action: viewSetAnchorCommit}
+completionKeyStroke: CTRL+SPACE

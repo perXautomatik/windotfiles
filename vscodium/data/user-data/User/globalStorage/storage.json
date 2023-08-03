@@ -2,71 +2,101 @@
     "userDataProfilesMigration": true,
     "profileAssociations": {
         "workspaces": {
-            "file:///b%3A/PF/Archive/ps1": "__default__profile__",
             "file:///b%3A/PF/IoT": "__default__profile__",
             "file:///b%3A/PF/IoT/IoT.code-workspace": "__default__profile__",
             "file:///b%3A/PF/IoT/Docker": "__default__profile__",
-            "file:///b%3A/PF/Modding/Diablo%20II%20ressurected": "__default__profile__"
+            "file:///b%3A/PF/Modding/Diablo%20II%20ressurected.code-workspace": "__default__profile__",
+            "file:///b%3A/PF/Modding/Diablo%20II%20ressurected": "__default__profile__",
+            "file:///b%3A/PF/Archive/ps1": "__default__profile__"
         },
-        "emptyWindows": {}
+        "emptyWindows": {
+            "1691840817392": "__default__profile__"
+        }
     },
     "profileAssociationsMigration": true,
     "telemetry.machineId": "43b2f78b9133472da9df405d4b0940e2df1f4bac66d61a01814155213dabb309",
     "backupWorkspaces": {
         "workspaces": [
             {
-                "id": "b21af4861b36d146b2dfe28a78c880de",
-                "configURIPath": "file:///c%3A/ProgramData/scoop/apps/vscodium/1.80.0.23188/data/user-data/Workspaces/1688383053028/workspace.json"
-            },
-            {
                 "id": "ca3800cc93ac03441d8145fb8f1af182",
                 "configURIPath": "file:///b%3A/PF/Modding/Diablo%20II%20ressurected.code-workspace"
+            },
+            {
+                "id": "b21af4861b36d146b2dfe28a78c880de",
+                "configURIPath": "file:///c%3A/ProgramData/scoop/apps/vscodium/1.80.0.23188/data/user-data/Workspaces/1688383053028/workspace.json"
             }
         ],
         "folders": [
             {
                 "folderUri": "file:///b%3A/PF/Modding/Diablo%20II%20ressurected"
+            },
+            {
+                "folderUri": "file:///b%3A/PF/Archive/ps1"
             }
         ],
-        "emptyWindows": []
+        "emptyWindows": [
+            {
+                "backupFolder": "1691840817392"
+            }
+        ]
     },
     "windowsState": {
         "lastActiveWindow": {
-            "workspaceIdentifier": {
-                "id": "ca3800cc93ac03441d8145fb8f1af182",
-                "configURIPath": "file:///b%3A/PF/Modding/Diablo%20II%20ressurected.code-workspace"
-            },
-            "backupPath": "C:\\ProgramData\\scoop\\apps\\vscodium\\1.80.0.23188\\data\\user-data\\Backups\\ca3800cc93ac03441d8145fb8f1af182",
+            "folder": "file:///b%3A/PF/Archive/ps1",
+            "backupPath": "C:\\ProgramData\\scoop\\apps\\vscodium\\1.80.0.23188\\data\\user-data\\Backups\\76317f146591116761123f44f11f6998",
             "uiState": {
                 "mode": 1,
-                "x": 650,
-                "y": 80,
+                "x": 2130,
+                "y": 97,
                 "width": 1024,
-                "height": 746
+                "height": 768
             }
         },
-        "openedWindows": []
+        "openedWindows": [
+            {
+                "folder": "file:///b%3A/PF/Modding/Diablo%20II%20ressurected",
+                "backupPath": "C:\\ProgramData\\scoop\\apps\\vscodium\\1.80.0.23188\\data\\user-data\\Backups\\0e4a9b05f2ae6e2df7d3b0d91ddc1ba0",
+                "uiState": {
+                    "mode": 0,
+                    "x": 600,
+                    "y": 154,
+                    "width": 1506,
+                    "height": 746
+                }
+            },
+            {
+                "folder": "file:///b%3A/PF/Archive/ps1",
+                "backupPath": "C:\\ProgramData\\scoop\\apps\\vscodium\\1.80.0.23188\\data\\user-data\\Backups\\76317f146591116761123f44f11f6998",
+                "uiState": {
+                    "mode": 1,
+                    "x": 2130,
+                    "y": 97,
+                    "width": 1024,
+                    "height": 768
+                }
+            }
+        ]
     },
     "windowControlHeight": 30,
-    "theme": "vs-dark",
-    "themeBackground": "#1f1f1f",
+    "theme": "vs",
+    "themeBackground": "#ffffff",
     "windowSplash": {
-        "zoomLevel": 0,
-        "baseTheme": "vs-dark",
+        "zoomLevel": -1,
+        "baseTheme": "vs",
         "colorInfo": {
-            "foreground": "#cccccc",
-            "background": "#1f1f1f",
-            "editorBackground": "#1f1f1f",
-            "titleBarBackground": "#181818",
-            "activityBarBackground": "#181818",
-            "sideBarBackground": "#181818",
-            "statusBarBackground": "#181818",
-            "statusBarNoFolderBackground": "#1f1f1f"
+            "foreground": "#616161",
+            "background": "#ffffff",
+            "editorBackground": "#ffffff",
+            "titleBarBackground": "#dddddd",
+            "activityBarBackground": "#e1ecf9",
+            "sideBarBackground": "#f3f3f3",
+            "statusBarBackground": "#999999",
+            "statusBarNoFolderBackground": "#999999"
         },
         "layoutInfo": {
             "sideBarSide": "left",
             "editorPartMinWidth": 220,
-            "titleBarHeight": 30,
+            "titleBarHeight": 36,
             "activityBarWidth": 48,
             "sideBarWidth": 241,
             "statusBarHeight": 22,
