@@ -160,8 +160,7 @@ tools:
   waitUntilFinished: true
   filePattern: '*'
 - name: MoveCommit
-  fileStarter: {command: pwsh.exe, parameters: '"C:\ProgramData\scoop\persist\SmartGit\movecommit.ps1"
-      ${selectionFile}'}
+  fileStarter: {command: 'C:\ProgramData\scoop\persist\SmartGit\movecommit.bat', parameters: '${selectionFile}'}
   useForOpen: false
   waitUntilFinished: true
   filePattern: '*'
