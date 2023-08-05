@@ -1,4 +1,9 @@
 tools:
+- name: Gitk
+  fileStarter: {command: gitk.exe, parameters: '-- ${filePath}'}
+  useForOpen: true
+  waitUntilFinished: false
+  filePattern: '*'
 - name: Add Remote From Clipboard
   fileStarter: {command: powershell.exe, parameters: 'cd "${filePath}" ; git remote
       add origin (get-clipboard) ; git fetch --all ;  git checkout --track remotes/origin/master'}
