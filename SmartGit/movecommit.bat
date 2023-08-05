@@ -1,6 +1,18 @@
 @echo off
+rem A script that moves and renames files in a list of paths to the smallest file in the list.
+
 rem Define the file name that contains the list of paths
 set "FileName=%1"
+
+rem Check if the file name is provided and valid
+if "%FileName%" == "" (
+    echo No file name provided. Please provide a file name that contains a list of paths to files.
+    exit /b 1
+)
+if not exist "%FileName%" (
+    echo File name is invalid. Please provide a valid file name that exists and contains a list of paths to files.
+    exit /b 2
+)
 
 rem Read the file content and split it by line
 for /f "delims=" %%p in (%FileName%) do (
@@ -13,8 +25,7 @@ for /f "delims=" %%p in (%FileName%) do (
         set "oldName=%%~nxf"
         setlocal enabledelayedexpansion
         rem Move and rename the file to the target with force
-        move /y "!file!" "!target!" >nul
-        git add .
+        git mv "!file!" "!target!"
         rem Commit with a message containing the old name
         git commit -m "Moved and renamed !oldName! to !target!"
         endlocal
