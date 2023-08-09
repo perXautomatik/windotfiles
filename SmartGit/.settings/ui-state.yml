@@ -1,7 +1,13 @@
 bounds:
+<<<<<<< HEAD
 - {key: project, x: 667, y: 94, width: 1440, height: 866, state: 1}
 - {key: welcome}
 - {key: preferences, x: 33, y: 118, width: 1363, height: 498}
+=======
+- {key: project, x: 240, y: 58, width: 1440, height: 866}
+- {key: welcome}
+- {key: preferences, x: -67, y: 49, width: 1165, height: 498}
+>>>>>>> 5477ba7ac8 (state)
 - {key: compare, x: 38, y: 174, width: 1440, height: 866, state: 1}
 - {key: output, x: -85, y: 61, width: 1739, height: 919}
 - {key: git.commit, width: 1245, height: 514, x: -14, y: -66}
@@ -53,7 +59,13 @@ columns:
     - {id: Relative Path, width: 500, width2x: 0}
     sortOrders:
     - {id: State, reverse: false}
+<<<<<<< HEAD
     - {id: Relative Directory, reverse: true}
+=======
+    - {id: Ext., reverse: false}
+    - {id: Name, reverse: true}
+    - {id: Relative Directory, reverse: false}
+>>>>>>> 5477ba7ac8 (state)
     - {id: Size, reverse: true}
     - {id: Name, reverse: false}
     - {id: Ext., reverse: false}
@@ -141,6 +153,7 @@ columns:
     sortOrders:
     - {id: Name, reverse: false}
     - {id: Relative Directory, reverse: false}
+<<<<<<< HEAD
 gitViewFileFilter: {viewRecursive: true, viewFromSubmodules: false, viewIgnoredFiles: true,
   viewRenameSources: true, viewSkipped: true, viewUnversionedFiles: true, viewUnchangedFiles: true,
   viewUnchangedAssumed: false}
@@ -149,19 +162,37 @@ confirmations: {exit.showConfirmation: true, git.push: true, git.switchBranch.co
   close.unpushedCommits: true, commit.amend.replaceWarning: true, rebase.continue: true,
   rebaseContinue: false, git.switchBranch.fastForward: true, sync: true, splitCommit: true,
   conflictSolver.showConflictWarning: true}
+=======
+gitViewFileFilter: {viewRecursive: true, viewFromSubmodules: false, viewIgnoredFiles: false,
+  viewRenameSources: true, viewSkipped: true, viewUnversionedFiles: true, viewUnchangedFiles: true,
+  viewUnchangedAssumed: true}
+deepGitUiConfiguration: {}
+confirmations: {exit.showConfirmation: true, git.push: true, git.switchBranch.confirmation: true,
+  close.unpushedCommits: true, commit.amend.replaceWarning: true, rebase.continue: true,
+  rebaseContinue: false, git.switchBranch.fastForward: true, sync: true, splitCommit: true}
+>>>>>>> 5477ba7ac8 (state)
 repositoriesToReopen:
 - window: wt
   repositories: ['C:\Users\Public']
 - window: log
   repositories: ['C:\Users\Public']
 project.files.git.separateWtIndex: true
+<<<<<<< HEAD
 gitProjectLayout.main: (([+267x554:directories ][+267x369:branches ])((([+1650x490:files
   ][+1650x303:changes ])[-3x1:message ])([+1650x127:outgoing ][-3x1:output ])))
+=======
+gitProjectLayout.main: (([+449x440:directories ][+449x293:branches ])((([+972x225:files
+  ][+972x392:changes ])[-3x1:message ])([+972x113:outgoing ][-3x1:output ])))
+>>>>>>> 5477ba7ac8 (state)
 log.wtIndex.onDemand: true
 gitProjectLayout.mainIsdefault: true
 gitProjectLayout.review: ([+2x1:directories ][+7x1:files ][+3x1:message ])[+10x3:changes
   ]([-1x1:branches ][-3x1:outgoing ][-3x1:output ])
+<<<<<<< HEAD
 lastRepositoryPath: C:\Users\Public
+=======
+lastRepositoryPath: B:\PF\chris\autohotkey
+>>>>>>> 5477ba7ac8 (state)
 commit.expandOptions: true
 log.files.git.separateWtIndex: true
 gitLogRootLayout.main: (([+281x366:repositories ][+281x367:branches ])(([+377x558:graph

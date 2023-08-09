@@ -106,6 +106,7 @@ stats:
   changesview.syntax.html: {invocations: 3, invocationLast: 20230801, invocationDays: 2}
   action.repositoryClose: {invocations: 7, invocationLast: 20230807, invocationDays: 4}
   repo.opens.wt.files.100000-200000: {invocations: 2, invocationLast: 20230801, invocationDays: 1}
+<<<<<<< HEAD
   action.conflictSolver: {invocations: 1, invocationLast: 20230803, invocationDays: 1}
   window.conflictSolver: {invocations: 1, invocationLast: 20230803, invocationDays: 1}
   action.repositorySettings: {invocations: 1, invocationLast: 20230805, invocationDays: 1}
@@ -113,3 +114,5 @@ stats:
   repo.opens.wt.files.10000-50000: {invocations: 1, invocationLast: 20230805, invocationDays: 1}
   action.repositoryRename: {invocations: 2, invocationLast: 20230807, invocationDays: 1}
   changesview.syntax.nim: {invocations: 1, invocationLast: 20230807, invocationDays: 1}
+=======
+>>>>>>> 5477ba7ac8 (state)

@@ -9,6 +9,7 @@ gitRootSettingsSet:
     push: {}
     commitNotes: {}
     journal: {}
+<<<<<<< HEAD
   roots: ['B:\PF\Archive\ps1', 'B:\PF\Archive\ps1\Aggregation\TextProcessingProjectF',
     'B:\PF\Archive\ps1\git\repair\submodule\add_submodule', 'B:\PF\Archive\ps1\workflow\CsharpI',
     'C:\Users\Public', 'C:\Users\Public\.config', 'C:\Users\Public\AppData', 'C:\Users\Public\Documents
@@ -17,6 +18,29 @@ gitRootSettingsSet:
     'C:\Users\Public\AppData\Roaming\Scooter Software\Beyond Compare 4', 'C:\Users\Public\AppData\Roaming\d2rmm',
     'C:\Users\Public\scoop\apps\scoop\current', 'C:\Users\Public\Documents', 'C:\Users\Public\Documents\PowerShell',
     'B:\PF\Archive\New folder', 'B:\PF\Archive\New folder\git', 'C:\Users\Public\AppData\Roaming\Everything']
+=======
+  roots: ['B:\PF', 'B:\PF\AhkProjectFolder', 'B:\PF\Archive', 'B:\PF\CSharpVisualStudio',
+    'B:\PF\Cv -Project', 'B:\PF\ForksDownloadedCode\boxsocial', 'B:\PF\ForksDownloadedCode\gmaster_tour',
+    'B:\PF\ForksDownloadedCode\google-photos-delete-tool', 'B:\PF\GitPs1Module', 'B:\PF\chris',
+    'B:\PF\chris\AppData', 'B:\PF\chris\Documents', 'B:\PF\chris\autohotkey', 'B:\PF\chris\scoop\apps\scoop\current',
+    'B:\PF\chris\scoop\persist', 'B:\PF\chris\source', 'B:\PF\chris\Documents\PowerShell',
+    'B:\PF\chris\Documents\WindowsPowerShell', 'B:\PF\chris\autohotkey\Fork\AppendToClipboard',
+    'B:\PF\chris\autohotkey\Fork\autoklick', 'B:\PF\chris\autohotkey\Fork\CheckIfProgIsRunning',
+    'B:\PF\chris\autohotkey\Fork\ExplorerAtPath', 'B:\PF\chris\autohotkey\Fork\GetRunningProcess',
+    'B:\PF\chris\autohotkey\Fork\Launch If not Currently running', 'B:\PF\chris\autohotkey\Fork\Launch
+      If not Currently running Continously', 'B:\PF\chris\autohotkey\Fork\LaunchApplication',
+    'B:\PF\chris\autohotkey\Fork\MACRO RECORDER', 'B:\PF\chris\autohotkey\Fork\NoahHotell',
+    'B:\PF\chris\autohotkey\Fork\Selected Item In Explorer', 'B:\PF\chris\autohotkey\Fork\SelectedTextWithoutDisturbingClipboard',
+    'B:\PF\chris\autohotkey\Fork\WindowToforeground', 'B:\PF\chris\autohotkey\script\fork\MACRO
+      RECORDER', 'B:\PF\chris\autohotkey\script\fork\AppendToClipboard', 'B:\PF\chris\autohotkey\script\fork\CheckIfProgIsRunning',
+    'B:\PF\chris\autohotkey\script\fork\ExplorerAtPath', 'B:\PF\chris\autohotkey\script\fork\GetRunningProcess',
+    'B:\PF\chris\autohotkey\script\fork\Launch If not Currently running', 'B:\PF\chris\autohotkey\script\fork\Launch
+      If not Currently running Continously', 'B:\PF\chris\autohotkey\script\fork\LaunchApplication',
+    'B:\PF\chris\autohotkey\script\fork\NoahHotell', 'B:\PF\chris\autohotkey\script\fork\Selected
+      Item In Explorer', 'B:\PF\chris\autohotkey\script\fork\SelectedTextWithoutDisturbingClipboard',
+    'B:\PF\chris\autohotkey\script\fork\WindowToforeground', ~, ~\AppData, 'C:\ProgramData\scoop\persist',
+    'C:\ProgramData\scoop\persist\Everything-Paf']
+>>>>>>> 5477ba7ac8 (state)
   rootB:\ToGit:
     databaseCleanup: {}
     log:
@@ -12308,6 +12332,7 @@ gitRootSettingsSet:
     push: {}
     commitNotes: {}
     journal: {}
+<<<<<<< HEAD
   rootB:\PF\Archive\ps1\git\repair\xsubmodule\add_submodule:
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1691095394944}
     log:
@@ -12492,4 +12517,6 @@ gitRootSettingsSet:
     push: {}
     commitNotes: {}
     journal: {}
+=======
+>>>>>>> 5477ba7ac8 (state)
 pushMultiRoot: {}

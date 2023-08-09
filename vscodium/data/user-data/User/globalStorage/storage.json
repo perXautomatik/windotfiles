@@ -38,9 +38,9 @@
             },
             "backupPath": "C:\\ProgramData\\scoop\\apps\\vscodium\\1.80.0.23188\\data\\user-data\\Backups\\ca3800cc93ac03441d8145fb8f1af182",
             "uiState": {
-                "mode": 0,
-                "x": 263,
-                "y": 216,
+                "mode": 1,
+                "x": 650,
+                "y": 80,
                 "width": 1024,
                 "height": 746
             }

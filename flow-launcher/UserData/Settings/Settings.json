@@ -26,8 +26,13 @@
   "FirstLaunch": false,
   "SettingWindowWidth": 1280,
   "SettingWindowHeight": 1056,
+<<<<<<< HEAD
   "SettingWindowTop": 21,
   "SettingWindowLeft": 628,
+=======
+  "SettingWindowTop": -28,
+  "SettingWindowLeft": 320,
+>>>>>>> 5477ba7ac8 (state)
   "SettingWindowState": 0,
   "CustomExplorerIndex": 0,
   "CustomExplorerList": [
@@ -101,11 +106,19 @@
   "QuerySearchPrecision": "Regular",
   "AutoUpdates": false,
   "WindowLeft": 2230,
+<<<<<<< HEAD
   "WindowTop": -238,
   "CustomWindowLeft": 0,
   "CustomWindowTop": 0,
   "MaxResultsToShow": 17,
   "ActivateTimes": 580,
+=======
+  "WindowTop": -239,
+  "CustomWindowLeft": 0,
+  "CustomWindowTop": 0,
+  "MaxResultsToShow": 17,
+  "ActivateTimes": 541,
+>>>>>>> 5477ba7ac8 (state)
   "CustomPluginHotkeys": [],
   "CustomShortcuts": [],
   "DontPromptUpdateMsg": false,
@@ -234,7 +247,11 @@
           "opera"
         ],
         "Priority": -5,
+<<<<<<< HEAD
         "Disabled": true
+=======
+        "Disabled": false
+>>>>>>> 5477ba7ac8 (state)
       },
       "565B73353DBF4806919830B9202EE3BF": {
         "ID": "565B73353DBF4806919830B9202EE3BF",
@@ -265,7 +282,11 @@
           "google"
         ],
         "Priority": -9,
+<<<<<<< HEAD
         "Disabled": true
+=======
+        "Disabled": false
+>>>>>>> 5477ba7ac8 (state)
       },
       "5043CETYU6A748679OPA02D27D99677A": {
         "ID": "5043CETYU6A748679OPA02D27D99677A",
@@ -337,6 +358,39 @@
         "Priority": 0,
         "Disabled": false
       },
+<<<<<<< HEAD
+=======
+      "4D5DF575E4964C6AAADCF86134F09CC0": {
+        "ID": "4D5DF575E4964C6AAADCF86134F09CC0",
+        "Name": "Steam Search",
+        "Version": "9.0.1",
+        "ActionKeywords": [
+          "st"
+        ],
+        "Priority": 0,
+        "Disabled": false
+      },
+      "095A6AE3A255532EAAD78F05A71D4981": {
+        "ID": "095A6AE3A255532EAAD78F05A71D4981",
+        "Name": "Quick Uninstaller",
+        "Version": "2.0.0",
+        "ActionKeywords": [
+          "unin"
+        ],
+        "Priority": 0,
+        "Disabled": false
+      },
+      "SY91U1N7H9D0X1DTZ8IOP4YV43KT7C5M": {
+        "ID": "SY91U1N7H9D0X1DTZ8IOP4YV43KT7C5M",
+        "Name": "SpotifyPremium",
+        "Version": "1.1.5",
+        "ActionKeywords": [
+          "sp"
+        ],
+        "Priority": 0,
+        "Disabled": false
+      },
+>>>>>>> 5477ba7ac8 (state)
       "C7E78C47FA5942E4B7972EAD844F5007": {
         "ID": "C7E78C47FA5942E4B7972EAD844F5007",
         "Name": "Window Services",
@@ -355,7 +409,11 @@
           "wst"
         ],
         "Priority": 0,
+<<<<<<< HEAD
         "Disabled": true
+=======
+        "Disabled": false
+>>>>>>> 5477ba7ac8 (state)
       },
       "525995402BEF4A8CA860D92F6D108092": {
         "ID": "525995402BEF4A8CA860D92F6D108092",
@@ -385,7 +443,11 @@
           "reg"
         ],
         "Priority": 0,
+<<<<<<< HEAD
         "Disabled": true
+=======
+        "Disabled": false
+>>>>>>> 5477ba7ac8 (state)
       },
       "240B648F33DD4105800747A2749E1B5C": {
         "ID": "240B648F33DD4105800747A2749E1B5C",
@@ -395,7 +457,11 @@
           "git"
         ],
         "Priority": 0,
+<<<<<<< HEAD
         "Disabled": true
+=======
+        "Disabled": false
+>>>>>>> 5477ba7ac8 (state)
       }
     }
   }

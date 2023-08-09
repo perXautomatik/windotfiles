@@ -38,7 +38,10 @@ structure:
     - {name: ps1, path: 'B:\PF\Archive\ps1'}
     - {name: PowerShell, path: 'B:\PF\PowerShell'}
     - {name: PowershellProjectFolder, path: 'B:\PF\PowershellProjectFolder'}
+<<<<<<< HEAD
     - {name: Ps1, path: 'B:\PF\Archive\New folder'}
+=======
+>>>>>>> 5477ba7ac8 (state)
     expanded: true
   expanded: true
 - name: I:\Downloads\2022
