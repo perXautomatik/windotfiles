@@ -26,8 +26,8 @@
   "FirstLaunch": false,
   "SettingWindowWidth": 1280,
   "SettingWindowHeight": 1056,
-  "SettingWindowTop": -28,
-  "SettingWindowLeft": 320,
+  "SettingWindowTop": 21,
+  "SettingWindowLeft": 628,
   "SettingWindowState": 0,
   "CustomExplorerIndex": 0,
   "CustomExplorerList": [
@@ -105,7 +105,7 @@
   "CustomWindowLeft": 0,
   "CustomWindowTop": 0,
   "MaxResultsToShow": 17,
-  "ActivateTimes": 525,
+  "ActivateTimes": 580,
   "CustomPluginHotkeys": [],
   "CustomShortcuts": [],
   "DontPromptUpdateMsg": false,
@@ -234,7 +234,7 @@
           "opera"
         ],
         "Priority": -5,
-        "Disabled": false
+        "Disabled": true
       },
       "565B73353DBF4806919830B9202EE3BF": {
         "ID": "565B73353DBF4806919830B9202EE3BF",
@@ -265,7 +265,7 @@
           "google"
         ],
         "Priority": -9,
-        "Disabled": false
+        "Disabled": true
       },
       "5043CETYU6A748679OPA02D27D99677A": {
         "ID": "5043CETYU6A748679OPA02D27D99677A",
@@ -295,7 +295,7 @@
           "wn"
         ],
         "Priority": 0,
-        "Disabled": false
+        "Disabled": true
       },
       "F737A9223560B3C6833B5FFB8CDF78E5": {
         "ID": "F737A9223560B3C6833B5FFB8CDF78E5",
@@ -305,7 +305,7 @@
           "*"
         ],
         "Priority": 0,
-        "Disabled": false
+        "Disabled": true
       },
       "4D5DF575E4964C6AAADCF86134F09CC0": {
         "ID": "4D5DF575E4964C6AAADCF86134F09CC0",
@@ -315,7 +315,7 @@
           "st"
         ],
         "Priority": 0,
-        "Disabled": false
+        "Disabled": true
       },
       "095A6AE3A255532EAAD78F05A71D4981": {
         "ID": "095A6AE3A255532EAAD78F05A71D4981",
@@ -325,7 +325,7 @@
           "unin"
         ],
         "Priority": 0,
-        "Disabled": false
+        "Disabled": true
       },
       "SY91U1N7H9D0X1DTZ8IOP4YV43KT7C5M": {
         "ID": "SY91U1N7H9D0X1DTZ8IOP4YV43KT7C5M",
@@ -355,7 +355,7 @@
           "wst"
         ],
         "Priority": 0,
-        "Disabled": false
+        "Disabled": true
       },
       "525995402BEF4A8CA860D92F6D108092": {
         "ID": "525995402BEF4A8CA860D92F6D108092",
@@ -385,7 +385,7 @@
           "reg"
         ],
         "Priority": 0,
-        "Disabled": false
+        "Disabled": true
       },
       "240B648F33DD4105800747A2749E1B5C": {
         "ID": "240B648F33DD4105800747A2749E1B5C",
@@ -395,7 +395,7 @@
           "git"
         ],
         "Priority": 0,
-        "Disabled": false
+        "Disabled": true
       }
     }
   }

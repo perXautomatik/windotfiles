@@ -164,6 +164,16 @@ tools:
   useForOpen: false
   waitUntilFinished: true
   filePattern: '*'
+- name: MoveCommit
+  fileStarter: {command: '${git}', parameters: '!sh -c "target=$(ls -S $(cat $@) |
+      head -n 1); for file in $(cat $@); do if [ $file != $target ]; then oldName=$(basename
+      $file); mv -f $file $target; git add .; git commit -m \"Moved and renamed $oldName
+      to $target\"; fi; done"  ${selectionFile}'}
+  useForOpen: false
+  waitUntilFinished: true
+  filePattern: '*'
+  requiresConfirmation: true
+  confirmationMessage: ${selectionFile}
 - id: gitConfigList
   name: Git Config
   keystroke: CTRL+C

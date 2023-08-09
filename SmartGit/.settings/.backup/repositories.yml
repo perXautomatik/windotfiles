@@ -9,70 +9,8 @@ gitRootSettingsSet:
     push: {}
     commitNotes: {}
     journal: {}
-  roots: ['B:\PF', 'B:\PF\AhkProjectFolder', 'B:\PF\Archive', 'B:\PF\CSharpVisualStudio\repos',
-    'B:\PF\Cv -Project', 'B:\PF\ForksDownloadedCode\boxsocial', 'B:\PF\ForksDownloadedCode\gmaster_tour',
-    'B:\PF\ForksDownloadedCode\google-photos-delete-tool', 'B:\PF\NewWindows', 'B:\PF\NewWindows2',
-    'B:\PF\NewWindows3', 'B:\PF\Ny mapp', 'B:\PF\OtherVersionControlledText', 'B:\PF\Pascal',
-    'B:\PF\PowerShell', 'B:\PF\PowerShellProjectFolder', 'B:\PF\RegionGotland', 'B:\PF\SqlNoteBook\10pairs-Of-Folders-WithMostFilesIncommon',
-    'B:\PF\Sql_Db\_FFx', 'B:\PF\TabSessionManager - Backup', 'B:\PF\TextProcessingProjectF\Tokenization',
-    'B:\PF\VisualStudio\DataBindingDemo', 'B:\PF\VisualStudio\DataBindingDemoSparse',
-    'B:\PF\VisualStudio\WPF-Samples', 'B:\PF\WebProgrammingProjects\SteamWishlistSorter',
-    'B:\PF\chris', 'B:\PF\gists', 'B:\PF\ps1', 'B:\PF\scoop-persist', 'B:\PF\scoopbucket-1',
-    'B:\PF\scoopbucket-presist', 'B:\PF\vba\Vba-RubberduckExportForGit', 'B:\PF\xgit\SparseCheckout\test-git-partial-clone-big-small',
-    'B:\PF\AhkProjectFolder\Fork\AppendToClipboard', 'B:\PF\AhkProjectFolder\Fork\CheckIfProgIsRunning',
-    'B:\PF\AhkProjectFolder\Fork\ExplorerAtPath', 'B:\PF\AhkProjectFolder\Fork\GetRunningProcess',
-    'B:\PF\AhkProjectFolder\Fork\Launch If not Currently running', 'B:\PF\AhkProjectFolder\Fork\Launch
-      If not Currently running Continously', 'B:\PF\AhkProjectFolder\Fork\LaunchApplication',
-    'B:\PF\AhkProjectFolder\Fork\MACRO RECORDER', 'B:\PF\AhkProjectFolder\Fork\NoahHotell',
-    'B:\PF\AhkProjectFolder\Fork\Selected Item In Explorer', 'B:\PF\AhkProjectFolder\Fork\SelectedTextWithoutDisturbingClipboard',
-    'B:\PF\AhkProjectFolder\Fork\WindowToforeground', 'B:\PF\AhkProjectFolder\Fork\autoklick',
-    'B:\PF\AhkProjectFolder\ahk_config', 'B:\PF\Archive\ps1', 'B:\PF\CSharpVisualStudio\repos\8691414\WpfApp4',
-    'B:\PF\CSharpVisualStudio\repos\Boras2\PetStore', 'B:\PF\CSharpVisualStudio\repos\Boras2\Project\WPF-EF6-Sqlite',
-    'B:\PF\CSharpVisualStudio\repos\DataBindingDemo', 'B:\PF\CSharpVisualStudio\repos\DataBindingDemoSparse',
-    'B:\PF\CSharpVisualStudio\repos\InvalidMarkup', 'B:\PF\CSharpVisualStudio\repos\New
-      folder', 'B:\PF\CSharpVisualStudio\repos\WIthoutStudio', 'B:\PF\CSharpVisualStudio\repos\WPF-Samples',
-    'B:\PF\CSharpVisualStudio\repos\boras\upgift1', 'B:\PF\CSharpVisualStudio\repos\borås\upgift1',
-    'B:\PF\CSharpVisualStudio\repos\upg11', 'B:\PF\Cv -Project\cv & personligt brev\Cv\2012',
-    'B:\PF\Cv -Project\cv & personligt brev\Cv\2016', 'B:\PF\OtherVersionControlledText\important,
-      backup, config', 'B:\PF\Pascal\Edit Scripts\FyTy', 'B:\PF\PowerShell\WindowsAdmin\forked-sysadmin',
-    'B:\PF\PowerShell\doneNDeserted\git\GeneralSourceCompare', 'B:\PF\PowerShell\filesystem\groupIntoFolders',
-    'B:\PF\PowerShellProjectFolder\Modules\Personal', 'B:\PF\PowerShellProjectFolder\TodoProjects\Ast-IdentifyCodeBlocks',
-    'B:\PF\PowerShellProjectFolder\TodoProjects\GitHooks\cf3e17d36706bea6afbdc6d2c46811a4',
-    'B:\PF\PowerShellProjectFolder\doneAndDeserted\Betesta\Esp-Header-Export', 'B:\PF\PowerShellProjectFolder\doneNDeserted\WindowsAdmin',
-    'B:\PF\PowerShellProjectFolder\scripts', 'B:\PF\TabSessionManager - Backup\BookmarkHubSafe',
-    'B:\PF\scoopbucket-presist\.config\git', 'B:\PF\scoopbucket-presist\.config\powershell',
-    'B:\PF\scoopbucket-presist\AppData', 'B:\PF\scoopbucket-presist\Documents', 'B:\PF\scoopbucket-presist\autohotkey',
-    'B:\PF\scoopbucket-presist\scoop\apps\scoop\current', 'B:\PF\scoopbucket-presist\scoop\persist',
-    'B:\PF\scoopbucket-presist\Documents\PowerShell', 'B:\PF\scoopbucket-presist\Documents\gitConfigAlt',
-    'B:\PF\scoopbucket-presist\scoop\persist\.config\git', 'B:\PF\scoopbucket-presist\scoop\persist\.config\powershell',
-    'B:\PF\scoopbucket-presist\scoop\persist\AppData', 'B:\PF\scoopbucket-presist\scoop\persist\Documents',
-    'B:\PF\scoopbucket-presist\scoop\persist\autohotkey', 'B:\PF\chris\.config\git',
-    'B:\PF\chris\.config\powershell', 'B:\PF\chris\AppData', 'B:\PF\chris\Documents',
-    'B:\PF\chris\autohotkey', 'B:\PF\chris\scoop\apps\scoop\current', 'B:\PF\chris\scoop\persist',
-    'B:\PF\VisualStudio', 'B:\PF\NoteTakingProjectFolder', 'B:\PF\NoteTakingProjectFolder\Notebooks',
-    'B:\PF\NoteTakingProjectFolder\Notebook-Foam\NoteTakingProjectFolder', 'B:\PF\Modding',
-    'B:\PF\GitPs1Module', 'B:\PF\NoteTakingProjectFolder\Notebook-Foam', 'B:\PF\RegionGotland\G-sbfLivsmiljö-Gemensamt-mapbasic
-      program projekt', 'B:\PF\RegionGotland\MapBasic\SockenKarteLayout', 'B:\PF\RegionGotland\UtskicksStruktur\Brev',
-    'B:\PF\RegionGotland\MapBasic\MapinfoSkikt', 'B:\PF\RegionGotland\MapBasic\MapinfoSkikt\Adress',
-    'B:\PF\RegionGotland\MapBasic\MapinfoSkikt\FastigheterSockenIndelade', 'B:\PF\RegionGotland\MapBasic\MapinfoSkikt\Tab-AVLOPP_RENING_ENSKILT',
-    'B:\PF\RegionGotland\MapBasic\MapinfoSkikt\Tab-Bygg_Fastigheter', 'B:\PF\RegionGotland\MapBasic\mapinfo-Uts-kningsAuto',
-    'B:\PF\RegionGotland\MapBasic\mapinfo-codeTest', 'B:\PF\RegionGotland\MapBasic\MailOrganization',
-    'B:\PF\RegionGotland\MapBasic\Gsbf-Livsmiljö-Miljö- och hälsoskydd-Vatten-Gemensam-Avloppsregistret
-      i EDP Vision', 'B:\PF\RegionGotland\MapBasic\Gsbf-Livsmiljö-Miljö- och hälsoskydd-Vatten-Avlopp-Klart
-      Vatten-Fastigheter-GIS', 'B:\PF\RegionGotland\MapBasic\Gsbf-Livsmiljö-Miljö-
-      och hälsoskydd-Gemensam-Förvaltningsstöd-Nyttoberäkningar-Visualisering', 'B:\PF\RegionGotland\MapBasic\Gsbf-Livsmiljö-Miljö-
-      och hälsoskydd-Gemensam-Förvaltningsstöd-Nyttoberäkningar-Christoffer', 'B:\PF\RegionGotland\MapBasic\Gsbf-Livsmiljö-Gemensamt-Införande
-      EDP Vision', 'B:\PF\RegionGotland\MapBasic\Mapbasic StablePrograms\MapInfoTabToCsv',
-    'B:\PF\RegionGotland\MapBasic\Mapbasic StablePrograms\commonLib', 'B:\PF\RegionGotland\UtskicksStruktur\Listor',
-    'B:\PF\Archive\ps1\Aggregation\TextProcessingProjectF', 'B:\PF\Archive\ps1\git\repair\submodule\add_submodule',
-    'B:\PF\Archive\ps1\workflow\CsharpI', 'B:\PF\CSharpVisualStudio', 'B:\PF\CSharpVisualStudio\DataBindingDemo',
-    'B:\PF\CSharpVisualStudio\DataBindingDemoSparse', 'B:\PF\CSharpVisualStudio\WPF-Samples',
-    'B:\PF\CSharpVisualStudio\repos\213c939651e0bef7612b2f910909a21d', 'B:\PF\CSharpVisualStudio\repos\3714794',
-    'B:\PF\CSharpVisualStudio\repos\8691414\WpfApp1', 'B:\PF\CSharpVisualStudio\repos\7327483',
-    'B:\PF\CSharpVisualStudio\repos\WindowsFormsControlLibrary1', 'B:\PF\CSharpVisualStudio\repos\boras\Wpf-Upgift
-      1\WpfApp1', 'B:\PF\chris\source', 'B:\Users\chris', ~, ~\source, ~\.config\git,
-    ~\.config\powershell, ~\.config, ~\AppData, ~\AppData\Roaming\Scooter Software\Beyond
-      Compare 4, ~\AppData\Roaming\d2rmm]
+  roots: ['B:\PF\Archive\ps1', 'B:\PF\Archive\ps1\Aggregation\TextProcessingProjectF',
+    'B:\PF\Archive\ps1\git\repair\submodule\add_submodule', 'B:\PF\Archive\ps1\workflow\CsharpI']
   rootB:\ToGit:
     databaseCleanup: {}
     log:
@@ -6570,8 +6508,8 @@ gitRootSettingsSet:
       logRootSettings: {}
     push: {}
     commitNotes:
-      commitNotesHistory: [As submodule, state, etc, etdx, etx, ryv, ToRead, yp, removed
-          dupes]
+      commitNotesHistory: [taste, As submodule, state, etc, etdx, etx, ryv, ToRead,
+        yp]
     journal: {}
   rootB:\PF\PowerShell\Processes\pipeline:
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1688413805152}
@@ -9594,7 +9532,7 @@ gitRootSettingsSet:
     commitNotes: {}
     journal: {}
   rootC:\ProgramData\scoop\persist:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1688457245988}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1691073904465}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
@@ -11253,7 +11191,8 @@ gitRootSettingsSet:
     merge:
       logRootSettings: {}
     push: {}
-    commitNotes: {}
+    commitNotes:
+      commitNotesHistory: [etc, renamed case, state]
     journal: {}
   rootB:\PF\PowerShell\doneNDeserted\git\GeneralSourceCompare:
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690390573280}
@@ -11408,7 +11347,7 @@ gitRootSettingsSet:
     commitNotes: {}
     journal: {}
   rootB:\PF\Archive\ps1\git\repair\submodule\add_submodule:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690330815572}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1691093152987}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
@@ -11418,7 +11357,7 @@ gitRootSettingsSet:
     commitNotes: {}
     journal: {}
   rootB:\PF\Archive\ps1\workflow\CsharpI:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690330815618}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1691093152666}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
@@ -12001,7 +11940,7 @@ gitRootSettingsSet:
     commitNotes: {}
     journal: {}
   rootB:\PF\chris\source:
-    databaseCleanup: {}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1691053642226}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
@@ -12094,6 +12033,277 @@ gitRootSettingsSet:
     journal: {}
   rootC:\Users\CrRoot\AppData\Roaming\d2rmm:
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1690906401401}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\chris\autohotkey\Fork\AppendToClipboard:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1691053613742}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\chris\autohotkey\Fork\autoklick:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1691053672619}
+    log:
+      rootSettings: {baseRoots: "!local-branches://\t!remote://origin\tref://HEAD",
+        extendedRoots: ''}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\chris\autohotkey\Fork\CheckIfProgIsRunning:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1691053717847}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\chris\autohotkey\Fork\ExplorerAtPath:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1691053728487}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\chris\autohotkey\Fork\GetRunningProcess:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1691053739779}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\chris\autohotkey\Fork\Launch If not Currently running:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1691053748873}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\chris\autohotkey\Fork\Launch If not Currently running Continously:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1691053756568}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\chris\autohotkey\Fork\LaunchApplication:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1691053766182}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\chris\autohotkey\Fork\MACRO RECORDER:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1691053776147}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\chris\autohotkey\Fork\NoahHotell:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1691053784714}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\chris\autohotkey\Fork\Selected Item In Explorer:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1691053793958}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\chris\autohotkey\Fork\SelectedTextWithoutDisturbingClipboard:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1691053802480}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\chris\autohotkey\Fork\WindowToforeground:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1691053812404}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\chris\autohotkey\script\fork\MACRO RECORDER:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1691057648541}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\chris\autohotkey\script\fork\AppendToClipboard:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1691057734788}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\chris\autohotkey\script\fork\CheckIfProgIsRunning:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1691057742809}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\chris\autohotkey\script\fork\ExplorerAtPath:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1691057747580}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\chris\autohotkey\script\fork\GetRunningProcess:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1691057752739}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\chris\autohotkey\script\fork\Launch If not Currently running:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1691057756990}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\chris\autohotkey\script\fork\Launch If not Currently running Continously:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1691057761099}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\chris\autohotkey\script\fork\LaunchApplication:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1691057765790}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\chris\autohotkey\script\fork\NoahHotell:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1691057770542}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\chris\autohotkey\script\fork\Selected Item In Explorer:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1691057776184}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\chris\autohotkey\script\fork\SelectedTextWithoutDisturbingClipboard:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1691057780732}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\chris\autohotkey\script\fork\WindowToforeground:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1691057785754}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootC:\ProgramData\scoop\persist\Everything-Paf:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1691073977032}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\Archive\ps1\git\repair\xsubmodule\add_submodule:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1691095394944}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}

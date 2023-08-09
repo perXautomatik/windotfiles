@@ -8,7 +8,19 @@ readNotifications: [hosting-provider-could-be-configured-github-null, needsResta
   'repository-model-problem-b:/pf/scoopbucket-presist/jetbrains-null', 'repository-git-cleanup-b:/pf/notetakingprojectfolder/notebooks-null',
   'repository-git-cleanup-o:/d2rmm 1.4.5/mods-null', follow-us-on-twitter-null, 'repository-model-problem-c:/programdata/scoop/persist/everything-null',
   update-fetch-22.1.7-success, 'repository-model-problem-b:/pf/powershell/donendeserted/git/generalsourcecompare-null',
-  'repository-model-problem-b:/pf/chris/.config/powershell-null']
+  'repository-model-problem-b:/pf/chris/.config/powershell-null', 'repository-model-problem-b:/pf/chris/documents/powershell-null',
+  'repository-model-problem-c:/programdata/scoop/persist/everything-paf-null', 'repository-model-problem-b:/pf/chris/autohotkey/script/fork/appendtoclipboard-null',
+  'repository-model-problem-b:/pf/chris/autohotkey/script/fork/checkifprogisrunning-null',
+  'repository-model-problem-b:/pf/chris/autohotkey/script/fork/exploreratpath-null',
+  'repository-model-problem-b:/pf/chris/autohotkey/script/fork/getrunningprocess-null',
+  'repository-model-problem-b:/pf/chris/autohotkey/script/fork/launchapplication-null',
+  'repository-model-problem-b:/pf/chris/autohotkey/script/fork/launch if not currently
+    running-null', 'repository-model-problem-b:/pf/chris/autohotkey/script/fork/launch
+    if not currently running continously-null', 'repository-model-problem-b:/pf/chris/autohotkey/script/fork/macro
+    recorder-null', 'repository-model-problem-b:/pf/chris/autohotkey/script/fork/selectedtextwithoutdisturbingclipboard-null',
+  'repository-model-problem-b:/pf/chris/autohotkey/script/fork/selected item in explorer-null',
+  'repository-model-problem-b:/pf/chris/autohotkey/script/fork/windowtoforeground-null',
+  'repository-model-problem-b:/pf/chris/scoop/apps/scoop/current-null', wipeTempDirs--1796996031-null]
 dontPublishNotifications: ['repository-git-core-ignorecase-mismatch-b:/togit/project
     shelf/archive/sql_db/ffx-null', 'repository-git-core-ignorecase-mismatch-b:/togit/project
     shelf/archive/regiongotland/utskicksstruktur/brev-null', 'repository-git-core-ignorecase-mismatch-b:/togit/project
@@ -20,7 +32,7 @@ dontPublishUntil-repository-git-core-ignorecase-mismatch-b:/togit/project shelf/
 : 1684592755884
 ? dontPublishUntil-repository-git-core-ignorecase-mismatch-b:/togit/project shelf/projectfolderbare/newwindows/scoopbucket-1/windowsdebloat-null
 : 1684755209637
-dontPublishUntil-repositories-no-favorites-null: 1690979997773
+dontPublishUntil-repositories-no-favorites-null: 1691140300483
 dontPublishUntil-credential.helper-null: 0
 dontPublishUntil-repository-git-core-ignorecase-mismatch-b:/togit-null: 1686047834063
 dontPublishUntil-repository-refs-reading-many-loose-b:/pf/powershellprojectfolder/scripts-null: 1690310089540

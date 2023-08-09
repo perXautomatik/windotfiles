@@ -38,6 +38,7 @@ structure:
     - {name: ps1, path: 'B:\PF\Archive\ps1'}
     - {name: PowerShell, path: 'B:\PF\PowerShell'}
     - {name: PowershellProjectFolder, path: 'B:\PF\PowershellProjectFolder'}
+    - {name: Ps1, path: 'B:\PF\Archive\New folder'}
     expanded: true
   expanded: true
 - name: I:\Downloads\2022
@@ -56,12 +57,14 @@ structure:
   - {name: Deployed-persist, path: 'C:\ProgramData\scoop\persist'}
   - {name: PowerShell, path: 'C:\Users\CrRoot\AppData\Local\Temp\tmp7434.tmp\PowerShell'}
   - {name: CrRoot, path: 'C:\Users\CrRoot'}
+  - {name: CrRoot, path: 'C:\Users\Public'}
   expanded: true
-recentlyUsed: ['C:\ProgramData\scoop\persist', 'C:\Users\CrRoot', 'B:\PF\chris', 'B:\PF\chris\autohotkey',
-  'B:\PF', 'B:\Users\chris', 'B:\PF\CSharpVisualStudio\repos', 'B:\PF\Modding', 'B:\PF\Modding\Diablo
+recentlyUsed: ['C:\Users\Public', 'C:\Users\CrRoot', 'B:\PF\Archive\New folder', 'B:\PF\Archive\ps1',
+  'C:\ProgramData\scoop\persist', 'B:\PF\chris', 'B:\PF\chris\autohotkey', 'B:\PF',
+  'B:\Users\chris', 'B:\PF\CSharpVisualStudio\repos', 'B:\PF\Modding', 'B:\PF\Modding\Diablo
     II ressurected', 'B:\PF\RegionGotland', \\DESKTOP-FIQ183H\BLoppy\ToGit\scoopbucket-1,
-  'B:\PF\Archive\ps1', 'C:\Users\CrRoot\AppData\Local\Temp\tmp7434.tmp\PowerShell',
-  'B:\PF\PowerShell', 'B:\PF\PowershellProjectFolder', 'B:\PF\scoopbucket-1', 'C:\ProgramData\scoop\buckets',
+  'C:\Users\CrRoot\AppData\Local\Temp\tmp7434.tmp\PowerShell', 'B:\PF\PowerShell',
+  'B:\PF\PowershellProjectFolder', 'B:\PF\scoopbucket-1', 'C:\ProgramData\scoop\buckets',
   'B:\PF\scoopbucket-presist', 'B:\GitPs1Module', 'B:\ToGit\IoT\TIG-stack', 'B:\ToGit\IoT',
   'B:\PF\NewWindows3', 'B:\PF\NewWindows2', 'B:\PF\Archive', 'B:\Filtered', 'B:\Users\chris\Documents',
   'B:\New folder (2)\General-ProjectFolders', 'B:\ToGit', \\Sabrina\b\ToGit\Ny mapp\projectFolderBare,

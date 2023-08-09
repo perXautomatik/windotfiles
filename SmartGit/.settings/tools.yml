@@ -165,10 +165,11 @@ tools:
   waitUntilFinished: true
   filePattern: '*'
 - name: MoveCommit
-  fileStarter: {command: 'C:\ProgramData\scoop\persist\SmartGit\movecommit.bat', parameters: '${selectionFile}'}
+  fileStarter: {command: '${git}', parameters: 'move-and-rename ${selectionFile}'}
   useForOpen: false
   waitUntilFinished: true
   filePattern: '*'
+  forFilesNotDirectories: true
   requiresConfirmation: true
   confirmationMessage: ${selectionFile}
 - id: gitConfigList

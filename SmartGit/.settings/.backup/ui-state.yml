@@ -1,9 +1,9 @@
 bounds:
-- {key: project, x: -8, y: -8, width: 1936, height: 1056}
+- {key: project, x: 240, y: 58, width: 1440, height: 866, state: 1}
 - {key: welcome}
-- {key: preferences, x: -67, y: 49, width: 1165, height: 498}
+- {key: preferences, x: 33, y: 118, width: 1363, height: 498}
 - {key: compare, x: 38, y: 174, width: 1440, height: 866, state: 1}
-- {key: output, x: -478, y: 437, width: 1168, height: 1339}
+- {key: output, x: -271, y: 67, width: 1739, height: 919}
 - {key: git.commit, width: 1245, height: 514, x: -14, y: -66}
 - {key: git.commit.selectFromLog, width: 640, height: 395}
 - {key: log, x: 205, y: 89, width: 1440, height: 866}
@@ -18,10 +18,10 @@ bounds:
 - {key: git.remove, width: 500, height: 309}
 - {key: git.stashSave, width: 500, height: 309}
 - {key: annotate, x: 0, y: 174, width: 1440, height: 866}
-- {key: conflictSolver, x: 240, y: 58, width: 1440, height: 866}
+- {key: conflictSolver, x: 675, y: 138, width: 1440, height: 866}
 - {key: splitOff, width: 500, height: 309}
 - {key: git.tag, width: 400, height: 300}
-conflictSolverFrame: {}
+conflictSolverFrame: {sLayout: left-right-merge}
 indexEditorFrame: {}
 columns:
   project.files.git:
@@ -52,11 +52,11 @@ columns:
     - {id: Last Changed On, width: 117, width2x: 0}
     - {id: Relative Path, width: 500, width2x: 0}
     sortOrders:
-    - {id: Name, reverse: true}
+    - {id: Name, reverse: false}
+    - {id: Size, reverse: false}
+    - {id: State, reverse: true}
     - {id: Ext., reverse: false}
     - {id: Relative Directory, reverse: false}
-    - {id: State, reverse: true}
-    - {id: Size, reverse: true}
     - {id: Last Changed On, reverse: true}
   project.files.git.index:
     columnNames: "Name\tExt.\tState\tRelative Path\tRelative Directory\tRenamed From"
@@ -142,23 +142,24 @@ columns:
     - {id: Name, reverse: false}
     - {id: Relative Directory, reverse: false}
 gitViewFileFilter: {viewRecursive: true, viewFromSubmodules: false, viewIgnoredFiles: false,
-  viewRenameSources: true, viewSkipped: true, viewUnversionedFiles: true, viewUnchangedFiles: false,
+  viewRenameSources: true, viewSkipped: true, viewUnversionedFiles: true, viewUnchangedFiles: true,
   viewUnchangedAssumed: true}
 deepGitUiConfiguration: {}
 confirmations: {exit.showConfirmation: true, git.push: true, git.switchBranch.confirmation: true,
   close.unpushedCommits: true, commit.amend.replaceWarning: true, rebase.continue: true,
-  rebaseContinue: false, git.switchBranch.fastForward: true, sync: true, splitCommit: true}
+  rebaseContinue: false, git.switchBranch.fastForward: true, sync: true, splitCommit: true,
+  conflictSolver.showConflictWarning: true}
 repositoriesToReopen:
-- window: log
-  repositories: ['B:\PF']
+- window: wt
+  repositories: ['B:\PF\Archive\ps1']
 project.files.git.separateWtIndex: true
-gitProjectLayout.main: (([+277x554:directories ][+277x369:branches ])((([+1640x333:files
-  ][+1640x445:changes ])[-3x1:message ])([+1640x142:outgoing ][-3x1:output ])))
+gitProjectLayout.main: (([+263x554:directories ][+263x369:branches ])((([+1654x375:files
+  ][+1654x230:changes ])[-3x1:message ])([+1654x315:outgoing ][-3x1:output ])))
 log.wtIndex.onDemand: true
 gitProjectLayout.mainIsdefault: true
 gitProjectLayout.review: ([+2x1:directories ][+7x1:files ][+3x1:message ])[+10x3:changes
   ]([-1x1:branches ][-3x1:outgoing ][-3x1:output ])
-lastRepositoryPath: C:\Users\CrRoot
+lastRepositoryPath: B:\PF\chris\autohotkey
 commit.expandOptions: true
 log.files.git.separateWtIndex: true
 gitLogRootLayout.main: (([+281x366:repositories ][+281x367:branches ])(([+377x558:graph
