@@ -20,10 +20,9 @@ actions:
   refreshRenameDetectionWarnings: false
   backgroundFetchClosed: true
   backgroundFetchOpen: true
-  syncPushBeforePull: false
 logSettings:
   filterConfiguration: {}
-comparePreviewSettings: {selectCompareTypeAutomatically: true, compareType: working-tree-vs-index}
+comparePreviewSettings: {selectCompareTypeAutomatically: false, compareType: working-tree-vs-index}
 dateFormat: {datePattern: MM/dd/yyyy, timePattern: 'hh:mm a', showTimeForLastDays: true}
 defaultViewSettings:
   compareSettings:
@@ -109,8 +108,8 @@ globalTextComponentSettings:
 listx: {uid: en4ssg7d23lk}
 project: {defaultWindowType: wt}
 uiSettings: {theme: auto, themeChanged: false, fileSearchPatternType: 1}
-vcsRecords: {lastGitUsage: 1691547008297}
-updateCheck: {prevCheckTime: 1691543083562, checkedBuild: 19285, mode: download, upgradeInstallation: false}
+vcsRecords: {lastGitUsage: 1688473991654}
+updateCheck: {prevCheckTime: 1688390808916, checkedBuild: 19278, mode: download, upgradeInstallation: false}
 updateCheckDg: {}
 proxy: {enabled: false, autoDetect: true}
 spellCheck:
@@ -120,7 +119,8 @@ spellCheck:
   activeDictionary: 0
 lastUsedVersion: '22.1'
 firstUsedTime: 1684316673740
-tempDirs: ['C:\Users\CrRoot\AppData\Local\Temp\smartgit13085575841077631027', 'C:\Users\CrRoot\AppData\Local\Temp\e4j439D.tmp_dir1691255081']
+tempDirs: ['C:\Users\CrRoot\AppData\Local\Temp\smartgit2055331668728028929', 'C:\Users\CrRoot\AppData\Local\Temp\e4jB217.tmp_dir1688390806',
+  'C:\Users\CrRoot\AppData\Local\Temp\smartgit5021041882435891261']
 machineId: 41587a14
 warnForMissingMasterPassword: false
 sendStacktraces2: true

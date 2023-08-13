@@ -855,26 +855,6 @@
         "key": "ctrl+enter",
         "command": "-dendron.gotoNote",
         "when": "editorFocus"
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
     }
     
-=======
-=======
->>>>>>> 159d1b1f27 (state)
-=======
->>>>>>> 159d1b1f27 (state)
-    },
-    {
-        "key": "ctrl+alt+x",
-        "command": "vscode-macros.user1"
-    }
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 159d1b1f27 (state)
-=======
->>>>>>> 159d1b1f27 (state)
-=======
->>>>>>> 159d1b1f27 (state)
 ]

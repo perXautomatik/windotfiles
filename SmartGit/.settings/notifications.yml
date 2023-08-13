@@ -6,39 +6,17 @@ readNotifications: [hosting-provider-could-be-configured-github-null, needsResta
     4-null', 'repository-model-problem-b:/pf/chris/appdata/roaming/vortex-null', repositories-no-favorites-null,
   update-fetch-22.1.6-success, 'repository-git-core-ignorecase-mismatch-b:/pf/notetakingprojectfolder/1d5a90b4975101fa1666d66382799002-null',
   'repository-model-problem-b:/pf/scoopbucket-presist/jetbrains-null', 'repository-git-cleanup-b:/pf/notetakingprojectfolder/notebooks-null',
-  'repository-git-cleanup-o:/d2rmm 1.4.5/mods-null', follow-us-on-twitter-null, 'repository-model-problem-c:/programdata/scoop/persist/everything-null',
-  update-fetch-22.1.7-success, 'repository-model-problem-b:/pf/powershell/donendeserted/git/generalsourcecompare-null',
-  'repository-model-problem-b:/pf/chris/.config/powershell-null', 'repository-model-problem-b:/pf/chris/documents/powershell-null',
-  'repository-model-problem-c:/programdata/scoop/persist/everything-paf-null', 'repository-model-problem-b:/pf/chris/autohotkey/script/fork/appendtoclipboard-null',
-  'repository-model-problem-b:/pf/chris/autohotkey/script/fork/checkifprogisrunning-null',
-  'repository-model-problem-b:/pf/chris/autohotkey/script/fork/exploreratpath-null',
-  'repository-model-problem-b:/pf/chris/autohotkey/script/fork/getrunningprocess-null',
-  'repository-model-problem-b:/pf/chris/autohotkey/script/fork/launchapplication-null',
-  'repository-model-problem-b:/pf/chris/autohotkey/script/fork/launch if not currently
-    running-null', 'repository-model-problem-b:/pf/chris/autohotkey/script/fork/launch
-    if not currently running continously-null', 'repository-model-problem-b:/pf/chris/autohotkey/script/fork/macro
-    recorder-null', 'repository-model-problem-b:/pf/chris/autohotkey/script/fork/selectedtextwithoutdisturbingclipboard-null',
-  'repository-model-problem-b:/pf/chris/autohotkey/script/fork/selected item in explorer-null',
-  'repository-model-problem-b:/pf/chris/autohotkey/script/fork/windowtoforeground-null',
-  'repository-model-problem-b:/pf/chris/scoop/apps/scoop/current-null', wipeTempDirs--1796996031-null,
-  'repository-model-problem-c:/users/public/.config/powershell-null', 'repository-model-problem-c:/users/public/documents
-    - junction-null', 'repository-model-problem-c:/users/public/my documents-null',
-  'repository-model-problem-c:/users/public/scoop/persist-null', 'repository-model-problem-c:/users/public/source-null',
-  'repository-git-core-ignorecase-mismatch-c:/users/public/appdata/roaming/everything-null']
+  'repository-git-cleanup-o:/d2rmm 1.4.5/mods-null', follow-us-on-twitter-null]
 dontPublishNotifications: ['repository-git-core-ignorecase-mismatch-b:/togit/project
     shelf/archive/sql_db/ffx-null', 'repository-git-core-ignorecase-mismatch-b:/togit/project
     shelf/archive/regiongotland/utskicksstruktur/brev-null', 'repository-git-core-ignorecase-mismatch-b:/togit/project
     shelf/projectfolderbare/newwindows/scoopbucket-1/windowsdebloat-null', credential.helper-null,
-  'repository-git-core-ignorecase-mismatch-b:/togit-null', 'repository-refs-reading-many-loose-b:/pf/powershellprojectfolder/scripts-null',
-  'repository-refs-reading-many-loose-b:/pf/powershellprojectfolder-null', repositories-no-favorites-null]
+  'repository-git-core-ignorecase-mismatch-b:/togit-null', repositories-no-favorites-null]
 dontPublishUntil-repository-git-core-ignorecase-mismatch-b:/togit/project shelf/archive/sql_db/ffx-null: 1684575209016
 ? dontPublishUntil-repository-git-core-ignorecase-mismatch-b:/togit/project shelf/archive/regiongotland/utskicksstruktur/brev-null
 : 1684592755884
 ? dontPublishUntil-repository-git-core-ignorecase-mismatch-b:/togit/project shelf/projectfolderbare/newwindows/scoopbucket-1/windowsdebloat-null
 : 1684755209637
-dontPublishUntil-repositories-no-favorites-null: 1691443168086
+dontPublishUntil-repositories-no-favorites-null: 1688502066175
 dontPublishUntil-credential.helper-null: 0
 dontPublishUntil-repository-git-core-ignorecase-mismatch-b:/togit-null: 1686047834063
-dontPublishUntil-repository-refs-reading-many-loose-b:/pf/powershellprojectfolder/scripts-null: 1690310089540
-dontPublishUntil-repository-refs-reading-many-loose-b:/pf/powershellprojectfolder-null: 1690310092296
-dontPublishUntil-repository-git-core-ignorecase-mismatch-b:/pf/forksdownloadedcode/google-photos-delete-tool-null: 1690313775242

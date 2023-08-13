@@ -3,7 +3,7 @@
 	url = https://github.com/perXautomatik/Powershell-Profile
 [submodule "AHK"]
 	url = https://github.com/perXautomatik/AHK-EverydayScripts
-path = autohotkey
+path = AHK
 [submodule "AdvancedRenamer"]
 	path = AdvancedRenamer
 	url = https://github.com/perXautomatik/AdvancedRenamer-BatchMethods
@@ -30,7 +30,6 @@ path = autohotkey
 	url = https://github.com/perXautomatik/EverythingSettings
 [submodule "Git"]
 	path = .config/git
-path = Git
 url = https://gist.github.com/perXautomatik/e01f68f13580acea470e1ae1ce680a15
 [submodule "JetBrains"]
 	path = JetBrains
@@ -44,10 +43,12 @@ url = https://gist.github.com/perXautomatik/e01f68f13580acea470e1ae1ce680a15
 [submodule "PowerShellCmdHist"]
 	path = PowerShellCmdHist
 	url = https://github.com/perXautomatik/PowerShellCmdHist
-
 [submodule "Powershell"]
 	path = Powershell
 	url = https://github.com/perXautomatik/Powershell-Profile
+[submodule "UserFolder"]
+	path = UserFolder
+	url = B:\\ToGit\\Projectfolder\\scoopbucket-presist\\UserFolder
 [submodule "Vortex"]
 	path = Vortex
 	url = https://github.com/perXautomatik/AppData.git
