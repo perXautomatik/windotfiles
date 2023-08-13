@@ -25,7 +25,7 @@ for /f "delims=" %%p in (%FileName%) do (
         set "oldName=%%~nxf"
         setlocal enabledelayedexpansion
         rem Move and rename the file to the target with force
-        git mv "!file!" "!target!"
+        git mv "%%f" "%%~nxf"
         rem Commit with a message containing the old name
         git commit -m "Moved and renamed !oldName! to !target!"
         endlocal

@@ -109,8 +109,8 @@ globalTextComponentSettings:
 listx: {uid: en4ssg7d23lk}
 project: {defaultWindowType: wt}
 uiSettings: {theme: auto, themeChanged: false, fileSearchPatternType: 1}
-vcsRecords: {lastGitUsage: 1691074156226}
-updateCheck: {prevCheckTime: 1690978168140, checkedBuild: 19285, mode: download, upgradeInstallation: false}
+vcsRecords: {lastGitUsage: 1691547008297}
+updateCheck: {prevCheckTime: 1691543083562, checkedBuild: 19285, mode: download, upgradeInstallation: false}
 updateCheckDg: {}
 proxy: {enabled: false, autoDetect: true}
 spellCheck:
@@ -120,7 +120,7 @@ spellCheck:
   activeDictionary: 0
 lastUsedVersion: '22.1'
 firstUsedTime: 1684316673740
-tempDirs: ['C:\Users\CrRoot\AppData\Local\Temp\smartgit15837985313671108287', 'C:\Users\CrRoot\AppData\Local\Temp\e4jBABE.tmp_dir1691053586']
+tempDirs: ['C:\Users\CrRoot\AppData\Local\Temp\smartgit13085575841077631027', 'C:\Users\CrRoot\AppData\Local\Temp\e4j439D.tmp_dir1691255081']
 machineId: 41587a14
 warnForMissingMasterPassword: false
 sendStacktraces2: true
