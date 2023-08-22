@@ -65,8 +65,8 @@ tools:
   confirmationMessage: --cd=${filePath} -c "git submodule absorbgitdir"
 - name: CompareWithBcompare
   fileStarter: {command: powershell.exe, parameters: 'invoke-command -scriptblock
-      {param($param1,$param2) ; BComp "$param1" "$param2"} -ArgumentList ("''${selectionFile}''",
-      "''${selectionFile}''")'}
+      {param($param1) ; $parx = get-content $param1 ; $para1,$para2 = $parx[0], $parx[1]
+      ; BComp "$par1" "$para2"} -ArgumentList ("''${selectionFile}''")'}
   useForOpen: false
   waitUntilFinished: true
   filePattern: '*'
