@@ -1,6 +1,6 @@
 tools:
 - name: ignore subfolder
-  fileStarter: {command: powershell.exe, parameters: '$p1 = "''${filePath}''" ; $p1
+  fileStarter: {command: powershell.exe, parameters: '$p1 = "''${selectionFile}''"
       ; $p1 = convert-path $p1  ;  $p2 ="''${repositoryRootPath}''" ;  $p2 = convert-path
       $p2; invoke-command -scriptblock {param($param1,$param2) ;   (coreutils realpath
       --relative-to="$param2" ( $param1 | split-path -parent )).replace(''\'',''/'')
@@ -67,9 +67,9 @@ tools:
   fileStarter: {command: powershell.exe, parameters: 'invoke-command -scriptblock
       {param($param1) ; $parx = get-content $param1 ; BComp @parx} -ArgumentList ("''${selectionFile}''")'}
   useForOpen: false
-  waitUntilFinished: true
+  waitUntilFinished: false
   filePattern: '*'
-  requiresConfirmation: true
+  confirmationMessage: -Raw -Replace "`r`n",","
 - name: GitAbsorbe
   fileStarter: {command: '${git}', parameters: submodule absorbgitdirs}
   useForOpen: false

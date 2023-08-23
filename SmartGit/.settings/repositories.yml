@@ -9,31 +9,54 @@ gitRootSettingsSet:
     push: {}
     commitNotes: {}
     journal: {}
-  roots: ['B:\PF\scoopbucket-1', 'B:\PF\scoopbucket-1\Scripts\AllowAccessWindowsDefender',
-    'B:\PF\scoopbucket-1\Scripts\Export-Inst-Choco', 'B:\PF\scoopbucket-1\Scripts\GetInstalled',
-    'B:\PF\scoopbucket-1\Scripts\TakeOwnerShip', 'B:\PF\scoopbucket-1\Scripts\powershellAliasesUserProfile',
-    'B:\GitPs1Module', 'B:\PF\Archive\ps1', 'B:\PF\PowerShell', 'B:\PF\PowerShell\DirToJson',
-    'B:\PF\PowerShell\ISEpwsh7Pluggin', 'B:\PF\PowerShell\Processes\pipeline', 'B:\PF\PowershellProjectFolder',
-    'B:\ps1', 'C:\ProgramData\scoop\buckets', 'C:\ProgramData\scoop\buckets\anderlli0053_DEV-tools',
-    'C:\ProgramData\scoop\buckets\extras', 'C:\ProgramData\scoop\buckets\games', 'C:\ProgramData\scoop\buckets\main',
-    'B:\PF\scoopbucket-presist', 'B:\PF\scoopbucket-presist\AHK', 'B:\PF\scoopbucket-presist\AppData',
-    'B:\PF\scoopbucket-presist\BeondCompare4', 'B:\PF\scoopbucket-presist\Cherrytree',
-    'B:\PF\scoopbucket-presist\Datagrip', 'B:\PF\scoopbucket-presist\Ditto', 'B:\PF\scoopbucket-presist\Git',
-    'B:\PF\scoopbucket-presist\JetBrains', 'B:\PF\scoopbucket-presist\OtherVersionControlledText',
-    'B:\PF\scoopbucket-presist\PortableProgramSuit', 'B:\PF\scoopbucket-presist\PowerShellCmdHist',
-    'B:\PF\scoopbucket-presist\Powershell', 'B:\PF\scoopbucket-presist\Vortex', 'B:\PF\scoopbucket-presist\portableAppsPlatform',
-    'B:\PF\scoopbucket-presist\steamapps', 'B:\PF\scoopbucket-presist\xEditScripts',
-    'B:\PF\scoopbucket-presist\AHK\Fork\AppendToClipboard', 'B:\PF\scoopbucket-presist\AHK\Fork\CheckIfProgIsRunning',
-    'B:\PF\scoopbucket-presist\AHK\Fork\ExplorerAtPath', 'B:\PF\scoopbucket-presist\AHK\Fork\GetRunningProcess',
-    'B:\PF\scoopbucket-presist\AHK\Fork\Launch If not Currently running', 'B:\PF\scoopbucket-presist\AHK\Fork\Launch
-      If not Currently running Continously', 'B:\PF\scoopbucket-presist\AHK\Fork\LaunchApplication',
-    'B:\PF\scoopbucket-presist\AHK\Fork\MACRO RECORDER', 'B:\PF\scoopbucket-presist\AHK\Fork\NoahHotell',
-    'B:\PF\scoopbucket-presist\AHK\Fork\Selected Item In Explorer', 'B:\PF\scoopbucket-presist\AHK\Fork\SelectedTextWithoutDisturbingClipboard',
-    'B:\PF\scoopbucket-presist\AHK\Fork\WindowToforeground', 'B:\PF\scoopbucket-presist\AHK\Fork\autoklick',
-    'B:\PF\scoopbucket-presist\AppData\Roaming\Everything', 'B:\PF\scoopbucket-presist\AppData\Roaming\Scooter
-      Software\Beyond Compare 4', 'B:\PF\scoopbucket-presist\AppData\Roaming\Vortex',
-    'B:\PF\scoopbucket-presist\Datagrip\DataGrip2021.1', 'B:\PF\scoopbucket-presist\Datagrip\datagrip2019.4',
-    'B:\PF\scoopbucket-presist\AdvancedRenamer', 'C:\ProgramData\scoop\persist', 'C:\ProgramData\scoop\persist\everything']
+  roots: ['B:\PF\PowershellProjectFolder', 'B:\PF\PowershellProjectFolder\Modules\Personal',
+    'B:\PF\PowershellProjectFolder\TodoProjects\Ast-IdentifyCodeBlocks', 'B:\PF\PowershellProjectFolder\TodoProjects\GitHooks\cf3e17d36706bea6afbdc6d2c46811a4',
+    'B:\PF\PowershellProjectFolder\doneAndDeserted\Betesta\Esp-Header-Export', 'B:\PF\PowershellProjectFolder\doneNDeserted\WindowsAdmin',
+    'B:\PF\PowershellProjectFolder\scripts', 'B:\PF\PowershellProjectFolder\Modules\Personal\Regestry\Get-progid',
+    'B:\PF\PowershellProjectFolder\Modules\Personal\TextTransformation\MessureObfuscated',
+    'B:\PF\PowershellProjectFolder\Modules\Personal\TextTransformation\hashtable\CompareHashTable',
+    'B:\PF\PowershellProjectFolder\Modules\Personal\TextTransformation\hashtable\CompareHashTableAlt',
+    'B:\PF\PowershellProjectFolder\Modules\Personal\aPdf', 'B:\PF\PowershellProjectFolder\Modules\Personal\browser\ExportChromeBook',
+    'B:\PF\PowershellProjectFolder\Modules\Personal\browser\ExportChromeExtensions',
+    'B:\PF\PowershellProjectFolder\Modules\Personal\filesystem\Compare', 'B:\PF\PowershellProjectFolder\Modules\Personal\filesystem\Count',
+    'B:\PF\PowershellProjectFolder\Modules\Personal\filesystem\Toutched', 'B:\PF\PowershellProjectFolder\Modules\Personal\filesystem\group',
+    'B:\PF\PowershellProjectFolder\Modules\Personal\git\BreakRepoIntoTwo\fork\6387904f5666f83f401afed94a869379',
+    'B:\PF\PowershellProjectFolder\Modules\Personal\git\Clone-NonEmpty', 'B:\PF\PowershellProjectFolder\Modules\Personal\git\get-gitConfig',
+    'B:\PF\PowershellProjectFolder\Modules\Personal\ini\5960b271752d030383f0e5a591751e0d',
+    'B:\PF\PowershellProjectFolder\Modules\Personal\migration\Export-Inst-Choco',
+    'B:\PF\PowershellProjectFolder\Modules\Personal\migration\GetInstalled', 'B:\PF\PowershellProjectFolder\Modules\Personal\ps\ExecJavaScript',
+    'B:\PF\PowershellProjectFolder\Modules\Personal\ps\Processes\Get-ProcessTree',
+    'B:\PF\PowershellProjectFolder\Modules\Personal\ps\Show-BinaryFile', 'B:\PF\PowershellProjectFolder\Modules\Personal\ps\pipeline\Pipe-Rawdata',
+    'B:\PF\PowershellProjectFolder\Modules\Personal\ps\pipeline\breakPipelineAtCondition',
+    'B:\PF\PowershellProjectFolder\Modules\Personal\ps\ui\DiagramPswriteHtml', 'B:\PF\PowershellProjectFolder\Modules\Personal\sql\Sqlite',
+    'B:\PF\PowershellProjectFolder\Modules\Personal\xadmin', 'B:\PF\PowershellProjectFolder\Modules\Personal\xml\Xml-Transform-Xdt',
+    'B:\PF\PowershellProjectFolder\Modules\Personal\xml\xml2Csv', 'B:\PF\PowershellProjectFolder\doneNDeserted\WindowsAdmin\TakeOwnerShip',
+    'B:\PF\PowershellProjectFolder\doneNDeserted\WindowsAdmin\forked-sysadmin', 'B:\PF\PowershellProjectFolder\doneNDeserted\WindowsAdmin\my-windows',
+    'B:\PF\PowershellProjectFolder\scripts\AllowAccessWindowsDefender', 'B:\PF\PowershellProjectFolder\scripts\Export-Inst-Choco',
+    'B:\PF\PowershellProjectFolder\scripts\Fork\DiagramPswriteHtml', 'B:\PF\PowershellProjectFolder\scripts\Fork\ExportChromeBook',
+    'B:\PF\PowershellProjectFolder\scripts\GetInstalled', 'B:\PF\PowershellProjectFolder\scripts\TodoProjects\Ast-IdentifyCodeBlocks',
+    'B:\PF\PowershellProjectFolder\scripts\doneNDeserted\WindowsAdmin\forked-sysadmin\snipps',
+    'B:\PF\PowershellProjectFolder\scripts\forked-sysadmin', 'B:\PF\PowershellProjectFolder\scripts\my-windows',
+    'B:\PF\PowershellProjectFolder\scripts\pshell', 'B:\PF\PowershellProjectFolder\Modules\Personal\aPdf\TextFromPdf',
+    'B:\PF\PowershellProjectFolder\Modules\Personal\aPdf\iTextSharp Functions\ReadText',
+    'B:\PF\PowershellProjectFolder\Modules\Personal\filesystem\Compare\RecFolderDiff',
+    'B:\PF\PowershellProjectFolder\Modules\Personal\xadmin\AllowAccessWindowsDefender',
+    'B:\PF\PowershellProjectFolder\Modules\Personal\xadmin\TakeOwnerShip', 'B:\PF\PowershellProjectFolder\Modules\Personal\xml\xml2Csv\kindljiri',
+    'B:\PF\PowershellProjectFolder\doneNDeserted\WindowsAdmin\my-windows\AliasesUserProfile',
+    ~\AppData, ~\AppData\Roaming\Everything, ~\AppData\Roaming\Scooter Software\Beyond
+      Compare 4, ~\AppData\Roaming\d2rmm, ~\.config\powershell, 'B:\PF\chris\Documents\WindowsPowerShell',
+    'B:\PF\Archive', 'B:\PF\Archive\ps1', 'B:\PF\Archive\ps1\Aggregation\TextProcessingProjectF',
+    'B:\PF\Archive\ps1\git', 'C:\ProgramData\scoop\persist\SmartGit\.settings', 'B:\PF\Archive\ps1\workflow\CsharpI',
+    'B:\PF\Archive\ps1\git\submodule\SubmoduleFromGitmodules', 'B:\PF\Archive\ps1\Aggregation\TextProcessingProjectF\Tokenization',
+    'B:\PF\chris', 'B:\PF\chris\AppData', 'B:\PF\chris\Documents', 'B:\PF\chris\autohotkey',
+    'B:\PF\chris\scoop\apps\scoop\current', 'B:\PF\chris\scoop\persist', 'B:\PF\chris\Documents\PowerShell',
+    'B:\PF\chris\autohotkey\script\fork\AppendToClipboard', 'B:\PF\chris\autohotkey\script\fork\CheckIfProgIsRunning',
+    'B:\PF\chris\autohotkey\script\fork\ExplorerAtPath', 'B:\PF\chris\autohotkey\script\fork\GetRunningProcess',
+    'B:\PF\chris\autohotkey\script\fork\Launch If not Currently running', 'B:\PF\chris\autohotkey\script\fork\Launch
+      If not Currently running Continously', 'B:\PF\chris\autohotkey\script\fork\LaunchApplication',
+    'B:\PF\chris\autohotkey\script\fork\MACRO RECORDER', 'B:\PF\chris\autohotkey\script\fork\Selected
+      Item In Explorer', 'B:\PF\chris\autohotkey\script\fork\SelectedTextWithoutDisturbingClipboard',
+    'B:\PF\chris\autohotkey\script\fork\WindowToforeground', 'B:\PF\chris\Documents\PowerShell\Scripts\EnableLinkedConnections.reg']
   rootB:\ToGit:
     databaseCleanup: {}
     log:
@@ -5702,17 +5725,17 @@ gitRootSettingsSet:
       - toRead
     journal: {}
   rootB:\PF\Archive\ps1:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1688413807760}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1692654341523}
     log:
-      rootSettings: {baseRoots: "!remote://origin\tref://HEAD\tref://refs/heads/master",
-        extendedRoots: ''}
+      rootSettings: {baseRoots: "!remote://archive\t!remote://GroupIntoFolder\t!local-tags://\t\
+          !others://\tref://HEAD\tref://refs/heads/master", extendedRoots: ''}
       fileFilterConfiguration: {}
     merge:
       logRootSettings: {}
     push: {}
     commitNotes:
-      commitNotesHistory: [gpt, Rewriting with gpt, Reorganized, Rewritten with GPT,
-        reorganized, included bcompare script, FROM REGULAR REPO, etc, new features]
+      commitNotesHistory: [toRead, reorg, dedupedAndMerged, dedupe and merge, Deduped,
+        etc, gpt, Rewriting with gpt, Reorganized]
     journal: {}
   rootB:\PF\CSharpVisualStudio\repos:
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1687890283163}
@@ -6364,7 +6387,7 @@ gitRootSettingsSet:
       logRootSettings: {}
     push: {}
     commitNotes:
-      commitNotesHistory: [ToRead, yp, etc, removed dupes]
+      commitNotesHistory: ['massive stage, to verify', ToRead, yp, etc, removed dupes]
     journal: {}
   rootB:\PF\PowerShell\Processes\pipeline:
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1688413805152}
@@ -6427,7 +6450,7 @@ gitRootSettingsSet:
     commitNotes: {}
     journal: {}
   rootB:\PF\chris\AppData:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1687612269624}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1692787927432}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
@@ -6435,10 +6458,10 @@ gitRootSettingsSet:
       logRootSettings: {}
     push: {}
     commitNotes:
-      commitNotesHistory: [etc, ToRead]
+      commitNotesHistory: [other state, etc, ToRead]
     journal: {}
   rootB:\PF\chris\scoop\apps\scoop\current:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1686059977696}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1692787928393}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
@@ -6680,7 +6703,7 @@ gitRootSettingsSet:
     commitNotes: {}
     journal: {}
   rootB:\PF\chris\Documents:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1687888875064}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1692787927892}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
@@ -6688,17 +6711,21 @@ gitRootSettingsSet:
       logRootSettings: {}
     push: {}
     commitNotes:
-      commitNotesHistory: [ToRead, cleared gitmoudules]
+      commitNotesHistory: [etc, ToRead, cleared gitmoudules]
     journal: {}
   rootB:\PF\chris\Documents\PowerShell:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1686123531732}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1692787928443}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
     merge:
       logRootSettings: {}
     push: {}
-    commitNotes: {}
+    commitNotes:
+      commitNotesHistory:
+      - etc etc
+      - "Merge remote-tracking branch 'remotes/Ps-Scripts/Toblerone' into profileFolder\n\
+        \n# Conflicts:\n#\tMicrosoft.PowerShellISE_profile.ps1"
     journal: {}
   rootB:\Users\chris\Documents:
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1686127497979}
@@ -6795,9 +6822,9 @@ gitRootSettingsSet:
       commitNotesHistory: [movedArround]
     journal: {}
   rootB:\PF\Archive:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1687791479576}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1692654304941}
     log:
-      rootSettings: {}
+      rootSettings: {baseRoots: "!local-branches://\tref://HEAD", extendedRoots: ''}
       fileFilterConfiguration: {}
     merge:
       logRootSettings: {}
@@ -9227,7 +9254,7 @@ gitRootSettingsSet:
         webpage, stackable, toVeryfiy]
     journal: {}
   rootB:\PF\PowershellProjectFolder:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1688391066112}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1692011530510}
     log:
       rootSettings: {baseRoots: "!local-branches://\tref://HEAD", extendedRoots: ''}
       fileFilterConfiguration: {}
@@ -9268,6 +9295,940 @@ gitRootSettingsSet:
     journal: {}
   rootC:\ProgramData\scoop\persist\everything:
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1688456048559}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\PowershellProjectFolder\Modules\Personal:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1692011529306}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\PowershellProjectFolder\TodoProjects\Ast-IdentifyCodeBlocks:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1692011528889}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\PowershellProjectFolder\TodoProjects\GitHooks\cf3e17d36706bea6afbdc6d2c46811a4:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1692011528985}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\PowershellProjectFolder\doneAndDeserted\Betesta\Esp-Header-Export:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1692011529149}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\PowershellProjectFolder\doneNDeserted\WindowsAdmin:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1692011530352}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\PowershellProjectFolder\scripts:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1692011528736}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\PowershellProjectFolder\Modules\Personal\Regestry\Get-progid:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1692011531085}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\PowershellProjectFolder\Modules\Personal\TextTransformation\MessureObfuscated:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1692011530067}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\PowershellProjectFolder\Modules\Personal\TextTransformation\hashtable\CompareHashTable:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1692011529644}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\PowershellProjectFolder\Modules\Personal\TextTransformation\hashtable\CompareHashTableAlt:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1692011528609}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\PowershellProjectFolder\Modules\Personal\aPdf:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1692011529789}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\PowershellProjectFolder\Modules\Personal\browser\ExportChromeBook:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1692011528530}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\PowershellProjectFolder\Modules\Personal\browser\ExportChromeExtensions:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1692011530650}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\PowershellProjectFolder\Modules\Personal\filesystem\Compare:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1692011528371}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\PowershellProjectFolder\Modules\Personal\filesystem\Count:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1692011530117}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\PowershellProjectFolder\Modules\Personal\filesystem\Toutched:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1692011529929}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\PowershellProjectFolder\Modules\Personal\filesystem\group:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1692011531197}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\PowershellProjectFolder\Modules\Personal\git\BreakRepoIntoTwo\fork\6387904f5666f83f401afed94a869379:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1692011530021}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\PowershellProjectFolder\Modules\Personal\git\Clone-NonEmpty:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1692011531041}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\PowershellProjectFolder\Modules\Personal\git\get-gitConfig:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1692011528937}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\PowershellProjectFolder\Modules\Personal\ini\5960b271752d030383f0e5a591751e0d:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1692011529035}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\PowershellProjectFolder\Modules\Personal\migration\Export-Inst-Choco:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1692011530603}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\PowershellProjectFolder\Modules\Personal\migration\GetInstalled:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1692011529738}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\PowershellProjectFolder\Modules\Personal\ps\ExecJavaScript:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1692011530996}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\PowershellProjectFolder\Modules\Personal\ps\Processes\Get-ProcessTree:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1692011529090}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\PowershellProjectFolder\Modules\Personal\ps\Show-BinaryFile:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1692011529976}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\PowershellProjectFolder\Modules\Personal\ps\pipeline\Pipe-Rawdata:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1692011529452}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\PowershellProjectFolder\Modules\Personal\ps\pipeline\breakPipelineAtCondition:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1692011529596}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\PowershellProjectFolder\Modules\Personal\ps\ui\DiagramPswriteHtml:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1692011528423}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\PowershellProjectFolder\Modules\Personal\sql\Sqlite:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1692011530694}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\PowershellProjectFolder\Modules\Personal\xadmin:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1692011528688}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\PowershellProjectFolder\Modules\Personal\xml\Xml-Transform-Xdt:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1692011529835}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\PowershellProjectFolder\Modules\Personal\xml\xml2Csv:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1692011528477}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\PowershellProjectFolder\doneNDeserted\WindowsAdmin\TakeOwnerShip:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1692011529195}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\PowershellProjectFolder\doneNDeserted\WindowsAdmin\forked-sysadmin:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1692011530901}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\PowershellProjectFolder\doneNDeserted\WindowsAdmin\my-windows:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1692011528843}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\PowershellProjectFolder\scripts\AllowAccessWindowsDefender:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1692011530258}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\PowershellProjectFolder\scripts\Export-Inst-Choco:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1692011529500}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\PowershellProjectFolder\scripts\Fork\DiagramPswriteHtml:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1692011529405}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\PowershellProjectFolder\scripts\Fork\ExportChromeBook:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1692011530736}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\PowershellProjectFolder\scripts\GetInstalled:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1692011530781}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\PowershellProjectFolder\scripts\TodoProjects\Ast-IdentifyCodeBlocks:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1692011529359}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\PowershellProjectFolder\scripts\doneNDeserted\WindowsAdmin\forked-sysadmin\snipps:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1692011530824}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\PowershellProjectFolder\scripts\forked-sysadmin:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1692011530305}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\PowershellProjectFolder\scripts\my-windows:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1692011530949}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\PowershellProjectFolder\scripts\pshell:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1692011530214}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\PowershellProjectFolder\Modules\Personal\aPdf\TextFromPdf:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1692011529549}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\PowershellProjectFolder\Modules\Personal\aPdf\iTextSharp Functions\ReadText:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1692011530169}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\PowershellProjectFolder\Modules\Personal\filesystem\Compare\RecFolderDiff:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1692011530556}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\PowershellProjectFolder\Modules\Personal\xadmin\AllowAccessWindowsDefender:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1692011528786}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\PowershellProjectFolder\Modules\Personal\xadmin\TakeOwnerShip:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1692011529882}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\PowershellProjectFolder\Modules\Personal\xml\xml2Csv\kindljiri:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1692011529692}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\PowershellProjectFolder\doneNDeserted\WindowsAdmin\my-windows\AliasesUserProfile:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1692011529243}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootC:\Users\CrRoot\AppData:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1692011542731}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes:
+      commitNotesHistory: [state]
+    journal: {}
+  rootC:\Users\CrRoot\AppData\Roaming\Everything:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1692011542791}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootC:\Users\CrRoot\AppData\Roaming\Scooter Software\Beyond Compare 4:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1692011542640}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootC:\Users\CrRoot\AppData\Roaming\d2rmm:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1692011542836}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootC:\Users\CrRoot\.config\powershell:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1692032841780}
+    log:
+      rootSettings: {baseRoots: "!remote://CmdHist\t!local-branches://\t!local-tags://\t\
+          !others://\t!remote://Ps-Scripts\tref://HEAD", extendedRoots: ''}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes:
+      commitNotesHistory:
+      - Merge remote-tracking branch 'Ps-Scripts/vscode__yamajyn_commandlist' into
+        profileFolder
+      - "Merge remote-tracking branch 'remotes/Ps-Scripts/vscode_yamajyn_commandlist'\
+        \ into profileFolder\n\n# Conflicts:\n#\tTodoProjects_Microsoft.PowerShellISE_profile.ps1"
+      - state after automated repo flattening
+      - "dunno\n\nDeduped\n\n+\\TodoProjects\\todo\\powerShellProjectFolder.code-workspace\
+        \ -> \\powerShellProjectFolder.code-workspace+\n\n# Conflicts:\n#\tTodoProjects_Microsoft.PowerShellISE_profile.ps1\n\
+        #\tTodoProjects_profile.ps1\n\nETC\n\n# Conflicts:\n#\tTodoProjects_Microsoft.PowerShellISE_profile.ps1\n\
+        \ndunno\n\n# Conflicts:\n#\tTodoProjects_Microsoft.PowerShellISE_profile.ps1\n\
+        \nMerge branch 'CmdHist' of https://github.com/perXautomatik/PowerShellCmdHist\
+        \ into CmdHist\n\n# Conflicts:\n#\tPSReadline/ConsoleHost_history.txt\n\n\
+        ETC\n\ndunno\n\nDeduped\n\n+\\TodoProjects\\todo\\powerShellProjectFolder.code-workspace\
+        \ -> \\powerShellProjectFolder.code-workspace+\n\n# Conflicts:\n#\tTodoProjects_Microsoft.PowerShellISE_profile.ps1\n\
+        #\tTodoProjects_profile.ps1\n\nETC\n\n# Conflicts:\n#\tTodoProjects_Microsoft.PowerShellISE_profile.ps1\n\
+        \ndunno\n\n# Conflicts:\n#\tTodoProjects_Microsoft.PowerShellISE_profile.ps1\n\
+        \n+\\TodoProjects\\todo\\powerShellProjectFolder.code-workspace -> \\powerShellProjectFolder.code-workspace+\n\
+        \n# Conflicts:\n#\tTodoProjects_Microsoft.PowerShellISE_profile.ps1\n#\tTodoProjects_profile.ps1\n\
+        \ndunno\n\nDeduped\n\n+\\TodoProjects\\todo\\powerShellProjectFolder.code-workspace\
+        \ -> \\powerShellProjectFolder.code-workspace+\n\n# Conflicts:\n#\tTodoProjects_Microsoft.PowerShellISE_profile.ps1\n\
+        #\tTodoProjects_profile.ps1\n\nETC\n\n# Conflicts:\n#\tTodoProjects_Microsoft.PowerShellISE_profile.ps1\n\
+        \ndunno\n\n# Conflicts:\n#\tTodoProjects_Microsoft.PowerShellISE_profile.ps1\n\
+        \nMerge branch 'Branch_f3fc9634' into CmdHist\n\n# Conflicts:\n#\tModules/PackageManagement/1.4.7/fullclr/Microsoft.PackageManagement.dll\n\
+        #\tModules/PackageManagement/1.4.7/fullclr/Microsoft.PowerShell.PackageManagement.dll\n\
+        #\tScripts/Modules - genväg.lnk\n\n[Chore] Reorganized, need to re add submodules\n\
+        \n# Conflicts:\n#\tTodoProjects_Microsoft.PowerShellISE_profile.ps1\n\nsadasd\n\
+        \nreorganized, removed dupe\n\nasdas\n\nremoved dupes and restored some order\n\
+        \ndunno\n\nDeduped\n\n+\\TodoProjects\\todo\\powerShellProjectFolder.code-workspace\
+        \ -> \\powerShellProjectFolder.code-workspace+\n\n# Conflicts:\n#\tTodoProjects_Microsoft.PowerShellISE_profile.ps1\n\
+        #\tTodoProjects_profile.ps1\n\nETC\n\n# Conflicts:\n#\tTodoProjects_Microsoft.PowerShellISE_profile.ps1\n\
+        \ndunno\n\n# Conflicts:\n#\tTodoProjects_Microsoft.PowerShellISE_profile.ps1\n\
+        \nMerge branch 'CmdHist' of https://github.com/perXautomatik/PowerShellCmdHist\
+        \ into CmdHist\n\n# Conflicts:\n#\tPSReadline/ConsoleHost_history.txt\n\n\
+        ETC\n\ndunno\n\nDeduped\n\n+\\TodoProjects\\todo\\powerShellProjectFolder.code-workspace\
+        \ -> \\powerShellProjectFolder.code-workspace+\n\n# Conflicts:\n#\tTodoProjects_Microsoft.PowerShellISE_profile.ps1\n\
+        #\tTodoProjects_profile.ps1\n\nETC\n\n# Conflicts:\n#\tTodoProjects_Microsoft.PowerShellISE_profile.ps1\n\
+        \ndunno\n\n# Conflicts:\n#\tTodoProjects_Microsoft.PowerShellISE_profile.ps1\n\
+        \n+\\TodoProjects\\todo\\powerShellProjectFolder.code-workspace -> \\powerShellProjectFolder.code-workspace+\n\
+        \n# Conflicts:\n#\tTodoProjects_Microsoft.PowerShellISE_profile.ps1\n#\tTodoProjects_profile.ps1\n\
+        \ndunno\n\nDeduped\n\n+\\TodoProjects\\todo\\powerShellProjectFolder.code-workspace\
+        \ -> \\powerShellProjectFolder.code-workspace+\n\n# Conflicts:\n#\tTodoProjects_Microsoft.PowerShellISE_profile.ps1\n\
+        #\tTodoProjects_profile.ps1\n\nETC\n\n# Conflicts:\n#\tTodoProjects_Microsoft.PowerShellISE_profile.ps1\n\
+        \ndunno\n\n# Conflicts:\n#\tTodoProjects_Microsoft.PowerShellISE_profile.ps1\n\
+        \nMerge branch 'Branch_f3fc9634' into CmdHist\n\n# Conflicts:\n#\tModules/PackageManagement/1.4.7/fullclr/Microsoft.PackageManagement.dll\n\
+        #\tModules/PackageManagement/1.4.7/fullclr/Microsoft.PowerShell.PackageManagement.dll\n\
+        #\tScripts/Modules - genväg.lnk\n\n[Chore] Reorganized, need to re add submodules\n\
+        \n# Conflicts:\n#\tTodoProjects_Microsoft.PowerShellISE_profile.ps1\n\nsadasd\n\
+        \nreorganized, removed dupe\n\nasdas\n\nremoved dupes and restored some order"
+      - "dunno\n\nDeduped\n\n+\\TodoProjects\\todo\\powerShellProjectFolder.code-workspace\
+        \ -> \\powerShellProjectFolder.code-workspace+\n\n# Conflicts:\n#\tTodoProjects_Microsoft.PowerShellISE_profile.ps1\n\
+        #\tTodoProjects_profile.ps1\n\nETC\n\n# Conflicts:\n#\tTodoProjects_Microsoft.PowerShellISE_profile.ps1\n\
+        \ndunno\n\n# Conflicts:\n#\tTodoProjects_Microsoft.PowerShellISE_profile.ps1\n\
+        \nMerge branch 'CmdHist' of https://github.com/perXautomatik/PowerShellCmdHist\
+        \ into CmdHist\n\n# Conflicts:\n#\tPSReadline/ConsoleHost_history.txt\n\n\
+        ETC\n\ndunno\n\nDeduped\n\n+\\TodoProjects\\todo\\powerShellProjectFolder.code-workspace\
+        \ -> \\powerShellProjectFolder.code-workspace+\n\n# Conflicts:\n#\tTodoProjects_Microsoft.PowerShellISE_profile.ps1\n\
+        #\tTodoProjects_profile.ps1\n\nETC\n\n# Conflicts:\n#\tTodoProjects_Microsoft.PowerShellISE_profile.ps1\n\
+        \ndunno\n\n# Conflicts:\n#\tTodoProjects_Microsoft.PowerShellISE_profile.ps1\n\
+        \n+\\TodoProjects\\todo\\powerShellProjectFolder.code-workspace -> \\powerShellProjectFolder.code-workspace+\n\
+        \n# Conflicts:\n#\tTodoProjects_Microsoft.PowerShellISE_profile.ps1\n#\tTodoProjects_profile.ps1\n\
+        \ndunno\n\nDeduped\n\n+\\TodoProjects\\todo\\powerShellProjectFolder.code-workspace\
+        \ -> \\powerShellProjectFolder.code-workspace+\n\n# Conflicts:\n#\tTodoProjects_Microsoft.PowerShellISE_profile.ps1\n\
+        #\tTodoProjects_profile.ps1\n\nETC\n\n# Conflicts:\n#\tTodoProjects_Microsoft.PowerShellISE_profile.ps1\n\
+        \ndunno\n\n# Conflicts:\n#\tTodoProjects_Microsoft.PowerShellISE_profile.ps1\n\
+        \nMerge branch 'Branch_f3fc9634' into CmdHist\n\n# Conflicts:\n#\tModules/PackageManagement/1.4.7/fullclr/Microsoft.PackageManagement.dll\n\
+        #\tModules/PackageManagement/1.4.7/fullclr/Microsoft.PowerShell.PackageManagement.dll\n\
+        #\tScripts/Modules - genväg.lnk\n\n[Chore] Reorganized, need to re add submodules\n\
+        \n# Conflicts:\n#\tTodoProjects_Microsoft.PowerShellISE_profile.ps1\n\nsadasd\n\
+        \nreorganized, removed dupe\n\nasdas\n\nremoved dupes and restored some order"
+      - "dunno\n\nDeduped\n\n+\\TodoProjects\\todo\\powerShellProjectFolder.code-workspace\
+        \ -> \\powerShellProjectFolder.code-workspace+\n\n# Conflicts:\n#\tTodoProjects_Microsoft.PowerShellISE_profile.ps1\n\
+        #\tTodoProjects_profile.ps1\n\nETC\n\n# Conflicts:\n#\tTodoProjects_Microsoft.PowerShellISE_profile.ps1\n\
+        \ndunno\n\n# Conflicts:\n#\tTodoProjects_Microsoft.PowerShellISE_profile.ps1\n\
+        \nMerge branch 'CmdHist' of https://github.com/perXautomatik/PowerShellCmdHist\
+        \ into CmdHist\n\n# Conflicts:\n#\tPSReadline/ConsoleHost_history.txt\n\n\
+        ETC\n\ndunno\n\nDeduped\n\n+\\TodoProjects\\todo\\powerShellProjectFolder.code-workspace\
+        \ -> \\powerShellProjectFolder.code-workspace+\n\n# Conflicts:\n#\tTodoProjects_Microsoft.PowerShellISE_profile.ps1\n\
+        #\tTodoProjects_profile.ps1\n\nETC\n\n# Conflicts:\n#\tTodoProjects_Microsoft.PowerShellISE_profile.ps1\n\
+        \ndunno\n\n# Conflicts:\n#\tTodoProjects_Microsoft.PowerShellISE_profile.ps1\n\
+        \n+\\TodoProjects\\todo\\powerShellProjectFolder.code-workspace -> \\powerShellProjectFolder.code-workspace+\n\
+        \n# Conflicts:\n#\tTodoProjects_Microsoft.PowerShellISE_profile.ps1\n#\tTodoProjects_profile.ps1\n\
+        \ndunno\n\nDeduped\n\n+\\TodoProjects\\todo\\powerShellProjectFolder.code-workspace\
+        \ -> \\powerShellProjectFolder.code-workspace+\n\n# Conflicts:\n#\tTodoProjects_Microsoft.PowerShellISE_profile.ps1\n\
+        #\tTodoProjects_profile.ps1\n\nETC\n\n# Conflicts:\n#\tTodoProjects_Microsoft.PowerShellISE_profile.ps1\n\
+        \ndunno\n\n# Conflicts:\n#\tTodoProjects_Microsoft.PowerShellISE_profile.ps1\n\
+        \nMerge branch 'Branch_f3fc9634' into CmdHist\n\n# Conflicts:\n#\tModules/PackageManagement/1.4.7/fullclr/Microsoft.PackageManagement.dll\n\
+        #\tModules/PackageManagement/1.4.7/fullclr/Microsoft.PowerShell.PackageManagement.dll\n\
+        #\tScripts/Modules - genväg.lnk\n\n[Chore] Reorganized, need to re add submodules\n\
+        \n# Conflicts:\n#\tTodoProjects_Microsoft.PowerShellISE_profile.ps1"
+      - "dunno\n\nDeduped\n\n+\\TodoProjects\\todo\\powerShellProjectFolder.code-workspace\
+        \ -> \\powerShellProjectFolder.code-workspace+\n\n# Conflicts:\n#\tTodoProjects_Microsoft.PowerShellISE_profile.ps1\n\
+        #\tTodoProjects_profile.ps1\n\nETC\n\n# Conflicts:\n#\tTodoProjects_Microsoft.PowerShellISE_profile.ps1\n\
+        \ndunno\n\n# Conflicts:\n#\tTodoProjects_Microsoft.PowerShellISE_profile.ps1\n\
+        \nMerge branch 'CmdHist' of https://github.com/perXautomatik/PowerShellCmdHist\
+        \ into CmdHist\n\n# Conflicts:\n#\tPSReadline/ConsoleHost_history.txt\n\n\
+        ETC\n\ndunno\n\nDeduped\n\n+\\TodoProjects\\todo\\powerShellProjectFolder.code-workspace\
+        \ -> \\powerShellProjectFolder.code-workspace+\n\n# Conflicts:\n#\tTodoProjects_Microsoft.PowerShellISE_profile.ps1\n\
+        #\tTodoProjects_profile.ps1\n\nETC\n\n# Conflicts:\n#\tTodoProjects_Microsoft.PowerShellISE_profile.ps1\n\
+        \ndunno\n\n# Conflicts:\n#\tTodoProjects_Microsoft.PowerShellISE_profile.ps1\n\
+        \n+\\TodoProjects\\todo\\powerShellProjectFolder.code-workspace -> \\powerShellProjectFolder.code-workspace+\n\
+        \n# Conflicts:\n#\tTodoProjects_Microsoft.PowerShellISE_profile.ps1\n#\tTodoProjects_profile.ps1\n\
+        \ndunno\n\nDeduped\n\n+\\TodoProjects\\todo\\powerShellProjectFolder.code-workspace\
+        \ -> \\powerShellProjectFolder.code-workspace+\n\n# Conflicts:\n#\tTodoProjects_Microsoft.PowerShellISE_profile.ps1\n\
+        #\tTodoProjects_profile.ps1\n\nETC\n\n# Conflicts:\n#\tTodoProjects_Microsoft.PowerShellISE_profile.ps1\n\
+        \ndunno\n\n# Conflicts:\n#\tTodoProjects_Microsoft.PowerShellISE_profile.ps1\n\
+        \nMerge branch 'Branch_f3fc9634' into CmdHist\n\n# Conflicts:\n#\tModules/PackageManagement/1.4.7/fullclr/Microsoft.PackageManagement.dll\n\
+        #\tModules/PackageManagement/1.4.7/fullclr/Microsoft.PowerShell.PackageManagement.dll\n\
+        #\tScripts/Modules - genväg.lnk"
+      - |-
+        sadasd
+
+        reorganized, removed dupe
+
+        asdas
+
+        removed dupes and restored some order
+      - "dunno\n\nDeduped\n\n+\\TodoProjects\\todo\\powerShellProjectFolder.code-workspace\
+        \ -> \\powerShellProjectFolder.code-workspace+\n\n# Conflicts:\n#\tTodoProjects_Microsoft.PowerShellISE_profile.ps1\n\
+        #\tTodoProjects_profile.ps1\n\nETC\n\n# Conflicts:\n#\tTodoProjects_Microsoft.PowerShellISE_profile.ps1\n\
+        \ndunno\n\n# Conflicts:\n#\tTodoProjects_Microsoft.PowerShellISE_profile.ps1\n\
+        \nMerge branch 'CmdHist' of https://github.com/perXautomatik/PowerShellCmdHist\
+        \ into CmdHist\n\n# Conflicts:\n#\tPSReadline/ConsoleHost_history.txt\n\n\
+        ETC\n\ndunno\n\nDeduped\n\n+\\TodoProjects\\todo\\powerShellProjectFolder.code-workspace\
+        \ -> \\powerShellProjectFolder.code-workspace+\n\n# Conflicts:\n#\tTodoProjects_Microsoft.PowerShellISE_profile.ps1\n\
+        #\tTodoProjects_profile.ps1\n\nETC\n\n# Conflicts:\n#\tTodoProjects_Microsoft.PowerShellISE_profile.ps1\n\
+        \ndunno\n\n# Conflicts:\n#\tTodoProjects_Microsoft.PowerShellISE_profile.ps1\n\
+        \n+\\TodoProjects\\todo\\powerShellProjectFolder.code-workspace -> \\powerShellProjectFolder.code-workspace+\n\
+        \n# Conflicts:\n#\tTodoProjects_Microsoft.PowerShellISE_profile.ps1\n#\tTodoProjects_profile.ps1\n\
+        \ndunno\n\nDeduped\n\n+\\TodoProjects\\todo\\powerShellProjectFolder.code-workspace\
+        \ -> \\powerShellProjectFolder.code-workspace+\n\n# Conflicts:\n#\tTodoProjects_Microsoft.PowerShellISE_profile.ps1\n\
+        #\tTodoProjects_profile.ps1\n\nETC\n\n# Conflicts:\n#\tTodoProjects_Microsoft.PowerShellISE_profile.ps1\n\
+        \ndunno\n\n# Conflicts:\n#\tTodoProjects_Microsoft.PowerShellISE_profile.ps1"
+    journal: {}
+  rootB:\PF\chris\Documents\WindowsPowerShell:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1692038067156}
+    log:
+      rootSettings: {baseRoots: "!local-branches://\t!remote://origin\t!remote://upstream\t\
+          ref://HEAD", extendedRoots: '!stashes://'}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\Archive\ps1\Aggregation\TextProcessingProjectF:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1692654464027}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes:
+      commitNotesHistory: [TpRead]
+    journal: {}
+  rootB:\PF\Archive\ps1\git:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1692654463978}
+    log:
+      rootSettings: {baseRoots: "!local-branches://\t!local-tags://\t!remote://origin\t\
+          ref://HEAD", extendedRoots: ''}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes:
+      commitNotesHistory: [toread, reorg, deduped, '[not done] standaradized, but',
+        Deduped and merged, Deduplicated and restored initial, Deduped, Normalized
+          variations]
+    journal: {}
+  rootC:\ProgramData\scoop\persist\SmartGit\.settings:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1692732619315}
+    log:
+      rootSettings: {baseRoots: "!local-branches://\tref://HEAD", extendedRoots: ''}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\Archive\ps1\workflow\CsharpI:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1692785761930}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\Archive\ps1\git\submodule\SubmoduleFromGitmodules:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1692785830976}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes:
+      commitNotesHistory: [etc]
+    journal: {}
+  rootB:\PF\Archive\ps1\Aggregation\TextProcessingProjectF\Tokenization:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1692786243269}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {commitNotes: etc}
+    journal: {}
+  rootB:\PF\chris\autohotkey:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1692787928501}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes:
+      commitNotes: etc
+      commitNotesHistory: [etc]
+    journal: {}
+  rootB:\PF\chris\scoop\persist:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1692787928204}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes:
+      commitNotesHistory: [toVerify]
+    journal: {}
+  rootB:\PF\chris\autohotkey\script\fork\AppendToClipboard:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1692787928597}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\chris\autohotkey\script\fork\CheckIfProgIsRunning:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1692787928002}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\chris\autohotkey\script\fork\ExplorerAtPath:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1692787928051}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\chris\autohotkey\script\fork\GetRunningProcess:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1692787928104}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\chris\autohotkey\script\fork\Launch If not Currently running:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1692787927827}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\chris\autohotkey\script\fork\Launch If not Currently running Continously:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1692787928155}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\chris\autohotkey\script\fork\LaunchApplication:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1692787928549}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\chris\autohotkey\script\fork\MACRO RECORDER:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1692787927946}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\chris\autohotkey\script\fork\Selected Item In Explorer:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1692787928253}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\chris\autohotkey\script\fork\SelectedTextWithoutDisturbingClipboard:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1692787928345}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\chris\autohotkey\script\fork\WindowToforeground:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1692787928299}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\chris\Documents\PowerShell\Scripts\EnableLinkedConnections.reg:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1692788827394}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}

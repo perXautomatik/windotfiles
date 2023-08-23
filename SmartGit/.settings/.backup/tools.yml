@@ -1,4 +1,14 @@
 tools:
+- name: ignore subfolder
+  fileStarter: {command: powershell.exe, parameters: '$p1 = "''${filePath}''" ; $p1
+      = convert-path $p1  ;  $p2 ="''${repositoryRootPath}''" ;  $p2 = convert-path
+      $p2; invoke-command -scriptblock {param($param1,$param2) ;   (coreutils realpath
+      --relative-to="$param2" ( $param1 | split-path -parent )).replace(''\'',''/'')
+      >> (Join-Path -Path $param2 -ChildPath ''.gitignore'')} -ArgumentList $p1, $p2'}
+  useForOpen: false
+  waitUntilFinished: true
+  filePattern: '*'
+  forFilesNotDirectories: true
 - id: openFile
   name: Open File
   fileStarter: {command: '${smartGitDir}\bin\open.exe', parameters: '${filePath}'}
@@ -43,10 +53,9 @@ tools:
 - name: DeleteIndex
   keystroke: CTRL+DEL
   fileStarter: {command: '${git}', parameters: 'rm --cached -r ${fileName}'}
-  useForOpen: false
-  waitUntilFinished: true
+  useForOpen: true
+  waitUntilFinished: false
   filePattern: '*'
-  forFilesNotDirectories: false
   confirmationMessage: --cd=${repositoryRootPath} -c "git rm --cached -r ${fileName}"
 - name: GitPushOnDemand
   fileStarter: {command: '${git}', parameters: push --recurse-submodules=on-demand}

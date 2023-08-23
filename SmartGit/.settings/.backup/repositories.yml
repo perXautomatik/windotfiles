@@ -12,12 +12,28 @@ gitRootSettingsSet:
   roots: ['B:\PF\scoopbucket-1', 'B:\PF\scoopbucket-1\Scripts\AllowAccessWindowsDefender',
     'B:\PF\scoopbucket-1\Scripts\Export-Inst-Choco', 'B:\PF\scoopbucket-1\Scripts\GetInstalled',
     'B:\PF\scoopbucket-1\Scripts\TakeOwnerShip', 'B:\PF\scoopbucket-1\Scripts\powershellAliasesUserProfile',
-    'C:\ProgramData\scoop\buckets', 'C:\ProgramData\scoop\buckets\anderlli0053_DEV-tools',
+    'B:\GitPs1Module', 'B:\PF\Archive\ps1', 'B:\PF\PowerShell', 'B:\PF\PowerShell\DirToJson',
+    'B:\PF\PowerShell\ISEpwsh7Pluggin', 'B:\PF\PowerShell\Processes\pipeline', 'B:\PF\PowershellProjectFolder',
+    'B:\ps1', 'C:\ProgramData\scoop\buckets', 'C:\ProgramData\scoop\buckets\anderlli0053_DEV-tools',
     'C:\ProgramData\scoop\buckets\extras', 'C:\ProgramData\scoop\buckets\games', 'C:\ProgramData\scoop\buckets\main',
-    'C:\ProgramData\scoop\buckets\nonportable', 'C:\ProgramData\scoop\buckets\perXautomatik',
-    'C:\ProgramData\scoop\buckets\perXautomatik\Scripts\AllowAccessWindowsDefender',
-    'C:\ProgramData\scoop\buckets\perXautomatik\Scripts\Export-Inst-Choco', 'C:\ProgramData\scoop\buckets\perXautomatik\Scripts\GetInstalled',
-    'C:\ProgramData\scoop\buckets\perXautomatik\Scripts\TakeOwnerShip', 'C:\ProgramData\scoop\buckets\perXautomatik\Scripts\powershellAliasesUserProfile']
+    'B:\PF\scoopbucket-presist', 'B:\PF\scoopbucket-presist\AHK', 'B:\PF\scoopbucket-presist\AppData',
+    'B:\PF\scoopbucket-presist\BeondCompare4', 'B:\PF\scoopbucket-presist\Cherrytree',
+    'B:\PF\scoopbucket-presist\Datagrip', 'B:\PF\scoopbucket-presist\Ditto', 'B:\PF\scoopbucket-presist\Git',
+    'B:\PF\scoopbucket-presist\JetBrains', 'B:\PF\scoopbucket-presist\OtherVersionControlledText',
+    'B:\PF\scoopbucket-presist\PortableProgramSuit', 'B:\PF\scoopbucket-presist\PowerShellCmdHist',
+    'B:\PF\scoopbucket-presist\Powershell', 'B:\PF\scoopbucket-presist\Vortex', 'B:\PF\scoopbucket-presist\portableAppsPlatform',
+    'B:\PF\scoopbucket-presist\steamapps', 'B:\PF\scoopbucket-presist\xEditScripts',
+    'B:\PF\scoopbucket-presist\AHK\Fork\AppendToClipboard', 'B:\PF\scoopbucket-presist\AHK\Fork\CheckIfProgIsRunning',
+    'B:\PF\scoopbucket-presist\AHK\Fork\ExplorerAtPath', 'B:\PF\scoopbucket-presist\AHK\Fork\GetRunningProcess',
+    'B:\PF\scoopbucket-presist\AHK\Fork\Launch If not Currently running', 'B:\PF\scoopbucket-presist\AHK\Fork\Launch
+      If not Currently running Continously', 'B:\PF\scoopbucket-presist\AHK\Fork\LaunchApplication',
+    'B:\PF\scoopbucket-presist\AHK\Fork\MACRO RECORDER', 'B:\PF\scoopbucket-presist\AHK\Fork\NoahHotell',
+    'B:\PF\scoopbucket-presist\AHK\Fork\Selected Item In Explorer', 'B:\PF\scoopbucket-presist\AHK\Fork\SelectedTextWithoutDisturbingClipboard',
+    'B:\PF\scoopbucket-presist\AHK\Fork\WindowToforeground', 'B:\PF\scoopbucket-presist\AHK\Fork\autoklick',
+    'B:\PF\scoopbucket-presist\AppData\Roaming\Everything', 'B:\PF\scoopbucket-presist\AppData\Roaming\Scooter
+      Software\Beyond Compare 4', 'B:\PF\scoopbucket-presist\AppData\Roaming\Vortex',
+    'B:\PF\scoopbucket-presist\Datagrip\DataGrip2021.1', 'B:\PF\scoopbucket-presist\Datagrip\datagrip2019.4',
+    'B:\PF\scoopbucket-presist\AdvancedRenamer', 'C:\ProgramData\scoop\persist', 'C:\ProgramData\scoop\persist\everything']
   rootB:\ToGit:
     databaseCleanup: {}
     log:
@@ -5686,7 +5702,7 @@ gitRootSettingsSet:
       - toRead
     journal: {}
   rootB:\PF\Archive\ps1:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1687791485516}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1688413807760}
     log:
       rootSettings: {baseRoots: "!remote://origin\tref://HEAD\tref://refs/heads/master",
         extendedRoots: ''}
@@ -5695,9 +5711,8 @@ gitRootSettingsSet:
       logRootSettings: {}
     push: {}
     commitNotes:
-      commitNotesHistory: [reorganized, included bcompare script, FROM REGULAR REPO,
-        etc, new features, visitable count column, sorting but no column of count,
-        group by subpath, bingGenerated]
+      commitNotesHistory: [gpt, Rewriting with gpt, Reorganized, Rewritten with GPT,
+        reorganized, included bcompare script, FROM REGULAR REPO, etc, new features]
     journal: {}
   rootB:\PF\CSharpVisualStudio\repos:
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1687890283163}
@@ -5720,7 +5735,7 @@ gitRootSettingsSet:
     commitNotes: {}
     journal: {}
   rootB:\PF\PowerShell:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1687785608767}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1688390896744}
     log:
       rootSettings: {baseRoots: "!local-branches://\t!local-tags://\t!remote://origin\t\
           ref://HEAD", extendedRoots: ''}
@@ -5729,10 +5744,10 @@ gitRootSettingsSet:
       logRootSettings: {}
     push: {}
     commitNotes:
-      commitNotesHistory: [personal utilization of GPT generated methods, pseudo code
-          added, bout to add tokenization, psudo to code with GPT, wraped with gpt,
-        reinteruptied with help of gpt, rewritten with GPT, psedu to code with GPT,
-        pseudo to code with GPT]
+      commitNotesHistory: [ToVerify - Removed Dupes, Further renaming, ToVerify, Reorganized,
+        stage, 'somewhat funcitonal. need to distinguish functions, maybe worth comparing
+          with the original tokenization script', personal utilization of GPT generated
+          methods, pseudo code added, bout to add tokenization]
     journal: {}
   rootB:\PF\VisualStudio\213c939651e0bef7612b2f910909a21d:
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1687295977247}
@@ -5776,7 +5791,7 @@ gitRootSettingsSet:
       commitNotesHistory: [etc]
     journal: {}
   rootB:\PF\scoopbucket-1:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1687697069849}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1688390813359}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
@@ -5796,7 +5811,7 @@ gitRootSettingsSet:
       - toread
     journal: {}
   rootB:\PF\scoopbucket-presist:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1687611970471}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1688453930021}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
@@ -5804,7 +5819,8 @@ gitRootSettingsSet:
       logRootSettings: {}
     push: {}
     commitNotes:
-      commitNotesHistory: [etc, submodules added, toread, toVerify]
+      commitNotesHistory: [Vscodium instead of code, etc, submodules added, toread,
+        toVerify]
     journal: {}
   rootB:\PF\xgit\SparseCheckout\test-git-partial-clone-big-small:
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1687895104161}
@@ -5868,7 +5884,7 @@ gitRootSettingsSet:
     commitNotes: {}
     journal: {}
   rootB:\PF\PowerShell\DirToJson:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1687190264972}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1688390896616}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
@@ -5878,7 +5894,7 @@ gitRootSettingsSet:
     commitNotes: {}
     journal: {}
   rootB:\PF\PowerShell\ISEpwsh7Pluggin:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1687190289744}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1688390896787}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
@@ -5938,7 +5954,7 @@ gitRootSettingsSet:
     commitNotes: {}
     journal: {}
   rootB:\PF\scoopbucket-presist\AHK:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1687611970525}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1688453929901}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
@@ -5992,7 +6008,7 @@ gitRootSettingsSet:
       commitNotesHistory: [toVerify]
     journal: {}
   rootB:\PF\scoopbucket-presist\Datagrip:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1687611969412}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1688453929944}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
@@ -6066,7 +6082,7 @@ gitRootSettingsSet:
     commitNotes: {}
     journal: {}
   rootB:\PF\scoopbucket-presist\PortableProgramSuit:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1685972422352}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1688454485868}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
@@ -6097,7 +6113,7 @@ gitRootSettingsSet:
     commitNotes: {}
     journal: {}
   rootB:\PF\scoopbucket-presist\Vortex:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1687611970582}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1688453930068}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
@@ -6351,7 +6367,7 @@ gitRootSettingsSet:
       commitNotesHistory: [ToRead, yp, etc, removed dupes]
     journal: {}
   rootB:\PF\PowerShell\Processes\pipeline:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1687795057164}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1688413805152}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
@@ -6890,7 +6906,7 @@ gitRootSettingsSet:
     commitNotes: {}
     journal: {}
   rootB:\GitPs1Module:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1687714833263}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1688390838425}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
@@ -6898,9 +6914,9 @@ gitRootSettingsSet:
       logRootSettings: {}
     push: {}
     commitNotes:
-      commitNotesHistory: [from gitSearchAllBranches.ps1, from list-duplicate filesinhead-menu,
-        From git-CompareTwoRepos.ps1, from gitfilterRemoveIgnored, from regular repo,
-        works, distingiush branch from file, changed return, before switching to branch]
+      commitNotesHistory: [gpt, new to incorperate in modules, from gitSearchAllBranches.ps1,
+        from list-duplicate filesinhead-menu, From git-CompareTwoRepos.ps1, from gitfilterRemoveIgnored,
+        from regular repo, works, distingiush branch from file]
     journal: {}
   rootB:\Filtered:
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1687752555101}
@@ -9209,5 +9225,55 @@ gitRootSettingsSet:
     commitNotes:
       commitNotesHistory: [Merge commit 'f9bd75b4a23c2e4e677ea6914374e00f907e4684',
         webpage, stackable, toVeryfiy]
+    journal: {}
+  rootB:\PF\PowershellProjectFolder:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1688391066112}
+    log:
+      rootSettings: {baseRoots: "!local-branches://\tref://HEAD", extendedRoots: ''}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes:
+      commitNotesHistory: [auto commit on move, corrected functionallity, Reorganized,
+        stage]
+    journal: {}
+  rootB:\ps1:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1688391227983}
+    log:
+      rootSettings: {baseRoots: "!local-branches://\t!remote://origin\tref://HEAD",
+        extendedRoots: ''}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootC:\ProgramData\scoop\persist:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1688457245988}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes:
+      commitNotesHistory:
+      - Actual persist state
+      - |-
+        Vscodium instead of code
+
+        untracked
+      - Vscodium instead of code
+    journal: {}
+  rootC:\ProgramData\scoop\persist\everything:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1688456048559}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
     journal: {}
 pushMultiRoot: {}

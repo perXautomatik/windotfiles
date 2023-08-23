@@ -1,12 +1,12 @@
 bounds:
-- {key: project, x: -8, y: -8, width: 1936, height: 1056}
+- {key: project, x: -8, y: -8, width: 1936, height: 1056, state: 1}
 - {key: welcome}
-- {key: preferences, x: 229, y: 111, width: 1165, height: 498}
+- {key: preferences, x: -67, y: 49, width: 1165, height: 498}
 - {key: compare, x: 38, y: 174, width: 1440, height: 866}
-- {key: output, x: -1121, y: -43, width: 1168, height: 743}
-- {key: git.commit, width: 1245, height: 553, x: 510, y: -1}
+- {key: output, x: -282, y: 2, width: 1168, height: 743}
+- {key: git.commit, width: 1245, height: 889, x: 96, y: -40}
 - {key: git.commit.selectFromLog, width: 640, height: 395}
-- {key: log, x: 240, y: 58, width: 1440, height: 866}
+- {key: log, x: 569, y: 76, width: 1440, height: 866, state: 1}
 - {key: editor, x: 240, y: 58, width: 1440, height: 866}
 - {key: git.indexEditor, x: 240, y: 58, width: 1440, height: 866, state: 1}
 - {key: git.discard, width: 500, height: 654, x: 0, y: 172}
@@ -20,6 +20,7 @@ bounds:
 - {key: annotate, x: 0, y: 174, width: 1440, height: 866}
 - {key: conflictSolver, x: 240, y: 58, width: 1440, height: 866}
 - {key: splitOff, width: 500, height: 309}
+- {key: git.tag, width: 400, height: 300}
 conflictSolverFrame: {}
 indexEditorFrame: {}
 columns:
@@ -91,8 +92,8 @@ columns:
     - {id: Renamed Path, width: 150, width2x: 0}
     - {id: Relative Path, width: 500, width2x: 0}
     sortOrders:
+    - {id: Modification, reverse: false}
     - {id: Relative Directory, reverse: false}
-    - {id: Modification, reverse: true}
     - {id: Name, reverse: false}
   git.log.files.wt:
     columnNames: "Name\tState\tRelative Directory\tRenamed Path\tExt.\tLFS\tLast Changed\
@@ -144,21 +145,21 @@ confirmations: {exit.showConfirmation: true, git.push: true, git.switchBranch.co
   close.unpushedCommits: true, commit.amend.replaceWarning: true, rebase.continue: true,
   rebaseContinue: true, git.switchBranch.fastForward: true, sync: true, splitCommit: true}
 repositoriesToReopen:
-- window: wt
-  repositories: ['B:\PF\scoopbucket-1']
+- window: log
+  repositories: ['B:\PF\PowershellProjectFolder']
 project.files.git.separateWtIndex: true
-gitProjectLayout.main: (([+384x554:directories ][+384x369:branches ])((([+1533x442:files
-  ][+1533x306:changes ])[-3x1:message ])([+1533x172:outgoing ][-3x1:output ])))
+gitProjectLayout.main: (([+311x554:directories ][+311x369:branches ])((([+1606x473:files
+  ][+1606x305:changes ])[-3x1:message ])([+1606x142:outgoing ][-3x1:output ])))
 log.wtIndex.onDemand: true
 gitProjectLayout.mainIsdefault: true
 gitProjectLayout.review: ([+2x1:directories ][+7x1:files ][+3x1:message ])[+10x3:changes
   ]([-1x1:branches ][-3x1:outgoing ][-3x1:output ])
-lastRepositoryPath: O:\D2RMM 1.4.5\mods
+lastRepositoryPath: C:\ProgramData\scoop\persist
 commit.expandOptions: true
 log.files.git.separateWtIndex: true
-gitLogRootLayout.main: (([+281x366:repositories ][+281x367:branches ])(([+422x558:graph
-  ]([+715x161:details -1x1:output -1x1:debug-log details ][+715x394:files +715x394:comments
-  files ]))[+1140x175:changes ]))
+gitLogRootLayout.main: (([+379x461:repositories ][+379x462:branches ])(([+377x703:graph
+  ]([+1158x203:details -1x1:output -1x1:debug-log details ][+1158x497:files +1158x497:comments
+  files ]))[+1538x220:changes ]))
 gitLogRootLayout.mainIsdefault: true
 gitLogRootLayout.review: (([+1x1:repositories ][+1x1:branches ])(([+4x1:graph ]([+2x1:details
   -1x1:output -1x1:debug-log details ][+2x2:files +2x1:comments files ]))[+4x4:changes
@@ -167,7 +168,7 @@ gitLogSubtreeLayout: ([+120x366:branches ][+335x366:graph ]([+737x161:details -1
   details ][+737x202:files ]))[+1198x367:changes ]
 subtree.add.createLocalBranch: false
 discard.stash: false
-ignore.location: 2
+ignore.location: 1
 git.remove.deleteLocalFile: false
 stashApply.restoreIndex: true
 gitAnnotateLayout: '[+1424x678:document ][+1424x126:line-history ]'
