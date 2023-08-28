@@ -19,13 +19,16 @@ structure:
     - {name: NewWindows2, path: 'B:\PF\NewWindows2'}
     - {name: NewWindows3, path: 'B:\PF\NewWindows3'}
     - {name: TIG-stack, path: 'B:\ToGit\IoT\TIG-stack'}
+    - {name: WindowsPowerShell, path: 'B:\PF\chris\Documents\WindowsPowerShell'}
+    - {name: chris, path: 'B:\PF\chris'}
+    - {name: NoteTakingProjectFolder, path: 'B:\PF\NoteTakingProjectFolder', favorite: true}
     expanded: false
   - {name: ToGit, path: 'G:\ToGit'}
   - {name: scoopbucket-presist, path: 'G:\ToGit\projectFolderBare\scoopbucket-presist'}
   - name: psw
     children:
     - {name: GitPs1Module, path: 'B:\GitPs1Module'}
-    - {name: ps1, path: 'B:\PF\Archive\ps1'}
+    - {name: ps1, path: 'B:\PF\Archive\ps1', favorite: true}
     - {name: PowerShell, path: 'B:\PF\PowerShell'}
     - {name: PowershellProjectFolder, path: 'B:\PF\PowershellProjectFolder'}
     - {name: ps1, path: 'B:\ps1'}
@@ -44,11 +47,15 @@ structure:
   - {name: scoopbucket-1, path: 'B:\PF\scoopbucket-1'}
   - {name: scoopbucket-presist, path: 'B:\PF\scoopbucket-presist'}
   - {name: Deployed-persist, path: 'C:\ProgramData\scoop\persist'}
+  - {name: AppData, path: 'C:\Users\CrRoot\AppData'}
+  - {name: .config_powershell, path: 'C:\Users\CrRoot\.config\powershell'}
   expanded: true
-recentlyUsed: ['C:\ProgramData\scoop\persist', 'B:\PF\scoopbucket-presist', 'B:\PF\scoopbucket-1',
-  'B:\PF\PowershellProjectFolder', 'B:\PF\PowerShell', 'B:\PF\Archive\ps1', 'C:\ProgramData\scoop\buckets',
-  'B:\GitPs1Module', 'B:\ps1', 'B:\ToGit\IoT\TIG-stack', 'B:\ToGit\IoT', 'B:\PF\NewWindows3',
-  'B:\PF\NewWindows2', 'B:\PF', 'B:\PF\Archive', 'B:\Filtered', \\DESKTOP-FIQ183H\BLoppy\ToGit\scoopbucket-1,
-  'B:\Users\chris\Documents', 'B:\New folder (2)\General-ProjectFolders', 'B:\ToGit',
-  \\Sabrina\b\ToGit\Ny mapp\projectFolderBare, 'G:\ToGit\projectFolderBare\scoopbucket-presist',
-  'G:\ToGit', 'B:\ToGit\SubmoduleFromGitmodules', 'B:\SteamLibrary\steamapps', 'I:\Downloads\2022\assorted']
+recentlyUsed: ['B:\PF\Archive\ps1', 'B:\ToGit\IoT\TIG-stack', 'B:\PF\chris', 'B:\PF\NoteTakingProjectFolder',
+  'B:\PF', 'B:\PF\Archive', 'B:\PF\scoopbucket-1', \\DESKTOP-FIQ183H\BLoppy\ToGit\scoopbucket-1,
+  'B:\PF\scoopbucket-presist', 'B:\PF\chris\Documents\WindowsPowerShell', 'C:\Users\CrRoot\.config\powershell',
+  'C:\Users\CrRoot\AppData', 'B:\PF\PowershellProjectFolder', 'C:\ProgramData\scoop\persist',
+  'B:\PF\PowerShell', 'C:\ProgramData\scoop\buckets', 'B:\GitPs1Module', 'B:\ps1',
+  'B:\ToGit\IoT', 'B:\PF\NewWindows3', 'B:\PF\NewWindows2', 'B:\Filtered', 'B:\Users\chris\Documents',
+  'B:\New folder (2)\General-ProjectFolders', 'B:\ToGit', \\Sabrina\b\ToGit\Ny mapp\projectFolderBare,
+  'G:\ToGit\projectFolderBare\scoopbucket-presist', 'G:\ToGit', 'B:\ToGit\SubmoduleFromGitmodules',
+  'B:\SteamLibrary\steamapps', 'I:\Downloads\2022\assorted']

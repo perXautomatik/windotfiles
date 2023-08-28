@@ -2,13 +2,13 @@
   "MaxResult": 100,
   "QuickAccessLinks": [],
   "IndexSearchExcludedSubdirectoryPaths": [],
-  "EditorPath": "",
-  "FolderEditorPath": "",
+  "EditorPath": "C:\\ProgramData\\scoop\\apps\\beyondcompare\\current\\BCompare.exe",
+  "FolderEditorPath": "C:\\ProgramData\\scoop\\apps\\beyondcompare\\current\\BCompare.exe",
   "ShellPath": "cmd",
-  "UseLocationAsWorkingDir": false,
+  "UseLocationAsWorkingDir": true,
   "ShowWindowsContextMenu": true,
   "DefaultOpenFolderInFileManager": false,
-  "SearchActionKeyword": "*",
+  "SearchActionKeyword": "e",
   "SearchActionKeywordEnabled": true,
   "FileContentSearchActionKeyword": "doc:",
   "FileContentSearchKeywordEnabled": true,
@@ -23,8 +23,8 @@
   "PathEnumerationEngine": 1,
   "ContentSearchEngine": 1,
   "EverythingInstalledPath": "C:\\Program Files\\Everything\\Everything.exe",
-  "SortOption": 1,
+  "SortOption": 24,
   "EnableEverythingContentSearch": false,
   "EverythingEnabled": true,
-  "EverythingSearchFullPath": false
+  "EverythingSearchFullPath": true
 }

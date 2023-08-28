@@ -169,7 +169,7 @@
       "Enabled": false
     }
   ],
-  "EnableSuggestion": false,
+  "EnableSuggestion": true,
   "Suggestion": "Google",
   "BrowserPath": null,
   "OpenInNewBrowser": true

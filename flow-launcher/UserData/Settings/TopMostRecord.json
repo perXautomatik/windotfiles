@@ -9,6 +9,11 @@
       "Title": "Stop-Process -Name explorer",
       "SubTitle": "execute command through command shell",
       "PluginID": "D409510CD0D2481F853690A07E6DC426"
+    },
+    "vs": {
+      "Title": "ps1",
+      "SubTitle": "Workspace: B:\\PF\\Archive\\ps1",
+      "PluginID": "525995402BEF4A8CA860D92F6D108092"
     }
   }
 }

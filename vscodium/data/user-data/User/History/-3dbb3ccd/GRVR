@@ -1,0 +1,68 @@
+[diff]
+    algorithm = histogram
+    dirstat = lines,files
+    renames = copies
+    tool = beyondcompare4
+    guitool = bc
+[difftool "bc"]
+	cmd = \"\" \"$LOCAL\" \"$REMOTE\"
+[diff "json"]
+	textconv = gron.exe
+[diff "unzip"]
+    textconv = unzip -c -a
+[diff "csv"]
+    tool = csv
+    guitool = csv
+[difftool "csv"]
+    cmd = code --wait --diff \"$LOCAL\" \"$REMOTE\"
+[mergetool "csv"]
+    prompt = false
+    cmd = code --wait \"$MERGED\"
+[diff "astextplain"]
+	textconv = astextplain
+[diff "doc"]
+	binary = true
+	textconv = catdoc
+[diff "docx"]
+	binary = true
+    textconv = sh -c '/usr/local/bin/docx2txt.pl "$0" -'
+[diff "pdf"]
+	binary = true
+	textconv = sh -c 'pdftotext -layout$0-enc UTF-8 -'
+[diff "pptx"]
+	binary = true
+	textconv = /usr/local/bin/pptx2md
+[diff "rspec"]
+	xfuncname = ^[ \t]*((RSpec|describe|context|it|before|after|around|feature|scenario|background)[ \t].*)$
+[diff "swift"]
+	xfuncname = ^[ \t]*((class|func)[ \t].*)$
+[diff "xlsx"]
+	binary = true
+	textconv = /usr/local/bin/git-xlsx-textconv
+[diff "xmind"]
+	binary = true
+	textconv = /usr/local/bin/xmindtotxt
+[diff "ps*"]
+	binary = false
+	xfuncname = ^[ \t]((function|filter)[ \t]+[a-zA-Z0-9_]+[ \t](|{[ \t]param[ \t]()$
+[diff "ahk"]
+	xfuncname = ^[ \t]*((\w+)[ \t]*\([^\)]*\))$
+[diff "csharp"]
+	xfuncname = ^[ \t]*((((static|public|internal|private|protected|new|virtual|sealed|override|unsafe|async|partial)[ \t]+)*[]<>.~_[:alnum:]]+[ \t]+)+[<>@._[:alnum:]]+[ \t]*\([^\)]*\))$
+[diff "python"]
+	xfuncname = ^[ \t]*((def|class)[ \t]+[[:alnum:]_]+[ \t]*\([^\)]*\))$
+[diff "sql"]
+	xfuncname = ^[ \t]*((CREATE|ALTER)[ \t]+(FUNCTION|PROCEDURE)[ \t]+[[:alnum:]_.]+[ \t]*\([^\)]*\))$
+[diff "pascal"]
+	xfuncname = ^[ \t]*((function|procedure)[ \t]+[[:alnum:]_.]+[ \t]*\([^\)]*\))$
+[diff "javascript"]
+	xfuncname = ^[ \t]*((function[ \t]*(\w+)?[ \t]*\([^\)]*\)|([[:alnum:]_.]+|[[:alnum:]_]+\.prototype\.[:alnum:]_+)[ \t]*[ \t]*function[ \t]*\([^\)]*\)))$
+[diff "json"]
+	xfuncname = ^[ \t]*(\"[^\"\\]*(?:\\.[^\"\\]*)*\")[ \t]*:[ \t]*(\{|\[)$
+[diff "xml"]
+	xfuncname = ^[ \t]*(<[^>]+>)$
+[diff "ini"]
+	xfuncname = ^[ \t]*(\[[^]]+])$
+[diff "yaml"]
+	xfuncname = ^[ \t]*(-[ \t]+)?(\w+):$
+

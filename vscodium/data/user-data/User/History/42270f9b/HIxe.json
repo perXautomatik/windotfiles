@@ -1,0 +1,36 @@
+{
+    "version": "3.24.246.0",
+    "description": "Ditto is an extension to the standard windows clipboard.",
+    "homepage": "https://ditto-cp.sourceforge.io/",
+    "license": "GPL-3.0-or-later",
+    "url": "https://downloads.sourceforge.net/project/ditto-cp/Ditto/3.23.124.0/DittoSetup_3_23_124_0.exe#/dl.7z",
+    "hash": "sha1:4f8e9c6a9c2a8b5f6c6a4f5b1d2b9a7d8b7c4e9f",
+    "pre_install": [
+        "$startup = if ($global) { \"$env:ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\" } else { \"$env:AppData\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\" }",
+        "$shortcut = \"$startup\\Ditto.lnk\"",
+        "$target = \"$dir\\Ditto.exe\"",
+        "$icon = \"$dir\\Ditto.exe\"",
+        "$description = \"Ditto Clipboard Manager\"",
+        "$workdir = \"$dir\"",
+        "New-Shortcut $shortcut $target $icon $description $workdir"
+    ],
+    "bin": [
+        [
+            "Ditto.exe",
+            "ditto"
+        ]
+    ],
+    "shortcuts": [
+        [
+            "Ditto.exe",
+            "Ditto"
+        ]
+    ],
+    "checkver": {
+        "url": "https://sourceforge.net/projects/ditto-cp/rss?path=/Ditto",
+        "re": "<title>DittoSetup_(?<version>[\\d._]+)\\.exe</title>"
+    },
+    "autoupdate": {
+        "url": "https://downloads.sourceforge.net/project/ditto-cp/Ditto/$version/DittoSetup_$version.exe#/dl.7z"
+    }
+}
