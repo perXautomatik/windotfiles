@@ -2,62 +2,20 @@
 	path = .config/powershell
 	url = https://github.com/perXautomatik/Powershell-Profile
 [submodule "AHK"]
-	url = https://github.com/perXautomatik/AHK-EverydayScripts
-path = AHK
-[submodule "AdvancedRenamer"]
-	path = AdvancedRenamer
-	url = https://github.com/perXautomatik/AdvancedRenamer-BatchMethods
+path = autohotkey
+url = https://github.com/perXautomatik/AHK-EverydayScripts
 [submodule "AppData"]
-	path = AppData
-	url = https://github.com/perXautomatik/AppData
-[submodule "BeondCompare4"]
-	path = BeondCompare4
-	url = https://github.com/perXautomatik/BeondCompare4
-[submodule "Cherrytree"]
-	path = Cherrytree
-	url = https://github.com/perXautomatik/CherrytreePortable
-[submodule "Datagrip"]
-	path = Datagrip
-	url = https://github.com/perXautomatik/Datagrip-UserFolder
-[submodule "Ditto"]
-	path = Ditto
-	url = https://github.com/perXautomatik/DittoPortable
+path = AppData
+url = https://github.com/perXautomatik/AppData
 [submodule "Documents"]
 	path = Documents
 	url = https://github.com/perXautomatik/AppData.git
-[submodule "Everything"]
-	path = Everything
-	url = https://github.com/perXautomatik/EverythingSettings
 [submodule "Git"]
 	path = .config/git
 url = https://gist.github.com/perXautomatik/e01f68f13580acea470e1ae1ce680a15
-[submodule "JetBrains"]
-	path = JetBrains
-	url = https://github.com/perXautomatik/Datagrip-UserFolder.git
-[submodule "OtherVersionControlledText"]
-	path = OtherVersionControlledText
-	url = https://github.com/perXautomatik/OtherVersionControlledText
-[submodule "PortableProgramSuit"]
-	path = PortableProgramSuit
-	url = https://github.com/perXautomatik/PortableProgramSuit
-[submodule "PowerShellCmdHist"]
-	path = PowerShellCmdHist
-	url = https://github.com/perXautomatik/PowerShellCmdHist
-[submodule "Powershell"]
-	path = Powershell
+[submodule ".config/powershell"]
+	path = .config/powershell
 	url = https://github.com/perXautomatik/Powershell-Profile
-[submodule "UserFolder"]
-	path = UserFolder
-	url = B:\\ToGit\\Projectfolder\\scoopbucket-presist\\UserFolder
-[submodule "Vortex"]
-	path = Vortex
-	url = https://github.com/perXautomatik/AppData.git
-[submodule "portableAppsPlatform"]
-	path = portableAppsPlatform
-	url = https://github.com/perXautomatik/portableAppsPlatform
-[submodule "steamapps"]
-	path = steamapps
-	url = https://github.com/perXautomatik/steamapps
 [submodule "xEditScripts"]
 	path = xEditScripts
 	url = https://github.com/perXautomatik/xEditScripts
