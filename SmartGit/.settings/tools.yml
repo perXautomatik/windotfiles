@@ -1,4 +1,20 @@
 tools:
+- name: Gitk
+  fileStarter: {command: gitk.exe, parameters: '-- ${filePath}'}
+  useForOpen: true
+  waitUntilFinished: false
+  filePattern: '*'
+- name: Add Remote From Clipboard
+  fileStarter: {command: powershell.exe, parameters: 'cd "${filePath}" ; git remote
+      add origin (get-clipboard) ; git fetch --all ;  git checkout --track remotes/origin/master'}
+  useForOpen: true
+  waitUntilFinished: false
+  filePattern: '*'
+- name: path to clipboard
+  fileStarter: {command: powershell.exe, parameters: '"''${filePath}''" | set-clipboard'}
+  useForOpen: true
+  waitUntilFinished: false
+  filePattern: '*'
 - name: ignore subfolder
   fileStarter: {command: powershell.exe, parameters: '$p1 = "''${selectionFile}''"
       ; $p1 = convert-path $p1  ;  $p2 ="''${repositoryRootPath}''" ;  $p2 = convert-path
@@ -44,12 +60,50 @@ tools:
   waitUntilFinished: false
   filePattern: '*'
   forFilesNotDirectories: true
+- name: RefLog with TGit
+  fileStarter: {command: 'C:\Program Files\TortoiseGit\bin\TortoiseGitProc.exe', parameters: '/command:reflog
+      /path ${filePath}'}
+  useForOpen: true
+  waitUntilFinished: false
+  filePattern: '*'
+- name: Graph with TGit
+  fileStarter: {command: 'C:\Program Files\TortoiseGit\bin\TortoiseGitProc.exe', parameters: '/command:revisiongraph
+      /path ${filePath}'}
+  useForOpen: true
+  waitUntilFinished: false
+  filePattern: '*'
+- name: sync with TGit
+  fileStarter: {command: 'C:\Program Files\TortoiseGit\bin\TortoiseGitProc.exe', parameters: '/command:sync
+      /path ${filePath}'}
+  useForOpen: true
+  waitUntilFinished: false
+  filePattern: '*'
+- name: Log with TGit
+  fileStarter: {command: 'C:\Program Files\TortoiseGit\bin\TortoiseGitProc.exe', parameters: '/command:log
+      /path ${filePath}'}
+  useForOpen: true
+  waitUntilFinished: false
+  filePattern: '*'
 - name: Commit with TGit
   fileStarter: {command: 'C:\Program Files\TortoiseGit\bin\TortoiseGitProc.exe', parameters: '/command:commit
       /path ${filePath}'}
   useForOpen: true
   waitUntilFinished: false
   filePattern: '*'
+- id: openFile
+  name: Open File
+  fileStarter: {command: '${smartGitDir}\bin\open.exe', parameters: '${filePath}'}
+  useForOpen: true
+  waitUntilFinished: false
+  filePattern: '*'
+  forFilesNotDirectories: true
+- name: Git Add
+  keystroke: CTRL+DEL
+  fileStarter: {command: '${git}', parameters: 'add ${fileName}'}
+  useForOpen: true
+  waitUntilFinished: false
+  filePattern: '*'
+  confirmationMessage: --cd=${repositoryRootPath} -c "git rm --cached -r ${fileName}"
 - name: DeleteIndex
   keystroke: CTRL+DEL
   fileStarter: {command: '${git}', parameters: 'rm --cached -r ${fileName}'}
@@ -86,6 +140,18 @@ tools:
   requiresConfirmation: true
   confirmationMessage: --cd=${filePath} -c "git config --global --add safe.directory
     $(pwd)"
+- name: GitInit
+  fileStarter: {command: '${git}', parameters: 'init ${filePath}'}
+  useForOpen: true
+  waitUntilFinished: false
+  filePattern: '*'
+  forFilesNotDirectories: false
+- name: Open in Git-Gui
+  fileStarter: {command: '${gitDir}\mingw64\bin\wish.exe', parameters: '"${gitDir}\mingw64\libexec\git-core"\git-gui
+      -- "--working-dir" ${repositoryRootPath}'}
+  useForOpen: false
+  waitUntilFinished: false
+  filePattern: '*'
 - id: openGitShell
   name: Open in Git-Shell
   fileStarter: {command: '${git}', parameters: '--cd=${filePath}'}
@@ -119,6 +185,14 @@ tools:
   useForOpen: false
   waitUntilFinished: true
   filePattern: '*'
+- name: MoveCommit
+  fileStarter: {command: '${git}', parameters: 'move-and-rename ${selectionFile}'}
+  useForOpen: false
+  waitUntilFinished: true
+  filePattern: '*'
+  forFilesNotDirectories: true
+  requiresConfirmation: true
+  confirmationMessage: ${selectionFile}
 - id: gitConfigList
   name: Git Config
   keystroke: CTRL+C
