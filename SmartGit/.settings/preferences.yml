@@ -23,7 +23,7 @@ actions:
   syncPushBeforePull: false
 logSettings:
   filterConfiguration: {}
-comparePreviewSettings: {selectCompareTypeAutomatically: false, compareType: index-vs-head}
+comparePreviewSettings: {selectCompareTypeAutomatically: true, compareType: working-tree-vs-index}
 dateFormat: {datePattern: MM/dd/yyyy, timePattern: 'hh:mm a', showTimeForLastDays: true}
 defaultViewSettings:
   compareSettings:
@@ -109,8 +109,8 @@ globalTextComponentSettings:
 listx: {uid: en4ssg7d23lk}
 project: {defaultWindowType: wt}
 uiSettings: {theme: auto, themeChanged: false, fileSearchPatternType: 1}
-vcsRecords: {lastGitUsage: 1693390872356}
-updateCheck: {prevCheckTime: 1693327889895, checkedBuild: 19285, mode: download, upgradeInstallation: false}
+vcsRecords: {lastGitUsage: 1693418588586}
+updateCheck: {prevCheckTime: 1693417610399, checkedBuild: 19285, mode: download, upgradeInstallation: false}
 updateCheckDg: {}
 proxy: {enabled: false, autoDetect: true}
 spellCheck:

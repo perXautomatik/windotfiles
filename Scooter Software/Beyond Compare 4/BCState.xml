@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Produced by Beyond Compare 4 from Scooter Software -->
+<BCState Version="1" MinVersion="1">
+	<TBcState>
+		<FirstStartup Value="False"/>
+		<FormPositions>
+			<TCheckForUpdatesDialog Value="750;450;1240;796"/>
+			<TDataCompareSessionDialog Value="571;240;1102;777"/>
+			<TDataFormatDialog Value="660;262;1181;818"/>
+			<TDirCompareSessionDialog Value="2194;-51;2725;486"/>
+			<TDirLoadErrorDialog Value="679;480;1162;600"/>
+			<TDirMergeSessionDialog Value="571;240;1102;777"/>
+			<TDirSyncSessionDialog Value="734;397;1265;934"/>
+			<TFileFormatManagerDialog Value="544;327;1289;1047"/>
+			<THexCompareSessionDialog Value="663;271;1194;808"/>
+			<TProfileBrowseDialog Value="876;196;1621;916"/>
+			<TSessionSaveAsDialog Value="740;396;1117;683"/>
+			<TSourceControlManagerDialog Value="622;263;1367;983"/>
+			<TTextCompareSessionDialog Value="663;271;1194;808"/>
+			<TTextFormatDialog Value="668;262;1189;818"/>
+			<TTextMergeSessionDialog Value="655;271;1186;808"/>
+			<TViewFrame Value="1966;-274;3310;1035"/>
+		</FormPositions>
+	</TBcState>
+	<TCheckForUpdatesState>
+		<Build Value="26165"/>
+		<LastChecked Value="2021-12-27 11:21:42"/>
+		<MsgBody Value="Beyond Compare is not affected by the Log4J vulnerability. Our IT systems are also secured against it."/>
+		<MsgDate Value="2021-12-27 00:00:00"/>
+		<MsgDays Value="10"/>
+		<MsgDaysDate Value="2021-12-27 00:00:00"/>
+		<MsgTitle Value="LOG4J"/>
+	</TCheckForUpdatesState>
+	<TDataCompareState>
+		<LeftMRUSpecs>
+			<_0 Value="D:\PortableApps\2. file Organization\PortableApps\Everything\Search History.csv"/>
+			<_1 Value="D:\PortableApps\2. file Organization\PortableApps\Everything\Run History.csv"/>
+			<_2 Value="D:\PortableApps\2. file Organization\PortableApps\Everything\Filters.csv"/>
+			<_3 Value="C:\Users\crbk01\AppData\Local\Temp\TortoiseGit\sol21-41bc66a3.000.csv"/>
+			<_4 Value="D:\PortableApps\2. file Organization\PortableApps\Everything\Filters.csv.LOCAL.csv"/>
+			<_5 Value="C:\Users\crbk01\AppData\Local\Temp\TortoiseGit\Search History-33dcbed9.000.csv"/>
+			<_6 Value="C:\Users\crbk01\AppData\Local\Temp\TortoiseGit\Filters-a4708dec.000.csv"/>
+			<_7 Value="D:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\projects\Geosecma-Solen-Visoin-Vyer\Sol-vision\sol21.csv"/>
+			<_8 Value="C:\Users\crbk01\AppData\Local\Temp\AutoHotkeyPortableTemp\TortoiseGit\sol21.000.csv"/>
+		</LeftMRUSpecs>
+		<LeftRatio Value="677"/>
+		<MRUFonts>
+			<_0 Value="Courier New;9"/>
+			<_1 Value="Consolas;10"/>
+		</MRUFonts>
+		<RightMRUSpecs>
+			<_0 Value="D:\PortableApps\2. file Organization\PortableApps\Everything\Search History.csv"/>
+			<_1 Value="D:\PortableApps\2. file Organization\PortableApps\Everything\Run History.csv"/>
+			<_2 Value="D:\PortableApps\2. file Organization\PortableApps\Everything\Filters.csv"/>
+			<_3 Value="C:\Users\crbk01\AppData\Local\Temp\TortoiseGit\sol21-41bc66a3.001.csv"/>
+			<_4 Value="D:\PortableApps\2. file Organization\PortableApps\Everything\Filters.csv.REMOTE.csv"/>
+			<_5 Value="C:\Users\crbk01\Desktop\AutoHotkey\projects\Geosecma-Solen-Visoin-Vyer\Sol-vision\sol21.csv"/>
+			<_6 Value="C:\Users\crbk01\AppData\Local\Temp\TortoiseGit\Visual Studio Code Host_history-0d044a85.000.txt"/>
+			<_7 Value="C:\Users\crbk01\AppData\Local\Temp\TortoiseGit\Visual Studio Code Host_history-0f8543aa.001.txt"/>
+		</RightMRUSpecs>
+	</TDataCompareState>
+	<TDataFindState>
+		<FindItems>
+			<_0 Value="content"/>
+			<_1 Value="44f384ad30c91dd19b359f97b8fee567e01ff031"/>
+		</FindItems>
+	</TDataFindState>
+	<TDirCompareState>
+		<LeftMRUSpecs>
+			<_0 Value="C:\Users\crbk01\AppData\Local\Temp\TortoiseGit"/>
+			<_1 Value="D:\Project Shelf\PowerShellProjectFolder"/>
+			<_2 Value="C:\Users\crbk01\Desktop\Ny mapp"/>
+			<_3 Value="C:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\consoles\db\49f168c8-015c-43d2-b9f4-06de275bdc15"/>
+			<_4 Value="C:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\consoles\db\49f168c8-015c-43d2-b9f4-06de275bdc15\Pseudo"/>
+			<_5 Value="D:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\projects\Fil-Till-Vision\.idea"/>
+			<_6 Value="D:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\consoles\db\8cc23256-e02c-43ea-8477-e740c4580b62"/>
+			<_7 Value="D:\Project Shelf\Sql_Db\ListAggregation"/>
+			<_8 Value="D:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\projects\Livsmedel"/>
+		</LeftMRUSpecs>
+		<MRUFilters>
+			<_0 Value="*.sql*;*.md"/>
+			<_1 Value="*.sql;*.md"/>
+			<_2 Value="*.sql"/>
+			<_3 Value="-*"/>
+			<_4 Value="-*(*).*;-*-5CG84229D5.*;-*.~*;-*.*.bak"/>
+			<_5 Value="*\.idea\"/>
+			<_6 Value="*/.idea\"/>
+			<_7 Value="* (*);*~;*.~*;* (*).*"/>
+			<_8 Value="*(*).*;*-5CG84229D5.*;*.~*;*.*.bak"/>
+		</MRUFilters>
+		<RightMRUSpecs>
+			<_0 Value="D:\Project Shelf\PowerShellProjectFolder\Todo"/>
+			<_1 Value="C:\Users\crbk01\Desktop\Scripts\Scripts"/>
+			<_2 Value="C:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\consoles\db\49f168c8-015c-43d2-b9f4-06de275bdc15"/>
+			<_3 Value="D:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\projects\Vision-Fil-Insert\.idea"/>
+			<_4 Value="D:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\consoles\db\8cc23256-e02c-43ea-8477-e740c4580b62\.idea\old"/>
+			<_5 Value="D:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\consoles\db\8cc23256-e02c-43ea-8477-e740c4580b62\.idea\old\FilterByHendelse"/>
+			<_6 Value="D:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\projects\ListAggregation"/>
+			<_7 Value="D:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\projects\Livsmedel-DbRensning\Livsmedel"/>
+			<_8 Value="D:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\consoles\db\8cc23256-e02c-43ea-8477-e740c4580b62\.idea"/>
+		</RightMRUSpecs>
+	</TDirCompareState>
+	<TDirMergeState>
+		<CenterMRUSpecs>
+			<_0 Value="D:\PortableApps\2. file Organization\PortableApps\Everything"/>
+			<_1 Value="D:\Users\crbk01\.DataGrip2019.3\config\projects\VisionH-ndelserToEasyRead"/>
+			<_2 Value="D:\Users\crbk01\.DataGrip2019.3\config\projects\Solen-Visoin-Vyer"/>
+		</CenterMRUSpecs>
+		<LeftMRUSpecs>
+			<_0 Value="C:\Users\crbk01\Desktop\OnGithub\AutoHotkey\projects\CsvArtistMerge"/>
+			<_1 Value="D:\PortableApps\2. file Organization\PortableApps\Everything"/>
+			<_2 Value="D:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\projects\EDPvisionRemote\UpdateHandelser\VisionH-ndelserToEasyRead"/>
+			<_3 Value="D:\Users\crbk01\.DataGrip2019.5\config\projects\Solen-Visoin-Vyer"/>
+			<_4 Value="C:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\projects\Kv-Utsökning\.idea"/>
+		</LeftMRUSpecs>
+		<OutputMRUSpecs>
+			<_0 Value="D:\PortableApps\2. file Organization\PortableApps\Everything"/>
+			<_1 Value="D:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\projects\EDPvisionRemote\UpdateHandelser\VisionH-ndelserToEasyRead"/>
+			<_2 Value="D:\Users\crbk01\.DataGrip2019.5\config\projects\Solen-Visoin-Vyer"/>
+		</OutputMRUSpecs>
+		<RightMRUSpecs>
+			<_0 Value="D:\OnGithub\AutoHotkey\projects\CsvArtistMerge"/>
+			<_1 Value="D:\PortableApps\2. file Organization\PortableApps\Everything"/>
+			<_2 Value="D:\Users\crbk01\.DataGrip2019.3\config\projects\VisionH-ndelserToEasyRead"/>
+			<_3 Value="C:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\projects\EDPvisionRemote\UpdateHandelser\VisionH-ndelserToEasyRead"/>
+			<_4 Value="C:\Users\crbk01\.DataGrip2019.3\config\projects\Solen-Visoin-Vyer"/>
+			<_5 Value="D:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\projects\Kv-FlaggGenerering\.idea"/>
+		</RightMRUSpecs>
+	</TDirMergeState>
+	<TDirSyncState>
+		<LeftMRUSpecs>
+			<_0 Value="C:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\.git"/>
+			<_1 Value="C:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\projects\EDPvisionRemote\UpdateHandelser\VisionH-ndelserToEasyRead"/>
+			<_2 Value="C:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\projects\EDPvisionRemote\Utsökning\LatestHandelse(harAnsokan)"/>
+			<_3 Value="C:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\projects\Geosecma-Solen-Visoin-Vyer\Sol-vision"/>
+			<_4 Value="C:\Users\crbk01\.DataGrip2019.3\config\projects\default"/>
+			<_5 Value="D:\Users\crbk01\.DataGrip2019.3\config\projects\default"/>
+			<_6 Value="D:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\projects\ListAggregation\default"/>
+			<_7 Value="D:\Users\crbk01\.DataGrip2019.3\config\projects\everythingESDB"/>
+			<_8 Value="D:\.DataGrip2019.1\config\projects\everythingESDB"/>
+		</LeftMRUSpecs>
+		<MRUFilters>
+			<_0 Value="*(*).*;*-5CG84229D5.*;*.~*;*.*.bak;-.\UpdateHandelser\\"/>
+			<_1 Value="-.\UpdateHandelser\"/>
+			<_2 Value="-*(*).*;-*-5CG84229D5.*;-*.~*;-*.*.bak;-.\UpdateHandelser\"/>
+			<_3 Value="-*(*).*;-*-5CG84229D5.*;-*.~*;-*.*.bak"/>
+			<_4 Value="-.\consoles\db\2ce876a9-e866-4e89-ad97-f651e48c39fa\;-.\consoles\db\2f92ea11-be49-46e1-8a48-57ad8b4b709d\;-.\consoles\db\3b2a5986-adc6-45f3-8ef9-94877e862723\;-.\consoles\db\5dd5ec07-b71c-48de-8aab-4cfa43540e71\;-.\consoles\db\6cd8ec47-2ee7-48a5-ae0c-1379cae5c73d\;-.\consoles\db\6cfacdb4-5d47-4859-b85b-7b2ce07efa71\;-.\consoles\db\6f5acbc7-c2be-4b8b-a77a-ea78581ca491\;-.\consoles\db\7c36b93a-8e8d-4cff-8993-17267a5fb816\;-.\consoles\db\8a03a885-46ba-4c73-91bf-7ffe5f67d5ff\;-.\consoles\db\9f85a6a2-3041-487c-9895-5d8ec4b815a7\;-.\consoles\db\20a33675-fb95-4a45-ba73-614a6f924416\;-.\consoles\db\027c2d16-67ba-4eeb-837e-f99b41e4c813\;-.\consoles\db\60dd7afa-4b30-480e-ab04-98aaa3b74229\;-.\consoles\db\62a7f5b1-b9d4-47be-adcd-322cc6c56675\;-.\consoles\db\78d6b6e3-9573-4e0f-b38a-7e216b9a4a8a\;-.\consoles\db\227e12c0-011a-4680-912a-c6d0dc90fde3\;-.\consoles\db\561ff172-af1c-4e86-9dee-ef52e7d29eca\;-.\consoles\db\709a4445-290f-4e66-85a4-4c3ca208e964\;-.\consoles\db\5882e465-e263-4e07-aa61-408039213789\;-.\consoles\db\6832d8f5-9f0f-47f6-81a8-12cd14dc209e\;-.\consoles\db\00867175-47cf-4735-853a-9bb3c7603902\;-.\consoles\db\2793053c-e15e-4bf2-8eae-3c0a15594c01\;-.\consoles\db\08916946-d7d3-48c8-a276-f457c60b6231\;-.\consoles\db\41599830-737d-40ce-8ff8-e1aa1cedadb8\;-.\consoles\db\a8e1f5be-90d2-4108-9ca0-70142103becd\;-.\consoles\db\ab7e5aea-e693-4b31-b97b-0239aab80f53\;-.\consoles\db\ad4cf1c4-fb44-4e53-8417-a28b19a67dfd\;-.\consoles\db\adb46144-5c61-4ea0-b424-9c19c6255d9d\;-.\consoles\db\b60a2110-aad1-451e-a8e8-20c26aa01e69\;-.\consoles\db\bfe132e9-ef6a-41d9-975c-b055b3a8d6e1\;-.\consoles\db\c5d544b3-4aa9-4420-b6d7-4ecefe73ca52\;-.\consoles\db\cbde40e1-0091-4576-9aa8-1c7aeb5086a4\;-.\consoles\db\cd12987f-b0f9-4631-9b9f-2e5308f9c154\;-.\consoles\db\dad0ae5c-194f-4f8c-b908-8e77be6fca51\;-.\consoles\db\e763f48c-b1d7-4395-81fa-167e2f3e7a9f\;-.\consoles\db\f1a58a17-56d4-460d-b434-978c8d76d7e8\;-.\consoles\db\f2ccb8b2-4b85-4d4f-b19e-9290999c1e02\"/>
+			<_5 Value="-2ce876a9-e866-4e89-ad97-f651e48c39fa\;-2f92ea11-be49-46e1-8a48-57ad8b4b709d\;-3b2a5986-adc6-45f3-8ef9-94877e862723\;-5dd5ec07-b71c-48de-8aab-4cfa43540e71\;-6cd8ec47-2ee7-48a5-ae0c-1379cae5c73d\;-6cfacdb4-5d47-4859-b85b-7b2ce07efa71\;-6f5acbc7-c2be-4b8b-a77a-ea78581ca491\;-7c36b93a-8e8d-4cff-8993-17267a5fb816\;-8a03a885-46ba-4c73-91bf-7ffe5f67d5ff\;-9f85a6a2-3041-487c-9895-5d8ec4b815a7\;-20a33675-fb95-4a45-ba73-614a6f924416\;-027c2d16-67ba-4eeb-837e-f99b41e4c813\;-60dd7afa-4b30-480e-ab04-98aaa3b74229\;-62a7f5b1-b9d4-47be-adcd-322cc6c56675\;-78d6b6e3-9573-4e0f-b38a-7e216b9a4a8a\;-227e12c0-011a-4680-912a-c6d0dc90fde3\;-561ff172-af1c-4e86-9dee-ef52e7d29eca\;-709a4445-290f-4e66-85a4-4c3ca208e964\;-5882e465-e263-4e07-aa61-408039213789\;-6832d8f5-9f0f-47f6-81a8-12cd14dc209e\;-00867175-47cf-4735-853a-9bb3c7603902\;-2793053c-e15e-4bf2-8eae-3c0a15594c01\;-08916946-d7d3-48c8-a276-f457c60b6231\;-41599830-737d-40ce-8ff8-e1aa1cedadb8\;-a8e1f5be-90d2-4108-9ca0-70142103becd\;-ab7e5aea-e693-4b31-b97b-0239aab80f53\;-ad4cf1c4-fb44-4e53-8417-a28b19a67dfd\;-adb46144-5c61-4ea0-b424-9c19c6255d9d\;-b60a2110-aad1-451e-a8e8-20c26aa01e69\;-bfe132e9-ef6a-41d9-975c-b055b3a8d6e1\;-c5d544b3-4aa9-4420-b6d7-4ecefe73ca52\;-cbde40e1-0091-4576-9aa8-1c7aeb5086a4\;-cd12987f-b0f9-4631-9b9f-2e5308f9c154\;-dad0ae5c-194f-4f8c-b908-8e77be6fca51\;-e763f48c-b1d7-4395-81fa-167e2f3e7a9f\;-f1a58a17-56d4-460d-b434-978c8d76d7e8\;-f2ccb8b2-4b85-4d4f-b19e-9290999c1e02\"/>
+			<_6 Value="-5b682ee5-608b-4b16-bdfd-1132a4a5566f\;-8cc23256-e02c-43ea-8477-e740c4580b62\;-2ca40bb3-aca4-412d-a610-84b4e5da6dbe\;-947f2b47-af0c-4354-9696-9462b1a4bf8b\;-eb59c975-b040-4d08-b4d5-c3f719a48ea4\"/>
+			<_7 Value=".data"/>
+		</MRUFilters>
+		<RightMRUSpecs>
+			<_0 Value="C:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\codestyles\.git"/>
+			<_1 Value="C:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\projects\EDPvisionRemote"/>
+			<_2 Value="C:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\projects\Geosecma-Solen-Visoin-Vyer"/>
+			<_3 Value="D:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\projects\default"/>
+			<_4 Value="D:\Users\crbk01\.DataGrip2019.3\config\projects\everythingESDB"/>
+			<_5 Value="D:\.DataGrip2019.1\config\projects\everythingESDB"/>
+			<_6 Value="C:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\projects\Kv-FlaggGenerering"/>
+			<_7 Value="D:\Users\crbk01\.DataGrip2019.5\config\projects\Kv-FlaggGenerering"/>
+			<_8 Value="D:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\projects\Livsmedel-DbRensning\Livsmedel"/>
+		</RightMRUSpecs>
+	</TDirSyncState>
+	<THexCompareState>
+		<LeftMRUSpecs>
+			<_0 Value="C:\Users\crbk01\AppData\Roaming\Microsoft\Office\MSO2057.acl"/>
+			<_1 Value="C:\Users\crbk01\AppData\Roaming\Microsoft\Spelling\en-GB\default.acl"/>
+			<_2 Value="C:\Users\crbk01\AppData\Roaming\Microsoft\Outlook\OutlPrnt"/>
+			<_3 Value="C:\Users\crbk01\AppData\Roaming\Microsoft\Outlook\Outlook.srs"/>
+			<_4 Value="D:\Users\crbk01\.DataGrip2019.3\config\DatagripRecoveredFiles\(LatestHendelse)20194årsPåmHändelser_1.sql"/>
+			<_5 Value="C:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\consoles\db\8b7c273a-baa2-4933-a5d5-4862e23c0af2\.git\objects\ca\3a39c97b0f5780fb280c2eb39c2544c3fd71be"/>
+			<_6 Value="D:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\projects\EDPvisionRemote\output\.git\logs\HEAD (2)"/>
+			<_7 Value="D:\Project Shelf\KvUtsökningsProjectFolder\TillMinaMedelanden\.git\index"/>
+			<_8 Value="C:\Users\crbk01\.DataGrip2019.3\config\projects\Solen-Visoin-Vyer\Innan Databas övergång gamlla vyer\storage\.git\index"/>
+		</LeftMRUSpecs>
+		<MRUFonts>
+			<_0 Value="Courier New;9"/>
+		</MRUFonts>
+		<RightMRUSpecs>
+			<_0 Value="C:\Windows\Globalization\ELS\SpellDictionaries\MsSp7en-GB.acl"/>
+			<_1 Value="D:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\consoles\db\8b7c273a-baa2-4933-a5d5-4862e23c0af2\DupesWithOldNames\(LatestHendelse)20194årsPåmHändelser.sql"/>
+			<_2 Value="D:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\projects\EDPvisionRemote\.git\objects\ca\3a39c97b0f5780fb280c2eb39c2544c3fd71be"/>
+			<_3 Value="D:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\projects\EDPvisionRemote\output\.git\index (2)"/>
+			<_4 Value="D:\Project Shelf\KvUtsökningsProjectFolder\.git\index"/>
+			<_5 Value="D:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\projects\Geosecma-Solen-Visoin-Vyer\Innan Databas övergång gamlla vyer\storage\.git\index"/>
+			<_6 Value="D:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\projects\Geosecma-Solen-Visoin-Vyer\.git\index"/>
+			<_7 Value="D:\Users\crbk01\.DataGrip2019.5\config\.git\tortoisegit.data"/>
+			<_8 Value="C:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\projects\Kv-Utsökning\LatestHandelse(harAnsokan)\.git\index"/>
+		</RightMRUSpecs>
+	</THexCompareState>
+	<THomeState>
+		<NewExpanded Value="True"/>
+		<SessionName Value="&#2;"/>
+		<SessionsRatio Value="451"/>
+		<SessionType Value="TDirCompareSession"/>
+	</THomeState>
+	<TOpCopyToState>
+		<MRUDestination>
+			<_0 Value="C:\Users\crbk01\Desktop\Ny mapp\Pseudo\SkapaH\"/>
+			<_1 Value="C:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\consoles\db\49f168c8-015c-43d2-b9f4-06de275bdc15\HandToAr\"/>
+			<_2 Value="C:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\consoles\db\49f168c8-015c-43d2-b9f4-06de275bdc15\updateFileRef\"/>
+			<_3 Value="C:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\consoles\db\49f168c8-015c-43d2-b9f4-06de275bdc15\select\Huvudkontakt\"/>
+			<_4 Value="C:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\consoles\db\49f168c8-015c-43d2-b9f4-06de275bdc15\Pseudo\SkapaH"/>
+			<_5 Value="C:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\consoles\db\49f168c8-015c-43d2-b9f4-06de275bdc15\updateFileRef"/>
+			<_6 Value="C:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\consoles\db\49f168c8-015c-43d2-b9f4-06de275bdc15\HandToAr"/>
+			<_7 Value="C:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\consoles\db\49f168c8-015c-43d2-b9f4-06de275bdc15\Pseudo\SkapaH\"/>
+			<_8 Value="D:\Users\crbk01\.DataGrip2019.3\consoles\db\7e4fb899-0567-4da7-8a60-86bca3049c5c\VisionH-ndelserToEasyRead\Modular\"/>
+		</MRUDestination>
+	</TOpCopyToState>
+	<TOpDeleteState>
+		<UseRecycleBin Value="True"/>
+	</TOpDeleteState>
+	<TOpRenameState>
+		<IsRegExp Value="True"/>
+		<RegExpOld Value="[~]{1,2}|\s?[(]\d[)]|-5CG84229D5"/>
+	</TOpRenameState>
+	<TPixCompareState>
+		<LeftMRUSpecs>
+			<_0 Value="C:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\projects\Kv-Utsökning\.idea\dataSources.xml"/>
+		</LeftMRUSpecs>
+		<MRUFonts>
+			<_0 Value="Segoe UI;9;;1"/>
+		</MRUFonts>
+		<RightMRUSpecs>
+			<_0 Value="C:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\projects\default\.idea\dataSources.xml"/>
+		</RightMRUSpecs>
+	</TPixCompareState>
+	<TTextCompareState>
+		<AlignDetails Value="True"/>
+		<LeftMRUSpecs>
+			<_0 Value="C:\Users\crbk01\AppData\Local\Temp\TortoiseGit\newSymbolicLink-89b61542.000.ps1"/>
+			<_1 Value="D:\Project Shelf\PowerShellProjectFolder\filesystem\GroupIntoFolderByExtension.ps1"/>
+			<_2 Value="D:\Project Shelf\PowerShellProjectFolder\Processes\Restart-Process.ps1"/>
+			<_3 Value="D:\Project Shelf\PowerShellProjectFolder\json\actOnJson.ps1"/>
+			<_4 Value="D:\Project Shelf\PowerShellProjectFolder\json\getSomething2.ps1"/>
+			<_5 Value="C:\Users\crbk01\AppData\Local\Temp\TortoiseGit\.gitmodules-5a5a26cc.002.gitmodules"/>
+			<_6 Value="C:\Users\crbk01\AppData\Local\Temp\TortoiseGit\.gitmodules-5a5a26cc.000.gitmodules"/>
+			<_7 Value="C:\Users\crbk01\AppData\Local\Temp\TortoiseGit\.gitmodules-5a5a26cc.001.gitmodules"/>
+			<_8 Value="C:\Users\crbk01\AppData\Local\Temp\TortoiseGit\pipe-objects-into-arrays-421e029e.001.ps1"/>
+		</LeftMRUSpecs>
+		<LeftRatio Value="549"/>
+		<MRUFonts>
+			<_0 Value="Courier New;9"/>
+			<_1 Value="Consolas;10"/>
+		</MRUFonts>
+		<RightMRUSpecs>
+			<_0 Value="C:\Users\crbk01\AppData\Local\Temp\TortoiseGit\newSymbolicLink-07740b1d.000.ps1"/>
+			<_1 Value="C:\Users\crbk01\Desktop\Scripts\Scripts\filesystem\GroupIntoFolder.ps1"/>
+			<_2 Value="C:\Users\crbk01\Desktop\Scripts\Scripts\json\actOnJson.~ps1"/>
+			<_3 Value="C:\Users\crbk01\Desktop\Scripts\Scripts\PSReadline"/>
+			<_4 Value="D:\Project Shelf\PowerShellProjectFolder\.gitmodules"/>
+			<_5 Value="D:\Project Shelf\PowerShellProjectFolder\Todo\pipe-objects-into-arrays.ps1"/>
+			<_6 Value="C:\Users\crbk01\Desktop\Scripts\Scripts\.git\config"/>
+			<_7 Value="D:\Project Shelf\PowerShellProjectFolder\.git\config (2)"/>
+			<_8 Value="D:\Project Shelf\PowerShellProjectFolder\.git\FETCH_HEAD"/>
+		</RightMRUSpecs>
+		<ShowItemNum Value="True"/>
+	</TTextCompareState>
+	<TTextEditState>
+		<LeftMRUSpecs>
+			<_0 Value="D:\PortableApps\2. file Organization\PortableApps\Everything\Bookmarks.csv"/>
+		</LeftMRUSpecs>
+		<MRUFonts>
+			<_0 Value="Courier New;9"/>
+		</MRUFonts>
+	</TTextEditState>
+	<TTextFindState>
+		<CurSideOnly Value="False"/>
+		<FindItems>
+			<_0 Value="49f168c8-015c-43d2-b9f4-06de275bdc15"/>
+			<_1 Value="filer"/>
+			<_2 Value="([^\\])([\\])([^\\])"/>
+			<_3 Value="([^\\])[\\]([^\\])"/>
+			<_4 Value=":[\\]U"/>
+			<_5 Value="(?![\\])*"/>
+			<_6 Value="(?![\\])"/>
+			<_7 Value="(?![\\])[\\](?![\\])"/>
+			<_8 Value="(!?[\\])[\\](!?[\\])"/>
+		</FindItems>
+		<IsRegExp Value="True"/>
+		<ReplaceItems>
+			<_0 Value="$1$2$2$3"/>
+			<_1 Value="$1\\\$2"/>
+			<_2 Value="$1\\$2"/>
+			<_3/>
+			<_4 Value="&quot;&quot;"/>
+			<_5 Value="$1enforceFormTa($3,$2)"/>
+			<_6 Value="enforceFormTa"/>
+			<_7 Value="$1 =  enforceFormat($2,&quot;$3&quot;,$4),"/>
+			<_8 Value="$1 =  enforceFormat($2,$3,$4),"/>
+		</ReplaceItems>
+		<Sides Value="[fsRight]"/>
+	</TTextFindState>
+	<TTextMergeState>
+		<CenterMRUSpecs>
+			<_0 Value="C:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\consoles\db\49f168c8-015c-43d2-b9f4-06de275bdc15\Pseudo\SkapaH\SkapaHandelse.sql.BASE.sql"/>
+			<_1 Value="D:\PortableApps\2. file Organization\PortableApps\Everything\Everything.ini"/>
+			<_2 Value="C:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\consoles\db\8cc23256-e02c-43ea-8477-e740c4580b62\.idea\.gitignore.BASE.gitignore"/>
+			<_3 Value="D:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\projects\EDPvisionRemote\output\output\TillMinaMedelanden\.idea\modules.xml.BASE.xml"/>
+			<_4 Value="D:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\projects\EDPvisionRemote\output\output\TillMinaMedelanden\.gitignore.BASE.gitignore"/>
+			<_5 Value="D:\Project Shelf\PowerShellProjectFolder\submodule\xml2csv\kindljiri\xml2csv.ps1.BASE.ps1"/>
+			<_6 Value="D:\Project Shelf\KvUtsökningsProjectFolder\.gitignore.BASE.gitignore"/>
+			<_7 Value="C:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\scratches\JsonUnest\createJsonUnfold_toUnnest.sql.BASE.sql"/>
+			<_8 Value="D:\PortableApps\2. file Organization\PortableApps\Everything\Everything.ini.BASE.ini"/>
+		</CenterMRUSpecs>
+		<LeftMRUSpecs>
+			<_0 Value="C:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\consoles\db\49f168c8-015c-43d2-b9f4-06de275bdc15\Pseudo\SkapaH\SkapaHandelse.sql.LOCAL.sql"/>
+			<_1 Value="D:\PortableApps\2. file Organization\PortableApps\Everything\Everything.ini"/>
+			<_2 Value="C:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\consoles\db\8cc23256-e02c-43ea-8477-e740c4580b62\.idea\.gitignore.LOCAL.gitignore"/>
+			<_3 Value="D:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\projects\EDPvisionRemote\output\output\TillMinaMedelanden\.idea\modules.xml.LOCAL.xml"/>
+			<_4 Value="D:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\projects\EDPvisionRemote\output\output\TillMinaMedelanden\.gitignore.LOCAL.gitignore"/>
+			<_5 Value="D:\Project Shelf\PowerShellProjectFolder\submodule\xml2csv\kindljiri\xml2csv.ps1.LOCAL.ps1"/>
+			<_6 Value="D:\Project Shelf\KvUtsökningsProjectFolder\.gitignore.LOCAL.gitignore"/>
+			<_7 Value="D:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\projects\EDPvisionRemote\UpdateHandelser\VisionH-ndelserToEasyRead\.idea\workspace.xml"/>
+			<_8 Value="C:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\scratches\JsonUnest\createJsonUnfold_toUnnest.sql.LOCAL.sql"/>
+		</LeftMRUSpecs>
+		<MRUFonts>
+			<_0 Value="Courier New;9"/>
+		</MRUFonts>
+		<OutputRatio Value="464"/>
+		<RightMRUSpecs>
+			<_0 Value="C:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\consoles\db\49f168c8-015c-43d2-b9f4-06de275bdc15\Pseudo\SkapaH\SkapaHandelse.sql.REMOTE.sql"/>
+			<_1 Value="D:\PortableApps\2. file Organization\PortableApps\Everything\Everything.ini"/>
+			<_2 Value="C:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\consoles\db\8cc23256-e02c-43ea-8477-e740c4580b62\.idea\.gitignore.REMOTE.gitignore"/>
+			<_3 Value="D:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\projects\EDPvisionRemote\output\output\TillMinaMedelanden\.idea\modules.xml.REMOTE.xml"/>
+			<_4 Value="D:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\projects\EDPvisionRemote\output\output\TillMinaMedelanden\.gitignore.REMOTE.gitignore"/>
+			<_5 Value="D:\Project Shelf\PowerShellProjectFolder\submodule\xml2csv\kindljiri\xml2csv.ps1.REMOTE.ps1"/>
+			<_6 Value="D:\Project Shelf\KvUtsökningsProjectFolder\.gitignore.REMOTE.gitignore"/>
+			<_7 Value="D:\Users\crbk01\.DataGrip2019.3\config\projects\VisionH-ndelserToEasyRead\.idea\workspace.xml"/>
+			<_8 Value="C:\Users\crbk01\AppData\Roaming\JetBrains\DataGrip2021.1\scratches\JsonUnest\createJsonUnfold_toUnnest.sql.REMOTE.sql"/>
+		</RightMRUSpecs>
+	</TTextMergeState>
+	<TVerCompareState>
+		<CenterMRUSpecs>
+			<_0 Value="D:\Documents\WindowsPowerShell\PSReadline\Windows PowerShell ISE Host_history.txt.BASE.txt"/>
+			<_1 Value="D:\Documents\WindowsPowerShell\.gitmodules.BASE.gitmodules"/>
+			<_2 Value="D:\Documents\WindowsPowerShell\Scripts\ConsoleHost_history.txt.BASE.txt"/>
+			<_3 Value="D:\Documents\WindowsPowerShell\Scripts\PSReadline\ConsoleHost_history.txt.BASE.txt"/>
+			<_4 Value="D:\Documents\WindowsPowerShell\Scripts\PSReadline\Windows PowerShell ISE Host_history.txt.BASE.txt"/>
+			<_5 Value="D:\OneDrive\TabSessionManager - Backup\0a80bc16-57e2-42a0-b58d-c9c3d8f14e77.BASE"/>
+		</CenterMRUSpecs>
+		<LeftMRUSpecs>
+			<_0 Value="C:\Users\crbk01\AppData\Local\Temp\TortoiseGit\ConsoleHost_history-0d044a85.000.txt"/>
+			<_1 Value="C:\Users\crbk01\AppData\Local\Temp\TortoiseGit\ConsoleHost_history-a3cdb979.002.txt"/>
+			<_2 Value="D:\Documents\WindowsPowerShell\PSReadline\Windows PowerShell ISE Host_history.txt.LOCAL.txt"/>
+			<_3 Value="D:\Documents\WindowsPowerShell\.gitmodules.LOCAL.gitmodules"/>
+			<_4 Value="D:\Documents\WindowsPowerShell\Scripts\ConsoleHost_history.txt.LOCAL.txt"/>
+			<_5 Value="D:\Documents\WindowsPowerShell\Scripts\PSReadline\ConsoleHost_history.txt.LOCAL.txt"/>
+			<_6 Value="D:\Documents\WindowsPowerShell\Scripts\PSReadline\Windows PowerShell ISE Host_history.txt.LOCAL.txt"/>
+			<_7 Value="D:\OneDrive\TabSessionManager - Backup\0a80bc16-57e2-42a0-b58d-c9c3d8f14e77.LOCAL"/>
+		</LeftMRUSpecs>
+		<MRUFonts>
+			<_0 Value="Segoe UI;9;;1"/>
+		</MRUFonts>
+		<RightMRUSpecs>
+			<_0 Value="C:\Users\crbk01\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadline\ConsoleHost_history.txt"/>
+			<_1 Value="D:\Documents\WindowsPowerShell\PSReadline\Windows PowerShell ISE Host_history.txt.REMOTE.txt"/>
+			<_2 Value="D:\Documents\WindowsPowerShell\.gitmodules.REMOTE.gitmodules"/>
+			<_3 Value="D:\Documents\WindowsPowerShell\Scripts\ConsoleHost_history.txt.REMOTE.txt"/>
+			<_4 Value="D:\Documents\WindowsPowerShell\Scripts\PSReadline\ConsoleHost_history.txt.REMOTE.txt"/>
+			<_5 Value="D:\Documents\WindowsPowerShell\Scripts\PSReadline\Windows PowerShell ISE Host_history.txt.REMOTE.txt"/>
+			<_6 Value="D:\OneDrive\TabSessionManager - Backup\0a80bc16-57e2-42a0-b58d-c9c3d8f14e77.REMOTE"/>
+		</RightMRUSpecs>
+	</TVerCompareState>
+</BCState>

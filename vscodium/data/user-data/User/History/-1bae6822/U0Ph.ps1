@@ -1,0 +1,1 @@
+while(((invoke-expression "git show-ref 2>&1") -split 'bad ref')[1]){ $q = invoke-expression "git show-ref 2>&1" ;$d = (($q -split 'bad ref')[1] -split ' \(')[0].trim() ; git update-ref -d $d ; $d }

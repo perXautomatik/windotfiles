@@ -1,0 +1,1615 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Produced by Beyond Compare 4 from Scooter Software -->
+<BCSessions Version="1" MinVersion="1">
+	<TDirCompareSession Value="gitignore">
+		<Filters>
+			<NameFilter Value="*.gitignore"/>
+		</Filters>
+		<LastModified Value="2019-10-14 12:47:48"/>
+		<Specs>
+			<Left Value="C:\Users\crbk01\OneDrive - Region Gotland\Till Github\Mapinfo"/>
+		</Specs>
+		<State>
+			<ColExtWidth Value="68"/>
+			<ColExtVisible Value="True"/>
+			<ColModifiedWidth Value="46"/>
+			<ColPathWidth Value="262"/>
+			<ColSizeWidth Value="56"/>
+			<DirHandling Value="dirCompareFilesOnly"/>
+			<SortDown Value="True"/>
+		</State>
+	</TDirCompareSession>
+	<TTextCompareSession Value=".def &lt;--> .def">
+		<LastModified Value="2019-09-27 11:13:28"/>
+		<Rules>
+			<Insigs>
+				<_0>
+					<FindText Value="^['].*"/>
+					<IsRegExp Value="True"/>
+				</_0>
+				<_1>
+					<FindText Value="[(].*[)]"/>
+					<IsRegExp Value="True"/>
+				</_1>
+				<_2>
+					<FindText Value="declare (sub|function)"/>
+					<IsRegExp Value="True"/>
+				</_2>
+			</Insigs>
+			<NeverAlignDiffs Value="True"/>
+			<UseCloseness Value="False"/>
+		</Rules>
+		<Specs>
+			<Left Value="C:\Users\crbk01\OneDrive - Region Gotland\Till Github\Mapinfo\CommonLib\Mapbasic-CommonLib\commonLib1.def"/>
+			<Right Value="C:\Users\crbk01\OneDrive - Region Gotland\Till Github\Mapinfo\MapInfoTabToCsv\tabellInsammlare.def"/>
+		</Specs>
+		<State>
+			<InsigIgnored Value="True"/>
+			<ShowContext Value="True"/>
+		</State>
+	</TTextCompareSession>
+	<TTextCompareSession Value="AutoHotkey.ahk">
+		<LastModified Value="2019-08-22 15:24:02"/>
+		<Specs>
+			<Left Value="C:\Users\crbk01\OneDrive - Region Gotland\PortableApps\AutoHotkeyPortable\Data\AutoHotkey.ahk"/>
+			<Right Value="C:\Users\crbk01\OneDrive - Region Gotland\Till Github\WorkCopieAutoHotkey.ahk"/>
+		</Specs>
+		<State>
+			<InsigIgnored Value="True"/>
+			<ShowContext Value="True"/>
+		</State>
+	</TTextCompareSession>
+	<TTextCompareSession Value="default.filter &lt;--> Highlight.filter">
+		<LastModified Value="2017-11-12 02:53:15"/>
+		<Rules>
+			<AlignKind Value="alignNone"/>
+		</Rules>
+		<Specs>
+			<Left Value="\\DESKTOP-V2JGKUR\My Games\Path of Exile\default.filter"/>
+			<Right Value="C:\Users\Dator\Documents\My Games\Path of Exile\Highlight.filter"/>
+		</Specs>
+	</TTextCompareSession>
+	<TTextCompareSession Value="Typical MapBasic.gitignore">
+		<LastModified Value="2019-09-29 19:25:19"/>
+		<Rules>
+			<Insigs>
+				<_0>
+					<FindText Value="^['].*"/>
+					<IsRegExp Value="True"/>
+				</_0>
+				<_1>
+					<FindText Value="[(].*[)]"/>
+					<IsRegExp Value="True"/>
+				</_1>
+				<_2>
+					<FindText Value="declare (sub|function)"/>
+					<IsRegExp Value="True"/>
+				</_2>
+			</Insigs>
+			<NeverAlignDiffs Value="True"/>
+			<UseCloseness Value="False"/>
+		</Rules>
+		<Specs>
+			<Left Value="C:\Users\crbk01\OneDrive - Region Gotland\Till Github\Mapinfo\organiserarFörMailboxen\.gitignore"/>
+			<Right Value="C:\Users\crbk01\OneDrive - Region Gotland\Till Github\Mapinfo\MapInfoTabToCsv\.gitignore"/>
+		</Specs>
+		<State>
+			<InsigIgnored Value="True"/>
+			<ShowContext Value="True"/>
+		</State>
+	</TTextCompareSession>
+	<TTextCompareSession Value="vwTrEaAnlaeggningPunkter_3015.sql &lt;--> vwTrEaAvloppsanlaeggningPunkter_3015.sql">
+		<LastModified Value="2019-07-29 11:03:34"/>
+		<Specs>
+			<Left Value="G:\sbf\Livsmiljö\Miljö- och hälsoskydd\Vatten\Gemensam\Avloppsregistret i EDP Vision\EDP Script\vwTrEaAnlaeggningPunkter_3015.sql"/>
+			<Right Value="G:\sbf\Livsmiljö\Miljö- och hälsoskydd\Vatten\Gemensam\Avloppsregistret i EDP Vision\EDP Script\vwTrEaAvloppsanlaeggningPunkter_3015.sql"/>
+		</Specs>
+		<State>
+			<InsigIgnored Value="True"/>
+			<ShowContext Value="True"/>
+		</State>
+	</TTextCompareSession>
+	<TSessionFolder>
+		<Items>
+			<TSessionFolder>
+				<Items>
+					<TTextMergeSession Value="BCState.xml">
+						<LastModified Value="2021-09-27 15:55:24"/>
+						<Specs>
+							<Left Value="D:\PortableApps\2. file Organization\PortableApps\Beyond Compare 4\BCState.xml.LOCAL.xml"/>
+							<Right Value="D:\PortableApps\2. file Organization\PortableApps\Beyond Compare 4\BCState.xml.REMOTE.xml"/>
+							<Center Value="D:\PortableApps\2. file Organization\PortableApps\Beyond Compare 4\BCState.xml.BASE.xml"/>
+							<Output Value="D:\PortableApps\2. file Organization\PortableApps\Beyond Compare 4\BCState.xml"/>
+						</Specs>
+					</TTextMergeSession>
+					<TDirCompareSession Value="c++ projekt">
+						<LastModified Value="2019-10-29 09:59:32"/>
+						<Specs>
+							<Left Value="C:\Users\crbk01\OneDrive - Region Gotland\Till Github\c++ projekt"/>
+						</Specs>
+						<State>
+							<ColExtWidth Value="68"/>
+							<ColExtVisible Value="True"/>
+							<ColModifiedWidth Value="46"/>
+							<ColPathWidth Value="262"/>
+							<ColSizeWidth Value="56"/>
+							<SortCol Value="colSize"/>
+							<SortDown Value="True"/>
+						</State>
+					<TTextMergeSession Value="BCSessions.xml">
+						<LastModified Value="2021-09-27 15:37:30"/>
+						<Specs>
+							<Left Value="D:\PortableApps\2. file Organization\PortableApps\Beyond Compare 4\BCSessions.xml.LOCAL.xml"/>
+							<Right Value="D:\PortableApps\2. file Organization\PortableApps\Beyond Compare 4\BCSessions.xml.REMOTE.xml"/>
+							<Center Value="D:\PortableApps\2. file Organization\PortableApps\Beyond Compare 4\BCSessions.xml.BASE.xml"/>
+							<Output Value="D:\PortableApps\2. file Organization\PortableApps\Beyond Compare 4\BCSessions.xml"/>
+						</Specs>
+					</TTextMergeSession>
+					</TDirCompareSession>
+					<TTextCompareSession Value="tabellInsammlare.mb">
+						<LastModified Value="2019-10-29 09:59:32"/>
+						<Rules>
+							<AlignKind Value="alignQuick"/>
+							<Insigs>
+								<_0>
+									<FindText Value="[(].*[)]"/>
+									<IsRegExp Value="True"/>
+								</_0>
+								<_1>
+									<FindText Value="^\s*$"/>
+									<IsRegExp Value="True"/>
+								</_1>
+								<_2>
+									<FindText Value="declare "/>
+								</_2>
+							</Insigs>
+						</Rules>
+						<Specs>
+							<Left Value="C:\Users\crbk01\OneDrive - Region Gotland\Till Github\Mapinfo\MapInfoTabToCsv\tabellInsammlare.mb"/>
+							<Right Value="C:\Users\crbk01\OneDrive - Region Gotland\Till Github\Mapinfo\MapInfoTabToCsv\tabellInsammlare.mb"/>
+						</Specs>
+						<State>
+							<InsigIgnored Value="True"/>
+							<ShowContext Value="True"/>
+						</State>
+					</TTextCompareSession>
+					<TTextMergeSession Value="0a80bc16-57e2-42a0-b58d-c9c3d8f14e77">
+						<LastModified Value="2021-09-24 13:26:22"/>
+						<Specs>
+							<Left Value="D:\OneDrive\TabSessionManager - Backup\0a80bc16-57e2-42a0-b58d-c9c3d8f14e77.LOCAL"/>
+							<Right Value="D:\OneDrive\TabSessionManager - Backup\0a80bc16-57e2-42a0-b58d-c9c3d8f14e77.REMOTE"/>
+							<Center Value="D:\OneDrive\TabSessionManager - Backup\0a80bc16-57e2-42a0-b58d-c9c3d8f14e77.BASE"/>
+							<Output Value="D:\OneDrive\TabSessionManager - Backup\0a80bc16-57e2-42a0-b58d-c9c3d8f14e77"/>
+						</Specs>
+					</TTextMergeSession>
+					<TDirCompareSession Value="c++ projekt &lt;--> ForksDownloadedCode">
+						<LastModified Value="2019-10-28 16:02:56"/>
+						<Specs>
+							<Left Value="C:\Users\crbk01\OneDrive - Region Gotland\Till Github\c++ projekt"/>
+							<Right Value="C:\Users\crbk01\OneDrive - Region Gotland\Till Github\ForksDownloadedCode"/>
+						</Specs>
+						<State>
+							<ColExtWidth Value="68"/>
+							<ColExtVisible Value="True"/>
+							<ColModifiedWidth Value="46"/>
+							<ColPathWidth Value="262"/>
+							<ColSizeWidth Value="56"/>
+							<DirHandling Value="dirFlatten"/>
+							<DisplayFilter Value="[showSame]"/>
+							<SortCol Value="colPath"/>
+							<SortSide Value="dsRight"/>
+						</State>
+					</TDirCompareSession>
+					<TDirCompareSession Value=".git">
+						<LastModified Value="2021-09-24 07:40:48"/>
+						<Specs>
+							<Left Value="C:\Users\crbk01\Desktop\Ny mapp\.git"/>
+							<Right Value="D:\Documents\WindowsPowerShell\.git"/>
+						</Specs>
+						<State>
+							<DirHandling Value="dirCompareFilesOnly"/>
+							<DisplayFilter Value="[showLeftAdded, showLeftChanged]"/>
+							<SortCol Value="colModified"/>
+							<SortDown Value="True"/>
+						</State>
+					</TDirCompareSession>
+					<TDirSyncSession Value="Update: c++ projekt &lt;- Visual Studio 2010">
+						<LastModified Value="2019-10-28 15:09:33"/>
+						<Rules>
+							<ExpandAllOnLoad Value="False"/>
+							<LeftAddedSyncOp Value="soLeave"/>
+							<LeftNewerSyncOp Value="soLeave"/>
+						</Rules>
+						<Specs>
+							<Left Value="C:\Users\crbk01\OneDrive - Region Gotland\Till Github\c++ projekt"/>
+							<Right Value="C:\Users\crbk01\OneDrive - Region Gotland\Till Github\Visual Studio 2010"/>
+						</Specs>
+						<State>
+							<ColExtWidth Value="68"/>
+							<ColExtVisible Value="True"/>
+							<ColModifiedWidth Value="46"/>
+							<ColPathWidth Value="262"/>
+							<ColSizeWidth Value="56"/>
+						</State>
+						<Summary Value="2019-10-28 15:08:14  Successfully synchronized 18 items.  Completed in 0,47 seconds."/>
+					</TDirSyncSession>
+					<TDirSyncSession Value="Custom: iMacros &lt;--> iMacros">
+						<LastModified Value="2019-10-28 15:01:25"/>
+						<Rules>
+							<ExpandAllOnLoad Value="False"/>
+							<LeftAddedSyncOp Value="soLeave"/>
+							<LeftNewerSyncOp Value="soPrompt"/>
+							<RightAddedSyncOp Value="soLeave"/>
+							<RightNewerSyncOp Value="soPrompt"/>
+							<SameSyncOp Value="soPrompt"/>
+						</Rules>
+						<Specs>
+							<Left Value="C:\Users\crbk01\OneDrive - Region Gotland\Till Github\iMacros"/>
+							<Right Value="C:\Users\crbk01\OneDrive - Region Gotland\Till Github\ForksDownloadedCode\iMacros"/>
+						</Specs>
+						<State>
+							<ColExtWidth Value="68"/>
+							<ColExtVisible Value="True"/>
+							<ColModifiedWidth Value="46"/>
+							<ColPathWidth Value="262"/>
+							<ColSizeWidth Value="56"/>
+						</State>
+						<Summary Value="2019-10-28 14:57:35  Successfully synchronized 404 items.  Completed in 0,43 seconds."/>
+					</TDirSyncSession>
+					<TDirCompareSession Value="Macros &lt;--> iMacros">
+						<LastModified Value="2019-10-28 14:58:14"/>
+						<Specs>
+							<Left Value="C:\Users\crbk01\OneDrive - Region Gotland\Till Github\ForksDownloadedCode\iMacros\Macros"/>
+							<Right Value="C:\Users\crbk01\OneDrive - Region Gotland\Till Github\ForksDownloadedCode\iMacros"/>
+						</Specs>
+						<State>
+							<ColExtWidth Value="68"/>
+							<ColExtVisible Value="True"/>
+							<ColModifiedWidth Value="46"/>
+							<ColPathWidth Value="262"/>
+							<ColSizeWidth Value="56"/>
+							<DirHandling Value="dirCompareFilesOnly"/>
+						</State>
+					</TDirCompareSession>
+					<TDirCompareSession Value="Vivaldi &lt;--> Extensions">
+						<LastModified Value="2019-10-28 13:36:25"/>
+						<Specs>
+							<Left Value="C:\Users\crbk01\AppData\Local\Vivaldi"/>
+							<Right Value="C:\Users\crbk01\OneDrive - Region Gotland\PortableApps\GoogleChromePortable\Data\profile\Default\Extensions"/>
+						</Specs>
+						<State>
+							<ColExtWidth Value="68"/>
+							<ColExtVisible Value="True"/>
+							<ColModifiedWidth Value="46"/>
+							<ColPathWidth Value="262"/>
+							<ColSizeWidth Value="56"/>
+							<DirHandling Value="dirCompareFilesOnly"/>
+							<SortCol Value="colSize"/>
+							<SortDown Value="True"/>
+							<SortSide Value="dsRight"/>
+						</State>
+					</TDirCompareSession>
+					<TDirSyncSession Value="Custom: User Data &lt;--> C:\Users\crbk01\OneDrive - Region Gotland\PortableApps\GoogleChromePortable\Data\profile\">
+						<LastModified Value="2019-10-28 13:34:55"/>
+						<Rules>
+							<DiffSyncOp Value="soDeleteLeft"/>
+							<ExpandAllOnLoad Value="False"/>
+							<LeftNewerSyncOp Value="soDeleteLeft"/>
+							<RightAddedSyncOp Value="soLeave"/>
+							<RightNewerSyncOp Value="soLeave"/>
+							<SameSyncOp Value="soDeleteLeft"/>
+						</Rules>
+						<Specs>
+							<Left Value="C:\Users\crbk01\AppData\Local\Google\Chrome\User Data"/>
+							<Right Value="C:\Users\crbk01\OneDrive - Region Gotland\PortableApps\GoogleChromePortable\Data\profile\"/>
+						</Specs>
+						<State>
+							<ColExtWidth Value="68"/>
+							<ColExtVisible Value="True"/>
+							<ColModifiedWidth Value="46"/>
+							<ColPathWidth Value="262"/>
+							<ColSizeWidth Value="56"/>
+							<SortCol Value="colExt"/>
+						</State>
+						<Summary Value="2019-10-28 13:34:52  Successfully synchronized 8 items.  Completed in 0,06 seconds."/>
+					</TDirSyncSession>
+					<TTextCompareSession Value="firstPageOfEachPDf.ps1 &lt;--> pdfReverse.ps1">
+						<LastModified Value="2021-09-19 14:02:52"/>
+						<Specs>
+							<Left Value="D:\Documents\WindowsPowerShell\Scripts\firstPageOfEachPDf.ps1"/>
+							<Right Value="D:\Documents\WindowsPowerShell\Scripts\pdfReverse.ps1"/>
+						</Specs>
+						<State>
+							<InsigIgnored Value="True"/>
+							<ShowContext Value="True"/>
+						</State>
+					</TTextCompareSession>
+					<TDirMergeSession Value="User Data">
+						<LastModified Value="2019-10-28 12:54:46"/>
+						<Specs>
+							<Left Value="C:\Users\crbk01\AppData\Local\Google\Chrome\User Data"/>
+						</Specs>
+					</TDirMergeSession>
+					<TTextMergeSession Value="start.txt">
+						<LastModified Value="2019-10-24 11:07:57"/>
+						<Specs>
+							<Left Value="C:\Users\crbk01\Desktop\enskilt.txt"/>
+							<Right Value="C:\Users\crbk01\Desktop\rening.txt"/>
+							<Center Value="C:\Users\crbk01\Desktop\sweref.txt"/>
+							<Output Value="C:\Users\crbk01\Desktop\start.txt"/>
+						</Specs>
+						<State>
+							<DisplayFilter Value="[showNoMod]"/>
+							<InsigIgnored Value="True"/>
+						</State>
+					</TTextMergeSession>
+					<TDirCompareSession Value="To Database, To convert &lt;--> DittoPortable">
+						<LastModified Value="2019-10-22 12:32:12"/>
+						<Rules>
+							<AlignWiths>
+								<_0>
+									<FindText Value="DittoDatabase.db"/>
+									<PathMask Value=".\"/>
+									<ReplaceText Value="Ditto_1.db"/>
+								</_0>
+							</AlignWiths>
+						</Rules>
+						<Specs>
+							<Left Value="C:\Users\crbk01\OneDrive - Region Gotland\To Database, To convert"/>
+							<Right Value="C:\Users\crbk01\OneDrive - Region Gotland\PortableApps\DittoPortable"/>
+						</Specs>
+						<State>
+							<ColExtWidth Value="68"/>
+							<ColExtVisible Value="True"/>
+							<ColModifiedWidth Value="46"/>
+							<ColPathWidth Value="262"/>
+							<ColSizeWidth Value="56"/>
+							<DirHandling Value="dirCompareFilesOnly"/>
+							<SortCol Value="colSize"/>
+							<SortDown Value="True"/>
+							<SortSide Value="dsRight"/>
+						</State>
+					</TDirCompareSession>
+					<TDirCompareSession Value="OneNoteChristofferPrivat &lt;--> OneNote_RecycleBin">
+						<Filters>
+							<NameFilter Value="-.\OneNote2016StandardStoragePlace\;-.\Outlook backup\;-.\OneNote2016Chache\;-.\OneNoteChristofferPrivat\;-.\OneDrive\"/>
+						</Filters>
+						<LastModified Value="2019-10-16 09:31:16"/>
+						<Rules>
+							<AlignWiths>
+								<_0>
+									<FindText Value="Christoffer's Notebook 1"/>
+									<PathMask Value=".\"/>
+									<ReplaceText Value="OneNotePrivatCorrupted"/>
+								</_0>
+							</AlignWiths>
+							<UseTimestampComparison Value="False"/>
+						</Rules>
+						<Specs>
+							<Left Value="C:\Users\crbk01\OneDrive - Region Gotland\Archive\OneNoteChristofferPrivat"/>
+							<Right Value="C:\Users\crbk01\OneDrive - Region Gotland\Archive\OneNoteChristofferPrivat\OneNote_RecycleBin"/>
+						</Specs>
+						<State>
+							<ColExtWidth Value="68"/>
+							<ColExtVisible Value="True"/>
+							<ColModifiedWidth Value="46"/>
+							<ColPathWidth Value="262"/>
+							<ColSizeWidth Value="56"/>
+							<DirHandling Value="dirCompareFilesOnly"/>
+							<SortCol Value="colSize"/>
+							<SortDown Value="True"/>
+							<SortSide Value="dsRight"/>
+						</State>
+					</TDirCompareSession>
+					<TDirCompareSession Value="Säkerhetskopia &lt;--> Archive">
+						<Filters>
+							<NameFilter Value="*.one (*"/>
+						</Filters>
+						<LastModified Value="2019-10-16 09:31:16"/>
+						<Rules>
+							<AlignWiths>
+								<_0>
+									<FindText Value="Christoffer's Notebook 1"/>
+									<PathMask Value=".\"/>
+									<ReplaceText Value="Christoffer's Notebook"/>
+								</_0>
+								<_1>
+									<FindText Value="Christoffer's Notebook"/>
+									<PathMask Value=".\"/>
+									<ReplaceText Value="Christoffersnotebook2"/>
+								</_1>
+							</AlignWiths>
+							<UseTimestampComparison Value="False"/>
+						</Rules>
+						<Specs>
+							<Left Value="C:\Users\crbk01\OneDrive - Region Gotland\Archive\OneNote2016StandardStoragePlace\16.0\Säkerhetskopia"/>
+							<Right Value="C:\Users\crbk01\OneDrive - Region Gotland\Archive"/>
+						</Specs>
+						<State>
+							<ColExtWidth Value="68"/>
+							<ColExtVisible Value="True"/>
+							<ColModifiedWidth Value="46"/>
+							<ColPathWidth Value="262"/>
+							<ColSizeWidth Value="56"/>
+							<DirHandling Value="dirCompareFilesOnly"/>
+						</State>
+					</TDirCompareSession>
+					<TDirSyncSession Value="Custom: Scripts &lt;--> Script">
+						<LastModified Value="2021-09-16 14:49:35"/>
+						<Rules>
+							<ExpandAllOnLoad Value="False"/>
+							<LeftAddedSyncOp Value="soLeave"/>
+							<LeftNewerSyncOp Value="soLeave"/>
+							<RightAddedSyncOp Value="soLeave"/>
+							<RightNewerSyncOp Value="soLeave"/>
+							<SameSyncOp Value="soDeleteLeft"/>
+							<UseTimestampComparison Value="False"/>
+						</Rules>
+						<Specs>
+							<Left Value="C:\Users\crbk01\Desktop\powershell\Scripts"/>
+							<Right Value="D:\Documents\WindowsPowerShell\Script"/>
+						</Specs>
+						<State>
+							<SortCol Value="colSize"/>
+							<SortSide Value="dsRight"/>
+						</State>
+						<Summary Value="2021-09-16 13:22:51  Successfully synchronized 1 items.  Completed in 0,02 seconds."/>
+					</TDirSyncSession>
+					<TDirCompareSession Value="OneNotePrivatCorrupted &lt;--> PrivatOneNote">
+						<Filters>
+							<NameFilter Value="-.\OneNote2016StandardStoragePlace\;-.\Outlook backup\;-.\OneNote2016Chache\;-.\OneNoteChristofferPrivat\;-.\OneDrive\"/>
+						</Filters>
+						<LastModified Value="2019-10-15 17:01:21"/>
+						<Rules>
+							<AlignWiths>
+								<_0>
+									<FindText Value="Christoffer's Notebook 1"/>
+									<PathMask Value=".\"/>
+									<ReplaceText Value="OneNotePrivatCorrupted"/>
+								</_0>
+							</AlignWiths>
+							<UseTimestampComparison Value="False"/>
+						</Rules>
+						<Specs>
+							<Left Value="C:\Users\crbk01\OneDrive - Region Gotland\Archive\OneNotePrivatCorrupted"/>
+							<Right Value="C:\Users\crbk01\OneDrive - Region Gotland\Archive\PrivatOneNote"/>
+						</Specs>
+						<State>
+							<ColExtWidth Value="68"/>
+							<ColExtVisible Value="True"/>
+							<ColModifiedWidth Value="46"/>
+							<ColPathWidth Value="262"/>
+							<ColSizeWidth Value="56"/>
+							<DirHandling Value="dirCompareFilesOnly"/>
+							<SortCol Value="colSize"/>
+							<SortDown Value="True"/>
+							<SortSide Value="dsRight"/>
+						</State>
+					</TDirCompareSession>
+					<TDirCompareSession Value="Private-08-20 &lt;--> Christoffersnotebook2">
+						<Filters>
+							<NameFilter Value="-.\OneNote2016StandardStoragePlace\;-.\Outlook backup\;-.\OneNote2016Chache\;-.\OneNoteChristofferPrivat\"/>
+						</Filters>
+						<LastModified Value="2019-10-15 16:58:56"/>
+						<Rules>
+							<AlignWiths>
+								<_0>
+									<FindText Value="Christoffer's Notebook 1"/>
+									<PathMask Value=".\"/>
+									<ReplaceText Value="OneNotePrivatCorrupted"/>
+								</_0>
+							</AlignWiths>
+							<UseTimestampComparison Value="False"/>
+						</Rules>
+						<Specs>
+							<Left Value="C:\Users\crbk01\OneDrive - Region Gotland\Archive\Private-08-20"/>
+							<Right Value="C:\Users\crbk01\OneDrive - Region Gotland\Archive\Christoffersnotebook2"/>
+						</Specs>
+						<State>
+							<ColExtWidth Value="68"/>
+							<ColExtVisible Value="True"/>
+							<ColModifiedWidth Value="46"/>
+							<ColPathWidth Value="262"/>
+							<ColSizeWidth Value="56"/>
+							<DirHandling Value="dirCompareFilesOnly"/>
+							<DisplayFilter Value="[showRightAdded]"/>
+							<SortCol Value="colSize"/>
+							<SortDown Value="True"/>
+							<SortSide Value="dsRight"/>
+						</State>
+					</TDirCompareSession>
+					<TDirCompareSession Value=".idea">
+						<LastModified Value="2020-10-08 13:42:45"/>
+						<Specs>
+							<Left Value="C:\Users\crbk01\.DataGrip2019.3\config\projects\Fil-Till-Vision\.idea"/>
+							<Right Value="C:\Users\crbk01\.DataGrip2019.3\config\projects\UtsökningKv-FlaggGenerering\.idea"/>
+						</Specs>
+					</TDirCompareSession>
+					<TDirCompareSession Value="Private 08-23 &lt;--> OneNoteChristofferPrivat">
+						<LastModified Value="2019-10-15 16:56:02"/>
+						<Rules>
+							<AlignWiths>
+								<_0>
+									<FindText Value="Christoffer's Notebook 1"/>
+									<PathMask Value=".\"/>
+									<ReplaceText Value="OneNotePrivatCorrupted"/>
+								</_0>
+							</AlignWiths>
+							<UseTimestampComparison Value="False"/>
+						</Rules>
+						<Specs>
+							<Left Value="C:\Users\crbk01\OneDrive - Region Gotland\Archive\Private 08-23"/>
+							<Right Value="C:\Users\crbk01\OneDrive - Region Gotland\Archive\OneNoteChristofferPrivat"/>
+						</Specs>
+						<State>
+							<ColExtWidth Value="68"/>
+							<ColExtVisible Value="True"/>
+							<ColModifiedWidth Value="46"/>
+							<ColPathWidth Value="262"/>
+							<ColSizeWidth Value="56"/>
+							<DirHandling Value="dirCompareFilesOnly"/>
+							<DisplayFilter Value="[showLeftAdded]"/>
+							<SortCol Value="colSize"/>
+							<SortDown Value="True"/>
+							<SortSide Value="dsRight"/>
+						</State>
+					</TDirCompareSession>
+					<TDirCompareSession Value="Christoffersnotebook2 &lt;--> OneNotePrivatDownloaded">
+						<LastModified Value="2019-10-15 16:54:53"/>
+						<Rules>
+							<AlignWiths>
+								<_0>
+									<FindText Value="Christoffer's Notebook 1"/>
+									<PathMask Value=".\"/>
+									<ReplaceText Value="OneNotePrivatCorrupted"/>
+								</_0>
+							</AlignWiths>
+							<UseTimestampComparison Value="False"/>
+						</Rules>
+						<Specs>
+							<Left Value="C:\Users\crbk01\OneDrive - Region Gotland\Archive\Christoffersnotebook2"/>
+							<Right Value="C:\Users\crbk01\OneDrive - Region Gotland\Archive\OneNotePrivatDownloaded"/>
+						</Specs>
+						<State>
+							<ColExtWidth Value="68"/>
+							<ColExtVisible Value="True"/>
+							<ColModifiedWidth Value="46"/>
+							<ColPathWidth Value="262"/>
+							<ColSizeWidth Value="56"/>
+							<SortCol Value="colSize"/>
+							<SortDown Value="True"/>
+							<SortSide Value="dsRight"/>
+						</State>
+					</TDirCompareSession>
+					<TDirCompareSession Value="Christoffersnotebook2 &lt;--> OneNoteChristofferPrivat">
+						<LastModified Value="2019-10-15 16:54:22"/>
+						<Rules>
+							<AlignWiths>
+								<_0>
+									<FindText Value="Christoffer's Notebook 1"/>
+									<PathMask Value=".\"/>
+									<ReplaceText Value="OneNotePrivatCorrupted"/>
+								</_0>
+							</AlignWiths>
+							<UseTimestampComparison Value="False"/>
+						</Rules>
+						<Specs>
+							<Left Value="C:\Users\crbk01\OneDrive - Region Gotland\Archive\Christoffersnotebook2"/>
+							<Right Value="C:\Users\crbk01\OneDrive - Region Gotland\Archive\OneNoteChristofferPrivat"/>
+						</Specs>
+						<State>
+							<ColExtWidth Value="68"/>
+							<ColExtVisible Value="True"/>
+							<ColModifiedWidth Value="46"/>
+							<ColPathWidth Value="262"/>
+							<ColSizeWidth Value="56"/>
+							<DirHandling Value="dirCompareFilesOnly"/>
+							<DisplayFilter Value="[showLeftAdded, showRightAdded, showLeftChanged, showRightChanged, showConflict]"/>
+							<SortCol Value="colSize"/>
+							<SortDown Value="True"/>
+							<SortSide Value="dsRight"/>
+						</State>
+					</TDirCompareSession>
+					<TDirCompareSession Value="OneNotePrivatDownloaded &lt;--> OneNoteChristofferPrivat">
+						<LastModified Value="2019-10-15 16:53:44"/>
+						<Rules>
+							<AlignWiths>
+								<_0>
+									<FindText Value="Christoffer's Notebook 1"/>
+									<PathMask Value=".\"/>
+									<ReplaceText Value="OneNotePrivatCorrupted"/>
+								</_0>
+							</AlignWiths>
+							<UseTimestampComparison Value="False"/>
+						</Rules>
+						<Specs>
+							<Left Value="C:\Users\crbk01\OneDrive - Region Gotland\Archive\OneNotePrivatDownloaded"/>
+							<Right Value="C:\Users\crbk01\OneDrive - Region Gotland\Archive\OneNoteChristofferPrivat"/>
+						</Specs>
+						<State>
+							<ColExtWidth Value="68"/>
+							<ColExtVisible Value="True"/>
+							<ColModifiedWidth Value="46"/>
+							<ColPathWidth Value="262"/>
+							<ColSizeWidth Value="56"/>
+							<DirHandling Value="dirCompareFilesOnly"/>
+							<SortCol Value="colSize"/>
+							<SortDown Value="True"/>
+							<SortSide Value="dsRight"/>
+						</State>
+					</TDirCompareSession>
+					<TDirCompareSession Value="restoration 08-22 &lt;--> OneNoteChristofferPrivat">
+						<LastModified Value="2019-10-15 16:53:19"/>
+						<Rules>
+							<AlignWiths>
+								<_0>
+									<FindText Value="Christoffer's Notebook 1"/>
+									<PathMask Value=".\"/>
+									<ReplaceText Value="OneNotePrivatCorrupted"/>
+								</_0>
+							</AlignWiths>
+							<UseTimestampComparison Value="False"/>
+						</Rules>
+						<Specs>
+							<Left Value="C:\Users\crbk01\OneDrive - Region Gotland\Archive\restoration 08-22"/>
+							<Right Value="C:\Users\crbk01\OneDrive - Region Gotland\Archive\OneNoteChristofferPrivat"/>
+						</Specs>
+						<State>
+							<ColExtWidth Value="68"/>
+							<ColExtVisible Value="True"/>
+							<ColModifiedWidth Value="46"/>
+							<ColPathWidth Value="262"/>
+							<ColSizeWidth Value="56"/>
+							<DisplayFilter Value="[showLeftAdded]"/>
+							<SortCol Value="colSize"/>
+							<SortDown Value="True"/>
+							<SortSide Value="dsRight"/>
+						</State>
+					</TDirCompareSession>
+					<TDirCompareSession Value="OneNoteChristofferPrivat &lt;--> Christoffersnotebook2">
+						<LastModified Value="2019-10-15 16:51:28"/>
+						<Rules>
+							<AlignWiths>
+								<_0>
+									<FindText Value="Christoffer's Notebook 1"/>
+									<PathMask Value=".\"/>
+									<ReplaceText Value="OneNotePrivatCorrupted"/>
+								</_0>
+							</AlignWiths>
+							<UseTimestampComparison Value="False"/>
+						</Rules>
+						<Specs>
+							<Left Value="C:\Users\crbk01\OneDrive - Region Gotland\Archive\OneNoteChristofferPrivat"/>
+							<Right Value="C:\Users\crbk01\OneDrive - Region Gotland\Archive\Christoffersnotebook2"/>
+						</Specs>
+						<State>
+							<ColExtWidth Value="68"/>
+							<ColExtVisible Value="True"/>
+							<ColModifiedWidth Value="46"/>
+							<ColPathWidth Value="262"/>
+							<ColSizeWidth Value="56"/>
+							<DirHandling Value="dirCompareFilesOnly"/>
+							<DisplayFilter Value="[showLeftChanged, showRightChanged, showConflict]"/>
+							<SortCol Value="colSize"/>
+							<SortDown Value="True"/>
+							<SortSide Value="dsRight"/>
+						</State>
+					</TDirCompareSession>
+					<TDirCompareSession Value="OneNoteChristofferPrivat &lt;--> OneNotePrivatDownloaded">
+						<LastModified Value="2019-10-15 16:48:46"/>
+						<Rules>
+							<AlignWiths>
+								<_0>
+									<FindText Value="Christoffer's Notebook 1"/>
+									<PathMask Value=".\"/>
+									<ReplaceText Value="OneNotePrivatCorrupted"/>
+								</_0>
+							</AlignWiths>
+							<UseTimestampComparison Value="False"/>
+						</Rules>
+						<Specs>
+							<Left Value="C:\Users\crbk01\OneDrive - Region Gotland\Archive\OneNoteChristofferPrivat"/>
+							<Right Value="C:\Users\crbk01\OneDrive - Region Gotland\Archive\OneNotePrivatDownloaded"/>
+						</Specs>
+						<State>
+							<ColExtWidth Value="68"/>
+							<ColExtVisible Value="True"/>
+							<ColModifiedWidth Value="46"/>
+							<ColPathWidth Value="262"/>
+							<ColSizeWidth Value="56"/>
+							<DirHandling Value="dirCompareFilesOnly"/>
+							<DisplayFilter Value="[showRightAdded]"/>
+							<SortCol Value="colSize"/>
+						</State>
+					</TDirCompareSession>
+					<TDirCompareSession Value="Säkerhetskopia">
+						<Filters>
+							<NameFilter Value="*.one (*"/>
+						</Filters>
+						<LastModified Value="2019-10-15 16:41:42"/>
+						<Rules>
+							<AlignWiths>
+								<_0>
+									<FindText Value="Christoffer @ Region Gotland"/>
+									<PathMask Value=".\"/>
+									<ReplaceText Value="Christoffersnotebook2"/>
+								</_0>
+							</AlignWiths>
+							<UseTimestampComparison Value="False"/>
+						</Rules>
+						<Specs>
+							<Left Value="C:\Users\crbk01\OneDrive - Region Gotland\Archive\OneNote2016StandardStoragePlace\16.0\Säkerhetskopia"/>
+							<Right Value="C:\Users\crbk01\OneDrive - Region Gotland\Archive\OneNote2016StandardStoragePlace\16.0\Säkerhetskopia"/>
+						</Specs>
+						<State>
+							<ColExtWidth Value="68"/>
+							<ColExtVisible Value="True"/>
+							<ColModifiedWidth Value="46"/>
+							<ColPathWidth Value="262"/>
+							<ColSizeWidth Value="56"/>
+							<DirHandling Value="dirCompareFilesOnly"/>
+						</State>
+					</TDirCompareSession>
+					<TDirCompareSession Value="work 1">
+						<Filters>
+							<NameFilter Value="*.one (*"/>
+						</Filters>
+						<LastModified Value="2019-10-15 16:41:21"/>
+						<Rules>
+							<AlignWiths>
+								<_0>
+									<FindText Value="Christoffer @ Region Gotland"/>
+									<PathMask Value=".\"/>
+									<ReplaceText Value="Christoffersnotebook2"/>
+								</_0>
+							</AlignWiths>
+							<UseTimestampComparison Value="False"/>
+						</Rules>
+						<Specs>
+							<Left Value="C:\Users\crbk01\OneDrive - Region Gotland\Archive\OneNote2016StandardStoragePlace\16.0\Säkerhetskopia\work 1"/>
+						</Specs>
+						<State>
+							<ColExtWidth Value="68"/>
+							<ColExtVisible Value="True"/>
+							<ColModifiedWidth Value="46"/>
+							<ColPathWidth Value="262"/>
+							<ColSizeWidth Value="56"/>
+							<DirHandling Value="dirCompareFilesOnly"/>
+						</State>
+					</TDirCompareSession>
+					<THexCompareSession Value="Öppna anteckningsbok.onetoc2">
+						<LastModified Value="2019-10-15 16:13:23"/>
+						<Specs>
+							<Left Value="C:\Users\crbk01\OneDrive - Region Gotland\Archive\OneNote2016\OneNote2016\Öppna anteckningsbok.onetoc2"/>
+							<Right Value="C:\Users\crbk01\OneDrive - Region Gotland\Archive\OneNote2016\Min anteckningsbok\Öppna anteckningsbok.onetoc2"/>
+						</Specs>
+					</THexCompareSession>
+					<TTextCompareSession Value="Öppna anteckningsbok.onetoc2">
+						<LastModified Value="2019-10-15 15:14:41"/>
+						<Rules>
+							<Insigs>
+								<_0>
+									<FindText Value="[(].*[)]"/>
+									<IsRegExp Value="True"/>
+								</_0>
+								<_1>
+									<FindText Value="^\s*$"/>
+									<IsRegExp Value="True"/>
+								</_1>
+								<_2>
+									<FindText Value="declare "/>
+								</_2>
+							</Insigs>
+						</Rules>
+						<Specs>
+							<Left Value="C:\Users\crbk01\OneDrive - Region Gotland\Archive\OneNote2016\OneNote2016\Öppna anteckningsbok.onetoc2"/>
+							<Right Value="C:\Users\crbk01\OneDrive - Region Gotland\Archive\OneNote2016\Min anteckningsbok\Öppna anteckningsbok.onetoc2"/>
+						</Specs>
+					</TTextCompareSession>
+					<TTextCompareSession Value="C:\Users\crbk01\OneDrive - Region Gotland\Till Github\Mapinfo\">
+						<LastModified Value="2019-10-14 13:17:54"/>
+						<Rules>
+							<AlignKind Value="alignQuick"/>
+							<Insigs>
+								<_0>
+									<FindText Value="[(].*[)]"/>
+									<IsRegExp Value="True"/>
+								</_0>
+								<_1>
+									<FindText Value="^\s*$"/>
+									<IsRegExp Value="True"/>
+								</_1>
+								<_2>
+									<FindText Value="declare "/>
+								</_2>
+							</Insigs>
+							<NeverAlignDiffs Value="True"/>
+							<UseCloseness Value="False"/>
+						</Rules>
+						<Specs>
+							<Left Value="C:\Users\crbk01\OneDrive - Region Gotland\Till Github\Mapinfo\"/>
+						</Specs>
+						<State>
+							<DisplayFilter Value="[showNoMod]"/>
+							<InsigIgnored Value="True"/>
+							<ShowContext Value="True"/>
+						</State>
+					</TTextCompareSession>
+					<TTextCompareSession Value=".gitignore">
+						<LastModified Value="2019-10-14 13:17:42"/>
+						<Rules>
+							<Insigs>
+								<_0>
+									<FindText Value="[(].*[)]"/>
+									<IsRegExp Value="True"/>
+								</_0>
+								<_1>
+									<FindText Value="^\s*$"/>
+									<IsRegExp Value="True"/>
+								</_1>
+								<_2>
+									<FindText Value="declare "/>
+								</_2>
+							</Insigs>
+						</Rules>
+						<Specs>
+							<Left Value="C:\Users\crbk01\OneDrive - Region Gotland\Till Github\Mapinfo\organiserarFörMailboxen\.gitignore"/>
+							<Right Value="C:\Users\crbk01\OneDrive - Region Gotland\Till Github\Mapinfo\MapInfoTabToCsv\.gitignore"/>
+						</Specs>
+						<State>
+							<InsigIgnored Value="True"/>
+							<ShowContext Value="True"/>
+						</State>
+					</TTextCompareSession>
+					<TTextCompareSession Value="commonLib1.mb &lt;--> MetodTest.mb">
+						<LastModified Value="2019-10-14 12:44:13"/>
+						<Rules>
+							<AlignKind Value="alignQuick"/>
+							<Insigs>
+								<_0>
+									<FindText Value="[(].*[)]"/>
+									<IsRegExp Value="True"/>
+								</_0>
+								<_1>
+									<FindText Value="^\s*$"/>
+									<IsRegExp Value="True"/>
+								</_1>
+								<_2>
+									<FindText Value="declare "/>
+								</_2>
+							</Insigs>
+							<NeverAlignDiffs Value="True"/>
+							<UseCloseness Value="False"/>
+						</Rules>
+						<Specs>
+							<Left Value="C:\Users\crbk01\OneDrive - Region Gotland\Till Github\Mapinfo\CommonLib\Mapbasic-CommonLib\commonLib1.mb"/>
+							<Right Value="C:\Users\crbk01\OneDrive - Region Gotland\Till Github\Mapinfo\MapInfoTabToCsv\MetodTest.mb"/>
+						</Specs>
+						<State>
+							<DisplayFilter Value="[showNoMod]"/>
+							<InsigIgnored Value="True"/>
+							<ShowContext Value="True"/>
+						</State>
+					</TTextCompareSession>
+					<TDirCompareSession Value="D:\ &lt;--> ParrentsThumbdrive">
+						<LastModified Value="2019-10-02 20:42:06"/>
+						<Specs>
+							<Left Value="D:\"/>
+							<Right Value="C:\Users\crbk01\OneDrive - Region Gotland\Archive\ParrentsThumbdrive"/>
+						</Specs>
+						<State>
+							<ColExtWidth Value="68"/>
+							<ColExtVisible Value="True"/>
+							<ColModifiedWidth Value="95"/>
+							<ColPathWidth Value="262"/>
+							<ColSizeWidth Value="7"/>
+							<DirHandling Value="dirShowAll"/>
+						</State>
+					</TDirCompareSession>
+					<TDirSyncSession Value="Update: D:\ -> ParrentsThumbdrive">
+						<LastModified Value="2019-10-02 20:42:06"/>
+						<Rules>
+							<ExpandAllOnLoad Value="False"/>
+							<RightAddedSyncOp Value="soLeave"/>
+							<RightNewerSyncOp Value="soLeave"/>
+						</Rules>
+						<Specs>
+							<Left Value="D:\"/>
+							<Right Value="C:\Users\crbk01\OneDrive - Region Gotland\Archive\ParrentsThumbdrive"/>
+						</Specs>
+						<State>
+							<ColExtWidth Value="68"/>
+							<ColExtVisible Value="True"/>
+							<ColModifiedWidth Value="95"/>
+							<ColPathWidth Value="262"/>
+							<ColSizeWidth Value="7"/>
+						</State>
+						<Summary Value="2019-10-02 19:57:43  Successfully synchronized 2 205 items.  Completed in 1 minutes, 44 seconds."/>
+					</TDirSyncSession>
+					<TDirCompareSession Value="MapInfoTabToCsv &lt;--> Mapbasic-CommonLib">
+						<LastModified Value="2019-10-02 09:35:40"/>
+						<Rules>
+							<AlignWiths>
+								<_0>
+									<FindText Value="tabellInsammlare.def"/>
+									<PathMask Value=".\"/>
+									<ReplaceText Value="commonLib1.def"/>
+								</_0>
+								<_1>
+									<FindText Value="tabellInsammlare.mb"/>
+									<PathMask Value=".\"/>
+									<ReplaceText Value="commonLib1.mb"/>
+								</_1>
+							</AlignWiths>
+						</Rules>
+						<Specs>
+							<Left Value="C:\Users\crbk01\OneDrive - Region Gotland\Till Github\Mapinfo\MapInfoTabToCsv"/>
+							<Right Value="C:\Users\crbk01\OneDrive - Region Gotland\Till Github\Mapinfo\CommonLib\Mapbasic-CommonLib"/>
+						</Specs>
+						<State>
+							<ColExtWidth Value="7"/>
+							<ColExtVisible Value="True"/>
+							<ColPathWidth Value="262"/>
+							<DirHandling Value="dirShowAll"/>
+						</State>
+					</TDirCompareSession>
+					<TTextCompareSession Value="commonLib1.mb &lt;--> tabellInsammlare.mb">
+						<LastModified Value="2019-10-02 06:18:36"/>
+						<Rules>
+							<OrphansAlwaysSig Value="True"/>
+						</Rules>
+						<Specs>
+							<Left Value="C:\Users\crbk01\OneDrive - Region Gotland\Till Github\Mapinfo\CommonLib\Mapbasic-CommonLib\commonLib1.mb"/>
+							<Right Value="C:\Users\crbk01\OneDrive - Region Gotland\Till Github\Mapinfo\MapInfoTabToCsv\tabellInsammlare.mb"/>
+						</Specs>
+						<State>
+							<InsigIgnored Value="True"/>
+							<ShowContext Value="True"/>
+						</State>
+					</TTextCompareSession>
+					<TTextCompareSession Value="main.mb &lt;--> tabellInsammlare.def">
+						<Formats>
+							<Left Value="&#2;SORT"/>
+						</Formats>
+						<LastModified Value="2019-09-30 22:47:39"/>
+						<Rules>
+							<Insigs>
+								<_0>
+									<FindText Value="[(].*[)]"/>
+									<IsRegExp Value="True"/>
+								</_0>
+								<_1>
+									<FindText Value="^\s*$"/>
+									<IsRegExp Value="True"/>
+								</_1>
+							</Insigs>
+							<NeverAlignDiffs Value="True"/>
+							<UseCloseness Value="False"/>
+						</Rules>
+						<Specs>
+							<Left Value="C:\Users\crbk01\OneDrive - Region Gotland\Till Github\Mapinfo\MapInfoTabToCsv\main.mb"/>
+							<Right Value="C:\Users\crbk01\OneDrive - Region Gotland\Till Github\Mapinfo\MapInfoTabToCsv\tabellInsammlare.def"/>
+						</Specs>
+						<State>
+							<DisplayFilter Value="[showNoMod]"/>
+							<InsigIgnored Value="True"/>
+							<ShowContext Value="True"/>
+						</State>
+					</TTextCompareSession>
+					<TTextCompareSession Value="tabellInsammlare(1).def &lt;--> tabellInsammlare.def">
+						<LastModified Value="2019-09-30 22:44:23"/>
+						<Rules>
+							<Insigs>
+								<_0>
+									<FindText Value="[(].*[)]"/>
+									<IsRegExp Value="True"/>
+								</_0>
+							</Insigs>
+						</Rules>
+						<Specs>
+							<Left Value="C:\Users\crbk01\OneDrive - Region Gotland\Till Github\Mapinfo\MapInfoTabToCsv\tabellInsammlare(1).def"/>
+							<Right Value="C:\Users\crbk01\OneDrive - Region Gotland\Till Github\Mapinfo\MapInfoTabToCsv\tabellInsammlare.def"/>
+						</Specs>
+						<State>
+							<InsigIgnored Value="True"/>
+							<ShowContext Value="True"/>
+						</State>
+					</TTextCompareSession>
+					<TTextCompareSession Value="pivotizer.mb &lt;--> commonLib1.def">
+						<Formats>
+							<Left Value="&#2;SORT"/>
+							<Right Value="&#2;SORT"/>
+						</Formats>
+						<LastModified Value="2019-09-29 20:11:07"/>
+						<Rules>
+							<Insigs>
+								<_0>
+									<FindText Value="^['].*"/>
+									<IsRegExp Value="True"/>
+								</_0>
+								<_1>
+									<FindText Value="[(].*[)]"/>
+									<IsRegExp Value="True"/>
+								</_1>
+								<_2>
+									<FindText Value="declare (sub|function)"/>
+									<IsRegExp Value="True"/>
+								</_2>
+							</Insigs>
+							<UseCloseness Value="False"/>
+						</Rules>
+						<Specs>
+							<Left Value="C:\Users\crbk01\OneDrive - Region Gotland\Till Github\Mapinfo\MapInfoTabToCsv\pivotizer.mb"/>
+							<Right Value="C:\Users\crbk01\OneDrive - Region Gotland\Till Github\Mapinfo\CommonLib\Mapbasic-CommonLib\commonLib1.def"/>
+						</Specs>
+						<State>
+							<DisplayFilter Value="[showNoMod]"/>
+							<InsigIgnored Value="True"/>
+							<ShowContext Value="True"/>
+						</State>
+					</TTextCompareSession>
+					<TDirCompareSession Value="MapInfoTabToCsv &lt;--> Old Mapbasic files">
+						<LastModified Value="2019-09-27 11:07:00"/>
+						<Rules>
+							<AlignWiths>
+								<_0>
+									<FindText Value="SarSwartlinger(1).mbp"/>
+									<PathMask Value=".\"/>
+									<ReplaceText Value="SarSwartlinger.mbp"/>
+								</_0>
+							</AlignWiths>
+						</Rules>
+						<Specs>
+							<Left Value="C:\Users\crbk01\OneDrive - Region Gotland\Till Github\Mapinfo\MapInfoTabToCsv"/>
+							<Right Value="C:\Users\crbk01\OneDrive - Region Gotland\Solen till vision\Old Mapbasic files"/>
+						</Specs>
+						<State>
+							<ColExtWidth Value="68"/>
+							<ColExtVisible Value="True"/>
+							<ColModifiedWidth Value="95"/>
+							<ColPathWidth Value="262"/>
+							<ColSizeWidth Value="7"/>
+							<DirHandling Value="dirShowAll"/>
+							<SortDown Value="True"/>
+						</State>
+					</TDirCompareSession>
+					<TTextCompareSession Value="commonLib1.def">
+						<LastModified Value="2019-09-25 23:08:41"/>
+						<Specs>
+							<Left Value="C:\Users\crbk01\OneDrive - Region Gotland\Till Github\Mapinfo\MapInfoTabToCsv\commonLib1.def"/>
+							<Right Value="C:\Users\crbk01\OneDrive - Region Gotland\Till Github\Mapinfo\MapInfoTabToCsv\CommonLib\commonLib1.def"/>
+						</Specs>
+						<State>
+							<InsigIgnored Value="True"/>
+							<ShowContext Value="True"/>
+						</State>
+					</TTextCompareSession>
+					<TDirCompareSession Value="organiserarFörMailboxen &lt;--> MapBasic-Gis_OrganizeEmails">
+						<LastModified Value="2019-09-06 18:24:24"/>
+						<Rules>
+							<ContentCompareKind Value="ccBinary"/>
+							<UseContentComparison Value="True"/>
+							<UseTimestampComparison Value="False"/>
+						</Rules>
+						<Specs>
+							<Left Value="G:\sbf\Livsmiljö\Gemensamt\mapbasic program projekt\organiserarFörMailboxen"/>
+							<Right Value="G:\sbf\Livsmiljö\Gemensamt\mapbasic program projekt\MapBasic-Gis_OrganizeEmails"/>
+						</Specs>
+						<State>
+							<ColExtWidth Value="7"/>
+							<ColExtVisible Value="True"/>
+							<ColPathWidth Value="262"/>
+							<DirHandling Value="dirShowAll"/>
+							<SortCol Value="colPath"/>
+						</State>
+					</TDirCompareSession>
+					<TDirCompareSession Value="C:\Users\crbk01\OneDrive - Region Gotland\Till Github\ &lt;--> printInfo">
+						<Filters>
+							<NameFilter Value="-.\rarared\"/>
+						</Filters>
+						<LastModified Value="2019-09-04 09:41:27"/>
+						<Rules>
+							<ArchiveHandling Value="ahFolderAlways"/>
+							<ExpandAllOnLoad Value="True"/>
+							<UseContentComparison Value="True"/>
+							<UseTimestampComparison Value="False"/>
+						</Rules>
+						<Specs>
+							<Left Value="C:\Users\crbk01\OneDrive - Region Gotland\Till Github\"/>
+							<Right Value="C:\Users\crbk01\OneDrive - Region Gotland\Till Github\Mapinfo\printInfo"/>
+						</Specs>
+						<State>
+							<ColExtWidth Value="7"/>
+							<ColExtVisible Value="True"/>
+							<ColPathWidth Value="262"/>
+							<DirHandling Value="dirCompareFilesOnly"/>
+							<SortCol Value="colPath"/>
+						</State>
+					</TDirCompareSession>
+					<TDirSyncSession Value="Custom: Mapinfo &lt;--> mapbasic program projekt">
+						<Filters>
+							<NameFilter Value="*.ind;*.map;*.dat;*.ID;*.TAB;*.xlsx;*.csv"/>
+						</Filters>
+						<LastModified Value="2019-09-03 16:07:29"/>
+						<Rules>
+							<ArchiveAsFolder Value="True"/>
+							<ContentCompareKind Value="ccBinary"/>
+							<DiffSyncOp Value="soLeave"/>
+							<RightAddedSyncOp Value="soLeave"/>
+							<RightNewerSyncOp Value="soDeleteLeft"/>
+							<SameSyncOp Value="soDeleteLeft"/>
+							<SyncEmptyFolders Value="False"/>
+							<UseContentComparison Value="True"/>
+							<UseRecycleBin Value="True"/>
+							<UseTimestampComparison Value="False"/>
+						</Rules>
+						<Specs>
+							<Left Value="C:\Users\crbk01\OneDrive - Region Gotland\Till Github\Mapinfo"/>
+							<Right Value="C:\Users\crbk01\OneDrive - Region Gotland\Till Github\mapbasic program projekt"/>
+						</Specs>
+						<State>
+							<ColExtWidth Value="35"/>
+							<ColExtVisible Value="True"/>
+							<ColPathWidth Value="309"/>
+							<SortCol Value="colSize"/>
+							<SortDown Value="True"/>
+						</State>
+						<Summary Value="2019-09-03 15:34:04  Successfully synchronized 64 items.  Completed in 6,53 seconds."/>
+					</TDirSyncSession>
+					<TDirCompareSession Value="gammalt &lt;--> UtsökningsAuto">
+						<LastModified Value="2019-09-03 16:07:18"/>
+						<Specs>
+							<Left Value="C:\Users\crbk01\OneDrive - Region Gotland\Till Github\mapbasic program projekt\Automatisera Utsökning för utskick\gammalt"/>
+							<Right Value="C:\Users\crbk01\OneDrive - Region Gotland\Till Github\Mapinfo\UtsökningsAuto"/>
+						</Specs>
+						<State>
+							<ColExtWidth Value="7"/>
+							<ColExtVisible Value="True"/>
+							<ColPathWidth Value="262"/>
+							<DirHandling Value="dirCompareFilesOnly"/>
+							<SortCol Value="colPath"/>
+						</State>
+					</TDirCompareSession>
+					<TDirCompareSession Value="Till Github">
+						<LastModified Value="2019-09-03 15:41:40"/>
+						<Rules>
+							<ArchiveHandling Value="ahFolderAlways"/>
+							<ExpandAllOnLoad Value="True"/>
+							<UseContentComparison Value="True"/>
+							<UseTimestampComparison Value="False"/>
+						</Rules>
+						<Specs>
+							<Left Value="C:\Users\crbk01\OneDrive - Region Gotland\Till Github"/>
+							<Right Value="C:\Users\crbk01\OneDrive - Region Gotland\Till Github"/>
+						</Specs>
+						<State>
+							<ColExtWidth Value="35"/>
+							<ColExtVisible Value="True"/>
+							<ColPathWidth Value="309"/>
+							<DirHandling Value="dirCompareFilesOnly"/>
+							<SortCol Value="colSize"/>
+							<SortDown Value="True"/>
+						</State>
+					</TDirCompareSession>
+					<TTextCompareSession Value="usefull regex.doc &lt;--> Regex-translate lastfm rss to xmfp.txt">
+						<LastModified Value="2019-09-03 15:20:04"/>
+						<Specs>
+							<Left Value="C:\Users\crbk01\OneDrive - Region Gotland\Till Github\OtherVersionControlledText\usefull regex.doc"/>
+							<Right Value="C:\Users\crbk01\OneDrive - Region Gotland\Till Github\OtherVersionControlledText\Regex-translate lastfm rss to xmfp.txt"/>
+						</Specs>
+						<State>
+							<InsigIgnored Value="True"/>
+							<ShowContext Value="True"/>
+						</State>
+					</TTextCompareSession>
+					<TDirCompareSession Value="Modding &lt;--> OtherVersionControlledText">
+						<LastModified Value="2019-09-03 15:03:01"/>
+						<Specs>
+							<Left Value="C:\Users\crbk01\OneDrive - Region Gotland\Till Github\Modding"/>
+							<Right Value="C:\Users\crbk01\OneDrive - Region Gotland\Till Github\OtherVersionControlledText"/>
+						</Specs>
+						<State>
+							<ColExtWidth Value="35"/>
+							<ColExtVisible Value="True"/>
+							<ColPathWidth Value="309"/>
+							<DirHandling Value="dirCompareFilesOnly"/>
+							<SortCol Value="colSize"/>
+							<SortDown Value="True"/>
+						</State>
+					</TDirCompareSession>
+					<TDirCompareSession Value="Powershell &lt;--> bat files">
+						<LastModified Value="2019-09-03 14:14:49"/>
+						<Specs>
+							<Left Value="C:\Users\crbk01\OneDrive - Region Gotland\Till Github\Powershell"/>
+							<Right Value="C:\Users\crbk01\OneDrive - Region Gotland\Till Github\bat files"/>
+						</Specs>
+						<State>
+							<ColExtWidth Value="35"/>
+							<ColExtVisible Value="True"/>
+							<ColPathWidth Value="309"/>
+							<DirHandling Value="dirCompareFilesOnly"/>
+							<SortCol Value="colSize"/>
+							<SortDown Value="True"/>
+						</State>
+					</TDirCompareSession>
+					<TDirCompareSession Value="C:\Users\crbk01\OneDrive - Region Gotland\PortableApps\AutoHotkeyPortable\Data\ &lt;--> C:\Users\crbk01\OneDrive - Region Gotland\">
+						<Filters>
+							<NameFilter Value="*.ahk"/>
+						</Filters>
+						<LastModified Value="2019-08-22 15:24:08"/>
+						<Specs>
+							<Left Value="C:\Users\crbk01\OneDrive - Region Gotland\PortableApps\AutoHotkeyPortable\Data\"/>
+							<Right Value="C:\Users\crbk01\OneDrive - Region Gotland\"/>
+						</Specs>
+						<State>
+							<ColExtWidth Value="35"/>
+							<ColExtVisible Value="True"/>
+							<ColPathWidth Value="309"/>
+							<DirHandling Value="dirCompareFilesOnly"/>
+							<SortCol Value="colSize"/>
+							<SortDown Value="True"/>
+						</State>
+					</TDirCompareSession>
+					<TDirCompareSession Value="Data &lt;--> C:\">
+						<Filters>
+							<NameFilter Value="*.ahk;-C:\Users\crbk01\OneDrive - Region Gotland"/>
+						</Filters>
+						<LastModified Value="2019-08-22 14:30:08"/>
+						<Specs>
+							<Left Value="C:\Users\crbk01\OneDrive - Region Gotland\PortableApps\AutoHotkeyPortable\Data"/>
+							<Right Value="C:\"/>
+						</Specs>
+						<State>
+							<ColExtWidth Value="7"/>
+							<ColExtVisible Value="True"/>
+							<ColPathWidth Value="78"/>
+							<DirHandling Value="dirFlatten"/>
+							<SortCol Value="colSize"/>
+							<SortDown Value="True"/>
+						</State>
+					</TDirCompareSession>
+					<TDirCompareSession Value="Archive">
+						<Filters>
+							<NameFilter Value="*one*"/>
+						</Filters>
+						<LastModified Value="2019-08-20 08:43:42"/>
+						<Specs>
+							<Left Value="C:\Users\crbk01\OneDrive - Region Gotland\Archive"/>
+						</Specs>
+						<State>
+							<ColExtWidth Value="7"/>
+							<ColExtVisible Value="True"/>
+							<ColPathWidth Value="78"/>
+							<DirHandling Value="dirFlatten"/>
+							<SortCol Value="colSize"/>
+							<SortDown Value="True"/>
+						</State>
+					</TDirCompareSession>
+					<TDirSyncSession Value="Custom: Automatisera Utsökning för utskick(1) &lt;--> Automatisera Utsökning för utskick">
+						<LastModified Value="2019-08-13 16:06:52"/>
+						<Rules>
+							<DiffSyncOp Value="soLeave"/>
+							<FollowSymLinks Value="True"/>
+							<RightAddedSyncOp Value="soLeave"/>
+							<RightNewerSyncOp Value="soDeleteLeft"/>
+							<SameSyncOp Value="soDeleteLeft"/>
+						</Rules>
+						<Specs>
+							<Left Value="C:\Users\crbk01\OneDrive - Region Gotland\Till Github\Mapinfo\Automatisera Utsökning för utskick(1)"/>
+							<Right Value="C:\Users\crbk01\OneDrive - Region Gotland\Till Github\Mapinfo\Automatisera Utsökning för utskick"/>
+						</Specs>
+						<State>
+							<SortCol Value="colModified"/>
+							<SortDown Value="True"/>
+						</State>
+						<Summary Value="2019-08-13 11:58:06  Successfully synchronized 115 items.  Completed in 0,06 seconds."/>
+					</TDirSyncSession>
+					<TDirSyncSession Value="Custom: DeleteDuplicates (2).zip &lt;--> Automatisera Utsökning för utskick">
+						<LastModified Value="2019-08-13 16:06:51"/>
+						<Rules>
+							<DiffSyncOp Value="soLeave"/>
+							<DOSAttrs Value="[dosArchive, dosSystem, dosHidden, dosReadOnly]"/>
+							<ExpandAllOnLoad Value="False"/>
+							<RightAddedSyncOp Value="soLeave"/>
+							<RightNewerSyncOp Value="soDeleteLeft"/>
+							<SameSyncOp Value="soDeleteLeft"/>
+							<UseContentComparison Value="True"/>
+							<UseTimestampComparison Value="False"/>
+						</Rules>
+						<Specs>
+							<Left Value="C:\Users\crbk01\OneDrive - Region Gotland\Till Github\Mapinfo\Automatisera Utsökning för utskick\MAPBASIC\DeleteDuplicates\DeleteDuplicates (2).zip"/>
+							<Right Value="C:\Users\crbk01\OneDrive - Region Gotland\Till Github\Mapinfo\Automatisera Utsökning för utskick"/>
+						</Specs>
+						<State>
+							<ColPathWidth Value="214"/>
+							<SortDown Value="True"/>
+						</State>
+					</TDirSyncSession>
+					<TDirCompareSession Value="Mapinfo &lt;--> Mapinfo extensions">
+						<LastModified Value="2019-08-13 16:06:47"/>
+						<Rules>
+							<ArchiveHandling Value="ahFolderAlways"/>
+							<AutoBuildTopOrphans Value="True"/>
+							<ContentCompareKind Value="ccBinary"/>
+							<ContentCompareSkipSame Value="True"/>
+							<DOSAttrs Value="[dosArchive, dosSystem, dosHidden, dosReadOnly]"/>
+							<ExpandAllOnLoad Value="True"/>
+							<ExpandDiffsOnLoad Value="True"/>
+							<UseContentComparison Value="True"/>
+							<UseTimestampComparison Value="False"/>
+						</Rules>
+						<Specs>
+							<Left Value="C:\Users\crbk01\OneDrive - Region Gotland\Till Github\Mapinfo"/>
+							<Right Value="C:\Users\crbk01\OneDrive - Region Gotland\Archive\Säkerhetskopia\Mapinfo extensions"/>
+						</Specs>
+						<State>
+							<ColExtWidth Value="163"/>
+							<ColExtVisible Value="True"/>
+							<ColPathWidth Value="184"/>
+							<DirHandling Value="dirFlatten"/>
+							<DisplayFilter Value="[showRightAdded]"/>
+							<SortCol Value="colPath"/>
+							<SortSide Value="dsRight"/>
+						</State>
+					</TDirCompareSession>
+					<TDirSyncSession Value="Custom: OneDrive - Region Gotland &lt;--> OneDrive - Region Gotland">
+						<LastModified Value="2019-08-13 10:52:33"/>
+						<Rules>
+							<DiffSyncOp Value="soLeave"/>
+							<FollowSymLinks Value="True"/>
+							<LeftNewerSyncOp Value="soLeave"/>
+							<RightAddedSyncOp Value="soLeave"/>
+							<RightNewerSyncOp Value="soCopyRight"/>
+							<SameSyncOp Value="soDeleteLeft"/>
+						</Rules>
+						<Specs>
+							<Left Value="C:\Users\crbk01\OneDrive - Region Gotland\Dupe\Users\crbk01\OneDrive - Region Gotland"/>
+							<Right Value="C:\Users\crbk01\OneDrive - Region Gotland"/>
+						</Specs>
+						<State>
+							<SortCol Value="colModified"/>
+							<SortDown Value="True"/>
+						</State>
+						<Summary Value="2019-08-13 10:50:15  Successfully synchronized 763 items.  Completed in 0,35 seconds."/>
+					</TDirSyncSession>
+					<TDirCompareSession Value="advanced_renamer_portable">
+						<LastModified Value="2019-08-13 10:48:55"/>
+						<Rules>
+							<ExpandAllOnLoad Value="True"/>
+							<FollowSymLinks Value="True"/>
+						</Rules>
+						<Specs>
+							<Left Value="C:\Users\crbk01\OneDrive - Region Gotland\PortableApps\advanced_renamer_portable"/>
+							<Right Value="C:\Users\crbk01\OneDrive - Region Gotland\Archive\Portabla Program\advanced_renamer_portable"/>
+						</Specs>
+						<State>
+							<DisplayFilter Value="[showLeftAdded, showRightAdded, showLeftChanged, showRightChanged, showConflict]"/>
+						</State>
+					</TDirCompareSession>
+					<TDirSyncSession Value="Custom: Outlook &lt;--> Outlook">
+						<LastModified Value="2019-08-01 12:04:22"/>
+						<Rules>
+							<DiffSyncOp Value="soCopyRight"/>
+							<FollowSymLinks Value="True"/>
+							<LeftNewerSyncOp Value="soLeave"/>
+							<RightAddedSyncOp Value="soLeave"/>
+							<RightNewerSyncOp Value="soCopyRight"/>
+							<SameSyncOp Value="soDeleteLeft"/>
+						</Rules>
+						<Specs>
+							<Left Value="H:\Users\crbk01\AppData\Local\Microsoft\Outlook"/>
+							<Right Value="C:\Users\crbk01\AppData\Local\Microsoft\Outlook"/>
+						</Specs>
+						<State>
+							<SortCol Value="colSyncOp"/>
+							<SortSide Value="dsRight"/>
+						</State>
+						<Summary Value="2019-08-01 12:04:19  Successfully synchronized 76 items.  Completed in 4,37 seconds."/>
+					</TDirSyncSession>
+					<TDirSyncSession Value="Custom: Spotify &lt;--> Spotify">
+						<LastModified Value="2019-08-01 11:58:46"/>
+						<Rules>
+							<DiffSyncOp Value="soCopyRight"/>
+							<FollowSymLinks Value="True"/>
+							<LeftNewerSyncOp Value="soLeave"/>
+							<RightAddedSyncOp Value="soLeave"/>
+							<RightNewerSyncOp Value="soCopyRight"/>
+							<SameSyncOp Value="soDeleteLeft"/>
+						</Rules>
+						<Specs>
+							<Left Value="C:\Users\crbk01\AppData\Local\Spotify"/>
+							<Right Value="H:\Users\crbk01\AppData\Local\Spotify"/>
+						</Specs>
+						<State>
+							<SortCol Value="colSyncOp"/>
+							<SortSide Value="dsRight"/>
+						</State>
+					</TDirSyncSession>
+					<TDirCompareSession Value="OneDrive &lt;--> Desktop">
+						<LastModified Value="2019-06-02 20:55:08"/>
+						<Specs>
+							<Left Value="C:\Users\crbk01\OneDrive"/>
+							<Right Value="C:\Users\crbk01\Desktop"/>
+						</Specs>
+						<State>
+							<SortCol Value="colModified"/>
+							<SortDown Value="True"/>
+						</State>
+					</TDirCompareSession>
+					<TDirCompareSession Value="PortableApps &lt;--> Desktop">
+						<LastModified Value="2019-05-29 15:22:11"/>
+						<Specs>
+							<Left Value="C:\Users\crbk01\OneDrive\PortableApps"/>
+							<Right Value="C:\Users\crbk01\Desktop"/>
+						</Specs>
+						<State>
+							<SortCol Value="colModified"/>
+							<SortDown Value="True"/>
+						</State>
+					</TDirCompareSession>
+					<TDirCompareSession Value="OneDrive">
+						<LastModified Value="2019-05-29 15:12:16"/>
+						<Specs>
+							<Left Value="C:\Users\crbk01\OneDrive"/>
+						</Specs>
+						<State>
+							<SortCol Value="colModified"/>
+							<SortDown Value="True"/>
+						</State>
+					</TDirCompareSession>
+					<TDirCompareSession Value="OneDrive">
+						<LastModified Value="2019-05-29 13:00:11"/>
+						<Specs>
+							<Left Value="C:\Users\crbk01\OneDrive"/>
+							<Right Value="C:\Users\crbk01\OneDrive"/>
+						</Specs>
+						<State>
+							<SortCol Value="colModified"/>
+							<SortDown Value="True"/>
+						</State>
+					</TDirCompareSession>
+					<TTextCompareSession Value="smaller scale test.sql &lt;--> SQLQuery9.sql">
+						<LastModified Value="2019-05-29 13:00:11"/>
+						<Specs>
+							<Left Value="C:\Users\crbk01\OneDrive\smaller scale test.sql"/>
+							<Right Value="C:\Users\crbk01\OneDrive\SQLQuery9.sql"/>
+						</Specs>
+						<State>
+							<InsigIgnored Value="True"/>
+							<ShowContext Value="True"/>
+						</State>
+					</TTextCompareSession>
+					<TDirCompareSession Value="Path of Exile">
+						<LastModified Value="2017-11-12 11:01:19"/>
+						<Specs>
+							<Left Value="\\DESKTOP-V2JGKUR\My Games\Path of Exile"/>
+							<Right Value="C:\Users\Dator\Documents\My Games\Path of Exile"/>
+						</Specs>
+						<State>
+							<SortDown Value="True"/>
+						</State>
+					</TDirCompareSession>
+				</Items>
+			</TSessionFolder>
+			<TDirCompareSession>
+				<State>
+					<ColExtWidth Value="7"/>
+					<ColExtVisible Value="True"/>
+					<ColModifiedWidth Value="46"/>
+					<ColPathWidth Value="257"/>
+					<ColSizeWidth Value="56"/>
+					<DirHandling Value="dirShowAll"/>
+					<DisplayFilter Value="[showLeftChanged, showRightChanged, showConflict]"/>
+				</State>
+			</TDirCompareSession>
+			<TDirSyncSession>
+				<Rules>
+					<DiffSyncOp Value="soLeave"/>
+					<FollowSymLinks Value="True"/>
+					<RightAddedSyncOp Value="soLeave"/>
+					<RightNewerSyncOp Value="soDeleteLeft"/>
+					<SameSyncOp Value="soDeleteLeft"/>
+				</Rules>
+				<State>
+					<ColExtWidth Value="68"/>
+					<ColExtVisible Value="True"/>
+					<ColModifiedWidth Value="46"/>
+					<ColPathWidth Value="262"/>
+					<ColSizeWidth Value="56"/>
+				</State>
+			</TDirSyncSession>
+			<TTextCompareSession>
+				<Rules>
+					<Insigs>
+						<_0>
+							<FindText Value="[(].*[)]"/>
+							<IsRegExp Value="True"/>
+						</_0>
+						<_1>
+							<FindText Value="^\s*$"/>
+							<IsRegExp Value="True"/>
+						</_1>
+						<_2>
+							<FindText Value="declare "/>
+						</_2>
+					</Insigs>
+				</Rules>
+				<State>
+					<InsigIgnored Value="True"/>
+					<ShowContext Value="True"/>
+				</State>
+			</TTextCompareSession>
+			<TTextMergeSession>
+				<State>
+					<DisplayFilter Value="[showNoMod]"/>
+					<InsigIgnored Value="True"/>
+				</State>
+			</TTextMergeSession>
+		</Items>
+			</TSessionFolder>
+			<TDirCompareSession>
+				<State>
+					<DirHandling Value="dirCompareFilesOnly"/>
+					<DisplayFilter Value="[showLeftAdded, showLeftChanged]"/>
+					<SortCol Value="colModified"/>
+					<SortDown Value="True"/>
+				</State>
+			</TDirCompareSession>
+			<TDirMergeSession>
+				<State>
+					<DirHandling Value="dirShowAll"/>
+					<DisplayFilter Value="[showSameDifference, showRightAdded, showRightDeleted, showRightChanged, showMergeable, showConflict]"/>
+					<InsigIgnored Value="True"/>
+					<ShowCenter Value="False"/>
+					<SortCol Value="colModified"/>
+					<SortDown Value="True"/>
+				</State>
+			</TDirMergeSession>
+			<TDirSyncSession>
+				<Rules>
+					<AlignWiths>
+						<_0>
+							<FindText Value="OneDrive - Region Gotlad"/>
+							<PathMask Value=".\"/>
+							<ReplaceText Value="OneDrive - Region Gotland"/>
+						</_0>
+						<_1>
+							<FindText Value="Documents"/>
+							<PathMask Value=".\"/>
+							<ReplaceText Value="Mina dokument"/>
+						</_1>
+						<_2>
+							<FindText Value="Downloads"/>
+							<PathMask Value=".\"/>
+							<ReplaceText Value="Downloads2"/>
+						</_2>
+					</AlignWiths>
+					<ContentCompareSkipSame Value="True"/>
+					<ExpandAllOnLoad Value="False"/>
+					<LeftNewerSyncOp Value="soCopyLeft"/>
+					<RightAddedSyncOp Value="soLeave"/>
+					<RightNewerSyncOp Value="soDeleteLeft"/>
+					<SameSyncOp Value="soDeleteLeft"/>
+					<UseContentComparison Value="True"/>
+					<UseTimestampComparison Value="False"/>
+				</Rules>
+				<State>
+					<SortCol Value="colSize"/>
+					<SortDown Value="True"/>
+					<SortSide Value="dsRight"/>
+				</State>
+			</TDirSyncSession>
+			<TTextCompareSession>
+				<State>
+					<InsigIgnored Value="True"/>
+					<ShowContext Value="True"/>
+				</State>
+			</TTextCompareSession>
+			<TTextMergeSession>
+				<State>
+					<MergeFavorSide Value="mfsLeft"/>
+				</State>
+			</TTextMergeSession>
+		</Items>
+	</TSessionFolder>
+</BCSessions>

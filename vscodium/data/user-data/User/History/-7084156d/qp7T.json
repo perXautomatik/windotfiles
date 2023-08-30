@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "B:/ToGit/IoT"
+		},
+		{
+			"name": "serial:/COM3",
+			"uri": "serial://com3/"
+		}
+	],
+	"settings": {}
+}

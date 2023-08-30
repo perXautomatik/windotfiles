@@ -1,0 +1,14 @@
+{ “version”: “0.4.3”, 
+“description”: “A tool that allows you to work with submodules as if they were normal files in your main repository”, 
+“homepage”: “git-subrepo”, 
+“license”: “MIT”, 
+“url”: “2”, 
+“hash”: “sha256: 8a9f6c7c1b8c9f2a5e6c7d5d6f0b9a7f1f8e5a6b0a9c2d8b3d1e8e4a7f5c2b9c”, 
+“depends”: “git”, 
+“extract_dir”: “git-subrepo-0.4.3”, 
+“bin”: [
+        [ “git-subrepo”, “git subrepo”
+        ]
+    ], “post_install”: [ “$env:PATH = "$dir;$env:PATH"”, “& git subrepo install”
+    ]
+}

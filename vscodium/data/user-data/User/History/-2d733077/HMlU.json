@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "B:/GitPs1Module"
+		},
+		{
+			"path": "B:/PF/Archive/ps1/git/usingSubmodule"
+		}
+	],
+	"settings": {
+		"powershell.cwd": "b:\\GitPs1Module"
+	}
+}

@@ -1,0 +1,17 @@
+{
+    "version": "1.0.1",
+    "description": "A faster implementation of the git subtree split command",
+    "homepage": "https://github.com/splitsh/lite",
+    "license": "MIT",
+    "url": "https://github.com/splitsh/lite/releases/download/v1.0.1/lite_windows_amd64.tar.gz",
+    "hash": "sha256:9c8fa8f6b4c0b2f02b7e6f887c9a4f81a6c9e3d86b8e5f81cb77af57c2e759aa",
+    "extract_dir": "lite_windows_amd64",
+    "bin": "splitsh-lite.exe",
+    "post_install": [
+        "$git = (Get-Command git).Source",
+        "$gitdir = Split-Path $git -Parent",
+        "$splitsh = \"$dir\\splitsh-lite.exe\"",
+        "$link = \"$gitdir\\splitsh-lite.exe\"",
+        "New-Item -ItemType HardLink -Path $link -Target $splitsh"
+    ]
+}

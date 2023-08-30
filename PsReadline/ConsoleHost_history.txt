@@ -1,0 +1,345 @@
+ls
+ls -h
+ls -help
+get-help ls
+ls -recurse
+tree
+get-help tree
+tree /F
+dir
+get-help dir
+dir -filter *.tab
+dir -filter *Fastigheter.tab
+$information = (import-csv .\information.csv).information
+$information = (import-csv .\1989-2010.csv).information
+(import-csv .\1989-2010.csv).information
+(import-csv .\1989-2010.csv).information >>
+(import-csv .\1989-2010.csv).information | out-host
+write-host (import-csv .\1989-2010.csv).information
+write-host (import-csv .\1989-2010.csv).Information
+Out-host (import-csv .\1989-2010.csv).Information
+Out-host -inputObjekt (import-csv .\1989-2010.csv).Information
+(import-csv .\1989-2010.csv).Information
+(import-csv .\1989-2010.csv).Information | out-file -filepath c:\test1\process.txt
+(import-csv .\1989-2010.csv).Information | out-file -filepath C:\Users\crbk01\Desktop\anteckningar w3
+(import-csv .\1989-2010.csv).Information | out-file -filepath C:\Users\crbk01\Desktop\anteckningar w3\test.txt
+(import-csv .\1989-2010.csv).Information | out-file -filepath "C:\Users\crbk01\Desktop\anteckningar w3\test.txt"
+(import-csv .\1989-2010.csv) | out-file -filepath "C:\Users\crbk01\Desktop\anteckningar w3\test.txt"
+get-help import-scv
+get-help import-csv
+(import-csv .\1989-2010.csv -delimeter ; -encoding {unicode}) | out-file -filepath "C:\Users\crbk01\Desktop\anteckningar w3\test.txt"
+(import-csv .\1989-2010.csv -delimeter ";" -encoding {unicode}) | out-file -filepath "C:\Users\crbk01\Desktop\anteckningar w3\test.txt"
+(import-csv .\1989-2010.csv -delimeter <;> -encoding {unicode}) | out-file -filepath "C:\Users\crbk01\Desktop\anteckningar w3\test.txt"
+(import-csv .\1989-2010.csv -delimeter ';' -encoding {unicode}) | out-file -filepath "C:\Users\crbk01\Desktop\anteckningar w3\test.txt"
+(import-csv .\1989-2010.csv -encoding {unicode}) | out-file -filepath "C:\Users\crbk01\Desktop\anteckningar w3\test.txt"
+(import-csv .\1989-2010.csv -encoding {unicode}) | out-file -filepath "C:\Users\crbk01\Desktop\anteckningar w3\test.txt"
+(import-csv .\1989-2010.csv -encoding unicode) | out-file -filepath "C:\Users\crbk01\Desktop\anteckningar w3\test.txt"
+(import-csv .\1989-2010.csv ) | out-file -filepath "C:\Users\crbk01\Desktop\anteckningar w3\test.txt"
+(import-csv .\1989-2010.csv -delimiter ;) | out-file -filepath "C:\Users\crbk01\Desktop\anteckningar w3\test.txt"
+(import-csv .\1989-2010.csv -Delimiter ;) | out-file -filepath "C:\Users\crbk01\Desktop\anteckningar w3\test.txt"
+(import-csv .\1989-2010.csv) | out-file -filepath "C:\Users\crbk01\Desktop\anteckningar w3\test.txt"
+(import-csv .\1989-2010.csv -Delimiter ";") | out-file -filepath "C:\Users\crbk01\Desktop\anteckningar w3\test.txt"
+(import-csv .\1989-2010.csv -Delimiter ";" -Encoding Unicode) | out-file -filepath "C:\Users\crbk01\Desktop\anteckningar w3\test.txt"
+(import-csv .\1989-2010.csv -Delimiter ";" -Encoding "Unicode") | out-file -filepath "C:\Users\crbk01\Desktop\anteckningar w3\test.txt"
+(import-csv .\1989-2010.csv -Delimiter ";" -Encoding UTF7) | out-file -filepath "C:\Users\crbk01\Desktop\anteckningar w3\test.txt"
+(import-csv .\1989-2010.csv -Delimiter ";" -Encoding UTF7).information | out-file -filepath "C:\Users\crbk01\Desktop\anteckningar w3\test.txt"
+foreach((import-csv .\1989-2010.csv -Delimiter ";" -Encoding UTF7).information) "1"
+(import-csv .\1989-2010.csv -Delimiter ";" -Encoding UTF7).information | out-file -filepath "C:\Users\crbk01\Desktop\anteckningar w3\test.txt"$mbxs = Get-Mailbox
+.\try.ps1
+get-help out-file
+.\try.ps1
+dir
+dir.name
+(dir).name
+(dir).name.replace(".doc","")
+(dir).name.replace(".docx",".doc").replace("doc","")
+(dir).name.replace(".docx",".doc").replace(".doc","")
+ls
+ls
+tree
+get-help tree
+tree /f
+tree /f
+get-childitem -recurse | select fullname
+(Get-ChildItem G:\mhk -Recurse).fullname > filename.txt
+(Get-ChildItem G:\mhk -Recurse).fullname | select-string "[^\)\w\\\-:.åäöÅÄÖ %\{,~$\(!@¤£é&=#§]"
+get-help select-string
+(Get-ChildItem G:\mhk -Recurse).fullname |  Where-Object { -match "[^\)\w\\\-:.åäöÅÄÖ %\{,~$\(!@¤£é&=#§]"}
+(Get-ChildItem G:\mhk -Recurse).fullname |  Where-Object {$_ -match "[^\)\w\\\-:.åäöÅÄÖ %\{,~$\(!@¤£é&=#§]"}
+(Get-ChildItem G:\mhk -Recurse).fullname |  Where-Object {$_ -match "[^\)\w\\\-:.åäöÅÄÖ %\{,~$\(!@¤£é&=#§]"} | rename-item -newName {$_.name -replace '[^\)\w\\\-:.åäöÅÄÖ %\{,~$\(!@¤£é&=#§]','_'}
+Get-ChildItem G:\mhk -Recurse |  Where-Object {$_.name -match "[^\)\w\\\-:.åäöÅÄÖ %\{,~$\(!@¤£é&=#§]"} | rename-item -newName {$_.name -replace '[^\)\w\\\-:.åäöÅÄÖ %\{,~$\(!@¤£é&=#§]','_'}
+Get-ChildItem G:\mhk -Recurse |  Where-Object {$_.name -match "[^\\w\\:.åäöÅÄÖ,]"} | rename-item -newName {$_.name -replace '[^\\w\\:.åäöÅÄÖ,]','_'}
+Get-ChildItem G:\mhk -Recurse |  Where-Object {$_.name -match "[^\\w\\:.åäöÅÄÖ,]"} | rename-item -newName {$_.name -replace '[^\\w\\:.åäöÅÄÖ,]','_-_'}
+Get-ChildItem G:\mhk -Recurse |  Where-Object {$_.name -match "[^\\w\\:.åäöÅÄÖ,]"} | rename-item -newName {$_.name -replace -whatif '[^\\w\\:.åäöÅÄÖ,]','_-_'}
+get-children
+get-childitem
+get-childitem -recirse
+get-childitem -recurse
+get-help get-childitem
+get-childitem -recurse -name
+(Get-ChildItem G:\mhk -Recurse).fullname |  Where-Object {$_ -match "[%\{,~$\(!@¤£é&=#§]"}
+(Get-ChildItem G:\mhk -Recurse).fullname |  Where-Object {$_ -match "[%\{~$\(!@¤£é&=#§]"}
+Get-ChildItem G:\mhk -Recurse |  Where-Object {$_.name -match "[%\{~$\(!@¤£é&=#§]"} | rename-item -newName {$_.name -replace '[%\{~$\(!@¤£é&=#§]','_'}
+(Get-ChildItem G:\mhk -Recurse).fullname |  Where-Object {$_ -match "[%\{,~$\(!@¤£é&=#§]"}
+$dirs = gci $tdc -directory -recurse | Where { (gci $_.fullName).count -eq 0 } | select -expandproperty FullName
+$dirs = gci "G:\mhk" -directory -recurse | Where { (gci $_.fullName).count -eq 0 } | select -expandproperty FullName
+(Get-ChildItem G:\mhk -Recurse).fullname > filename.txt
+cd..
+cd..
+(Get-ChildItem G:\mhk -Recurse).fullname > filename.txt
+Get-Content -Path .\filerAttFlytta.txt
+Get-Content -Path .\filerAttFlytta.txt | get-item | Copy-Item -Destination "G:\mhk\AttFlytta" -Recurse -Container
+Get-Content -Path .\filerAttFlytta.txt | get-item | Copy-Item -Destination 'G:\mhk\AttFlytta' -Recurse -Container
+Get-Content -Path .\filerAttFlytta.txt | get-item | Copy-Item -Destination 'G:\mhk\AttFlytta\' -Recurse -Container
+Get-Content -Path .\filerAttFlytta.txt | get-item | Copy-Item -Destination 'G:\mhk\AttFlytta\' -Recurse -Container
+Get-Content -Path .\filerAttFlytta.txt | get-item | Get-ChildItem -Path $_ | Copy-Item -Destination 'G:\mhk\AttFlytta\' -Recurse -Container
+Get-Content -Path .\filerAttFlytta.txt | get-item | Copy-Item $_.FullName 'G:\mhk\AttFlytta\' -Recurse -Container
+Get-Content -Path .\filerAttFlytta.txt | Copy-Item $_ 'G:\mhk\AttFlytta\' -Recurse -Container
+Get-Content -Path .\filerAttFlytta.txt | get-item | $_.FullName
+Get-Content -Path .\filerAttFlytta.txt | get-item.FullName
+Get-Content -Path .\filerAttFlytta.txt | get-item | Copy-Item -literalPath 'G:\mhk\AttFlytta\' -Recurse -Container
+Get-Content -Path .\filerAttFlytta.txt | Copy-Item -literalPath 'G:\mhk\AttFlytta\' -Recurse -Container
+Get-Content -Path .\filerAttFlytta.txt | Copy-Item -Path 'G:\mhk\AttFlytta\' -Recurse -Container
+Get-Content -Path .\filerAttFlytta.txt | Copy-Item $_ 'G:\mhk\AttFlytta\' -Recurse -Container
+Get-Content -Path .\filerAttFlytta.txt |  Copy-Item $_ -destination 'G:\mhk\AttFlytta\' -Recurse -Container
+Get-Content -Path .\filerAttFlytta.txt |get-item |  Copy-Item $_ -destination 'G:\mhk\AttFlytta\' -Recurse -Container
+Get-Content -Path .\filerAttFlytta.txt |get-item.getfullname |  Copy-Item $_ -destination 'G:\mhk\AttFlytta\' -Recurse -Container
+Get-Content -Path .\filerAttFlytta.txt |get-item |  Copy-Item $_.fullname -destination 'G:\mhk\AttFlytta\' -Recurse -Container
+Get-Content -Path .\filerAttFlytta.txt |get-item |  echo $_.fullname
+Get-Content -Path .\filerAttFlytta.txt |get-item |  echo $_
+Get-Content -Path .\filerAttFlytta.txt |get-item $sourceDir | Copy-Item -Destination $targetDir -Recurse -Container
+Get-Content -Path .\filerAttFlytta.txt | get-item | Copy-Item -Destination 'G:\mhk\AttFlytta' -Recurse -Container
+Get-Content -Path .\filerAttFlytta.txt | get-item | Copy-Item -Destination 'G:\mhk\AttFlytta' -Container
+Get-Content -Path .\filerAttFlytta.txt | get-item | Copy-Item -Destination (new-item -type directory -force (Split-Path -Path))
+Get-Content -Path .\filerAttFlytta.txt -pv pathString | get-item | Copy-Item -Destination (new-item -type directory -force (Split-Path $pathstring -Path))
+Get-Content -Path .\filerAttFlytta.txt -pv pathString | get-item | Copy-Item -Destination (new-item -type directory -force (Split-Path -path $pathstring))
+Get-Content -Path .\filerAttFlytta.txt -pv pathString | get-item | Copy-Item -Destination (new-item -type directory -force (Split-Path -path $pathString))
+Get-Content -Path .\filerAttFlytta.txt | get-item -pv pathString | Copy-Item -Destination (new-item -type directory -force (Split-Path -path $pathString))
+Get-AppXPackage -AllUsers | Foreach {Add-AppxPackage -DisableDevelopmentMode -Register "$($_.InstallLocation)\AppXManifest.xml"}
+get-printer
+get-printer | $.portName
+get-printer | $.portName
+get-printer.portName
+get-printer /portName
+get-help get-printer
+get-help | to-out
+get-help | out-host
+get-printer | out-host
+get-printer | format-wide -property portname
+get-printer | % {format-wide -property portname}
+get-printer | % {format-wide -property portname} | out-host
+get-printer | % {$_ format-wide -property portname} | out-host
+get-printer | % {$_} | out-host
+get-printer | format-list -property printername,drivername,portname | out-host
+get-printer | format-list -property name,drivername,portname | out-host
+get-printer | where-object {$_.name -like '*2339*'} |format-list -property name,drivername,portname | out-host
+Get-WmiObject -Class Win32_Product -Filter 'Name like "%adobe%"' | Select Caption,InstallLocation
+Get-WmiObject -Class Win32_Product -Filter 'Name like "%acrobat reader%"' | Select Caption,InstallLocation
+Get-ChildItem HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall | % { Get-ItemProperty $_.PsPath } | Select DisplayName,InstallLocation 
+Get-ChildItem HKLM:\SOFTWARE\adobe | % { Get-ItemProperty $_.PsPath } | Select DisplayName,InstallLocation 
+Get-ChildItem HKLM:\SOFTWARE\adobe\* | % { Get-ItemProperty $_.PsPath } | Select DisplayName,InstallLocation 
+(Get-CimInstance -ClassName Win32_Product | Where-Object Name -Like "*acrobat reader*").InstallLocation
+get-printer | where-object {$_.name -like '*2339*'} |format-list -property name,drivername,portname | out-host
+pdftk.exe
+ls
+pdftk.exe
+get-help pdftk.exe
+pdftk
+/pdftk.exe
+[accelerators]::get
+[accelerators]
+[psobject].Assembly.GetType(“System.Management.Automation.TypeAccelerators”)::get
+./nuget
+./nuget
+Start-Process -FilePath java -ArgumentList '-jar pdfa-x.y.z.jar'
+Start-Process -FilePath java -ArgumentList '-jar pdfa-x.y.z.jar -help'
+Start-Process -FilePath java -ArgumentList '-jar pdfa-x.y.z.jar -h'
+./cpdf.exe -pages "C:\Users\crbk01\Desktop\Södra\MHN-2018-1680_322.pdf"
+./cpdf.exe -pages 'C:\Users\crbk01\Desktop\ny mapp\Södra\MHN-2018-1680_322.pdf'
+./cpdf.exe -pages 'C:\Users\crbk01\Desktop\ny mapp\Södra\MHN-2018-1680_322.pdf'
+.\pdfcombine
+.\pdfcombine "H:\hämtade filer\MHN-2018-826_2_004.pdf" "H:\hämtade filer\SeC_Man-Admin_ds_EN_USA_120109 (1).pdf"
+.\pdfcombine "C:\Users\crbk01\Desktop\Ny mapp (2)" "C:\Users\crbk01\Desktop\Ny mapp (3)" C:\Users\crbk01\Desktop\new.pdf
+.\cpdf "H:\hämtade filer\MHN-2018-826_2_004.pdf" "H:\hämtade filer\SeC_Man-Admin_ds_EN_USA_120109 (1).pdf" out.pdf
+.\cpdf "H:\hämtade filer\MHN-2018-826_2_004.pdf" "H:\hämtade filer\SeC_Man-Admin_ds_EN_USA_120109 (1).pdf" c:\users\crbk01\desktop\out.pdf
+.\cpdf "H:\hämtade filer\MHN-2018-826_2_004.pdf" "H:\hämtade filer\SeC_Man-Admin_ds_EN_USA_120109 (1).pdf" -o out.pdf
+cd ..
+cd c:\user\crbk01\desktop\
+cd 'c:\user\crbk01\desktop\'
+cd ..
+cd ..
+cd desktop
+in2csv w3.xlsx > w32.csv
+in2csv vision.xlsx > vision2.csv
+in2csv NuÖppnaÄrenden.xlsx > vision2.csv
+in2csv NuÖppnaÄrende.xlsx > NuÖppnaÄrende2.csv
+Start-Process powershell -Verb runAs
+mklink /D H:\Users\crbk01\.DataGrip2019.1 C:\Users\crbk01\.DataGrip2019.1
+Start-Process powershell -Verb runAs
+c:\Users\crbk01\Desktop\WhenOffline\AventyrLivsmedel\uml pseudocode.plantexuml
+"C:\\Users\\crbk01\\Desktop\\WhenOffline\\BeondCompare4\\BComp.exe\" \"$REMOTE\" \"$LOCAL\" \"$BASE\" \"$MERGED\"
+end sub
+"C:\\Users\\crbk01\\Desktop\\WhenOffline\\BeondCompare4\\BComp.exe\" \"$REMOTE\" \"$LOCAL\" \"$BASE\" \"$MERGED\"
+"C:\\Users\\crbk01\\Desktop\\WhenOffline\\BeondCompare4\\BComp.exe\" \"$LOCAL\" \"$REMOTE\" \"$BASE\" \"$MERGED\"
+vivaldi "vivaldi://flags"
+ls -la
+Get-History | Format-List -Property *Get-History | Format-List -Property *
+Get-History | Format-List -Property *
+ls C:\Users\crbk01\Desktop\Ny mapp (3)
+C:
+ls C:\Users\crbk01\Desktop\Ny mapp (3)
+ls 'C:\Users\crbk01\Desktop\Ny mapp (3)'
+ls 'C:\Users\crbk01\Desktop\Ny mapp (3)'| name
+db2 list db directory
+Get-SqlDatabase
+Get-SqlInstance -Credential $Credential -MachineName "Computer001"
+Get-SqlInstance -Credential $Credential -MachineName "5CG84229D5.adm.gotland.se"
+Get-SqlInstance -Credential $Credential -MachineName "5CG84229D5"
+Get-SqlInstance -Credential $Credential
+cd c
+c:
+Get-NetUDPEndpoint -LocalAddress 127.0.0.1
+Get-NetUDPEndpoint -LocalAddress 127.0.0.1 -OwningProcess
+Get-Process -Id (Get-NetTCPConnection -LocalPort portNumber).OwningProcess
+Get-NetUDPEndpoint -LocalAddress 127.0.0.1 | Get-Process -Id (Get-NetTCPConnection -LocalPort portNumber).OwningProcess
+Get-NetUDPEndpoint -LocalAddress 127.0.0.1 localPort | Get-Process -Id (Get-NetTCPConnection -LocalPort portNumber).OwningProcess
+Get-NetUDPEndpoint -LocalAddress 127.0.0.1 | Format-List -Property localPort | Get-Process -Id (Get-NetTCPConnection -LocalPort $_).OwningProcess
+Get-NetUDPEndpoint -LocalAddress 127.0.0.1 | Format-List -Property localPort
+Get-NetUDPEndpoint -LocalAddress 127.0.0.1 -Property localPort
+Get-NetUDPEndpoint -LocalAddress 127.0.0.1 -Port
+Get-NetUDPEndpoint -LocalAddress 127.0.0.1 | Format-List -Property 
+Get-NetUDPEndpoint -LocalAddress 127.0.0.1 | Format-List 
+Get-NetUDPEndpoint -LocalAddress 127.0.0.1 -Property localPort
+Get-NetUDPEndpoint -LocalAddress 127.0.0.1 | Format-List -Property 
+Get-NetUDPEndpoint -LocalAddress 127.0.0.1 | Format-List -Property localPort
+(Get-NetUDPEndpoint -LocalAddress 127.0.0.1).localPort
+(Get-NetUDPEndpoint -LocalAddress 127.0.0.1).localPort | Get-Process -Id (Get-NetTCPConnection -LocalPort $_).OwningProcess
+(Get-NetUDPEndpoint -LocalAddress 127.0.0.1).localPort | parse | Get-Process -Id (Get-NetTCPConnection -LocalPort $_).OwningProcess
+(Get-NetUDPEndpoint -LocalAddress 127.0.0.1).localPort | parse 
+parse(Get-NetUDPEndpoint -LocalAddress 127.0.0.1).localPort
+(Get-NetUDPEndpoint -LocalAddress 127.0.0.1).localPort | parse(''+$_)
+(Get-NetUDPEndpoint -LocalAddress 127.0.0.1).localPort | ToUInt16($_) 
+ToUInt16(Get-NetUDPEndpoint -LocalAddress 127.0.0.1).localPort
+(Get-NetUDPEndpoint -LocalAddress 127.0.0.1).localPort | [Convert]::ToInt16("$_",2)
+(Get-NetUDPEndpoint -LocalAddress 127.0.0.1).localPort | [Convert]::ToInt16
+[Convert]::ToInt16(Get-NetUDPEndpoint -LocalAddress 127.0.0.1).localPort
+[Convert]::ToInt16((Get-NetUDPEndpoint -LocalAddress 127.0.0.1).localPort)
+[Convert]::ToInt16((Get-NetUDPEndpoint -LocalAddress 127.0.0.1).localPort,2)
+(Get-NetUDPEndpoint -LocalAddress 127.0.0.1).localPort |ForEach-Object {  [Convert]::ToInt16{$PSItem} } 
+(Get-NetUDPEndpoint -LocalAddress 127.0.0.1).localPort |ForEach-Object {  [Convert]::ToInt16{''+$PSItem} } 
+(Get-NetUDPEndpoint -LocalAddress 127.0.0.1).localPort |ForEach-Object {  [Convert]::ToInt16{$_} } 
+(Get-NetUDPEndpoint -LocalAddress 127.0.0.1)|ForEach-Object {  [Convert]::ToInt16{$_.localPort} } 
+(Get-NetUDPEndpoint -LocalAddress 127.0.0.1)|ForEach-Object {  [Convert]::ToInt16{"$_.localPort"} } 
+(Get-NetUDPEndpoint -LocalAddress 127.0.0.1)|ForEach-Object {  "$_.localPort" } 
+(Get-NetUDPEndpoint -LocalAddress 127.0.0.1)|ForEach-Object {  $_ } 
+(Get-NetUDPEndpoint -LocalAddress 127.0.0.1)|localPort|ForEach-Object {  $_ } 
+(Get-NetUDPEndpoint -LocalAddress 127.0.0.1)|$_.localPort|ForEach-Object {  $_ } 
+(Get-NetUDPEndpoint -LocalAddress 127.0.0.1)|$_.localPort
+(Get-NetUDPEndpoint -LocalAddress 127.0.0.1)
+(Get-NetUDPEndpoint -LocalAddress 127.0.0.1).localPort
+(Get-NetUDPEndpoint -LocalAddress 127.0.0.1).localPort | foreach {}
+(Get-NetUDPEndpoint -LocalAddress 127.0.0.1).localPort | foreach {$_ }
+(Get-NetUDPEndpoint -LocalAddress 127.0.0.1).localPort | foreach {"$_" }
+(Get-NetUDPEndpoint -LocalAddress 127.0.0.1).localPort | foreach {"$_" } | [Convert]::ToInt16{$_}
+(Get-NetUDPEndpoint -LocalAddress 127.0.0.1).localPort | foreach {[Convert]::ToInt16{$_}}
+(Get-NetUDPEndpoint -LocalAddress 127.0.0.1).localPort | foreach {"$_" } | foreach{[Convert]::ToInt16{$_}}
+(Get-NetUDPEndpoint -LocalAddress 127.0.0.1).localPort | foreach {""+="$_" } | foreach{[Convert]::ToInt16{$_}}
+(Get-NetUDPEndpoint -LocalAddress 127.0.0.1).localPort | foreach {$_+="" } | foreach{[Convert]::ToInt16{$_}}
+(Get-NetUDPEndpoint -LocalAddress 127.0.0.1).localPort | foreach {$_+="" } 
+(Get-NetUDPEndpoint -LocalAddress 127.0.0.1).localPort | foreach {$_ = ""|$_ } 
+(Get-NetUDPEndpoint -LocalAddress 127.0.0.1).localPort | foreach {"" | $_ } 
+(Get-NetUDPEndpoint -LocalAddress 127.0.0.1).localPort | foreach {" " + $_ } 
+(Get-NetUDPEndpoint -LocalAddress 127.0.0.1).localPort | foreach {" " + $_ }  | foreach{[convert]::ToInt16{$_}}
+(Get-NetUDPEndpoint -LocalAddress 127.0.0.1).localPort | get-content {$_}  | foreach{[convert]::ToInt16{$_}}
+get-content ( (Get-NetUDPEndpoint -LocalAddress 127.0.0.1).localPort ) | foreach{[convert]::ToInt16{$_}}
+ (Get-NetUDPEndpoint -LocalAddress 127.0.0.1).localPort | %{[convert]::ToInt16{$_}}
+(Get-NetUDPEndpoint -LocalAddress 127.0.0.1).localPort | Get-Process -Id (Get-NetTCPConnection -LocalPort [int]$_).OwningProcess
+(Get-NetUDPEndpoint -LocalAddress 127.0.0.1).localPort | Get-Process -Id (Get-NetTCPConnection -LocalPort [uint16int]$_).OwningProcess
+(Get-NetUDPEndpoint -LocalAddress 127.0.0.1).localPort | Get-Process -Id (Get-NetTCPConnection -LocalPort [uint16]$_).OwningProcess
+(Get-NetUDPEndpoint -LocalAddress 127.0.0.1).localPort | %{[int]$_} | Get-Process -Id (Get-NetTCPConnection -LocalPort $_).OwningProcess
+(Get-NetUDPEndpoint -LocalAddress 127.0.0.1).localPort | %{[int]$_} 
+(Get-NetUDPEndpoint -LocalAddress 127.0.0.1).localPort | %{[int]$_} | %{Get-Process -Id (Get-NetTCPConnection -LocalPort $_).OwningProcess}
+(Get-NetUDPEndpoint -LocalAddress.).localPort | %{[int]$_} | %{Get-Process -Id (Get-NetTCPConnection -LocalPort $_).OwningProcess}
+(Get-NetUDPEndpoint -LocalAddress local ).localPort | %{[int]$_} | %{Get-Process -Id (Get-NetTCPConnection -LocalPort $_).OwningProcess}
+get-services
+get-service
+echo 'START`
+' > vsclog.txt
+echo 'Exporting...`
+' >> vsclog.txt
+code --list-extensions > vsc-extensions.txt
+echo 'Successfully exported' >> vsclog.txt
+echo '`
+END' >> vsclog.txt
+git rev-parse
+git push
+git remote add PDF-Bookmark-Split https://github.com/perXautomatik/PDF-Bookmark-Split.git
+git push PDF-Bookmark-Split
+git push --set-upstream PDF-Bookmark-Split master
+git branch --set-upstream-to=default
+git branch --set-upstream-to=main
+git branch --set-upstream-to=new
+git push PDF-Bookmark-Split
+git push --set-upstream PDF-Bookmark-Split master
+git pull PDF-Bookmark-Split master new
+(Get-PSReadlineOption).HistorySavePath                                                                                                                       
+Get-PSReadLineKeyHandler                                                                                                                                     
+Get-PSReadLineOption                                                                                                                                         
+New-Item -Path "C:\Users\crbk01\OneDrive - Region Gotland\WindowsPowerShell\PSReadline" -ItemType SymbolicLink -Value "C:\Users\crbk01\AppData\Roaming\Mic...
+New-Item -Path "C:\Users\crbk01\OneDrive - Region Gotland\WindowsPowerShell\PSReadline" -ItemType Hardlink -Value "C:\Users\crbk01\AppData\Roaming\Microso...
+New-Item -Path "C:\Users\crbk01\OneDrive - Region Gotland\WindowsPowerShell\PSReadline" -ItemType Junction -Value "C:\Users\crbk01\AppData\Roaming\Microso...
+(Get-PSReadlineOption).HistorySavePath                                                                                                                       
+set-PSReadlineOption -HistorySavePath "C:\Users\crbk01\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt"                      
+Set-PSReadLineOption -HistorySavePath C:\Users\crbk01\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt -HistorySaveStyle in...
+Set-PSReadLineOption -HistorySavePath C:\Users\crbk01\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt -HistorySaveStyle sa...
+(Get-PSReadlineOption).HistorySavePath                                                                                                                       
+Get-PSReadLineOption                                                                                                                                         
+ [Microsoft.PowerShell.PSConsoleReadLine]::GetBufferState                                                                                                    
+cd "C:\Program Files\TortoiseGit\bin"                                                                                                                        
+ git log -S 'insertInitfialTables' -- "H:\mina grejer\Project Shelf\att göra\Solen till vision\MapInfoTabToCsv\Komponent\PreProcesses1.mb"
+Get-NetIPv4Protocol -IGMPLevel all | Format-List -Property *
+Set-NetFirewallProfile -Profile Domain,Public,Private -Enabled False
+C>
+C:
+New-Item -Path C:\Users\crbk01\Desktop\OnGithub -ItemType SymbolicLink -Value D:\OnGithub
+mklink -help
+ls                                                                                                                                                           
+.\TortoiseGitProc.exe                                                                                                                                        
+cd "C:\Users\crbk01\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine\"                                                                                
+".\C:\Program Files\TortoiseGit\bin\TortoiseGitProc.exe"                                                                                                     
+"C:\Program Files\TortoiseGit\bin\TortoiseGitProc.exe"                                                                                                       
+.\"C:\Program Files\TortoiseGit\bin\TortoiseGitProc.exe"                                                                                                     
+.\C:\Program Files\TortoiseGit\bin\TortoiseGitProc.exe                                                                                                       
+'.\C:\Program Files\TortoiseGit\bin\TortoiseGitProc.exe'                                                                                                     
+.\'C:\Program Files\TortoiseGit\bin\TortoiseGitProc.exe'                                                                                                     
+&"C:\Program Files\TortoiseGit\bin\TortoiseGitProc.exe"                                                                                                      
+&"C:\Program Files\TortoiseGit\bin\TortoiseGitProc.exe" /command:repostatus                                                                                  
+&"C:\Program Files\TortoiseGit\bin\TortoiseGitProc.exe" /command:repostatus /path:"C:\Users\crbk01\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadLine"  
+&"C:\Program Files\TortoiseGit\bin\TortoiseGitProc.exe" /command:repostatus /path:"C:\Users\crbk01\OneDrive - Region Gotland\WindowsPowerShell"              
+cd "C:\Users\crbk01\OneDrive - Region Gotland\WindowsPowerShell"                                                                                             
+&"C:\Program Files\TortoiseGit\bin\TortoiseGitProc.exe"                                                                                                      
+&"C:\Program Files\TortoiseGit\bin\TortoiseGitProc.exe" /path                                                                                                
+&"C:\Program Files\TortoiseGit\bin\TortoiseGitProc.exe -command repostatus -path C:\Users\crbk01\OneDrive - Region Gotland\WindowsPowerShell"                
+Import-Module ecoargs                                                                                                                                        
+Import-Module echoargs                                                                                                                                       
+Import-Module pscx                                                                                                                                           
+Install-Module -Name Pscx                                                                                                                                    
+echoargs &"C:\Program Files\TortoiseGit\bin\TortoiseGitProc.exe -command repostatus -path C:\Users\crbk01\OneDrive - Region Gotland\WindowsPowerShell"       
+echoargs                                                                                                                                                     
+Import-Module pscx                                                                                                                                           
+Import-Module -name pscx                                                                                                                                     
+$history = [System.Collections.ArrayList]([System.IO.File]::ReadAllLines((Get-PSReadlineOption).HistorySavePath))...                                         
+get-history                                                                                                                                                  
+get-history -Verbose                                                                                                                                         
+get-history | select -commandline                                                                                                                            
+get-history | select commandline                                                                                                                             
+
+cd D:\
+ls
+choco install powershell.portable
+choco uninstall powershell.portable
+choco install regcool.portable
+choco install actiona.portable
+choco install pathmanager.portable
+choco install tweakeze.portable
+choco install z-cron

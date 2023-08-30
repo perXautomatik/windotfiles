@@ -1,0 +1,67 @@
+{
+    "version": "3.24.246.0",
+    "description": "Ditto is an extension to the standard windows clipboard.",
+    "homepage": "https://ditto-cp.sourceforge.io/",
+    "license": "GPL-3.0-or-later",
+    "hash": "sha1:4f8e9c6a9c2a8b5f6c6a4f5b1d2b9a7d8b7c4e9f",
+    "architecture": {
+        "64bit": {
+            "url": "https://downloads.sourceforge.net/project/ditto-cp/Ditto/3.24.246.0/DittoPortable_64bit_3_24_246_0.zip",
+            "hash": "sha1:dc67ea31c27b957697ad187301203d89e16c0874"
+        },
+        "32bit": {
+            "url": "https://downloads.sourceforge.net/project/ditto-cp/Ditto/3.24.246.0/DittoPortable_3_24_246_0.zip",
+            "hash": "sha1:6a09c3762ed52a720787d422709102577d8ccb87"
+        }
+    },
+    "extract_dir": "Ditto",
+    "pre_install": [
+        "$startup = if ($global) { \"$env:ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\" } else { \"$env:AppData\\Microsoft\\Windows\\Start Menu\\Programs\\Startup\" }",
+        "$shortcut = \"$startup\\Ditto.lnk\"",
+        "$target = \"$dir\\Ditto.exe\"",
+        "$icon = \"$dir\\Ditto.exe\"",
+        "$description = \"Ditto Clipboard Manager\"",
+        "$workdir = \"$dir\"",
+        "New-Shortcut $shortcut $target $icon $description $workdir"
+    ],
+    "post_install": [
+        "if (!(Test-Path \"$persist_dir\\Ditto.db\")) {",
+        "    Write-Host 'File Ditto.db does not exists. Creating.' -f Yellow",
+        "    Start-Process -FilePath \"$dir\\Ditto.exe\"",
+        "    while (!(Test-Path \"$dir\\Ditto.db\")) {",
+        "        Start-Sleep -Milliseconds 500",
+        "    }",
+        "    Start-Sleep 1",
+        "    Stop-Process -Name Ditto",
+        "}",
+        "$file = 'Ditto.Settings'",
+        "if (!(Test-Path \"$persist_dir\\$file\")) {",
+        "    Write-Host 'File' $file 'does not exists. Creating.' -f Yellow",
+        "    $CONT = @('[Ditto]', 'DBPath3=Ditto.db')",
+        "    Set-Content \"$dir\\$file\" ($CONT -join \"`r`n\") -Encoding Ascii",
+        "}"
+    ],
+    "bin": [
+        [
+            "Ditto.exe",
+            "ditto"
+        ]
+    ],
+    "shortcuts": [
+        [
+            "Ditto.exe",
+            "Ditto"
+        ]
+    ],
+    "persist": [
+        "Ditto.db",
+        "Ditto.Settings"
+    ],
+    "checkver": {
+        "url": "https://sourceforge.net/projects/ditto-cp/rss?path=/Ditto",
+        "re": "<title>DittoSetup_(?<version>[\\d._]+)\\.exe</title>"
+    },
+    "autoupdate": {
+        "url": "https://downloads.sourceforge.net/project/ditto-cp/Ditto/$version/DittoSetup_$version.exe#/dl.7z"
+    }
+}

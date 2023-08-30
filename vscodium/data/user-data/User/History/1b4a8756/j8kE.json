@@ -1,0 +1,17 @@
+{
+    "version": "1.0.1",
+    "description": "A faster implementation of the git subtree split command",
+    "homepage": "https://github.com/splitsh/lite",
+    "license": "MIT",
+    "url": "https://objects.githubusercontent.com/github-production-release-asset-2e65be/59808890/ecde41b8-fac0-11e6-9848-ef99283c4c48?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20230824%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230824T123006Z&X-Amz-Expires=300&X-Amz-Signature=c5b727626006b424235cfd604bfe8d8a3851a4769807475ddafc5908c3a06728&X-Amz-SignedHeaders=host&actor_id=1850375&key_id=0&repo_id=59808890&response-content-disposition=attachment%3B%20filename%3Dlite_darwin_amd64.tar.gz",
+    "hash": "sha256:9c8fa8f6b4c0b2f02b7e6f887c9a4f81a6c9e3d86b8e5f81cb77af57c2e759aa",
+    "extract_dir": "lite_windows_amd64",
+    "bin": "splitsh-lite.exe",
+    "post_install": [
+        "$git = (Get-Command git).Source",
+        "$gitdir = Split-Path $git -Parent",
+        "$splitsh = \"$dir\\splitsh-lite.exe\"",
+        "$link = \"$gitdir\\splitsh-lite.exe\"",
+        "New-Item -ItemType HardLink -Path $link -Target $splitsh"
+    ]
+}

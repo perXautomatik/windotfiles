@@ -1,0 +1,1 @@
+$fromf = 'bin'; $dest_paths = @( '.github', '.envrc', 'CHANGELOG.md', 'LICENSE', 'PUBLISHING.md', 'README.md', 'img' ) ;$pr = '' ;foreach ($dp in $dest_paths) { if ($pr -ne '') { $pr += ' ' } ;   $pr += '--path-rename '+"'"+$fromf +'/' + $dp +"'"+':' +"'"+ $dp +"'" } ;git filter-repo --dry-run $pr --refs 'toolbelt'

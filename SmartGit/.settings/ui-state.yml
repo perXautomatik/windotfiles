@@ -1,12 +1,12 @@
 bounds:
-- {key: project, x: 527, y: 150, width: 1393, height: 900, state: 1}
+- {key: project, x: 413, y: 133, width: 1393, height: 900}
 - {key: welcome}
 - {key: preferences, x: -123, y: 217, width: 1165, height: 498}
 - {key: compare, x: 38, y: 174, width: 1440, height: 866}
 - {key: output, x: -200, y: -161, width: 1731, height: 743}
 - {key: git.commit, width: 1245, height: 889, x: 51, y: -49}
 - {key: git.commit.selectFromLog, width: 640, height: 395}
-- {key: log, x: 163, y: 194, width: 1292, height: 695, state: 1}
+- {key: log, x: -8, y: -8, width: 1936, height: 1066}
 - {key: editor, x: 240, y: 58, width: 1440, height: 866}
 - {key: git.indexEditor, x: 240, y: 58, width: 1440, height: 866}
 - {key: git.discard, width: 500, height: 654, x: 0, y: 172}
@@ -42,7 +42,7 @@ columns:
       Relative Path\tRenamed From"
     visibleColumnNames: "Ext.\tLast Changed On\tName\tRelative Directory\tSize\tState"
     columnWidths:
-    - {id: Name, width: 611, width2x: 0}
+    - {id: Name, width: 338, width2x: 0}
     - {id: Size, width: 61, width2x: 0}
     - {id: Ext., width: 63, width2x: 0}
     - {id: State, width: 471, width2x: 0}
@@ -50,11 +50,11 @@ columns:
     - {id: Last Changed On, width: 117, width2x: 0}
     - {id: Relative Path, width: 500, width2x: 0}
     sortOrders:
-    - {id: Name, reverse: false}
-    - {id: Size, reverse: true}
-    - {id: Ext., reverse: false}
     - {id: Relative Directory, reverse: false}
     - {id: State, reverse: true}
+    - {id: Size, reverse: false}
+    - {id: Name, reverse: false}
+    - {id: Ext., reverse: false}
     - {id: Last Changed On, reverse: true}
   project.files.git.index:
     columnNames: "Name\tExt.\tState\tRelative Directory\tRelative Path\tRenamed From"
@@ -144,17 +144,19 @@ gitViewFileFilter: {viewRecursive: true, viewFromSubmodules: true, viewIgnoredFi
 deepGitUiConfiguration: {}
 confirmations: {exit.showConfirmation: true, git.push: true, git.switchBranch.confirmation: true,
   close.unpushedCommits: true, commit.amend.replaceWarning: true, rebase.continue: true,
-  rebaseContinue: true, git.switchBranch.fastForward: true, sync: true, splitCommit: true,
+  rebaseContinue: false, git.switchBranch.fastForward: true, sync: true, splitCommit: true,
   git.commit.stageAll: true, compare.contentEqual: true}
-repositoriesToReopen: []
+repositoriesToReopen:
+- window: wt
+  repositories: ['B:\PF\CSharpVisualStudio\repos\karlstad2Calc_Lotto']
 project.files.git.separateWtIndex: true
-gitProjectLayout.main: (([+246x460:directories ][+246x307:branches ])((([+1128x481:files
-  ][+1128x161:changes ])[-3x1:message ])([+1128x122:outgoing ][-3x1:output ])))
+gitProjectLayout.main: (([+246x460:directories ][+246x307:branches ])((([+1128x225:files
+  ][+1128x161:changes ])[-3x1:message ])([+1128x378:outgoing ][-3x1:output ])))
 log.wtIndex.onDemand: true
 gitProjectLayout.mainIsdefault: true
 gitProjectLayout.review: ([+2x1:directories ][+7x1:files ][+3x1:message ])[+10x3:changes
   ]([-1x1:branches ][-3x1:outgoing ][-3x1:output ])
-lastRepositoryPath: C:\ProgramData\scoop\persist
+lastRepositoryPath: B:\PF\PowerShellProjectFolder
 commit.expandOptions: true
 log.files.git.separateWtIndex: true
 gitLogRootLayout.main: (([+427x807:repositories ][+427x126:branches ])(([+883x666:graph

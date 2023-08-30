@@ -1,0 +1,24 @@
+fileManager:
+  recentPaths:
+    maxPaths: 500
+    paths: ['C:\Users\CrRoot\bin', 'B:\Users\Default', 'B:\Users\chris\Documents',
+      'B:\Users\chris', 'B:\Users', 'B:\', 'B:\ToGit', 'C:\Users\CrRoot\Documents',
+      'C:\Users\CrRoot\Saved Games', 'B:\ToGit\chris', 'C:\Users\CrRoot', 'B:\ToGit\chris\scoop',
+      'B:\ToGit\chris\scoop\apps', 'B:\ToGit\chris\scoop\apps\scoop', 'B:\ToGit\chris\scoop\apps\scoop\current']
+  dirLeft:
+    columnWidths: []
+    lastDir: C:\Users\CrRoot
+  dirRight:
+    columnWidths: []
+    lastDir: B:\ToGit\chris\scoop\apps\scoop\current
+  checkSumColumnWidth: []
+  sftp:
+    profiles: []
+  lastUsedSide: right
+directory.fileTable: {}
+confirmations: {}
+bounds:
+- {key: fileManager, x: 76, y: 174, width: 1440, height: 866, state: 1}
+- {key: rename}
+tempDirs: ['C:\Users\CrRoot\AppData\Local\Temp\smartsynchronize-15445945053579610797',
+  'C:\Users\CrRoot\AppData\Local\Temp\e4j45CE.tmp_dir1684411413']

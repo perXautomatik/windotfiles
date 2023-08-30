@@ -1,0 +1,120 @@
+globalTextComponent:
+  font: {family: Lucida Console, size: 9}
+  actions: {focusNextChangeAfterTakingChange: false, tabToSpaces: false, homeEndToLineNotDocument: true,
+    smartHome: true, cursorLeftRightLimitToLine: true, smartEnterAutoIndent: true,
+    smartEnterIgnoreEmptyLinesForIndentation: true, smartEnterDeleteWhitespace: true}
+  syntaxHighlightingSettings:
+    entries:
+    - {language: ANTLR4, pattern: '*.g4'}
+    - {language: Basic, pattern: '*.basic, *.cbm, *.vb, *.vbs'}
+    - {language: C#, pattern: '*.cs'}
+    - {language: C(++), pattern: '*.c, *.cc, *.cpp, *.cxx, *.cyc, *.h, *.ino'}
+    - {language: CMake, pattern: '*.cmake'}
+    - {language: CSS, pattern: '*.css, *.css-kw, *.css-str'}
+    - {language: Clojure, pattern: '*.clj'}
+    - {language: Cmd, pattern: '*.bat, *.cmd'}
+    - {language: Crystal, pattern: '*.cr'}
+    - {language: Dart, pattern: '*.dart'}
+    - {language: Embedded Ruby Template, pattern: '*.erb'}
+    - {language: Go, pattern: '*.go'}
+    - {language: Groovy, pattern: '*.gradle, *.groovy'}
+    - {language: HTML, pattern: '*.htm, *.html, *.xhtml'}
+    - {language: InnoSetup, pattern: '*.iss'}
+    - {language: JSON, pattern: '*.json'}
+    - {language: Java, pattern: '*.java'}
+    - {language: JavaScript/TypeScript, pattern: '*.javascript, *.js, *.ts, *.tsx'}
+    - {language: Kotlin, pattern: '*.kt, *.kts'}
+    - {language: Lua/Nelua, pattern: '*.lua'}
+    - {language: Mumps, pattern: '*.mumps'}
+    - {language: Nim, pattern: '*.nim'}
+    - {language: Objective-C, pattern: '*.m'}
+    - {language: Odin, pattern: '*.odin'}
+    - {language: PHP, pattern: '*.php, *.php3, *.php4, *.php5, *.phps, *.phtml'}
+    - {language: Pascal, pattern: '*.pas, *.pascal'}
+    - {language: Perl, pattern: '*.perl, *.pl, *.pm'}
+    - {language: Properties, pattern: '*.properties'}
+    - {language: Python, pattern: '*.cv, *.py, *.python, *.pyw'}
+    - {language: Ruby, pattern: '*.rb, *.ruby'}
+    - {language: Rust, pattern: '*.rc, *.rs, *.rust'}
+    - {language: SQL, pattern: '*.sql'}
+    - {language: Scala, pattern: '*.scala'}
+    - {language: Shell Script, pattern: '*.bash, *.bsh, *.csh, *.sh'}
+    - {language: Swift, pattern: '*.swift'}
+    - {language: TOML, pattern: '*.toml'}
+    - {language: V, pattern: '*.v'}
+    - {language: VHDL '93, pattern: '*.vhd, *.vhdl'}
+    - {language: XML, pattern: '*.csproj, *.mxml, *.plist, *.storyboard, *.svg, *.thyme,
+        *.xib, *.xml'}
+    - {language: Yaml, pattern: '*.yaml, *.yml'}
+    - {language: Zig, pattern: '*.zig'}
+  colors.light: {color-annotation: 11564032, color-attrib-name: 255, color-attrib-value: 32768,
+    color-comment: 8421504, color-pragma: 8547840, color-invalid: 16727871, color-keyword: 32768,
+    color-literal: 255, color-plain-text: 0, color-punctuation: 16721920, color-identifier: 0,
+    color-string: 12583104, color-tag: 128, color-type: 4227200, foregroundText: 0,
+    foregroundGutter: 9868950, foregroundWhitespace: 12632256, foregroundTrailingWhitespace: 12624064,
+    foregroundCompactSeparator: 10526880, backgroundEditable: 16777215, backgroundReadOnly: 16185078,
+    backgroundGutter: 16316661, backgroundCurrentLine: 16185004, backgroundModified: 16763080,
+    backgroundModifiedLight: 16772589, backgroundAdded: 12513470, backgroundAddedLight: 15399658,
+    backgroundRemoved: 13158655, backgroundRemovedLight: 15592959, backgroundConflict: 16755370,
+    backgroundConflictLight: 16770019, backgroundCompactSeparator: 15132390, backgroundModifiedCS: 16763080,
+    backgroundAddedCS: 12513470, backgroundRemovedCS: 13158655, highlightCurrentLine: false}
+  colors.dark: {color-annotation: 13092749, color-attrib-name: 9291719, color-attrib-value: 12558303,
+    color-comment: 8421504, color-pragma: 13876905, color-invalid: 16744319, color-keyword: 10733475,
+    color-literal: 11184853, color-plain-text: 12566463, color-punctuation: 12561045,
+    color-identifier: 12632256, color-string: 14002901, color-tag: 10274701, color-type: 11513807}
+  colors.useDark: false
+defaultTextView:
+  compareSettings:
+    textSettings: {whitespaces: 0}
+directoryCompare:
+  defaultProfileSettings:
+    compare:
+      filter:
+        fileExcludePatterns: []
+        directoryIncludePatterns: []
+        directoryExcludePatterns: []
+      quickCompare: false
+      useFileAgeThreshold: false
+      fileAgeThreshold: 365
+      inspectEOLForChangeOverview: true
+      evaluateLineBasedChanges: true
+    encoding: {}
+    showCompareSettingsOnRefresh: false
+    displayFileTimeState: true
+list32: {uid: x44491583445}
+updateCheck: {prevCheckTime: 1684317033927, checkedBuild: 7074, mode: download, upgradeInstallation: false}
+proxySettings: {enabled: false, autoDetect: true}
+proxyPassword: {}
+dateFormat: {datePattern: MM/dd/yyyy, timePattern: 'hh:mm a', showTimeForLastDays: true}
+fileManager:
+  favorites: []
+  sortings:
+    pathSortings: []
+  ui: {}
+  tools:
+    7zipExecutable: ${installDir}\bin\7z\7z.exe
+    7zipExecutable.absolute: C:\ProgramData\scoop\apps\smartsynchronize\current\bin\7z\7z.exe
+    edit:
+    - {pattern: '*', command: notepad.exe, parameters: '${file}'}
+    - {pattern: '*', builtin: true}
+    tools:
+    - {id: open, name: Open File, fileNamePattern: '*', command: '${installDir}\bin\open.exe',
+      command.absolute: 'C:\ProgramData\scoop\apps\smartsynchronize\current\bin\open.exe',
+      parameters: '--no-wait ${file}'}
+    - {id: openAsAdmin, name: Execute as Administrator, fileNamePattern: '*.exe,*.cmd,*.bat',
+      command: '${installDir}\bin\open.exe', command.absolute: 'C:\ProgramData\scoop\apps\smartsynchronize\current\bin\open.exe',
+      parameters: '--no-wait --elevate ${file}'}
+    - {id: openWith, name: Open File With..., fileNamePattern: '*', command: rundll32.exe,
+      parameters: 'Shell32.dll,OpenAs_RunDLL ${file}'}
+    - {id: reveal, name: Reveal in Explorer, fileNamePattern: '', command: explorer.exe,
+      parameters: '/select, ${fileOrDir}'}
+    - {id: terminal, name: Open Terminal, fileNamePattern: '', command: cmd.exe, parameters: '/c
+        start pushd ${currentDir}'}
+    - {id: netMapDrive, name: Map Network Drive, fileNamePattern: '', command: rundll32.exe,
+      parameters: 'shell32.dll,SHHelpShortcuts_RunDLL Connect'}
+    - {id: editEnv, name: Edit Environment Variables, fileNamePattern: '', command: rundll32.exe,
+      parameters: 'sysdm.cpl,EditEnvironmentVariables'}
+openFileManager: true
+sendStacktraces2: true
+theme: auto
+themeChanged: false

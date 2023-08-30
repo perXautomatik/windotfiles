@@ -1,0 +1,23 @@
+{
+    "security.workspace.trust.untrustedFiles": "open",
+    "pymakr.devices.configs": {
+        "serial://COM1": {
+            "autoConnect": "onLostConnection",
+            "name": "",
+            "username": "micro",
+            "password": "python",
+            "hidden": false,
+            "rootPath": null,
+            "adapterOptions": {}
+        },
+        "e661a4d4176db52b": {
+            "autoConnect": "onLostConnection",
+            "name": "",
+            "username": "micro",
+            "password": "python",
+            "hidden": false,
+            "rootPath": null,
+            "adapterOptions": {}
+        }
+    }
+}
