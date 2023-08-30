@@ -55,14 +55,15 @@ structure:
   - {name: .config_powershell, path: 'C:\Users\CrRoot\.config\powershell'}
   expanded: true
 - {name: ps1, path: 'B:\PF\PowershellProjectFolder\Modules\Personal\filesystem\group\ps1'}
-recentlyUsed: ['B:\PF\CSharpVisualStudio\repos\karlstad2Calc_Lotto', 'B:\PF\PowershellProjectFolder\Modules\Personal\filesystem\group\ps1',
-  'B:\PF\PowershellProjectFolder', 'B:\PF\Archive\PowerShellProjectFolder', 'C:\ProgramData\scoop\persist',
-  'B:\PF\CSharpVisualStudio\repos\karlstad', 'B:\PF\CSharpVisualStudio\repos\karlstad\karlstad1',
-  'B:\PF\chris', 'B:\PF\Archive\NewWindows', 'B:\PF\Archive\ps1', 'B:\ToGit\IoT\TIG-stack',
-  'B:\PF\NoteTakingProjectFolder', 'B:\PF', 'B:\PF\Archive', 'B:\PF\scoopbucket-1',
-  \\DESKTOP-FIQ183H\BLoppy\ToGit\scoopbucket-1, 'B:\PF\scoopbucket-presist', 'B:\PF\chris\Documents\WindowsPowerShell',
-  'C:\Users\CrRoot\.config\powershell', 'C:\Users\CrRoot\AppData', 'B:\PF\PowerShell',
-  'C:\ProgramData\scoop\buckets', 'B:\GitPs1Module', 'B:\ps1', 'B:\ToGit\IoT', 'B:\PF\NewWindows3',
-  'B:\Filtered', 'B:\Users\chris\Documents', 'B:\New folder (2)\General-ProjectFolders',
-  'B:\ToGit', \\Sabrina\b\ToGit\Ny mapp\projectFolderBare, 'G:\ToGit\projectFolderBare\scoopbucket-presist',
-  'G:\ToGit', 'B:\ToGit\SubmoduleFromGitmodules', 'B:\SteamLibrary\steamapps', 'I:\Downloads\2022\assorted']
+recentlyUsed: ['C:\ProgramData\scoop\persist', 'B:\PF\CSharpVisualStudio\repos\karlstad2Calc_Lotto',
+  'B:\PF\PowershellProjectFolder\Modules\Personal\filesystem\group\ps1', 'B:\PF\PowershellProjectFolder',
+  'B:\PF\Archive\PowerShellProjectFolder', 'B:\PF\CSharpVisualStudio\repos\karlstad',
+  'B:\PF\CSharpVisualStudio\repos\karlstad\karlstad1', 'B:\PF\chris', 'B:\PF\Archive\NewWindows',
+  'B:\PF\Archive\ps1', 'B:\ToGit\IoT\TIG-stack', 'B:\PF\NoteTakingProjectFolder',
+  'B:\PF', 'B:\PF\Archive', 'B:\PF\scoopbucket-1', \\DESKTOP-FIQ183H\BLoppy\ToGit\scoopbucket-1,
+  'B:\PF\scoopbucket-presist', 'B:\PF\chris\Documents\WindowsPowerShell', 'C:\Users\CrRoot\.config\powershell',
+  'C:\Users\CrRoot\AppData', 'B:\PF\PowerShell', 'C:\ProgramData\scoop\buckets', 'B:\GitPs1Module',
+  'B:\ps1', 'B:\ToGit\IoT', 'B:\PF\NewWindows3', 'B:\Filtered', 'B:\Users\chris\Documents',
+  'B:\New folder (2)\General-ProjectFolders', 'B:\ToGit', \\Sabrina\b\ToGit\Ny mapp\projectFolderBare,
+  'G:\ToGit\projectFolderBare\scoopbucket-presist', 'G:\ToGit', 'B:\ToGit\SubmoduleFromGitmodules',
+  'B:\SteamLibrary\steamapps', 'I:\Downloads\2022\assorted']

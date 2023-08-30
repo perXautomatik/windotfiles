@@ -9,43 +9,13 @@ gitRootSettingsSet:
     push: {}
     commitNotes: {}
     journal: {}
-  roots: ['B:\PF\CSharpVisualStudio\repos\karlstad2Calc_Lotto', 'C:\ProgramData\scoop\persist',
-    'C:\ProgramData\scoop\persist\Everything-Paf', 'B:\PF\PowershellProjectFolder',
-    'B:\PF\PowershellProjectFolder\Modules\Personal', 'B:\PF\PowershellProjectFolder\TodoProjects\Ast-IdentifyCodeBlocks',
-    'B:\PF\PowershellProjectFolder\TodoProjects\GitHooks\cf3e17d36706bea6afbdc6d2c46811a4',
-    'B:\PF\PowershellProjectFolder\doneAndDeserted\Betesta\Esp-Header-Export', 'B:\PF\PowershellProjectFolder\doneNDeserted\WindowsAdmin',
-    'B:\PF\PowershellProjectFolder\scripts', 'B:\PF\PowershellProjectFolder\Modules\Personal\Regestry\Get-progid',
-    'B:\PF\PowershellProjectFolder\Modules\Personal\TextTransformation\MessureObfuscated',
-    'B:\PF\PowershellProjectFolder\Modules\Personal\TextTransformation\hashtable\CompareHashTable',
-    'B:\PF\PowershellProjectFolder\Modules\Personal\TextTransformation\hashtable\CompareHashTableAlt',
-    'B:\PF\PowershellProjectFolder\Modules\Personal\aPdf', 'B:\PF\PowershellProjectFolder\Modules\Personal\browser\ExportChromeBook',
-    'B:\PF\PowershellProjectFolder\Modules\Personal\browser\ExportChromeExtensions',
-    'B:\PF\PowershellProjectFolder\Modules\Personal\filesystem\Compare', 'B:\PF\PowershellProjectFolder\Modules\Personal\filesystem\Count',
-    'B:\PF\PowershellProjectFolder\Modules\Personal\filesystem\Toutched', 'B:\PF\PowershellProjectFolder\Modules\Personal\filesystem\group',
-    'B:\PF\PowershellProjectFolder\Modules\Personal\git\BreakRepoIntoTwo\fork\6387904f5666f83f401afed94a869379',
-    'B:\PF\PowershellProjectFolder\Modules\Personal\git\Clone-NonEmpty', 'B:\PF\PowershellProjectFolder\Modules\Personal\git\get-gitConfig',
-    'B:\PF\PowershellProjectFolder\Modules\Personal\ini\5960b271752d030383f0e5a591751e0d',
-    'B:\PF\PowershellProjectFolder\Modules\Personal\migration\Export-Inst-Choco',
-    'B:\PF\PowershellProjectFolder\Modules\Personal\migration\GetInstalled', 'B:\PF\PowershellProjectFolder\Modules\Personal\ps\ExecJavaScript',
-    'B:\PF\PowershellProjectFolder\Modules\Personal\ps\Processes\Get-ProcessTree',
-    'B:\PF\PowershellProjectFolder\Modules\Personal\ps\Show-BinaryFile', 'B:\PF\PowershellProjectFolder\Modules\Personal\ps\pipeline\Pipe-Rawdata',
-    'B:\PF\PowershellProjectFolder\Modules\Personal\ps\pipeline\breakPipelineAtCondition',
-    'B:\PF\PowershellProjectFolder\Modules\Personal\ps\ui\DiagramPswriteHtml', 'B:\PF\PowershellProjectFolder\Modules\Personal\sql\Sqlite',
-    'B:\PF\PowershellProjectFolder\Modules\Personal\xadmin', 'B:\PF\PowershellProjectFolder\Modules\Personal\xml\Xml-Transform-Xdt',
-    'B:\PF\PowershellProjectFolder\Modules\Personal\xml\xml2Csv', 'B:\PF\PowershellProjectFolder\doneNDeserted\WindowsAdmin\TakeOwnerShip',
-    'B:\PF\PowershellProjectFolder\doneNDeserted\WindowsAdmin\forked-sysadmin', 'B:\PF\PowershellProjectFolder\doneNDeserted\WindowsAdmin\my-windows',
-    'B:\PF\PowershellProjectFolder\scripts\AllowAccessWindowsDefender', 'B:\PF\PowershellProjectFolder\scripts\Export-Inst-Choco',
-    'B:\PF\PowershellProjectFolder\scripts\Fork\DiagramPswriteHtml', 'B:\PF\PowershellProjectFolder\scripts\Fork\ExportChromeBook',
-    'B:\PF\PowershellProjectFolder\scripts\GetInstalled', 'B:\PF\PowershellProjectFolder\scripts\TodoProjects\Ast-IdentifyCodeBlocks',
-    'B:\PF\PowershellProjectFolder\scripts\doneNDeserted\WindowsAdmin\forked-sysadmin\snipps',
-    'B:\PF\PowershellProjectFolder\scripts\forked-sysadmin', 'B:\PF\PowershellProjectFolder\scripts\my-windows',
-    'B:\PF\PowershellProjectFolder\scripts\pshell', 'B:\PF\PowershellProjectFolder\Modules\Personal\aPdf\TextFromPdf',
-    'B:\PF\PowershellProjectFolder\Modules\Personal\aPdf\iTextSharp Functions\ReadText',
-    'B:\PF\PowershellProjectFolder\Modules\Personal\filesystem\Compare\RecFolderDiff',
-    'B:\PF\PowershellProjectFolder\Modules\Personal\xadmin\AllowAccessWindowsDefender',
-    'B:\PF\PowershellProjectFolder\Modules\Personal\xadmin\TakeOwnerShip', 'B:\PF\PowershellProjectFolder\Modules\Personal\xml\xml2Csv\kindljiri',
-    'B:\PF\PowershellProjectFolder\doneNDeserted\WindowsAdmin\my-windows\AliasesUserProfile',
-    'B:\PF\PowershellProjectFolder\ps1', 'B:\PF\PowershellProjectFolder\Modules\Personal\filesystem\group\ps1']
+  roots: ['C:\ProgramData\scoop\persist', 'C:\ProgramData\scoop\persist\AHK', 'C:\ProgramData\scoop\persist\AdvancedRenamer',
+    'C:\ProgramData\scoop\persist\BeondCompare4', 'C:\ProgramData\scoop\persist\Cherrytree',
+    'C:\ProgramData\scoop\persist\Everything', 'C:\ProgramData\scoop\persist\Everything-Paf',
+    'C:\ProgramData\scoop\persist\JetBrains', 'C:\ProgramData\scoop\persist\OtherVersionControlledText',
+    'C:\ProgramData\scoop\persist\PortableProgramSuit', 'C:\ProgramData\scoop\persist\PowerShellCmdHist',
+    'C:\ProgramData\scoop\persist\Powershell', 'C:\ProgramData\scoop\persist\Vortex',
+    'C:\ProgramData\scoop\persist\portableAppsPlatform', 'C:\ProgramData\scoop\persist\steamapps']
   rootB:\ToGit:
     databaseCleanup: {}
     log:
@@ -10710,5 +10680,135 @@ gitRootSettingsSet:
       commitNotesHistory:
       - "Merge commit '4d72b93f4de1ea7d50dfeb30ab68fde69c0a4052' into HEAD\n\n# Conflicts:\n\
         #\tWindows10Debloater-master/Windows10DebloaterGUI.ps1"
+    journal: {}
+  rootC:\ProgramData\scoop\persist\AHK:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1693425327033}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootC:\ProgramData\scoop\persist\AdvancedRenamer:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1693425326534}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootC:\ProgramData\scoop\persist\BeondCompare4:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1693425326910}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootC:\ProgramData\scoop\persist\Cherrytree:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1693425326960}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootC:\ProgramData\scoop\persist\Everything:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1693425326842}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootC:\ProgramData\scoop\persist\JetBrains:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1693425326619}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootC:\ProgramData\scoop\persist\OtherVersionControlledText:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1693425327148}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootC:\ProgramData\scoop\persist\PortableProgramSuit:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1693425326695}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootC:\ProgramData\scoop\persist\PowerShellCmdHist:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1693425326759}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootC:\ProgramData\scoop\persist\Powershell:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1693425327079}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootC:\ProgramData\scoop\persist\Vortex:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1693425327213}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootC:\ProgramData\scoop\persist\portableAppsPlatform:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1693425327328}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootC:\ProgramData\scoop\persist\steamapps:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1693425327264}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
     journal: {}
 pushMultiRoot: {}

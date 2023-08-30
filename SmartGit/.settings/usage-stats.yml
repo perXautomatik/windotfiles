@@ -1,22 +1,22 @@
 header: {started: 1692011517452, uid: 3OVVOEten4s, licenseType: foundation, build: 19285,
   os: windows+10, osv: '10.0', transferred: 1692011517452}
 stats:
-  repo.opens.wt: {invocations: 274, invocationLast: 20230830, invocationDays: 10}
-  repo.opens.wt.files.0-1000: {invocations: 259, invocationLast: 20230830, invocationDays: 10}
+  repo.opens.wt: {invocations: 289, invocationLast: 20230830, invocationDays: 10}
+  repo.opens.wt.files.0-1000: {invocations: 272, invocationLast: 20230830, invocationDays: 10}
   repo.opens.wt.submodules.1-2: {invocations: 14, invocationLast: 20230830, invocationDays: 5}
-  repo.opens.wt.config: {invocations: 274, invocationLast: 20230830, invocationDays: 10}
-  repo.opens.wt.config.ignoreCase.true: {invocations: 274, invocationLast: 20230830,
+  repo.opens.wt.config: {invocations: 289, invocationLast: 20230830, invocationDays: 10}
+  repo.opens.wt.config.ignoreCase.true: {invocations: 289, invocationLast: 20230830,
     invocationDays: 10}
-  repo.opens.wt.config.lfsEnabled.false: {invocations: 269, invocationLast: 20230830,
+  repo.opens.wt.config.lfsEnabled.false: {invocations: 284, invocationLast: 20230830,
     invocationDays: 10}
-  repo.opens.wt.config.evaluateLfsState.true: {invocations: 274, invocationLast: 20230830,
+  repo.opens.wt.config.evaluateLfsState.true: {invocations: 289, invocationLast: 20230830,
     invocationDays: 10}
-  repo.opens.wt.config.actuallyEvaluateLfsState.false: {invocations: 269, invocationLast: 20230830,
+  repo.opens.wt.config.actuallyEvaluateLfsState.false: {invocations: 284, invocationLast: 20230830,
     invocationDays: 10}
-  repo.opens.type.git: {invocations: 274, invocationLast: 20230830, invocationDays: 10}
-  repo.opens.wt.submodules.0: {invocations: 236, invocationLast: 20230830, invocationDays: 10}
+  repo.opens.type.git: {invocations: 289, invocationLast: 20230830, invocationDays: 10}
+  repo.opens.wt.submodules.0: {invocations: 250, invocationLast: 20230830, invocationDays: 10}
   repo.opens.wt.submodules.2-5: {invocations: 15, invocationLast: 20230830, invocationDays: 6}
-  repo.opens.wt.submodules.10-20: {invocations: 3, invocationLast: 20230830, invocationDays: 3}
+  repo.opens.wt.submodules.10-20: {invocations: 4, invocationLast: 20230830, invocationDays: 3}
   repo.opens.wt.submodules.20-50: {invocations: 2, invocationLast: 20230830, invocationDays: 2}
   repo.opens.wt.submodules.5-10: {invocations: 4, invocationLast: 20230830, invocationDays: 4}
   repo.opens.wt.files.10000-50000: {invocations: 1, invocationLast: 20230814, invocationDays: 1}
@@ -32,7 +32,7 @@ stats:
   action.logRepository: {invocations: 2, invocationLast: 20230830, invocationDays: 2}
   log.perspective.main: {invocations: 7, invocationLast: 20230830, invocationDays: 5}
   window.log: {invocations: 7, invocationLast: 20230830, invocationDays: 5}
-  github.refresh: {invocations: 417, invocationLast: 20230830, invocationDays: 8}
+  github.refresh: {invocations: 421, invocationLast: 20230830, invocationDays: 8}
   action.splitCommit: {invocations: 17, invocationLast: 20230814, invocationDays: 1}
   action.splitCommit.log.split: {invocations: 17, invocationLast: 20230814, invocationDays: 1}
   action.unstage: {invocations: 28, invocationLast: 20230828, invocationDays: 4}
@@ -58,7 +58,7 @@ stats:
   repo.opens.commits.0-1000: {invocations: 2, invocationLast: 20230822, invocationDays: 2}
   action.open: {invocations: 2, invocationLast: 20230821, invocationDays: 1}
   action.windowWorkingTree: {invocations: 5, invocationLast: 20230830, invocationDays: 3}
-  window.wt: {invocations: 6, invocationLast: 20230830, invocationDays: 5}
+  window.wt: {invocations: 7, invocationLast: 20230830, invocationDays: 5}
   toolbar.log.root.action.sync: {invocations: 2, invocationLast: 20230830, invocationDays: 2}
   action.sync: {invocations: 12, invocationLast: 20230830, invocationDays: 4}
   action.viewUnchanged: {invocations: 6, invocationLast: 20230828, invocationDays: 5}
@@ -77,7 +77,7 @@ stats:
   window.compare: {invocations: 9, invocationLast: 20230830, invocationDays: 3}
   action.submoduleRegister: {invocations: 75, invocationLast: 20230830, invocationDays: 5}
   repo.opens.wt.files.100000-200000: {invocations: 1, invocationLast: 20230823, invocationDays: 1}
-  repo.opens.wt.files.1000-10000: {invocations: 8, invocationLast: 20230830, invocationDays: 5}
+  repo.opens.wt.files.1000-10000: {invocations: 10, invocationLast: 20230830, invocationDays: 5}
   action.repositoryEditConfig: {invocations: 1, invocationLast: 20230823, invocationDays: 1}
   action.viewIgnored: {invocations: 2, invocationLast: 20230823, invocationDays: 1}
   action.repositoryClose: {invocations: 4, invocationLast: 20230829, invocationDays: 3}
@@ -86,14 +86,14 @@ stats:
   toolbar.log.root.action.fetch: {invocations: 1, invocationLast: 20230823, invocationDays: 1}
   action.remoteFetch: {invocations: 1, invocationLast: 20230823, invocationDays: 1}
   action.remoteFetchAll: {invocations: 1, invocationLast: 20230823, invocationDays: 1}
-  started: {invocations: 3, invocationLast: 20230830, invocationDays: 3}
-  system.os: {invocations: 3, invocationLast: 20230830, invocationDays: 3}
-  system.os.name.windows+10: {invocations: 3, invocationLast: 20230830, invocationDays: 3}
-  system.os.version.windows+10/10.0: {invocations: 3, invocationLast: 20230830, invocationDays: 3}
-  system.java.version.17.0.2: {invocations: 3, invocationLast: 20230830, invocationDays: 3}
-  i18n.locale.<null>: {invocations: 3, invocationLast: 20230830, invocationDays: 3}
-  preferences.mainWindow.wt: {invocations: 3, invocationLast: 20230830, invocationDays: 3}
-  preferences.theme.auto: {invocations: 3, invocationLast: 20230830, invocationDays: 3}
+  started: {invocations: 4, invocationLast: 20230830, invocationDays: 3}
+  system.os: {invocations: 4, invocationLast: 20230830, invocationDays: 3}
+  system.os.name.windows+10: {invocations: 4, invocationLast: 20230830, invocationDays: 3}
+  system.os.version.windows+10/10.0: {invocations: 4, invocationLast: 20230830, invocationDays: 3}
+  system.java.version.17.0.2: {invocations: 4, invocationLast: 20230830, invocationDays: 3}
+  i18n.locale.<null>: {invocations: 4, invocationLast: 20230830, invocationDays: 3}
+  preferences.mainWindow.wt: {invocations: 4, invocationLast: 20230830, invocationDays: 3}
+  preferences.theme.auto: {invocations: 4, invocationLast: 20230830, invocationDays: 3}
   repo.opens.wt.files.0: {invocations: 5, invocationLast: 20230829, invocationDays: 2}
   toolbar.main.action.unstage: {invocations: 1, invocationLast: 20230826, invocationDays: 1}
   toolbar.main.action.push: {invocations: 6, invocationLast: 20230830, invocationDays: 3}

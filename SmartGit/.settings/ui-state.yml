@@ -6,7 +6,7 @@ bounds:
 - {key: output, x: -200, y: -161, width: 1731, height: 743}
 - {key: git.commit, width: 1245, height: 889, x: 51, y: -49}
 - {key: git.commit.selectFromLog, width: 640, height: 395}
-- {key: log, x: -8, y: -8, width: 1936, height: 1066}
+- {key: log, x: -8, y: -8, width: 1936, height: 1066, state: 1}
 - {key: editor, x: 240, y: 58, width: 1440, height: 866}
 - {key: git.indexEditor, x: 240, y: 58, width: 1440, height: 866}
 - {key: git.discard, width: 500, height: 654, x: 0, y: 172}
@@ -146,9 +146,7 @@ confirmations: {exit.showConfirmation: true, git.push: true, git.switchBranch.co
   close.unpushedCommits: true, commit.amend.replaceWarning: true, rebase.continue: true,
   rebaseContinue: false, git.switchBranch.fastForward: true, sync: true, splitCommit: true,
   git.commit.stageAll: true, compare.contentEqual: true}
-repositoriesToReopen:
-- window: wt
-  repositories: ['B:\PF\CSharpVisualStudio\repos\karlstad2Calc_Lotto']
+repositoriesToReopen: []
 project.files.git.separateWtIndex: true
 gitProjectLayout.main: (([+246x460:directories ][+246x307:branches ])((([+1128x225:files
   ][+1128x161:changes ])[-3x1:message ])([+1128x378:outgoing ][-3x1:output ])))

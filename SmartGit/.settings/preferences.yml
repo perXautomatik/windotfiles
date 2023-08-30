@@ -23,7 +23,7 @@ actions:
   syncPushBeforePull: false
 logSettings:
   filterConfiguration: {}
-comparePreviewSettings: {selectCompareTypeAutomatically: true, compareType: working-tree-vs-index}
+comparePreviewSettings: {selectCompareTypeAutomatically: false, compareType: working-tree-vs-index}
 dateFormat: {datePattern: MM/dd/yyyy, timePattern: 'hh:mm a', showTimeForLastDays: true}
 defaultViewSettings:
   compareSettings:
@@ -109,7 +109,7 @@ globalTextComponentSettings:
 listx: {uid: en4ssg7d23lk}
 project: {defaultWindowType: wt}
 uiSettings: {theme: auto, themeChanged: false, fileSearchPatternType: 1}
-vcsRecords: {lastGitUsage: 1693418588586}
+vcsRecords: {lastGitUsage: 1693425343520}
 updateCheck: {prevCheckTime: 1693417610399, checkedBuild: 19285, mode: download, upgradeInstallation: false}
 updateCheckDg: {}
 proxy: {enabled: false, autoDetect: true}
@@ -120,7 +120,7 @@ spellCheck:
   activeDictionary: 0
 lastUsedVersion: '22.1'
 firstUsedTime: 1684316673740
-tempDirs: ['C:\Users\CrRoot\AppData\Local\Temp\smartgit5969772347893751314', 'C:\Users\CrRoot\AppData\Local\Temp\e4jFC9B.tmp_dir1693388808']
+tempDirs: ['C:\Users\CrRoot\AppData\Local\Temp\smartgit5549676586243012197', 'C:\Users\CrRoot\AppData\Local\Temp\e4j1FEC.tmp_dir1693425321']
 machineId: 41587a14
 warnForMissingMasterPassword: false
 sendStacktraces2: true
