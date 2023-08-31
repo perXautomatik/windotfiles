@@ -1,0 +1,42 @@
+{
+    "version": "0.8.2",
+    "description": "Visualization and exploration software for all kinds of graphs and networks, 2013 version includes tools to explore hirarchial networks",
+    "homepage": "https://github.com/gephi/gephi",
+    "license": "GPL-3.0-only",
+    "url": "https://github.com/gephi/gephi/releases/download/v0.8.2/gephi-0.8.2-windows-x64.exe",
+    "innosetup": true,
+    "post_install": [
+        "$conf_file = \"$dir\\etc\\gephi.conf\"",
+        "$persist_conf = \"$persist_dir\\etc\\gephi.conf\"",
+        "$file_contents = Get-Content -path $conf_file -Raw",
+        "if (($file_contents -match \"/0.8.2/dev\") -contains $true) {",
+        "   Set-Content -path \"$conf_file.oldjre\" -value $file_contents",
+        "   Get-Content -path \"$conf_file.original\" -Raw | Set-Content -path $persist_conf",
+        "   Remove-Item \"$conf_file.original\"",
+        "   Write-Host \"Notes`n-----`nSince Gephi now bundles its own JRE, your config specifying the location of JAVA_HOME has been moved to $dir\\etc\\gephi.conf.oldjre\"",
+        "}"
+    ],
+    "architecture": {
+        "64bit": {
+            "shortcuts": [
+                [
+                    "bin\\gephi64.exe",
+                    "Gephi"
+                ]
+            ]
+        },
+        "32bit": {
+            "shortcuts": [
+                [
+                    "bin\\gephi.exe",
+                    "Gephi"
+                ]
+            ]
+        }
+    },
+    "persist": "etc\\gephi.conf",
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/gephi/gephi/releases/download/v$version/gephi-$version-windows-x64.exe"
+    }
+}

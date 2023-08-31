@@ -1,5 +1,5 @@
 bounds:
-- {key: project, x: 413, y: 133, width: 1393, height: 900}
+- {key: project, x: 367, y: 117, width: 1393, height: 900}
 - {key: welcome}
 - {key: preferences, x: -123, y: 217, width: 1165, height: 498}
 - {key: compare, x: 38, y: 174, width: 1440, height: 866}

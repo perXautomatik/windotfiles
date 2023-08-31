@@ -1,0 +1,142 @@
+{
+  "buckets": [
+    "main",
+    "sboot@https://github.com/xfournet/scoot-sboot",
+    "extras",
+    "java",
+    "jetbrains",
+    "nerd-fonts",
+    "retools@https://github.com/TheCjw/scoop-retools.git"
+  ],
+  "apps": [
+    "aria2",
+    "######## Core Scoop dependencies ########",
+    "7zip",
+    "git",
+    "innounp",
+    "lessmsi",
+    "dark",
+    "sboot/sboot",
+    "",
+    "######## General tools ########",
+    "extras/windows-terminal",
+    "gsudo",
+    "sboot/go-shell",
+    "figlet",
+    "boxes",
+    "gow",
+    "dosbox",
+    "msys2",
+    "rdiff-backup",
+    "extras/depends",
+    "extras/cpu-z",
+    "extras/hwinfo",
+    "extras/hwmonitor",
+    "extras/sysinternals",
+    "extras/spacesniffer",
+    "extras/recuva",
+    "extras/rufus",
+    "extras/ventoy",
+    "vim",
+    "extras/hxd",
+    "extras/winmerge",
+    "extras/putty",
+    "extras/filezilla",
+    "gpg",
+    "openssl",
+    "telnet",
+    "extras/stunnel",
+    "extras/ipscan",
+    "extras/vcxsrv",
+    "extras/keepass",
+    "extras/keepass-plugin-keeagent",
+    "pdftk",
+    "ghostscript",
+    "extras/windows-iso-downloader",
+    "nerd-fonts/Cascadia-Code",
+    "nerd-fonts/CascadiaCode-NF",
+    "",
+    "######## Dev tools ########",
+    "extras/posh-git",
+    "extras/oh-my-posh",
+    "sboot/docker-completion",
+    "cloc",
+    "graphviz",
+    "jq",
+    "extras/postman",
+    "go",
+    "java/adopt11-hotspot",
+    "java/adopt14-hotspot",
+    "groovy",
+    "maven",
+    "ant",
+    "nodejs",
+    "yarn",
+    "python",
+    "ruby",
+    "adb",
+    "redis",
+    "",
+    "######## Dev IDE & co ########",
+    "jetbrains/IntelliJ-IDEA-Ultimate-portable",
+    "jetbrains/WebStorm-portable",
+    "extras/insomnia",
+    "extras/arduino-portable",
+    "extras/ida-free",
+    "extras/keystore-explorer",
+    "extras/wireshark",
+    "extras/firefox",
+    "extras/firefox-esr",
+    "retools/ghidra",
+    "",
+    "######## Cloud tools ########",
+    "aws",
+    "terraform",
+    "",
+    "######## Desktop applications ########",
+    "extras/libreoffice-stable",
+    "extras/openboard",
+    "extras/screentogif",
+    "extras/irfanview",
+    "extras/darktable",
+    "extras/paint.net",
+    "extras/inkscape",
+    "extras/vlc",
+    "extras/audacity",
+    "extras/slack",
+    "extras/whatsapp",
+    ""
+  ],
+  "exts": [
+    {
+      "app": "7zip",
+      "parameters": {
+        "excludedExtensions": [
+          "iso",
+          "vhd"
+        ]
+      }
+    },
+    {
+      "app": "hxd"
+    },
+    {
+      "app": "keepass"
+    },
+    {
+      "app": "keystore-explorer"
+    },
+    {
+      "app": "notepadplusplus"
+    },
+    {
+      "app": "vim"
+    },
+    {
+      "app": "windows-terminal"
+    },
+    {
+      "app": "winmerge"
+    }
+  ]
+}

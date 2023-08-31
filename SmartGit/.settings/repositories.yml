@@ -15,7 +15,8 @@ gitRootSettingsSet:
     'C:\ProgramData\scoop\persist\JetBrains', 'C:\ProgramData\scoop\persist\OtherVersionControlledText',
     'C:\ProgramData\scoop\persist\PortableProgramSuit', 'C:\ProgramData\scoop\persist\PowerShellCmdHist',
     'C:\ProgramData\scoop\persist\Powershell', 'C:\ProgramData\scoop\persist\Vortex',
-    'C:\ProgramData\scoop\persist\portableAppsPlatform', 'C:\ProgramData\scoop\persist\steamapps']
+    'C:\ProgramData\scoop\persist\portableAppsPlatform', 'C:\ProgramData\scoop\persist\steamapps',
+    'C:\ProgramData\scoop\persist\AHK-EverydayScripts']
   rootB:\ToGit:
     databaseCleanup: {}
     log:
@@ -9259,6 +9260,7 @@ gitRootSettingsSet:
 
         untracked
       - Vscodium instead of code
+      commitNotes: tools looking good
     journal: {}
   rootC:\ProgramData\scoop\persist\everything:
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1688456048559}
@@ -10803,6 +10805,16 @@ gitRootSettingsSet:
     journal: {}
   rootC:\ProgramData\scoop\persist\steamapps:
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1693425327264}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootC:\ProgramData\scoop\persist\AHK-EverydayScripts:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1693478166808}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}

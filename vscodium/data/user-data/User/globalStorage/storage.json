@@ -8,9 +8,9 @@
             "file:///b%3A/PF/Modding/Diablo%20II%20ressurected.code-workspace": "__default__profile__",
             "file:///c%3A/Users/CrRoot/.config/git": "__default__profile__",
             "file:///c%3A/Users/CrRoot/.config": "__default__profile__",
-            "file:///b%3A/PF/scoopbucket-1": "__default__profile__",
             "file:///b%3A/PF/Modding/Diablo%20II%20ressurected": "__default__profile__",
-            "file:///b%3A/PF/Archive/ps1": "__default__profile__"
+            "file:///b%3A/PF/Archive/ps1": "__default__profile__",
+            "file:///b%3A/PF/scoopbucket-1": "__default__profile__"
         },
         "emptyWindows": {}
     },
@@ -21,23 +21,49 @@
         "folders": [
             {
                 "folderUri": "file:///b%3A/PF/Archive/ps1"
+            },
+            {
+                "folderUri": "file:///b%3A/PF/scoopbucket-1"
             }
         ],
         "emptyWindows": []
     },
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///b%3A/PF/Archive/ps1",
-            "backupPath": "C:\\ProgramData\\scoop\\apps\\vscodium\\1.80.0.23188\\data\\user-data\\Backups\\76317f146591116761123f44f11f6998",
+            "folder": "file:///b%3A/PF/scoopbucket-1",
+            "backupPath": "C:\\ProgramData\\scoop\\apps\\vscodium\\1.80.0.23188\\data\\user-data\\Backups\\71f6d8cd8153494a5b2c9457b1924da6",
             "uiState": {
-                "mode": 1,
-                "x": 142,
-                "y": 159,
-                "width": 1478,
+                "mode": 0,
+                "x": 316,
+                "y": 114,
+                "width": 1138,
                 "height": 768
             }
         },
-        "openedWindows": []
+        "openedWindows": [
+            {
+                "folder": "file:///b%3A/PF/Archive/ps1",
+                "backupPath": "C:\\ProgramData\\scoop\\apps\\vscodium\\1.80.0.23188\\data\\user-data\\Backups\\76317f146591116761123f44f11f6998",
+                "uiState": {
+                    "mode": 1,
+                    "x": 1068,
+                    "y": 119,
+                    "width": 1478,
+                    "height": 768
+                }
+            },
+            {
+                "folder": "file:///b%3A/PF/scoopbucket-1",
+                "backupPath": "C:\\ProgramData\\scoop\\apps\\vscodium\\1.80.0.23188\\data\\user-data\\Backups\\71f6d8cd8153494a5b2c9457b1924da6",
+                "uiState": {
+                    "mode": 0,
+                    "x": 316,
+                    "y": 114,
+                    "width": 1138,
+                    "height": 768
+                }
+            }
+        ]
     },
     "windowControlHeight": 30,
     "theme": "vs",
@@ -60,7 +86,7 @@
             "editorPartMinWidth": 220,
             "titleBarHeight": 36,
             "activityBarWidth": 48,
-            "sideBarWidth": 883,
+            "sideBarWidth": 241,
             "statusBarHeight": 22,
             "windowBorder": false
         }

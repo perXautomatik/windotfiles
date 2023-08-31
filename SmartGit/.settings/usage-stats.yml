@@ -1,32 +1,32 @@
 header: {started: 1692011517452, uid: 3OVVOEten4s, licenseType: foundation, build: 19285,
   os: windows+10, osv: '10.0', transferred: 1692011517452}
 stats:
-  repo.opens.wt: {invocations: 289, invocationLast: 20230830, invocationDays: 10}
-  repo.opens.wt.files.0-1000: {invocations: 272, invocationLast: 20230830, invocationDays: 10}
+  repo.opens.wt: {invocations: 290, invocationLast: 20230831, invocationDays: 11}
+  repo.opens.wt.files.0-1000: {invocations: 273, invocationLast: 20230831, invocationDays: 11}
   repo.opens.wt.submodules.1-2: {invocations: 14, invocationLast: 20230830, invocationDays: 5}
-  repo.opens.wt.config: {invocations: 289, invocationLast: 20230830, invocationDays: 10}
-  repo.opens.wt.config.ignoreCase.true: {invocations: 289, invocationLast: 20230830,
-    invocationDays: 10}
+  repo.opens.wt.config: {invocations: 290, invocationLast: 20230831, invocationDays: 11}
+  repo.opens.wt.config.ignoreCase.true: {invocations: 290, invocationLast: 20230831,
+    invocationDays: 11}
   repo.opens.wt.config.lfsEnabled.false: {invocations: 284, invocationLast: 20230830,
     invocationDays: 10}
-  repo.opens.wt.config.evaluateLfsState.true: {invocations: 289, invocationLast: 20230830,
-    invocationDays: 10}
+  repo.opens.wt.config.evaluateLfsState.true: {invocations: 290, invocationLast: 20230831,
+    invocationDays: 11}
   repo.opens.wt.config.actuallyEvaluateLfsState.false: {invocations: 284, invocationLast: 20230830,
     invocationDays: 10}
-  repo.opens.type.git: {invocations: 289, invocationLast: 20230830, invocationDays: 10}
-  repo.opens.wt.submodules.0: {invocations: 250, invocationLast: 20230830, invocationDays: 10}
+  repo.opens.type.git: {invocations: 290, invocationLast: 20230831, invocationDays: 11}
+  repo.opens.wt.submodules.0: {invocations: 251, invocationLast: 20230831, invocationDays: 11}
   repo.opens.wt.submodules.2-5: {invocations: 15, invocationLast: 20230830, invocationDays: 6}
   repo.opens.wt.submodules.10-20: {invocations: 4, invocationLast: 20230830, invocationDays: 3}
   repo.opens.wt.submodules.20-50: {invocations: 2, invocationLast: 20230830, invocationDays: 2}
   repo.opens.wt.submodules.5-10: {invocations: 4, invocationLast: 20230830, invocationDays: 4}
   repo.opens.wt.files.10000-50000: {invocations: 1, invocationLast: 20230814, invocationDays: 1}
-  changesview.syntax.<unknown>: {invocations: 2372, invocationLast: 20230830, invocationDays: 11}
+  changesview.syntax.<unknown>: {invocations: 2378, invocationLast: 20230830, invocationDays: 11}
   changesview.syntax.json: {invocations: 35, invocationLast: 20230830, invocationDays: 6}
-  toolbar.main.action.commit: {invocations: 101, invocationLast: 20230830, invocationDays: 10}
-  action.commit: {invocations: 114, invocationLast: 20230830, invocationDays: 10}
-  action.stage: {invocations: 125, invocationLast: 20230830, invocationDays: 10}
+  toolbar.main.action.commit: {invocations: 102, invocationLast: 20230830, invocationDays: 10}
+  action.commit: {invocations: 115, invocationLast: 20230830, invocationDays: 10}
+  action.stage: {invocations: 128, invocationLast: 20230830, invocationDays: 10}
   changesview.syntax.xml: {invocations: 12, invocationLast: 20230830, invocationDays: 5}
-  changesview.syntax.yaml: {invocations: 15, invocationLast: 20230830, invocationDays: 3}
+  changesview.syntax.yaml: {invocations: 17, invocationLast: 20230830, invocationDays: 3}
   action.delete: {invocations: 55, invocationLast: 20230823, invocationDays: 4}
   toolbar.main.action.logRepository: {invocations: 2, invocationLast: 20230830, invocationDays: 2}
   action.logRepository: {invocations: 2, invocationLast: 20230830, invocationDays: 2}
@@ -39,10 +39,10 @@ stats:
   action.commit.view.log: {invocations: 41, invocationLast: 20230814, invocationDays: 1}
   action.branchContinue: {invocations: 60, invocationLast: 20230830, invocationDays: 3}
   action.repositoryRename: {invocations: 1, invocationLast: 20230814, invocationDays: 1}
-  repo.opens.wt.config.lfsEnabled.true: {invocations: 5, invocationLast: 20230830,
-    invocationDays: 3}
-  repo.opens.wt.config.actuallyEvaluateLfsState.true: {invocations: 5, invocationLast: 20230830,
-    invocationDays: 3}
+  repo.opens.wt.config.lfsEnabled.true: {invocations: 6, invocationLast: 20230831,
+    invocationDays: 4}
+  repo.opens.wt.config.actuallyEvaluateLfsState.true: {invocations: 6, invocationLast: 20230831,
+    invocationDays: 4}
   repo.opens.commits: {invocations: 4, invocationLast: 20230822, invocationDays: 3}
   repo.opens.commits.1000-10000: {invocations: 2, invocationLast: 20230821, invocationDays: 2}
   toolbar.log.root.action.push: {invocations: 30, invocationLast: 20230830, invocationDays: 3}
