@@ -1,5 +1,5 @@
 bounds:
-- {key: project, x: 367, y: 117, width: 1393, height: 900}
+- {key: project, x: 303, y: 83, width: 1656, height: 900, state: 1}
 - {key: welcome}
 - {key: preferences, x: -123, y: 217, width: 1165, height: 498}
 - {key: compare, x: 38, y: 174, width: 1440, height: 866}
@@ -154,7 +154,7 @@ log.wtIndex.onDemand: true
 gitProjectLayout.mainIsdefault: true
 gitProjectLayout.review: ([+2x1:directories ][+7x1:files ][+3x1:message ])[+10x3:changes
   ]([-1x1:branches ][-3x1:outgoing ][-3x1:output ])
-lastRepositoryPath: B:\PF\PowerShellProjectFolder
+lastRepositoryPath: B:\PF\Archive\dotFiles
 commit.expandOptions: true
 log.files.git.separateWtIndex: true
 gitLogRootLayout.main: (([+427x807:repositories ][+427x126:branches ])(([+883x666:graph

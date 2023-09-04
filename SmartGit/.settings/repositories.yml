@@ -16,7 +16,22 @@ gitRootSettingsSet:
     'C:\ProgramData\scoop\persist\PortableProgramSuit', 'C:\ProgramData\scoop\persist\PowerShellCmdHist',
     'C:\ProgramData\scoop\persist\Powershell', 'C:\ProgramData\scoop\persist\Vortex',
     'C:\ProgramData\scoop\persist\portableAppsPlatform', 'C:\ProgramData\scoop\persist\steamapps',
-    'C:\ProgramData\scoop\persist\AHK-EverydayScripts']
+    'C:\ProgramData\scoop\persist\AHK-EverydayScripts', 'B:\PF\scoopbucket-1', 'B:\PF\scoopbucket-1\Todo\BAO-autoItToScoop',
+    'B:\PF\CSharpVisualStudio\repos\karlstad', 'B:\PF\CSharpVisualStudio\repos', 'B:\PF\CSharpVisualStudio\repos\8691414\WpfApp4',
+    'B:\PF\CSharpVisualStudio\repos\Boras2\PetStore', 'B:\PF\CSharpVisualStudio\repos\Boras2\Project\WPF-EF6-Sqlite',
+    'B:\PF\CSharpVisualStudio\repos\DataBindingDemo', 'B:\PF\CSharpVisualStudio\repos\DataBindingDemoSparse',
+    'B:\PF\CSharpVisualStudio\repos\InvalidMarkup', 'B:\PF\CSharpVisualStudio\repos\New
+      folder', 'B:\PF\CSharpVisualStudio\repos\WIthoutStudio', 'B:\PF\CSharpVisualStudio\repos\WPF-Samples',
+    'B:\PF\CSharpVisualStudio\repos\karlstad2Calc_Lotto', 'B:\PF\CSharpVisualStudio\repos\upg11',
+    'B:\PF\CSharpVisualStudio\repos\karlstad3\Calculator_CBrobäck', 'B:\PF\CSharpVisualStudio\repos\Boras2\PetStore\8691414\WpfApp4',
+    'B:\PF\CSharpVisualStudio\repos\Boras2\PetStore\Boras2\PetStore', 'B:\PF\CSharpVisualStudio\repos\Boras2\PetStore\InvalidMarkup',
+    'B:\PF\CSharpVisualStudio\repos\Boras2\PetStore\213c939651e0bef7612b2f910909a21d',
+    'B:\PF\CSharpVisualStudio\repos\Boras2\PetStore\3714794', 'B:\PF\CSharpVisualStudio\repos\Boras2\PetStore\7327483',
+    'B:\PF\CSharpVisualStudio\repos\Boras2\PetStore\8691414\WpfApp1', 'B:\PF\CSharpVisualStudio\repos\Boras2\PetStore\DataBindingDemo',
+    'B:\PF\CSharpVisualStudio\repos\Boras2\PetStore\DataBindingDemoSparse', 'B:\PF\CSharpVisualStudio\repos\Boras2\PetStore\WPF-Samples',
+    'B:\PF\CSharpVisualStudio\repos\Boras2\PetStore\WindowsFormsControlLibrary1',
+    'B:\PF\CSharpVisualStudio\repos\Boras2\PetStore\borås\upgift1', 'B:\PF\CSharpVisualStudio\repos\Boras2\PetStore\upg11',
+    'B:\PF\Archive\dotFiles', 'C:\ProgramData\scoop\persist\AHK-EverydayScripts\ahk_config']
   rootB:\ToGit:
     databaseCleanup: {}
     log:
@@ -5698,14 +5713,15 @@ gitRootSettingsSet:
         Deduped, gpt, Rewriting with gpt, Reorganized]
     journal: {}
   rootB:\PF\CSharpVisualStudio\repos:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1687890283163}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1693556764547}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
     merge:
       logRootSettings: {}
     push: {}
-    commitNotes: {}
+    commitNotes:
+      commitNotesHistory: [submodules]
     journal: {}
   rootB:\PF\NewWindows:
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1687611588861}
@@ -5783,10 +5799,10 @@ gitRootSettingsSet:
     push: {}
     commitNotes:
       commitNotesHistory:
+      - state
       - Reorganized
       - more todo
       - ToVerfiy
-      - state
       - ToVerify ..,
       - "Merge branch 'System-Tweaks'\n\n# Conflicts:\n#\t.gitignore\n#\t.vscode/settings.json\n\
         #\tREADME.md"
@@ -5817,7 +5833,7 @@ gitRootSettingsSet:
       commitNotesHistory: [etc]
     journal: {}
   rootB:\PF\CSharpVisualStudio\repos\DataBindingDemo:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1687890283330}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1693557196125}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
@@ -5827,7 +5843,7 @@ gitRootSettingsSet:
     commitNotes: {}
     journal: {}
   rootB:\PF\CSharpVisualStudio\repos\DataBindingDemoSparse:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1687890283443}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1693557196227}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
@@ -5837,7 +5853,7 @@ gitRootSettingsSet:
     commitNotes: {}
     journal: {}
   rootB:\PF\CSharpVisualStudio\repos\WPF-Samples:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1687890283388}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1693557196279}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
@@ -5857,7 +5873,7 @@ gitRootSettingsSet:
     commitNotes: {}
     journal: {}
   rootB:\PF\CSharpVisualStudio\repos\upg11:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1687895104066}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1693557196174}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
@@ -10815,6 +10831,236 @@ gitRootSettingsSet:
     journal: {}
   rootC:\ProgramData\scoop\persist\AHK-EverydayScripts:
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1693478166808}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\scoopbucket-1\Todo\BAO-autoItToScoop:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1693478539386}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\CSharpVisualStudio\repos\8691414\WpfApp4:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1693558206294}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\CSharpVisualStudio\repos\Boras2\PetStore:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1693558180348}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\CSharpVisualStudio\repos\Boras2\Project\WPF-EF6-Sqlite:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1693558201871}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\CSharpVisualStudio\repos\InvalidMarkup:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1693558245762}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\CSharpVisualStudio\repos\New folder:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1693558228461}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\CSharpVisualStudio\repos\WIthoutStudio:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1693558217603}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\CSharpVisualStudio\repos\karlstad3\Calculator_CBrobäck:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1693558195061}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\CSharpVisualStudio\repos\Boras2\PetStore\8691414\WpfApp4:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1693562645999}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\CSharpVisualStudio\repos\Boras2\PetStore\Boras2\PetStore:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1693562646092}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\CSharpVisualStudio\repos\Boras2\PetStore\InvalidMarkup:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1693562646046}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\CSharpVisualStudio\repos\Boras2\PetStore\213c939651e0bef7612b2f910909a21d:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1693562769315}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\CSharpVisualStudio\repos\Boras2\PetStore\3714794:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1693562769113}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\CSharpVisualStudio\repos\Boras2\PetStore\7327483:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1693562769412}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\CSharpVisualStudio\repos\Boras2\PetStore\8691414\WpfApp1:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1693562769163}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\CSharpVisualStudio\repos\Boras2\PetStore\DataBindingDemo:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1693562769553}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\CSharpVisualStudio\repos\Boras2\PetStore\DataBindingDemoSparse:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1693562769270}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\CSharpVisualStudio\repos\Boras2\PetStore\WPF-Samples:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1693562769459}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\CSharpVisualStudio\repos\Boras2\PetStore\WindowsFormsControlLibrary1:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1693562769218}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\CSharpVisualStudio\repos\Boras2\PetStore\borås\upgift1:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1693562769505}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\CSharpVisualStudio\repos\Boras2\PetStore\upg11:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1693562769362}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\Archive\dotFiles:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1693824536019}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootC:\ProgramData\scoop\persist\AHK-EverydayScripts\ahk_config:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1693824662617}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}

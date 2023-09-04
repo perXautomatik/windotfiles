@@ -5,7 +5,7 @@ structure:
   - name: chris
     children:
     - {name: Documents, path: 'B:\Users\chris\Documents'}
-    expanded: false
+    expanded: true
   - name: SteamLibrary
     children:
     - {name: steamapps, path: 'B:\SteamLibrary\steamapps'}
@@ -24,7 +24,10 @@ structure:
     - {name: karlstad1, path: 'B:\PF\CSharpVisualStudio\repos\karlstad\karlstad1'}
     - {name: karlstad, path: 'B:\PF\CSharpVisualStudio\repos\karlstad'}
     - {name: karlstad2Calc_Lotto, path: 'B:\PF\CSharpVisualStudio\repos\karlstad2Calc_Lotto'}
-    expanded: false
+    - {name: repos, path: 'B:\PF\CSharpVisualStudio\repos'}
+    - {name: InvalidMarkup, path: 'B:\PF\CSharpVisualStudio\repos\InvalidMarkup'}
+    - {name: PetStore, path: 'B:\PF\CSharpVisualStudio\repos\Boras2\PetStore'}
+    expanded: true
   - {name: ToGit, path: 'G:\ToGit'}
   - {name: scoopbucket-presist, path: 'G:\ToGit\projectFolderBare\scoopbucket-presist'}
   - name: psw
@@ -36,6 +39,8 @@ structure:
     - {name: ps1, path: 'B:\ps1'}
     - {name: NewWindows, path: 'B:\PF\Archive\NewWindows'}
     - {name: PowerShellProjectFolder, path: 'B:\PF\Archive\PowerShellProjectFolder'}
+    - {name: dotFiles, path: 'B:\PF\Archive\dotFiles'}
+    expanded: true
   expanded: true
 - name: I:\Downloads\2022
   children:
@@ -55,12 +60,12 @@ structure:
   - {name: .config_powershell, path: 'C:\Users\CrRoot\.config\powershell'}
   expanded: true
 - {name: ps1, path: 'B:\PF\PowershellProjectFolder\Modules\Personal\filesystem\group\ps1'}
-recentlyUsed: ['C:\ProgramData\scoop\persist', 'B:\PF\CSharpVisualStudio\repos\karlstad2Calc_Lotto',
+recentlyUsed: ['C:\ProgramData\scoop\persist', 'B:\PF\Archive\dotFiles', 'B:\PF\CSharpVisualStudio\repos',
+  'B:\PF\CSharpVisualStudio\repos\karlstad', 'B:\PF\scoopbucket-1', 'B:\PF\CSharpVisualStudio\repos\karlstad2Calc_Lotto',
   'B:\PF\PowershellProjectFolder\Modules\Personal\filesystem\group\ps1', 'B:\PF\PowershellProjectFolder',
-  'B:\PF\Archive\PowerShellProjectFolder', 'B:\PF\CSharpVisualStudio\repos\karlstad',
-  'B:\PF\CSharpVisualStudio\repos\karlstad\karlstad1', 'B:\PF\chris', 'B:\PF\Archive\NewWindows',
-  'B:\PF\Archive\ps1', 'B:\ToGit\IoT\TIG-stack', 'B:\PF\NoteTakingProjectFolder',
-  'B:\PF', 'B:\PF\Archive', 'B:\PF\scoopbucket-1', \\DESKTOP-FIQ183H\BLoppy\ToGit\scoopbucket-1,
+  'B:\PF\Archive\PowerShellProjectFolder', 'B:\PF\CSharpVisualStudio\repos\karlstad\karlstad1',
+  'B:\PF\chris', 'B:\PF\Archive\NewWindows', 'B:\PF\Archive\ps1', 'B:\ToGit\IoT\TIG-stack',
+  'B:\PF\NoteTakingProjectFolder', 'B:\PF', 'B:\PF\Archive', \\DESKTOP-FIQ183H\BLoppy\ToGit\scoopbucket-1,
   'B:\PF\scoopbucket-presist', 'B:\PF\chris\Documents\WindowsPowerShell', 'C:\Users\CrRoot\.config\powershell',
   'C:\Users\CrRoot\AppData', 'B:\PF\PowerShell', 'C:\ProgramData\scoop\buckets', 'B:\GitPs1Module',
   'B:\ps1', 'B:\ToGit\IoT', 'B:\PF\NewWindows3', 'B:\Filtered', 'B:\Users\chris\Documents',

@@ -1,0 +1,71 @@
+{
+    "version": "1.1.34.03",
+    "description": "The ultimate automation scripting language for Windows.",
+    "homepage": "https://www.autohotkey.com/",
+    "license": {
+        "identifier": "GPL-2.0-only",
+        "url": "https://www.autohotkey.com/docs/license.htm"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/Lexikos/AutoHotkey_L/releases/download/v1.1.34.03/AutoHotkey_1.1.34.03_setup.exe#/dl.7z",
+            "hash": "sha512:9a6c7d0f3a9f8b4b3e6c4a5f9d8f0c4e7d0a2b5c8a3c6f6b9d0e2a5b4b8a3f7e5f2c6d9e7c8f0a8d6c3e5d2b4b7e3f2c9a8d4e0c5b9f0b4a6a5f9d8f0c4e7"
+        },
+        "32bit": {
+            "url": "https://github.com/Lexikos/AutoHotkey_L/releases/download/v1.1.34.03/AutoHotkey_1.1.34.03_setup.exe#/dl32.7z",
+            "hash": "sha512:9a6c7d0f3a9f8b4b3e6c4a5f9d8f0c4e7d0a2b5c8a3c6f6b9d0e2a5b4b8a3f7e5f2c6d9e7c8f0a8d6c3e5d2b4b7e3f2c9a8d4e0c5b9f0b4a6a5f9d8f0c4e7"
+        }
+    },
+    "bin": [
+        [
+            "AutoHotkey.exe",
+            "AutoHotkey"
+        ],
+        [
+            "AutoHotkeyU64.exe",
+            "AutoHotkeyU64"
+        ],
+        [
+            "AutoHotkeyU32.exe",
+            "AutoHotkeyU32"
+        ],
+        [
+            "AutoHotkeyA32.exe",
+            "AutoHotkeyA32"
+        ]
+    ],
+    "shortcuts": [
+        [
+            "AutoHotkey.exe",
+            "AutoHotkey"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/Lexikos/AutoHotkey_L/"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "$baseurl/AutoHotkey_$version_setup.exe#/dl.7z"
+            },
+            "32bit": {
+                "url": "$baseurl/AutoHotkey_$version_setup.exe#/dl32.7z"
+            }
+        }
+    },
+    "post_install": [
+        "# Get the path to AutoHotkey.exe",
+        "$AutoHotkeyPath = Join-Path -Path $dir -ChildPath 'AutoHotkey.exe'",
+        "",
+        "# Get the path to the script that you want to run in the ahk persist folder",
+        "$ScriptPath = Join-Path -Path $(scoop prefix -p AHK-EverydayScripts) -ChildPath 'AutoHotkey.ahk'",
+        "",
+        "# Set the value of the registry key to AutoHotkey.exe with the script path as an argument",
+        "$params = @{",
+        "    Path = 'HKCU:\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run'",
+        "    Name = 'AutoHotkey'",
+        "    Value = \"`\"$AutoHotkeyPath`\" `\"$ScriptPath`\"\"",
+        "}",
+        "Set-ItemProperty @params"
+    ]
+}

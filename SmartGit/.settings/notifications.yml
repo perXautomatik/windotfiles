@@ -11,8 +11,8 @@ dontPublishNotifications: ['repository-git-core-ignorecase-mismatch-b:/togit/pro
     shelf/archive/sql_db/ffx-null', 'repository-git-core-ignorecase-mismatch-b:/togit/project
     shelf/archive/regiongotland/utskicksstruktur/brev-null', 'repository-git-core-ignorecase-mismatch-b:/togit/project
     shelf/projectfolderbare/newwindows/scoopbucket-1/windowsdebloat-null', credential.helper-null,
-  'repository-git-core-ignorecase-mismatch-b:/togit-null', follow-us-on-twitter-null,
-  repositories-no-favorites-null]
+  'repository-git-core-ignorecase-mismatch-b:/togit-null', repositories-no-favorites-null,
+  follow-us-on-twitter-null]
 dontPublishUntil-repository-git-core-ignorecase-mismatch-b:/togit/project shelf/archive/sql_db/ffx-null: 1684575209016
 ? dontPublishUntil-repository-git-core-ignorecase-mismatch-b:/togit/project shelf/archive/regiongotland/utskicksstruktur/brev-null
 : 1684592755884
@@ -21,4 +21,4 @@ dontPublishUntil-repository-git-core-ignorecase-mismatch-b:/togit/project shelf/
 dontPublishUntil-repositories-no-favorites-null: 1692119413405
 dontPublishUntil-credential.helper-null: 0
 dontPublishUntil-repository-git-core-ignorecase-mismatch-b:/togit-null: 1686047834063
-dontPublishUntil-follow-us-on-twitter-null: 1692637809200
+dontPublishUntil-follow-us-on-twitter-null: 1694161419403
