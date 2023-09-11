@@ -6,7 +6,32 @@ readNotifications: [hosting-provider-could-be-configured-github-null, needsResta
     4-null', 'repository-model-problem-b:/pf/chris/appdata/roaming/vortex-null', repositories-no-favorites-null,
   update-fetch-22.1.6-success, 'repository-git-core-ignorecase-mismatch-b:/pf/notetakingprojectfolder/1d5a90b4975101fa1666d66382799002-null',
   'repository-model-problem-b:/pf/scoopbucket-presist/jetbrains-null', 'repository-git-cleanup-b:/pf/notetakingprojectfolder/notebooks-null',
-  'repository-git-cleanup-o:/d2rmm 1.4.5/mods-null', follow-us-on-twitter-null]
+  'repository-git-cleanup-o:/d2rmm 1.4.5/mods-null', follow-us-on-twitter-null, 'repository-model-problem-b:/pf/archive/togit/scoopbucket-presist-null',
+  'repository-model-problem-b:/pf/archive/togit/scoopbucket-presist/ahk-null', 'repository-model-problem-b:/pf/archive/togit/scoopbucket-presist/ahk/ahk_config-null',
+  'repository-model-problem-b:/pf/archive/togit/scoopbucket-presist/cherrytree-null',
+  'repository-model-problem-b:/pf/archive/togit/scoopbucket-presist/datagrip-null',
+  'repository-model-problem-b:/pf/archive/togit/scoopbucket-presist/datagrip/datagrip2021.1-null',
+  'repository-model-problem-b:/pf/archive/togit/scoopbucket-presist/datagrip/datagrip2019.4-null',
+  'repository-model-problem-b:/pf/archive/togit/scoopbucket-presist/ditto-null', 'repository-model-problem-b:/pf/archive/togit/scoopbucket-presist/git-null',
+  'repository-model-problem-b:/pf/archive/togit/scoopbucket-presist/otherversioncontrolledtext-null',
+  'repository-model-problem-b:/pf/archive/togit/scoopbucket-presist/powershellcmdhist-null',
+  'repository-model-problem-b:/pf/archive/togit/scoopbucket-presist/powershell-null',
+  'repository-model-problem-b:/pf/archive/togit/scoopbucket-presist/userfolder-null',
+  'repository-model-problem-b:/pf/archive/togit/scoopbucket-presist/vortex-null',
+  'repository-model-problem-b:/pf/archive/togit/scoopbucket-presist/autohotkey/script/fork/appendtoclipboard-null',
+  'repository-model-problem-b:/pf/archive/togit/scoopbucket-presist/autohotkey/script/fork/checkifprogisrunning-null',
+  'repository-model-problem-b:/pf/archive/togit/scoopbucket-presist/autohotkey/script/fork/exploreratpath-null',
+  'repository-model-problem-b:/pf/archive/togit/scoopbucket-presist/autohotkey/script/fork/getrunningprocess-null',
+  'repository-model-problem-b:/pf/archive/togit/scoopbucket-presist/autohotkey/script/fork/launchapplication-null',
+  'repository-model-problem-b:/pf/archive/togit/scoopbucket-presist/autohotkey/script/fork/launch
+    if not currently running-null', 'repository-model-problem-b:/pf/archive/togit/scoopbucket-presist/autohotkey/script/fork/launch
+    if not currently running continously-null', 'repository-model-problem-b:/pf/archive/togit/scoopbucket-presist/autohotkey/script/fork/macro
+    recorder-null', 'repository-model-problem-b:/pf/archive/togit/scoopbucket-presist/autohotkey/script/fork/noahhotell-null',
+  'repository-model-problem-b:/pf/archive/togit/scoopbucket-presist/autohotkey/script/fork/selectedtextwithoutdisturbingclipboard-null',
+  'repository-model-problem-b:/pf/archive/togit/scoopbucket-presist/autohotkey/script/fork/selected
+    item in explorer-null', 'repository-model-problem-b:/pf/archive/togit/scoopbucket-presist/autohotkey/script/fork/windowtoforeground-null',
+  'repository-model-problem-b:/pf/archive/togit/scoopbucket-presist/portableappsplatform-null',
+  'repository-model-problem-b:/pf/archive/togit/scoopbucket-presist/steamapps-null']
 dontPublishNotifications: ['repository-git-core-ignorecase-mismatch-b:/togit/project
     shelf/archive/sql_db/ffx-null', 'repository-git-core-ignorecase-mismatch-b:/togit/project
     shelf/archive/regiongotland/utskicksstruktur/brev-null', 'repository-git-core-ignorecase-mismatch-b:/togit/project

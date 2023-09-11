@@ -20,14 +20,14 @@ stats:
   repo.opens.wt.submodules.20-50: {invocations: 2, invocationLast: 20230830, invocationDays: 2}
   repo.opens.wt.submodules.5-10: {invocations: 4, invocationLast: 20230830, invocationDays: 4}
   repo.opens.wt.files.10000-50000: {invocations: 3, invocationLast: 20230908, invocationDays: 3}
-  changesview.syntax.<unknown>: {invocations: 2679, invocationLast: 20230911, invocationDays: 18}
+  changesview.syntax.<unknown>: {invocations: 2691, invocationLast: 20230911, invocationDays: 18}
   changesview.syntax.json: {invocations: 48, invocationLast: 20230911, invocationDays: 11}
-  toolbar.main.action.commit: {invocations: 118, invocationLast: 20230911, invocationDays: 16}
-  action.commit: {invocations: 132, invocationLast: 20230911, invocationDays: 16}
-  action.stage: {invocations: 168, invocationLast: 20230911, invocationDays: 16}
-  changesview.syntax.xml: {invocations: 15, invocationLast: 20230911, invocationDays: 7}
+  toolbar.main.action.commit: {invocations: 121, invocationLast: 20230911, invocationDays: 16}
+  action.commit: {invocations: 135, invocationLast: 20230911, invocationDays: 16}
+  action.stage: {invocations: 169, invocationLast: 20230911, invocationDays: 16}
+  changesview.syntax.xml: {invocations: 16, invocationLast: 20230911, invocationDays: 7}
   changesview.syntax.yaml: {invocations: 26, invocationLast: 20230911, invocationDays: 7}
-  action.delete: {invocations: 55, invocationLast: 20230823, invocationDays: 4}
+  action.delete: {invocations: 56, invocationLast: 20230911, invocationDays: 5}
   toolbar.main.action.logRepository: {invocations: 4, invocationLast: 20230908, invocationDays: 4}
   action.logRepository: {invocations: 4, invocationLast: 20230908, invocationDays: 4}
   log.perspective.main: {invocations: 10, invocationLast: 20230909, invocationDays: 8}
@@ -103,9 +103,9 @@ stats:
   window.indexEditor: {invocations: 1, invocationLast: 20230826, invocationDays: 1}
   toolbar.main.action.stage: {invocations: 2, invocationLast: 20230826, invocationDays: 1}
   changesview.syntax.shell script: {invocations: 2, invocationLast: 20230904, invocationDays: 2}
-  action.submoduleInit: {invocations: 42, invocationLast: 20230911, invocationDays: 6}
+  action.submoduleInit: {invocations: 47, invocationLast: 20230911, invocationDays: 6}
   action.remove: {invocations: 8, invocationLast: 20230911, invocationDays: 5}
-  action.submoduleUnregister: {invocations: 21, invocationLast: 20230911, invocationDays: 4}
+  action.submoduleUnregister: {invocations: 22, invocationLast: 20230911, invocationDays: 4}
   toolbar.main.action.fetch: {invocations: 2, invocationLast: 20230830, invocationDays: 2}
   action.showChanges: {invocations: 5, invocationLast: 20230830, invocationDays: 1}
   window.logFile: {invocations: 1, invocationLast: 20230830, invocationDays: 1}

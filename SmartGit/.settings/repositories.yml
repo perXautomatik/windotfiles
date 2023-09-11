@@ -11386,6 +11386,7 @@ gitRootSettingsSet:
     push: {}
     commitNotes:
       commitNotesHistory: [What refused to be deleted]
+      commitNotes: etc
     journal: {}
   rootB:\PF\Archive\ToGit\scoopbucket-presist\Documents\PowerShell:
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1694417374592}
@@ -11426,7 +11427,7 @@ gitRootSettingsSet:
       logRootSettings: {}
     push: {}
     commitNotes:
-      commitNotesHistory: ['initial?']
+      commitNotesHistory: [etc, 'initial?']
     journal: {}
   rootB:\PF\Archive\ToGit\scoopbucket-presist\AppData\Roaming\JetBrains:
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1694417446840}
@@ -11627,7 +11628,8 @@ gitRootSettingsSet:
     merge:
       logRootSettings: {}
     push: {}
-    commitNotes: {}
+    commitNotes:
+      commitNotesHistory: [etc]
     journal: {}
   rootB:\PF\Archive\ToGit\scoopbucket-presist\Vortex:
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1694421297001}

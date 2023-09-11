@@ -1,5 +1,5 @@
 bounds:
-- {key: project, x: 535, y: 174, width: 1294, height: 704}
+- {key: project, x: 535, y: 174, width: 1294, height: 704, state: 1}
 - {key: welcome}
 - {key: preferences, x: -123, y: 217, width: 1165, height: 498}
 - {key: compare, x: 38, y: 174, width: 1440, height: 866}
@@ -50,24 +50,24 @@ columns:
     - {id: Last Changed On, width: 117, width2x: 0}
     - {id: Relative Path, width: 500, width2x: 0}
     sortOrders:
+    - {id: Size, reverse: true}
+    - {id: Ext., reverse: true}
     - {id: Relative Directory, reverse: false}
-    - {id: Last Changed On, reverse: false}
-    - {id: State, reverse: false}
-    - {id: Size, reverse: false}
+    - {id: State, reverse: true}
     - {id: Name, reverse: false}
-    - {id: Ext., reverse: false}
+    - {id: Last Changed On, reverse: false}
   project.files.git.index:
     columnNames: "Name\tExt.\tState\tRelative Directory\tRelative Path\tRenamed From"
     visibleColumnNames: "Ext.\tName\tRelative Directory\tState"
     columnWidths:
     - {id: Name, width: 670, width2x: 0}
     - {id: Ext., width: 94, width2x: 0}
-    - {id: State, width: 75, width2x: 0}
+    - {id: State, width: 122, width2x: 0}
     - {id: Relative Directory, width: 784, width2x: 0}
     - {id: Relative Path, width: 500, width2x: 0}
     sortOrders:
+    - {id: State, reverse: true}
     - {id: Relative Directory, reverse: false}
-    - {id: State, reverse: false}
     - {id: Name, reverse: false}
     - {id: Ext., reverse: true}
   log.comments:
@@ -147,11 +147,11 @@ confirmations: {exit.showConfirmation: true, git.push: true, git.switchBranch.co
   rebaseContinue: false, git.switchBranch.fastForward: true, sync: true, splitCommit: true,
   git.commit.stageAll: true, compare.contentEqual: true, conflictSolver.showConflictWarning: true}
 repositoriesToReopen:
-- window: log
-  repositories: ['B:\PF\Archive\ToGit\scoopbucket-presist\Documents\WindowsPowerShell']
+- window: wt
+  repositories: ['B:\PF\Archive\ToGit\scoopbucket-presist']
 project.files.git.separateWtIndex: true
-gitProjectLayout.main: (([+548x560:directories ][+548x373:branches ])((([+1369x503:files
-  ][+1369x265:changes ])[-3x1:message ])([+1369x162:outgoing ][-3x1:output ])))
+gitProjectLayout.main: (([+332x778:directories ][+332x155:branches ])((([+1585x607:files
+  ][+1585x161:changes ])[-3x1:message ])([+1585x162:outgoing ][-3x1:output ])))
 log.wtIndex.onDemand: true
 gitProjectLayout.mainIsdefault: true
 gitProjectLayout.review: ([+2x1:directories ][+7x1:files ][+3x1:message ])[+10x3:changes
