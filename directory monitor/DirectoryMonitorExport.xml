@@ -1,0 +1,20 @@
+﻿<ArrayOfFileSystemMonitor xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <FileSystemMonitor id="497f1049-8b96-42be-b033-61a47ebedbf7" path="B:\PF\Archive\ToGit\scoopbucket-presist\Documents\WindowsPowerShell" userpath="B:\PF\Archive\ToGit\scoopbucket-presist\Documents\PowerShell" description="PowerShell .git folder" enabled="True" snapshot="C:\ProgramData\DirectoryMonitor\DirectoryMonitorSingleUser\Snapshots\2daf1b79-5fba-4996-ae0a-bd0facc9df19.snapshot">
+    <Options includeSubdirectories="True" includeProperties="False" includeEventUser="False" includeFiles="True" includeDirectories="True" useSnapshots="False" snapshotInterval="600000" />
+    <Events new="True" renamed="True" modified="True" deleted="True" accessed="False" inactiveTimer="0" inactiveTriggerAllEvents="False" />
+    <Filters>
+      <Exclude pattern="*\.git" />
+      <Exclude pattern="*\index.lock" />
+      <Exclude pattern=".\Scripts\EnableLinkedConnections.reg\.git\*" />
+    </Filters>
+    <Credentials />
+    <DevEnterprise.DirectoryMonitor.Plugin.Database server="" windowsAuth="False" enabled="False" port="0" ssl="" password="" username="" provider="0" database="" filePath="" />
+    <DevEnterprise.DirectoryMonitor.Plugin.Emailer subject="Directory Monitor: %event% file '%file%' at %date% %time% by %user%" footer="" inactivitySeconds="0" excludeEventTypes="" limitCount="1" afterCount="1" attachmentFilters="" sizeLimitEnabled="False" burstCount="500" afterTimeSeconds="604800" rule="1" limitTime="-1" attachments="%fullfile%" limitEnabled="False" sizeLimitBytes="1048576" message="&#xD;&#xA;&lt;P&gt;&lt;STRONG&gt;%event%&lt;/STRONG&gt; (%date% %time%): &lt;EM&gt;%fullfile%&lt;/EM&gt; &#xD;&#xA;*%user%*&lt;/P&gt;" useAdvancedSchedule="False" enabled="False" transferEncoding="" inactivityMinutes="1" burstTimeSeconds="30" header="" afterTime="-1" to="" crontab="0 9 * * 1,2,3,4,5" limitTimeSeconds="1800" />
+    <DevEnterprise.DirectoryMonitor.Plugin.ExecuteApplications waitForLock="False" inactivityMinutes="1" limitCount="1" burstCount="500" silent="False" inactivitySeconds="0" execute="C:\ProgramData\scoop\persist\directory monitor\auto-commit.cmd" limitEnabled="True" rule="1" afterDelay="0" burstTimeSeconds="30" timeout="20" parameters="%dirpath% %fullfile% %file% %event% %file%" sequentialDelay="-1" sequential="False" limitTime="-1" limitTimeSeconds="30" afterCount="1" />
+    <DevEnterprise.DirectoryMonitor.Plugin.Growl enabled="False" />
+    <DevEnterprise.DirectoryMonitor.Plugin.Print enabled="False" printer="" />
+    <DevEnterprise.DirectoryMonitor.Plugin.Sounds soundFile="" playUntilFocus="False" />
+    <DevEnterprise.DirectoryMonitor.Plugin.Syslog messageFormat="%event% (%date% %time%): %fullfile% *%user%*" enabled="False" facility="1" level="5" />
+    <DevEnterprise.DirectoryMonitor.Plugin.TextLog outputFormat="%event% (%date% %time%): %fullfile% *%user%*" timestamp="None" logPath="B:\log\documents-powershell.txt" header="" />
+  </FileSystemMonitor>
+</ArrayOfFileSystemMonitor>

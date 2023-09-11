@@ -1,0 +1,43 @@
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch Develop
+# Your branch is ahead of 'origin/git' by 47 commits.
+#   (use "git push" to publish your local commits)
+#
+# Changes to be committed:
+	deleted:    Get-RelativePath.ps1
+	deleted:    RemoveWorktree.ps1
+	deleted:    branch-SingleFile.ps1
+	deleted:    branchAndRevertbyPattern.ps1
+	deleted:    etc.ps1
+	deleted:    filterByName.ps1
+	new file:   folderContToignored.~ps1
+	new file:   gist/GitPs1Module
+	deleted:    git-root.ps1
+	deleted:    gitStatus.ps1
+	deleted:    lib/git-clone_ontop
+	new file:   plumming-commit.ps1
+	deleted:    removeWorkTreeLineFromGitConfig.ps1
+	deleted:    repair/rep.ps1
+	modified:   submodule/SubmoduleFromGitmodules
+#
+#  Changes not staged for commit:
+ 	modified:   gist/GitPs1Module (untracked content)
+#
+# Submodule changes to be committed:
+#
+# * gist/GitPs1Module 0000000...f002826 (9):
+#   > Merge pull request #3 from vScripter/UpdateReadmeFile
+#
+# * submodule/SubmoduleFromGitmodules f2b2361...948ff5a (8):
+#   > etc
+#   > etc
+#   < etc
+#   < etc
+#   > functional but ugly
+#   > finished git-initializeSubmodules
+#   > function Git-getSubmodulePaths
+#   > function Git-getSubmodulePaths
+#

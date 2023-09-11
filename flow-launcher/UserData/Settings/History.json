@@ -1,134 +1,6 @@
 {
   "Items": [
     {
-      "Query": "pm install Plugin Runner",
-      "ExecutedDateTime": "2023-06-05T15:08:58.3490467+02:00"
-    },
-    {
-      "Query": "pm install WinsFlow",
-      "ExecutedDateTime": "2023-06-05T15:13:22.978413+02:00"
-    },
-    {
-      "Query": "ps Install-Module -Name HeatMap",
-      "ExecutedDateTime": "2023-06-06T14:21:44.8318653+02:00"
-    },
-    {
-      "Query": "emp",
-      "ExecutedDateTime": "2023-06-06T14:49:50.2176958+02:00"
-    },
-    {
-      "Query": "ps scoop install npm",
-      "ExecutedDateTime": "2023-06-06T19:02:31.7793305+02:00"
-    },
-    {
-      "Query": "OBS",
-      "ExecutedDateTime": "2023-06-07T08:58:17.0527019+02:00"
-    },
-    {
-      "Query": "pwsh",
-      "ExecutedDateTime": "2023-06-07T09:26:54.6520506+02:00"
-    },
-    {
-      "Query": "ps Stop-Process -Name explorer",
-      "ExecutedDateTime": "2023-06-07T10:56:16.7212312+02:00"
-    },
-    {
-      "Query": "be",
-      "ExecutedDateTime": "2023-06-07T11:10:03.3114479+02:00"
-    },
-    {
-      "Query": "ps",
-      "ExecutedDateTime": "2023-06-07T12:23:54.6301613+02:00"
-    },
-    {
-      "Query": "cod",
-      "ExecutedDateTime": "2023-06-07T14:15:37.3071707+02:00"
-    },
-    {
-      "Query": "ps",
-      "ExecutedDateTime": "2023-06-07T16:06:19.4882126+02:00"
-    },
-    {
-      "Query": "vsc",
-      "ExecutedDateTime": "2023-06-07T17:13:13.5245536+02:00"
-    },
-    {
-      "Query": "ps scoop install python",
-      "ExecutedDateTime": "2023-06-07T17:17:04.0895246+02:00"
-    },
-    {
-      "Query": "vsc",
-      "ExecutedDateTime": "2023-06-07T17:56:44.5511215+02:00"
-    },
-    {
-      "Query": "ditt",
-      "ExecutedDateTime": "2023-06-09T14:31:01.4883842+02:00"
-    },
-    {
-      "Query": "ob",
-      "ExecutedDateTime": "2023-06-09T18:11:46.8599658+02:00"
-    },
-    {
-      "Query": "ps",
-      "ExecutedDateTime": "2023-06-10T09:18:35.1907251+02:00"
-    },
-    {
-      "Query": "autorun",
-      "ExecutedDateTime": "2023-06-10T12:17:07.2196614+02:00"
-    },
-    {
-      "Query": "smart",
-      "ExecutedDateTime": "2023-06-10T12:22:39.6833219+02:00"
-    },
-    {
-      "Query": "power",
-      "ExecutedDateTime": "2023-06-10T12:34:30.8660207+02:00"
-    },
-    {
-      "Query": "bcompare",
-      "ExecutedDateTime": "2023-06-10T12:36:48.0787045+02:00"
-    },
-    {
-      "Query": "ps",
-      "ExecutedDateTime": "2023-06-10T12:42:39.7281355+02:00"
-    },
-    {
-      "Query": "kill bc",
-      "ExecutedDateTime": "2023-06-10T12:45:38.4304806+02:00"
-    },
-    {
-      "Query": "sync ce",
-      "ExecutedDateTime": "2023-06-10T13:43:20.8616315+02:00"
-    },
-    {
-      "Query": "power",
-      "ExecutedDateTime": "2023-06-10T17:21:15.8243872+02:00"
-    },
-    {
-      "Query": "bcom",
-      "ExecutedDateTime": "2023-06-10T19:12:43.3320374+02:00"
-    },
-    {
-      "Query": "autorun",
-      "ExecutedDateTime": "2023-06-10T19:59:20.9182193+02:00"
-    },
-    {
-      "Query": "open https://github.com/AlexanderPro/Wlx2Explorer",
-      "ExecutedDateTime": "2023-06-10T21:27:33.7289023+02:00"
-    },
-    {
-      "Query": "power",
-      "ExecutedDateTime": "2023-06-12T13:11:33.9879667+02:00"
-    },
-    {
-      "Query": "pm install Window Walker",
-      "ExecutedDateTime": "2023-06-12T14:08:37.7900572+02:00"
-    },
-    {
-      "Query": "po",
-      "ExecutedDateTime": "2023-06-12T16:45:26.3848145+02:00"
-    },
-    {
       "Query": "ps choco uninstall nirlauncher",
       "ExecutedDateTime": "2023-06-13T08:56:29.2048258+02:00"
     },
@@ -1199,6 +1071,138 @@
     {
       "Query": "\u0026 explorer",
       "ExecutedDateTime": "2023-08-30T11:24:17.5253791+02:00"
+    },
+    {
+      "Query": "vs",
+      "ExecutedDateTime": "2023-08-30T11:41:48.1555232+02:00"
+    },
+    {
+      "Query": "\u0026 d",
+      "ExecutedDateTime": "2023-08-30T11:44:56.2868217+02:00"
+    },
+    {
+      "Query": "\u0026 smart",
+      "ExecutedDateTime": "2023-08-30T11:46:48.3599133+02:00"
+    },
+    {
+      "Query": "\u0026 autor",
+      "ExecutedDateTime": "2023-08-30T11:48:04.3828588+02:00"
+    },
+    {
+      "Query": "ps sudo scoop install masterscript",
+      "ExecutedDateTime": "2023-08-30T12:02:15.3955303+02:00"
+    },
+    {
+      "Query": "\u0026 explorer",
+      "ExecutedDateTime": "2023-08-30T12:04:57.8506809+02:00"
+    },
+    {
+      "Query": "\u0026 steam",
+      "ExecutedDateTime": "2023-08-30T20:12:03.4522981+02:00"
+    },
+    {
+      "Query": "\u0026 sm",
+      "ExecutedDateTime": "2023-08-30T21:55:21.1992813+02:00"
+    },
+    {
+      "Query": "\u0026 be",
+      "ExecutedDateTime": "2023-08-31T10:52:39.8003433+02:00"
+    },
+    {
+      "Query": "\u0026 expl",
+      "ExecutedDateTime": "2023-08-31T11:37:49.0617827+02:00"
+    },
+    {
+      "Query": "\u0026 run",
+      "ExecutedDateTime": "2023-08-31T11:38:41.0506642+02:00"
+    },
+    {
+      "Query": "\u0026 prolass",
+      "ExecutedDateTime": "2023-08-31T11:39:01.2257493+02:00"
+    },
+    {
+      "Query": "ps Stop-Process -Name explorer ; explorer.exe",
+      "ExecutedDateTime": "2023-08-31T11:40:54.3570631+02:00"
+    },
+    {
+      "Query": "vs",
+      "ExecutedDateTime": "2023-08-31T12:24:51.5702526+02:00"
+    },
+    {
+      "Query": "ps",
+      "ExecutedDateTime": "2023-08-31T12:40:42.9031173+02:00"
+    },
+    {
+      "Query": "\u0026 du",
+      "ExecutedDateTime": "2023-08-31T13:18:10.1223962+02:00"
+    },
+    {
+      "Query": "ps",
+      "ExecutedDateTime": "2023-08-31T23:11:55.331335+02:00"
+    },
+    {
+      "Query": "empy",
+      "ExecutedDateTime": "2023-08-31T23:17:21.3863424+02:00"
+    },
+    {
+      "Query": "\u0026 bc",
+      "ExecutedDateTime": "2023-08-31T23:23:13.7014254+02:00"
+    },
+    {
+      "Query": "\u0026 wiztr",
+      "ExecutedDateTime": "2023-09-01T01:23:12.7318336+02:00"
+    },
+    {
+      "Query": "ps Everything.exe -instance test",
+      "ExecutedDateTime": "2023-09-01T15:06:58.7468507+02:00"
+    },
+    {
+      "Query": "ps \u0022gitdir: \u0027B:\\PF\\.git\\modules\\NewWindows\\modules\\scoopbucket-presist\u0027\u0022 \u003E \u0027B:\\PF\\Archive\\ToGit\\scoopbucket-presist\\.git\u0027",
+      "ExecutedDateTime": "2023-09-01T15:30:33.6274613+02:00"
+    },
+    {
+      "Query": "ps",
+      "ExecutedDateTime": "2023-09-02T18:19:15.2286533+02:00"
+    },
+    {
+      "Query": "\u0026 b",
+      "ExecutedDateTime": "2023-09-03T10:39:15.4801809+02:00"
+    },
+    {
+      "Query": "ps scoop install shellexview",
+      "ExecutedDateTime": "2023-09-03T12:08:34.2372338+02:00"
+    },
+    {
+      "Query": "ps",
+      "ExecutedDateTime": "2023-09-03T12:22:57.2737817+02:00"
+    },
+    {
+      "Query": "ps sfc /scannow",
+      "ExecutedDateTime": "2023-09-03T12:24:37.3623015+02:00"
+    },
+    {
+      "Query": "ps",
+      "ExecutedDateTime": "2023-09-03T12:55:32.7055003+02:00"
+    },
+    {
+      "Query": "\u0026 e",
+      "ExecutedDateTime": "2023-09-04T12:33:05.214749+02:00"
+    },
+    {
+      "Query": "\u0026 wi",
+      "ExecutedDateTime": "2023-09-04T12:37:37.1022247+02:00"
+    },
+    {
+      "Query": "vs",
+      "ExecutedDateTime": "2023-09-04T14:52:43.7212773+02:00"
+    },
+    {
+      "Query": "\u0026 wiz",
+      "ExecutedDateTime": "2023-09-04T16:07:08.4326928+02:00"
+    },
+    {
+      "Query": "\u0026 proc",
+      "ExecutedDateTime": "2023-09-04T16:42:53.412336+02:00"
     }
   ]
 }

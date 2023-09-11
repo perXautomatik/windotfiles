@@ -1,0 +1,32 @@
+{
+    "version": "1.2.0",
+    "description": "Incremental merge and rebase for Git",
+    "homepage": "https://github.com/mhagger/git-imerge",
+    "license": "GPL-2.0-or-later",
+    "suggest": {
+      "Git": "git"
+    },
+    "url": "https://github.com/mhagger/git-imerge/archive/v1.2.0.zip",
+    "hash": "sha1:2db7cd64738794897ce07a787ba115e1e03e4272",
+    "bin": [
+      [
+        "git-imerge",
+        "git imerge"
+      ]
+      "bin": [
+        "GitExtensions.exe",
+        [
+            "GitExtensions.exe",
+            "gite"
+        ]
+    ],
+
+    ],
+    "checkver": {
+      "github": "https://github.com/mhagger/git-imerge"
+    },
+    "autoupdate": {
+      "url": "https://github.com/mhagger/git-imerge/archive/v$version.zip"
+    }
+  }
+  

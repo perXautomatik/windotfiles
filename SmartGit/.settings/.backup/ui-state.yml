@@ -1,5 +1,5 @@
 bounds:
-- {key: project, x: 413, y: 133, width: 1393, height: 900}
+- {key: project, x: -8, y: -8, width: 1936, height: 1066, state: 1}
 - {key: welcome}
 - {key: preferences, x: -123, y: 217, width: 1165, height: 498}
 - {key: compare, x: 38, y: 174, width: 1440, height: 866}
@@ -51,11 +51,11 @@ columns:
     - {id: Relative Path, width: 500, width2x: 0}
     sortOrders:
     - {id: Relative Directory, reverse: false}
-    - {id: State, reverse: true}
+    - {id: Last Changed On, reverse: false}
+    - {id: State, reverse: false}
     - {id: Size, reverse: false}
     - {id: Name, reverse: false}
     - {id: Ext., reverse: false}
-    - {id: Last Changed On, reverse: true}
   project.files.git.index:
     columnNames: "Name\tExt.\tState\tRelative Directory\tRelative Path\tRenamed From"
     visibleColumnNames: "Ext.\tName\tRelative Directory\tState"
@@ -66,8 +66,8 @@ columns:
     - {id: Relative Directory, width: 784, width2x: 0}
     - {id: Relative Path, width: 500, width2x: 0}
     sortOrders:
-    - {id: State, reverse: false}
     - {id: Relative Directory, reverse: false}
+    - {id: State, reverse: false}
     - {id: Name, reverse: false}
     - {id: Ext., reverse: true}
   log.comments:
@@ -147,16 +147,16 @@ confirmations: {exit.showConfirmation: true, git.push: true, git.switchBranch.co
   rebaseContinue: false, git.switchBranch.fastForward: true, sync: true, splitCommit: true,
   git.commit.stageAll: true, compare.contentEqual: true}
 repositoriesToReopen:
-- window: log
-  repositories: ['C:\ProgramData\scoop\persist']
+- window: wt
+  repositories: ['B:\PF\Archive\dotFiles']
 project.files.git.separateWtIndex: true
-gitProjectLayout.main: (([+246x460:directories ][+246x307:branches ])((([+1128x225:files
-  ][+1128x161:changes ])[-3x1:message ])([+1128x378:outgoing ][-3x1:output ])))
+gitProjectLayout.main: (([+467x560:directories ][+467x373:branches ])((([+1450x504:files
+  ][+1450x265:changes ])[-3x1:message ])([+1450x161:outgoing ][-3x1:output ])))
 log.wtIndex.onDemand: true
 gitProjectLayout.mainIsdefault: true
 gitProjectLayout.review: ([+2x1:directories ][+7x1:files ][+3x1:message ])[+10x3:changes
   ]([-1x1:branches ][-3x1:outgoing ][-3x1:output ])
-lastRepositoryPath: B:\PF\PowerShellProjectFolder
+lastRepositoryPath: B:\PF\Archive\dotFiles
 commit.expandOptions: true
 log.files.git.separateWtIndex: true
 gitLogRootLayout.main: (([+427x807:repositories ][+427x126:branches ])(([+883x666:graph

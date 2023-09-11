@@ -8,7 +8,7 @@
   "CommandHistory": {
     "Install-Module -Name HeatMap": 1,
     "scoop install npm": 2,
-    "Stop-Process -Name explorer": 6,
+    "Stop-Process -Name explorer": 19,
     "scoop install python": 2,
     "choco uninstall nirlauncher": 1,
     "scoop install docker": 2,
@@ -67,6 +67,12 @@
     "sudo cinst git-status-cache-posh-client": 1,
     "scoop uninstall vscode": 1,
     "scoop install windirstat": 1,
-    "scoop install csv": 1
+    "scoop install csv": 1,
+    "sudo scoop install masterscript": 2,
+    "Stop-Process -Name explorer ; explorer.exe": 1,
+    "Everything.exe -instance test": 1,
+    "\u0022gitdir: \u0027B:\\PF\\.git\\modules\\NewWindows\\modules\\scoopbucket-presist\u0027\u0022 \u003E \u0027B:\\PF\\Archive\\ToGit\\scoopbucket-presist\\.git\u0027": 1,
+    "scoop install shellexview": 1,
+    "sfc /scannow": 1
   }
 }
