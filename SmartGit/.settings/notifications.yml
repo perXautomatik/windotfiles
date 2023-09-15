@@ -31,7 +31,10 @@ readNotifications: [hosting-provider-could-be-configured-github-null, needsResta
   'repository-model-problem-b:/pf/archive/togit/scoopbucket-presist/autohotkey/script/fork/selected
     item in explorer-null', 'repository-model-problem-b:/pf/archive/togit/scoopbucket-presist/autohotkey/script/fork/windowtoforeground-null',
   'repository-model-problem-b:/pf/archive/togit/scoopbucket-presist/portableappsplatform-null',
-  'repository-model-problem-b:/pf/archive/togit/scoopbucket-presist/steamapps-null']
+  'repository-model-problem-b:/pf/archive/togit/scoopbucket-presist/steamapps-null',
+  'repository-model-problem-b:/pf/archive/togit/scoopbucket-presist/workspace/portableprogramsuit-null',
+  'repository-model-problem-b:/pf/csharpvisualstudio/repos/karlstad2calc_lotto-null',
+  'repository-model-problem-b:/pf/csharpvisualstudio/repos/upg11-null']
 dontPublishNotifications: ['repository-git-core-ignorecase-mismatch-b:/togit/project
     shelf/archive/sql_db/ffx-null', 'repository-git-core-ignorecase-mismatch-b:/togit/project
     shelf/archive/regiongotland/utskicksstruktur/brev-null', 'repository-git-core-ignorecase-mismatch-b:/togit/project

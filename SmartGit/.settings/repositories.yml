@@ -9,61 +9,19 @@ gitRootSettingsSet:
     push: {}
     commitNotes: {}
     journal: {}
-  roots: ['B:\PF\Archive\dotFiles', 'B:\Users\target', 'B:\Users\target\AHK', 'B:\Users\target\AdvancedRenamer',
-    'B:\Users\target\BashHistory', 'B:\Users\target\BeondCompare4', 'B:\Users\target\Cherrytree',
-    'B:\Users\target\Datagrip', 'B:\Users\target\Ditto', 'B:\Users\target\Everything',
-    'B:\Users\target\Git', 'B:\Users\target\OtherVersionControlledText', 'B:\Users\target\PowerShellCmdHist',
-    'B:\Users\target\Powershell', 'B:\Users\target\UserFolder', 'B:\Users\target\Vortex',
-    'B:\Users\target\portableAppsPlatform', 'B:\Users\target\steamapps', 'B:\Users\target\xEditScripts',
-    'B:\Users\target\Datagrip\DataGrip2021.1', 'B:\Users\target\Datagrip\datagrip2019.4',
-    'B:\Users\target\Documents\WindowsPowerShell', 'B:\PF\Archive', 'B:\PF\Archive\NewWindows',
-    'B:\PF\Archive\ps1', 'B:\PF\Archive\ps1\Aggregation\TextProcessingProjectF', 'B:\PF\Archive\ps1\git',
-    'B:\PF\Archive\ps1\workflow\CsharpI', 'B:\PF\Archive\ps1\Aggregation\TextProcessingProjectF\Tokenization',
-    'B:\PF\Archive\ps1\git\gist\GitPs1Module', 'B:\PF\Archive\ps1\git\submodule\SubmoduleFromGitmodules',
-    'B:\PF\PowershellProjectFolder', 'B:\PF\PowershellProjectFolder\Modules\Personal',
-    'B:\PF\PowershellProjectFolder\TodoProjects\Ast-IdentifyCodeBlocks', 'B:\PF\PowershellProjectFolder\doneAndDeserted\Betesta\Esp-Header-Export',
-    'B:\PF\PowershellProjectFolder\doneNDeserted\WindowsAdmin', 'B:\PF\PowershellProjectFolder\ps1',
-    'B:\PF\CSharpVisualStudio\repos\InvalidMarkup', 'B:\PF\CSharpVisualStudio\repos\karlstad',
-    'B:\PF\CSharpVisualStudio\repos\karlstad2Calc_Lotto', 'B:\PF\CSharpVisualStudio\repos\Boras2\PetStore',
-    'B:\PF\CSharpVisualStudio\repos\Boras2\PetStore\213c939651e0bef7612b2f910909a21d',
-    'B:\PF\CSharpVisualStudio\repos\Boras2\PetStore\3714794', 'B:\PF\CSharpVisualStudio\repos\Boras2\PetStore\7327483',
-    'B:\PF\CSharpVisualStudio\repos\Boras2\PetStore\8691414\WpfApp1', 'B:\PF\CSharpVisualStudio\repos\Boras2\PetStore\DataBindingDemo',
-    'B:\PF\CSharpVisualStudio\repos\Boras2\PetStore\DataBindingDemoSparse', 'B:\PF\CSharpVisualStudio\repos\Boras2\PetStore\WPF-Samples',
-    'B:\PF\CSharpVisualStudio\repos\Boras2\PetStore\WindowsFormsControlLibrary1',
-    'B:\PF\CSharpVisualStudio\repos\Boras2\PetStore\borås\upgift1', 'B:\PF\CSharpVisualStudio\repos\Boras2\PetStore\upg11',
-    'B:\PF', 'B:\PF\CSharpVisualStudio\repos', 'B:\PF\CSharpVisualStudio\repos\8691414\WpfApp4',
+  roots: ['B:\PF\CSharpVisualStudio\repos', 'B:\PF\CSharpVisualStudio\repos\Boras2\PetStore',
     'B:\PF\CSharpVisualStudio\repos\Boras2\Project\WPF-EF6-Sqlite', 'B:\PF\CSharpVisualStudio\repos\DataBindingDemo',
-    'B:\SteamLibrary\steamapps', ~\.config\powershell, 'C:\ProgramData\scoop\buckets',
-    'B:\PF\scoopbucket-1', 'B:\PF\PowershellProjectFolder\Modules\Personal\filesystem\group\ps1',
-    ~\.config, ~\.config\git, 'B:\PF\Archive\ToGit\scoopbucket-presist\Documents\WindowsPowerShell',
-    'B:\PF\Archive\ToGit\scoopbucket-presist\Documents\WindowsPowerShell\snipps\EnvPath',
-    'B:\PF\Archive\ToGit\scoopbucket-presist', 'B:\PF\Archive\ToGit\scoopbucket-presist\Documents\PowerShell',
-    'B:\PF\Archive\ToGit\scoopbucket-presist\Documents\PowerShell\Scripts\EnableLinkedConnections.reg',
-    'B:\PF\Archive\ToGit\scoopbucket-presist\apps\scoop\current', 'B:\PF\Archive\ToGit\scoopbucket-presist\AppData\Roaming\Everything',
-    'B:\PF\Archive\ToGit\scoopbucket-presist\AppData\Roaming\JetBrains', 'B:\PF\Archive\ToGit\scoopbucket-presist\AppData\Roaming\JetBrains\DataGrip2021.1',
-    'B:\PF\Archive\ToGit\scoopbucket-presist\AppData\Roaming\JetBrains\DataGrip2022.1',
-    'B:\PF\Archive\ToGit\scoopbucket-presist\AppData\Roaming\JetBrains\datagrip2019.4',
-    'B:\PF\Archive\ToGit\scoopbucket-presist\autohotkey', 'B:\PF\Archive\ToGit\scoopbucket-presist\NewWindows-initApps',
-    'B:\PF\Archive\ToGit\scoopbucket-presist\autohotkey\script\fork\AppendToClipboard',
-    'B:\PF\Archive\ToGit\scoopbucket-presist\autohotkey\script\fork\CheckIfProgIsRunning',
-    'B:\PF\Archive\ToGit\scoopbucket-presist\autohotkey\script\fork\ExplorerAtPath',
-    'B:\PF\Archive\ToGit\scoopbucket-presist\autohotkey\script\fork\GetRunningProcess',
-    'B:\PF\Archive\ToGit\scoopbucket-presist\autohotkey\script\fork\Launch If not
-      Currently running', 'B:\PF\Archive\ToGit\scoopbucket-presist\autohotkey\script\fork\Launch
-      If not Currently running Continously', 'B:\PF\Archive\ToGit\scoopbucket-presist\autohotkey\script\fork\LaunchApplication',
-    'B:\PF\Archive\ToGit\scoopbucket-presist\autohotkey\script\fork\MACRO RECORDER',
-    'B:\PF\Archive\ToGit\scoopbucket-presist\autohotkey\script\fork\NoahHotell', 'B:\PF\Archive\ToGit\scoopbucket-presist\autohotkey\script\fork\Selected
-      Item In Explorer', 'B:\PF\Archive\ToGit\scoopbucket-presist\autohotkey\script\fork\SelectedTextWithoutDisturbingClipboard',
-    'B:\PF\Archive\ToGit\scoopbucket-presist\autohotkey\script\fork\WindowToforeground',
-    'B:\PF\Archive\ToGit\scoopbucket-presist\BeondCompare4', 'B:\PF\Archive\ToGit\scoopbucket-presist\UserFolder',
-    'B:\PF\Archive\ToGit\scoopbucket-presist\Vortex', 'B:\PF\Archive\ToGit\scoopbucket-presist\PowerShellCmdHist',
-    'B:\PF\Archive\ToGit\scoopbucket-presist\AHK', 'B:\PF\Archive\ToGit\scoopbucket-presist\Git',
-    'B:\PF\Archive\ToGit\scoopbucket-presist\Datagrip', 'B:\PF\Archive\ToGit\scoopbucket-presist\Datagrip\DataGrip2021.1',
-    'B:\PF\Archive\ToGit\scoopbucket-presist\Datagrip\datagrip2019.4', 'B:\PF\Archive\ToGit\scoopbucket-presist\steamapps',
-    'B:\PF\Archive\ToGit\scoopbucket-presist\Powershell', 'B:\PF\Archive\ToGit\scoopbucket-presist\portableAppsPlatform',
-    'B:\PF\Archive\ToGit\scoopbucket-presist\OtherVersionControlledText', 'B:\PF\Archive\ToGit\scoopbucket-presist\Ditto',
-    'B:\PF\Archive\ToGit\scoopbucket-presist\Cherrytree', 'B:\PF\Archive\ToGit\scoopbucket-presist\AdvancedRenamer',
-    'B:\PF\Archive\ToGit\scoopbucket-presist\AHK\ahk_config']
+    'B:\PF\CSharpVisualStudio\repos\DataBindingDemoSparse', 'B:\PF\CSharpVisualStudio\repos\InvalidMarkup',
+    'B:\PF\CSharpVisualStudio\repos\New folder', 'B:\PF\CSharpVisualStudio\repos\WIthoutStudio',
+    'B:\PF\CSharpVisualStudio\repos\WPF-Samples', 'B:\PF\CSharpVisualStudio\repos\karlstad',
+    'B:\PF\CSharpVisualStudio\repos\karlstad2Calc_Lotto', 'B:\PF\CSharpVisualStudio\repos\karlstad3\Calculator_CBrobäck',
+    'B:\PF\CSharpVisualStudio\repos\upg11', 'B:\PF\CSharpVisualStudio\repos\Boras2\PetStore\213c939651e0bef7612b2f910909a21d',
+    'B:\PF\CSharpVisualStudio\repos\Boras2\PetStore\3714794', 'B:\PF\CSharpVisualStudio\repos\Boras2\PetStore\7327483',
+    'B:\PF\CSharpVisualStudio\repos\Boras2\PetStore\8691414\WpfApp1', 'B:\PF\CSharpVisualStudio\repos\Boras2\PetStore\8691414\WpfApp4',
+    'B:\PF\CSharpVisualStudio\repos\Boras2\PetStore\Boras2\PetStore', 'B:\PF\CSharpVisualStudio\repos\Boras2\PetStore\DataBindingDemo',
+    'B:\PF\CSharpVisualStudio\repos\Boras2\PetStore\DataBindingDemoSparse', 'B:\PF\CSharpVisualStudio\repos\Boras2\PetStore\InvalidMarkup',
+    'B:\PF\CSharpVisualStudio\repos\Boras2\PetStore\WPF-Samples', 'B:\PF\CSharpVisualStudio\repos\Boras2\PetStore\WindowsFormsControlLibrary1',
+    'B:\PF\CSharpVisualStudio\repos\Boras2\PetStore\borås\upgift1', 'B:\PF\CSharpVisualStudio\repos\Boras2\PetStore\upg11']
   rootB:\ToGit:
     databaseCleanup: {}
     log:
@@ -5745,7 +5703,7 @@ gitRootSettingsSet:
         Deduped, gpt, Rewriting with gpt, Reorganized]
     journal: {}
   rootB:\PF\CSharpVisualStudio\repos:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1693556764547}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1694764313926}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
@@ -5753,7 +5711,7 @@ gitRootSettingsSet:
       logRootSettings: {}
     push: {}
     commitNotes:
-      commitNotesHistory: [submodules]
+      commitNotesHistory: [etc, state, submodules]
     journal: {}
   rootB:\PF\NewWindows:
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1687611588861}
@@ -5865,27 +5823,30 @@ gitRootSettingsSet:
       commitNotesHistory: [etc]
     journal: {}
   rootB:\PF\CSharpVisualStudio\repos\DataBindingDemo:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1693557196125}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1694764388446}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
     merge:
       logRootSettings: {}
     push: {}
-    commitNotes: {}
+    commitNotes:
+      commitNotesHistory: [state]
+      commitNotes: statestat
     journal: {}
   rootB:\PF\CSharpVisualStudio\repos\DataBindingDemoSparse:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1693557196227}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1694764395301}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
     merge:
       logRootSettings: {}
     push: {}
-    commitNotes: {}
+    commitNotes:
+      commitNotesHistory: [state]
     journal: {}
   rootB:\PF\CSharpVisualStudio\repos\WPF-Samples:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1693557196279}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1694764446440}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
@@ -5905,7 +5866,7 @@ gitRootSettingsSet:
     commitNotes: {}
     journal: {}
   rootB:\PF\CSharpVisualStudio\repos\upg11:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1693557196174}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1694764433700}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
@@ -10298,14 +10259,15 @@ gitRootSettingsSet:
     commitNotes: {}
     journal: {}
   rootB:\PF\CSharpVisualStudio:
-    databaseCleanup: {}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1694764281496}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
     merge:
       logRootSettings: {}
     push: {}
-    commitNotes: {}
+    commitNotes:
+      commitNotesHistory: [etc]
     journal: {}
   rootB:\PF\Cv -Project:
     databaseCleanup: {}
@@ -10635,7 +10597,7 @@ gitRootSettingsSet:
       commitNotesHistory: [etc]
     journal: {}
   rootB:\PF\CSharpVisualStudio\repos\karlstad:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1693322917403}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1694764413085}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
@@ -10683,7 +10645,7 @@ gitRootSettingsSet:
       logRootSettings: {}
     push: {}
     commitNotes:
-      commitNotesHistory: [etc, acx, state]
+      commitNotesHistory: [steat, etc, acx, state]
     journal: {}
   rootB:\PF\CSharpVisualStudio\repos\karlstad2Calc_Lotto\Wpf-Upgift 1:
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1693325153649}
@@ -10908,10 +10870,11 @@ gitRootSettingsSet:
     merge:
       logRootSettings: {}
     push: {}
-    commitNotes: {}
+    commitNotes:
+      commitNotesHistory: [state]
     journal: {}
   rootB:\PF\CSharpVisualStudio\repos\Boras2\Project\WPF-EF6-Sqlite:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1693558201871}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1694764516099}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
@@ -10931,7 +10894,7 @@ gitRootSettingsSet:
     commitNotes: {}
     journal: {}
   rootB:\PF\CSharpVisualStudio\repos\New folder:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1693558228461}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1694764426204}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
@@ -10941,7 +10904,7 @@ gitRootSettingsSet:
     commitNotes: {}
     journal: {}
   rootB:\PF\CSharpVisualStudio\repos\WIthoutStudio:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1693558217603}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1694764440866}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
@@ -10951,7 +10914,7 @@ gitRootSettingsSet:
     commitNotes: {}
     journal: {}
   rootB:\PF\CSharpVisualStudio\repos\karlstad3\Calculator_CBrobäck:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1693558195061}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1694764467790}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
@@ -10961,7 +10924,7 @@ gitRootSettingsSet:
     commitNotes: {}
     journal: {}
   rootB:\PF\CSharpVisualStudio\repos\Boras2\PetStore\8691414\WpfApp4:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1693562645999}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1694764502763}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
@@ -10971,7 +10934,7 @@ gitRootSettingsSet:
     commitNotes: {}
     journal: {}
   rootB:\PF\CSharpVisualStudio\repos\Boras2\PetStore\Boras2\PetStore:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1693562646092}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1694764509721}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
@@ -10981,7 +10944,7 @@ gitRootSettingsSet:
     commitNotes: {}
     journal: {}
   rootB:\PF\CSharpVisualStudio\repos\Boras2\PetStore\InvalidMarkup:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1693562646046}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1694764496717}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
@@ -11068,7 +11031,8 @@ gitRootSettingsSet:
     merge:
       logRootSettings: {}
     push: {}
-    commitNotes: {}
+    commitNotes:
+      commitNotesHistory: [state]
     journal: {}
   rootB:\PF\CSharpVisualStudio\repos\Boras2\PetStore\borås\upgift1:
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1694208192780}
@@ -11364,7 +11328,8 @@ gitRootSettingsSet:
     merge:
       logRootSettings: {}
     push: {}
-    commitNotes: {}
+    commitNotes:
+      commitNotesHistory: [etc]
     journal: {}
   rootB:\PF\Archive\ToGit\scoopbucket-presist\Documents\WindowsPowerShell\snipps\EnvPath:
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1694270790559}
@@ -11385,8 +11350,477 @@ gitRootSettingsSet:
       logRootSettings: {}
     push: {}
     commitNotes:
-      commitNotesHistory: [What refused to be deleted]
-      commitNotes: etc
+      commitNotesHistory:
+      - "Merge branch 'master' into Branch_5ab9cea0\n\n# Conflicts:\n#\tAHK\n#\tAppData/Local/Microsoft/Windows/PowerShell/StartupProfileData-Interactive\n\
+        #\tAppData/Local/ProcessLasso/config/prolasso.ini\n#\tAppData/Roaming/Macromedia/Flash\
+        \ Player/#SharedObjects/J243A566/localhost/Program Files (x86)/Steam/steamapps/common/NEO\
+        \ Scavenger/NEOScavenger.exe/nsSGv1 - kopia.sol\n#\tDatagrip\n#\tDitto\n#\t\
+        Documents/PowerShell\n#\tEverything\n#\tGit\n#\tVortex\n#\tportableAppsPlatform\n\
+        #\tscoop/persist\n#\txEditScripts"
+      - etx
+      - etc
+      - uuu
+      - "etc\n\n# Conflicts:\n#\tGit\n#\tUserFolder"
+      - "etc\n\n# Conflicts:\n#\tUserFolder"
+      - "Merge remote-tracking branch 'remotes/Default/LoppyX' into LoppyX\n\n# Conflicts:\n\
+        #\t.config/git\n#\t.config/powershell\n#\t.gitmodules\n#\tAppData/Local/Microsoft/Credentials/368AFC7A4512D75C7FF750A39F1DD252\n\
+        #\tAppData/Local/Microsoft/Edge/User Data/Autofill/3.0.0.3/edge_autofill_field_data.json\n\
+        #\tAppData/Local/Microsoft/Edge/User Data/Autofill/3.0.0.3/edge_autofill_global_block_list.json\n\
+        #\tAppData/Local/Microsoft/Edge/User Data/Autofill/3.0.0.3/regex_patterns.json\n\
+        #\tAppData/Local/Microsoft/Edge/User Data/Autofill/3.0.0.4/edge_autofill_field_data.json\n\
+        #\tAppData/Local/Microsoft/Edge/User Data/Autofill/3.0.0.4/edge_autofill_global_block_list.json\n\
+        #\tAppData/Local/Microsoft/Edge/User Data/Autofill/3.0.0.4/regex_patterns.json\n\
+        #\tAppData/Local/Microsoft/Edge/User Data/CertificateRevocation/6498.2022.11.1/crl-set\n\
+        #\tAppData/Local/Microsoft/Edge/User Data/CertificateRevocation/6498.2022.8.1/crl-set\n\
+        #\tAppData/Local/Microsoft/Edge/User Data/Default/DashTrackerDatabase\n#\t\
+        AppData/Local/Microsoft/Edge/User Data/Default/EntityExtraction/domains_config.json\n\
+        #\tAppData/Local/Microsoft/Edge/User Data/Default/Extension Cookies\n#\tAppData/Local/Microsoft/Edge/User\
+        \ Data/Default/Extension State/000020.ldb\n#\tAppData/Local/Microsoft/Edge/User\
+        \ Data/Default/Extension State/000023.ldb\n#\tAppData/Local/Microsoft/Edge/User\
+        \ Data/Default/Extension State/000025.ldb\n#\tAppData/Local/Microsoft/Edge/User\
+        \ Data/Default/Extension State/000028.ldb\n#\tAppData/Local/Microsoft/Edge/User\
+        \ Data/Default/Extension State/000043.ldb\n#\tAppData/Local/Microsoft/Edge/User\
+        \ Data/Default/Extension State/000045.ldb\n#\tAppData/Local/Microsoft/Edge/User\
+        \ Data/Default/History Provider Cache\n#\tAppData/Local/Microsoft/Edge/User\
+        \ Data/Default/HubApps\n#\tAppData/Local/Microsoft/Edge/User Data/Default/HubApps\
+        \ Icons\n#\tAppData/Local/Microsoft/Edge/User Data/Default/Local Extension\
+        \ Settings/nglaklhklhcoonedhgnpgddginnjdadi/000005.ldb\n#\tAppData/Local/Microsoft/Edge/User\
+        \ Data/Default/Local Extension Settings/odfafepnkmbhccpbejgmiehpchacaeak/000005.ldb\n\
+        #\tAppData/Local/Microsoft/Edge/User Data/Default/Network/Token Bindings\n\
+        #\tAppData/Local/Microsoft/Edge/User Data/Default/Password_Diagnostics/PMLog_13306191750615788\n\
+        #\tAppData/Local/Microsoft/Edge/User Data/Default/Password_Diagnostics/PMLog_13309996569367480\n\
+        #\tAppData/Local/Microsoft/Edge/User Data/Default/Password_Diagnostics/PMLog_13320145255944750\n\
+        #\tAppData/Local/Microsoft/Edge/User Data/Default/Pdf/pdfSQLite\n#\tAppData/Local/Microsoft/Edge/User\
+        \ Data/Default/Session Storage/000102.ldb\n#\tAppData/Local/Microsoft/Edge/User\
+        \ Data/Default/Session Storage/000221.ldb\n#\tAppData/Local/Microsoft/Edge/User\
+        \ Data/Default/Session Storage/000223.ldb\n#\tAppData/Local/Microsoft/Edge/User\
+        \ Data/Default/Session Storage/000225.ldb\n#\tAppData/Local/Microsoft/Edge/User\
+        \ Data/Default/Sessions/Session_13314294048222778\n#\tAppData/Local/Microsoft/Edge/User\
+        \ Data/Default/Sessions/Session_13320405233357073\n#\tAppData/Local/Microsoft/Edge/User\
+        \ Data/Default/Sessions/Session_13321449341981895\n#\tAppData/Local/Microsoft/Edge/User\
+        \ Data/Default/Sessions/Tabs_13313060538385218\n#\tAppData/Local/Microsoft/Edge/User\
+        \ Data/Default/Sessions/Tabs_13320405233613545\n#\tAppData/Local/Microsoft/Edge/User\
+        \ Data/Default/Sessions/Tabs_13321449342422508\n#\tAppData/Local/Microsoft/Edge/User\
+        \ Data/Default/Storage/ext/ahjaciijnoiaklcomgnblndopackapon/def/Network/Network\
+        \ Persistent State\n#\tAppData/Local/Microsoft/Edge/User Data/Default/Storage/ext/ihmafllikibpmigkcoadcmckbfhibefp/def/Network/Network\
+        \ Persistent State\n#\tAppData/Local/Microsoft/Edge/User Data/Default/Web\
+        \ Applications/_crx__ahjaciijnoiaklcomgnblndopackapon/Identity API Scope Approval\
+        \ UI.ico.md5\n#\tAppData/Local/Microsoft/Edge/User Data/Default/Web Applications/_crx__pofekaindcmmojfnfgbpklepkjfilcep/Popout\
+        \ for YouTube™.ico.md5\n#\tAppData/Local/Microsoft/Edge/User Data/Default/WebAssistDatabase\n\
+        #\tAppData/Local/Microsoft/Edge/User Data/Default/databases/chrome-extension_bbcinlkgjjkejfdpemiealijmmooekmp_0/2\n\
+        #\tAppData/Local/Microsoft/Edge/User Data/Default/shared_proto_db/000009.ldb\n\
+        #\tAppData/Local/Microsoft/Edge/User Data/EADPData Component/4.0.0.3/data.txt\n\
+        #\tAppData/Local/Microsoft/Edge/User Data/EADPData Component/4.0.1.0/data.txt\n\
+        #\tAppData/Local/Microsoft/Edge/User Data/EADPData Component/4.0.1.2/data.txt\n\
+        #\tAppData/Local/Microsoft/Edge/User Data/EADPData Component/4.0.2.14/data.txt\n\
+        #\tAppData/Local/Microsoft/Edge/User Data/PKIMetadata/2.0.0.0/crs.pb\n#\t\
+        AppData/Local/Microsoft/Edge/User Data/Profile 1/Affiliation Database\n#\t\
+        AppData/Local/Microsoft/Edge/User Data/Profile 1/AssistanceHome/AssistanceHomeSQLite\n\
+        #\tAppData/Local/Microsoft/Edge/User Data/Profile 1/Bookmarks\n#\tAppData/Local/Microsoft/Edge/User\
+        \ Data/Profile 1/BrowserEngineData\n#\tAppData/Local/Microsoft/Edge/User Data/Profile\
+        \ 1/DashTrackerDatabase\n#\tAppData/Local/Microsoft/Edge/User Data/Profile\
+        \ 1/EntityExtraction/domains_config.json\n#\tAppData/Local/Microsoft/Edge/User\
+        \ Data/Profile 1/Extension Cookies\n#\tAppData/Local/Microsoft/Edge/User Data/Profile\
+        \ 1/Extension State/000005.ldb\n#\tAppData/Local/Microsoft/Edge/User Data/Profile\
+        \ 1/Extension State/001567.ldb\n#\tAppData/Local/Microsoft/Edge/User Data/Profile\
+        \ 1/Extension State/001569.ldb\n#\tAppData/Local/Microsoft/Edge/User Data/Profile\
+        \ 1/Extension State/001571.ldb\n#\tAppData/Local/Microsoft/Edge/User Data/Profile\
+        \ 1/Extension State/001573.ldb\n#\tAppData/Local/Microsoft/Edge/User Data/Profile\
+        \ 1/Extension State/001576.ldb\n#\tAppData/Local/Microsoft/Edge/User Data/Profile\
+        \ 1/ExtensionActivityComp\n#\tAppData/Local/Microsoft/Edge/User Data/Profile\
+        \ 1/ExtensionActivityEdge\n#\tAppData/Local/Microsoft/Edge/User Data/Profile\
+        \ 1/HubApps\n#\tAppData/Local/Microsoft/Edge/User Data/Profile 1/HubApps Icons\n\
+        #\tAppData/Local/Microsoft/Edge/User Data/Profile 1/Local Extension Settings/egmgebeelgaakhaoodlmnimbfemfgdah/000313.ldb\n\
+        #\tAppData/Local/Microsoft/Edge/User Data/Profile 1/Local Extension Settings/egmgebeelgaakhaoodlmnimbfemfgdah/000496.ldb\n\
+        #\tAppData/Local/Microsoft/Edge/User Data/Profile 1/Local Extension Settings/egmgebeelgaakhaoodlmnimbfemfgdah/000498.ldb\n\
+        #\tAppData/Local/Microsoft/Edge/User Data/Profile 1/Local State\n#\tAppData/Local/Microsoft/Edge/User\
+        \ Data/Profile 1/Network Action Predictor\n#\tAppData/Local/Microsoft/Edge/User\
+        \ Data/Profile 1/Network/Network Persistent State\n#\tAppData/Local/Microsoft/Edge/User\
+        \ Data/Profile 1/Network/Network Persistent State.backup\n#\tAppData/Local/Microsoft/Edge/User\
+        \ Data/Profile 1/Network/Token Bindings\n#\tAppData/Local/Microsoft/Edge/User\
+        \ Data/Profile 1/Nurturing/campaign_history\n#\tAppData/Local/Microsoft/Edge/User\
+        \ Data/Profile 1/PartnerRules\n#\tAppData/Local/Microsoft/Edge/User Data/Profile\
+        \ 1/Preferences\n#\tAppData/Local/Microsoft/Edge/User Data/Profile 1/Preferences.backup\n\
+        #\tAppData/Local/Microsoft/Edge/User Data/Profile 1/PreferredApps\n#\tAppData/Local/Microsoft/Edge/User\
+        \ Data/Profile 1/Safe Browsing/ChromeExtMalware.store\n#\tAppData/Local/Microsoft/Edge/User\
+        \ Data/Profile 1/Safe Browsing/IpMalware.store\n#\tAppData/Local/Microsoft/Edge/User\
+        \ Data/Profile 1/Safe Browsing/UrlBilling.store\n#\tAppData/Local/Microsoft/Edge/User\
+        \ Data/Profile 1/Safe Browsing/UrlMalBin.store\n#\tAppData/Local/Microsoft/Edge/User\
+        \ Data/Profile 1/Safe Browsing/UrlMalware.store\n#\tAppData/Local/Microsoft/Edge/User\
+        \ Data/Profile 1/Safe Browsing/UrlUws.store\n#\tAppData/Local/Microsoft/Edge/User\
+        \ Data/Profile 1/Secure Preferences.backup\n#\tAppData/Local/Microsoft/Edge/User\
+        \ Data/Profile 1/Session Storage/000424.ldb\n#\tAppData/Local/Microsoft/Edge/User\
+        \ Data/Profile 1/Session Storage/000426.ldb\n#\tAppData/Local/Microsoft/Edge/User\
+        \ Data/Profile 1/Session Storage/000428.ldb\n#\tAppData/Local/Microsoft/Edge/User\
+        \ Data/Profile 1/Sessions/Session_13314235844285737\n#\tAppData/Local/Microsoft/Edge/User\
+        \ Data/Profile 1/Sessions/Session_13319890350831170\n#\tAppData/Local/Microsoft/Edge/User\
+        \ Data/Profile 1/Sessions/Session_13319890463624642\n#\tAppData/Local/Microsoft/Edge/User\
+        \ Data/Profile 1/Sessions/Tabs_13313379643033421\n#\tAppData/Local/Microsoft/Edge/User\
+        \ Data/Profile 1/Sessions/Tabs_13319890464007376\n#\tAppData/Local/Microsoft/Edge/User\
+        \ Data/Profile 1/Storage/ext/ihmafllikibpmigkcoadcmckbfhibefp/def/Network/Network\
+        \ Persistent State\n#\tAppData/Local/Microsoft/Edge/User Data/Profile 1/Top\
+        \ Sites\n#\tAppData/Local/Microsoft/Edge/User Data/Profile 1/Visited Links\n\
+        #\tAppData/Local/Microsoft/Edge/User Data/Profile 1/Vpn Tokens\n#\tAppData/Local/Microsoft/Edge/User\
+        \ Data/Profile 1/Web Applications/_crx__doojmbjmlfjjnbmnoijecmcbfeoakpjm/NoScript.ico.md5\n\
+        #\tAppData/Local/Microsoft/Edge/User Data/Profile 1/WebAssistDatabase\n#\t\
+        AppData/Local/Microsoft/Edge/User Data/Profile 1/WebStorage/QuotaManager\n\
+        #\tAppData/Local/Microsoft/Edge/User Data/Profile 1/arbitration_service_config.json\n\
+        #\tAppData/Local/Microsoft/Edge/User Data/Profile 1/browser.js\n#\tAppData/Local/Microsoft/Edge/User\
+        \ Data/Profile 1/default_partner_content.json\n#\tAppData/Local/Microsoft/Edge/User\
+        \ Data/Profile 1/opera_shutdown_ms.txt\n#\tAppData/Local/Microsoft/Edge/User\
+        \ Data/Profile 1/partner_speeddials.json\n#\tAppData/Local/Microsoft/Edge/User\
+        \ Data/Profile 1/siteprefs.json\n#\tAppData/Local/Microsoft/Edge/User Data/Profile\
+        \ 1/suggestions_cache.json\n#\tAppData/Local/Microsoft/Edge/User Data/Profile\
+        \ 10/Bookmarks\n#\tAppData/Local/Microsoft/Edge/User Data/Profile 10/History\n\
+        #\tAppData/Local/Microsoft/Edge/User Data/Profile 10/Preferences\n#\tAppData/Local/Microsoft/Edge/User\
+        \ Data/Profile 10/Sessions/Session_13274814385598159\n#\tAppData/Local/Microsoft/Edge/User\
+        \ Data/Profile 10/Sessions/Session_13276130261858544\n#\tAppData/Local/Microsoft/Edge/User\
+        \ Data/Profile 10/Sessions/Tabs_13274721516693562\n#\tAppData/Local/Microsoft/Edge/User\
+        \ Data/Profile 10/Sessions/Tabs_13276130262669523\n#\tAppData/Local/Microsoft/Edge/User\
+        \ Data/Profile 10/Top Sites\n#\tAppData/Local/Microsoft/Edge/User Data/Profile\
+        \ 11/History\n#\tAppData/Local/Microsoft/Edge/User Data/Profile 11/Preferences\n\
+        #\tAppData/Local/Microsoft/Edge/User Data/Profile 11/Sessions/Session_13274794291907882\n\
+        #\tAppData/Local/Microsoft/Edge/User Data/Profile 11/Sessions/Tabs_13274794325597510\n\
+        #\tAppData/Local/Microsoft/Edge/User Data/Profile 11/Top Sites\n#\tAppData/Local/Microsoft/Edge/User\
+        \ Data/Profile 12/Bookmarks\n#\tAppData/Local/Microsoft/Edge/User Data/Profile\
+        \ 12/History\n#\tAppData/Local/Microsoft/Edge/User Data/Profile 12/Preferences\n\
+        #\tAppData/Local/Microsoft/Edge/User Data/Profile 12/Sessions/Session_13274870955067574\n\
+        #\tAppData/Local/Microsoft/Edge/User Data/Profile 12/Sessions/Tabs_13274871039216530\n\
+        #\tAppData/Local/Microsoft/Edge/User Data/Profile 12/Top Sites\n#\tAppData/Local/Microsoft/Edge/User\
+        \ Data/Profile 13/Bookmarks\n#\tAppData/Local/Microsoft/Edge/User Data/Profile\
+        \ 13/History\n#\tAppData/Local/Microsoft/Edge/User Data/Profile 13/Preferences\n\
+        #\tAppData/Local/Microsoft/Edge/User Data/Profile 13/Sessions/Session_13274871118328122\n\
+        #\tAppData/Local/Microsoft/Edge/User Data/Profile 13/Sessions/Tabs_13274871202724302\n\
+        #\tAppData/Local/Microsoft/Edge/User Data/Profile 13/Top Sites\n#\tAppData/Local/Microsoft/Edge/User\
+        \ Data/Profile 14/Bookmarks\n#\tAppData/Local/Microsoft/Edge/User Data/Profile\
+        \ 14/History\n#\tAppData/Local/Microsoft/Edge/User Data/Profile 14/History-journal\n\
+        #\tAppData/Local/Microsoft/Edge/User Data/Profile 14/Preferences\n#\tAppData/Local/Microsoft/Edge/User\
+        \ Data/Profile 14/Sessions/Session_13276528826365976\n#\tAppData/Local/Microsoft/Edge/User\
+        \ Data/Profile 14/Sessions/Session_13277039602718834\n#\tAppData/Local/Microsoft/Edge/User\
+        \ Data/Profile 14/Sessions/Tabs_13276528827034422\n#\tAppData/Local/Microsoft/Edge/User\
+        \ Data/Profile 14/Sessions/Tabs_13277039603751283\n#\tAppData/Local/Microsoft/Edge/User\
+        \ Data/Profile 14/Top Sites\n#\tAppData/Local/Microsoft/Edge/User Data/Profile\
+        \ 15/Preferences\n#\tAppData/Local/Microsoft/Edge/User Data/Profile 15/Sessions/Session_13276288472240908\n\
+        #\tAppData/Local/Microsoft/Edge/User Data/Profile 15/Sessions/Session_13276957121185990\n\
+        #\tAppData/Local/Microsoft/Edge/User Data/Profile 15/Sessions/Tabs_13276129619994181\n\
+        #\tAppData/Local/Microsoft/Edge/User Data/Profile 15/Sessions/Tabs_13276289766541091\n\
+        #\tAppData/Local/Microsoft/Edge/User Data/Profile 15/Top Sites\n#\tAppData/Local/Microsoft/Edge/User\
+        \ Data/Profile 16/Bookmarks\n#\tAppData/Local/Microsoft/Edge/User Data/Profile\
+        \ 16/History\n#\tAppData/Local/Microsoft/Edge/User Data/Profile 16/Preferences\n\
+        #\tAppData/Local/Microsoft/Edge/User Data/Profile 16/Sessions/Session_13275837460268427\n\
+        #\tAppData/Local/Microsoft/Edge/User Data/Profile 16/Sessions/Session_13275837496561209\n\
+        #\tAppData/Local/Microsoft/Edge/User Data/Profile 16/Sessions/Tabs_13275837190135767\n\
+        #\tAppData/Local/Microsoft/Edge/User Data/Profile 16/Top Sites\n#\tAppData/Local/Microsoft/Edge/User\
+        \ Data/Profile 17/History\n#\tAppData/Local/Microsoft/Edge/User Data/Profile\
+        \ 17/Preferences\n#\tAppData/Local/Microsoft/Edge/User Data/Profile 17/Sessions/Session_13275836718822492\n\
+        #\tAppData/Local/Microsoft/Edge/User Data/Profile 17/Sessions/Tabs_13275837193599008\n\
+        #\tAppData/Local/Microsoft/Edge/User Data/Profile 17/Top Sites\n#\tAppData/Local/Microsoft/Edge/User\
+        \ Data/Profile 18/Bookmarks\n#\tAppData/Local/Microsoft/Edge/User Data/Profile\
+        \ 18/History\n#\tAppData/Local/Microsoft/Edge/User Data/Profile 18/Preferences\n\
+        #\tAppData/Local/Microsoft/Edge/User Data/Profile 18/Sessions/Session_13275838303872600\n\
+        #\tAppData/Local/Microsoft/Edge/User Data/Profile 18/Sessions/Session_13276005791412559\n\
+        #\tAppData/Local/Microsoft/Edge/User Data/Profile 18/Sessions/Tabs_13275838474621168\n\
+        #\tAppData/Local/Microsoft/Edge/User Data/Profile 18/Top Sites\n#\tAppData/Local/Microsoft/Edge/User\
+        \ Data/Profile 19/Bookmarks\n#\tAppData/Local/Microsoft/Edge/User Data/Profile\
+        \ 19/History\n#\tAppData/Local/Microsoft/Edge/User Data/Profile 19/Preferences\n\
+        #\tAppData/Local/Microsoft/Edge/User Data/Profile 19/Sessions/Session_13275844831783371\n\
+        #\tAppData/Local/Microsoft/Edge/User Data/Profile 19/Sessions/Session_13275948234998858\n\
+        #\tAppData/Local/Microsoft/Edge/User Data/Profile 19/Sessions/Tabs_13275842745628175\n\
+        #\tAppData/Local/Microsoft/Edge/User Data/Profile 19/Top Sites\n#\tAppData/Local/Microsoft/Edge/User\
+        \ Data/Profile 2/AssistanceHome/AssistanceHomeSQLite\n#\tAppData/Local/Microsoft/Edge/User\
+        \ Data/Profile 2/DashTrackerDatabase\n#\tAppData/Local/Microsoft/Edge/User\
+        \ Data/Profile 2/EntityExtraction/domains_config.json\n#\tAppData/Local/Microsoft/Edge/User\
+        \ Data/Profile 2/Extension Cookies\n#\tAppData/Local/Microsoft/Edge/User Data/Profile\
+        \ 2/ExtensionActivityComp\n#\tAppData/Local/Microsoft/Edge/User Data/Profile\
+        \ 2/ExtensionActivityEdge\n#\tAppData/Local/Microsoft/Edge/User Data/Profile\
+        \ 2/Network Action Predictor\n#\tAppData/Local/Microsoft/Edge/User Data/Profile\
+        \ 2/Network/Network Persistent State\n#\tAppData/Local/Microsoft/Edge/User\
+        \ Data/Profile 2/Nurturing/campaign_history\n#\tAppData/Local/Microsoft/Edge/User\
+        \ Data/Profile 2/Preferences\n#\tAppData/Local/Microsoft/Edge/User Data/Profile\
+        \ 2/PreferredApps\n#\tAppData/Local/Microsoft/Edge/User Data/Profile 2/Session\
+        \ Storage/000019.ldb\n#\tAppData/Local/Microsoft/Edge/User Data/Profile 2/Sessions/Session_13276873438721281\n\
+        #\tAppData/Local/Microsoft/Edge/User Data/Profile 2/Sessions/Session_13277039611060745\n\
+        #\tAppData/Local/Microsoft/Edge/User Data/Profile 2/Sessions/Session_13294411794786920\n\
+        #\tAppData/Local/Microsoft/Edge/User Data/Profile 2/Sessions/Session_13299852341912420\n\
+        #\tAppData/Local/Microsoft/Edge/User Data/Profile 2/Sessions/Session_13320145148571110\n\
+        #\tAppData/Local/Microsoft/Edge/User Data/Profile 2/Sessions/Tabs_13276160675091351\n\
+        #\tAppData/Local/Microsoft/Edge/User Data/Profile 2/Sessions/Tabs_13277039616161807\n\
+        #\tAppData/Local/Microsoft/Edge/User Data/Profile 2/Sessions/Tabs_13294165287655825\n\
+        #\tAppData/Local/Microsoft/Edge/User Data/Profile 2/Sessions/Tabs_13299848653380483\n\
+        #\tAppData/Local/Microsoft/Edge/User Data/Profile 2/Sessions/Tabs_13320145148650142\n\
+        #\tAppData/Local/Microsoft/Edge/User Data/Profile 2/Sessions/Tabs_13320258945170157\n\
+        #\tAppData/Local/Microsoft/Edge/User Data/Profile 2/SiteList.xml\n#\tAppData/Local/Microsoft/Edge/User\
+        \ Data/Profile 2/Top Sites\n#\tAppData/Local/Microsoft/Edge/User Data/Profile\
+        \ 2/Visited Links\n#\tAppData/Local/Microsoft/Edge/User Data/Profile 2/WebAssistDatabase\n\
+        #\tAppData/Local/Microsoft/Edge/User Data/Profile 2/WebStorage/QuotaManager\n\
+        #\tAppData/Local/Microsoft/Edge/User Data/Profile 2/shared_proto_db/000005.ldb\n\
+        #\tAppData/Local/Microsoft/Edge/User Data/Profile 2/shared_proto_db/000016.ldb\n\
+        #\tAppData/Local/Microsoft/Edge/User Data/Profile 20/Bookmarks\n#\tAppData/Local/Microsoft/Edge/User\
+        \ Data/Profile 20/History\n#\tAppData/Local/Microsoft/Edge/User Data/Profile\
+        \ 20/Preferences\n#\tAppData/Local/Microsoft/Edge/User Data/Profile 20/Sessions/Session_13275842945756180\n\
+        #\tAppData/Local/Microsoft/Edge/User Data/Profile 20/Sessions/Session_13275843037475594\n\
+        #\tAppData/Local/Microsoft/Edge/User Data/Profile 20/Sessions/Tabs_13275839090352429\n\
+        #\tAppData/Local/Microsoft/Edge/User Data/Profile 20/Top Sites\n#\tAppData/Local/Microsoft/Edge/User\
+        \ Data/Profile 21/History\n#\tAppData/Local/Microsoft/Edge/User Data/Profile\
+        \ 21/History-journal\n#\tAppData/Local/Microsoft/Edge/User Data/Profile 21/Preferences\n\
+        #\tAppData/Local/Microsoft/Edge/User Data/Profile 21/Sessions/Session_13276691292460354\n\
+        #\tAppData/Local/Microsoft/Edge/User Data/Profile 21/Sessions/Session_13277040581311507\n\
+        #\tAppData/Local/Microsoft/Edge/User Data/Profile 21/Sessions/Tabs_13276527760229594\n\
+        #\tAppData/Local/Microsoft/Edge/User Data/Profile 21/Sessions/Tabs_13277040581724629\n\
+        #\tAppData/Local/Microsoft/Edge/User Data/Profile 21/Top Sites\n#\tAppData/Local/Microsoft/Edge/User\
+        \ Data/Profile 22/Preferences\n#\tAppData/Local/Microsoft/Edge/User Data/Profile\
+        \ 22/Sessions/Session_13276727953680203\n#\tAppData/Local/Microsoft/Edge/User\
+        \ Data/Profile 22/Sessions/Tabs_13276727717626325\n#\tAppData/Local/Microsoft/Edge/User\
+        \ Data/Profile 22/Top Sites\n#\tAppData/Local/Microsoft/Edge/User Data/Profile\
+        \ 23/History\n#\tAppData/Local/Microsoft/Edge/User Data/Profile 23/Preferences\n\
+        #\tAppData/Local/Microsoft/Edge/User Data/Profile 23/Sessions/Session_13276277358999959\n\
+        #\tAppData/Local/Microsoft/Edge/User Data/Profile 23/Sessions/Tabs_13276280306923737\n\
+        #\tAppData/Local/Microsoft/Edge/User Data/Profile 23/Top Sites\n#\tAppData/Local/Microsoft/Edge/User\
+        \ Data/Profile 24/History\n#\tAppData/Local/Microsoft/Edge/User Data/Profile\
+        \ 24/Preferences\n#\tAppData/Local/Microsoft/Edge/User Data/Profile 24/Sessions/Session_13276277370226108\n\
+        #\tAppData/Local/Microsoft/Edge/User Data/Profile 24/Sessions/Tabs_13276280304851252\n\
+        #\tAppData/Local/Microsoft/Edge/User Data/Profile 24/Top Sites\n#\tAppData/Local/Microsoft/Edge/User\
+        \ Data/Profile 25/Preferences\n#\tAppData/Local/Microsoft/Edge/User Data/Profile\
+        \ 25/Sessions/Session_13276849286693172\n#\tAppData/Local/Microsoft/Edge/User\
+        \ Data/Profile 25/Sessions/Tabs_13276848285444781\n#\tAppData/Local/Microsoft/Edge/User\
+        \ Data/Profile 25/Top Sites\n#\tAppData/Local/Microsoft/Edge/User Data/Profile\
+        \ 26/History\n#\tAppData/Local/Microsoft/Edge/User Data/Profile 26/Preferences\n\
+        #\tAppData/Local/Microsoft/Edge/User Data/Profile 26/Sessions/Session_13276277613928820\n\
+        #\tAppData/Local/Microsoft/Edge/User Data/Profile 26/Sessions/Tabs_13276280300241153\n\
+        #\tAppData/Local/Microsoft/Edge/User Data/Profile 26/Top Sites\n#\tAppData/Local/Microsoft/Edge/User\
+        \ Data/Profile 27/History\n#\tAppData/Local/Microsoft/Edge/User Data/Profile\
+        \ 27/Preferences\n#\tAppData/Local/Microsoft/Edge/User Data/Profile 27/Sessions/Session_13276277700953765\n\
+        #\tAppData/Local/Microsoft/Edge/User Data/Profile 27/Sessions/Tabs_13276280297387870\n\
+        #\tAppData/Local/Microsoft/Edge/User Data/Profile 27/Top Sites\n#\tAppData/Local/Microsoft/Edge/User\
+        \ Data/Profile 28/History\n#\tAppData/Local/Microsoft/Edge/User Data/Profile\
+        \ 28/Preferences\n#\tAppData/Local/Microsoft/Edge/User Data/Profile 28/Sessions/Session_13276530295603786\n\
+        #\tAppData/Local/Microsoft/Edge/User Data/Profile 28/Sessions/Tabs_13276531680498893\n\
+        #\tAppData/Local/Microsoft/Edge/User Data/Profile 28/Top Sites\n#\tAppData/Local/Microsoft/Edge/User\
+        \ Data/Profile 3/AssistanceHome/AssistanceHomeSQLite\n#\tAppData/Local/Microsoft/Edge/User\
+        \ Data/Profile 3/DashTrackerDatabase\n#\tAppData/Local/Microsoft/Edge/User\
+        \ Data/Profile 3/EntityExtraction/domains_config.json\n#\tAppData/Local/Microsoft/Edge/User\
+        \ Data/Profile 3/Extension State/000005.ldb\n#\tAppData/Local/Microsoft/Edge/User\
+        \ Data/Profile 3/Extension State/000036.ldb\n#\tAppData/Local/Microsoft/Edge/User\
+        \ Data/Profile 3/Extension State/000038.ldb\n#\tAppData/Local/Microsoft/Edge/User\
+        \ Data/Profile 3/Extension State/000040.ldb\n#\tAppData/Local/Microsoft/Edge/User\
+        \ Data/Profile 3/ExtensionActivityComp\n#\tAppData/Local/Microsoft/Edge/User\
+        \ Data/Profile 3/ExtensionActivityEdge\n#\tAppData/Local/Microsoft/Edge/User\
+        \ Data/Profile 3/HubApps\n#\tAppData/Local/Microsoft/Edge/User Data/Profile\
+        \ 3/HubApps Icons\n#\tAppData/Local/Microsoft/Edge/User Data/Profile 3/Network\
+        \ Action Predictor\n#\tAppData/Local/Microsoft/Edge/User Data/Profile 3/Network/Network\
+        \ Persistent State\n#\tAppData/Local/Microsoft/Edge/User Data/Profile 3/Nurturing/campaign_history\n\
+        #\tAppData/Local/Microsoft/Edge/User Data/Profile 3/Preferences\n#\tAppData/Local/Microsoft/Edge/User\
+        \ Data/Profile 3/PreferredApps\n#\tAppData/Local/Microsoft/Edge/User Data/Profile\
+        \ 3/Sessions/Session_13276935185678308\n#\tAppData/Local/Microsoft/Edge/User\
+        \ Data/Profile 3/Sessions/Session_13276979459179637\n#\tAppData/Local/Microsoft/Edge/User\
+        \ Data/Profile 3/Sessions/Session_13299235688093418\n#\tAppData/Local/Microsoft/Edge/User\
+        \ Data/Profile 3/Sessions/Session_13299237867304147\n#\tAppData/Local/Microsoft/Edge/User\
+        \ Data/Profile 3/Sessions/Tabs_13276142283123655\n#\tAppData/Local/Microsoft/Edge/User\
+        \ Data/Profile 3/Sessions/Tabs_13276979462086869\n#\tAppData/Local/Microsoft/Edge/User\
+        \ Data/Profile 3/Sessions/Tabs_13299074450740007\n#\tAppData/Local/Microsoft/Edge/User\
+        \ Data/Profile 3/Sessions/Tabs_13299101108338919\n#\tAppData/Local/Microsoft/Edge/User\
+        \ Data/Profile 3/Top Sites\n#\tAppData/Local/Microsoft/Edge/User Data/Profile\
+        \ 3/Visited Links\n#\tAppData/Local/Microsoft/Edge/User Data/Profile 3/Web\
+        \ Applications/_crx__idfbjjfgccflicphjlpbomcklaehplha/Visual bookmarks.ico.md5\n\
+        #\tAppData/Local/Microsoft/Edge/User Data/Profile 3/WebAssistDatabase\n#\t\
+        AppData/Local/Microsoft/Edge/User Data/Profile 3/WebStorage/QuotaManager\n\
+        #\tAppData/Local/Microsoft/Edge/User Data/Profile 30/Network Action Predictor\n\
+        #\tAppData/Local/Microsoft/Edge/User Data/Profile 30/Network/Network Persistent\
+        \ State\n#\tAppData/Local/Microsoft/Edge/User Data/Profile 30/Preferences\n\
+        #\tAppData/Local/Microsoft/Edge/User Data/Profile 30/QuotaManager\n#\tAppData/Local/Microsoft/Edge/User\
+        \ Data/Profile 30/Top Sites\n#\tAppData/Local/Microsoft/Edge/User Data/Profile\
+        \ 30/WebAssistDatabase\n#\tAppData/Local/Microsoft/Edge/User Data/Profile\
+        \ 4/AssistanceHome/AssistanceHomeSQLite\n#\tAppData/Local/Microsoft/Edge/User\
+        \ Data/Profile 4/Bookmarks\n#\tAppData/Local/Microsoft/Edge/User Data/Profile\
+        \ 4/ExtensionActivityComp\n#\tAppData/Local/Microsoft/Edge/User Data/Profile\
+        \ 4/ExtensionActivityEdge\n#\tAppData/Local/Microsoft/Edge/User Data/Profile\
+        \ 4/History-journal\n#\tAppData/Local/Microsoft/Edge/User Data/Profile 4/Network\
+        \ Action Predictor\n#\tAppData/Local/Microsoft/Edge/User Data/Profile 4/Network/Network\
+        \ Persistent State\n#\tAppData/Local/Microsoft/Edge/User Data/Profile 4/Nurturing/campaign_history\n\
+        #\tAppData/Local/Microsoft/Edge/User Data/Profile 4/Preferences\n#\tAppData/Local/Microsoft/Edge/User\
+        \ Data/Profile 4/QuotaManager\n#\tAppData/Local/Microsoft/Edge/User Data/Profile\
+        \ 4/Sessions/Session_13274865068957942\n#\tAppData/Local/Microsoft/Edge/User\
+        \ Data/Profile 4/Sessions/Session_13276006035506947\n#\tAppData/Local/Microsoft/Edge/User\
+        \ Data/Profile 4/Sessions/Session_13294165021797147\n#\tAppData/Local/Microsoft/Edge/User\
+        \ Data/Profile 4/Sessions/Tabs_13274806097009554\n#\tAppData/Local/Microsoft/Edge/User\
+        \ Data/Profile 4/Sessions/Tabs_13276006036843100\n#\tAppData/Local/Microsoft/Edge/User\
+        \ Data/Profile 4/Sessions/Tabs_13294165019822123\n#\tAppData/Local/Microsoft/Edge/User\
+        \ Data/Profile 4/SiteList.xml\n#\tAppData/Local/Microsoft/Edge/User Data/Profile\
+        \ 4/Top Sites\n#\tAppData/Local/Microsoft/Edge/User Data/Profile 4/Visited\
+        \ Links\n#\tAppData/Local/Microsoft/Edge/User Data/Profile 4/WebAssistDatabase\n\
+        #\tAppData/Local/Microsoft/Edge/User Data/Profile 5/AssistanceHome/AssistanceHomeSQLite\n\
+        #\tAppData/Local/Microsoft/Edge/User Data/Profile 5/ExtensionActivityComp\n\
+        #\tAppData/Local/Microsoft/Edge/User Data/Profile 5/ExtensionActivityEdge\n\
+        #\tAppData/Local/Microsoft/Edge/User Data/Profile 5/History\n#\tAppData/Local/Microsoft/Edge/User\
+        \ Data/Profile 5/History-journal\n#\tAppData/Local/Microsoft/Edge/User Data/Profile\
+        \ 5/Network Action Predictor\n#\tAppData/Local/Microsoft/Edge/User Data/Profile\
+        \ 5/Network/Network Persistent State\n#\tAppData/Local/Microsoft/Edge/User\
+        \ Data/Profile 5/Nurturing/campaign_history\n#\tAppData/Local/Microsoft/Edge/User\
+        \ Data/Profile 5/Preferences\n#\tAppData/Local/Microsoft/Edge/User Data/Profile\
+        \ 5/QuotaManager\n#\tAppData/Local/Microsoft/Edge/User Data/Profile 5/Sessions/Session_13276723983820837\n\
+        #\tAppData/Local/Microsoft/Edge/User Data/Profile 5/Sessions/Session_13277078025152492\n\
+        #\tAppData/Local/Microsoft/Edge/User Data/Profile 5/Sessions/Session_13294165044644166\n\
+        #\tAppData/Local/Microsoft/Edge/User Data/Profile 5/Sessions/Tabs_13276681493476393\n\
+        #\tAppData/Local/Microsoft/Edge/User Data/Profile 5/Sessions/Tabs_13277039565667853\n\
+        #\tAppData/Local/Microsoft/Edge/User Data/Profile 5/SiteList.xml\n#\tAppData/Local/Microsoft/Edge/User\
+        \ Data/Profile 5/Top Sites\n#\tAppData/Local/Microsoft/Edge/User Data/Profile\
+        \ 5/Visited Links\n#\tAppData/Local/Microsoft/Edge/User Data/Profile 5/WebAssistDatabase\n\
+        #\tAppData/Local/Microsoft/Edge/User Data/Profile 6/Preferences\n#\tAppData/Local/Microsoft/Edge/User\
+        \ Data/Profile 6/Sessions/Session_13275838098679795\n#\tAppData/Local/Microsoft/Edge/User\
+        \ Data/Profile 6/Sessions/Session_13275838165986224\n#\tAppData/Local/Microsoft/Edge/User\
+        \ Data/Profile 6/Sessions/Tabs_13274722575534724\n#\tAppData/Local/Microsoft/Edge/User\
+        \ Data/Profile 6/Sessions/Tabs_13275837575276121\n#\tAppData/Local/Microsoft/Edge/User\
+        \ Data/Profile 6/Top Sites\n#\tAppData/Local/Microsoft/Edge/User Data/Profile\
+        \ 7/Bookmarks\n#\tAppData/Local/Microsoft/Edge/User Data/Profile 7/History\n\
+        #\tAppData/Local/Microsoft/Edge/User Data/Profile 7/Preferences\n#\tAppData/Local/Microsoft/Edge/User\
+        \ Data/Profile 7/Sessions/Session_13275050699281121\n#\tAppData/Local/Microsoft/Edge/User\
+        \ Data/Profile 7/Sessions/Session_13276009345832266\n#\tAppData/Local/Microsoft/Edge/User\
+        \ Data/Profile 7/Sessions/Tabs_13274958428900720\n#\tAppData/Local/Microsoft/Edge/User\
+        \ Data/Profile 7/Sessions/Tabs_13276005896193289\n#\tAppData/Local/Microsoft/Edge/User\
+        \ Data/Profile 7/Top Sites\n#\tAppData/Local/Microsoft/Edge/User Data/Profile\
+        \ 8/History-journal\n#\tAppData/Local/Microsoft/Edge/User Data/Profile 8/Preferences\n\
+        #\tAppData/Local/Microsoft/Edge/User Data/Profile 8/Sessions/Session_13275517709261581\n\
+        #\tAppData/Local/Microsoft/Edge/User Data/Profile 8/Sessions/Session_13275757894967730\n\
+        #\tAppData/Local/Microsoft/Edge/User Data/Profile 8/Sessions/Tabs_13275443385646887\n\
+        #\tAppData/Local/Microsoft/Edge/User Data/Profile 8/Sessions/Tabs_13275757895440044\n\
+        #\tAppData/Local/Microsoft/Edge/User Data/Profile 8/Top Sites\n#\tAppData/Local/Microsoft/Edge/User\
+        \ Data/Profile 9/Bookmarks\n#\tAppData/Local/Microsoft/Edge/User Data/Profile\
+        \ 9/History\n#\tAppData/Local/Microsoft/Edge/User Data/Profile 9/Preferences\n\
+        #\tAppData/Local/Microsoft/Edge/User Data/Profile 9/Sessions/Session_13276957054783166\n\
+        #\tAppData/Local/Microsoft/Edge/User Data/Profile 9/Sessions/Tabs_13274721508207214\n\
+        #\tAppData/Local/Microsoft/Edge/User Data/Profile 9/Sessions/Tabs_13276957055308544\n\
+        #\tAppData/Local/Microsoft/Edge/User Data/Profile 9/Top Sites\n#\tAppData/Local/Microsoft/Edge/User\
+        \ Data/SafetyTips/2888/_metadata/verified_contents.json\n#\tAppData/Local/Microsoft/Edge/User\
+        \ Data/SafetyTips/2888/safety_tips.pb\n#\tAppData/Local/Microsoft/Edge/User\
+        \ Data/SafetyTips/2888/typosquatting_list.pb\n#\tAppData/Local/Microsoft/Edge/User\
+        \ Data/SafetyTips/2889/_metadata/verified_contents.json\n#\tAppData/Local/Microsoft/Edge/User\
+        \ Data/SafetyTips/2889/safety_tips.pb\n#\tAppData/Local/Microsoft/Edge/User\
+        \ Data/SafetyTips/2889/typosquatting_list.pb\n#\tAppData/Local/Microsoft/Edge/User\
+        \ Data/SafetyTips/2890/_metadata/verified_contents.json\n#\tAppData/Local/Microsoft/Edge/User\
+        \ Data/SafetyTips/2890/safety_tips.pb\n#\tAppData/Local/Microsoft/Edge/User\
+        \ Data/SafetyTips/2890/typosquatting_list.pb\n#\tAppData/Local/Microsoft/Edge/User\
+        \ Data/SafetyTips/2892/_metadata/verified_contents.json\n#\tAppData/Local/Microsoft/Edge/User\
+        \ Data/SafetyTips/2892/safety_tips.pb\n#\tAppData/Local/Microsoft/Edge/User\
+        \ Data/SafetyTips/2892/typosquatting_list.pb\n#\tAppData/Local/Microsoft/Edge/User\
+        \ Data/SafetyTips/2894/_metadata/verified_contents.json\n#\tAppData/Local/Microsoft/Edge/User\
+        \ Data/SafetyTips/2894/safety_tips.pb\n#\tAppData/Local/Microsoft/Edge/User\
+        \ Data/SafetyTips/2894/typosquatting_list.pb\n#\tAppData/Local/Microsoft/Edge/User\
+        \ Data/SafetyTips/2896/_metadata/verified_contents.json\n#\tAppData/Local/Microsoft/Edge/User\
+        \ Data/SafetyTips/2896/safety_tips.pb\n#\tAppData/Local/Microsoft/Edge/User\
+        \ Data/SafetyTips/2896/typosquatting_list.pb\n#\tAppData/Local/Microsoft/Edge/User\
+        \ Data/SafetyTips/2924/_metadata/verified_contents.json\n#\tAppData/Local/Microsoft/Edge/User\
+        \ Data/SafetyTips/2924/safety_tips.pb\n#\tAppData/Local/Microsoft/Edge/User\
+        \ Data/SafetyTips/2924/typosquatting_list.pb\n#\tAppData/Local/Microsoft/Edge/User\
+        \ Data/Web Notifications Deny List/1.1.0.3/deny_domains.list\n#\tAppData/Local/Microsoft/Edge/User\
+        \ Data/WidevineCdm/4.10.2557.0/_metadata/verified_contents.json\n#\tAppData/Local/Microsoft/Edge/User\
+        \ Data/WidevineCdm/4.10.2557.0/_platform_specific/win_x64/widevinecdm.dll.sig\n\
+        #\tAppData/Local/Microsoft/Edge/User Data/WorkspacesNavigationComponent/1.0.0.2/nav_config.json\n\
+        #\tAppData/Local/Microsoft/Edge/User Data/ZxcvbnData/3.0.0.0/english_wikipedia.txt\n\
+        #\tAppData/Local/Microsoft/Edge/User Data/ZxcvbnData/3.0.0.0/female_names.txt\n\
+        #\tAppData/Local/Microsoft/Edge/User Data/ZxcvbnData/3.0.0.0/male_names.txt\n\
+        #\tAppData/Local/Microsoft/Edge/User Data/ZxcvbnData/3.0.0.0/passwords.txt\n\
+        #\tAppData/Local/Microsoft/Edge/User Data/ZxcvbnData/3.0.0.0/surnames.txt\n\
+        #\tAppData/Local/Microsoft/Edge/User Data/ZxcvbnData/3.0.0.0/us_tv_and_film.txt\n\
+        #\tAppData/Local/Microsoft/VSApplicationInsights/vstelAIF-312cbd79-9dbb-4c48-a7da-3cc2a931cb70/20220413155833_6a68a88f958b415b8b318ef8c4af5d63.trn\n\
+        #\tAppData/Local/Microsoft/VisualStudio/16.0_48846d7b/1033/devenv.CTM\n#\t\
+        AppData/Local/Microsoft/VisualStudio/16.0_48846d7b/ApplicationPrivateSettings.xml\n\
+        #\tAppData/Local/Microsoft/VisualStudio/16.0_48846d7b/InstalledTemplates.json\n\
+        #\tAppData/Local/Microsoft/VisualStudio/16.0_48846d7b/STemplate/.CacheInputsFingerprint\n\
+        #\tAppData/Local/Microsoft/VisualStudio/16.0_48846d7b/STemplate/000d8c80-140b-4ac8-996e-756ffa80d400/manifest.vstman\n\
+        #\tAppData/Local/Microsoft/VisualStudio/16.0_48846d7b/STemplate/000d8c80-140b-4ac8-996e-756ffa80d400/sptc.xml\n\
+        #\tAppData/Local/Microsoft/VisualStudio/16.0_48846d7b/Search/Index/SXRlbSB0ZW1wbGF0ZXMgc291cmNlIHByb3ZpZGVy.blob\n\
+        #\tAppData/Local/Microsoft/VisualStudio/16.0_48846d7b/Search/Index/T3B0aW9ucyBzb3VyY2UgcHJvdmlkZXI=.blob\n\
+        #\tAppData/Local/Microsoft/VisualStudio/16.0_48846d7b/Search/Index/U2V0dXAgc291cmNlIHByb3ZpZGVy.blob\n\
+        #\tAppData/Local/Microsoft/VisualStudio/16.0_48846d7b/Search/Index/UHJvamVjdCB0ZW1wbGF0ZXMgc291cmNlIHByb3ZpZGVy.blob\n\
+        #\tAppData/Local/Microsoft/VisualStudio/16.0_48846d7b/Settings/CurrentSettings-2023-01-11.vssettings\n\
+        #\tAppData/Local/Microsoft/VisualStudio/16.0_48846d7b/Settings/CurrentSettings.vssettings\n\
+        #\tAppData/Local/Microsoft/VisualStudio/16.0_48846d7b/TranslatedSnippets/SnippetImportTranslationErrors.txt\n\
+        #\tAppData/Local/Microsoft/VisualStudio/16.0_48846d7b/TranslatedSnippets/source.cs/SnippetTranslationTimeStamp.txt\n\
+        #\tAppData/Local/Microsoft/VisualStudio/16.0_48846d7b/devenv.exe.config\n\
+        #\tAppData/Local/Microsoft/VisualStudio/16.0_48846d7b/sdk.txt\n#\tAppData/Local/Microsoft/VisualStudio/16.0_48846d7b/toolbox.tbd\n\
+        #\tAppData/Local/Microsoft/VisualStudio/16.0_48846d7b/toolboxIndex.tbd\n#\t\
+        AppData/Local/Microsoft/VisualStudio/16.0_48846d7b/toolboxIndex_reset.tbd\n\
+        #\tAppData/Local/Microsoft/VisualStudio/16.0_48846d7b/toolbox_reset.tbd\n\
+        #\tAppData/Local/Microsoft/VisualStudio/17.0_45d92faf/Notifications/a0hovn2q.f2g\n\
+        #\tAppData/Local/Microsoft/VisualStudio/17.0_45d92faf/Notifications/fjltp2vx.mbr\n\
+        #\tAppData/Local/Microsoft/VisualStudio/Packages/_Channels/A0FE1051/catalog.json\n\
+        #\tAppData/Local/Microsoft/VisualStudio/Packages/_Instances/48846d7b/state.json\n\
+        #\tAppData/Local/Microsoft/Windows/UsrClass.dat{85ea39d4-d944-11ec-ad5a-18c04d987250}.TxR.1.regtrans-ms\n\
+        #\tAppData/Local/Microsoft/Windows/UsrClass.dat{85ea39d4-d944-11ec-ad5a-18c04d987250}.TxR.2.regtrans-ms\n\
+        #\tAppData/Local/Microsoft/Windows/UsrClass.dat{85ea39d4-d944-11ec-ad5a-18c04d987250}.TxR.blf\n\
+        #\tAppData/Local/Microsoft_Corporation/PowerShell_ISE.exe_StrongName_lw2v2vm3wmtzzpebq33gybmeoxukb04w/3.0.0.0/AutoSaveInformation/12556.xml\n\
+        #\tAppData/Local/Packages/Microsoft.WindowsTerminal_8wekyb3d8bbwe/LocalState/settings.json\n\
+        #\tAppData/Local/lbry/lbryum/lbc_mainnet/headers.REMOVED.git-id\n#\tAppData/Local/lf/lfrc\n\
+        #\tAppData/Local/nvim/after/ftplugin/css.lua\n#\tAppData/Local/nvim/after/ftplugin/html.lua\n\
+        #\tAppData/Local/nvim/after/ftplugin/javascript.lua\n#\tAppData/Local/nvim/after/ftplugin/markdown.lua\n\
+        #\tAppData/Local/nvim/after/syntax/markdown.vim\n#\tAppData/Local/nvim/autoload/functions.vim\n\
+        #\tAppData/Local/nvim/filetype.lua\n#\tAppData/Local/nvim/init.lua\n#\tAppData/Local/nvim/lua/user/alpha.lua\n\
+        #\tAppData/Local/nvim/lua/user/auto-session.lua\n#\tAppData/Local/nvim/lua/user/autocmd.lua\n\
+        #\tAppData/Local/nvim/lua/user/autopairs.lua\n#\tAppData/Local/nvim/lua/user/buffer-browser.lua\n\
+        #\tAppData/Local/nvim/lua/user/bufferline.lua\n#\tAppData/Local/nvim/lua/user/bullets.vim\n\
+        #\tAppData/Local/nvim/lua/user/catppuccin.lua\n#\tAppData/Local/nvim/lua/user/close-unused-buffers.lua\n\
+        #\tAppData/Local/nvim/lua/user/cmp.lua\n#\tAppData/Local/nvim/lua/user/colorizer.lua\n\
+        #\tAppData/Local/nvim/lua/user/colorscheme.lua\n#\tAppData/Local/nvim/lua/user/comment.lua\n\
+        #\tAppData/Local/nvim/lua/user/devicons.lua\n#\tAppData/Local/nvim/lua/user/dressing.lua\n\
+        #\tAppData/Local/nvim/lua/user/emmet.vim\n#\tAppData/Local/nvim/lua/user/essentials.lua\n\
+        #\tAppData/Local/nvim/lua/user/fterm.lua\n#\tAppData/Local/nvim/lua/user/gitsigns.lua\n\
+        #\tAppData/Local/nvim/lua/user/gomove.lua\n#\tAppData/Local/nvim/lua/user/grapple.lua\n\
+        #\tAppData/Local/nvim/lua/user/harpoon.lua\n#\tAppData/Local/nvim/lua/user/heirline.lua\n\
+        #\tAppData/Local/nvim/lua/user/hop.lua\n#\tAppData/Local/nvim/lua/user/hydra.lua\n\
+        #\tAppData/Local/nvim/lua/user/impatient.lua\n#\tAppData/Local/nvim/lua/user/indentline.lua\n\
+        #\tAppData/Local/nvim/lua/user/keymaps.lua\n#\tAppData/Local/nvim/lua/user/lab.lua\n\
+        #\tAppData/Local/nvim/lua/user/lightspeed.lua\n#\tAppData/Local/nvim/lua/user/lir.lua\n\
+        #\tAppData/Local/nvim/lua/user/live-command.lua\n#\tAppData/Local/nvim/lua/user/lsp/fidget.lua\n\
+        #\tAppData/Local/nvim/lua/user/lsp/handlers.lua\n#\tAppData/Local/nvim/lua/user/lsp/illuminate.lua\n\
+        #\tAppData/Local/nvim/lua/user/lsp/init.lua\n#\tAppData/Local/nvim/lua/user/lsp/lightbulb.lua\n\
+        #\tAppData/Local/nvim/lua/user/lsp/lsp-signature.lua\n#\tAppData/Local/nvim/lua/user/lsp/lspsaga.lua\n\
+        #\tAppData/Local/nvim/lua/user/lsp/mason.lua\n#\tAppData/Local/nvim/lua/user/lsp/null-ls.lua\n\
+        #\tAppData/Local/nvim/lua/user/lsp/nvim-navic.lua\n#\tAppData/Local/nvim/lua/user/lsp/utils/defer.lua\n\
+        #\tAppData/Local/nvim/lua/user/lsp/utils/documentcolors.lua\n#\tAppData/Local/nvim/lua/user/lualine.lua\n\
+        #\tAppData/Local/nvim/lua/user/luasnip.lua\n#\tAppData/Local/nvim/lua/user/mini-ai.lua\n\
+        #\tAppData/Local/nvim/lua/user/mini.lua\n#\tAppData/Local/nvim/lua/user/neo-tree.lua\n\
+        #\tAppData/Local/nvim/lua/user/neoclip.lua\n#\tAppData/Local/nvim/lua/user/neoscroll.lua\n\
+        #\tAppData/Local/nvim/lua/user/nvim-highlight-colors.lua\n#\tAppData/Local/nvim/lua/user/nvim-rooter.lua\n\
+        #\tAppData/Local/nvim/lua/user/nvim-surround.lua\n#\tAppData/Local/nvim/lua/user/nvim-tree.lua\n\
+        #\tAppData/Local/nvim/lua/user/options.lua\n#\tAppData/Local/nvim/lua/user/plugins.lua\n\
+        #\tAppData/Local/nvim/lua/user/pounce.lua\n#\tAppData/Local/nvim/lua/user/project.lua\n\
+        #\tAppData/Local/nvim/lua/user/session-lens.lua\n#\tAppData/Local/nvim/lua/user/session-manager.lua\n\
+        #\tAppData/Local/nvim/lua/user/sessions.lua\n#\tAppData/Local/nvim/lua/user/surround.lua\n\
+        #\tAppData/Local/nvim/lua/user/tabline.lua\n#\tAppData/Local/nvim/lua/user/telescope.lua\n\
+        #\tAppData/Local/nvim/lua/user/toggleterm.lua\n#\tAppData/Local/nvim/lua/user/tokyonight.lua\n\
+        #\tAppData/Local/nvim/lua/user/treesitter.lua\n#\tAppData/Local/nvim/lua/user/treesj.lua\n\
+        #\tAppData/Local/nvim/lua/user/various-textobjs.lua\n#\tAppData/Local/nvim/lua/user/vimwiki.vim\n\
+        #\tAppData/Local/nvim/lua/user/wiki.vim\n#\tAppData/Local/nvim/lua/user/workspaces.lua\n\
+        #\tAppData/Local/nvim/luasnippets/go.lua\n#\tAppData/Local/nvim/luasnippets/javascript.lua\n\
+        #\tAppData/Local/nvim/luasnippets/javascriptreact.lua\n#\tAppData/Local/nvim/luasnippets/lua.lua\n\
+        #\tAppData/Local/nvim/luasnippets/markdown.lua\n#\tAppData/Local/nvim/luasnippets/typescript.lua\n\
+        #\tAppData/Local/nvim/luasnippets/typescriptreact.lua\n#\tAppData/Local/nvim/snippets/html.json\n\
+        #\tAppData/Local/nvim/snippets/javascript/javascript.json\n#\tAppData/Local/nvim/snippets/javascript/react.json\n\
+        #\tAppData/Local/nvim/snippets/javascript/typescript.json\n#\tAppData/Local/nvim/snippets/markdown.json\n\
+        #\tAppData/Local/nvim/snippets/package.json\n#\tAppData/LocalLow/Team Nimbus/Cloud\
+        \ Meadow/1/autosavedata01.json\n#\tAppData/LocalLow/Team Nimbus/Cloud Meadow/1/autosavedata02.json\n\
+        #\tAppData/LocalLow/Team Nimbus/Cloud Meadow/1/autosavedata03.json\n#\tAppData/LocalLow/Team\
+        \ Nimbus/Cloud Meadow/1/autosavedata04.json\n#\tAppData/LocalLow/Team Nimbus/Cloud\
+        \ Meadow/1/autosavedata05.json\n#\tAppData/LocalLow/Team Nimbus/Cloud Meadow/1/autosavedata06.json\n\
+        #\tAppData/LocalLow/Team Nimbus/Cloud Meadow/1/saveSlotData.meta\n#\tAppData/LocalLow/Team\
+        \ Nimbus/Cloud Meadow/2/autosavedata01.json\n#\tAppData/LocalLow/Team Nimbus/Cloud\
+        \ Meadow/2/autosavedata02.json\n#\tAppData/LocalLow/Team Nimbus/Cloud Meadow/2/autosavedata03.json\n\
+        #\tAppData/LocalLow/Team Nimbus/Cloud Meadow/2/autosavedata04.json\n#\tAppData/LocalLow/Team\
+        \ Nimbus/Cloud Meadow/2/autosavedata05.json\n#\tAppData/LocalLow/Team Nimbus/Cloud\
+        \ Meadow/2/autosavedata06.json\n#\tAppData/LocalLow/Team Nimbus/Cloud Meadow/2/saveSlotData.meta\n\
+        #\tAppData/LocalLow/Team Nimbus/Cloud Meadow/ErrorReport/ErrorReportingInstructions.txt\n\
+        #\tAppData/LocalLow/Team Nimbus/Cloud Meadow/ErrorReport/ExceptionReport.txt\n\
+        #\tAppData/LocalLow/Team Nimbus/Cloud Meadow/ErrorReport/output_log.txt\n\
+        #\tAppData/LocalLow/Team Nimbus/Cloud Meadow/global.sav\n#\tAppData/LocalLow/Team\
+        \ Nimbus/Cloud Meadow/output_log.txt\n#\tAppData/LocalLow/Team Nimbus/Cloud\
+        \ Meadow/steam_autocloud.vdf\n#\tAppData/LocalLow/Team Nimbus/Cloud Meadow/worldSlotData.meta\n\
+        #\tAppData/Roaming/Everything\n#\tAppData/Roaming/JetBrains\n#\tAppData/Roaming/Microsoft/Windows/PowerShell\n\
+        #\tAppData/Roaming/Vortex\n#\tDocuments/Diablo II/GameLogs/D2230828.txt\n\
+        #\tDocuments/PowerShell\n#\tDocuments/WindowsPowerShell\n#\tscoop/persist"
+      - "asdzx\n\n# Conflicts:\n#\t.gitmodules\n#\tAppData/Roaming/Microsoft/Windows/PowerShell\n\
+        #\tAppData/Roaming/Vortex\n#\tAppData~HEAD\n#\tDocuments/WindowsPowerShell\n\
+        #\tDocuments~HEAD\n#\tscoop/persist"
+      - "etc\n\n# Conflicts:\n#\t.gitmodules\n#\tAppData~HEAD\n#\tDocuments~HEAD"
     journal: {}
   rootB:\PF\Archive\ToGit\scoopbucket-presist\Documents\PowerShell:
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1694417374592}
@@ -11396,7 +11830,12 @@ gitRootSettingsSet:
     merge:
       logRootSettings: {}
     push: {}
-    commitNotes: {}
+    commitNotes:
+      commitNotesHistory:
+      - state
+      - "Merge branch 'mandarin' into ownChanges\n\n# Conflicts:\n#\tPsReadLineIntial.ps1"
+      - etc
+      - x.git New; directory monitor triggered
     journal: {}
   rootB:\PF\Archive\ToGit\scoopbucket-presist\Documents\PowerShell\Scripts\EnableLinkedConnections.reg:
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1694417374637}
@@ -11438,7 +11877,13 @@ gitRootSettingsSet:
       logRootSettings: {}
     push: {}
     commitNotes:
-      commitNotesHistory: [state]
+      commitNotesHistory:
+      - |-
+        toVerify
+
+        moved in right place
+      - et
+      - state
     journal: {}
   rootB:\PF\Archive\ToGit\scoopbucket-presist\AppData\Roaming\JetBrains\DataGrip2021.1:
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1694417446787}
@@ -11639,7 +12084,8 @@ gitRootSettingsSet:
     merge:
       logRootSettings: {}
     push: {}
-    commitNotes: {}
+    commitNotes:
+      commitNotesHistory: [state]
     journal: {}
   rootB:\PF\Archive\ToGit\scoopbucket-presist\PowerShellCmdHist:
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1694421310263}
@@ -11669,7 +12115,8 @@ gitRootSettingsSet:
     merge:
       logRootSettings: {}
     push: {}
-    commitNotes: {}
+    commitNotes:
+      commitNotesHistory: [etc]
     journal: {}
   rootB:\PF\Archive\ToGit\scoopbucket-presist\Datagrip:
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1694424883739}
@@ -11769,10 +12216,504 @@ gitRootSettingsSet:
     merge:
       logRootSettings: {}
     push: {}
-    commitNotes: {}
+    commitNotes:
+      commitNotesHistory: [etc, after merge]
     journal: {}
   rootB:\PF\Archive\ToGit\scoopbucket-presist\AHK\ahk_config:
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1694425068279}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\Archive\ToGit\scoopbucket-presist\Documents\scoop\apps\scoop\current:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1694521578849}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes:
+      commitNotesHistory: [etc]
+    journal: {}
+  rootB:\PF\Archive\ToGit\scoopbucket-presist\JetBrains:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1694521668370}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\Archive\ToGit\scoopbucket-presist\JetBrains\DataGrip2021.1:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1694521668461}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\Archive\ToGit\scoopbucket-presist\JetBrains\datagrip2019.4:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1694521668416}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\Archive\ToGit\scoopbucket-presist\scripts\tmux-sensible:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1694521755222}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\Archive\ToGit\scoopbucket-presist\scripts\tmux-resurrect:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1694521762998}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\Archive\ToGit\scoopbucket-presist\scripts\tmux-better-mouse-mode:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1694521772228}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\Archive\ToGit\scoopbucket-presist\scripts\tmux-resurrect\lib\tmux-test:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1694521780749}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\Archive\ToGit\scoopbucket-presist\PortableProgramSuit:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1694521797287}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes:
+      commitNotesHistory: [etc]
+    journal: {}
+  rootB:\PF\Archive\ToGit\scoopbucket-presist\BashHistory:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1694522347722}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\Archive\ToGit\scoopbucket-presist\AppData:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1694523537246}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes:
+      commitNotesHistory: [deduped, etc]
+    journal: {}
+  rootB:\PF\Archive\ToGit\scoopbucket-presist\Documents:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1694523731689}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes:
+      commitNotesHistory: [esa, etc, other arrog, state]
+    journal: {}
+  rootB:\PF\Archive\ToGit\scoopbucket-presist\My Games\7DaysToDie:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1694528153999}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes:
+      commitNotesHistory: [etc]
+    journal: {}
+  rootB:\PF\Archive\ToGit\scoopbucket-presist\VisualStudio:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1694524350249}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes:
+      commitNotesHistory: [state, etc]
+    journal: {}
+  rootB:\PF\Archive\ToGit\scoopbucket-presist\VisualStudio\InvalidMarkup:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1694524438162}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\Archive\ToGit\scoopbucket-presist\VisualStudio\DataBindingDemo:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1694524445796}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes:
+      commitNotesHistory: [etc]
+    journal: {}
+  rootB:\PF\Archive\ToGit\scoopbucket-presist\VisualStudio\DataBindingDemoSparse:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1694524466598}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes:
+      commitNotesHistory: [etc]
+    journal: {}
+  rootB:\PF\Archive\ToGit\scoopbucket-presist\VisualStudio\karlstad2Calc_Lotto:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1694524482523}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\Archive\ToGit\scoopbucket-presist\VisualStudio\upg11:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1694524494123}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\Archive\ToGit\scoopbucket-presist\VisualStudio\WIthoutStudio:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1694524501375}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\Archive\ToGit\scoopbucket-presist\VisualStudio\WPF-Samples:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1694524507018}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes:
+      commitNotesHistory:
+      - |-
+        Merge pull request #440 from rchauhan18/fixingSubmitbutton
+
+        Fix User can Add Product without Item description.
+    journal: {}
+  rootB:\PF\Archive\ToGit\scoopbucket-presist\VisualStudio\8691414\WpfApp4:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1694524513867}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\Archive\ToGit\scoopbucket-presist\VisualStudio\Boras2\PetStore:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1694524522561}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\Archive\ToGit\scoopbucket-presist\VisualStudio\Boras2\Project\WPF-EF6-Sqlite:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1694524533850}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes:
+      commitNotesHistory: [Push ro da]
+    journal: {}
+  rootB:\PF\Archive\ToGit\scoopbucket-presist\VisualStudio\karlstad3\Calculator_CBrobäck:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1694524549362}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes:
+      commitNotesHistory: [etc]
+    journal: {}
+  rootB:\PF\Archive\ToGit\scoopbucket-presist\Scooter Software\Beyond Compare 4:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1694525238095}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\Archive\ToGit\scoopbucket-presist\My Games\x7DaysToDie:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1694529386330}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\Archive\ToGit\scoopbucket-presist\xDocuments:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1694529484634}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\Archive\ToGit\scoopbucket-presist\xDocuments\PowerShell:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1694529484584}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\Archive\ToGit\scoopbucket-presist\xDocuments\WindowsPowerShell:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1694529484520}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\Archive\ToGit\scoopbucket-presist\xDocuments\scoop\apps\scoop\current:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1694529484463}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\Archive\ToGit\scoopbucket-presist\xDocuments\PowerShell\Scripts\EnableLinkedConnections.reg:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1694529484724}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\Archive\ToGit\scoopbucket-presist\xDocuments\WindowsPowerShell\snipps\EnvPath:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1694529484679}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\Archive\ToGit\scoopbucket-presist\xAppData:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1694529490644}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\Archive\ToGit\scoopbucket-presist\xVisualStudio:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1694529511681}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\Archive\ToGit\scoopbucket-presist\AHK\autohotkey:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1694530352559}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\Archive\ToGit\scoopbucket-presist\Microsoft\Windows\PowerShell:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1694535481219}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\Archive\ToGit\scoopbucket-presist\.config\Git:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1694536908826}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes:
+      commitNotesHistory: [etc]
+    journal: {}
+  rootB:\PF\Archive\ToGit\scoopbucket-presist\.config\BashHistory:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1694539469014}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes:
+      commitNotesHistory: [etc]
+    journal: {}
+  rootB:\PF\Archive\ToGit\scoopbucket-presist\workspace\OtherVersionControlledText:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1694540403691}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes:
+      commitNotesHistory: [etc]
+    journal: {}
+  rootB:\PF\Archive\ToGit\scoopbucket-presist\AHK\Fork\AppendToClipboard:
+    databaseCleanup: {}
+    log:
+      rootSettings: {baseRoots: "!local-branches://\t!remote://origin\tref://HEAD",
+        extendedRoots: ''}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\Archive\ToGit\scoopbucket-presist\workspace\PortableProgramSuit:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1694540784296}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes:
+      commitNotesHistory: [with all modules]
+    journal: {}
+  rootB:\PF\Archive\ToGit\scoopbucket-presist\.config\powershell:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1694607158633}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes:
+      commitNotesHistory: [etc]
+    journal: {}
+  rootB:\PF\Archive\ToGit\scoopbucket-presist\scoop:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1694621504098}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes:
+      commitNotesHistory: [etc]
+    journal: {}
+  rootB:\PF\Archive\ToGit\scoopbucket-presist\scoop\apps\scoop\current:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1694622136082}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes:
+      commitNotesHistory: [etc]
+    journal: {}
+  rootB:\PF\Archive\ToGit\scoopbucket-presist\xscoop:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1694645500776}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\Archive\ToGit\scoopbucket-presist\xscoop\apps\scoop\current:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1694645500689}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}

@@ -1,18 +1,18 @@
 bounds:
-- {key: project, x: 535, y: 174, width: 1294, height: 704, state: 1}
+- {key: project, x: 1964, y: 157, width: 1440, height: 875}
 - {key: welcome}
 - {key: preferences, x: -123, y: 217, width: 1165, height: 498}
 - {key: compare, x: 38, y: 174, width: 1440, height: 866}
-- {key: output, x: -200, y: -161, width: 1731, height: 743}
+- {key: output, x: -85, y: -49, width: 1724, height: 741}
 - {key: git.commit, width: 1245, height: 889, x: -299, y: -131}
 - {key: git.commit.selectFromLog, width: 640, height: 395}
-- {key: log, x: -8, y: -8, width: 1936, height: 1066, state: 1}
+- {key: log, x: 240, y: 58, width: 1440, height: 875, state: 1}
 - {key: editor, x: 240, y: 58, width: 1440, height: 866}
 - {key: git.indexEditor, x: 240, y: 58, width: 1440, height: 866}
 - {key: git.discard, width: 500, height: 654, x: 0, y: 172}
 - {key: git.squashCommits, width: 630, height: 400}
 - {key: editMessage, width: 500, height: 309, x: -139, y: -6}
-- {key: rename, x: 256, y: -137, width: 406, height: 184}
+- {key: rename, x: 430, y: -304, width: 406, height: 184}
 - {key: git.ignore.file}
 - {key: configureToolbar, width: 600, height: 370}
 - {key: git.remove, width: 500, height: 309}
@@ -22,6 +22,7 @@ bounds:
 - {key: splitOff, width: 500, height: 309}
 - {key: git.tag, width: 400, height: 300}
 - {key: git.unstage, width: 500, height: 309}
+- {key: git.stage, width: 500, height: 309}
 conflictSolverFrame: {}
 indexEditorFrame: {sLayout: merge-right}
 columns:
@@ -44,17 +45,17 @@ columns:
     columnWidths:
     - {id: Name, width: 338, width2x: 0}
     - {id: Size, width: 61, width2x: 0}
-    - {id: Ext., width: 63, width2x: 0}
+    - {id: Ext., width: 62, width2x: 0}
     - {id: State, width: 471, width2x: 0}
     - {id: Relative Directory, width: 919, width2x: 0}
     - {id: Last Changed On, width: 117, width2x: 0}
     - {id: Relative Path, width: 500, width2x: 0}
     sortOrders:
-    - {id: Size, reverse: true}
-    - {id: Ext., reverse: true}
-    - {id: Relative Directory, reverse: false}
+    - {id: Size, reverse: false}
     - {id: State, reverse: true}
+    - {id: Relative Directory, reverse: false}
     - {id: Name, reverse: false}
+    - {id: Ext., reverse: false}
     - {id: Last Changed On, reverse: false}
   project.files.git.index:
     columnNames: "Name\tExt.\tState\tRelative Directory\tRelative Path\tRenamed From"
@@ -66,7 +67,7 @@ columns:
     - {id: Relative Directory, width: 784, width2x: 0}
     - {id: Relative Path, width: 500, width2x: 0}
     sortOrders:
-    - {id: State, reverse: true}
+    - {id: State, reverse: false}
     - {id: Relative Directory, reverse: false}
     - {id: Name, reverse: false}
     - {id: Ext., reverse: true}
@@ -145,18 +146,17 @@ deepGitUiConfiguration: {}
 confirmations: {exit.showConfirmation: true, git.push: true, git.switchBranch.confirmation: true,
   close.unpushedCommits: true, commit.amend.replaceWarning: true, rebase.continue: true,
   rebaseContinue: false, git.switchBranch.fastForward: true, sync: true, splitCommit: true,
-  git.commit.stageAll: true, compare.contentEqual: true, conflictSolver.showConflictWarning: true}
-repositoriesToReopen:
-- window: wt
-  repositories: ['B:\PF\Archive\ToGit\scoopbucket-presist']
+  git.commit.stageAll: true, compare.contentEqual: true, conflictSolver.showConflictWarning: true,
+  compare.binaryEqual: true}
+repositoriesToReopen: []
 project.files.git.separateWtIndex: true
-gitProjectLayout.main: (([+332x778:directories ][+332x155:branches ])((([+1585x607:files
-  ][+1585x161:changes ])[-3x1:message ])([+1585x162:outgoing ][-3x1:output ])))
+gitProjectLayout.main: (([+332x778:directories ][+332x155:branches ])((([+1585x605:files
+  ][+1585x161:changes ])[-3x1:message ])([+1585x164:outgoing ][-3x1:output ])))
 log.wtIndex.onDemand: true
 gitProjectLayout.mainIsdefault: true
 gitProjectLayout.review: ([+2x1:directories ][+7x1:files ][+3x1:message ])[+10x3:changes
   ]([-1x1:branches ][-3x1:outgoing ][-3x1:output ])
-lastRepositoryPath: B:\PF\Archive\ToGit\scoopbucket-presist
+lastRepositoryPath: B:\PF\CSharpVisualStudio
 commit.expandOptions: true
 log.files.git.separateWtIndex: true
 gitLogRootLayout.main: (([+430x614:repositories ][+430x319:branches ])(([+509x349:graph
@@ -174,9 +174,11 @@ ignore.location: 1
 git.remove.deleteLocalFile: false
 stashApply.restoreIndex: true
 gitAnnotateLayout: '[+1424x678:document ][+1424x126:line-history ]'
-git.pull.defaultFetch: true
+git.pull.defaultFetch: false
 lastClonedUrls: ['https://github.com/perXautomatik/BAO', 'https://github.com/perXautomatik/initApps.git']
 cloneSkipSize: 5242880
 git.reset: 0
 git.cherryPick.commit: true
 git.cherryPick.appendSha: false
+stashApply.drop: false
+git.pull.fetchAll: true

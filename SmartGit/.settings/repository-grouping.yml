@@ -23,6 +23,7 @@ structure:
     - {name: .config, path: 'C:\Users\CrRoot\.config'}
     - {name: WindowsPowerShell, path: 'B:\PF\Archive\ToGit\scoopbucket-presist\Documents\WindowsPowerShell'}
     - {name: scoopbucket-presist, path: 'B:\PF\Archive\ToGit\scoopbucket-presist'}
+    - {name: CSharpVisualStudio, path: 'B:\PF\CSharpVisualStudio'}
     expanded: true
   expanded: true
 - name: I:\Downloads\2022
@@ -44,11 +45,12 @@ structure:
   - {name: presist-dotFiles, path: 'B:\PF\Archive\dotFiles'}
   - {name: target, path: 'B:\Users\target'}
   expanded: true
-recentlyUsed: ['B:\PF\Archive\ToGit\scoopbucket-presist', 'B:\Users\target', 'B:\PF\Archive\ToGit\scoopbucket-presist\Documents\WindowsPowerShell',
+recentlyUsed: ['B:\PF\CSharpVisualStudio\repos', 'B:\PF', 'B:\PF\CSharpVisualStudio',
+  'B:\PF\Archive\ToGit\scoopbucket-presist', 'B:\Users\target', 'B:\PF\Archive\ToGit\scoopbucket-presist\Documents\WindowsPowerShell',
   'C:\Users\CrRoot\.config', 'B:\PF\Archive\ps1', 'B:\PF\Archive\NewWindows', 'C:\Users\CrRoot\.config\powershell',
   'B:\PF\PowershellProjectFolder\Modules\Personal\filesystem\group\ps1', 'B:\PF\scoopbucket-1',
   'B:\PF\Archive\dotFiles', 'C:\ProgramData\scoop\persist', 'C:\ProgramData\scoop\buckets',
-  'C:\Users\CrRoot\AppData', 'B:\SteamLibrary\steamapps', 'B:\PF\CSharpVisualStudio\repos',
-  'B:\PF', 'B:\PF\CSharpVisualStudio\repos\Boras2\PetStore', 'B:\PF\CSharpVisualStudio\repos\karlstad2Calc_Lotto',
-  'B:\PF\CSharpVisualStudio\repos\karlstad', 'B:\PF\CSharpVisualStudio\repos\InvalidMarkup',
-  'B:\PF\chris', 'B:\PF\Archive', 'B:\PF\NoteTakingProjectFolder', 'B:\PF\PowershellProjectFolder']
+  'C:\Users\CrRoot\AppData', 'B:\SteamLibrary\steamapps', 'B:\PF\CSharpVisualStudio\repos\Boras2\PetStore',
+  'B:\PF\CSharpVisualStudio\repos\karlstad2Calc_Lotto', 'B:\PF\CSharpVisualStudio\repos\karlstad',
+  'B:\PF\CSharpVisualStudio\repos\InvalidMarkup', 'B:\PF\chris', 'B:\PF\Archive',
+  'B:\PF\NoteTakingProjectFolder', 'B:\PF\PowershellProjectFolder']
