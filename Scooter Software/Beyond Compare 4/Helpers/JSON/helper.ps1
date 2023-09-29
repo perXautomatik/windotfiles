@@ -1,8 +1,11 @@
-Param(
-[Parameter()] [path] [$input],
-[Parameter()] [ParameterType] [$output])
+param ($source,$target,$original)
 
-cd 'D:\PortableApplauncher\Apps\.free\bCompare\Helpers\JSON'
 
- get-content $input | .\jq.exe '.' > $output
+    (Get-Content $source) >> $original
+
+ try {
+ (Get-Content $source) | .\jq.exe '.' | out-file -FilePath $target
+    }
+catch { }
+
 

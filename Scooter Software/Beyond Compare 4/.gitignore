@@ -1,5 +1,6 @@
-*.bak
+*.~*
+*.err
 /*.tmp
+/__folder_managed_by_vortex
 *.bak
-*.bak
-BCPreferences.xml.bak
+*.bcpkg

@@ -1,9 +1,688 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Produced by Beyond Compare 4 from Scooter Software -->
-<BCCommands Version="1" MinVersion="1">
+<BCCommands MinVersion="1" Version="1">
+	<TBcCommands>
+		<Items>
+			<ContextHelpAction Value=";False"/>
+		</Items>
+	</TBcCommands>
+	<TDataCompareCommands>
+		<Items>
+			<CompareUsingViewAction Value=""/>
+			<CopyAction Value=""/>
+			<CopyFileLeftAction Value=""/>
+			<CopyFileRightAction Value=""/>
+			<CopyLeftAction Value=""/>
+			<CopyRightAction Value=""/>
+			<CopySideAction Value=""/>
+			<CutAction Value=""/>
+			<DeleteAction Value=""/>
+			<DiffFileNextAction Value=""/>
+			<DiffFilePrevAction Value=""/>
+			<DiffItemNextAction Value=""/>
+			<DiffItemPrevAction Value=""/>
+			<DisplayFontAction Value=""/>
+			<EditAction Value=""/>
+			<EditNextAction Value=""/>
+			<EditPrevAction Value=""/>
+			<ExistsNextAction Value=""/>
+			<ExistsPrevAction Value=""/>
+			<ExplorerAction Value=""/>
+			<FavCompareAllAction Value=""/>
+			<FavCompareNoneAction Value=""/>
+			<FavDiffAction Value=""/>
+			<FavSameAction Value=""/>
+			<FileFormatAction Value=""/>
+			<FindAction Value=""/>
+			<FindNextAction Value=""/>
+			<FindPrevAction Value=""/>
+			<GoLeftAction Value=""/>
+			<GoNextAction Value=""/>
+			<GoPrevAction Value=""/>
+			<GoRightAction Value=""/>
+			<GoToAction Value=""/>
+			<InfoAction Value=""/>
+			<InsertAction Value=""/>
+			<InsigIgnoredAction Value=""/>
+			<OpenAction Value=""/>
+			<OpenClipboardAction Value=""/>
+			<OpenFtpAction Value=""/>
+			<OpenLocalAction Value=""/>
+			<OpenWithAction Value=""/>
+			<OverUnderAction Value=""/>
+			<PasteAction Value=""/>
+			<RecompareAction Value=""/>
+			<RedoAction Value=""/>
+			<ReloadAction Value=""/>
+			<ReportAction Value=""/>
+			<ResizeColsToFitAction Value=""/>
+			<RulesAction Value=""/>
+			<SaveAction Value=""/>
+			<SaveAsAction Value=""/>
+			<SaveAsFtpAction Value=""/>
+			<SaveAsLocalAction Value=""/>
+			<SelectAllAction Value=""/>
+			<ShowColsAction Value=""/>
+			<ShowDetailsAction Value=""/>
+			<ShowItemNumAction Value=""/>
+			<ShowSpecInfoAction Value=""/>
+			<ShowThumbnailAction Value=""/>
+			<ShowWSAction Value=""/>
+			<SideBySideAction Value=""/>
+			<SwapAction Value=""/>
+			<TextEditAction Value=""/>
+			<TogDiffAction Value=""/>
+			<TogLeftOrphanAction Value=""/>
+			<TogRightOrphanAction Value=""/>
+			<TogSameAction Value=""/>
+			<UndoAction Value=""/>
+		</Items>
+		<ToolbarPosLocked Value="False"/>
+		<Toolbars>
+			<DisplayFiltersBar Value="TopDock;;;86"/>
+			<EditBar Value="TopDock;;;236"/>
+			<SearchBar Value="TopDock;;;236"/>
+			<SessionsBar Value="TopDock;;;-1"/>
+			<ViewBar Value="TopDock;;;315"/>
+		</Toolbars>
+	</TDataCompareCommands>
 	<TDirCompareCommands>
 		<Items>
-			<MoveBothAction Value=";;True"/>
+			<BrowseAction Value=""/>
+			<BrowseCenterAction Value=""/>
+			<BrowseOutputAction Value=""/>
+			<CollapseAction Value="Shift+Alt+K"/>
+			<CollapseSubfoldersAction Value="Shift+Alt+C"/>
+			<CopyFilenamesAction Value="Shift+F2"/>
+			<CopyFilenamesAction Value="Shift+F2"/>
+			<CopyRightAction Value="Shift+Ctrl+R"/>
+			<CopySideAction Value=";;False"/>
+			<CopySideAction Value=";;False"/>
+			<CopyToOutputAction Value=""/>
+			<DiffNextAction Value=";False;True"/>
+			<DiffPrevAction Value=";False;True"/>
+			<ExpandAction Value="Shift+Alt+P"/>
+			<ExpandAction Value="Shift+Alt+P"/>
+			<ExplorerAction Value=""/>
+			<FavChangedAction Value=""/>
+			<FavConflictAction Value=""/>
+			<FavLeftAction Value=""/>
+			<FavMergeableAction Value=""/>
+			<FavMergeAllAction Value=""/>
+			<FavMergeNoneAction Value=""/>
+			<FavRightAction Value=""/>
+			<FavUnchangedAction Value=""/>
+			<FileReportAction Value=";;True"/>
+			<FiltersAction Value=""/>
+			<FiltersEditAction Value=""/>
+			<FindFilenameAction Value=";False"/>
+			<FindFilenameNextAction Value=";False;True"/>
+			<FindFilenamePrevAction Value=";False"/>
+			<FullRefreshAction Value=";;True"/>
+			<InfoAction Value=";False;True"/>
+			<LegendAction Value="None"/>
+			<MergeAllAction Value=""/>
+			<MergeBaseViewAction Value=";False;True"/>
+			<MirrorLeftAction Value="None;False"/>
+			<MirrorRightAction Value="None;False"/>
+			<MoveBothAction Value="Ctrl+Space;True"/>
+			<MoveLeftAction Value="Shift+Ctrl+L"/>
+			<MoveRightAction Value="Ctrl+Right"/>
+			<MoveToAction Value=";;True"/>
+			<NewFolderAction Value=";;True"/>
+			<OpenWithAction Value=""/>
+			<RefreshAction Value=";;False"/>
+			<RenameAction Value=";;True"/>
+			<ReportAction Value=";False;True"/>
+			<SelectAllAction Value=";False;False"/>
+			<SelectAllAction Value=";False;False"/>
+			<SelectNewerAction Value=""/>
+			<SelectOrphanAction Value=""/>
+			<ShowCenterAction Value=""/>
+			<ShowLogAction Value="Ctrl+Alt+L"/>
+			<ShowColAction Value=""/>
+			<ShowLogAction Value="Ctrl+Alt+L"/>
+			<SourceControlAction Value=""/>
+			<StopAction Value="Space"/>
+			<SyncAction Value=""/>
+			<SyncBaseViewAction Value=";False;True"/>
+			<TextEditAction Value=""/>
+			<TogConflictAction Value=""/>
+			<TogDiffModAction Value=""/>
+			<TogLeftAddAction Value=""/>
+			<TogLeftDelAction Value=""/>
+			<TogLeftModAction Value=""/>
+			<TogNoModAction Value=""/>
+			<TogRightAddAction Value=""/>
+			<TogRightDelAction Value=""/>
+			<TogRightModAction Value=""/>
+			<TogSameModAction Value=""/>
+			<TouchAction Value=";False;True"/>
+			<UpdateBothAction Value=";False"/>
+			<UpdateLeftAction Value=";False"/>
+			<UpdateRightAction Value=";False"/>
+			<UpOneLevelAction Value=""/>
+			<UpOneLevelAllAction Value="Ctrl+Up"/>
+			<UpOneLevelBothAction Value=""/>
+			<VcsGetAction Value=";True"/>
 		</Items>
+		<ToolbarPosLocked Value="False"/>
+		<Toolbars>
+			<ActionsBar Value="TopDock;;;295"/>
+			<DisplayFiltersBar Value="TopDock;;;106"/>
+			<EditBar Value="TopDock;;;449"/>
+			<FileFiltersBar Value="TopDock;;;650"/>
+			<SessionsBar Value="TopDock;;;0"/>
+		</Toolbars>
 	</TDirCompareCommands>
+	<TDirSyncCommands>
+		<Items>
+			<AssocAppAction Value=""/>
+			<CollapseAction Value=""/>
+			<CollapseAllAction Value=""/>
+			<CollapseSubfoldersAction Value=""/>
+			<CompareBaseViewAction Value=""/>
+			<ConflictNextAction Value=""/>
+			<ConflictPrevAction Value=""/>
+			<CopyFilenamesAction Value=""/>
+			<ExcludeAction Value=""/>
+			<ExistsNextAction Value=""/>
+			<ExistsPrevAction Value=""/>
+			<ExpandAction Value=""/>
+			<ExpandAllAction Value=""/>
+			<ExpandSubfoldersAction Value=""/>
+			<ExplorerAction Value=""/>
+			<FindFilenameAction Value=""/>
+			<FindFilenameNextAction Value=""/>
+			<FindFilenamePrevAction Value=""/>
+			<FullRefreshAction Value=""/>
+			<InfoAction Value=""/>
+			<InsigIgnoredAction Value=""/>
+			<LegendAction Value=""/>
+			<OpenAction Value=""/>
+			<OpenWithAction Value=""/>
+			<RefreshAction Value=""/>
+			<RefreshSelectionAction Value=""/>
+			<RunAction Value=""/>
+			<SelectAllAction Value=""/>
+			<SelectAllFilesAction Value=""/>
+			<SelectInvertAction Value=""/>
+			<SetAsBaseFoldersAction Value=""/>
+			<SetAsOtherBaseFolderAction Value=""/>
+			<ShowColAction Value=""/>
+			<ShowLogAction Value=""/>
+			<SuppressFiltersAction Value=""/>
+			<SwapAction Value=""/>
+			<TextEditAction Value=""/>
+		</Items>
+		<ToolbarPosLocked Value="False"/>
+		<Toolbars>
+			<SessionsBar Value="TopDock;;;0"/>
+		</Toolbars>
+	</TDirSyncCommands>
+	<THexCompareCommands>
+		<Items>
+			<BigEndianAction Value=""/>
+			<CompareUsingViewAction Value=""/>
+			<ExplorerAction Value=""/>
+			<LittleEndianAction Value=""/>
+			<OpenFtpAction Value=""/>
+			<OpenWithAction Value=""/>
+			<TextEditAction Value=""/>
+		</Items>
+		<ToolbarPosLocked Value="False"/>
+		<Toolbars>
+			<DisplayFiltersBar Value="TopDock;;;86"/>
+			<SearchBar Value="TopDock;;;236"/>
+			<SessionsBar Value="TopDock;;;-1"/>
+			<ViewBar Value="TopDock;;;315"/>
+		</Toolbars>
+	</THexCompareCommands>
+	<TMP3CompareCommands>
+		<Items>
+			<CompareUsingViewAction Value=""/>
+			<CopyAction Value=""/>
+			<CopyFileLeftAction Value=""/>
+			<CopyFileRightAction Value=""/>
+			<DiffFileNextAction Value=""/>
+			<DiffFilePrevAction Value=""/>
+			<DiffItemNextAction Value=""/>
+			<DiffItemPrevAction Value=""/>
+			<DisplayFontAction Value=""/>
+			<ExistsNextAction Value=""/>
+			<ExistsPrevAction Value=""/>
+			<ExplorerAction Value=""/>
+			<FavCompareAllAction Value=""/>
+			<FavCompareNoneAction Value=""/>
+			<FavDiffAction Value=""/>
+			<FavSameAction Value=""/>
+			<FindAction Value=""/>
+			<FindNextAction Value=""/>
+			<FindPrevAction Value=""/>
+			<GoLeftAction Value=""/>
+			<GoNextAction Value=""/>
+			<GoPrevAction Value=""/>
+			<GoRightAction Value=""/>
+			<InfoAction Value=""/>
+			<InsigIgnoredAction Value=""/>
+			<IsSigAction Value=""/>
+			<OpenAction Value=""/>
+			<OpenFtpAction Value=""/>
+			<OpenLocalAction Value=""/>
+			<OpenWithAction Value=""/>
+			<OverUnderAction Value=""/>
+			<Play2Action Value=""/>
+			<PlayAction Value=""/>
+			<RecompareAction Value=""/>
+			<ReloadAction Value=""/>
+			<ReportAction Value=""/>
+			<RulesAction Value=""/>
+			<SelectAllAction Value=""/>
+			<ShowDetailsAction Value=""/>
+			<ShowSpecInfoAction Value=""/>
+			<ShowWSAction Value=""/>
+			<SideBySideAction Value=""/>
+			<SwapAction Value=""/>
+			<TogDiffAction Value=""/>
+			<TogLeftOrphanAction Value=""/>
+			<TogRightOrphanAction Value=""/>
+			<TogSameAction Value=""/>
+		</Items>
+		<ToolbarPosLocked Value="False"/>
+		<Toolbars>
+			<DisplayFiltersBar Value="TopDock;;;1"/>
+			<EditBar Value="TopDock;;;2"/>
+			<SearchBar Value="TopDock;;;3"/>
+			<SessionsBar Value="TopDock;;;0"/>
+			<ViewBar Value="TopDock;;;4"/>
+		</Toolbars>
+	</TMP3CompareCommands>
+	<TPixCompareCommands>
+		<Items>
+			<BlendEditAction Value=""/>
+			<CompareUsingViewAction Value=""/>
+			<CopyAction Value=""/>
+			<CopyFileLeftAction Value=""/>
+			<CopyFileRightAction Value=""/>
+			<DiffFileNextAction Value=""/>
+			<DiffFilePrevAction Value=""/>
+			<DiffOnlyAction Value=""/>
+			<DiffOverUnderAction Value=""/>
+			<DiffPictureBinaryOpAction Value=""/>
+			<DiffPictureBlendAction Value=""/>
+			<DiffPictureRangeAction Value=""/>
+			<DiffPictureToleranceAction Value=""/>
+			<DiffSideBySideAction Value=""/>
+			<DiffUnderAction Value=""/>
+			<ExplorerAction Value=""/>
+			<FlipHorzAction Value=""/>
+			<FlipVertAction Value=""/>
+			<GoLeftAction Value=""/>
+			<GoNextAction Value=""/>
+			<GoPrevAction Value=""/>
+			<GoRightAction Value=""/>
+			<InfoAction Value=""/>
+			<InsigIgnoredAction Value=""/>
+			<OffsetResetAction Value=""/>
+			<OpenAction Value=""/>
+			<OpenClipboardAction Value=""/>
+			<OpenFtpAction Value=""/>
+			<OpenLocalAction Value=""/>
+			<OpenWithAction Value=""/>
+			<OverUnderAction Value=""/>
+			<RecompareAction Value=""/>
+			<ReloadAction Value=""/>
+			<ReportAction Value=""/>
+			<RotateLeftAction Value=""/>
+			<RotateRightAction Value=""/>
+			<RulesAction Value=""/>
+			<ShowSpecInfoAction Value=""/>
+			<SideBySideAction Value=""/>
+			<StretchAction Value=""/>
+			<SwapAction Value=""/>
+			<ToleranceEditAction Value=""/>
+			<ZoomAction Value=""/>
+			<ZoomAutoAction Value=""/>
+			<ZoomEditAction Value=""/>
+			<ZoomInAction Value=""/>
+			<ZoomOutAction Value=""/>
+		</Items>
+		<ToolbarPosLocked Value="False"/>
+		<Toolbars>
+			<DisplayFiltersBar Value="TopDock;;;86"/>
+			<EditBar Value="TopDock;;;381;;;False"/>
+			<SessionsBar Value="TopDock;;;-1"/>
+			<ViewBar Value="TopDock;;;381"/>
+		</Toolbars>
+	</TPixCompareCommands>
+	<TSessionCommands>
+		<Items>
+			<SessionHomeAction Value=";;False"/>
+			<SessionsComboAction Value=";;False"/>
+		</Items>
+	</TSessionCommands>
+	<TTextCompareCommands>
+		<DisplayFilterMode Value="modeToggles"/>
+		<Items>
+			<BookmarkGoToAction Value=""/>
+			<BookmarkToggleAction Value=""/>
+			<CompareUsingViewAction Value=""/>
+			<ConvertAction Value=""/>
+			<EndingStyleAction Value=""/>
+			<ExplorerAction Value=""/>
+			<FullEditAction Value=";False"/>
+			<IgnoredAction Value=";False;True"/>
+			<InfoAction Value=";;True"/>
+			<OpenFtpAction Value=""/>
+			<OpenWithAction Value=""/>
+			<OverUnderAction Value=";False;True"/>
+			<SaveAsFtpAction Value=""/>
+			<ShowSyntaxHighlightingAction Value=";;True"/>
+			<TextEditAction Value=""/>
+			<WebBrowserAction Value=";;True"/>
+			<SaveAsProfileAction Value=";True"/>
+		</Items>
+		<ToolbarPosLocked Value="False"/>
+		<Toolbars>
+			<DisplayFiltersBar Value="TopDock;;;106"/>
+			<EditBar Value="TopDock;;;300"/>
+			<SearchBar Value="TopDock;;;362"/>
+			<SessionsBar Value="TopDock;;;0"/>
+			<ViewBar Value="TopDock;;;441"/>
+		</Toolbars>
+	</TTextCompareCommands>
+	<TTextEditCommands>
+		<Items>
+			<BookmarkClearAction Value=""/>
+			<BookmarkGoTo0Action Value=""/>
+			<BookmarkGoTo1Action Value=""/>
+			<BookmarkGoTo2Action Value=""/>
+			<BookmarkGoTo3Action Value=""/>
+			<BookmarkGoTo4Action Value=""/>
+			<BookmarkGoTo5Action Value=""/>
+			<BookmarkGoTo6Action Value=""/>
+			<BookmarkGoTo7Action Value=""/>
+			<BookmarkGoTo8Action Value=""/>
+			<BookmarkGoTo9Action Value=""/>
+			<BookmarkGoToAction Value=""/>
+			<BookmarkToggle0Action Value=""/>
+			<BookmarkToggle1Action Value=""/>
+			<BookmarkToggle2Action Value=""/>
+			<BookmarkToggle3Action Value=""/>
+			<BookmarkToggle4Action Value=""/>
+			<BookmarkToggle5Action Value=""/>
+			<BookmarkToggle6Action Value=""/>
+			<BookmarkToggle7Action Value=""/>
+			<BookmarkToggle8Action Value=""/>
+			<BookmarkToggle9Action Value=""/>
+			<BookmarkToggleAction Value=""/>
+			<CheckInAction Value=""/>
+			<CheckOutAction Value=""/>
+			<ConvertAction Value=""/>
+			<CopyAction Value=""/>
+			<CutAction Value=""/>
+			<DecreaseIndentAction Value=""/>
+			<DeleteAction Value=""/>
+			<DeleteItemAction Value=""/>
+			<DeleteItemBeginAction Value=""/>
+			<DeleteItemEndAction Value=""/>
+			<DeleteWordAction Value=""/>
+			<DeleteWordBeginAction Value=""/>
+			<DeleteWordEndAction Value=""/>
+			<DisplayFontAction Value=""/>
+			<EditNextAction Value=""/>
+			<EditPrevAction Value=""/>
+			<EndingStyleAction Value=""/>
+			<ExplorerAction Value=""/>
+			<FindAction Value=""/>
+			<FindInFilesAction Value=""/>
+			<FindNextAction Value=""/>
+			<FindPrevAction Value=""/>
+			<GoToAction Value=""/>
+			<IncreaseIndentAction Value=""/>
+			<InsertItemAfterAction Value=""/>
+			<InsertItemBeforeAction Value=""/>
+			<LeadSpaceToTabAction Value=""/>
+			<NewAction Value=""/>
+			<OpenAction Value=""/>
+			<OpenClipboardAction Value=""/>
+			<OpenFtpAction Value=""/>
+			<OpenLocalAction Value=""/>
+			<OpenWithAction Value=""/>
+			<OverwritingAction Value=""/>
+			<PasteAction Value=""/>
+			<RedoAction Value=""/>
+			<ReplaceAction Value=""/>
+			<SaveAction Value=""/>
+			<SaveAsAction Value=""/>
+			<SaveAsFtpAction Value=""/>
+			<SaveAsLocalAction Value=""/>
+			<SelectAllAction Value=""/>
+			<ShowItemNumAction Value=""/>
+			<ShowSpecInfoAction Value=""/>
+			<ShowSyntaxHighlightingAction Value=""/>
+			<ShowWSAction Value=""/>
+			<TabToSpaceAction Value=""/>
+			<ToMacAction Value=""/>
+			<ToUnixAction Value=""/>
+			<ToWindowsAction Value=""/>
+			<TrimTrailWSAction Value=""/>
+			<UndoAction Value=""/>
+			<UndoCheckOutAction Value=""/>
+			<WebBrowserAction Value=""/>
+		</Items>
+		<ToolbarPosLocked Value="False"/>
+		<Toolbars>
+			<SessionsBar Value="TopDock;;;0"/>
+			<StandardBar Value="TopDock;;;1"/>
+		</Toolbars>
+	</TTextEditCommands>
+	<TTextMergeCommands>
+		<Items>
+			<AlignWithAction Value=""/>
+			<BookmarkClearAction Value=""/>
+			<BookmarkGoTo0Action Value=""/>
+			<BookmarkGoTo1Action Value=""/>
+			<BookmarkGoTo2Action Value=""/>
+			<BookmarkGoTo3Action Value=""/>
+			<BookmarkGoTo4Action Value=""/>
+			<BookmarkGoTo5Action Value=""/>
+			<BookmarkGoTo6Action Value=""/>
+			<BookmarkGoTo7Action Value=""/>
+			<BookmarkGoTo8Action Value=""/>
+			<BookmarkGoTo9Action Value=""/>
+			<BookmarkGoToAction Value=""/>
+			<BookmarkToggle0Action Value=""/>
+			<BookmarkToggle1Action Value=""/>
+			<BookmarkToggle2Action Value=""/>
+			<BookmarkToggle3Action Value=""/>
+			<BookmarkToggle4Action Value=""/>
+			<BookmarkToggle5Action Value=""/>
+			<BookmarkToggle6Action Value=""/>
+			<BookmarkToggle7Action Value=""/>
+			<BookmarkToggle8Action Value=""/>
+			<BookmarkToggle9Action Value=""/>
+			<BookmarkToggleAction Value=""/>
+			<CompareCenterToOutputAction Value=""/>
+			<CompareLeftToOutputAction Value=""/>
+			<CompareRightToOutputAction Value=""/>
+			<CompareToClipboardAction Value=""/>
+			<CompareToOutputAction Value=""/>
+			<ConflictAction Value=""/>
+			<ConflictSectionNextAction Value=""/>
+			<ConflictSectionOffNextAction Value=""/>
+			<ConflictSectionPrevAction Value=""/>
+			<CopyAction Value=""/>
+			<CutAction Value=""/>
+			<DecreaseIndentAction Value=""/>
+			<DeleteAction Value=""/>
+			<DeleteItemAction Value=""/>
+			<DeleteItemBeginAction Value=""/>
+			<DeleteItemEndAction Value=""/>
+			<DeleteWordAction Value=""/>
+			<DeleteWordBeginAction Value=""/>
+			<DeleteWordEndAction Value=""/>
+			<DiffFileNextAction Value=""/>
+			<DiffFilePrevAction Value=""/>
+			<DiffNextAction Value=""/>
+			<DiffPrevAction Value=""/>
+			<DiffSectionNextAction Value=""/>
+			<DiffSectionPrevAction Value=""/>
+			<DisplayFontAction Value=""/>
+			<EditNextAction Value=""/>
+			<EditPrevAction Value=""/>
+			<ExistsNextAction Value=""/>
+			<ExistsPrevAction Value=""/>
+			<ExplorerAction Value=""/>
+			<FavChangedAction Value=""/>
+			<FavConflictAction Value=""/>
+			<FavLeftAction Value=""/>
+			<FavMergeableAction Value=""/>
+			<FavMergeAllAction Value=""/>
+			<FavMergeNoneAction Value=""/>
+			<FavorLeftAction Value=""/>
+			<FavorRightAction Value=""/>
+			<FavRightAction Value=""/>
+			<FavUnchangedAction Value=""/>
+			<FileFormatAction Value=""/>
+			<FindAction Value=""/>
+			<FindNextAction Value=""/>
+			<FindPrevAction Value=""/>
+			<FullEditAction Value=""/>
+			<GoInputAction Value=""/>
+			<GoLeftAction Value=""/>
+			<GoNextAction Value=""/>
+			<GoOutputAction Value=""/>
+			<GoPrevAction Value=""/>
+			<GoRightAction Value=""/>
+			<GoToAction Value=""/>
+			<IgnoredAction Value=""/>
+			<IncreaseIndentAction Value=""/>
+			<InfoAction Value=""/>
+			<InsertItemAfterAction Value=""/>
+			<InsertItemBeforeAction Value=""/>
+			<InsigIgnoredAction Value=""/>
+			<IsolateAction Value=""/>
+			<OpenAction Value=""/>
+			<OpenClipboardAction Value=""/>
+			<OpenFtpAction Value=""/>
+			<OpenLocalAction Value=""/>
+			<OpenWithAction Value=""/>
+			<OutputWindowAction Value=""/>
+			<OverUnderAction Value=""/>
+			<OverwritingAction Value=""/>
+			<PasteAction Value=""/>
+			<RecompareAction Value=""/>
+			<RedoAction Value=""/>
+			<ReloadAction Value=""/>
+			<ReplaceAction Value=""/>
+			<RulesAction Value=""/>
+			<SameModIgnoredAction Value=""/>
+			<SaveAction Value=""/>
+			<SaveAsAction Value=""/>
+			<SaveAsFtpAction Value=""/>
+			<SaveAsLocalAction Value=""/>
+			<SelectAllAction Value=""/>
+			<SelectSectionAction Value=""/>
+			<ShowCenterAction Value=""/>
+			<ShowContextAction Value=""/>
+			<ShowHexDetailsAction Value=""/>
+			<ShowItemNumAction Value=""/>
+			<ShowRulerAction Value=""/>
+			<ShowSpecInfoAction Value=""/>
+			<ShowSyntaxHighlightingAction Value=""/>
+			<ShowTextDetailsAction Value=""/>
+			<ShowThumbnailAction Value=""/>
+			<ShowWSAction Value=""/>
+			<SideBySideAction Value=""/>
+			<SwapAction Value=""/>
+			<TakeCenterAction Value=""/>
+			<TakeItemCenterAction Value=""/>
+			<TakeItemLeftAction Value=""/>
+			<TakeItemRightAction Value=""/>
+			<TakeLeftAction Value=""/>
+			<TakeLeftRightAction Value=""/>
+			<TakenLeftNextAction Value=""/>
+			<TakenLeftPrevAction Value=""/>
+			<TakenRightNextAction Value=""/>
+			<TakenRightPrevAction Value=""/>
+			<TakeRightAction Value=""/>
+			<TakeRightLeftAction Value=""/>
+			<TextEditAction Value=""/>
+			<TogConflictAction Value=""/>
+			<TogDiffModAction Value=""/>
+			<TogLeftModAction Value=""/>
+			<TogNoModAction Value=""/>
+			<TogRightModAction Value=""/>
+			<TogSameModAction Value=""/>
+			<UndoAction Value=""/>
+			<WebBrowserAction Value=""/>
+			<ZoomAction Value=""/>
+		</Items>
+		<ToolbarPosLocked Value="False"/>
+		<Toolbars>
+			<DisplayFiltersBar Value="TopDock;;;86"/>
+			<EditBar Value="TopDock;;;351"/>
+			<SearchBar Value="TopDock;;;482"/>
+			<SessionsBar Value="TopDock;;;-1"/>
+			<ViewBar Value="TopDock;;;630"/>
+		</Toolbars>
+	</TTextMergeCommands>
+	<TVerCompareCommands>
+		<Items>
+			<CompareUsingViewAction Value=""/>
+			<CopyAction Value=""/>
+			<CopyFileLeftAction Value=""/>
+			<CopyFileRightAction Value=""/>
+			<DiffFileNextAction Value=""/>
+			<DiffFilePrevAction Value=""/>
+			<DiffItemNextAction Value=""/>
+			<DiffItemPrevAction Value=""/>
+			<DisplayFontAction Value=""/>
+			<ExistsNextAction Value=""/>
+			<ExistsPrevAction Value=""/>
+			<ExplorerAction Value=""/>
+			<FavCompareAllAction Value=""/>
+			<FavCompareNoneAction Value=""/>
+			<FavDiffAction Value=""/>
+			<FavSameAction Value=""/>
+			<FindAction Value=""/>
+			<FindNextAction Value=""/>
+			<FindPrevAction Value=""/>
+			<GoLeftAction Value=""/>
+			<GoNextAction Value=""/>
+			<GoPrevAction Value=""/>
+			<GoRightAction Value=""/>
+			<InfoAction Value=""/>
+			<InsigIgnoredAction Value=""/>
+			<IsSigAction Value=""/>
+			<OpenAction Value=""/>
+			<OpenFtpAction Value=""/>
+			<OpenLocalAction Value=""/>
+			<OpenWithAction Value=""/>
+			<OverUnderAction Value=""/>
+			<RecompareAction Value=""/>
+			<ReloadAction Value=""/>
+			<ReportAction Value=""/>
+			<RulesAction Value=""/>
+			<SelectAllAction Value=""/>
+			<ShowDetailsAction Value=""/>
+			<ShowSpecInfoAction Value=""/>
+			<ShowWSAction Value=""/>
+			<SideBySideAction Value=""/>
+			<SwapAction Value=""/>
+			<TogDiffAction Value=""/>
+			<TogLeftOrphanAction Value=""/>
+			<TogRightOrphanAction Value=""/>
+			<TogSameAction Value=""/>
+		</Items>
+		<ToolbarPosLocked Value="False"/>
+		<Toolbars>
+			<DisplayFiltersBar Value="TopDock;;;86"/>
+			<EditBar Value="TopDock;;;236;;;False"/>
+			<SearchBar Value="TopDock;;;236"/>
+			<SessionsBar Value="TopDock;;;-1"/>
+			<ViewBar Value="TopDock;;;315"/>
+		</Toolbars>
+	</TVerCompareCommands>
 </BCCommands>

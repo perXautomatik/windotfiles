@@ -1,10 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Produced by Beyond Compare 4 from Scooter Software -->
-<BCColors Version="1" MinVersion="1">
+<BCColors MinVersion="1" Version="1">
+	<TDirColors>
+		<NewerFGColor Value="$0099FF"/>
+		<OrphanBGColor Value="$FF000005"/>
+		<OrphanFGColor Value="$FF000008"/>
+		<SameFGColor Value="$669933"/>
+	</TDirColors>
 	<TFileColors>
+		<HasInsigConflictBGColor Value="$FF00000F"/>
+		<HasInsigLeftBGColor Value="$FF00000F"/>
 		<HasInsigOrphanBGColor Value="$FFFFFF"/>
+		<HasInsigRightBGColor Value="$FF00000F"/>
 		<HasSigDiffBGColor Value="$F4F4FF"/>
+		<HasSigLeftBGColor Value="$97EAFF"/>
 		<HasSigOrphanBGColor Value="$FFFFF0"/>
+		<InsigDiffFGColor Value="$00D715"/>
+		<ReplacedDiffFGColor Value="$00FF00"/>
 		<SigDiffFGColor Value="$00009D"/>
 	</TFileColors>
 </BCColors>
