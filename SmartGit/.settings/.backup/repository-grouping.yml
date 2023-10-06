@@ -9,8 +9,8 @@ structure:
     - name: SteamLibrary
       children:
       - {name: steamapps, path: 'B:\SteamLibrary\steamapps'}
-      expanded: true
-    expanded: true
+      expanded: false
+    expanded: false
   - name: psw
     children:
     - {name: ps1, path: 'B:\PF\Archive\ps1', favorite: true}
@@ -24,18 +24,31 @@ structure:
     - {name: WindowsPowerShell, path: 'B:\PF\Archive\ToGit\scoopbucket-presist\Documents\WindowsPowerShell'}
     - {name: scoopbucket-presist, path: 'B:\PF\Archive\ToGit\scoopbucket-presist'}
     - {name: CSharpVisualStudio, path: 'B:\PF\CSharpVisualStudio'}
+    - {name: New folder, path: 'B:\Unsorted\tempRepo\New folder'}
+    - {name: git, path: 'B:\PF\Archive\ps1\git'}
+    - {name: virtual1, path: 'E:\Users\virtual1'}
     expanded: true
+  - name: AHK
+    children:
+    - {name: AHK, path: 'B:\Users\target\AHK'}
+    - {name: AHK-EverydayScripts, path: 'C:\ProgramData\scoop\persist\AHK-EverydayScripts'}
+    - {name: AutoHotkeyPortable, path: 'U:\WindowsShare\backs\PortableApps\4, windows
+        enhance\PortableApps\AutoHotkeyPortable'}
+    - {name: AHK, path: 'B:\PF\Archive\ToGit\scoopbucket-presist\AHK'}
+    - {name: AhkProjectFolder, path: 'B:\PF\AhkProjectFolder'}
+    - {name: ahk_config, path: 'B:\PF\Archive\ToGit\scoopbucket-presist\AHK\ahk_config'}
+    expanded: false
   expanded: true
 - name: I:\Downloads\2022
   children: []
   expanded: true
 - name: c#
   children:
-  - {name: PetStore, path: 'B:\PF\CSharpVisualStudio\repos\Boras2\PetStore'}
   - {name: karlstad, path: 'B:\PF\CSharpVisualStudio\repos\karlstad'}
   - {name: karlstad2Calc_Lotto, path: 'B:\PF\CSharpVisualStudio\repos\karlstad2Calc_Lotto'}
   - {name: repos, path: 'B:\PF\CSharpVisualStudio\repos'}
   - {name: InvalidMarkup, path: 'B:\PF\CSharpVisualStudio\repos\InvalidMarkup'}
+  - {name: boras, path: 'B:\PF\CSharpVisualStudio\repos\boras'}
   expanded: true
 - name: Scoop
   children:
@@ -45,12 +58,16 @@ structure:
   - {name: presist-dotFiles, path: 'B:\PF\Archive\dotFiles'}
   - {name: target, path: 'B:\Users\target'}
   expanded: true
-recentlyUsed: ['B:\PF\CSharpVisualStudio\repos', 'B:\PF', 'B:\PF\CSharpVisualStudio',
-  'B:\PF\Archive\ToGit\scoopbucket-presist', 'B:\Users\target', 'B:\PF\Archive\ToGit\scoopbucket-presist\Documents\WindowsPowerShell',
-  'C:\Users\CrRoot\.config', 'B:\PF\Archive\ps1', 'B:\PF\Archive\NewWindows', 'C:\Users\CrRoot\.config\powershell',
-  'B:\PF\PowershellProjectFolder\Modules\Personal\filesystem\group\ps1', 'B:\PF\scoopbucket-1',
+recentlyUsed: ['B:\PF\Archive\ps1', 'B:\PF\Archive\ToGit\scoopbucket-presist\AHK\ahk_config',
+  'B:\PF\Archive\ToGit\scoopbucket-presist\AHK', 'B:\Users\target\AHK', 'C:\ProgramData\scoop\persist\AHK-EverydayScripts',
+  'B:\PF\AhkProjectFolder', 'U:\WindowsShare\backs\PortableApps\4, windows enhance\PortableApps\AutoHotkeyPortable',
+  'B:\Users\target', 'E:\Users\virtual1', 'B:\PF\Archive\ps1\git', 'B:\Unsorted\tempRepo\New
+    folder', 'B:\PF\NoteTakingProjectFolder', 'B:\PF\CSharpVisualStudio\repos\karlstad',
+  'B:\PF\CSharpVisualStudio\repos', 'B:\PF\CSharpVisualStudio\repos\boras', 'B:\PF\CSharpVisualStudio\repos\InvalidMarkup',
+  'B:\PF\CSharpVisualStudio', 'B:\PF\PowershellProjectFolder\Modules\Personal\filesystem\group\ps1',
+  'B:\PF\Archive\NewWindows', 'B:\PF', 'B:\PF\CSharpVisualStudio\repos\karlstad2Calc_Lotto',
+  'B:\PF\Archive\ToGit\scoopbucket-presist', 'B:\PF\Archive\ToGit\scoopbucket-presist\Documents\WindowsPowerShell',
+  'C:\Users\CrRoot\.config', 'C:\Users\CrRoot\.config\powershell', 'B:\PF\scoopbucket-1',
   'B:\PF\Archive\dotFiles', 'C:\ProgramData\scoop\persist', 'C:\ProgramData\scoop\buckets',
-  'C:\Users\CrRoot\AppData', 'B:\SteamLibrary\steamapps', 'B:\PF\CSharpVisualStudio\repos\Boras2\PetStore',
-  'B:\PF\CSharpVisualStudio\repos\karlstad2Calc_Lotto', 'B:\PF\CSharpVisualStudio\repos\karlstad',
-  'B:\PF\CSharpVisualStudio\repos\InvalidMarkup', 'B:\PF\chris', 'B:\PF\Archive',
-  'B:\PF\NoteTakingProjectFolder', 'B:\PF\PowershellProjectFolder']
+  'C:\Users\CrRoot\AppData', 'B:\SteamLibrary\steamapps', 'B:\PF\chris', 'B:\PF\Archive',
+  'B:\PF\PowershellProjectFolder']

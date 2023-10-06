@@ -389,6 +389,19 @@
             "name": "function",
             "snippet": "function ()\n{\nparam()\n#{clipboard}\n}",
             "uuid": "{5a74569d-2a35-49ea-8553-3f584ee0b409}"
+        },
+        {
+            "caseSensitivity": 0,
+            "creationDateTime": "2023-09-12T08:29:16.496",
+            "description": "",
+            "enabled": true,
+            "group": "{6b2a733e-8c8b-4974-83ea-b133926dc39b}",
+            "keyword": "voidt",
+            "matchingMode": 0,
+            "modificationDateTime": "2023-09-12T08:29:31.781",
+            "name": "everything",
+            "snippet": "voidtools everything",
+            "uuid": "{79fd9ce8-9959-457e-add8-c099942a9dfc}"
         }
     ],
     "fileFormatVersion": 10,

@@ -34,13 +34,23 @@ readNotifications: [hosting-provider-could-be-configured-github-null, needsResta
   'repository-model-problem-b:/pf/archive/togit/scoopbucket-presist/steamapps-null',
   'repository-model-problem-b:/pf/archive/togit/scoopbucket-presist/workspace/portableprogramsuit-null',
   'repository-model-problem-b:/pf/csharpvisualstudio/repos/karlstad2calc_lotto-null',
-  'repository-model-problem-b:/pf/csharpvisualstudio/repos/upg11-null']
+  'repository-model-problem-b:/pf/csharpvisualstudio/repos/upg11-null', 'repository-model-problem-b:/pf/archive/togit/scoopbucket-presist/ahk/ahk_config/fork/checkifprogisrunning-null',
+  'repository-model-problem-b:/pf/archive/togit/scoopbucket-presist/ahk/ahk_config/fork/exploreratpath-null',
+  'repository-model-problem-b:/pf/archive/togit/scoopbucket-presist/ahk/ahk_config/fork/launchapplication-null',
+  'repository-model-problem-b:/pf/archive/togit/scoopbucket-presist/ahk/ahk_config/fork/launch
+    if not currently running-null', 'repository-model-problem-b:/pf/archive/togit/scoopbucket-presist/ahk/ahk_config/fork/launch
+    if not currently running continously-null', 'repository-model-problem-b:/pf/archive/togit/scoopbucket-presist/ahk/ahk_config/fork/macro
+    recorder-null', 'repository-model-problem-b:/pf/archive/togit/scoopbucket-presist/ahk/ahk_config/fork/selectedtextwithoutdisturbingclipboard-null',
+  'repository-model-problem-b:/pf/archive/togit/scoopbucket-presist/ahk/ahk_config/fork/selected
+    item in explorer-null', 'repository-model-problem-b:/pf/archive/togit/scoopbucket-presist/ahk/ahk_config/fork/windowtoforeground-null',
+  'repository-model-problem-b:/pf/archive/togit/scoopbucket-presist/ahk/ahk_config/script/fork/noahhotell-null']
 dontPublishNotifications: ['repository-git-core-ignorecase-mismatch-b:/togit/project
     shelf/archive/sql_db/ffx-null', 'repository-git-core-ignorecase-mismatch-b:/togit/project
     shelf/archive/regiongotland/utskicksstruktur/brev-null', 'repository-git-core-ignorecase-mismatch-b:/togit/project
     shelf/projectfolderbare/newwindows/scoopbucket-1/windowsdebloat-null', credential.helper-null,
   'repository-git-core-ignorecase-mismatch-b:/togit-null', repositories-no-favorites-null,
-  follow-us-on-twitter-null]
+  'repository-git-core-ignorecase-mismatch-e:/users/virtual1/appdata/local/microsoft/edge/user
+    data/default/extensions/dfnblaebmpjlokbkadgeaghajajidojj/0.0.3_0-null']
 dontPublishUntil-repository-git-core-ignorecase-mismatch-b:/togit/project shelf/archive/sql_db/ffx-null: 1684575209016
 ? dontPublishUntil-repository-git-core-ignorecase-mismatch-b:/togit/project shelf/archive/regiongotland/utskicksstruktur/brev-null
 : 1684592755884
@@ -50,3 +60,6 @@ dontPublishUntil-repositories-no-favorites-null: 1692119413405
 dontPublishUntil-credential.helper-null: 0
 dontPublishUntil-repository-git-core-ignorecase-mismatch-b:/togit-null: 1686047834063
 dontPublishUntil-follow-us-on-twitter-null: 1694161419403
+? dontPublishUntil-repository-git-core-ignorecase-mismatch-e:/users/virtual1/appdata/local/microsoft/edge/user
+  data/default/extensions/dfnblaebmpjlokbkadgeaghajajidojj/0.0.3_0-null
+: 1695656534467

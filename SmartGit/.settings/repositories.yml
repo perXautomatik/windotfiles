@@ -9,19 +9,64 @@ gitRootSettingsSet:
     push: {}
     commitNotes: {}
     journal: {}
-  roots: ['B:\PF\CSharpVisualStudio\repos', 'B:\PF\CSharpVisualStudio\repos\Boras2\PetStore',
-    'B:\PF\CSharpVisualStudio\repos\Boras2\Project\WPF-EF6-Sqlite', 'B:\PF\CSharpVisualStudio\repos\DataBindingDemo',
-    'B:\PF\CSharpVisualStudio\repos\DataBindingDemoSparse', 'B:\PF\CSharpVisualStudio\repos\InvalidMarkup',
-    'B:\PF\CSharpVisualStudio\repos\New folder', 'B:\PF\CSharpVisualStudio\repos\WIthoutStudio',
-    'B:\PF\CSharpVisualStudio\repos\WPF-Samples', 'B:\PF\CSharpVisualStudio\repos\karlstad',
-    'B:\PF\CSharpVisualStudio\repos\karlstad2Calc_Lotto', 'B:\PF\CSharpVisualStudio\repos\karlstad3\Calculator_CBrobäck',
-    'B:\PF\CSharpVisualStudio\repos\upg11', 'B:\PF\CSharpVisualStudio\repos\Boras2\PetStore\213c939651e0bef7612b2f910909a21d',
-    'B:\PF\CSharpVisualStudio\repos\Boras2\PetStore\3714794', 'B:\PF\CSharpVisualStudio\repos\Boras2\PetStore\7327483',
-    'B:\PF\CSharpVisualStudio\repos\Boras2\PetStore\8691414\WpfApp1', 'B:\PF\CSharpVisualStudio\repos\Boras2\PetStore\8691414\WpfApp4',
-    'B:\PF\CSharpVisualStudio\repos\Boras2\PetStore\Boras2\PetStore', 'B:\PF\CSharpVisualStudio\repos\Boras2\PetStore\DataBindingDemo',
-    'B:\PF\CSharpVisualStudio\repos\Boras2\PetStore\DataBindingDemoSparse', 'B:\PF\CSharpVisualStudio\repos\Boras2\PetStore\InvalidMarkup',
-    'B:\PF\CSharpVisualStudio\repos\Boras2\PetStore\WPF-Samples', 'B:\PF\CSharpVisualStudio\repos\Boras2\PetStore\WindowsFormsControlLibrary1',
-    'B:\PF\CSharpVisualStudio\repos\Boras2\PetStore\borås\upgift1', 'B:\PF\CSharpVisualStudio\repos\Boras2\PetStore\upg11']
+  roots: ['B:\PF\Archive\ToGit\scoopbucket-presist\AHK', 'B:\PF\Archive\ps1', 'B:\PF\Archive\ToGit\scoopbucket-presist\AHK\Fork\autoklick',
+    'B:\PF\Archive\ToGit\scoopbucket-presist\AHK\ahk_config', 'B:\PF\Archive\ToGit\scoopbucket-presist\AHK\script\Fork\CheckIfProgIsRunning',
+    'B:\PF\Archive\ToGit\scoopbucket-presist\AHK\script\Fork\ExplorerAtPath', 'B:\PF\Archive\ToGit\scoopbucket-presist\AHK\script\Fork\Launch
+      If not Currently running', 'B:\PF\Archive\ToGit\scoopbucket-presist\AHK\script\Fork\LaunchApplication',
+    'B:\PF\Archive\ToGit\scoopbucket-presist\AHK\script\Fork\Selected Item In Explorer',
+    'B:\PF\Archive\ToGit\scoopbucket-presist\AHK\script\Fork\SelectedTextWithoutDisturbingClipboard',
+    'B:\PF\Archive\ToGit\scoopbucket-presist\AHK\ahk_config\Fork\CheckIfProgIsRunning',
+    'B:\PF\Archive\ToGit\scoopbucket-presist\AHK\ahk_config\Fork\ExplorerAtPath',
+    'B:\PF\Archive\ToGit\scoopbucket-presist\AHK\ahk_config\Fork\GetRunningProcess',
+    'B:\PF\Archive\ToGit\scoopbucket-presist\AHK\ahk_config\Fork\Launch If not Currently
+      running', 'B:\PF\Archive\ToGit\scoopbucket-presist\AHK\ahk_config\Fork\Launch
+      If not Currently running Continously', 'B:\PF\Archive\ToGit\scoopbucket-presist\AHK\ahk_config\Fork\LaunchApplication',
+    'B:\PF\Archive\ToGit\scoopbucket-presist\AHK\ahk_config\Fork\MACRO RECORDER',
+    'B:\PF\Archive\ToGit\scoopbucket-presist\AHK\ahk_config\Fork\Selected Item In
+      Explorer', 'B:\PF\Archive\ToGit\scoopbucket-presist\AHK\ahk_config\Fork\SelectedTextWithoutDisturbingClipboard',
+    'B:\PF\Archive\ToGit\scoopbucket-presist\AHK\ahk_config\Fork\WindowToforeground',
+    'B:\PF\Archive\ToGit\scoopbucket-presist\AHK\ahk_config\script\Fork\NoahHotell',
+    'B:\PF\Archive\ps1\Aggregation\TextProcessingProjectF', 'B:\PF\Archive\ps1\git',
+    'B:\PF\Archive\ps1\workflow\xCsharpI', 'B:\PF\Archive\ps1\Aggregation\TextProcessingProjectF\Tokenization',
+    'B:\PF\Archive\ps1\git\gist\GitPs1Module', 'B:\PF\Archive\ps1\git\submodule\SubmoduleFromGitmodules',
+    'B:\Unsorted\ps1', 'B:\PF\CSharpVisualStudio', 'B:\PF\CSharpVisualStudio\repos',
+    'B:\PF\CSharpVisualStudio\repos\LargeNexport\DataBindingDemo', 'B:\PF\CSharpVisualStudio\repos\LargeNexport\DataBindingDemoSparse',
+    'B:\PF\CSharpVisualStudio\repos\WIthoutStudio', 'B:\PF\CSharpVisualStudio\repos\WPF-EF6-Sqlite',
+    'B:\PF\CSharpVisualStudio\repos\WPF-Samples', 'B:\PF\CSharpVisualStudio\repos\Wpf-Upgift
+      1', 'B:\PF\CSharpVisualStudio\repos\karlstad', 'B:\PF\CSharpVisualStudio\repos\karlstad2Calc_Lotto',
+    'B:\PF\CSharpVisualStudio\repos\upg11', 'B:\PF\CSharpVisualStudio\repos\karlstad\Calculator_CBrobäck',
+    'B:\PF\CSharpVisualStudio\repos\karlstad\KarlstadButik', 'B:\PF\CSharpVisualStudio\repos\karlstad\KarlstadButik\Calculator_CBrobäck',
+    'B:\PF\CSharpVisualStudio\repos\karlstad\KarlstadButik\KarlstadButik', 'B:\PF\CSharpVisualStudio\repos\ProjectBoras',
+    'B:\PF\CSharpVisualStudio\repos\karlstad\Wpf-Upgift 1', 'B:\PF\CSharpVisualStudio\repos\LargeNexport\WPF-Samples',
+    'B:\PF\CSharpVisualStudio\repos\LargeNexport\WPF-EF6-Sqlite', 'B:\PF\CSharpVisualStudio\repos\Wpf-Upgift
+      1\213c939651e0bef7612b2f910909a21d', 'B:\PF\CSharpVisualStudio\repos\Wpf-Upgift
+      1\3714794', 'B:\PF\CSharpVisualStudio\repos\Wpf-Upgift 1\7327483', 'B:\PF\CSharpVisualStudio\repos\Wpf-Upgift
+      1\DataBindingDemo', 'B:\PF\CSharpVisualStudio\repos\Wpf-Upgift 1\DataBindingDemoSparse',
+    'B:\PF\CSharpVisualStudio\repos\Wpf-Upgift 1\InvalidMarkup', 'B:\PF\CSharpVisualStudio\repos\Wpf-Upgift
+      1\upg11', 'B:\PF\CSharpVisualStudio\repos\Wpf-Upgift 1\upgift1', 'B:\PF\CSharpVisualStudio\repos\Wpf-Upgift
+      1\WindowsFormsControlLibrary1', 'B:\PF\CSharpVisualStudio\repos\Wpf-Upgift 1\WPF-Samples',
+    'B:\PF\CSharpVisualStudio\repos\Wpf-Upgift 1\8691414\WpfApp1', 'B:\PF\CSharpVisualStudio\repos\Wpf-Upgift
+      1\8691414\WpfApp4', 'B:\PF\CSharpVisualStudio\repos\Wpf-Upgift 1\Boras2\PetStore',
+    'B:\PF\CSharpVisualStudio\repos\Wpf-Upgift 1\borås\upgift1', 'B:\PF\CSharpVisualStudio\repos\Wpf-Upgift
+      1\Wpf-Upgift 1\WpfApp1', 'B:\PF\CSharpVisualStudio\repos\boras', 'B:\PF\CSharpVisualStudio\repos\boras\213c939651e0bef7612b2f910909a21d',
+    'B:\PF\CSharpVisualStudio\repos\boras\3714794', 'B:\PF\CSharpVisualStudio\repos\boras\7327483',
+    'B:\PF\CSharpVisualStudio\repos\boras\DataBindingDemo', 'B:\PF\CSharpVisualStudio\repos\boras\DataBindingDemoSparse',
+    'B:\PF\CSharpVisualStudio\repos\boras\InvalidMarkup', 'B:\PF\CSharpVisualStudio\repos\boras\upg11',
+    'B:\PF\CSharpVisualStudio\repos\boras\upgift1', 'B:\PF\CSharpVisualStudio\repos\boras\WindowsFormsControlLibrary1',
+    'B:\PF\CSharpVisualStudio\repos\boras\WPF-Samples', 'B:\PF\CSharpVisualStudio\repos\boras\8691414\WpfApp4',
+    'B:\PF\CSharpVisualStudio\repos\boras\8691414\WpfApp1', 'B:\PF\CSharpVisualStudio\repos\boras\borås\upgift1',
+    'B:\PF\CSharpVisualStudio\repos\boras\Wpf-Upgift 1\WpfApp1', 'B:\PF\CSharpVisualStudio\repos\karlstad\karlstad3\Lotto_CBrobäck.rar',
+    'B:\PF\CSharpVisualStudio\repos\karlstad\karlstad3\Calculator_CBrobäck.rar', 'L:\Users\virtual2\RiderProjects',
+    'L:\Users\virtual2\RiderProjects\CSharp-Bor-s-Inl-mning1', 'L:\Users\virtual2\RiderProjects\ghClient',
+    'L:\Users\virtual2\RiderProjects\karlstad2Calc_Lotto', 'L:\Users\virtual2\RiderProjects\karlstad3Notepad',
+    'L:\Users\virtual2\RiderProjects\Karlstad4Butik', 'L:\Users\virtual2\RiderProjects\Karlstad4Butik2',
+    'L:\Users\virtual2\RiderProjects\projectBoras', 'L:\Users\virtual2\RiderProjects\TextEditor',
+    'C:\ProgramData\scoop\buckets', 'C:\ProgramData\scoop\persist\BeondCompare4',
+    'B:\Users\target\BeondCompare4', ~\AppData\Roaming\Scooter Software\Beyond Compare
+      4, 'B:\PF\Archive\ToGit\scoopbucket-presist\AppData\Roaming\Scooter Software\Beyond
+      Compare 4', 'B:\PF\CSharpVisualStudio\repos\karlstad\KarlstadButik\New folder',
+    'B:\PF\CSharpVisualStudio\repos\karlstad\KarlstadButik\KarlstadButik\KarlstadButik',
+    'C:\ProgramData\scoop\persist']
   rootB:\ToGit:
     databaseCleanup: {}
     log:
@@ -5672,7 +5717,7 @@ gitRootSettingsSet:
     commitNotes: {}
     journal: {}
   rootB:\PF:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1687611990702}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695208818659}
     log:
       rootSettings: {baseRoots: "!local-branches://\t!remote://origin\tref://HEAD",
         extendedRoots: ''}
@@ -5690,7 +5735,7 @@ gitRootSettingsSet:
       - toRead
     journal: {}
   rootB:\PF\Archive\ps1:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1694205639662}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695208962653}
     log:
       rootSettings: {baseRoots: "!remote://archive\t!remote://GroupIntoFolder\t!local-tags://\t\
           !others://\tref://HEAD\tref://refs/heads/master", extendedRoots: ''}
@@ -5699,11 +5744,57 @@ gitRootSettingsSet:
       logRootSettings: {}
     push: {}
     commitNotes:
-      commitNotesHistory: [etc, toRead, reorg, dedupedAndMerged, dedupe and merge,
-        Deduped, gpt, Rewriting with gpt, Reorganized]
+      commitNotesHistory:
+      - to delete
+      - "Merge branch 'stable'\n\n# Conflicts:\n#\t.gitmodules\n#\t23-08-21_13_01_02.ps1\n\
+        #\tAggregation/File comparison/DupeOrganizing.ps1\n#\tAggregation/TextProcessingProjectF\n\
+        #\tFile comparison/CustomObjectDefaultDisplayProperties.ps1\n#\tFile comparison/CustomObjectReferByTypeName.ps1\n\
+        #\tGit-Module/BreakRepoIntoTwo/gitCreateXbranches.ps1\n#\tGit-Module/Clone-NonEmpty/git-how-do-i-clone-into-a-nonempty-directory-stack-overflow.ps1\n\
+        #\tGit-Module/GeneralSourceCompare/idea.md\n#\tGit-Module/GeneralSourceCompare/stack-overflow-source.md\n\
+        #\tGit-Module/GeneralSourceCompare/temporary-directory.ps1\n#\tGit-Module/GitSubfoldersUpdateTagsAndDates.ps1\n\
+        #\tGit-Module/GitTemp.ps1\n#\tGit-Module/Initialize-batch.ps1\n#\tGit-Module/MapTowardsOther/GitCherryPickAccordingToSortedHead.ps1\n\
+        #\tGit-Module/MapTowardsOther/git-mapTowardsOtherStructure.ps1\n#\tGit-Module/SubmoduleFromGitmodules/git_add_submodule.ps1\n\
+        #\tGit-Module/etc.ps1\n#\tGit-Module/filter/GitFilterMove.ps1\n#\tGit-Module/filter/addUnknown.ps1\n\
+        #\tGit-Module/fix/Replace .git with module folder.ps1\n#\tGit-Module/fix/removeWorkTreeLineFromGitConfig.ps1\n\
+        #\tGit-Module/git-lookupGitdirs.ps1\n#\tGit-Module/gitCleanup - copy.md\n\
+        #\tGit-Module/repair/fix-CorruptedGitModules.psm1\n#\tGit-Module/repair/rep.ps1\n\
+        #\tGit-Module/sh/gitsubmodulerebuild.sh\n#\tGit-Module/todo-git-take all extensions.ps1\n\
+        #\tMaintenance/Admin Tools/Windows10Debloater-master/lib/Enable Cortana.ps1\n\
+        #\tMaintenance/Admin Tools/Windows10Debloater-master/lib/Enable Edge PDF.ps1\n\
+        #\tMaintenance/Admin Tools/Windows10Debloater-master/lib/Remove Bloatware\
+        \ RegKeys.ps1\n#\tMaintenance/Admin Tools/Windows10Debloater-master/lib/Stop\
+        \ Edge PDF.ps1\n#\tMaintenance/FileSystemWatcher.ps1\n#\tPowerShell.code-workspace\n\
+        #\tScripts2/.gitmodules\n#\tSnipps/insertionSort.ps1\n#\tclipboard-gist.ps1\n\
+        #\tgit\n#\tinsertionSort.ps1\n#\tlib/keyPairTo-PsCustom.ps1\n#\ttest2/.gitattributes\n\
+        #\tunsorted/(2).gitmodules\n#\tunsorted/23-08-21_13_01_02.ps1\n#\tunsorted/PowerShell\
+        \ (2).code-workspace\n#\tunsorted/Scripts (2).md\n#\tunsorted/Scripts2/ (2).gitmodules\n\
+        #\tunsorted/Tokenization.ps1\n#\tunsorted/clipboard-gist.ps1\n#\tunsorted/insertionSort.ps1\n\
+        #\tunsorted/sqlite.ps1\n#\tunsorted/test2/ (2).gitattributes\n#\tunsorted/todo-ShortCutCreatio\
+        \ (2).md\n#\tworkflow/Fix-CommitMessage--Gpt.ps1\n#\tworkflow/Gist/clipboard-gist.ps1"
+      - reorg
+      - "Merge branch 'withoutGit'\n\n# Conflicts:\n#\tAlgroithmix/CustomObjectDefaultDisplayProperties\
+        \ (2).ps1\n#\tAlgroithmix/CustomObjectReferByTypeName (2).ps1\n#\tAlgroithmix/todo-ModuleProjectAggregation\
+        \ (2).md\n#\tBcompareOnetabToMM.ps1\n#\tCustomObjectDefaultDisplayProperties.ps1\n\
+        #\tCustomObjectReferByTypeName.ps1\n#\tGitCompare/GeneralSourceCompare/xGeneralSourceCompare/CommitContentOfFile.ps1\n\
+        #\tGitCompare/GeneralSourceCompare/xGeneralSourceCompare/idea.md\n#\tGroupIntoFolder.ps1\n\
+        #\tJson/Bookmarks/htmlParsing (2).ps1\n#\tJson/Bookmarks/sqlite (2).ps1\n\
+        #\tMaintenance/Admin Tools/psModulePaths (2).ps1\n#\tMaintenance/GroupIntoFolder\
+        \ (2).ps1\n#\tModuleProjectAggregation.ps1\n#\tOperaLauncher/SelectItemFromListBox.ps1\n\
+        #\tOperaLauncher/SelectItemFromListBoxExample.ps1\n#\tOperaLauncher/launchWithParams.ps1\n\
+        #\tPowerShell.code-workspace\n#\tSnipps/StringFormating (2).ps1\n#\tSnipps/example-callExeWithParam\
+        \ (2).ps1\n#\tSnipps/get-lock (2).ps1\n#\tStringFormating.ps1\n#\texample-callExeWithParam.ps1\n\
+        #\tget-lock.ps1\n#\tgit\n#\thtmlParsing.ps1\n#\tlib/keyPairTo-PsCustom.ps1\n\
+        #\tpsModulePaths.ps1\n#\tsqlite.ps1\n#\tworkflow/Beyond compare interaction/BcompareOnetabToMM\
+        \ (2).ps1\n#\tworkflow/OperaLauncher/SelectItemFromListBox (2).ps1\n#\tworkflow/OperaLauncher/SelectItemFromListBoxExample\
+        \ (2).ps1\n#\tworkflow/OperaLauncher/launchWithParams (2).ps1"
+      - ryv
+      - etc
+      - toRead
+      - dedupedAndMerged
+      - dedupe and merge
     journal: {}
   rootB:\PF\CSharpVisualStudio\repos:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1694764313926}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695808469812}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
@@ -5711,7 +5802,8 @@ gitRootSettingsSet:
       logRootSettings: {}
     push: {}
     commitNotes:
-      commitNotesHistory: [etc, state, submodules]
+      commitNotesHistory: [state, ryc, Reorg, 'from petstore folder, contains general
+          projects', changed heads, etc, submodules]
     journal: {}
   rootB:\PF\NewWindows:
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1687611588861}
@@ -5846,7 +5938,7 @@ gitRootSettingsSet:
       commitNotesHistory: [state]
     journal: {}
   rootB:\PF\CSharpVisualStudio\repos\WPF-Samples:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1694764446440}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695808469863}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
@@ -5866,14 +5958,16 @@ gitRootSettingsSet:
     commitNotes: {}
     journal: {}
   rootB:\PF\CSharpVisualStudio\repos\upg11:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1694764433700}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695808470034}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
     merge:
       logRootSettings: {}
     push: {}
-    commitNotes: {}
+    commitNotes:
+      commitNotesHistory: [state]
+      commitNotes: Is renderable, Only exitbutton functions
     journal: {}
   rootB:\PF\PowerShell\DirToJson:
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1688390896616}
@@ -7891,7 +7985,7 @@ gitRootSettingsSet:
     commitNotes: {}
     journal: {}
   rootB:\PF\NoteTakingProjectFolder:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1692910113033}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695208818714}
     log:
       rootSettings: {baseRoots: "!remote://gists\t!local-branches://\t!local-tags://\t\
           !remote://Notebook-Foam\t!others://\tref://HEAD", extendedRoots: ''}
@@ -8530,7 +8624,7 @@ gitRootSettingsSet:
     commitNotes: {}
     journal: {}
   rootB:\PF\NoteTakingProjectFolder\gists:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1692910112976}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695208818857}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
@@ -9251,7 +9345,7 @@ gitRootSettingsSet:
     commitNotes: {}
     journal: {}
   rootC:\ProgramData\scoop\persist:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1693390060374}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1696589324993}
     log:
       rootSettings: {baseRoots: "!local-branches://\t!local-tags://\t!others://\t\
           !remote://windot\tref://HEAD", extendedRoots: ''}
@@ -9869,7 +9963,7 @@ gitRootSettingsSet:
     commitNotes: {}
     journal: {}
   rootC:\Users\CrRoot\AppData\Roaming\Scooter Software\Beyond Compare 4:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1692011542640}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695998083886}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
@@ -10029,7 +10123,7 @@ gitRootSettingsSet:
       commitNotesHistory: [czxcf]
     journal: {}
   rootB:\PF\Archive\ps1\Aggregation\TextProcessingProjectF:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1694205639606}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695208962527}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
@@ -10040,7 +10134,7 @@ gitRootSettingsSet:
       commitNotesHistory: [TpRead]
     journal: {}
   rootB:\PF\Archive\ps1\git:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1694205639509}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695208962411}
     log:
       rootSettings: {baseRoots: "!remote://git-extras\t!remote://git-toolbelt\t!local-branches://\t\
           !local-tags://\t!remote://origin\tref://HEAD", extendedRoots: ''}
@@ -10049,18 +10143,9 @@ gitRootSettingsSet:
       logRootSettings: {}
     push: {}
     commitNotes:
-      commitNotesHistory:
-      - prepared for function extraction
-      - extracted methods
-      - |
-        exctracted functions
-      - reorg
-      - rewrite this script into functions with synopsis, with parameter validation
-        and error checking ;
-      - from gitmodule
-      - '[experimental]  force flagg detection'
-      - toread
-      - deduped
+      commitNotesHistory: [from repo root, state, from root, state from root, improved
+          testing, 'least destructive, non consequential', etc, ready to test, merged
+          with gpt rewriting]
     journal: {}
   rootC:\ProgramData\scoop\persist\SmartGit\.settings:
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1692732619315}
@@ -10073,7 +10158,7 @@ gitRootSettingsSet:
     commitNotes: {}
     journal: {}
   rootB:\PF\Archive\ps1\workflow\CsharpI:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1694205639806}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695208962344}
     log:
       rootSettings: {baseRoots: "!local-branches://\t!remote://origin\tref://HEAD",
         extendedRoots: ''}
@@ -10084,7 +10169,7 @@ gitRootSettingsSet:
     commitNotes: {}
     journal: {}
   rootB:\PF\Archive\ps1\git\submodule\SubmoduleFromGitmodules:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1694205639559}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695208962581}
     log:
       rootSettings: {baseRoots: "!remote://GistFork\t!local-branches://\tref://HEAD",
         extendedRoots: ''}
@@ -10096,7 +10181,7 @@ gitRootSettingsSet:
       commitNotesHistory: [extracted functions, etc]
     journal: {}
   rootB:\PF\Archive\ps1\Aggregation\TextProcessingProjectF\Tokenization:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1694205639757}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695208962704}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
@@ -10249,17 +10334,18 @@ gitRootSettingsSet:
     commitNotes: {}
     journal: {}
   rootB:\PF\AhkProjectFolder:
-    databaseCleanup: {}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695584597258}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
     merge:
       logRootSettings: {}
     push: {}
-    commitNotes: {}
+    commitNotes:
+      commitNotesHistory: [ads, as]
     journal: {}
   rootB:\PF\CSharpVisualStudio:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1694764281496}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695808470080}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
@@ -10431,7 +10517,7 @@ gitRootSettingsSet:
     commitNotes: {}
     journal: {}
   rootB:\PF\Archive\NewWindows:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1694205639930}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695209155990}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
@@ -10597,24 +10683,27 @@ gitRootSettingsSet:
       commitNotesHistory: [etc]
     journal: {}
   rootB:\PF\CSharpVisualStudio\repos\karlstad:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1694764413085}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1696008550497}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
     merge:
       logRootSettings: {}
     push: {}
-    commitNotes: {}
+    commitNotes:
+      commitNotesHistory: [etc, KarlstadButik, projectBoras, Merge branch 'masterK'
+          into Karlstad-BaseRepo]
     journal: {}
   rootB:\PF\CSharpVisualStudio\repos\karlstad\Calculator_CBrobäck:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1693322917351}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695808469758}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
     merge:
       logRootSettings: {}
     push: {}
-    commitNotes: {}
+    commitNotes:
+      commitNotesHistory: [stage]
     journal: {}
   rootB:\PF\CSharpVisualStudio\repos\karlstad\Lotto_CBrobäck:
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1693322917460}
@@ -10627,7 +10716,7 @@ gitRootSettingsSet:
     commitNotes: {}
     journal: {}
   rootB:\PF\CSharpVisualStudio\repos\karlstad\Wpf-Upgift 1:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1693322927678}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695817645428}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
@@ -10637,7 +10726,7 @@ gitRootSettingsSet:
     commitNotes: {}
     journal: {}
   rootB:\PF\CSharpVisualStudio\repos\karlstad2Calc_Lotto:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1694208188365}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695808469987}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
@@ -10689,7 +10778,7 @@ gitRootSettingsSet:
     commitNotes: {}
     journal: {}
   rootB:\PF\PowershellProjectFolder\Modules\Personal\filesystem\group\ps1:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1694208239234}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695209170541}
     log:
       rootSettings: {baseRoots: "!local-branches://\t!local-tags://\t!remote://origin\t\
           ref://HEAD", extendedRoots: ''}
@@ -10699,6 +10788,7 @@ gitRootSettingsSet:
     push: {}
     commitNotes:
       commitNotesHistory:
+      - state
       - "Merge commit '4d72b93f4de1ea7d50dfeb30ab68fde69c0a4052' into HEAD\n\n# Conflicts:\n\
         #\tWindows10Debloater-master/Windows10DebloaterGUI.ps1"
     journal: {}
@@ -10723,7 +10813,7 @@ gitRootSettingsSet:
     commitNotes: {}
     journal: {}
   rootC:\ProgramData\scoop\persist\BeondCompare4:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1693425326910}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695997900398}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
@@ -10833,14 +10923,16 @@ gitRootSettingsSet:
     commitNotes: {}
     journal: {}
   rootC:\ProgramData\scoop\persist\AHK-EverydayScripts:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1693478166808}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695584469659}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
     merge:
       logRootSettings: {}
     push: {}
-    commitNotes: {}
+    commitNotes:
+      commitNotesHistory: [Reorganized after taking material from other RepoCopy,
+        etcsta, etc]
     journal: {}
   rootB:\PF\scoopbucket-1\Todo\BAO-autoItToScoop:
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1693478539386}
@@ -10904,7 +10996,7 @@ gitRootSettingsSet:
     commitNotes: {}
     journal: {}
   rootB:\PF\CSharpVisualStudio\repos\WIthoutStudio:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1694764440866}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695808469923}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
@@ -11067,14 +11159,15 @@ gitRootSettingsSet:
     commitNotes: {}
     journal: {}
   rootC:\ProgramData\scoop\persist\AHK-EverydayScripts\ahk_config:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1693824662617}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695584469605}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
     merge:
       logRootSettings: {}
     push: {}
-    commitNotes: {}
+    commitNotes:
+      commitNotesHistory: [etc]
     journal: {}
   rootB:\Users\target:
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1693916576600}
@@ -11088,14 +11181,15 @@ gitRootSettingsSet:
       commitNotesHistory: [subz, state, etc]
     journal: {}
   rootB:\Users\target\AHK:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1693921383741}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695584079663}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
     merge:
       logRootSettings: {}
     push: {}
-    commitNotes: {}
+    commitNotes:
+      commitNotesHistory: [asd, Reorganized after taking material from other RepoCopy]
     journal: {}
   rootB:\Users\target\AdvancedRenamer:
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1693921383790}
@@ -11118,14 +11212,16 @@ gitRootSettingsSet:
     commitNotes: {}
     journal: {}
   rootB:\Users\target\BeondCompare4:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1693921412911}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695997976114}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
     merge:
       logRootSettings: {}
     push: {}
-    commitNotes: {}
+    commitNotes:
+      commitNotesHistory: [asdac]
+      commitNotes: czxc
     journal: {}
   rootB:\Users\target\Cherrytree:
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1693921418894}
@@ -11288,7 +11384,7 @@ gitRootSettingsSet:
     commitNotes: {}
     journal: {}
   rootB:\PF\Archive\ps1\git\gist\GitPs1Module:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1694205639862}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695208962476}
     log:
       rootSettings: {baseRoots: "!local-branches://\t!remote://origin\tref://HEAD",
         extendedRoots: ''}
@@ -12098,14 +12194,15 @@ gitRootSettingsSet:
     commitNotes: {}
     journal: {}
   rootB:\PF\Archive\ToGit\scoopbucket-presist\AHK:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1694424851378}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695584536563}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
     merge:
       logRootSettings: {}
     push: {}
-    commitNotes: {}
+    commitNotes:
+      commitNotesHistory: [asd, asdc]
     journal: {}
   rootB:\PF\Archive\ToGit\scoopbucket-presist\Git:
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1694424865756}
@@ -12220,14 +12317,16 @@ gitRootSettingsSet:
       commitNotesHistory: [etc, after merge]
     journal: {}
   rootB:\PF\Archive\ToGit\scoopbucket-presist\AHK\ahk_config:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1694425068279}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695585590232}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
     merge:
       logRootSettings: {}
     push: {}
-    commitNotes: {}
+    commitNotes:
+      commitNotesHistory: [state]
+      commitNotes: x
     journal: {}
   rootB:\PF\Archive\ToGit\scoopbucket-presist\Documents\scoop\apps\scoop\current:
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1694521578849}
@@ -12714,6 +12813,1663 @@ gitRootSettingsSet:
     journal: {}
   rootB:\PF\Archive\ToGit\scoopbucket-presist\xscoop\apps\scoop\current:
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1694645500689}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\CSharpVisualStudio\repos\karlstad\karlstad3\Calculator_CBrobäck.rar:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695892147170}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\CSharpVisualStudio\repos\karlstad\karlstad3\Lotto_CBrobäck.rar:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695891811931}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\CSharpVisualStudio\repos\WPF-EF6-Sqlite:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695288760292}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\CSharpVisualStudio\repos\Wpf-Upgift 1:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695808470126}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes:
+      commitNotesHistory: [rty, easd, etc, ad, New Borås Root]
+    journal: {}
+  rootB:\PF\Modding:
+    databaseCleanup: {}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\PowerShellProjectFolder:
+    databaseCleanup: {}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\AhkProjectFolder\Fork\AppendToClipboard:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695584598399}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\AhkProjectFolder\Fork\CheckIfProgIsRunning:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695584598047}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\AhkProjectFolder\Fork\ExplorerAtPath:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695584597536}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\AhkProjectFolder\Fork\GetRunningProcess:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695584597311}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\AhkProjectFolder\Fork\Launch If not Currently running:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695584597481}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\AhkProjectFolder\Fork\Launch If not Currently running Continously:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695584597711}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\AhkProjectFolder\Fork\LaunchApplication:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695584597426}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\AhkProjectFolder\Fork\MACRO RECORDER:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695584598340}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\AhkProjectFolder\Fork\NoahHotell:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695584597937}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\AhkProjectFolder\Fork\Selected Item In Explorer:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695584597992}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\AhkProjectFolder\Fork\SelectedTextWithoutDisturbingClipboard:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695584597194}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\AhkProjectFolder\Fork\WindowToforeground:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695584597032}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\AhkProjectFolder\Fork\autoklick:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695584598578}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\AhkProjectFolder\ahk_config:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695584597825}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes:
+      commitNotesHistory: [etc, 'Moved arround, now in project root']
+    journal: {}
+  rootB:\PF\Modding\Diablo II ressurected:
+    databaseCleanup: {}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\Modding\Pascal:
+    databaseCleanup: {}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\NoteTakingProjectFolder\Archive\Notebook-Foam\GistNotebook 1\useFullRegEdits:
+    databaseCleanup: {}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\NoteTakingProjectFolder\Archive\Notebook-Foam\NoteTakingProjectFolder\other\useFullRegEdits:
+    databaseCleanup: {}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\PowerShellProjectFolder\Modules\Personal:
+    databaseCleanup: {}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\PowerShellProjectFolder\TodoProjects\Ast-IdentifyCodeBlocks:
+    databaseCleanup: {}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\PowerShellProjectFolder\doneAndDeserted\Betesta\Esp-Header-Export:
+    databaseCleanup: {}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\PowerShellProjectFolder\doneNDeserted\WindowsAdmin:
+    databaseCleanup: {}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\PowerShellProjectFolder\ps1:
+    databaseCleanup: {}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\PowerShellProjectFolder\scripts:
+    databaseCleanup: {}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\Modding\Pascal\Edit Scripts\FyTy:
+    databaseCleanup: {}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\CSharpVisualStudio\repos\LargeNexport\DataBindingDemo:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695288760420}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\CSharpVisualStudio\repos\LargeNexport\DataBindingDemoSparse:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695288760361}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\CSharpVisualStudio\repos\karlstad\ProjectBoras:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695289006695}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\CSharpVisualStudio\repos\karlstad\KarlstadButik:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695897061456}
+    log:
+      rootSettings: {baseRoots: "!local-branches://\t!local-tags://\t!remote://origin\t\
+          !remote://pushto\tref://HEAD", extendedRoots: ''}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes:
+      commitNotesHistory: [asd]
+    journal: {}
+  rootB:\Unsorted\tempRepo\New folder:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695404990171}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\Unsorted\tempRepo\New folder\gists:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695405316739}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\Unsorted\tempRepo\New folder\Notebook-Foam:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695405786337}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootE:\Users\virtual1:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695569363980}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes:
+      commitNotesHistory: [State]
+    journal: {}
+  rootE:\Users\virtual1\RiderProjects\CSharp-Bor-s-Inl-mning1:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695569585902}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootE:\Users\virtual1\AppData\Local\Microsoft\Edge\User Data\Default\Extensions\ojccgbnddompclhanijminmemionfofg\1.0_0:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695569613356}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootE:\Users\virtual1\AppData\Local\Microsoft\Edge\User Data\Default\Extensions\dfnblaebmpjlokbkadgeaghajajidojj\0.0.3_0:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695569628925}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootE:\Users\virtual1\RiderProjects\ghClient:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695569700756}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootE:\Users\virtual1\RiderProjects\karlstad2Calc_Lotto:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695569709924}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootE:\Users\virtual1\RiderProjects\karlstad3Notepad:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695569718685}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootE:\Users\virtual1\RiderProjects\Karlstad4Butik:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695569727653}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootE:\Users\virtual1\RiderProjects\Karlstad4Butik2:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695569735280}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootE:\Users\virtual1\RiderProjects\projectBoras:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695569743479}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes:
+      commitNotesHistory: [state]
+    journal: {}
+  rootE:\Users\virtual1\RiderProjects\TextEditor:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695569751934}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\Users\target\AHK\script\fork\SelectedTextWithoutDisturbingClipboard:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695584129844}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\Users\target\AHK\script\fork\Selected Item In Explorer:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695584135749}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\Users\target\AHK\script\fork\LaunchApplication:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695584144603}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\Users\target\AHK\script\fork\Launch If not Currently running:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695584149913}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\Users\target\AHK\script\fork\ExplorerAtPath:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695584157235}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\Users\target\AHK\script\fork\CheckIfProgIsRunning:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695584165311}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes:
+      commitNotesHistory: [sasd]
+    journal: {}
+  rootB:\Users\target\AHK\fork\autoklick:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695584172642}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\Users\target\AHK\ahk_config:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695584179573}
+    log:
+      rootSettings: {baseRoots: "!local-branches://\t!remote://origin\tref://HEAD",
+        extendedRoots: ''}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes:
+      commitNotesHistory: [Removed To other copy of repo]
+    journal: {}
+  rootB:\PF\AhkProjectFolder\ahk_config\Fork\AppendToClipboard:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695584598218}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\AhkProjectFolder\ahk_config\Fork\CheckIfProgIsRunning:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695584598458}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\AhkProjectFolder\ahk_config\Fork\ExplorerAtPath:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695584598520}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\AhkProjectFolder\ahk_config\Fork\GetRunningProcess:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695584597141}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\AhkProjectFolder\ahk_config\Fork\Launch If not Currently running:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695584597367}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\AhkProjectFolder\ahk_config\Fork\Launch If not Currently running Continously:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695584598280}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\AhkProjectFolder\ahk_config\Fork\LaunchApplication:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695584598161}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\AhkProjectFolder\ahk_config\Fork\MACRO RECORDER:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695584597770}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\AhkProjectFolder\ahk_config\Fork\Selected Item In Explorer:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695584597653}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\AhkProjectFolder\ahk_config\Fork\SelectedTextWithoutDisturbingClipboard:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695584597596}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\AhkProjectFolder\ahk_config\Fork\WindowToforeground:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695584597086}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\AhkProjectFolder\ahk_config\script\Fork\GetRunningProcess:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695584598104}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\AhkProjectFolder\ahk_config\script\Fork\NoahHotell:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695584597883}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\Archive\ToGit\scoopbucket-presist\AHK\Fork\autoklick:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695585590502}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\Archive\ToGit\scoopbucket-presist\AHK\script\Fork\CheckIfProgIsRunning:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695585590556}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes:
+      commitNotesHistory: [ayh]
+    journal: {}
+  rootB:\PF\Archive\ToGit\scoopbucket-presist\AHK\script\Fork\ExplorerAtPath:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695585590337}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\Archive\ToGit\scoopbucket-presist\AHK\script\Fork\Launch If not Currently running:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695585590285}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\Archive\ToGit\scoopbucket-presist\AHK\script\Fork\LaunchApplication:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695585590618}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\Archive\ToGit\scoopbucket-presist\AHK\script\Fork\Selected Item In Explorer:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695585590389}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\Archive\ToGit\scoopbucket-presist\AHK\script\Fork\SelectedTextWithoutDisturbingClipboard:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695585590444}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootC:\ProgramData\scoop\persist\AHK-EverydayScripts\Fork\autoklick:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695586278211}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootC:\ProgramData\scoop\persist\AHK-EverydayScripts\script\Fork\CheckIfProgIsRunning:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695586278109}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootC:\ProgramData\scoop\persist\AHK-EverydayScripts\script\Fork\ExplorerAtPath:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695586278158}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootC:\ProgramData\scoop\persist\AHK-EverydayScripts\script\Fork\Launch If not Currently running:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695586278057}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootC:\ProgramData\scoop\persist\AHK-EverydayScripts\script\Fork\LaunchApplication:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695586278008}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes:
+      commitNotesHistory: [sdac]
+    journal: {}
+  rootC:\ProgramData\scoop\persist\AHK-EverydayScripts\script\Fork\Selected Item In Explorer:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695586278324}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes:
+      commitNotesHistory: [ads]
+    journal: {}
+  rootC:\ProgramData\scoop\persist\AHK-EverydayScripts\script\Fork\SelectedTextWithoutDisturbingClipboard:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695586278264}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\Users\target\AHK\script\fork\MACRO RECORDER:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695586440195}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\AhkProjectFolder\script\Fork\CheckIfProgIsRunning:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695589489858}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\AhkProjectFolder\script\Fork\ExplorerAtPath:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695589489802}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\AhkProjectFolder\script\Fork\Launch If not Currently running:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695589490028}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\AhkProjectFolder\script\Fork\LaunchApplication:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695589490084}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\AhkProjectFolder\script\Fork\Selected Item In Explorer:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695589489912}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\AhkProjectFolder\script\Fork\SelectedTextWithoutDisturbingClipboard:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695589489970}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\Archive\ToGit\scoopbucket-presist\AHK\ahk_config\Fork\AppendToClipboard:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695593799758}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\Archive\ToGit\scoopbucket-presist\AHK\ahk_config\script\Fork\GetRunningProcess:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695593804778}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\Archive\ToGit\scoopbucket-presist\AHK\ahk_config\Fork\CheckIfProgIsRunning:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695594117915}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\Archive\ToGit\scoopbucket-presist\AHK\ahk_config\Fork\ExplorerAtPath:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695594117973}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\Archive\ToGit\scoopbucket-presist\AHK\ahk_config\Fork\GetRunningProcess:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695594118157}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\Archive\ToGit\scoopbucket-presist\AHK\ahk_config\Fork\Launch If not Currently running:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695594118097}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\Archive\ToGit\scoopbucket-presist\AHK\ahk_config\Fork\Launch If not Currently running Continously:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695594118399}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\Archive\ToGit\scoopbucket-presist\AHK\ahk_config\Fork\LaunchApplication:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695594118339}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\Archive\ToGit\scoopbucket-presist\AHK\ahk_config\Fork\MACRO RECORDER:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695594118276}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\Archive\ToGit\scoopbucket-presist\AHK\ahk_config\Fork\Selected Item In Explorer:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695594118215}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\Archive\ToGit\scoopbucket-presist\AHK\ahk_config\Fork\SelectedTextWithoutDisturbingClipboard:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695594117856}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\Archive\ToGit\scoopbucket-presist\AHK\ahk_config\Fork\WindowToforeground:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695594118036}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\Archive\ToGit\scoopbucket-presist\AHK\ahk_config\script\Fork\NoahHotell:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695594118459}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\Archive\ps1\workflow\xCsharpI:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695673042482}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\Unsorted\ps1:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695738610382}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\CSharpVisualStudio\repos\karlstad\KarlstadButik\Calculator_CBrobäck:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695815206547}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\CSharpVisualStudio\repos\karlstad\KarlstadButik\KarlstadButik:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695815206596}
+    log:
+      rootSettings: {baseRoots: "!local-branches://\t!local-tags://\t!remote://origin\t\
+          ref://refs/heads/Experiment\tref://HEAD\tref://refs/heads/Only_CollectionHolder\t\
+          ref://refs/heads/Only_ErializeXml\tref://refs/heads/Only_Filhantering\t\
+          ref://refs/heads/Only_Inventarie\tref://refs/heads/Only_Item\tref://refs/heads/Only_KassaFonsterDesigner\t\
+          ref://refs/heads/Only_product\tref://refs/heads/Only_Program\tref://refs/heads/Only_RelayCommand\t\
+          ref://refs/heads/Only_ShoppingList\tref://refs/heads/Only_ShoppingListItem",
+        extendedRoots: '!stashes://'}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes:
+      commitNotesHistory:
+      - O_KeyV_AntaLista' cannot be found on the DataSource
+      - "System.ArgumentException: Column 'System.Data.DataColumnCollection' does\
+        \ not belong to table .\n   at System.Data.DataRow.GetDataColumn(String columnName)\n\
+        \   at System.Data.DataRow.set_Item(String columnName, Object value)\n   at\
+        \ Karlstad4Butik.Filhantering.CsvReaderToTable(String filename, DataTable\
+        \ table) in C:\\Users\\virtual2\\RiderProjects\\Karlstad4Butik\\Filhantering.cs:line\
+        \ 168\n\n# Conflicts:\n#\tCollectionHolder.ShoppingList.cs"
+      - |-
+        removed xmlSerialisers Specific collection updation, to just a single collection, this ressults in lagerfönster not being updated
+
+        child list can't be created
+
+        interanl collection is not properly updated
+
+        should be loaded into inventarie type atleast
+      - |-
+        SafeEdits? removed xmlSerialisers Specific collection updation, to just a single collection, this ressults in lagerfönster not being updated
+
+        child list can't be created
+
+        interanl collection is not properly updated
+
+        should be loaded into inventarie type atleast
+      - "pulled up properties of Inventarie.cs into product\n\n# Conflicts:\n#\tCollectionHolder.ShoppingList.cs\n\
+        #\tCollectionHolder.cs\n#\tErializeXML.cs\n#\tFilhantering.cs\n#\tInventarie.cs\n\
+        #\tproduct.cs\n\nO_KeyV_AntaLista' cannot be found\n\nBuilds but can't run\n\
+        \ndoes not build, cleaned up warnings,   Microsoft.Common.CurrentVersion.targets(3312,\
+        \ 5): [MSB3577] Two output file names resolved to the same output path: \"\
+        obj\\Debug\\Karlstad4Butik.Butik.resources\"\n\nUnhandled exception when Clicking\
+        \ on kundkorgs items,\nLoads csv invisible ressulting in duplicates in the\
+        \ kundkorg view, as if csv wasn't loaded initialliy\n\nUnable to Cast Error\n\
+        \nSystem.NullReferenceException: Object reference not set to an instance of\
+        \ an object.\n   at Karlstad4Butik.ErializeXML.<XmlToDataTable>g__FCV|6_3(XmlElement\
+        \ bx, String localname) in C:\\Users\\virtual2\\RiderProjects\\Karlstad4Butik\\\
+        ErializeXML.cs:line 171\n\nrefactor KassaFonster.cs\n\n# Conflicts:\n#\tCollectionHolder.cs\n\
+        #\tLagerFonster.cs\n#\tbutik_1.cs"
+      - "SafeEDits?\r\npulled up properties of Inventarie.cs into product\n\n# Conflicts:\n\
+        #\tCollectionHolder.ShoppingList.cs\n#\tCollectionHolder.cs\n#\tErializeXML.cs\n\
+        #\tFilhantering.cs\n#\tInventarie.cs\n#\tproduct.cs\n\nO_KeyV_AntaLista' cannot\
+        \ be found\n\nBuilds but can't run\n\ndoes not build, cleaned up warnings,\
+        \   Microsoft.Common.CurrentVersion.targets(3312, 5): [MSB3577] Two output\
+        \ file names resolved to the same output path: \"obj\\Debug\\Karlstad4Butik.Butik.resources\"\
+        \n\nUnhandled exception when Clicking on kundkorgs items,\nLoads csv invisible\
+        \ ressulting in duplicates in the kundkorg view, as if csv wasn't loaded initialliy\n\
+        \nUnable to Cast Error\n\nSystem.NullReferenceException: Object reference\
+        \ not set to an instance of an object.\n   at Karlstad4Butik.ErializeXML.<XmlToDataTable>g__FCV|6_3(XmlElement\
+        \ bx, String localname) in C:\\Users\\virtual2\\RiderProjects\\Karlstad4Butik\\\
+        ErializeXML.cs:line 171\n\nrefactor KassaFonster.cs\n\n# Conflicts:\n#\tCollectionHolder.cs\n\
+        #\tLagerFonster.cs\n#\tbutik_1.cs"
+      - uio
+      - Column 'System.Data.DataColumnCollection' does not belong to table
+      - "Column 'System.Data.DataColumnCollection' does not belong to table\n\npulled\
+        \ up properties of Inventarie.cs into product\n\n# Conflicts:\n#\tCollectionHolder.ShoppingList.cs\n\
+        #\tCollectionHolder.cs\n#\tErializeXML.cs\n#\tFilhantering.cs\n#\tInventarie.cs\n\
+        #\tproduct.cs\n\nO_KeyV_AntaLista' cannot be found\n\nBuilds but can't run\n\
+        \ndoes not build, cleaned up warnings,   Microsoft.Common.CurrentVersion.targets(3312,\
+        \ 5): [MSB3577] Two output file names resolved to the same output path: \"\
+        obj\\Debug\\Karlstad4Butik.Butik.resources\"\n\nUnhandled exception when Clicking\
+        \ on kundkorgs items,\nLoads csv invisible ressulting in duplicates in the\
+        \ kundkorg view, as if csv wasn't loaded initialliy\n\nUnable to Cast Error\n\
+        \nSystem.NullReferenceException: Object reference not set to an instance of\
+        \ an object.\n   at Karlstad4Butik.ErializeXML.<XmlToDataTable>g__FCV|6_3(XmlElement\
+        \ bx, String localname) in C:\\Users\\virtual2\\RiderProjects\\Karlstad4Butik\\\
+        ErializeXML.cs:line 171\n\nrefactor KassaFonster.cs\n\n# Conflicts:\n#\tCollectionHolder.cs\n\
+        #\tLagerFonster.cs\n#\tbutik_1.cs"
+    journal: {}
+  rootB:\PF\CSharpVisualStudio\repos\ProjectBoras:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695816010096}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\CSharpVisualStudio\repos\LargeNexport\WPF-Samples:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695818619350}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\CSharpVisualStudio\repos\LargeNexport\WPF-EF6-Sqlite:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695818625757}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\CSharpVisualStudio\repos\Wpf-Upgift 1\213c939651e0bef7612b2f910909a21d:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695819062916}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\CSharpVisualStudio\repos\Wpf-Upgift 1\3714794:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695819088060}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes:
+      commitNotesHistory: [state, etc]
+    journal: {}
+  rootB:\PF\CSharpVisualStudio\repos\Wpf-Upgift 1\7327483:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695819096195}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\CSharpVisualStudio\repos\Wpf-Upgift 1\DataBindingDemo:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695819107007}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\CSharpVisualStudio\repos\Wpf-Upgift 1\DataBindingDemoSparse:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695819135548}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes:
+      commitNotesHistory: [etc]
+    journal: {}
+  rootB:\PF\CSharpVisualStudio\repos\Wpf-Upgift 1\InvalidMarkup:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695819146558}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\CSharpVisualStudio\repos\Wpf-Upgift 1\upg11:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695819167271}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes:
+      commitNotesHistory: [etc]
+    journal: {}
+  rootB:\PF\CSharpVisualStudio\repos\Wpf-Upgift 1\upgift1:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695819186928}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes:
+      commitNotesHistory: [state, etc]
+    journal: {}
+  rootB:\PF\CSharpVisualStudio\repos\Wpf-Upgift 1\WindowsFormsControlLibrary1:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695819213248}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\CSharpVisualStudio\repos\Wpf-Upgift 1\WPF-Samples:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695819225287}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\CSharpVisualStudio\repos\Wpf-Upgift 1\8691414\WpfApp1:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695819234533}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes:
+      commitNotesHistory: [state, etc]
+    journal: {}
+  rootB:\PF\CSharpVisualStudio\repos\Wpf-Upgift 1\8691414\WpfApp4:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695819243035}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\CSharpVisualStudio\repos\Wpf-Upgift 1\Boras2\PetStore:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695819253646}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\CSharpVisualStudio\repos\Wpf-Upgift 1\borås\upgift1:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695819262675}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes:
+      commitNotesHistory: [etc]
+    journal: {}
+  rootB:\PF\CSharpVisualStudio\repos\Wpf-Upgift 1\Wpf-Upgift 1\WpfApp1:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695819273975}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes:
+      commitNotesHistory: [etc]
+    journal: {}
+  rootB:\PF\CSharpVisualStudio\repos\boras:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695820854443}
+    log:
+      rootSettings: {baseRoots: "!local-branches://\t!local-tags://\tref://HEAD",
+        extendedRoots: '!stashes://'}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes:
+      commitNotesHistory: [etc, state, ryt, aw]
+    journal: {}
+  rootB:\PF\CSharpVisualStudio\repos\boras\213c939651e0bef7612b2f910909a21d:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695823317174}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\CSharpVisualStudio\repos\boras\3714794:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695823325906}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\CSharpVisualStudio\repos\boras\7327483:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695823333676}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\CSharpVisualStudio\repos\boras\DataBindingDemo:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695823344021}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes:
+      commitNotesHistory: [etc]
+    journal: {}
+  rootB:\PF\CSharpVisualStudio\repos\boras\DataBindingDemoSparse:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695823394171}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes:
+      commitNotesHistory: [etc]
+    journal: {}
+  rootB:\PF\CSharpVisualStudio\repos\boras\InvalidMarkup:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695823426119}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\CSharpVisualStudio\repos\boras\upg11:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695823442557}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes:
+      commitNotesHistory: [etc]
+    journal: {}
+  rootB:\PF\CSharpVisualStudio\repos\boras\upgift1:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695823517848}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes:
+      commitNotesHistory: [etc]
+    journal: {}
+  rootB:\PF\CSharpVisualStudio\repos\boras\WindowsFormsControlLibrary1:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695823533386}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes:
+      commitNotesHistory: [etc]
+    journal: {}
+  rootB:\PF\CSharpVisualStudio\repos\boras\WPF-Samples:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695823571293}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\CSharpVisualStudio\repos\boras\8691414\WpfApp4:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695823578993}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\CSharpVisualStudio\repos\boras\8691414\WpfApp1:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695823695001}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\CSharpVisualStudio\repos\boras\borås\upgift1:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695823728289}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes:
+      commitNotesHistory: [etc]
+    journal: {}
+  rootB:\PF\CSharpVisualStudio\repos\boras\Wpf-Upgift 1\WpfApp1:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695823742331}
+    log:
+      rootSettings: {baseRoots: "!local-branches://\t!remote://origin\tref://HEAD",
+        extendedRoots: ''}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes:
+      commitNotesHistory: [etcet, etc]
+    journal: {}
+  rootL:\Users\virtual2\RiderProjects:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695896539796}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes:
+      commitNotesHistory: [etc, asd, state, initial]
+    journal: {}
+  rootL:\Users\virtual2\RiderProjects\CSharp-Bor-s-Inl-mning1:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695896554403}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes:
+      commitNotesHistory: [asd]
+    journal: {}
+  rootL:\Users\virtual2\RiderProjects\ghClient:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695896563160}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootL:\Users\virtual2\RiderProjects\karlstad2Calc_Lotto:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695896568082}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootL:\Users\virtual2\RiderProjects\karlstad3Notepad:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695896572487}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes:
+      commitNotesHistory: [czxc]
+    journal: {}
+  rootL:\Users\virtual2\RiderProjects\Karlstad4Butik:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695896579520}
+    log:
+      rootSettings: {baseRoots: "!local-branches://\t!local-tags://\t!remote://origin\t\
+          ref://HEAD", extendedRoots: ''}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes:
+      commitNotesHistory: [asd]
+    journal: {}
+  rootL:\Users\virtual2\RiderProjects\Karlstad4Butik2:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695896585017}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes:
+      commitNotesHistory: [asd]
+    journal: {}
+  rootL:\Users\virtual2\RiderProjects\projectBoras:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695896602415}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootL:\Users\virtual2\RiderProjects\TextEditor:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695896607968}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\Archive\ToGit\scoopbucket-presist\AppData\Roaming\Scooter Software\Beyond Compare 4:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1696004539188}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes:
+      commitNotesHistory: [etc]
+    journal: {}
+  rootB:\PF\CSharpVisualStudio\repos\karlstad\KarlstadButik\New folder:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1696117747379}
+    log:
+      rootSettings: {baseRoots: "!local-branches://\t!local-tags://\tref://HEAD",
+        extendedRoots: ''}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes:
+      commitNotesHistory:
+      - ShoppinglistItem is now derived from tupple
+      - minor
+      - worries that i might have used explict casting to friveleus throught my program,
+        we'll see
+      - just reorg
+      - shopinglistitem
+      - |-
+        Moved shoppinglistItem to where it belongs,
+        InventarGrid and kundkorgsgrid fixed?
+      - InventarGrid and kundkorgsgrid fixed?
+      - Moved shoppinglistItem to where it belongs,
+      - 'InventarieLista.cs(9, 97): [CS0738] ''InventarieLista'' does not implement
+        interface member ''IEnumerable<KeyValuePair<Inventarie, int>>.GetEnumerator()''.
+        ''InventarieLista.GetEnumerator()'' cannot implement ''IEnumerable<KeyValuePair<Inventarie,
+        int>>.GetEnumerator()'' because it does not have the matching return type
+        of ''IEnumerator<KeyValuePair<Inventarie, int>>''.'
+      commitNotes: ShoppinglistItem is now derived from tupple
+    journal: {}
+  rootB:\PF\CSharpVisualStudio\repos\karlstad\KarlstadButik\KarlstadButik\KarlstadButik:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1696156508849}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}

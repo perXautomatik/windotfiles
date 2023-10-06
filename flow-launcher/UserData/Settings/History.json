@@ -1,250 +1,6 @@
 {
   "Items": [
     {
-      "Query": "ps choco uninstall nirlauncher",
-      "ExecutedDateTime": "2023-06-13T08:56:29.2048258+02:00"
-    },
-    {
-      "Query": "autorun or",
-      "ExecutedDateTime": "2023-06-13T09:05:17.6358709+02:00"
-    },
-    {
-      "Query": "bee",
-      "ExecutedDateTime": "2023-06-13T09:08:11.5054066+02:00"
-    },
-    {
-      "Query": "vsco",
-      "ExecutedDateTime": "2023-06-13T11:50:07.206481+02:00"
-    },
-    {
-      "Query": "ps scoop install docker",
-      "ExecutedDateTime": "2023-06-13T12:05:18.3874043+02:00"
-    },
-    {
-      "Query": "ps scoop install docker-desktop",
-      "ExecutedDateTime": "2023-06-13T12:06:57.0699535+02:00"
-    },
-    {
-      "Query": "obs",
-      "ExecutedDateTime": "2023-06-13T15:36:01.9055759+02:00"
-    },
-    {
-      "Query": "ditt",
-      "ExecutedDateTime": "2023-06-16T15:02:05.3684044+02:00"
-    },
-    {
-      "Query": "obsidian",
-      "ExecutedDateTime": "2023-06-17T16:38:28.0205953+02:00"
-    },
-    {
-      "Query": "powershell",
-      "ExecutedDateTime": "2023-06-17T19:44:06.1112689+02:00"
-    },
-    {
-      "Query": "sql",
-      "ExecutedDateTime": "2023-06-17T19:48:15.2256271+02:00"
-    },
-    {
-      "Query": "bcp",
-      "ExecutedDateTime": "2023-06-17T21:42:48.3913487+02:00"
-    },
-    {
-      "Query": "ps get-clipboard -replace \u0027remaining_path\u0027 \u0027common_denominator\u0027 | set-clipboard",
-      "ExecutedDateTime": "2023-06-17T23:15:41.2950651+02:00"
-    },
-    {
-      "Query": "ps get-clipboard -replace (\u0027remaining_path\u0027, \u0027common_denominator\u0027) | set-clipboard",
-      "ExecutedDateTime": "2023-06-17T23:17:10.3034066+02:00"
-    },
-    {
-      "Query": "ps $q = get-clipboard ; $q -replace (\u0027remaining_path\u0027, \u0027common_denominator\u0027) | set-clipboard",
-      "ExecutedDateTime": "2023-06-17T23:18:14.0013613+02:00"
-    },
-    {
-      "Query": "gep",
-      "ExecutedDateTime": "2023-06-18T01:08:22.765528+02:00"
-    },
-    {
-      "Query": "x-mouse",
-      "ExecutedDateTime": "2023-06-19T19:17:31.2043394+02:00"
-    },
-    {
-      "Query": "power",
-      "ExecutedDateTime": "2023-06-20T15:36:39.425513+02:00"
-    },
-    {
-      "Query": "bc",
-      "ExecutedDateTime": "2023-06-20T22:43:47.0608551+02:00"
-    },
-    {
-      "Query": "power",
-      "ExecutedDateTime": "2023-06-20T23:29:33.0453281+02:00"
-    },
-    {
-      "Query": "vsc",
-      "ExecutedDateTime": "2023-06-21T07:51:40.2519206+02:00"
-    },
-    {
-      "Query": "bc",
-      "ExecutedDateTime": "2023-06-21T08:08:42.9562009+02:00"
-    },
-    {
-      "Query": "power",
-      "ExecutedDateTime": "2023-06-21T08:08:49.8762244+02:00"
-    },
-    {
-      "Query": "ps scoop install dotnet5-sdk",
-      "ExecutedDateTime": "2023-06-24T16:50:31.5320338+02:00"
-    },
-    {
-      "Query": "vsc",
-      "ExecutedDateTime": "2023-06-24T16:51:40.9248471+02:00"
-    },
-    {
-      "Query": "ps scoop install dotnet-script",
-      "ExecutedDateTime": "2023-06-24T16:53:10.801834+02:00"
-    },
-    {
-      "Query": "vorte",
-      "ExecutedDateTime": "2023-06-25T09:40:40.2663443+02:00"
-    },
-    {
-      "Query": "ps scoop install vortex",
-      "ExecutedDateTime": "2023-06-25T09:42:45.3447832+02:00"
-    },
-    {
-      "Query": "v",
-      "ExecutedDateTime": "2023-06-25T09:43:13.6279004+02:00"
-    },
-    {
-      "Query": "ever",
-      "ExecutedDateTime": "2023-06-25T09:59:59.9176087+02:00"
-    },
-    {
-      "Query": "vsc",
-      "ExecutedDateTime": "2023-06-25T10:17:39.7267365+02:00"
-    },
-    {
-      "Query": "v",
-      "ExecutedDateTime": "2023-06-25T10:17:50.9185659+02:00"
-    },
-    {
-      "Query": "e",
-      "ExecutedDateTime": "2023-06-25T10:27:48.6312473+02:00"
-    },
-    {
-      "Query": "ps scoop uninstall everything",
-      "ExecutedDateTime": "2023-06-25T10:31:44.2497522+02:00"
-    },
-    {
-      "Query": "ps scoop install everything",
-      "ExecutedDateTime": "2023-06-25T10:32:20.347375+02:00"
-    },
-    {
-      "Query": "ever",
-      "ExecutedDateTime": "2023-06-25T14:00:56.2587925+02:00"
-    },
-    {
-      "Query": "vsc",
-      "ExecutedDateTime": "2023-06-25T14:30:42.7141155+02:00"
-    },
-    {
-      "Query": "ps git config --global uploadpack.allowFilter true",
-      "ExecutedDateTime": "2023-06-25T16:08:30.8136177+02:00"
-    },
-    {
-      "Query": "empty",
-      "ExecutedDateTime": "2023-06-25T18:20:35.1347751+02:00"
-    },
-    {
-      "Query": "ps git config --global core.safecrlf false",
-      "ExecutedDateTime": "2023-06-26T07:08:46.5330907+02:00"
-    },
-    {
-      "Query": "powershe",
-      "ExecutedDateTime": "2023-06-26T09:29:20.6766458+02:00"
-    },
-    {
-      "Query": "em",
-      "ExecutedDateTime": "2023-06-26T10:32:33.442117+02:00"
-    },
-    {
-      "Query": "C:\\ProgramData\\scoop\\apps\\scoop\\current\\lib\\",
-      "ExecutedDateTime": "2023-06-26T10:54:22.6169638+02:00"
-    },
-    {
-      "Query": "ps scoop install vivetool-gui",
-      "ExecutedDateTime": "2023-06-26T21:21:30.3668118+02:00"
-    },
-    {
-      "Query": "ps scoop install TidyTabs",
-      "ExecutedDateTime": "2023-06-26T21:30:47.2458328+02:00"
-    },
-    {
-      "Query": "tidy",
-      "ExecutedDateTime": "2023-06-26T21:30:58.5427503+02:00"
-    },
-    {
-      "Query": "ob",
-      "ExecutedDateTime": "2023-06-27T19:14:31.7963121+02:00"
-    },
-    {
-      "Query": "bc",
-      "ExecutedDateTime": "2023-06-27T22:11:12.9526969+02:00"
-    },
-    {
-      "Query": "ob",
-      "ExecutedDateTime": "2023-06-27T22:54:48.0410437+02:00"
-    },
-    {
-      "Query": "ps scoop install ruby",
-      "ExecutedDateTime": "2023-06-28T16:23:04.1643587+02:00"
-    },
-    {
-      "Query": "ps gem install deepsort",
-      "ExecutedDateTime": "2023-06-28T16:24:14.9915512+02:00"
-    },
-    {
-      "Query": "powershell",
-      "ExecutedDateTime": "2023-06-28T16:25:45.9163417+02:00"
-    },
-    {
-      "Query": "obsid",
-      "ExecutedDateTime": "2023-06-28T17:07:18.4671705+02:00"
-    },
-    {
-      "Query": "autorunOrg",
-      "ExecutedDateTime": "2023-06-28T19:13:00.7109925+02:00"
-    },
-    {
-      "Query": "power",
-      "ExecutedDateTime": "2023-06-29T12:49:48.4822212+02:00"
-    },
-    {
-      "Query": "ps scoop install czkawka-gui",
-      "ExecutedDateTime": "2023-06-29T13:15:03.3879393+02:00"
-    },
-    {
-      "Query": "czkawka-gui",
-      "ExecutedDateTime": "2023-06-29T13:15:47.51374+02:00"
-    },
-    {
-      "Query": "C:\\ProgramData\\scoop\\apps\\czkawka-gui\\",
-      "ExecutedDateTime": "2023-06-29T13:15:49.2502767+02:00"
-    },
-    {
-      "Query": "vsc",
-      "ExecutedDateTime": "2023-06-29T15:21:05.2162202+02:00"
-    },
-    {
-      "Query": "ps DISM /Online /Enable-Feature /All /FeatureName:Microsoft-Hyper-V",
-      "ExecutedDateTime": "2023-06-29T15:43:06.5731343+02:00"
-    },
-    {
-      "Query": "ps bcdedit /set hypervisorlaunchtype auto",
-      "ExecutedDateTime": "2023-06-29T15:46:43.4189236+02:00"
-    },
-    {
       "Query": "autor",
       "ExecutedDateTime": "2023-06-29T15:52:12.074633+02:00"
     },
@@ -1203,6 +959,250 @@
     {
       "Query": "\u0026 proc",
       "ExecutedDateTime": "2023-09-04T16:42:53.412336+02:00"
+    },
+    {
+      "Query": "\u0026 be",
+      "ExecutedDateTime": "2023-09-05T09:32:27.7580407+02:00"
+    },
+    {
+      "Query": "\u0026 pws",
+      "ExecutedDateTime": "2023-09-05T09:33:14.8975564+02:00"
+    },
+    {
+      "Query": "\u0026 moni",
+      "ExecutedDateTime": "2023-09-05T10:03:37.2027259+02:00"
+    },
+    {
+      "Query": "\u0026 shell",
+      "ExecutedDateTime": "2023-09-05T10:45:35.6960797+02:00"
+    },
+    {
+      "Query": "\u0026 power",
+      "ExecutedDateTime": "2023-09-05T11:22:34.6125113+02:00"
+    },
+    {
+      "Query": "vs",
+      "ExecutedDateTime": "2023-09-05T13:51:40.892323+02:00"
+    },
+    {
+      "Query": "\u0026 d",
+      "ExecutedDateTime": "2023-09-05T16:52:34.1343441+02:00"
+    },
+    {
+      "Query": "\u0026 obs",
+      "ExecutedDateTime": "2023-09-06T08:08:04.5013907+02:00"
+    },
+    {
+      "Query": "ps git config --global core.fsmonitor .git/hooks/fsmonitor-watchman",
+      "ExecutedDateTime": "2023-09-06T14:50:55.4602003+02:00"
+    },
+    {
+      "Query": "\u0026 d",
+      "ExecutedDateTime": "2023-09-06T16:18:03.3111593+02:00"
+    },
+    {
+      "Query": "\u0026 pro",
+      "ExecutedDateTime": "2023-09-07T11:57:24.5429457+02:00"
+    },
+    {
+      "Query": "ps scoop install Produkey",
+      "ExecutedDateTime": "2023-09-07T12:01:25.2028389+02:00"
+    },
+    {
+      "Query": "vs",
+      "ExecutedDateTime": "2023-09-07T23:06:33.433439+02:00"
+    },
+    {
+      "Query": "\u0026 advan",
+      "ExecutedDateTime": "2023-09-08T11:21:49.3424663+02:00"
+    },
+    {
+      "Query": "\u0026 power",
+      "ExecutedDateTime": "2023-09-11T12:13:08.5993767+02:00"
+    },
+    {
+      "Query": "\u0026 dig",
+      "ExecutedDateTime": "2023-09-11T12:58:10.5785409+02:00"
+    },
+    {
+      "Query": "\u0026 syn",
+      "ExecutedDateTime": "2023-09-12T08:12:20.1316698+02:00"
+    },
+    {
+      "Query": "ps Resize-VHD -Path \u0027U:\\OtherDrives\\side_profile-40g.vhdx\u0027 -SizeBytes 60GB",
+      "ExecutedDateTime": "2023-09-12T10:38:19.379639+02:00"
+    },
+    {
+      "Query": "\u0026 wiz",
+      "ExecutedDateTime": "2023-09-12T12:08:33.5853602+02:00"
+    },
+    {
+      "Query": "vs",
+      "ExecutedDateTime": "2023-09-12T18:01:46.0340724+02:00"
+    },
+    {
+      "Query": "\u0026 dupe",
+      "ExecutedDateTime": "2023-09-14T01:17:47.6750389+02:00"
+    },
+    {
+      "Query": "vs",
+      "ExecutedDateTime": "2023-09-15T09:48:53.5626732+02:00"
+    },
+    {
+      "Query": "\u0026 ditt",
+      "ExecutedDateTime": "2023-09-15T10:17:01.1459296+02:00"
+    },
+    {
+      "Query": "vs",
+      "ExecutedDateTime": "2023-09-15T10:49:44.6148272+02:00"
+    },
+    {
+      "Query": "\u0026 irfa",
+      "ExecutedDateTime": "2023-09-15T13:01:28.7329957+02:00"
+    },
+    {
+      "Query": "\u0026 steam",
+      "ExecutedDateTime": "2023-09-15T13:24:35.543388+02:00"
+    },
+    {
+      "Query": "vs",
+      "ExecutedDateTime": "2023-09-15T14:13:40.1667394+02:00"
+    },
+    {
+      "Query": "\u0026 pro",
+      "ExecutedDateTime": "2023-09-15T17:03:02.9138023+02:00"
+    },
+    {
+      "Query": "ps Get-Clipboard | ForEach-Object { $_ -replace \u0027https://open.spotify.com/playlist/\u0027, \u0027spotify:user:spotify:playlist:\u0027 -replace \u0027\\?si=.*\u0027, \u0027\u0027 } | set-clipboard",
+      "ExecutedDateTime": "2023-09-17T13:13:59.1994102+02:00"
+    },
+    {
+      "Query": "\u0026 pw",
+      "ExecutedDateTime": "2023-09-17T16:29:11.8055824+02:00"
+    },
+    {
+      "Query": "\u0026 o",
+      "ExecutedDateTime": "2023-09-18T10:26:16.3473958+02:00"
+    },
+    {
+      "Query": "flow install Favorites",
+      "ExecutedDateTime": "2023-09-18T10:29:38.2202674+02:00"
+    },
+    {
+      "Query": "\u0026 ever",
+      "ExecutedDateTime": "2023-09-18T10:37:15.347214+02:00"
+    },
+    {
+      "Query": "\u0026 p",
+      "ExecutedDateTime": "2023-09-18T10:41:02.580336+02:00"
+    },
+    {
+      "Query": "flow install SpotifyPremium",
+      "ExecutedDateTime": "2023-09-18T11:20:26.0627226+02:00"
+    },
+    {
+      "Query": "userdata",
+      "ExecutedDateTime": "2023-09-18T11:24:12.5761203+02:00"
+    },
+    {
+      "Query": "Bco",
+      "ExecutedDateTime": "2023-09-18T11:27:18.2373613+02:00"
+    },
+    {
+      "Query": "du",
+      "ExecutedDateTime": "2023-09-18T13:52:51.4293877+02:00"
+    },
+    {
+      "Query": "\u0026 du",
+      "ExecutedDateTime": "2023-09-18T13:52:58.275561+02:00"
+    },
+    {
+      "Query": "ad",
+      "ExecutedDateTime": "2023-09-18T15:19:35.343611+02:00"
+    },
+    {
+      "Query": "\u0026 adva",
+      "ExecutedDateTime": "2023-09-18T15:41:35.3617376+02:00"
+    },
+    {
+      "Query": "\u0026 irfa",
+      "ExecutedDateTime": "2023-09-18T16:59:16.1673884+02:00"
+    },
+    {
+      "Query": "pw",
+      "ExecutedDateTime": "2023-09-18T22:28:14.9931964+02:00"
+    },
+    {
+      "Query": "vs",
+      "ExecutedDateTime": "2023-09-20T00:26:35.201069+02:00"
+    },
+    {
+      "Query": "ob",
+      "ExecutedDateTime": "2023-09-20T08:07:29.9272048+02:00"
+    },
+    {
+      "Query": "\u0026 note",
+      "ExecutedDateTime": "2023-09-21T12:11:35.142066+02:00"
+    },
+    {
+      "Query": "flow install Window Services",
+      "ExecutedDateTime": "2023-09-21T13:03:21.6078809+02:00"
+    },
+    {
+      "Query": "flow install Obsidian Notes",
+      "ExecutedDateTime": "2023-09-21T13:04:54.4892149+02:00"
+    },
+    {
+      "Query": "bc",
+      "ExecutedDateTime": "2023-09-21T18:09:47.4703796+02:00"
+    },
+    {
+      "Query": "ps pspad \u0027B:\\PF\\Archive\\ToGit\\scoopbucket-presist\\Documents\\WindowsPowerShell\\Microsoft.PowerShell_profile.ps1\u0027",
+      "ExecutedDateTime": "2023-09-22T12:57:39.1557739+02:00"
+    },
+    {
+      "Query": "ps pspad \u0027B:\\PF\\Archive\\ToGit\\scoopbucket-presist\\Documents\\WindowsPowerShell\\standardFunctionOverride.psm1\u0027",
+      "ExecutedDateTime": "2023-09-22T13:07:57.8244835+02:00"
+    },
+    {
+      "Query": "ps pspad \u0027B:\\PF\\Archive\\ToGit\\scoopbucket-presist\\Documents\\WindowsPowerShell\\Microsoft.PowerShell_profile.ps1\u0027",
+      "ExecutedDateTime": "2023-09-22T13:08:46.8355131+02:00"
+    },
+    {
+      "Query": "\u0026 du",
+      "ExecutedDateTime": "2023-09-22T20:02:08.4067757+02:00"
+    },
+    {
+      "Query": "pw",
+      "ExecutedDateTime": "2023-09-24T19:47:53.5796638+02:00"
+    },
+    {
+      "Query": "se",
+      "ExecutedDateTime": "2023-09-25T09:58:31.8551448+02:00"
+    },
+    {
+      "Query": "li",
+      "ExecutedDateTime": "2023-09-25T11:39:41.5552005+02:00"
+    },
+    {
+      "Query": "se",
+      "ExecutedDateTime": "2023-09-25T11:41:58.138983+02:00"
+    },
+    {
+      "Query": "vs",
+      "ExecutedDateTime": "2023-09-25T12:43:33.8037702+02:00"
+    },
+    {
+      "Query": "ps scoop install CurrPorts",
+      "ExecutedDateTime": "2023-09-25T16:22:11.1049831+02:00"
+    },
+    {
+      "Query": "\u0026 cport",
+      "ExecutedDateTime": "2023-09-25T16:27:38.5016728+02:00"
+    },
+    {
+      "Query": "se",
+      "ExecutedDateTime": "2023-09-25T21:56:47.2202176+02:00"
     }
   ]
 }

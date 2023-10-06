@@ -1,6 +1,35 @@
 tools:
-- name: Open File
-  fileStarter: {command: \usr\bin\gio, parameters: 'open ${filePath}'}
+- name: Open in Git-Gui
+  fileStarter: {command: '${gitDir}\mingw64\bin\wish.exe', parameters: '"${gitDir}\mingw64\libexec\git-core"\git-gui
+      -- "--working-dir" ${repositoryRootPath}'}
+  useForOpen: false
+  waitUntilFinished: false
+  filePattern: '*'
+- id: openFile
+  name: Open File
+  fileStarter: {command: '${smartGitDir}\bin\open.exe', parameters: '${filePath}'}
+  useForOpen: true
+  waitUntilFinished: false
+  filePattern: '*'
+  forFilesNotDirectories: true
+- id: editInNotepad
+  name: Edit with bcomp
+  fileStarter: {command: 'C:\ProgramData\scoop\apps\beyondcompare\current\BComp.exe',
+    parameters: '${filePath}'}
+  useForOpen: true
+  waitUntilFinished: false
+  filePattern: '*'
+  forFilesNotDirectories: true
+- id: openInExplorer
+  name: Open in Explorer
+  fileStarter: {command: explorer.exe, parameters: '/e, ${filePath}'}
+  useForOpen: true
+  waitUntilFinished: false
+  filePattern: '*'
+  forFilesNotDirectories: false
+- id: revealInExplorer
+  name: Reveal in Explorer
+  fileStarter: {command: explorer.exe, parameters: '/select, ${filePath}'}
   useForOpen: true
   waitUntilFinished: false
   filePattern: '*'
@@ -9,6 +38,13 @@ tools:
   useForOpen: true
   waitUntilFinished: false
   filePattern: '*'
+- name: DeleteIndex
+  keystroke: CTRL+DEL
+  fileStarter: {command: '${git}', parameters: 'rm --cached -r ${fileName}'}
+  useForOpen: true
+  waitUntilFinished: false
+  filePattern: '*'
+  confirmationMessage: --cd=${repositoryRootPath} -c "git rm --cached -r ${fileName}"
 - name: Add Remote From Clipboard
   fileStarter: {command: powershell.exe, parameters: 'cd "${filePath}" ; git remote
       add origin (get-clipboard) ; git fetch --all ;  git checkout --track remotes/origin/master'}
@@ -30,41 +66,20 @@ tools:
   waitUntilFinished: true
   filePattern: '*'
   forFilesNotDirectories: true
-- id: openFile
-  name: Open File
-  fileStarter: {command: '${smartGitDir}\bin\open.exe', parameters: '${filePath}'}
-  useForOpen: true
-  waitUntilFinished: false
-  filePattern: '*'
-  forFilesNotDirectories: true
-- id: openInExplorer
-  name: Open in Explorer
-  fileStarter: {command: explorer.exe, parameters: '/e, ${filePath}'}
-  useForOpen: true
-  waitUntilFinished: false
-  filePattern: '*'
-  forFilesNotDirectories: false
 - id: openInCmd
-  name: Open in Terminal
+  name: Open in Cmd
   fileStarter: {command: cmd.exe, parameters: '/c start pushd ${filePath}'}
   useForOpen: true
   waitUntilFinished: false
   filePattern: '*'
   forFilesNotDirectories: false
-- id: revealInExplorer
-  name: Reveal in Explorer
-  fileStarter: {command: explorer.exe, parameters: '/select, ${filePath}'}
-  useForOpen: true
+- name: CompareWithBcompare
+  fileStarter: {command: powershell.exe, parameters: 'invoke-command -scriptblock
+      {param($param1) ; $parx = get-content $param1 ; BComp @parx} -ArgumentList ("''${selectionFile}''")'}
+  useForOpen: false
   waitUntilFinished: false
   filePattern: '*'
-- id: editInNotepad
-  name: Edit
-  fileStarter: {command: 'C:\ProgramData\scoop\apps\beyondcompare\current\BComp.exe',
-    parameters: '${filePath}'}
-  useForOpen: true
-  waitUntilFinished: false
-  filePattern: '*'
-  forFilesNotDirectories: true
+  confirmationMessage: -Raw -Replace "`r`n",","
 - name: RefLog with TGit
   fileStarter: {command: 'C:\Program Files\TortoiseGit\bin\TortoiseGitProc.exe', parameters: '/command:reflog
       /path ${filePath}'}
@@ -95,59 +110,13 @@ tools:
   useForOpen: true
   waitUntilFinished: false
   filePattern: '*'
-- id: openFile
-  name: Open File
-  fileStarter: {command: '${smartGitDir}\bin\open.exe', parameters: '${filePath}'}
-  useForOpen: true
-  waitUntilFinished: false
-  filePattern: '*'
-  forFilesNotDirectories: true
-- id: revealInNemo
-  name: Reveal in Nemo
-  fileStarter: {command: \usr\bin\nemo, parameters: '${fileUri}'}
-  useForOpen: true
-  waitUntilFinished: false
-  filePattern: '*'
-- id: openGnomeTerminal
-  name: Open Terminal
-  fileStarter: {command: \usr\bin\gnome-terminal, parameters: '--working-directory
-      ${filePath}'}
-  useForOpen: true
-  waitUntilFinished: false
-  filePattern: '*'
 - name: Git Add
-  keystroke: CTRL+DEL
+  keystroke: CTRL+CR
   fileStarter: {command: '${git}', parameters: 'add ${fileName}'}
   useForOpen: true
   waitUntilFinished: false
   filePattern: '*'
   confirmationMessage: --cd=${repositoryRootPath} -c "git rm --cached -r ${fileName}"
-- name: DeleteIndex
-  keystroke: CTRL+DEL
-  fileStarter: {command: '${git}', parameters: 'rm --cached -r ${fileName}'}
-  useForOpen: true
-  waitUntilFinished: false
-  filePattern: '*'
-  confirmationMessage: --cd=${repositoryRootPath} -c "git rm --cached -r ${fileName}"
-- name: GitPushOnDemand
-  fileStarter: {command: '${git}', parameters: push --recurse-submodules=on-demand}
-  useForOpen: false
-  waitUntilFinished: true
-  filePattern: '*'
-  confirmationMessage: --cd=${filePath} -c "git submodule absorbgitdir"
-- name: CompareWithBcompare
-  fileStarter: {command: powershell.exe, parameters: 'invoke-command -scriptblock
-      {param($param1) ; $parx = get-content $param1 ; BComp @parx} -ArgumentList ("''${selectionFile}''")'}
-  useForOpen: false
-  waitUntilFinished: false
-  filePattern: '*'
-  confirmationMessage: -Raw -Replace "`r`n",","
-- name: GitAbsorbe
-  fileStarter: {command: '${git}', parameters: submodule absorbgitdirs}
-  useForOpen: false
-  waitUntilFinished: true
-  filePattern: '*'
-  confirmationMessage: --cd=${filePath} -c "git submodule absorbgitdir"
 - name: AddAsSafeDir
   fileStarter: {command: '${git}', parameters: 'config --global --add safe.directory
       ${filePath}'}
@@ -164,12 +133,6 @@ tools:
   waitUntilFinished: false
   filePattern: '*'
   forFilesNotDirectories: false
-- name: Open in Git-Gui
-  fileStarter: {command: '${gitDir}\mingw64\bin\wish.exe', parameters: '"${gitDir}\mingw64\libexec\git-core"\git-gui
-      -- "--working-dir" ${repositoryRootPath}'}
-  useForOpen: false
-  waitUntilFinished: false
-  filePattern: '*'
 - id: openGitShell
   name: Open in Git-Shell
   fileStarter: {command: '${git}', parameters: '--cd=${filePath}'}
@@ -191,6 +154,25 @@ tools:
   waitUntilFinished: true
   filePattern: '*'
   forFilesNotDirectories: true
+- id: gitConfigList
+  name: Git Config
+  keystroke: CTRL+C
+  fileStarter: {command: '${git}', parameters: config --list --show-origin}
+  useForOpen: false
+  waitUntilFinished: true
+  filePattern: '*'
+- name: GitPushOnDemand
+  fileStarter: {command: '${git}', parameters: push --recurse-submodules=on-demand}
+  useForOpen: false
+  waitUntilFinished: true
+  filePattern: '*'
+  confirmationMessage: --cd=${filePath} -c "git submodule absorbgitdir"
+- name: GitAbsorbe
+  fileStarter: {command: '${git}', parameters: submodule absorbgitdirs}
+  useForOpen: false
+  waitUntilFinished: true
+  filePattern: '*'
+  confirmationMessage: --cd=${filePath} -c "git submodule absorbgitdir"
 - id: applyPatch
   name: Apply Patch
   fileStarter: {command: '${git}', parameters: 'apply ${fileOpen}'}
@@ -203,6 +185,14 @@ tools:
   useForOpen: false
   waitUntilFinished: true
   filePattern: '*'
+- name: MoveCommit
+  fileStarter: {command: '${git}', parameters: 'move-and-rename ${selectionFile}'}
+  useForOpen: false
+  waitUntilFinished: true
+  filePattern: '*'
+  forFilesNotDirectories: true
+  requiresConfirmation: true
+  confirmationMessage: ${selectionFile}
 - id: mergeDirectlyTo
   name: Merge Directly To
   fileStarter: {command: \usr\bin\python3, parameters: '"${smartGitDir}/lib/git-forward-merge.sh"
@@ -214,75 +204,4 @@ tools:
   requiresConfirmation: true
   confirmationMessage: Do you want to merge changes to ${commit2} *without* checking
     out?
-- name: Open in Terminal
-  fileStarter: {command: terminator, parameters: '--working-directory ${filePath}'}
-  useForOpen: false
-  waitUntilFinished: false
-  filePattern: '*'
-- name: Open with File Manager (thunar)
-  fileStarter: {command: thunar, parameters: '${filePath}'}
-  useForOpen: false
-  waitUntilFinished: false
-  filePattern: '*'
-  forFilesNotDirectories: false
-- name: Delete Directory
-  fileStarter: {command: rm, parameters: '-rf ${filePath}'}
-  useForOpen: true
-  waitUntilFinished: false
-  filePattern: '*'
-- name: Open with File Manager (nemo)
-  fileStarter: {command: nemo, parameters: '${filePath}'}
-  useForOpen: false
-  waitUntilFinished: false
-  filePattern: '*'
-  forFilesNotDirectories: false
-- name: MoveCommit
-  fileStarter: {command: '${git}', parameters: 'move-and-rename ${selectionFile}'}
-  useForOpen: false
-  waitUntilFinished: true
-  filePattern: '*'
-  forFilesNotDirectories: true
-  requiresConfirmation: true
-  confirmationMessage: ${selectionFile}
-- id: gitConfigList
-  name: Git Config
-  keystroke: CTRL+C
-  fileStarter: {command: '${git}', parameters: config --list --show-origin}
-  useForOpen: false
-  waitUntilFinished: true
-  filePattern: '*'
-- name: Open File
-  fileStarter: {command: \usr\bin\xdg-open, parameters: '${filePath}'}
-  useForOpen: true
-  waitUntilFinished: false
-  filePattern: '*'
-  forFilesNotDirectories: true
-- id: revealInNemo
-  name: Reveal in Nemo
-  fileStarter: {command: \usr\bin\nemo, parameters: '${fileUri}'}
-  useForOpen: true
-  waitUntilFinished: false
-  filePattern: '*'
-- id: openXfceTerminal
-  name: Open Terminal
-  fileStarter: {command: \usr\bin\xfce4-terminal, parameters: '--working-directory
-      ${filePath}'}
-  useForOpen: true
-  waitUntilFinished: false
-  filePattern: '*'
-  forFilesNotDirectories: false
-- id: revealInNautilus
-  name: Reveal in Files (Nautilus)
-  fileStarter: {command: \usr\bin\nautilus, parameters: '${fileUri}'}
-  useForOpen: true
-  waitUntilFinished: false
-  filePattern: '*'
-- id: openGnomeTerminal
-  name: Open Terminal
-  fileStarter: {command: \usr\bin\gnome-terminal, parameters: '--working-directory
-      ${filePath}'}
-  useForOpen: true
-  waitUntilFinished: false
-  filePattern: '*'
-  forFilesNotDirectories: false
-manuallyDeletedIds: []
+manuallyDeletedIds: [revealInNemo, openGnomeTerminal, openXfceTerminal, revealInNautilus]

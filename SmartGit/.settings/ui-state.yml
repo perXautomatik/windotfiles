@@ -1,16 +1,16 @@
 bounds:
-- {key: project, x: 1964, y: 157, width: 1440, height: 875}
+- {key: project, x: 654, y: 88, width: 1292, height: 695, state: 1}
 - {key: welcome}
-- {key: preferences, x: -123, y: 217, width: 1165, height: 498}
-- {key: compare, x: 38, y: 174, width: 1440, height: 866}
-- {key: output, x: -85, y: -49, width: 1724, height: 741}
-- {key: git.commit, width: 1245, height: 889, x: -299, y: -131}
+- {key: preferences, x: -625, y: -194, width: 1519, height: 498}
+- {key: compare, x: 290, y: 184, width: 1440, height: 866}
+- {key: output, x: -690, y: 149, width: 1724, height: 738}
+- {key: git.commit, width: 1245, height: 463, x: 37, y: -22}
 - {key: git.commit.selectFromLog, width: 640, height: 395}
-- {key: log, x: 240, y: 58, width: 1440, height: 875, state: 1}
+- {key: log, x: -8, y: -8, width: 1936, height: 1066}
 - {key: editor, x: 240, y: 58, width: 1440, height: 866}
 - {key: git.indexEditor, x: 240, y: 58, width: 1440, height: 866}
 - {key: git.discard, width: 500, height: 654, x: 0, y: 172}
-- {key: git.squashCommits, width: 630, height: 400}
+- {key: git.squashCommits, width: 630, height: 400, x: -553, y: 78}
 - {key: editMessage, width: 500, height: 309, x: -139, y: -6}
 - {key: rename, x: 430, y: -304, width: 406, height: 184}
 - {key: git.ignore.file}
@@ -23,6 +23,7 @@ bounds:
 - {key: git.tag, width: 400, height: 300}
 - {key: git.unstage, width: 500, height: 309}
 - {key: git.stage, width: 500, height: 309}
+- {key: editAuthor, width: 300, height: 100}
 conflictSolverFrame: {}
 indexEditorFrame: {sLayout: merge-right}
 columns:
@@ -51,11 +52,11 @@ columns:
     - {id: Last Changed On, width: 117, width2x: 0}
     - {id: Relative Path, width: 500, width2x: 0}
     sortOrders:
-    - {id: Size, reverse: false}
     - {id: State, reverse: true}
     - {id: Relative Directory, reverse: false}
+    - {id: Ext., reverse: true}
     - {id: Name, reverse: false}
-    - {id: Ext., reverse: false}
+    - {id: Size, reverse: true}
     - {id: Last Changed On, reverse: false}
   project.files.git.index:
     columnNames: "Name\tExt.\tState\tRelative Directory\tRelative Path\tRenamed From"
@@ -67,8 +68,8 @@ columns:
     - {id: Relative Directory, width: 784, width2x: 0}
     - {id: Relative Path, width: 500, width2x: 0}
     sortOrders:
-    - {id: State, reverse: false}
     - {id: Relative Directory, reverse: false}
+    - {id: State, reverse: false}
     - {id: Name, reverse: false}
     - {id: Ext., reverse: true}
   log.comments:
@@ -108,9 +109,9 @@ columns:
     - {id: Renamed Path, width: 150, width2x: 0}
     - {id: Relative Path, width: 500, width2x: 0}
     sortOrders:
+    - {id: Relative Directory, reverse: true}
     - {id: State, reverse: false}
     - {id: Name, reverse: false}
-    - {id: Relative Directory, reverse: false}
   git.log.files.index:
     columnNames: "Name\tState\tRelative Directory\tRenamed Path\tExt.\tLFS\tLast Changed\
       \ On\tRelative Path\tSize"
@@ -122,8 +123,8 @@ columns:
     - {id: Renamed Path, width: 135, width2x: 0}
     - {id: Relative Path, width: 500, width2x: 0}
     sortOrders:
-    - {id: State, reverse: true}
     - {id: Name, reverse: false}
+    - {id: State, reverse: true}
     - {id: Renamed Path, reverse: false}
     - {id: Relative Directory, reverse: false}
   git.log.files:
@@ -145,23 +146,26 @@ gitViewFileFilter: {viewRecursive: true, viewFromSubmodules: true, viewIgnoredFi
 deepGitUiConfiguration: {}
 confirmations: {exit.showConfirmation: true, git.push: true, git.switchBranch.confirmation: true,
   close.unpushedCommits: true, commit.amend.replaceWarning: true, rebase.continue: true,
-  rebaseContinue: false, git.switchBranch.fastForward: true, sync: true, splitCommit: true,
+  rebaseContinue: false, git.switchBranch.fastForward: false, sync: true, splitCommit: true,
   git.commit.stageAll: true, compare.contentEqual: true, conflictSolver.showConflictWarning: true,
-  compare.binaryEqual: true}
-repositoriesToReopen: []
+  compare.binaryEqual: true, remove.repositoryOrGroup: true, modifyCommit: true, modifyContinue: true}
+repositoriesToReopen:
+- window: wt
+  repositories: ['B:\PF\CSharpVisualStudio\repos\karlstad']
 project.files.git.separateWtIndex: true
-gitProjectLayout.main: (([+332x778:directories ][+332x155:branches ])((([+1585x605:files
-  ][+1585x161:changes ])[-3x1:message ])([+1585x164:outgoing ][-3x1:output ])))
+gitProjectLayout.main: (([+654x519:directories ][+654x414:branches ])((([+1263x225:files
+  ][+1263x161:changes ])[-3x1:message ])([+1263x544:outgoing ][-3x1:output ])))
 log.wtIndex.onDemand: true
 gitProjectLayout.mainIsdefault: true
 gitProjectLayout.review: ([+2x1:directories ][+7x1:files ][+3x1:message ])[+10x3:changes
   ]([-1x1:branches ][-3x1:outgoing ][-3x1:output ])
-lastRepositoryPath: B:\PF\CSharpVisualStudio
+lastRepositoryPath: C:\Users\CrRoot\AppData\Roaming\Scooter Software\Beyond Compare
+  4
 commit.expandOptions: true
 log.files.git.separateWtIndex: true
-gitLogRootLayout.main: (([+430x614:repositories ][+430x319:branches ])(([+509x349:graph
-  ]([+975x161:details -1x1:output -1x1:debug-log details ][+975x185:files +975x185:comments
-  files ]))[+1487x584:changes ]))
+gitLogRootLayout.main: (([+610x461:repositories ][+610x472:branches ])([+1307x384:comments
+  +1307x384:details +1307x384:files files ][+1307x549:changes +1307x549:graph graph
+  ])[-1x1:output -1x1:debug-log output ])
 gitLogRootLayout.mainIsdefault: true
 gitLogRootLayout.review: (([+1x1:repositories ][+1x1:branches ])(([+4x1:graph ]([+2x1:details
   -1x1:output -1x1:debug-log details ][+2x2:files +2x1:comments files ]))[+4x4:changes
@@ -174,7 +178,7 @@ ignore.location: 1
 git.remove.deleteLocalFile: false
 stashApply.restoreIndex: true
 gitAnnotateLayout: '[+1424x678:document ][+1424x126:line-history ]'
-git.pull.defaultFetch: false
+git.pull.defaultFetch: true
 lastClonedUrls: ['https://github.com/perXautomatik/BAO', 'https://github.com/perXautomatik/initApps.git']
 cloneSkipSize: 5242880
 git.reset: 0
@@ -182,3 +186,4 @@ git.cherryPick.commit: true
 git.cherryPick.appendSha: false
 stashApply.drop: false
 git.pull.fetchAll: true
+changesView.unified: false

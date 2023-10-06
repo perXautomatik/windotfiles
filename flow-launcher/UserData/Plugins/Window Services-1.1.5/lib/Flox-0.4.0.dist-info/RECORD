@@ -1,0 +1,14 @@
+Flox-0.4.0.dist-info/INSTALLER,sha256=zuuue4knoyJ-UwPPXg8fezS7VCrXJQrAP7zeNuwvFQg,4
+Flox-0.4.0.dist-info/LICENSE.txt,sha256=GSAKapQH5ZIGWlpQTA7v5YrfECyaxaohUb1vJX-qepw,1090
+Flox-0.4.0.dist-info/METADATA,sha256=1Bf7DB50_eoi96x8oghFjbfBTigbKWiPV-wvxlk6fjc,256
+Flox-0.4.0.dist-info/RECORD,,
+Flox-0.4.0.dist-info/REQUESTED,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+Flox-0.4.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+Flox-0.4.0.dist-info/direct_url.json,sha256=o5cQx1wCMxW2Qw5RTd9bM6i_MmKYMdvn8lxPw0_smHA,158
+Flox-0.4.0.dist-info/top_level.txt,sha256=ToVvesHvA4pegruUxqdJ2gkmKACaQRSWPIKAoqyR9_0,5
+flox/__init__.py,sha256=65a_yLfADnef8SFHT6JXi7ENyM_339Ha7Jp3KP6kduU,1385
+flox/__pycache__/__init__.cpython-38.pyc,,
+flox/__pycache__/flox.cpython-38.pyc,,
+flox/__pycache__/launcher.cpython-38.pyc,,
+flox/flox.py,sha256=n0oULwiha7LHTnJ3eloXCosWWamTvqBDKTfk2VHzMeY,14030
+flox/launcher.py,sha256=FlwlXc59pbsnrvPgLJEW329Jt0KTWUIn-djvXr-TVi0,1680

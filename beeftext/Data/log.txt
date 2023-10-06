@@ -1,26 +1,42 @@
-2023-09-04 18:18:53.672 - INFO    - Beeftext started.
-2023-09-04 18:18:53.672 - INFO    - Build info: Visual Studio 2022 - Release (64bit) - Qt v6.4.1
-2023-09-05 14:35:43.909 - INFO    - Update check started. Installed version is Beeftext 16.0.
-2023-09-05 14:35:44.270 - INFO    - Downloaded latest version information. Latest version is Beeftext 16.0.
-2023-09-05 14:35:44.270 - INFO    - No new version is available.
-2023-09-05 14:35:44.270 - INFO    - Update check ended.
-2023-09-06 14:35:45.967 - INFO    - Update check started. Installed version is Beeftext 16.0.
-2023-09-06 14:35:46.214 - INFO    - Downloaded latest version information. Latest version is Beeftext 16.0.
-2023-09-06 14:35:46.214 - INFO    - No new version is available.
-2023-09-06 14:35:46.214 - INFO    - Update check ended.
-2023-09-07 14:35:47.557 - INFO    - Update check started. Installed version is Beeftext 16.0.
-2023-09-07 14:35:47.921 - INFO    - Downloaded latest version information. Latest version is Beeftext 16.0.
-2023-09-07 14:35:47.921 - INFO    - No new version is available.
-2023-09-07 14:35:47.921 - INFO    - Update check ended.
-2023-09-08 14:35:49.785 - INFO    - Update check started. Installed version is Beeftext 16.0.
-2023-09-08 14:35:50.114 - INFO    - Downloaded latest version information. Latest version is Beeftext 16.0.
-2023-09-08 14:35:50.114 - INFO    - No new version is available.
-2023-09-08 14:35:50.114 - INFO    - Update check ended.
-2023-09-09 14:35:51.368 - INFO    - Update check started. Installed version is Beeftext 16.0.
-2023-09-09 14:35:51.615 - INFO    - Downloaded latest version information. Latest version is Beeftext 16.0.
-2023-09-09 14:35:51.615 - INFO    - No new version is available.
-2023-09-09 14:35:51.615 - INFO    - Update check ended.
-2023-09-10 14:35:53.238 - INFO    - Update check started. Installed version is Beeftext 16.0.
-2023-09-10 14:35:53.498 - INFO    - Downloaded latest version information. Latest version is Beeftext 16.0.
-2023-09-10 14:35:53.498 - INFO    - No new version is available.
-2023-09-10 14:35:53.498 - INFO    - Update check ended.
+2023-09-26 08:38:42.025 - INFO    - Beeftext started.
+2023-09-26 08:38:42.025 - INFO    - Build info: Visual Studio 2022 - Release (64bit) - Qt v6.4.1
+2023-09-26 14:36:18.014 - INFO    - Update check started. Installed version is Beeftext 16.0.
+2023-09-26 14:36:18.314 - INFO    - Downloaded latest version information. Latest version is Beeftext 16.0.
+2023-09-26 14:36:18.314 - INFO    - No new version is available.
+2023-09-26 14:36:18.314 - INFO    - Update check ended.
+2023-09-27 14:36:20.242 - INFO    - Update check started. Installed version is Beeftext 16.0.
+2023-09-27 14:36:20.428 - INFO    - Downloaded latest version information. Latest version is Beeftext 16.0.
+2023-09-27 14:36:20.428 - INFO    - No new version is available.
+2023-09-27 14:36:20.428 - INFO    - Update check ended.
+2023-09-28 14:36:21.604 - INFO    - Update check started. Installed version is Beeftext 16.0.
+2023-09-28 14:36:21.786 - INFO    - Downloaded latest version information. Latest version is Beeftext 16.0.
+2023-09-28 14:36:21.786 - INFO    - No new version is available.
+2023-09-28 14:36:21.786 - INFO    - Update check ended.
+2023-09-29 14:36:23.338 - INFO    - Update check started. Installed version is Beeftext 16.0.
+2023-09-29 14:36:23.574 - INFO    - Downloaded latest version information. Latest version is Beeftext 16.0.
+2023-09-29 14:36:23.574 - INFO    - No new version is available.
+2023-09-29 14:36:23.574 - INFO    - Update check ended.
+2023-09-30 14:36:25.169 - INFO    - Update check started. Installed version is Beeftext 16.0.
+2023-09-30 14:36:25.421 - INFO    - Downloaded latest version information. Latest version is Beeftext 16.0.
+2023-09-30 14:36:25.421 - INFO    - No new version is available.
+2023-09-30 14:36:25.421 - INFO    - Update check ended.
+2023-10-01 14:36:26.661 - INFO    - Update check started. Installed version is Beeftext 16.0.
+2023-10-01 14:36:26.886 - INFO    - Downloaded latest version information. Latest version is Beeftext 16.0.
+2023-10-01 14:36:26.886 - INFO    - No new version is available.
+2023-10-01 14:36:26.887 - INFO    - Update check ended.
+2023-10-02 14:36:28.233 - INFO    - Update check started. Installed version is Beeftext 16.0.
+2023-10-02 14:36:28.493 - INFO    - Downloaded latest version information. Latest version is Beeftext 16.0.
+2023-10-02 14:36:28.493 - INFO    - No new version is available.
+2023-10-02 14:36:28.493 - INFO    - Update check ended.
+2023-10-03 14:36:29.878 - INFO    - Update check started. Installed version is Beeftext 16.0.
+2023-10-03 14:36:30.143 - INFO    - Downloaded latest version information. Latest version is Beeftext 16.0.
+2023-10-03 14:36:30.143 - INFO    - No new version is available.
+2023-10-03 14:36:30.143 - INFO    - Update check ended.
+2023-10-04 14:36:31.707 - INFO    - Update check started. Installed version is Beeftext 16.0.
+2023-10-04 14:36:31.989 - INFO    - Downloaded latest version information. Latest version is Beeftext 16.0.
+2023-10-04 14:36:31.989 - INFO    - No new version is available.
+2023-10-04 14:36:31.989 - INFO    - Update check ended.
+2023-10-05 14:36:33.360 - INFO    - Update check started. Installed version is Beeftext 16.0.
+2023-10-05 14:36:33.625 - INFO    - Downloaded latest version information. Latest version is Beeftext 16.0.
+2023-10-05 14:36:33.625 - INFO    - No new version is available.
+2023-10-05 14:36:33.625 - INFO    - Update check ended.

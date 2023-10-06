@@ -6,22 +6,36 @@
             "file:///b%3A/PF/IoT/Docker": "__default__profile__",
             "file:///b%3A/PF/IoT": "__default__profile__",
             "file:///b%3A/PF/Modding/Diablo%20II%20ressurected.code-workspace": "__default__profile__",
-            "file:///c%3A/Users/CrRoot/.config/git": "__default__profile__",
             "file:///c%3A/Users/CrRoot/.config": "__default__profile__",
             "file:///b%3A/PF/Modding/Diablo%20II%20ressurected": "__default__profile__",
             "file:///b%3A/PF/scoopbucket-1": "__default__profile__",
             "file:///b%3A/PF/Archive/ToGit/chris/Documents": "__default__profile__",
-            "file:///b%3A/PF/Archive/ps1": "__default__profile__"
+            "file:///b%3A/PF/CSharpVisualStudio/repos/karlstad": "__default__profile__",
+            "file:///b%3A/PF": "__default__profile__",
+            "file:///b%3A/PF/Archive/ps1": "__default__profile__",
+            "file:///c%3A/Users/CrRoot/.config/git": "__default__profile__"
         },
         "emptyWindows": {}
     },
     "profileAssociationsMigration": true,
     "telemetry.machineId": "43b2f78b9133472da9df405d4b0940e2df1f4bac66d61a01814155213dabb309",
     "backupWorkspaces": {
-        "workspaces": [],
+        "workspaces": [
+            {
+                "id": "a26f5210193dbdcae0afac064b237623",
+                "configURIPath": "file:///c%3A/ProgramData/scoop/apps/vscodium/1.80.0.23188/data/user-data/Workspaces/1695980958794/workspace.json"
+            },
+            {
+                "id": "f262c2bdab740a1fdf61932753596822",
+                "configURIPath": "file:///c%3A/Users/CrRoot/.config/git/git.code-workspace"
+            }
+        ],
         "folders": [
             {
                 "folderUri": "file:///b%3A/PF/Archive/ps1"
+            },
+            {
+                "folderUri": "file:///c%3A/Users/CrRoot/.config/git"
             }
         ],
         "emptyWindows": []
@@ -32,13 +46,39 @@
             "backupPath": "C:\\ProgramData\\scoop\\apps\\vscodium\\1.80.0.23188\\data\\user-data\\Backups\\76317f146591116761123f44f11f6998",
             "uiState": {
                 "mode": 1,
-                "x": 753,
-                "y": 89,
-                "width": 1138,
-                "height": 768
+                "x": 396,
+                "y": -8,
+                "width": 1024,
+                "height": 706
             }
         },
-        "openedWindows": []
+        "openedWindows": [
+            {
+                "folder": "file:///b%3A/PF/Archive/ps1",
+                "backupPath": "C:\\ProgramData\\scoop\\apps\\vscodium\\1.80.0.23188\\data\\user-data\\Backups\\76317f146591116761123f44f11f6998",
+                "uiState": {
+                    "mode": 1,
+                    "x": 396,
+                    "y": -8,
+                    "width": 1024,
+                    "height": 706
+                }
+            },
+            {
+                "workspaceIdentifier": {
+                    "id": "f262c2bdab740a1fdf61932753596822",
+                    "configURIPath": "file:///c%3A/Users/CrRoot/.config/git/git.code-workspace"
+                },
+                "backupPath": "C:\\ProgramData\\scoop\\apps\\vscodium\\1.80.0.23188\\data\\user-data\\Backups\\f262c2bdab740a1fdf61932753596822",
+                "uiState": {
+                    "mode": 1,
+                    "x": 3,
+                    "y": 3,
+                    "width": 1278,
+                    "height": 688
+                }
+            }
+        ]
     },
     "windowControlHeight": 30,
     "theme": "vs",
@@ -47,21 +87,21 @@
         "zoomLevel": -1,
         "baseTheme": "vs",
         "colorInfo": {
-            "foreground": "#616161",
+            "foreground": "#3b3b3b",
             "background": "#ffffff",
             "editorBackground": "#ffffff",
-            "titleBarBackground": "#dddddd",
-            "activityBarBackground": "#e1ecf9",
-            "sideBarBackground": "#f3f3f3",
-            "statusBarBackground": "#999999",
-            "statusBarNoFolderBackground": "#999999"
+            "titleBarBackground": "#f8f8f8",
+            "activityBarBackground": "#f8f8f8",
+            "sideBarBackground": "#f8f8f8",
+            "statusBarBackground": "#f8f8f8",
+            "statusBarNoFolderBackground": "#f8f8f8"
         },
         "layoutInfo": {
             "sideBarSide": "left",
             "editorPartMinWidth": 220,
             "titleBarHeight": 36,
             "activityBarWidth": 48,
-            "sideBarWidth": 929,
+            "sideBarWidth": 439,
             "statusBarHeight": 22,
             "windowBorder": false
         }

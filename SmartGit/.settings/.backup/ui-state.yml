@@ -1,10 +1,10 @@
 bounds:
-- {key: project, x: 240, y: 58, width: 1440, height: 875, state: 1}
+- {key: project, x: 581, y: 155, width: 1557, height: 787}
 - {key: welcome}
-- {key: preferences, x: -123, y: 217, width: 1165, height: 498}
-- {key: compare, x: 38, y: 174, width: 1440, height: 866}
-- {key: output, x: -85, y: -49, width: 1724, height: 741}
-- {key: git.commit, width: 1245, height: 889, x: -299, y: -131}
+- {key: preferences, x: -625, y: -194, width: 1519, height: 498}
+- {key: compare, x: 38, y: 174, width: 1440, height: 866, state: 1}
+- {key: output, x: -3, y: 29, width: 1724, height: 738}
+- {key: git.commit, width: 1245, height: 889, x: 140, y: -61}
 - {key: git.commit.selectFromLog, width: 640, height: 395}
 - {key: log, x: 240, y: 58, width: 1440, height: 875, state: 1}
 - {key: editor, x: 240, y: 58, width: 1440, height: 866}
@@ -51,11 +51,11 @@ columns:
     - {id: Last Changed On, width: 117, width2x: 0}
     - {id: Relative Path, width: 500, width2x: 0}
     sortOrders:
-    - {id: Size, reverse: false}
     - {id: State, reverse: true}
     - {id: Relative Directory, reverse: false}
-    - {id: Name, reverse: false}
+    - {id: Size, reverse: true}
     - {id: Ext., reverse: false}
+    - {id: Name, reverse: false}
     - {id: Last Changed On, reverse: false}
   project.files.git.index:
     columnNames: "Name\tExt.\tState\tRelative Directory\tRelative Path\tRenamed From"
@@ -67,8 +67,8 @@ columns:
     - {id: Relative Directory, width: 784, width2x: 0}
     - {id: Relative Path, width: 500, width2x: 0}
     sortOrders:
-    - {id: State, reverse: false}
     - {id: Relative Directory, reverse: false}
+    - {id: State, reverse: false}
     - {id: Name, reverse: false}
     - {id: Ext., reverse: true}
   log.comments:
@@ -145,20 +145,22 @@ gitViewFileFilter: {viewRecursive: true, viewFromSubmodules: true, viewIgnoredFi
 deepGitUiConfiguration: {}
 confirmations: {exit.showConfirmation: true, git.push: true, git.switchBranch.confirmation: true,
   close.unpushedCommits: true, commit.amend.replaceWarning: true, rebase.continue: true,
-  rebaseContinue: false, git.switchBranch.fastForward: true, sync: true, splitCommit: true,
+  rebaseContinue: false, git.switchBranch.fastForward: false, sync: true, splitCommit: true,
   git.commit.stageAll: true, compare.contentEqual: true, conflictSolver.showConflictWarning: true,
   compare.binaryEqual: true}
 repositoriesToReopen:
 - window: wt
-  repositories: ['B:\PF\CSharpVisualStudio\repos']
+  repositories: ['B:\PF\Archive\ToGit\scoopbucket-presist\AHK']
+- window: wt
+  repositories: ['B:\PF\Archive\ps1']
 project.files.git.separateWtIndex: true
-gitProjectLayout.main: (([+332x778:directories ][+332x155:branches ])((([+1585x605:files
-  ][+1585x161:changes ])[-3x1:message ])([+1585x164:outgoing ][-3x1:output ])))
+gitProjectLayout.main: (([+221x364:directories ][+221x290:branches ])((([+1317x400:files
+  ][+1317x161:changes ])[-3x1:message ])([+1317x90:outgoing ][-3x1:output ])))
 log.wtIndex.onDemand: true
 gitProjectLayout.mainIsdefault: true
 gitProjectLayout.review: ([+2x1:directories ][+7x1:files ][+3x1:message ])[+10x3:changes
   ]([-1x1:branches ][-3x1:outgoing ][-3x1:output ])
-lastRepositoryPath: B:\PF\CSharpVisualStudio
+lastRepositoryPath: B:\PF\Archive\ps1
 commit.expandOptions: true
 log.files.git.separateWtIndex: true
 gitLogRootLayout.main: (([+430x614:repositories ][+430x319:branches ])(([+509x349:graph

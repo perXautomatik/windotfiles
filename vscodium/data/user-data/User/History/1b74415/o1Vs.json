@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "C:/Users/CrRoot/.config/git"
+		},
+		{
+			"path": "B:/PF/Archive/ps1/git"
+		},
+		{
+			"path": "../../../../../../../../../Users/CrRoot/.config/.vscode"
+		}
+	],
+	"settings": {
+		"powershell.cwd": "b:\\PF\\Archive\\ps1\\git"
+	}
+}

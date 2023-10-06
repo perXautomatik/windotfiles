@@ -2,8 +2,8 @@ toolbars:
   wt:
     items:
     - {id: fetch}
-    - {id: sync}
     - {id: push}
+    - {id: remoteFetchAll}
     - {stretching: false}
     - {id: commit}
     - {stretching: true}
@@ -24,6 +24,7 @@ toolbars:
     - {stretching: false}
     - {id: merge}
     - {id: rebaseHeadTo}
+    textBelowIcon: true
   log.main:
     items:
     - {id: fetch}

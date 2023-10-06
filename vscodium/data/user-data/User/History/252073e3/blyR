@@ -1,0 +1,38 @@
+Some more useful and popular git config settings for single developers on Windows are:
+
+- Setting the `color.ui` option to `auto`, so that Git can use colors to highlight the output of various commands, such as `git status` or `git diff`. This can make the output more readable and easier to understand. You can use this command:
+
+```bash
+git config --global color.ui auto
+```
+
+- Setting the `core.editor` option to your preferred editor, so that you can write your commit messages and other Git operations in your favorite editor. For example, if you want to use Notepad++ as your editor, you can use this command:
+
+```bash
+git config --global core.editor "'C:/Program Files/Notepad++/notepad++.exe' -multiInst -notabbar -nosession -noPlugin"
+```
+
+- Setting the `core.excludesfile` option to a global `.gitignore` file, so that you can specify the files and directories that you want Git to ignore across all your repositories. This can save you from having to create a `.gitignore` file for each repository. You can use this command:
+
+```bash
+git config --global core.excludesfile ~/.gitignore_global
+```
+
+- Setting the `push.default` option to `simple`, so that Git will only push the current branch to the remote branch that has the same name, if it exists. This can prevent accidental pushes of unwanted branches or commits. You can use this command:
+
+```bash
+git config --global push.default simple
+```
+
+- Setting the `rerere.enabled` option to `true`, so that Git can record and reuse the resolutions of merge conflicts. This can save you from having to resolve the same conflicts repeatedly when you rebase or merge branches. You can use this command:
+
+```bash
+git config --global rerere.enabled true
+```
+
+You can find more information about how to install and configure Git on Windows in this article³. You can also find more tips and tricks for using Git in this article². I hope this helps you with your task. 😊
+
+Källa: Konversation med Bing, 2023-09-13
+(1) Useful GIT Config Tips - DEV Community. https://dev.to/nedsoft/useful-git-config-tips-274i.
+(2) Git workflow for a single developer on a local repository. https://stackoverflow.com/questions/4056372/git-workflow-for-a-single-developer-on-a-local-repository.
+(3) How to Use Multiple Git Configs on One Computer - freeCodeCamp.org. https://www.freecodecamp.org/news/how-to-handle-multiple-git-configurations-in-one-machine/.

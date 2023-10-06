@@ -1,0 +1,29 @@
+
+git config --global diff.ahk.xfuncname "^[ \t]*((\w+)[ \t]*\([^\)]*\))"
+
+
+git config --global diff.csharp.xfuncname "^[ \t]*((((static|public|internal|private|protected|new|virtual|sealed|override|unsafe|async|partial)[ \t]+)*[]<>.~_[:alnum:]]+[ \t]+)+[<>@._[:alnum:]]+[ \t]*\([^\)]*\))"
+
+
+git config --global diff.python.xfuncname "^[ \t]*((def|class)[ \t]+[[:alnum:]_]+[ \t]*\([^\)]*\))"
+
+
+git config --global diff.sql.xfuncname "^[ \t]*((CREATE|ALTER)[ \t]+(FUNCTION|PROCEDURE)[ \t]+[[:alnum:]_.]+[ \t]*\([^\)]*\))"
+
+
+git config --global diff.pascal.xfuncname "^[ \t]*((function|procedure)[ \t]+[[:alnum:]_.]+[ \t]*\([^\)]*\))"
+
+
+git config --global diff.javascript.xfuncname "^[ \t]*((function[ \t]*(\w+)?[ \t]*\([^\)]*\)|([[:alnum:]_.]+|[[:alnum:]_]+\.prototype\.[:alnum:]_+)[ \t]*=[ \t]*function[ \t]*\([^\)]*\)))"
+
+
+git config --global diff.json.xfuncname "^[ \t]*(\"[^\"\\]*(?:\\.[^\"\\]*)*\")[ \t]*:[ \t]*(\{|\[)"
+
+
+git config --global diff.xml.xfuncname "^[ \t]*(<[^>]+>)"
+
+
+git config --global diff.ini.xfuncname "^[ \t]*(\[[^]]+])"
+
+
+git config --global diff.yaml.xfuncname "^[ \t]*(-[ \t]+)?(\w+):"

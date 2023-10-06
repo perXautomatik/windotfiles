@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "C:/ProgramData/scoop/persist/Documents/WindowsPowerShell"
+		},
+		{
+			"path": "C:/ProgramData/scoop/persist/Documents/PowerShell"
+		},
+		{
+			"path": "../../PowerShellProjectFolder"
+		}
+	],
+	"settings": {}
+}

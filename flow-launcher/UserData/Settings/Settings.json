@@ -24,11 +24,11 @@
   "TimeFormat": "hh:mm tt",
   "DateFormat": "MM\u0027/\u0027dd ddd",
   "FirstLaunch": false,
-  "SettingWindowWidth": 1874,
-  "SettingWindowHeight": 1096,
-  "SettingWindowTop": 260,
-  "SettingWindowLeft": 240,
-  "SettingWindowState": 2,
+  "SettingWindowWidth": 1936,
+  "SettingWindowHeight": 1066,
+  "SettingWindowTop": 19,
+  "SettingWindowLeft": 594,
+  "SettingWindowState": 0,
   "CustomExplorerIndex": 0,
   "CustomExplorerList": [
     {
@@ -105,7 +105,7 @@
   "CustomWindowLeft": 0,
   "CustomWindowTop": 0,
   "MaxResultsToShow": 17,
-  "ActivateTimes": 754,
+  "ActivateTimes": 873,
   "CustomPluginHotkeys": [],
   "CustomShortcuts": [],
   "DontPromptUpdateMsg": false,
@@ -413,6 +413,16 @@
         "Version": "1.1.0",
         "ActionKeywords": [
           "steam"
+        ],
+        "Priority": 0,
+        "Disabled": false
+      },
+      "D0DB38F5-0199-4DFC-8A8D-1B22F68C157C": {
+        "ID": "D0DB38F5-0199-4DFC-8A8D-1B22F68C157C",
+        "Name": "Favorites",
+        "Version": "1.5.0",
+        "ActionKeywords": [
+          "*"
         ],
         "Priority": 0,
         "Disabled": false

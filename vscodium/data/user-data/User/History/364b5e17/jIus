@@ -1,0 +1,54 @@
+
+git config --global diff.ahk.xfuncname "^[ \t]*((\w+)[ \t]*\([^\)]*\))"
+
+
+git config --global diff.csharp.xfuncname "^[ \t]*((((static|public|internal|private|protected|new|virtual|sealed|override|unsafe|async|partial)[ \t]+)*[]<>.~_[:alnum:]]+[ \t]+)+[<>@._[:alnum:]]+[ \t]*\([^\)]*\))"
+
+
+git config --global diff.python.xfuncname "^[ \t]*((def|class)[ \t]+[[:alnum:]_]+[ \t]*\([^\)]*\))"
+
+
+git config --global diff.sql.xfuncname "^[ \t]*((CREATE|ALTER)[ \t]+(FUNCTION|PROCEDURE)[ \t]+[[:alnum:]_.]+[ \t]*\([^\)]*\))"
+
+
+git config --global diff.pascal.xfuncname "^[ \t]*((function|procedure)[ \t]+[[:alnum:]_.]+[ \t]*\([^\)]*\))"
+
+
+git config --global diff.javascript.xfuncname "^[ \t]*((function[ \t]*(\w+)?[ \t]*\([^\)]*\)|([[:alnum:]_.]+|[[:alnum:]_]+\.prototype\.[:alnum:]_+)[ \t]*=[ \t]*function[ \t]*\([^\)]*\)))"
+
+
+git config --global diff.json.xfuncname "^[ \t]*(\"[^\"\\]*(?:\\.[^\"\\]*)*\")[ \t]*:[ \t]*(\{|\[)"
+
+
+git config --global diff.xml.xfuncname "^[ \t]*(<[^>]+>)"
+
+
+git config --global diff.ini.xfuncname "^[ \t]*(\[[^]]+])"
+
+
+git config --global diff.yaml.xfuncname "^[ \t]*(-[ \t]+)?(\w+):"
+
+git config --global diff.C.xfuncname = "^[ \t]*(([A-Za-z0-9_]+)[ \t]+)+([A-Za-z0-9_]+)[ \t]*\([^\)]*\)" 
+//This will match lines that start with one or more words separated by spaces or tabs, followed by a name, followed by an opening parenthesis, such as int main(int argc, char *argv[]).
+
+git config --global diff.Ruby.xfuncname = "^[ \t]*((class|module|def)[ \t]+[A-Za-z0-9_:]+[ \t]*\.?(\([^\)]*\))?)" 
+//This will match lines that start with class, module, or def, followed by a name that can include colons and dots, optionally followed by an opening parenthesis, such as def foo.bar(baz).
+
+git config --global diff.HTML.xfuncname = "^[ \t]*(<[^>]+>)" 
+//This will match lines that have an opening tag, such as <div> or <p class="foo">.
+
+git config --global diff.CSS.xfuncname = "^[ \t]*([^{]+)\{" 
+//This will match lines that have a selector followed by an opening brace, such as .foo { or h1, h2 {.
+
+git config --global diff.Perl.xfuncname = "^[ \t]*((sub|package)[ \t]+[A-Za-z0-9_:]+[ \t]*\([^\)]*\))" 
+//This will match lines that start with sub or package, followed by a name that can include colons, followed by an opening parenthesis, such as sub foo::bar($).
+
+git config --global diff.Bash.xfuncname = "^[ \t]*((function[ \t]+)?[A-Za-z0-9_]+[ \t]*\(\))" 
+//This will match lines that define a function using either the function keyword or the parentheses syntax, such as function foo() or bar().
+
+git config --global diff.R.xfuncname = "^[ \t]*(([A-Za-z0-9_.]+)[ \t]*<-)?[ \t]*function[ \t]*\([^\)]*\)" 
+//This will match lines that define a function using either the assignment operator (<-) or the function keyword, followed by an opening parenthesis, such as foo <- function(x) or function(y).
+
+git config --global diff.Markdown.xfuncname = "^[ \t]*(#+[ \t]+.*)" 
+
+// This will match lines that have a Markdown heading, which starts with one or more hash signs (#) followed by some text, such as # Title or ## Subtitle.

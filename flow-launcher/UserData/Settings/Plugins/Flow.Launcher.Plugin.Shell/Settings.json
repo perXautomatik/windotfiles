@@ -73,6 +73,13 @@
     "Everything.exe -instance test": 1,
     "\u0022gitdir: \u0027B:\\PF\\.git\\modules\\NewWindows\\modules\\scoopbucket-presist\u0027\u0022 \u003E \u0027B:\\PF\\Archive\\ToGit\\scoopbucket-presist\\.git\u0027": 1,
     "scoop install shellexview": 1,
-    "sfc /scannow": 1
+    "sfc /scannow": 1,
+    "git config --global core.fsmonitor .git/hooks/fsmonitor-watchman": 1,
+    "scoop install Produkey": 1,
+    "Resize-VHD -Path \u0027U:\\OtherDrives\\side_profile-40g.vhdx\u0027 -SizeBytes 60GB": 2,
+    "Get-Clipboard | ForEach-Object { $_ -replace \u0027https://open.spotify.com/playlist/\u0027, \u0027spotify:user:spotify:playlist:\u0027 -replace \u0027\\?si=.*\u0027, \u0027\u0027 } | set-clipboard": 1,
+    "pspad \u0027B:\\PF\\Archive\\ToGit\\scoopbucket-presist\\Documents\\WindowsPowerShell\\Microsoft.PowerShell_profile.ps1\u0027": 3,
+    "pspad \u0027B:\\PF\\Archive\\ToGit\\scoopbucket-presist\\Documents\\WindowsPowerShell\\standardFunctionOverride.psm1\u0027": 1,
+    "scoop install CurrPorts": 1
   }
 }
