@@ -1,4 +1,22 @@
-﻿menu(where=sel.count>0 type='file|dir|drive|namespace|back' mode="multiple" title='File Manage' image=\uE253)
+﻿menu(title='New')
+{
+	menu(separator="before" title='New Folder' image=icon.new_folder)
+	{
+		item(title='DateTime' cmd=io.dir.create(sys.datetime("ymdHMSs")))
+		item(title='Guid' cmd=io.dir.create(str.guid))
+	}
+		
+	menu(title='New File' image=icon.new_file)
+	{
+		var { dt = sys.datetime("ymdHMSs")}
+		item(title='TXT' cmd=io.file.create('@(dt).txt', 'Hello World!'))
+		item(title='XML' cmd=io.file.create('@(dt).xml', '<root>Hello World!</root>'))
+		item(title='JSON' cmd=io.file.create('@(dt).json', '[]'))
+		item(title='HTML' cmd=io.file.create('@(dt).html', "<html>\n\t<head>\n\t</head>\n\t<body>Hello World!\n\t</body>\n</html>"))					
+	}	                
+}	
+	
+menu(where=sel.count>0 type='file|dir|drive|namespace|back' mode="multiple" title='File Manage' image=\uE253)
 {
 	menu(separator="after" title=title.copy_path image=icon.copy_path)
 	{
@@ -57,21 +75,9 @@
 
 	menu(mode="single" type='back' expanded=true)
 	{
-		menu(separator="before" title='New Folder' image=icon.new_folder)
-		{
-			item(title='DateTime' cmd=io.dir.create(sys.datetime("ymdHMSs")))
-			item(title='Guid' cmd=io.dir.create(str.guid))
-		}
-		
-		menu(title='New File' image=icon.new_file)
-		{
-			var { dt = sys.datetime("ymdHMSs")}
-			item(title='TXT' cmd=io.file.create('@(dt).txt', 'Hello World!'))
-			item(title='XML' cmd=io.file.create('@(dt).xml', '<root>Hello World!</root>'))
-			item(title='JSON' cmd=io.file.create('@(dt).json', '[]'))
-			item(title='HTML' cmd=io.file.create('@(dt).html', "<html>\n\t<head>\n\t</head>\n\t<body>Hello World!\n\t</body>\n</html>"))					
-		}
+
 	}
+
 	
 	item(where=!wnd.is_desktop title=title.folder_options image=icon.folder_options cmd=command.folder_options)
 }

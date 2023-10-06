@@ -24,7 +24,9 @@ shell
 
 	item(find='* by' pos=pos.bottom menu="view")	
 	
-	item(find='*git*' pos=pos.bottom menu="git")
+	item(find='*git*' pos=pos.bottom menu="git")       
+	
+	item(find='new' pos=pos.bottom menu="new")       
 	
 	item(find='open in *' pos=pos.bottom menu="Pin//Unpin")
 	item(find='unpin' pos=pos.bottom menu="Pin//Unpin")
