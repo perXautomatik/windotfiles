@@ -9,8 +9,8 @@ shell
 		
 	item(type='recyclebin' where=window.is_desktop and this.id==id.empty_recycle_bin pos=1 sep)
 	item(type='back' find=['shortcut', '/new'] vis=vis.remove)
-	item(find='unpin' pos=pos.bottom menu="Pin//Unpin")
-	item(find='pin' pos=pos.top menu="Pin//Unpin")
+	item(find='unpin' pos=pos.bottom menu="Unpin")
+	item(find='pin' pos=pos.top menu="Pin")
 	item(where=this.id==id.copy_as_path menu='file manage')
 	item(type='dir.back|drive.back' where=this.id==id.customize_this_folder pos=1 sep='top' menu='file manage')
 	item(find='open in terminal*' pos=pos.bottom sep menu='Terminal')
