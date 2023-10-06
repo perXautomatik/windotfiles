@@ -45,6 +45,10 @@
 		menu(mode="multiple" title="Pin/Unpin" image=icon.pin) { }
 		menu(mode="multiple" title=title.more_options image=icon.more_options) { }
 		
+		separator
+		item(where=sys.ver.major >= 10 title=title.Windows_Terminal tip=tip_run_admin admin=key.shift() image='@package.path("WindowsTerminal")\WindowsTerminal.exe' cmd='wt.exe' arg='-d "@sel.path\."')
+		item(title='Visual Studio Code' image=[\uE272, #22A7F2] cmd='code' args='"@sel.path"')
+		separator
 		import 'imports/terminal.nss'
 		import 'imports/file-manage.nss'
 		import 'imports/develop.nss'
