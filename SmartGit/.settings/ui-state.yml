@@ -4,9 +4,9 @@ bounds:
 - {key: preferences, x: -625, y: -194, width: 1519, height: 498}
 - {key: compare, x: 290, y: 184, width: 1440, height: 866}
 - {key: output, x: -690, y: 149, width: 1724, height: 738}
-- {key: git.commit, width: 1245, height: 463, x: 37, y: -22}
+- {key: git.commit, width: 1245, height: 463, x: -15, y: -197}
 - {key: git.commit.selectFromLog, width: 640, height: 395}
-- {key: log, x: -8, y: -8, width: 1936, height: 1066}
+- {key: log, x: 285, y: 214, width: 1973, height: 783}
 - {key: editor, x: 240, y: 58, width: 1440, height: 866}
 - {key: git.indexEditor, x: 240, y: 58, width: 1440, height: 866}
 - {key: git.discard, width: 500, height: 654, x: 0, y: 172}

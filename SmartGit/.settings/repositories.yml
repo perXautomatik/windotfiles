@@ -66,7 +66,15 @@ gitRootSettingsSet:
       4, 'B:\PF\Archive\ToGit\scoopbucket-presist\AppData\Roaming\Scooter Software\Beyond
       Compare 4', 'B:\PF\CSharpVisualStudio\repos\karlstad\KarlstadButik\New folder',
     'B:\PF\CSharpVisualStudio\repos\karlstad\KarlstadButik\KarlstadButik\KarlstadButik',
-    'C:\ProgramData\scoop\persist']
+    'C:\ProgramData\scoop\persist', 'C:\ProgramData\scoop\persist\.config\git', 'C:\ProgramData\scoop\persist\.config\powershell',
+    'C:\ProgramData\scoop\persist\AHK', 'C:\ProgramData\scoop\persist\AHK-EverydayScripts',
+    'C:\ProgramData\scoop\persist\AdvancedRenamer', 'C:\ProgramData\scoop\persist\AppData',
+    'C:\ProgramData\scoop\persist\Cherrytree', 'C:\ProgramData\scoop\persist\Everything',
+    'C:\ProgramData\scoop\persist\Everything-Paf', 'C:\ProgramData\scoop\persist\JetBrains',
+    'C:\ProgramData\scoop\persist\OtherVersionControlledText', 'C:\ProgramData\scoop\persist\PortableProgramSuit',
+    'C:\ProgramData\scoop\persist\PowerShellCmdHist', 'C:\ProgramData\scoop\persist\Powershell',
+    'C:\ProgramData\scoop\persist\Vortex', 'C:\ProgramData\scoop\persist\portableAppsPlatform',
+    'C:\ProgramData\scoop\persist\steamapps', 'C:\ProgramData\scoop\persist\AHK-EverydayScripts\Fork\autoklick']
   rootB:\ToGit:
     databaseCleanup: {}
     log:
@@ -9355,6 +9363,10 @@ gitRootSettingsSet:
     push: {}
     commitNotes:
       commitNotesHistory:
+      - '[nilesoft] stable'
+      - '[nilesoft] git'
+      - personal preferences
+      - state
       - tools looking good
       - smartgit state
       - new ahk remote
@@ -9363,7 +9375,6 @@ gitRootSettingsSet:
         Vscodium instead of code
 
         untracked
-      - Vscodium instead of code
     journal: {}
   rootC:\ProgramData\scoop\persist\everything:
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1688456048559}
@@ -10758,7 +10769,7 @@ gitRootSettingsSet:
       commitNotesHistory: [ccs, state]
     journal: {}
   rootC:\ProgramData\scoop\persist\Everything-Paf:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1693390060260}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1696594635122}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
@@ -10793,7 +10804,7 @@ gitRootSettingsSet:
         #\tWindows10Debloater-master/Windows10DebloaterGUI.ps1"
     journal: {}
   rootC:\ProgramData\scoop\persist\AHK:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1693425327033}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1696594635048}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
@@ -10803,14 +10814,15 @@ gitRootSettingsSet:
     commitNotes: {}
     journal: {}
   rootC:\ProgramData\scoop\persist\AdvancedRenamer:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1693425326534}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1696594634660}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
     merge:
       logRootSettings: {}
     push: {}
-    commitNotes: {}
+    commitNotes:
+      commitNotesHistory: [state]
     journal: {}
   rootC:\ProgramData\scoop\persist\BeondCompare4:
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695997900398}
@@ -10823,7 +10835,7 @@ gitRootSettingsSet:
     commitNotes: {}
     journal: {}
   rootC:\ProgramData\scoop\persist\Cherrytree:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1693425326960}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1696594635227}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
@@ -10833,7 +10845,7 @@ gitRootSettingsSet:
     commitNotes: {}
     journal: {}
   rootC:\ProgramData\scoop\persist\Everything:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1693425326842}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1696594635285}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
@@ -10843,7 +10855,7 @@ gitRootSettingsSet:
     commitNotes: {}
     journal: {}
   rootC:\ProgramData\scoop\persist\JetBrains:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1693425326619}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1696594635501}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
@@ -10853,7 +10865,7 @@ gitRootSettingsSet:
     commitNotes: {}
     journal: {}
   rootC:\ProgramData\scoop\persist\OtherVersionControlledText:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1693425327148}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1696594634794}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
@@ -10863,7 +10875,7 @@ gitRootSettingsSet:
     commitNotes: {}
     journal: {}
   rootC:\ProgramData\scoop\persist\PortableProgramSuit:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1693425326695}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1696594635177}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
@@ -10873,7 +10885,7 @@ gitRootSettingsSet:
     commitNotes: {}
     journal: {}
   rootC:\ProgramData\scoop\persist\PowerShellCmdHist:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1693425326759}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1696594634866}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
@@ -10883,7 +10895,7 @@ gitRootSettingsSet:
     commitNotes: {}
     journal: {}
   rootC:\ProgramData\scoop\persist\Powershell:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1693425327079}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1696594634928}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
@@ -10893,7 +10905,7 @@ gitRootSettingsSet:
     commitNotes: {}
     journal: {}
   rootC:\ProgramData\scoop\persist\Vortex:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1693425327213}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1696594634732}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
@@ -10903,7 +10915,7 @@ gitRootSettingsSet:
     commitNotes: {}
     journal: {}
   rootC:\ProgramData\scoop\persist\portableAppsPlatform:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1693425327328}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1696594635548}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
@@ -10913,7 +10925,7 @@ gitRootSettingsSet:
     commitNotes: {}
     journal: {}
   rootC:\ProgramData\scoop\persist\steamapps:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1693425327264}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1696594635396}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
@@ -10923,7 +10935,7 @@ gitRootSettingsSet:
     commitNotes: {}
     journal: {}
   rootC:\ProgramData\scoop\persist\AHK-EverydayScripts:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695584469659}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1696594635449}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
@@ -13602,7 +13614,7 @@ gitRootSettingsSet:
     commitNotes: {}
     journal: {}
   rootC:\ProgramData\scoop\persist\AHK-EverydayScripts\Fork\autoklick:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695586278211}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1696594634536}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
@@ -14470,6 +14482,36 @@ gitRootSettingsSet:
     journal: {}
   rootB:\PF\CSharpVisualStudio\repos\karlstad\KarlstadButik\KarlstadButik\KarlstadButik:
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1696156508849}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootC:\ProgramData\scoop\persist\.config\git:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1696594635346}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootC:\ProgramData\scoop\persist\.config\powershell:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1696594634486}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootC:\ProgramData\scoop\persist\AppData:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1696594634602}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}

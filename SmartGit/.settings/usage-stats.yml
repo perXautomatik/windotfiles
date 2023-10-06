@@ -1,43 +1,43 @@
 header: {started: 1694607870521, uid: 3OVVOEten4s, licenseType: foundation, build: 19285,
   os: windows+10, osv: '10.0', transferred: 1694607870521}
 stats:
-  action.stage: {invocations: 258, invocationLast: 20231004, invocationDays: 15}
-  changesview.syntax.<unknown>: {invocations: 1772, invocationLast: 20231002, invocationDays: 15}
-  toolbar.main.action.commit: {invocations: 215, invocationLast: 20230929, invocationDays: 12}
-  action.commit: {invocations: 230, invocationLast: 20231004, invocationDays: 15}
+  action.stage: {invocations: 260, invocationLast: 20231006, invocationDays: 16}
+  changesview.syntax.<unknown>: {invocations: 1776, invocationLast: 20231006, invocationDays: 16}
+  toolbar.main.action.commit: {invocations: 218, invocationLast: 20231006, invocationDays: 13}
+  action.commit: {invocations: 239, invocationLast: 20231006, invocationDays: 16}
   action.submoduleInit: {invocations: 80, invocationLast: 20230927, invocationDays: 8}
   action.discard: {invocations: 8, invocationLast: 20230927, invocationDays: 4}
   action.resolveTheirs: {invocations: 9, invocationLast: 20230926, invocationDays: 3}
   action.refresh: {invocations: 46, invocationLast: 20231002, invocationDays: 10}
-  action.submoduleRegister: {invocations: 171, invocationLast: 20231002, invocationDays: 12}
+  action.submoduleRegister: {invocations: 173, invocationLast: 20231006, invocationDays: 13}
   action.submoduleUnregister: {invocations: 6, invocationLast: 20230913, invocationDays: 1}
   action.remove: {invocations: 31, invocationLast: 20230928, invocationDays: 4}
   action.rename: {invocations: 48, invocationLast: 20230921, invocationDays: 4}
   changesview.syntax.json: {invocations: 14, invocationLast: 20230925, invocationDays: 4}
   action.remoteRename: {invocations: 10, invocationLast: 20230924, invocationDays: 2}
-  changesview.syntax.shell script: {invocations: 10, invocationLast: 20230926, invocationDays: 4}
-  changesview.syntax.yaml: {invocations: 13, invocationLast: 20231001, invocationDays: 7}
+  changesview.syntax.shell script: {invocations: 12, invocationLast: 20231006, invocationDays: 5}
+  changesview.syntax.yaml: {invocations: 14, invocationLast: 20231006, invocationDays: 8}
   window.conflictSolver: {invocations: 5, invocationLast: 20231004, invocationDays: 3}
   changesview.syntax.xml: {invocations: 144, invocationLast: 20231002, invocationDays: 9}
   action.unstage: {invocations: 40, invocationLast: 20231004, invocationDays: 12}
-  repo.opens.wt: {invocations: 264, invocationLast: 20231006, invocationDays: 15}
+  repo.opens.wt: {invocations: 282, invocationLast: 20231006, invocationDays: 15}
   repo.opens.wt.files.0: {invocations: 10, invocationLast: 20231001, invocationDays: 9}
-  repo.opens.wt.submodules.0: {invocations: 244, invocationLast: 20231006, invocationDays: 15}
-  repo.opens.wt.config: {invocations: 264, invocationLast: 20231006, invocationDays: 15}
-  repo.opens.wt.config.ignoreCase.true: {invocations: 263, invocationLast: 20231006,
+  repo.opens.wt.submodules.0: {invocations: 261, invocationLast: 20231006, invocationDays: 15}
+  repo.opens.wt.config: {invocations: 282, invocationLast: 20231006, invocationDays: 15}
+  repo.opens.wt.config.ignoreCase.true: {invocations: 281, invocationLast: 20231006,
     invocationDays: 15}
   repo.opens.wt.config.lfsEnabled.true: {invocations: 55, invocationLast: 20230929,
     invocationDays: 7}
-  repo.opens.wt.config.evaluateLfsState.true: {invocations: 264, invocationLast: 20231006,
+  repo.opens.wt.config.evaluateLfsState.true: {invocations: 282, invocationLast: 20231006,
     invocationDays: 15}
   repo.opens.wt.config.actuallyEvaluateLfsState.true: {invocations: 55, invocationLast: 20230929,
     invocationDays: 7}
-  repo.opens.type.git: {invocations: 264, invocationLast: 20231006, invocationDays: 15}
+  repo.opens.type.git: {invocations: 282, invocationLast: 20231006, invocationDays: 15}
   action.copyPath: {invocations: 1, invocationLast: 20230913, invocationDays: 1}
-  repo.opens.wt.files.0-1000: {invocations: 228, invocationLast: 20231001, invocationDays: 14}
-  repo.opens.wt.config.lfsEnabled.false: {invocations: 209, invocationLast: 20231006,
+  repo.opens.wt.files.0-1000: {invocations: 244, invocationLast: 20231006, invocationDays: 15}
+  repo.opens.wt.config.lfsEnabled.false: {invocations: 227, invocationLast: 20231006,
     invocationDays: 15}
-  repo.opens.wt.config.actuallyEvaluateLfsState.false: {invocations: 209, invocationLast: 20231006,
+  repo.opens.wt.config.actuallyEvaluateLfsState.false: {invocations: 227, invocationLast: 20231006,
     invocationDays: 15}
   changesview.syntax.c#: {invocations: 1727, invocationLast: 20231004, invocationDays: 10}
   changesview.syntax.javascript/typescript: {invocations: 2, invocationLast: 20230924,
@@ -45,7 +45,7 @@ stats:
   action.delete: {invocations: 78, invocationLast: 20231001, invocationDays: 4}
   toolbar.main.action.stashApply: {invocations: 1, invocationLast: 20230914, invocationDays: 1}
   action.stashApply: {invocations: 1, invocationLast: 20230914, invocationDays: 1}
-  repo.opens.wt.submodules.1-2: {invocations: 7, invocationLast: 20230927, invocationDays: 5}
+  repo.opens.wt.submodules.1-2: {invocations: 8, invocationLast: 20231006, invocationDays: 6}
   action.viewUnchanged: {invocations: 8, invocationLast: 20230928, invocationDays: 6}
   changesview.syntax.properties: {invocations: 1, invocationLast: 20230914, invocationDays: 1}
   changesview.syntax.cmd: {invocations: 2, invocationLast: 20230921, invocationDays: 2}
@@ -57,12 +57,12 @@ stats:
   i18n.locale.<null>: {invocations: 3, invocationLast: 20230926, invocationDays: 2}
   preferences.mainWindow.wt: {invocations: 3, invocationLast: 20230926, invocationDays: 2}
   preferences.theme.auto: {invocations: 3, invocationLast: 20230926, invocationDays: 2}
-  window.wt: {invocations: 8, invocationLast: 20230927, invocationDays: 4}
+  window.wt: {invocations: 9, invocationLast: 20231006, invocationDays: 5}
   log.perspective.main: {invocations: 6, invocationLast: 20231001, invocationDays: 5}
   window.log: {invocations: 6, invocationLast: 20231001, invocationDays: 5}
-  github.refresh: {invocations: 1403, invocationLast: 20231006, invocationDays: 10}
-  action.windowWorkingTree: {invocations: 2, invocationLast: 20230927, invocationDays: 2}
-  repo.opens.wt.files.1000-10000: {invocations: 25, invocationLast: 20231006, invocationDays: 4}
+  github.refresh: {invocations: 1410, invocationLast: 20231006, invocationDays: 10}
+  action.windowWorkingTree: {invocations: 3, invocationLast: 20231006, invocationDays: 3}
+  repo.opens.wt.files.1000-10000: {invocations: 27, invocationLast: 20231006, invocationDays: 4}
   repo.opens.wt.submodules.10-20: {invocations: 6, invocationLast: 20230926, invocationDays: 3}
   toolbar.main.action.fetch: {invocations: 26, invocationLast: 20230928, invocationDays: 9}
   action.fetch: {invocations: 29, invocationLast: 20231001, invocationDays: 11}
@@ -76,7 +76,7 @@ stats:
   action.branchAbort: {invocations: 9, invocationLast: 20231002, invocationDays: 4}
   action.checkout: {invocations: 51, invocationLast: 20231004, invocationDays: 10}
   action.pushTo: {invocations: 5, invocationLast: 20231002, invocationDays: 4}
-  window.compare: {invocations: 15, invocationLast: 20231001, invocationDays: 5}
+  window.compare: {invocations: 22, invocationLast: 20231006, invocationDays: 6}
   action.branchContinue: {invocations: 64, invocationLast: 20231004, invocationDays: 8}
   repo.opens.wt.submodules.2-5: {invocations: 5, invocationLast: 20230927, invocationDays: 3}
   action.push.1: {invocations: 11, invocationLast: 20231002, invocationDays: 4}
@@ -123,7 +123,7 @@ stats:
   action.branchRename: {invocations: 2, invocationLast: 20231001, invocationDays: 1}
   toolbar.log.root.action.remoteFetchAll: {invocations: 41, invocationLast: 20231004,
     invocationDays: 4}
-  toolbar.log.root.action.commit: {invocations: 9, invocationLast: 20231004, invocationDays: 3}
+  toolbar.log.root.action.commit: {invocations: 14, invocationLast: 20231006, invocationDays: 4}
   action.pushTo.0: {invocations: 1, invocationLast: 20231001, invocationDays: 1}
   toolbar.log.root.action.fetch: {invocations: 1, invocationLast: 20231001, invocationDays: 1}
   action.editFile: {invocations: 1, invocationLast: 20231001, invocationDays: 1}
@@ -131,3 +131,4 @@ stats:
   action.cherryPick: {invocations: 1, invocationLast: 20231002, invocationDays: 1}
   action.revert: {invocations: 1, invocationLast: 20231004, invocationDays: 1}
   repo.opens.commits.1000-10000: {invocations: 1, invocationLast: 20231006, invocationDays: 1}
+  action.compareWithWorkingTree: {invocations: 1, invocationLast: 20231006, invocationDays: 1}
