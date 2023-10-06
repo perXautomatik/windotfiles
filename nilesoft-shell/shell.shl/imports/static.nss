@@ -4,7 +4,7 @@ shell
 
 	// Delete items by identifiers
 	item(mode=mode.multiple
-		where=this.id(id.restore_previous_versions,id.cast_to_device)
+		where=this.id(id.restore_previous_versions,id.cast_to_device,id.refresh)
 		vis=vis.remove)
 		
 	item(type='recyclebin' where=window.is_desktop and this.id==id.empty_recycle_bin pos=1 sep)
