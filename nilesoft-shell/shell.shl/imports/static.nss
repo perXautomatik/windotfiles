@@ -9,15 +9,27 @@ shell
 		
 	item(type='recyclebin' where=window.is_desktop and this.id==id.empty_recycle_bin pos=1 sep)
 	item(type='back' find=['shortcut', '/new'] vis=vis.remove)   
-	item(find='open in new tab' pos=pos.bottom menu="more options")
-	item(find='open in other view' pos=pos.bottom menu="more options")
-	item(find='open in new window' pos=pos.bottom menu="more options")
-	item(find='open in place' pos=pos.bottom menu="more optionse")
+
+	item(find='WizTree' pos=pos.bottom menu="more options")
+	item(find='add to directory monitor' pos=pos.bottom menu="more options")
+	item(find='7-zip' pos=pos.bottom menu="more options")	
+	
+	item(find='delete' pos=pos.bottom menu="file manage/select")
+	item(find='cut' pos=pos.bottom menu="file manage/select")
+	item(find='copy' pos=pos.bottom menu="file manage/select")
+	item(find='rename' pos=pos.bottom menu="file manage/select")	
+	
 	item(find='take ownership' pos=pos.bottom menu="file manage")
-	item(find='copy' pos=pos.bottom menu="file manage")
-	item(find='unpin' pos=pos.bottom menu="more options")
-	item(find='pin' pos=pos.top menu="more options")
 	item(where=this.id==id.copy_as_path menu='file manage')
+
+	item(find='* by' pos=pos.bottom menu="view")	
+	
+	item(find='Git*' pos=pos.bottom menu="tortoisegit")
+	
+	item(find='open in *' pos=pos.bottom menu="Pin//Unpin")
+	item(find='unpin' pos=pos.bottom menu="Pin//Unpin")
+	item(find='pin' pos=pos.top menu="Pin//Unpin")					     	
+							     
 	item(type='dir.back|drive.back' where=this.id==id.customize_this_folder pos=1 sep='top' menu='file manage')
 	item(find='open in terminal*' pos=pos.bottom sep menu='Terminal')
 	item(find='open with visual studio' pos=1 menu='develop/editors')
