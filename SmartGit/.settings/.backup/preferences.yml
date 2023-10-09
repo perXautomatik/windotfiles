@@ -6,13 +6,14 @@ actions:
     - filePattern: '*'
       compareType: 0
       externalFileCompare: {}
-    compareWithWorkingTree: false
-    showChooser: false
+    compareWithWorkingTree: true
+    showChooser: true
   conflictSolver:
     conflictSolvers:
     - filePattern: '*'
       useExternal: false
       externalTool: {}
+    swapOursTheirsOnRebase: true
   stash: {stashAutomatically: true, includeUntrackedFiles: true}
   allowModificationOfPushedHistory: true
   pushTags: true
@@ -23,7 +24,7 @@ actions:
   syncPushBeforePull: false
 logSettings:
   filterConfiguration: {}
-comparePreviewSettings: {selectCompareTypeAutomatically: true, compareType: index-vs-head}
+comparePreviewSettings: {selectCompareTypeAutomatically: true, compareType: working-tree-vs-index}
 dateFormat: {datePattern: MM/dd/yyyy, timePattern: 'hh:mm a', showTimeForLastDays: true}
 defaultViewSettings:
   compareSettings:
@@ -109,8 +110,8 @@ globalTextComponentSettings:
 listx: {uid: en4ssg7d23lk}
 project: {defaultWindowType: wt}
 uiSettings: {theme: auto, themeChanged: false, fileSearchPatternType: 1}
-vcsRecords: {lastGitUsage: 1695687966521}
-updateCheck: {prevCheckTime: 1695654561017, checkedBuild: 19285, mode: download, upgradeInstallation: false}
+vcsRecords: {lastGitUsage: 1696706650712}
+updateCheck: {prevCheckTime: 1696660966468, checkedBuild: 19285, mode: download, upgradeInstallation: false}
 updateCheckDg: {}
 proxy: {enabled: false, autoDetect: true}
 spellCheck:
@@ -120,7 +121,9 @@ spellCheck:
   activeDictionary: 0
 lastUsedVersion: '22.1'
 firstUsedTime: 1684316673740
-tempDirs: ['C:\Users\CrRoot\AppData\Local\Temp\smartgit11115374220861489088', 'C:\Users\CrRoot\AppData\Local\Temp\e4j89FD.tmp_dir1694766141']
+tempDirs: ['C:\Users\CrRoot\AppData\Local\Temp\smartgit5273656502036950558', 'C:\Users\CrRoot\AppData\Local\Temp\e4j110C.tmp_dir1695710564',
+  'C:\Users\CrRoot\AppData\Local\Temp\smartgit3383298190521381095', 'C:\Users\CrRoot\AppData\Local\Temp\smartgit10855184816144442640',
+  'C:\Users\CrRoot\AppData\Local\Temp\smartgit8799759178489808252']
 machineId: 41587a14
 warnForMissingMasterPassword: false
 sendStacktraces2: true

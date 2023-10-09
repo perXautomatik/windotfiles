@@ -28,7 +28,8 @@ structure:
     - {name: git, path: 'B:\PF\Archive\ps1\git'}
     - {name: virtual1, path: 'E:\Users\virtual1'}
     - {name: ps1, path: 'B:\Unsorted\ps1'}
-    expanded: true
+    - {name: Users, path: 'B:\Users'}
+    expanded: false
   - name: AHK
     children:
     - {name: AHK, path: 'B:\Users\target\AHK'}
@@ -38,6 +39,7 @@ structure:
     - {name: AHK, path: 'B:\PF\Archive\ToGit\scoopbucket-presist\AHK'}
     - {name: AhkProjectFolder, path: 'B:\PF\AhkProjectFolder'}
     - {name: ahk_config, path: 'B:\PF\Archive\ToGit\scoopbucket-presist\AHK\ahk_config'}
+    - {name: WindowsPowerShell, path: 'C:\ProgramData\scoop\persist\Documents\WindowsPowerShell'}
     expanded: false
   - name: BeyondCompare
     children:
@@ -67,14 +69,14 @@ structure:
   - {name: target, path: 'B:\Users\target'}
   expanded: true
 - {name: RiderProjects, path: 'L:\Users\virtual2\RiderProjects'}
-recentlyUsed: ['C:\ProgramData\scoop\persist', 'B:\PF', 'B:\PF\CSharpVisualStudio\repos\karlstad',
-  'B:\PF\CSharpVisualStudio', 'B:\Users\target\BeondCompare4', 'C:\Users\CrRoot\AppData\Roaming\Scooter
-    Software\Beyond Compare 4', 'B:\PF\Archive\ToGit\scoopbucket-presist\AppData\Roaming\Scooter
+recentlyUsed: ['C:\ProgramData\scoop\persist', 'B:\PF\AhkProjectFolder', 'C:\ProgramData\scoop\persist\AHK-EverydayScripts',
+  'B:\Users', 'C:\ProgramData\scoop\persist\Documents\WindowsPowerShell', 'B:\PF',
+  'B:\PF\CSharpVisualStudio\repos\karlstad', 'B:\PF\CSharpVisualStudio', 'B:\Users\target\BeondCompare4',
+  'C:\Users\CrRoot\AppData\Roaming\Scooter Software\Beyond Compare 4', 'B:\PF\Archive\ToGit\scoopbucket-presist\AppData\Roaming\Scooter
     Software\Beyond Compare 4', 'C:\ProgramData\scoop\buckets', 'L:\Users\virtual2\RiderProjects',
   'B:\PF\CSharpVisualStudio\repos\boras', 'B:\Unsorted\ps1', 'B:\PF\Archive\ps1',
   'B:\PF\Archive\ToGit\scoopbucket-presist\AHK', 'B:\PF\Archive\ToGit\scoopbucket-presist\AHK\ahk_config',
-  'B:\Users\target\AHK', 'C:\ProgramData\scoop\persist\AHK-EverydayScripts', 'B:\PF\AhkProjectFolder',
-  'U:\WindowsShare\backs\PortableApps\4, windows enhance\PortableApps\AutoHotkeyPortable',
+  'B:\Users\target\AHK', 'U:\WindowsShare\backs\PortableApps\4, windows enhance\PortableApps\AutoHotkeyPortable',
   'B:\Users\target', 'E:\Users\virtual1', 'B:\PF\Archive\ps1\git', 'B:\Unsorted\tempRepo\New
     folder', 'B:\PF\NoteTakingProjectFolder', 'B:\PF\CSharpVisualStudio\repos', 'B:\PF\CSharpVisualStudio\repos\InvalidMarkup',
   'B:\PF\PowershellProjectFolder\Modules\Personal\filesystem\group\ps1', 'B:\PF\Archive\NewWindows',

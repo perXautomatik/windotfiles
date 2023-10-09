@@ -1,106 +1,6 @@
 {
   "Items": [
     {
-      "Query": "autor",
-      "ExecutedDateTime": "2023-06-29T15:52:12.074633+02:00"
-    },
-    {
-      "Query": "ditt",
-      "ExecutedDateTime": "2023-06-29T15:54:38.9940755+02:00"
-    },
-    {
-      "Query": "sma",
-      "ExecutedDateTime": "2023-06-29T21:17:25.2704656+02:00"
-    },
-    {
-      "Query": "ps choco install whale",
-      "ExecutedDateTime": "2023-06-30T12:00:06.2048909+02:00"
-    },
-    {
-      "Query": "whal",
-      "ExecutedDateTime": "2023-06-30T12:02:59.9809488+02:00"
-    },
-    {
-      "Query": "ps scoop install extras/unetbootin",
-      "ExecutedDateTime": "2023-06-30T12:55:23.432784+02:00"
-    },
-    {
-      "Query": "uneb",
-      "ExecutedDateTime": "2023-06-30T12:56:09.183207+02:00"
-    },
-    {
-      "Query": "ps scoop uninstall unetbootin",
-      "ExecutedDateTime": "2023-06-30T12:59:36.2912828+02:00"
-    },
-    {
-      "Query": "ps scoop bucket add okibcn_ScoopMaster https://github.com/okibcn/ScoopMaster",
-      "ExecutedDateTime": "2023-06-30T13:00:06.4743719+02:00"
-    },
-    {
-      "Query": "ps scoop install okibcn_ScoopMaster/usbwriter",
-      "ExecutedDateTime": "2023-06-30T13:03:54.884788+02:00"
-    },
-    {
-      "Query": "power",
-      "ExecutedDateTime": "2023-06-30T13:04:13.0202529+02:00"
-    },
-    {
-      "Query": "smar",
-      "ExecutedDateTime": "2023-07-01T18:15:52.3713432+02:00"
-    },
-    {
-      "Query": "steam",
-      "ExecutedDateTime": "2023-07-01T18:19:05.3343533+02:00"
-    },
-    {
-      "Query": "em",
-      "ExecutedDateTime": "2023-07-01T18:23:10.2852286+02:00"
-    },
-    {
-      "Query": "ps scoop unsinstall docker ; scoop uninstall docker-desktop",
-      "ExecutedDateTime": "2023-07-01T18:29:06.5190805+02:00"
-    },
-    {
-      "Query": "powershell",
-      "ExecutedDateTime": "2023-07-01T19:09:19.7638223+02:00"
-    },
-    {
-      "Query": "vsc",
-      "ExecutedDateTime": "2023-07-01T20:59:59.3425375+02:00"
-    },
-    {
-      "Query": "ahk",
-      "ExecutedDateTime": "2023-07-02T01:42:50.1371578+02:00"
-    },
-    {
-      "Query": "obs",
-      "ExecutedDateTime": "2023-07-02T15:21:00.6521738+02:00"
-    },
-    {
-      "Query": "ps scoop install digikam",
-      "ExecutedDateTime": "2023-07-03T08:57:45.3990389+02:00"
-    },
-    {
-      "Query": "ps scoop install anderlli0053_DEV-tools/process-lasso",
-      "ExecutedDateTime": "2023-07-03T10:49:04.1429011+02:00"
-    },
-    {
-      "Query": "ps scoop install anderlli0053_DEV-tools/ProcessLasso",
-      "ExecutedDateTime": "2023-07-03T10:49:37.7761327+02:00"
-    },
-    {
-      "Query": "p",
-      "ExecutedDateTime": "2023-07-03T10:50:10.3936656+02:00"
-    },
-    {
-      "Query": "vscode",
-      "ExecutedDateTime": "2023-07-03T13:02:17.2805758+02:00"
-    },
-    {
-      "Query": "ever",
-      "ExecutedDateTime": "2023-07-03T13:05:31.1082629+02:00"
-    },
-    {
       "Query": "p",
       "ExecutedDateTime": "2023-07-03T13:24:43.2788492+02:00"
     },
@@ -1203,6 +1103,106 @@
     {
       "Query": "se",
       "ExecutedDateTime": "2023-09-25T21:56:47.2202176+02:00"
+    },
+    {
+      "Query": "ps scoop install fork",
+      "ExecutedDateTime": "2023-09-26T10:39:39.8583836+02:00"
+    },
+    {
+      "Query": "ever",
+      "ExecutedDateTime": "2023-09-26T12:41:46.3070833+02:00"
+    },
+    {
+      "Query": "vs",
+      "ExecutedDateTime": "2023-09-26T12:59:38.1000618+02:00"
+    },
+    {
+      "Query": "\u0026 ditt",
+      "ExecutedDateTime": "2023-09-26T16:27:43.4404838+02:00"
+    },
+    {
+      "Query": "lin",
+      "ExecutedDateTime": "2023-09-27T10:43:30.6385036+02:00"
+    },
+    {
+      "Query": "bc",
+      "ExecutedDateTime": "2023-09-27T11:27:50.461729+02:00"
+    },
+    {
+      "Query": "pw",
+      "ExecutedDateTime": "2023-09-28T13:03:04.6517835+02:00"
+    },
+    {
+      "Query": "vs g",
+      "ExecutedDateTime": "2023-09-28T13:12:59.5940779+02:00"
+    },
+    {
+      "Query": "\u0026 cmd",
+      "ExecutedDateTime": "2023-09-28T13:22:32.3346867+02:00"
+    },
+    {
+      "Query": "bc",
+      "ExecutedDateTime": "2023-09-29T18:15:38.5678325+02:00"
+    },
+    {
+      "Query": "ps install-module re",
+      "ExecutedDateTime": "2023-10-01T00:30:37.8181986+02:00"
+    },
+    {
+      "Query": "pw",
+      "ExecutedDateTime": "2023-10-01T00:34:16.5007572+02:00"
+    },
+    {
+      "Query": "ps scoop install ildasm",
+      "ExecutedDateTime": "2023-10-01T01:35:31.501619+02:00"
+    },
+    {
+      "Query": "ps scoop install Weidows-projects_scoop-3rd/Dependency-Walker",
+      "ExecutedDateTime": "2023-10-01T01:37:14.2787026+02:00"
+    },
+    {
+      "Query": "stea",
+      "ExecutedDateTime": "2023-10-05T19:04:25.6261095+02:00"
+    },
+    {
+      "Query": "\u0026 pro",
+      "ExecutedDateTime": "2023-10-05T19:13:41.7984902+02:00"
+    },
+    {
+      "Query": "ob",
+      "ExecutedDateTime": "2023-10-06T08:30:48.3182048+02:00"
+    },
+    {
+      "Query": "ps scoop install anaconda",
+      "ExecutedDateTime": "2023-10-06T08:32:14.7846537+02:00"
+    },
+    {
+      "Query": "pw",
+      "ExecutedDateTime": "2023-10-06T08:51:25.6553648+02:00"
+    },
+    {
+      "Query": "se",
+      "ExecutedDateTime": "2023-10-06T08:53:47.0227751+02:00"
+    },
+    {
+      "Query": "bey",
+      "ExecutedDateTime": "2023-10-06T11:55:00.9221276+02:00"
+    },
+    {
+      "Query": "\u0026 irfa",
+      "ExecutedDateTime": "2023-10-06T12:42:25.8190005+02:00"
+    },
+    {
+      "Query": "ps user.pictures",
+      "ExecutedDateTime": "2023-10-06T13:22:46.8833811+02:00"
+    },
+    {
+      "Query": "ps sudo scoop install anderlli0053_DEV-tools/scoop-check",
+      "ExecutedDateTime": "2023-10-07T21:38:18.6729471+02:00"
+    },
+    {
+      "Query": "au",
+      "ExecutedDateTime": "2023-10-07T22:45:25.7552881+02:00"
     }
   ]
 }

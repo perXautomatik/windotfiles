@@ -1,16 +1,16 @@
 bounds:
-- {key: project, x: 581, y: 155, width: 1557, height: 787}
+- {key: project, x: 499, y: 208, width: 1292, height: 695, state: 1}
 - {key: welcome}
 - {key: preferences, x: -625, y: -194, width: 1519, height: 498}
-- {key: compare, x: 38, y: 174, width: 1440, height: 866, state: 1}
-- {key: output, x: -3, y: 29, width: 1724, height: 738}
-- {key: git.commit, width: 1245, height: 889, x: 140, y: -61}
+- {key: compare, x: 290, y: 184, width: 1440, height: 866}
+- {key: output, x: -82, y: -87, width: 1724, height: 717}
+- {key: git.commit, width: 1245, height: 463, x: -15, y: -197}
 - {key: git.commit.selectFromLog, width: 640, height: 395}
-- {key: log, x: 240, y: 58, width: 1440, height: 875, state: 1}
+- {key: log, x: 19, y: 57, width: 1973, height: 783, state: 1}
 - {key: editor, x: 240, y: 58, width: 1440, height: 866}
 - {key: git.indexEditor, x: 240, y: 58, width: 1440, height: 866}
 - {key: git.discard, width: 500, height: 654, x: 0, y: 172}
-- {key: git.squashCommits, width: 630, height: 400}
+- {key: git.squashCommits, width: 630, height: 400, x: -553, y: 78}
 - {key: editMessage, width: 500, height: 309, x: -139, y: -6}
 - {key: rename, x: 430, y: -304, width: 406, height: 184}
 - {key: git.ignore.file}
@@ -23,6 +23,7 @@ bounds:
 - {key: git.tag, width: 400, height: 300}
 - {key: git.unstage, width: 500, height: 309}
 - {key: git.stage, width: 500, height: 309}
+- {key: editAuthor, width: 300, height: 100}
 conflictSolverFrame: {}
 indexEditorFrame: {sLayout: merge-right}
 columns:
@@ -45,17 +46,17 @@ columns:
     columnWidths:
     - {id: Name, width: 338, width2x: 0}
     - {id: Size, width: 61, width2x: 0}
-    - {id: Ext., width: 62, width2x: 0}
-    - {id: State, width: 471, width2x: 0}
+    - {id: Ext., width: 347, width2x: 0}
+    - {id: State, width: 141, width2x: 0}
     - {id: Relative Directory, width: 919, width2x: 0}
     - {id: Last Changed On, width: 117, width2x: 0}
     - {id: Relative Path, width: 500, width2x: 0}
     sortOrders:
-    - {id: State, reverse: true}
-    - {id: Relative Directory, reverse: false}
-    - {id: Size, reverse: true}
     - {id: Ext., reverse: false}
+    - {id: Relative Directory, reverse: true}
+    - {id: State, reverse: true}
     - {id: Name, reverse: false}
+    - {id: Size, reverse: true}
     - {id: Last Changed On, reverse: false}
   project.files.git.index:
     columnNames: "Name\tExt.\tState\tRelative Directory\tRelative Path\tRenamed From"
@@ -67,8 +68,8 @@ columns:
     - {id: Relative Directory, width: 784, width2x: 0}
     - {id: Relative Path, width: 500, width2x: 0}
     sortOrders:
-    - {id: Relative Directory, reverse: false}
     - {id: State, reverse: false}
+    - {id: Relative Directory, reverse: false}
     - {id: Name, reverse: false}
     - {id: Ext., reverse: true}
   log.comments:
@@ -95,8 +96,8 @@ columns:
     - {id: Relative Path, width: 500, width2x: 0}
     sortOrders:
     - {id: Modification, reverse: false}
-    - {id: Relative Directory, reverse: false}
     - {id: Name, reverse: false}
+    - {id: Relative Directory, reverse: false}
   git.log.files.wt:
     columnNames: "Name\tState\tRelative Directory\tRenamed Path\tExt.\tLFS\tLast Changed\
       \ On\tRelative Path\tSize"
@@ -108,9 +109,9 @@ columns:
     - {id: Renamed Path, width: 150, width2x: 0}
     - {id: Relative Path, width: 500, width2x: 0}
     sortOrders:
-    - {id: State, reverse: false}
+    - {id: State, reverse: true}
+    - {id: Relative Directory, reverse: true}
     - {id: Name, reverse: false}
-    - {id: Relative Directory, reverse: false}
   git.log.files.index:
     columnNames: "Name\tState\tRelative Directory\tRenamed Path\tExt.\tLFS\tLast Changed\
       \ On\tRelative Path\tSize"
@@ -122,8 +123,8 @@ columns:
     - {id: Renamed Path, width: 135, width2x: 0}
     - {id: Relative Path, width: 500, width2x: 0}
     sortOrders:
+    - {id: Name, reverse: true}
     - {id: State, reverse: true}
-    - {id: Name, reverse: false}
     - {id: Renamed Path, reverse: false}
     - {id: Relative Directory, reverse: false}
   git.log.files:
@@ -147,25 +148,23 @@ confirmations: {exit.showConfirmation: true, git.push: true, git.switchBranch.co
   close.unpushedCommits: true, commit.amend.replaceWarning: true, rebase.continue: true,
   rebaseContinue: false, git.switchBranch.fastForward: false, sync: true, splitCommit: true,
   git.commit.stageAll: true, compare.contentEqual: true, conflictSolver.showConflictWarning: true,
-  compare.binaryEqual: true}
+  compare.binaryEqual: true, remove.repositoryOrGroup: true, modifyCommit: true, modifyContinue: true}
 repositoriesToReopen:
 - window: wt
-  repositories: ['B:\PF\Archive\ToGit\scoopbucket-presist\AHK']
-- window: wt
-  repositories: ['B:\PF\Archive\ps1']
+  repositories: ['B:\Users']
 project.files.git.separateWtIndex: true
-gitProjectLayout.main: (([+221x364:directories ][+221x290:branches ])((([+1317x400:files
-  ][+1317x161:changes ])[-3x1:message ])([+1317x90:outgoing ][-3x1:output ])))
+gitProjectLayout.main: (([+533x519:directories ][+533x414:branches ])((([+1384x553:files
+  ][+1384x161:changes ])[-3x1:message ])([+1384x216:outgoing ][-3x1:output ])))
 log.wtIndex.onDemand: true
 gitProjectLayout.mainIsdefault: true
 gitProjectLayout.review: ([+2x1:directories ][+7x1:files ][+3x1:message ])[+10x3:changes
   ]([-1x1:branches ][-3x1:outgoing ][-3x1:output ])
-lastRepositoryPath: B:\PF\Archive\ps1
+lastRepositoryPath: B:\Users
 commit.expandOptions: true
 log.files.git.separateWtIndex: true
-gitLogRootLayout.main: (([+430x614:repositories ][+430x319:branches ])(([+509x349:graph
-  ]([+975x161:details -1x1:output -1x1:debug-log details ][+975x185:files +975x185:comments
-  files ]))[+1487x584:changes ]))
+gitLogRootLayout.main: (([+224x461:repositories ][+224x472:branches ])([+1693x385:comments
+  +1693x385:details +1693x385:files files ][+1693x548:changes +1693x548:graph graph
+  ])[-1x1:output -1x1:debug-log output ])
 gitLogRootLayout.mainIsdefault: true
 gitLogRootLayout.review: (([+1x1:repositories ][+1x1:branches ])(([+4x1:graph ]([+2x1:details
   -1x1:output -1x1:debug-log details ][+2x2:files +2x1:comments files ]))[+4x4:changes
@@ -186,3 +185,4 @@ git.cherryPick.commit: true
 git.cherryPick.appendSha: false
 stashApply.drop: false
 git.pull.fetchAll: true
+changesView.unified: false

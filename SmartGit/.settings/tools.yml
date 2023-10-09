@@ -46,9 +46,10 @@ tools:
   filePattern: '*'
   confirmationMessage: --cd=${repositoryRootPath} -c "git rm --cached -r ${fileName}"
 - name: Add Remote From Clipboard
-  fileStarter: {command: powershell.exe, parameters: 'cd "${filePath}" ; git remote
-      add origin (get-clipboard) ; git fetch --all ;  git checkout --track remotes/origin/master'}
-  useForOpen: true
+  fileStarter: {command: powershell.exe, parameters: 'set-location "${repositoryRootPath}"
+      ; git remote add origin (get-clipboard) ; git fetch --all ;  git checkout --track
+      remotes/origin/master'}
+  useForOpen: false
   waitUntilFinished: false
   filePattern: '*'
 - name: path to clipboard

@@ -9,72 +9,37 @@ gitRootSettingsSet:
     push: {}
     commitNotes: {}
     journal: {}
-  roots: ['B:\PF\Archive\ToGit\scoopbucket-presist\AHK', 'B:\PF\Archive\ps1', 'B:\PF\Archive\ToGit\scoopbucket-presist\AHK\Fork\autoklick',
-    'B:\PF\Archive\ToGit\scoopbucket-presist\AHK\ahk_config', 'B:\PF\Archive\ToGit\scoopbucket-presist\AHK\script\Fork\CheckIfProgIsRunning',
-    'B:\PF\Archive\ToGit\scoopbucket-presist\AHK\script\Fork\ExplorerAtPath', 'B:\PF\Archive\ToGit\scoopbucket-presist\AHK\script\Fork\Launch
-      If not Currently running', 'B:\PF\Archive\ToGit\scoopbucket-presist\AHK\script\Fork\LaunchApplication',
-    'B:\PF\Archive\ToGit\scoopbucket-presist\AHK\script\Fork\Selected Item In Explorer',
-    'B:\PF\Archive\ToGit\scoopbucket-presist\AHK\script\Fork\SelectedTextWithoutDisturbingClipboard',
-    'B:\PF\Archive\ToGit\scoopbucket-presist\AHK\ahk_config\Fork\CheckIfProgIsRunning',
-    'B:\PF\Archive\ToGit\scoopbucket-presist\AHK\ahk_config\Fork\ExplorerAtPath',
-    'B:\PF\Archive\ToGit\scoopbucket-presist\AHK\ahk_config\Fork\GetRunningProcess',
-    'B:\PF\Archive\ToGit\scoopbucket-presist\AHK\ahk_config\Fork\Launch If not Currently
-      running', 'B:\PF\Archive\ToGit\scoopbucket-presist\AHK\ahk_config\Fork\Launch
-      If not Currently running Continously', 'B:\PF\Archive\ToGit\scoopbucket-presist\AHK\ahk_config\Fork\LaunchApplication',
-    'B:\PF\Archive\ToGit\scoopbucket-presist\AHK\ahk_config\Fork\MACRO RECORDER',
-    'B:\PF\Archive\ToGit\scoopbucket-presist\AHK\ahk_config\Fork\Selected Item In
-      Explorer', 'B:\PF\Archive\ToGit\scoopbucket-presist\AHK\ahk_config\Fork\SelectedTextWithoutDisturbingClipboard',
-    'B:\PF\Archive\ToGit\scoopbucket-presist\AHK\ahk_config\Fork\WindowToforeground',
-    'B:\PF\Archive\ToGit\scoopbucket-presist\AHK\ahk_config\script\Fork\NoahHotell',
-    'B:\PF\Archive\ps1\Aggregation\TextProcessingProjectF', 'B:\PF\Archive\ps1\git',
-    'B:\PF\Archive\ps1\workflow\xCsharpI', 'B:\PF\Archive\ps1\Aggregation\TextProcessingProjectF\Tokenization',
-    'B:\PF\Archive\ps1\git\gist\GitPs1Module', 'B:\PF\Archive\ps1\git\submodule\SubmoduleFromGitmodules',
-    'B:\Unsorted\ps1', 'B:\PF\CSharpVisualStudio', 'B:\PF\CSharpVisualStudio\repos',
-    'B:\PF\CSharpVisualStudio\repos\LargeNexport\DataBindingDemo', 'B:\PF\CSharpVisualStudio\repos\LargeNexport\DataBindingDemoSparse',
-    'B:\PF\CSharpVisualStudio\repos\WIthoutStudio', 'B:\PF\CSharpVisualStudio\repos\WPF-EF6-Sqlite',
-    'B:\PF\CSharpVisualStudio\repos\WPF-Samples', 'B:\PF\CSharpVisualStudio\repos\Wpf-Upgift
-      1', 'B:\PF\CSharpVisualStudio\repos\karlstad', 'B:\PF\CSharpVisualStudio\repos\karlstad2Calc_Lotto',
-    'B:\PF\CSharpVisualStudio\repos\upg11', 'B:\PF\CSharpVisualStudio\repos\karlstad\Calculator_CBrobäck',
-    'B:\PF\CSharpVisualStudio\repos\karlstad\KarlstadButik', 'B:\PF\CSharpVisualStudio\repos\karlstad\KarlstadButik\Calculator_CBrobäck',
-    'B:\PF\CSharpVisualStudio\repos\karlstad\KarlstadButik\KarlstadButik', 'B:\PF\CSharpVisualStudio\repos\ProjectBoras',
-    'B:\PF\CSharpVisualStudio\repos\karlstad\Wpf-Upgift 1', 'B:\PF\CSharpVisualStudio\repos\LargeNexport\WPF-Samples',
-    'B:\PF\CSharpVisualStudio\repos\LargeNexport\WPF-EF6-Sqlite', 'B:\PF\CSharpVisualStudio\repos\Wpf-Upgift
-      1\213c939651e0bef7612b2f910909a21d', 'B:\PF\CSharpVisualStudio\repos\Wpf-Upgift
-      1\3714794', 'B:\PF\CSharpVisualStudio\repos\Wpf-Upgift 1\7327483', 'B:\PF\CSharpVisualStudio\repos\Wpf-Upgift
-      1\DataBindingDemo', 'B:\PF\CSharpVisualStudio\repos\Wpf-Upgift 1\DataBindingDemoSparse',
-    'B:\PF\CSharpVisualStudio\repos\Wpf-Upgift 1\InvalidMarkup', 'B:\PF\CSharpVisualStudio\repos\Wpf-Upgift
-      1\upg11', 'B:\PF\CSharpVisualStudio\repos\Wpf-Upgift 1\upgift1', 'B:\PF\CSharpVisualStudio\repos\Wpf-Upgift
-      1\WindowsFormsControlLibrary1', 'B:\PF\CSharpVisualStudio\repos\Wpf-Upgift 1\WPF-Samples',
-    'B:\PF\CSharpVisualStudio\repos\Wpf-Upgift 1\8691414\WpfApp1', 'B:\PF\CSharpVisualStudio\repos\Wpf-Upgift
-      1\8691414\WpfApp4', 'B:\PF\CSharpVisualStudio\repos\Wpf-Upgift 1\Boras2\PetStore',
-    'B:\PF\CSharpVisualStudio\repos\Wpf-Upgift 1\borås\upgift1', 'B:\PF\CSharpVisualStudio\repos\Wpf-Upgift
-      1\Wpf-Upgift 1\WpfApp1', 'B:\PF\CSharpVisualStudio\repos\boras', 'B:\PF\CSharpVisualStudio\repos\boras\213c939651e0bef7612b2f910909a21d',
-    'B:\PF\CSharpVisualStudio\repos\boras\3714794', 'B:\PF\CSharpVisualStudio\repos\boras\7327483',
-    'B:\PF\CSharpVisualStudio\repos\boras\DataBindingDemo', 'B:\PF\CSharpVisualStudio\repos\boras\DataBindingDemoSparse',
-    'B:\PF\CSharpVisualStudio\repos\boras\InvalidMarkup', 'B:\PF\CSharpVisualStudio\repos\boras\upg11',
-    'B:\PF\CSharpVisualStudio\repos\boras\upgift1', 'B:\PF\CSharpVisualStudio\repos\boras\WindowsFormsControlLibrary1',
-    'B:\PF\CSharpVisualStudio\repos\boras\WPF-Samples', 'B:\PF\CSharpVisualStudio\repos\boras\8691414\WpfApp4',
-    'B:\PF\CSharpVisualStudio\repos\boras\8691414\WpfApp1', 'B:\PF\CSharpVisualStudio\repos\boras\borås\upgift1',
-    'B:\PF\CSharpVisualStudio\repos\boras\Wpf-Upgift 1\WpfApp1', 'B:\PF\CSharpVisualStudio\repos\karlstad\karlstad3\Lotto_CBrobäck.rar',
-    'B:\PF\CSharpVisualStudio\repos\karlstad\karlstad3\Calculator_CBrobäck.rar', 'L:\Users\virtual2\RiderProjects',
-    'L:\Users\virtual2\RiderProjects\CSharp-Bor-s-Inl-mning1', 'L:\Users\virtual2\RiderProjects\ghClient',
-    'L:\Users\virtual2\RiderProjects\karlstad2Calc_Lotto', 'L:\Users\virtual2\RiderProjects\karlstad3Notepad',
-    'L:\Users\virtual2\RiderProjects\Karlstad4Butik', 'L:\Users\virtual2\RiderProjects\Karlstad4Butik2',
-    'L:\Users\virtual2\RiderProjects\projectBoras', 'L:\Users\virtual2\RiderProjects\TextEditor',
-    'C:\ProgramData\scoop\buckets', 'C:\ProgramData\scoop\persist\BeondCompare4',
-    'B:\Users\target\BeondCompare4', ~\AppData\Roaming\Scooter Software\Beyond Compare
-      4, 'B:\PF\Archive\ToGit\scoopbucket-presist\AppData\Roaming\Scooter Software\Beyond
-      Compare 4', 'B:\PF\CSharpVisualStudio\repos\karlstad\KarlstadButik\New folder',
-    'B:\PF\CSharpVisualStudio\repos\karlstad\KarlstadButik\KarlstadButik\KarlstadButik',
-    'C:\ProgramData\scoop\persist', 'C:\ProgramData\scoop\persist\.config\git', 'C:\ProgramData\scoop\persist\.config\powershell',
-    'C:\ProgramData\scoop\persist\AHK', 'C:\ProgramData\scoop\persist\AHK-EverydayScripts',
-    'C:\ProgramData\scoop\persist\AdvancedRenamer', 'C:\ProgramData\scoop\persist\AppData',
-    'C:\ProgramData\scoop\persist\Cherrytree', 'C:\ProgramData\scoop\persist\Everything',
+  roots: ['B:\Users', 'B:\Users\New folder', 'B:\Users\New folder (2)', 'B:\PF\AhkProjectFolder',
+    'B:\PF\AhkProjectFolder\Fork\AppendToClipboard', 'B:\PF\AhkProjectFolder\Fork\CheckIfProgIsRunning',
+    'B:\PF\AhkProjectFolder\Fork\ExplorerAtPath', 'B:\PF\AhkProjectFolder\Fork\GetRunningProcess',
+    'B:\PF\AhkProjectFolder\Fork\Launch If not Currently running', 'B:\PF\AhkProjectFolder\Fork\Launch
+      If not Currently running Continously', 'B:\PF\AhkProjectFolder\Fork\LaunchApplication',
+    'B:\PF\AhkProjectFolder\Fork\MACRO RECORDER', 'B:\PF\AhkProjectFolder\Fork\NoahHotell',
+    'B:\PF\AhkProjectFolder\Fork\Selected Item In Explorer', 'B:\PF\AhkProjectFolder\Fork\SelectedTextWithoutDisturbingClipboard',
+    'B:\PF\AhkProjectFolder\Fork\WindowToforeground', 'B:\PF\AhkProjectFolder\Fork\autoklick',
+    'B:\PF\AhkProjectFolder\script\Fork\CheckIfProgIsRunning', 'B:\PF\AhkProjectFolder\script\Fork\ExplorerAtPath',
+    'B:\PF\AhkProjectFolder\script\Fork\Launch If not Currently running', 'B:\PF\AhkProjectFolder\script\Fork\LaunchApplication',
+    'B:\PF\AhkProjectFolder\script\Fork\Selected Item In Explorer', 'B:\PF\AhkProjectFolder\script\Fork\SelectedTextWithoutDisturbingClipboard',
+    'C:\ProgramData\scoop\persist\AHK-EverydayScripts', 'C:\ProgramData\scoop\persist\AHK-EverydayScripts\Fork\autoklick',
+    'B:\PF\AhkProjectFolder\ahk_config', 'B:\PF\AhkProjectFolder\ahk_config\script\Fork\GetRunningProcess',
+    'B:\PF\AhkProjectFolder\ahk_config\script\Fork\NoahHotell', 'B:\PF\AhkProjectFolder\ahk_config\Fork\AppendToClipboard',
+    'B:\PF\AhkProjectFolder\ahk_config\Fork\CheckIfProgIsRunning', 'B:\PF\AhkProjectFolder\ahk_config\Fork\ExplorerAtPath',
+    'B:\PF\AhkProjectFolder\ahk_config\Fork\GetRunningProcess', 'B:\PF\AhkProjectFolder\ahk_config\Fork\Launch
+      If not Currently running', 'B:\PF\AhkProjectFolder\ahk_config\Fork\Launch If
+      not Currently running Continously', 'B:\PF\AhkProjectFolder\ahk_config\Fork\LaunchApplication',
+    'B:\PF\AhkProjectFolder\ahk_config\Fork\MACRO RECORDER', 'B:\PF\AhkProjectFolder\ahk_config\Fork\Selected
+      Item In Explorer', 'B:\PF\AhkProjectFolder\ahk_config\Fork\SelectedTextWithoutDisturbingClipboard',
+    'B:\PF\AhkProjectFolder\ahk_config\Fork\WindowToforeground', 'B:\PF\AhkProjectFolder\Fork\clipboardbuffer',
+    'B:\PF\AhkProjectFolder\Fork\ChangeSkypeStatus', 'C:\ProgramData\scoop\persist',
+    'C:\ProgramData\scoop\persist\.config\git', 'C:\ProgramData\scoop\persist\.config\powershell',
+    'C:\ProgramData\scoop\persist\AHK', 'C:\ProgramData\scoop\persist\AdvancedRenamer',
+    'C:\ProgramData\scoop\persist\AppData', 'C:\ProgramData\scoop\persist\Cherrytree',
+    'C:\ProgramData\scoop\persist\Documents', 'C:\ProgramData\scoop\persist\Everything',
     'C:\ProgramData\scoop\persist\Everything-Paf', 'C:\ProgramData\scoop\persist\JetBrains',
     'C:\ProgramData\scoop\persist\OtherVersionControlledText', 'C:\ProgramData\scoop\persist\PortableProgramSuit',
     'C:\ProgramData\scoop\persist\PowerShellCmdHist', 'C:\ProgramData\scoop\persist\Powershell',
     'C:\ProgramData\scoop\persist\Vortex', 'C:\ProgramData\scoop\persist\portableAppsPlatform',
-    'C:\ProgramData\scoop\persist\steamapps', 'C:\ProgramData\scoop\persist\AHK-EverydayScripts\Fork\autoklick']
+    'C:\ProgramData\scoop\persist\steamapps']
   rootB:\ToGit:
     databaseCleanup: {}
     log:
@@ -9355,18 +9320,18 @@ gitRootSettingsSet:
   rootC:\ProgramData\scoop\persist:
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1696589324993}
     log:
-      rootSettings: {baseRoots: "!local-branches://\t!local-tags://\t!others://\t\
-          !remote://windot\tref://HEAD", extendedRoots: ''}
+      rootSettings: {baseRoots: "!local-branches://\t!others://\t!remote://windot\t\
+          ref://HEAD", extendedRoots: ''}
       fileFilterConfiguration: {}
     merge:
       logRootSettings: {}
     push: {}
     commitNotes:
       commitNotesHistory:
+      - state
       - '[nilesoft] stable'
       - '[nilesoft] git'
       - personal preferences
-      - state
       - tools looking good
       - smartgit state
       - new ahk remote
@@ -10345,7 +10310,7 @@ gitRootSettingsSet:
     commitNotes: {}
     journal: {}
   rootB:\PF\AhkProjectFolder:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695584597258}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1696781674934}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
@@ -10353,7 +10318,14 @@ gitRootSettingsSet:
       logRootSettings: {}
     push: {}
     commitNotes:
-      commitNotesHistory: [ads, as]
+      commitNotesHistory:
+      - "Merge branch 'HomeMain' into personal\n\n# Conflicts:\n#\t.gitmodules\n#\t\
+        .vscode/launch.json\n#\tFork/AppendToClipboard\n#\tFork/CheckIfProgIsRunning\n\
+        #\tFork/GetRunningProcess\n#\tFork/Launch If not Currently running Continously\n\
+        #\tFork/NoahHotell\n#\tFork/WindowToforeground\n#\tFork/autoklick"
+      - toread
+      - ads
+      - as
     journal: {}
   rootB:\PF\CSharpVisualStudio:
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695808470080}
@@ -10776,7 +10748,8 @@ gitRootSettingsSet:
     merge:
       logRootSettings: {}
     push: {}
-    commitNotes: {}
+    commitNotes:
+      commitNotesHistory: [state]
     journal: {}
   rootB:\PF\PowershellProjectFolder\ps1:
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1693391138994}
@@ -10806,17 +10779,20 @@ gitRootSettingsSet:
   rootC:\ProgramData\scoop\persist\AHK:
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1696594635048}
     log:
-      rootSettings: {}
+      rootSettings: {baseRoots: "!remote://Ahk-EveryDayScripts\t!local-branches://\t\
+          ref://HEAD", extendedRoots: ''}
       fileFilterConfiguration: {}
     merge:
       logRootSettings: {}
     push: {}
-    commitNotes: {}
+    commitNotes:
+      commitNotesHistory: [state]
     journal: {}
   rootC:\ProgramData\scoop\persist\AdvancedRenamer:
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1696594634660}
     log:
-      rootSettings: {}
+      rootSettings: {baseRoots: "!local-branches://\t!remote://origin\tref://HEAD",
+        extendedRoots: ''}
       fileFilterConfiguration: {}
     merge:
       logRootSettings: {}
@@ -10852,7 +10828,8 @@ gitRootSettingsSet:
     merge:
       logRootSettings: {}
     push: {}
-    commitNotes: {}
+    commitNotes:
+      commitNotesHistory: [state]
     journal: {}
   rootC:\ProgramData\scoop\persist\JetBrains:
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1696594635501}
@@ -11182,7 +11159,7 @@ gitRootSettingsSet:
       commitNotesHistory: [etc]
     journal: {}
   rootB:\Users\target:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1693916576600}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1696703606711}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
@@ -11190,10 +11167,10 @@ gitRootSettingsSet:
       logRootSettings: {}
     push: {}
     commitNotes:
-      commitNotesHistory: [subz, state, etc]
+      commitNotesHistory: [state, subz, etc]
     journal: {}
   rootB:\Users\target\AHK:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695584079663}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1696704144051}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
@@ -11204,7 +11181,7 @@ gitRootSettingsSet:
       commitNotesHistory: [asd, Reorganized after taking material from other RepoCopy]
     journal: {}
   rootB:\Users\target\AdvancedRenamer:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1693921383790}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1696704144291}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
@@ -11214,7 +11191,7 @@ gitRootSettingsSet:
     commitNotes: {}
     journal: {}
   rootB:\Users\target\BashHistory:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1693921383692}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1696704144476}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
@@ -11224,7 +11201,7 @@ gitRootSettingsSet:
     commitNotes: {}
     journal: {}
   rootB:\Users\target\BeondCompare4:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695997976114}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1696704144386}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
@@ -11236,7 +11213,7 @@ gitRootSettingsSet:
       commitNotes: czxc
     journal: {}
   rootB:\Users\target\Cherrytree:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1693921418894}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1696704144241}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
@@ -11246,7 +11223,7 @@ gitRootSettingsSet:
     commitNotes: {}
     journal: {}
   rootB:\Users\target\Datagrip:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1693921473676}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1696704144100}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
@@ -11256,7 +11233,7 @@ gitRootSettingsSet:
     commitNotes: {}
     journal: {}
   rootB:\Users\target\Ditto:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1693921492736}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1696704144521}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
@@ -11266,7 +11243,7 @@ gitRootSettingsSet:
     commitNotes: {}
     journal: {}
   rootB:\Users\target\Everything:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1693921492634}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1696704151586}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
@@ -11306,7 +11283,7 @@ gitRootSettingsSet:
     commitNotes: {}
     journal: {}
   rootB:\Users\target\Powershell:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1693921502723}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1696704144195}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
@@ -11326,7 +11303,7 @@ gitRootSettingsSet:
     commitNotes: {}
     journal: {}
   rootB:\Users\target\Vortex:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1693921863270}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1696704144148}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
@@ -11336,7 +11313,7 @@ gitRootSettingsSet:
     commitNotes: {}
     journal: {}
   rootB:\Users\target\portableAppsPlatform:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1693921866442}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1696704144431}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
@@ -11346,7 +11323,7 @@ gitRootSettingsSet:
     commitNotes: {}
     journal: {}
   rootB:\Users\target\steamapps:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1693921874602}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1696704144339}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
@@ -12895,7 +12872,7 @@ gitRootSettingsSet:
     commitNotes: {}
     journal: {}
   rootB:\PF\AhkProjectFolder\Fork\AppendToClipboard:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695584598399}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1696781675113}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
@@ -12905,7 +12882,7 @@ gitRootSettingsSet:
     commitNotes: {}
     journal: {}
   rootB:\PF\AhkProjectFolder\Fork\CheckIfProgIsRunning:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695584598047}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1696781675070}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
@@ -12915,7 +12892,7 @@ gitRootSettingsSet:
     commitNotes: {}
     journal: {}
   rootB:\PF\AhkProjectFolder\Fork\ExplorerAtPath:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695584597536}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1696781674805}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
@@ -12925,7 +12902,7 @@ gitRootSettingsSet:
     commitNotes: {}
     journal: {}
   rootB:\PF\AhkProjectFolder\Fork\GetRunningProcess:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695584597311}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1696781674671}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
@@ -12935,7 +12912,7 @@ gitRootSettingsSet:
     commitNotes: {}
     journal: {}
   rootB:\PF\AhkProjectFolder\Fork\Launch If not Currently running:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695584597481}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1696781675325}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
@@ -12945,17 +12922,18 @@ gitRootSettingsSet:
     commitNotes: {}
     journal: {}
   rootB:\PF\AhkProjectFolder\Fork\Launch If not Currently running Continously:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695584597711}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1696781674715}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
     merge:
       logRootSettings: {}
     push: {}
-    commitNotes: {}
+    commitNotes:
+      commitNotesHistory: [etc]
     journal: {}
   rootB:\PF\AhkProjectFolder\Fork\LaunchApplication:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695584597426}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1696781674978}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
@@ -12965,7 +12943,7 @@ gitRootSettingsSet:
     commitNotes: {}
     journal: {}
   rootB:\PF\AhkProjectFolder\Fork\MACRO RECORDER:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695584598340}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1696781674628}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
@@ -12975,7 +12953,7 @@ gitRootSettingsSet:
     commitNotes: {}
     journal: {}
   rootB:\PF\AhkProjectFolder\Fork\NoahHotell:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695584597937}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1696781674537}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
@@ -12985,7 +12963,7 @@ gitRootSettingsSet:
     commitNotes: {}
     journal: {}
   rootB:\PF\AhkProjectFolder\Fork\Selected Item In Explorer:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695584597992}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1696781675283}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
@@ -12995,7 +12973,7 @@ gitRootSettingsSet:
     commitNotes: {}
     journal: {}
   rootB:\PF\AhkProjectFolder\Fork\SelectedTextWithoutDisturbingClipboard:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695584597194}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1696781675367}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
@@ -13005,7 +12983,7 @@ gitRootSettingsSet:
     commitNotes: {}
     journal: {}
   rootB:\PF\AhkProjectFolder\Fork\WindowToforeground:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695584597032}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1696781674760}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
@@ -13015,7 +12993,7 @@ gitRootSettingsSet:
     commitNotes: {}
     journal: {}
   rootB:\PF\AhkProjectFolder\Fork\autoklick:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695584598578}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1696781674848}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
@@ -13025,7 +13003,7 @@ gitRootSettingsSet:
     commitNotes: {}
     journal: {}
   rootB:\PF\AhkProjectFolder\ahk_config:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695584597825}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1696782129562}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
@@ -13413,7 +13391,7 @@ gitRootSettingsSet:
       commitNotesHistory: [Removed To other copy of repo]
     journal: {}
   rootB:\PF\AhkProjectFolder\ahk_config\Fork\AppendToClipboard:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695584598218}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1696792138910}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
@@ -13423,7 +13401,7 @@ gitRootSettingsSet:
     commitNotes: {}
     journal: {}
   rootB:\PF\AhkProjectFolder\ahk_config\Fork\CheckIfProgIsRunning:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695584598458}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1696792144058}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
@@ -13433,7 +13411,7 @@ gitRootSettingsSet:
     commitNotes: {}
     journal: {}
   rootB:\PF\AhkProjectFolder\ahk_config\Fork\ExplorerAtPath:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695584598520}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1696792149053}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
@@ -13443,7 +13421,7 @@ gitRootSettingsSet:
     commitNotes: {}
     journal: {}
   rootB:\PF\AhkProjectFolder\ahk_config\Fork\GetRunningProcess:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695584597141}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1696792152786}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
@@ -13453,7 +13431,7 @@ gitRootSettingsSet:
     commitNotes: {}
     journal: {}
   rootB:\PF\AhkProjectFolder\ahk_config\Fork\Launch If not Currently running:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695584597367}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1696792157943}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
@@ -13463,7 +13441,7 @@ gitRootSettingsSet:
     commitNotes: {}
     journal: {}
   rootB:\PF\AhkProjectFolder\ahk_config\Fork\Launch If not Currently running Continously:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695584598280}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1696792172912}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
@@ -13473,7 +13451,7 @@ gitRootSettingsSet:
     commitNotes: {}
     journal: {}
   rootB:\PF\AhkProjectFolder\ahk_config\Fork\LaunchApplication:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695584598161}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1696792179859}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
@@ -13483,7 +13461,7 @@ gitRootSettingsSet:
     commitNotes: {}
     journal: {}
   rootB:\PF\AhkProjectFolder\ahk_config\Fork\MACRO RECORDER:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695584597770}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1696792188438}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
@@ -13493,7 +13471,7 @@ gitRootSettingsSet:
     commitNotes: {}
     journal: {}
   rootB:\PF\AhkProjectFolder\ahk_config\Fork\Selected Item In Explorer:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695584597653}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1696792197108}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
@@ -13503,7 +13481,7 @@ gitRootSettingsSet:
     commitNotes: {}
     journal: {}
   rootB:\PF\AhkProjectFolder\ahk_config\Fork\SelectedTextWithoutDisturbingClipboard:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695584597596}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1696792204809}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
@@ -13513,7 +13491,7 @@ gitRootSettingsSet:
     commitNotes: {}
     journal: {}
   rootB:\PF\AhkProjectFolder\ahk_config\Fork\WindowToforeground:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695584597086}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1696792212821}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
@@ -13523,7 +13501,7 @@ gitRootSettingsSet:
     commitNotes: {}
     journal: {}
   rootB:\PF\AhkProjectFolder\ahk_config\script\Fork\GetRunningProcess:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695584598104}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1696792124583}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
@@ -13533,7 +13511,7 @@ gitRootSettingsSet:
     commitNotes: {}
     journal: {}
   rootB:\PF\AhkProjectFolder\ahk_config\script\Fork\NoahHotell:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695584597883}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1696792132766}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
@@ -13696,7 +13674,7 @@ gitRootSettingsSet:
     commitNotes: {}
     journal: {}
   rootB:\PF\AhkProjectFolder\script\Fork\CheckIfProgIsRunning:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695589489858}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1696781675200}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
@@ -13706,7 +13684,7 @@ gitRootSettingsSet:
     commitNotes: {}
     journal: {}
   rootB:\PF\AhkProjectFolder\script\Fork\ExplorerAtPath:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695589489802}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1696781675156}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
@@ -13716,7 +13694,7 @@ gitRootSettingsSet:
     commitNotes: {}
     journal: {}
   rootB:\PF\AhkProjectFolder\script\Fork\Launch If not Currently running:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695589490028}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1696781674579}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
@@ -13726,7 +13704,7 @@ gitRootSettingsSet:
     commitNotes: {}
     journal: {}
   rootB:\PF\AhkProjectFolder\script\Fork\LaunchApplication:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695589490084}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1696781675019}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
@@ -13736,7 +13714,7 @@ gitRootSettingsSet:
     commitNotes: {}
     journal: {}
   rootB:\PF\AhkProjectFolder\script\Fork\Selected Item In Explorer:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695589489912}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1696781675240}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
@@ -13746,7 +13724,7 @@ gitRootSettingsSet:
     commitNotes: {}
     journal: {}
   rootB:\PF\AhkProjectFolder\script\Fork\SelectedTextWithoutDisturbingClipboard:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695589489970}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1696781674891}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
@@ -14493,17 +14471,21 @@ gitRootSettingsSet:
   rootC:\ProgramData\scoop\persist\.config\git:
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1696594635346}
     log:
-      rootSettings: {}
+      rootSettings: {baseRoots: "!remote://bpesquet\t!remote://bradwilson\t!remote://codexico\t\
+          !remote://inikitin\t!remote://jsonDiff\t!remote://jsonLintWithGron\t!local-branches://\t\
+          !remote://origin\t!remote://t-yuki\t!remote://tekin\tref://HEAD", extendedRoots: ''}
       fileFilterConfiguration: {}
     merge:
       logRootSettings: {}
     push: {}
-    commitNotes: {}
+    commitNotes:
+      commitNotesHistory: [state]
     journal: {}
   rootC:\ProgramData\scoop\persist\.config\powershell:
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1696594634486}
     log:
-      rootSettings: {}
+      rootSettings: {baseRoots: "!local-branches://\t!remote://origin\tref://HEAD",
+        extendedRoots: ''}
       fileFilterConfiguration: {}
     merge:
       logRootSettings: {}
@@ -14512,6 +14494,138 @@ gitRootSettingsSet:
     journal: {}
   rootC:\ProgramData\scoop\persist\AppData:
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1696594634602}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootC:\ProgramData\scoop\persist\Documents:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1696594876650}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootC:\ProgramData\scoop\persist\Documents\PowerShell:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1696594895401}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes:
+      commitNotesHistory: [toread]
+    journal: {}
+  rootC:\ProgramData\scoop\persist\Documents\WindowsPowerShell:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1696595848274}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes:
+      commitNotesHistory: [state]
+    journal: {}
+  rootB:\Users:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1696703519540}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\Users\New folder:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1696703536003}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\Users\new folder 4:
+    databaseCleanup: {}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\Users\new folder 4\AHK:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1696703834236}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\Users\New folder (2):
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1696704408184}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\Users\New folder (2)\fallout3\masterlist:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1696705443166}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\Users\New folder (2)\fallout4\masterlist:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1696705443221}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\Users\New folder (2)\falloutnv\masterlist:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1696705443269}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\AhkProjectFolder\Fork\clipboardbuffer:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1696837253491}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\AhkProjectFolder\Fork\ChangeSkypeStatus:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1696837259905}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}

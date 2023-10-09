@@ -28,9 +28,10 @@ toolbars:
   log.main:
     items:
     - {id: fetch}
-    - {id: sync}
+    - {id: remoteFetchAll}
     - {id: push}
     - {stretching: true}
+    - {id: commit}
     - {id: stage}
     - {id: indexEditor}
     - {id: unstage}
@@ -42,11 +43,12 @@ toolbars:
     - {stretching: true}
     - {id: annotate}
     - {id: investigate}
+    - {id: conflictSolver}
     - {stretching: true}
-    - {id: flowContext}
     - {stretching: false}
     - {id: merge}
     - {id: rebaseHeadTo}
+    textBelowIcon: true
   log.review:
     items:
     - {id: fetch}

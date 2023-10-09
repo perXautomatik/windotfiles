@@ -1,12 +1,12 @@
 bounds:
-- {key: project, x: 654, y: 88, width: 1292, height: 695, state: 1}
+- {key: project, x: -8, y: -8, width: 1936, height: 1066, state: 1}
 - {key: welcome}
 - {key: preferences, x: -625, y: -194, width: 1519, height: 498}
 - {key: compare, x: 290, y: 184, width: 1440, height: 866}
-- {key: output, x: -690, y: 149, width: 1724, height: 738}
+- {key: output, x: -82, y: -87, width: 1724, height: 717}
 - {key: git.commit, width: 1245, height: 463, x: -15, y: -197}
 - {key: git.commit.selectFromLog, width: 640, height: 395}
-- {key: log, x: 285, y: 214, width: 1973, height: 783}
+- {key: log, x: 19, y: 57, width: 1973, height: 783, state: 1}
 - {key: editor, x: 240, y: 58, width: 1440, height: 866}
 - {key: git.indexEditor, x: 240, y: 58, width: 1440, height: 866}
 - {key: git.discard, width: 500, height: 654, x: 0, y: 172}
@@ -46,15 +46,15 @@ columns:
     columnWidths:
     - {id: Name, width: 338, width2x: 0}
     - {id: Size, width: 61, width2x: 0}
-    - {id: Ext., width: 62, width2x: 0}
-    - {id: State, width: 471, width2x: 0}
+    - {id: Ext., width: 347, width2x: 0}
+    - {id: State, width: 141, width2x: 0}
     - {id: Relative Directory, width: 919, width2x: 0}
     - {id: Last Changed On, width: 117, width2x: 0}
     - {id: Relative Path, width: 500, width2x: 0}
     sortOrders:
+    - {id: Ext., reverse: false}
+    - {id: Relative Directory, reverse: true}
     - {id: State, reverse: true}
-    - {id: Relative Directory, reverse: false}
-    - {id: Ext., reverse: true}
     - {id: Name, reverse: false}
     - {id: Size, reverse: true}
     - {id: Last Changed On, reverse: false}
@@ -68,8 +68,8 @@ columns:
     - {id: Relative Directory, width: 784, width2x: 0}
     - {id: Relative Path, width: 500, width2x: 0}
     sortOrders:
-    - {id: Relative Directory, reverse: false}
     - {id: State, reverse: false}
+    - {id: Relative Directory, reverse: false}
     - {id: Name, reverse: false}
     - {id: Ext., reverse: true}
   log.comments:
@@ -96,8 +96,8 @@ columns:
     - {id: Relative Path, width: 500, width2x: 0}
     sortOrders:
     - {id: Modification, reverse: false}
-    - {id: Relative Directory, reverse: false}
     - {id: Name, reverse: false}
+    - {id: Relative Directory, reverse: false}
   git.log.files.wt:
     columnNames: "Name\tState\tRelative Directory\tRenamed Path\tExt.\tLFS\tLast Changed\
       \ On\tRelative Path\tSize"
@@ -109,8 +109,8 @@ columns:
     - {id: Renamed Path, width: 150, width2x: 0}
     - {id: Relative Path, width: 500, width2x: 0}
     sortOrders:
+    - {id: State, reverse: true}
     - {id: Relative Directory, reverse: true}
-    - {id: State, reverse: false}
     - {id: Name, reverse: false}
   git.log.files.index:
     columnNames: "Name\tState\tRelative Directory\tRenamed Path\tExt.\tLFS\tLast Changed\
@@ -123,7 +123,7 @@ columns:
     - {id: Renamed Path, width: 135, width2x: 0}
     - {id: Relative Path, width: 500, width2x: 0}
     sortOrders:
-    - {id: Name, reverse: false}
+    - {id: Name, reverse: true}
     - {id: State, reverse: true}
     - {id: Renamed Path, reverse: false}
     - {id: Relative Directory, reverse: false}
@@ -149,22 +149,19 @@ confirmations: {exit.showConfirmation: true, git.push: true, git.switchBranch.co
   rebaseContinue: false, git.switchBranch.fastForward: false, sync: true, splitCommit: true,
   git.commit.stageAll: true, compare.contentEqual: true, conflictSolver.showConflictWarning: true,
   compare.binaryEqual: true, remove.repositoryOrGroup: true, modifyCommit: true, modifyContinue: true}
-repositoriesToReopen:
-- window: wt
-  repositories: ['B:\PF\CSharpVisualStudio\repos\karlstad']
+repositoriesToReopen: []
 project.files.git.separateWtIndex: true
-gitProjectLayout.main: (([+654x519:directories ][+654x414:branches ])((([+1263x225:files
-  ][+1263x161:changes ])[-3x1:message ])([+1263x544:outgoing ][-3x1:output ])))
+gitProjectLayout.main: (([+354x313:directories ][+354x249:branches ])((([+919x267:files
+  ][+919x161:changes ])[-3x1:message ])([+919x131:outgoing ][-3x1:output ])))
 log.wtIndex.onDemand: true
 gitProjectLayout.mainIsdefault: true
 gitProjectLayout.review: ([+2x1:directories ][+7x1:files ][+3x1:message ])[+10x3:changes
   ]([-1x1:branches ][-3x1:outgoing ][-3x1:output ])
-lastRepositoryPath: C:\Users\CrRoot\AppData\Roaming\Scooter Software\Beyond Compare
-  4
+lastRepositoryPath: B:\PF\AhkProjectFolder
 commit.expandOptions: true
 log.files.git.separateWtIndex: true
-gitLogRootLayout.main: (([+610x461:repositories ][+610x472:branches ])([+1307x384:comments
-  +1307x384:details +1307x384:files files ][+1307x549:changes +1307x549:graph graph
+gitLogRootLayout.main: (([+224x461:repositories ][+224x472:branches ])([+1693x385:comments
+  +1693x385:details +1693x385:files files ][+1693x548:changes +1693x548:graph graph
   ])[-1x1:output -1x1:debug-log output ])
 gitLogRootLayout.mainIsdefault: true
 gitLogRootLayout.review: (([+1x1:repositories ][+1x1:branches ])(([+4x1:graph ]([+2x1:details
@@ -178,7 +175,7 @@ ignore.location: 1
 git.remove.deleteLocalFile: false
 stashApply.restoreIndex: true
 gitAnnotateLayout: '[+1424x678:document ][+1424x126:line-history ]'
-git.pull.defaultFetch: true
+git.pull.defaultFetch: false
 lastClonedUrls: ['https://github.com/perXautomatik/BAO', 'https://github.com/perXautomatik/initApps.git']
 cloneSkipSize: 5242880
 git.reset: 0

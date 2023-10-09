@@ -80,6 +80,13 @@
     "Get-Clipboard | ForEach-Object { $_ -replace \u0027https://open.spotify.com/playlist/\u0027, \u0027spotify:user:spotify:playlist:\u0027 -replace \u0027\\?si=.*\u0027, \u0027\u0027 } | set-clipboard": 1,
     "pspad \u0027B:\\PF\\Archive\\ToGit\\scoopbucket-presist\\Documents\\WindowsPowerShell\\Microsoft.PowerShell_profile.ps1\u0027": 3,
     "pspad \u0027B:\\PF\\Archive\\ToGit\\scoopbucket-presist\\Documents\\WindowsPowerShell\\standardFunctionOverride.psm1\u0027": 1,
-    "scoop install CurrPorts": 1
+    "scoop install CurrPorts": 1,
+    "scoop install fork": 1,
+    "install-module re": 1,
+    "scoop install ildasm": 1,
+    "scoop install Weidows-projects_scoop-3rd/Dependency-Walker": 1,
+    "scoop install anaconda": 1,
+    "user.pictures": 1,
+    "sudo scoop install anderlli0053_DEV-tools/scoop-check": 1
   }
 }

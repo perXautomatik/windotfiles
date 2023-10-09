@@ -43,7 +43,11 @@ readNotifications: [hosting-provider-could-be-configured-github-null, needsResta
     recorder-null', 'repository-model-problem-b:/pf/archive/togit/scoopbucket-presist/ahk/ahk_config/fork/selectedtextwithoutdisturbingclipboard-null',
   'repository-model-problem-b:/pf/archive/togit/scoopbucket-presist/ahk/ahk_config/fork/selected
     item in explorer-null', 'repository-model-problem-b:/pf/archive/togit/scoopbucket-presist/ahk/ahk_config/fork/windowtoforeground-null',
-  'repository-model-problem-b:/pf/archive/togit/scoopbucket-presist/ahk/ahk_config/script/fork/noahhotell-null']
+  'repository-model-problem-b:/pf/archive/togit/scoopbucket-presist/ahk/ahk_config/script/fork/noahhotell-null',
+  'repository-model-problem-c:/programdata/scoop/persist/.config/git-null', 'repository-model-problem-c:/programdata/scoop/persist/.config/powershell-null',
+  update-check-infosmartgit-23.1-rc-null, 'repository-model-problem-b:/users/target/portableappsplatform-null',
+  'repository-model-problem-b:/users/target/steamapps-null', 'repository-git-cleanup-b:/users/new
+    folder 4-null']
 dontPublishNotifications: ['repository-git-core-ignorecase-mismatch-b:/togit/project
     shelf/archive/sql_db/ffx-null', 'repository-git-core-ignorecase-mismatch-b:/togit/project
     shelf/archive/regiongotland/utskicksstruktur/brev-null', 'repository-git-core-ignorecase-mismatch-b:/togit/project
