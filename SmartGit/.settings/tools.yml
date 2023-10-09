@@ -45,6 +45,13 @@ tools:
   waitUntilFinished: false
   filePattern: '*'
   confirmationMessage: --cd=${repositoryRootPath} -c "git rm --cached -r ${fileName}"
+- name: Open GitDir
+  fileStarter: {command: powershell.exe, parameters: 'set-location "${repositoryRootPath}"
+      ; $pathx = invoke-expression ''git rev-parse --git-dir'' ; explorer ( resolve-path
+      "$pathx" )'}
+  useForOpen: false
+  waitUntilFinished: false
+  filePattern: '*'
 - name: Analyze with Git-FilterRepo
   fileStarter: {command: powershell.exe, parameters: 'set-location "${repositoryRootPath}"
       ; git filter-repo --analyze --force'}
