@@ -45,6 +45,12 @@ tools:
   waitUntilFinished: false
   filePattern: '*'
   confirmationMessage: --cd=${repositoryRootPath} -c "git rm --cached -r ${fileName}"
+- name: Analyze with Git-FilterRepo
+  fileStarter: {command: powershell.exe, parameters: 'set-location "${repositoryRootPath}"
+      ; git filter-repo --analyze --force'}
+  useForOpen: false
+  waitUntilFinished: false
+  filePattern: '*'
 - name: Add Remote From Clipboard
   fileStarter: {command: powershell.exe, parameters: 'set-location "${repositoryRootPath}"
       ; git remote add origin (get-clipboard) ; git fetch --all ;  git checkout --track
