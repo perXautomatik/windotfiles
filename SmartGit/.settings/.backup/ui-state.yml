@@ -1,12 +1,12 @@
 bounds:
-- {key: project, x: 499, y: 208, width: 1292, height: 695, state: 1}
+- {key: project, x: 2048, y: 654, width: 1440, height: 875}
 - {key: welcome}
-- {key: preferences, x: -625, y: -194, width: 1519, height: 498}
-- {key: compare, x: 290, y: 184, width: 1440, height: 866}
-- {key: output, x: -82, y: -87, width: 1724, height: 717}
-- {key: git.commit, width: 1245, height: 463, x: -15, y: -197}
+- {key: preferences, x: 510, y: 14, width: 1519, height: 601}
+- {key: compare, x: 290, y: 184, width: 1440, height: 866, state: 1}
+- {key: output, x: -1869, y: -121, width: 1724, height: 717}
+- {key: git.commit, width: 1245, height: 895, x: 155, y: -61}
 - {key: git.commit.selectFromLog, width: 640, height: 395}
-- {key: log, x: 19, y: 57, width: 1973, height: 783, state: 1}
+- {key: log, x: -238, y: 276, width: 1973, height: 783}
 - {key: editor, x: 240, y: 58, width: 1440, height: 866}
 - {key: git.indexEditor, x: 240, y: 58, width: 1440, height: 866}
 - {key: git.discard, width: 500, height: 654, x: 0, y: 172}
@@ -24,6 +24,7 @@ bounds:
 - {key: git.unstage, width: 500, height: 309}
 - {key: git.stage, width: 500, height: 309}
 - {key: editAuthor, width: 300, height: 100}
+- {key: deepgit, x: 240, y: 58, width: 1440, height: 875, state: 1}
 conflictSolverFrame: {}
 indexEditorFrame: {sLayout: merge-right}
 columns:
@@ -52,9 +53,9 @@ columns:
     - {id: Last Changed On, width: 117, width2x: 0}
     - {id: Relative Path, width: 500, width2x: 0}
     sortOrders:
+    - {id: State, reverse: false}
+    - {id: Relative Directory, reverse: false}
     - {id: Ext., reverse: false}
-    - {id: Relative Directory, reverse: true}
-    - {id: State, reverse: true}
     - {id: Name, reverse: false}
     - {id: Size, reverse: true}
     - {id: Last Changed On, reverse: false}
@@ -140,37 +141,54 @@ columns:
     sortOrders:
     - {id: Name, reverse: false}
     - {id: Relative Directory, reverse: false}
+  commitFiles:
+    columnNames: "File\tModifications"
+    visibleColumnNames: "File\tModifications"
+    columnWidths:
+    - {id: File, width: 600, width2x: 0}
+    - {id: Modifications, width: 150, width2x: 0}
+    sortOrders:
+    - {id: File, reverse: false}
+  originFiles:
+    columnNames: "File\tModifications"
+    visibleColumnNames: "File\tModifications"
+    columnWidths:
+    - {id: File, width: 600, width2x: 0}
+    - {id: Modifications, width: 150, width2x: 0}
+    sortOrders:
+    - {id: File, reverse: false}
 gitViewFileFilter: {viewRecursive: true, viewFromSubmodules: true, viewIgnoredFiles: false,
-  viewRenameSources: true, viewSkipped: false, viewUnversionedFiles: true, viewUnchangedFiles: false,
+  viewRenameSources: true, viewSkipped: false, viewUnversionedFiles: true, viewUnchangedFiles: true,
   viewUnchangedAssumed: false}
-deepGitUiConfiguration: {}
+deepGitUiConfiguration: {mainSplitPaneResizeWeight: '0.0', textSplitPaneResizeWeight: '0.5'}
 confirmations: {exit.showConfirmation: true, git.push: true, git.switchBranch.confirmation: true,
   close.unpushedCommits: true, commit.amend.replaceWarning: true, rebase.continue: true,
   rebaseContinue: false, git.switchBranch.fastForward: false, sync: true, splitCommit: true,
   git.commit.stageAll: true, compare.contentEqual: true, conflictSolver.showConflictWarning: true,
-  compare.binaryEqual: true, remove.repositoryOrGroup: true, modifyCommit: true, modifyContinue: true}
+  compare.binaryEqual: true, remove.repositoryOrGroup: true, modifyCommit: true, modifyContinue: true,
+  docking.closed: true}
 repositoriesToReopen:
 - window: wt
-  repositories: ['B:\Users']
+  repositories: ['B:\PF\CSharpVisualStudio\repos\karlstad\KarlstadButik\KarlstadButik']
 project.files.git.separateWtIndex: true
-gitProjectLayout.main: (([+533x519:directories ][+533x414:branches ])((([+1384x553:files
-  ][+1384x161:changes ])[-3x1:message ])([+1384x216:outgoing ][-3x1:output ])))
+gitProjectLayout.main: (([+331x426:directories ][+331x316:branches ])((([+1090x400:files
+  ][+1090x161:changes ])[-3x1:message ])([+1090x178:outgoing ][-3x1:output ])))
 log.wtIndex.onDemand: true
 gitProjectLayout.mainIsdefault: true
 gitProjectLayout.review: ([+2x1:directories ][+7x1:files ][+3x1:message ])[+10x3:changes
   ]([-1x1:branches ][-3x1:outgoing ][-3x1:output ])
-lastRepositoryPath: B:\Users
+lastRepositoryPath: B:\PF\.git\modules\projectFolderBare
 commit.expandOptions: true
 log.files.git.separateWtIndex: true
-gitLogRootLayout.main: (([+224x461:repositories ][+224x472:branches ])([+1693x385:comments
-  +1693x385:details +1693x385:files files ][+1693x548:changes +1693x548:graph graph
+gitLogRootLayout.main: (([+884x321:repositories ][+884x329:branches ])([+1070x268:comments
+  +1070x268:details -1693x385:files comments ][-1693x548:changes +1070x382:graph graph
   ])[-1x1:output -1x1:debug-log output ])
 gitLogRootLayout.mainIsdefault: true
 gitLogRootLayout.review: (([+1x1:repositories ][+1x1:branches ])(([+4x1:graph ]([+2x1:details
   -1x1:output -1x1:debug-log details ][+2x2:files +2x1:comments files ]))[+4x4:changes
   ]))
-gitLogSubtreeLayout: ([+193x466:branches ][+538x466:graph ]([+1183x205:details -1x1:output
-  details ][+1183x258:files ]))[+1920x467:changes ]
+gitLogSubtreeLayout: ([+197x325:branches ][+548x325:graph ]([+1206x161:details -1x1:output
+  details ][+1206x161:files ]))[+1957x325:changes ]
 subtree.add.createLocalBranch: false
 discard.stash: false
 ignore.location: 1

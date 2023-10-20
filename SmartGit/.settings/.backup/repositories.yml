@@ -9,81 +9,35 @@ gitRootSettingsSet:
     push: {}
     commitNotes: {}
     journal: {}
-  roots: ['B:\PF\Archive\ToGit\scoopbucket-presist\AHK', 'B:\PF\Archive\ps1', 'B:\PF\Archive\ToGit\scoopbucket-presist\AHK\Fork\autoklick',
-    'B:\PF\Archive\ToGit\scoopbucket-presist\AHK\ahk_config', 'B:\PF\Archive\ToGit\scoopbucket-presist\AHK\script\Fork\CheckIfProgIsRunning',
+  roots: [~\AppData\Roaming\Scooter Software\Beyond Compare 4, 'B:\PF\CSharpVisualStudio\repos\karlstad',
+    'B:\PF\CSharpVisualStudio\repos\karlstad\Calculator_CBrobäck', 'B:\PF\CSharpVisualStudio\repos\karlstad\KarlstadButik',
+    'B:\PF\CSharpVisualStudio\repos\karlstad\Wpf-Upgift 1', 'B:\PF\CSharpVisualStudio\repos\karlstad\karlstad3\Calculator_CBrobäck.rar',
+    'B:\PF\CSharpVisualStudio\repos\karlstad\karlstad3\Lotto_CBrobäck.rar', 'B:\PF\CSharpVisualStudio\repos\karlstad\KarlstadButik\KarlstadButik',
+    'B:\PF\CSharpVisualStudio\repos\karlstad\KarlstadButik\New folder', 'B:\PF\Archive\dotFiles',
+    'B:\PF\Archive\dotFiles\dotbot', 'B:\PF\Archive\dotFiles\dotbot\lib\pyyaml', 'C:\Users\Public\Documents',
+    'C:\Users\Public\Documents\PowerShell', 'C:\Users\Public\Documents\WindowsPowerShell',
+    'B:\Users\target\Documents\PowerShell', 'B:\Users\target\Documents\PowerShell\Scripts',
+    'B:\Users\target\Documents\PowerShell\xScripts', 'B:\Users\target\Documents\PowerShell\xScripts\scripts',
+    'B:\Users\target\Documents\PowerShell\xScripts\AllowAccessWindowsDefender', 'B:\Users\target\Documents\PowerShell\xScripts\Fork\DiagramPswriteHtml',
+    'B:\Users\target\Documents\PowerShell\xScripts\Fork\ExportChromeBook', 'B:\Users\target\Documents\PowerShell\xScripts\GetInstalled',
+    'B:\Users\target\Documents\PowerShell\xScripts\TodoProjects\Ast-IdentifyCodeBlocks',
+    'B:\Users\target\Documents\PowerShell\xScripts\scripts\AllowAccessWindowsDefender',
+    'B:\Users\target\Documents\PowerShell\xScripts\scripts\Export-Inst-Choco', 'B:\Users\target\Documents\PowerShell\xScripts\scripts\GetInstalled',
+    'B:\Users\target\Documents\PowerShell\xScripts\scripts\Pwsh', 'B:\Users\target\Documents\PowerShell\xScripts\scripts\TakeOwnerShip',
+    'B:\Users\target\Documents\PowerShell\xScripts\scripts\powershellAliasesUserProfile',
+    'B:\Users\target\Documents\PowerShell\xScripts\Fork\ExportChromeExtensions', 'B:\Users\target\Documents\PowerShell\xScripts\Fork\xml2Csv',
+    'B:\Users\target\Documents\PowerShell\xScripts\git\BreakRepoIntoTwo\fork\6387904f5666f83f401afed94a869379',
+    'B:\PF', 'B:\PF\Archive', 'B:\PF\NoteTakingProjectFolder', 'B:\PF\Archive\ToGit\scoopbucket-presist\AHK',
+    'B:\PF\Archive\ps1', 'B:\PF\NoteTakingProjectFolder\Archive\Notebook-Foam\GistNotebook
+      1\useFullRegEdits', 'B:\PF\NoteTakingProjectFolder\Archive\Notebook-Foam\NoteTakingProjectFolder\other\useFullRegEdits',
+    'B:\PF\NoteTakingProjectFolder\gists', 'B:\PF\Archive\ToGit\scoopbucket-presist\AHK\script\Fork\CheckIfProgIsRunning',
     'B:\PF\Archive\ToGit\scoopbucket-presist\AHK\script\Fork\ExplorerAtPath', 'B:\PF\Archive\ToGit\scoopbucket-presist\AHK\script\Fork\Launch
       If not Currently running', 'B:\PF\Archive\ToGit\scoopbucket-presist\AHK\script\Fork\LaunchApplication',
     'B:\PF\Archive\ToGit\scoopbucket-presist\AHK\script\Fork\Selected Item In Explorer',
     'B:\PF\Archive\ToGit\scoopbucket-presist\AHK\script\Fork\SelectedTextWithoutDisturbingClipboard',
-    'B:\PF\Archive\ToGit\scoopbucket-presist\AHK\ahk_config\Fork\CheckIfProgIsRunning',
-    'B:\PF\Archive\ToGit\scoopbucket-presist\AHK\ahk_config\Fork\ExplorerAtPath',
-    'B:\PF\Archive\ToGit\scoopbucket-presist\AHK\ahk_config\Fork\GetRunningProcess',
-    'B:\PF\Archive\ToGit\scoopbucket-presist\AHK\ahk_config\Fork\Launch If not Currently
-      running', 'B:\PF\Archive\ToGit\scoopbucket-presist\AHK\ahk_config\Fork\Launch
-      If not Currently running Continously', 'B:\PF\Archive\ToGit\scoopbucket-presist\AHK\ahk_config\Fork\LaunchApplication',
-    'B:\PF\Archive\ToGit\scoopbucket-presist\AHK\ahk_config\Fork\MACRO RECORDER',
-    'B:\PF\Archive\ToGit\scoopbucket-presist\AHK\ahk_config\Fork\Selected Item In
-      Explorer', 'B:\PF\Archive\ToGit\scoopbucket-presist\AHK\ahk_config\Fork\SelectedTextWithoutDisturbingClipboard',
-    'B:\PF\Archive\ToGit\scoopbucket-presist\AHK\ahk_config\Fork\WindowToforeground',
-    'B:\PF\Archive\ToGit\scoopbucket-presist\AHK\ahk_config\script\Fork\NoahHotell',
     'B:\PF\Archive\ps1\Aggregation\TextProcessingProjectF', 'B:\PF\Archive\ps1\git',
-    'B:\PF\Archive\ps1\workflow\xCsharpI', 'B:\PF\Archive\ps1\Aggregation\TextProcessingProjectF\Tokenization',
-    'B:\PF\Archive\ps1\git\gist\GitPs1Module', 'B:\PF\Archive\ps1\git\submodule\SubmoduleFromGitmodules',
-    'B:\Unsorted\ps1', 'B:\PF\CSharpVisualStudio', 'B:\PF\CSharpVisualStudio\repos',
-    'B:\PF\CSharpVisualStudio\repos\LargeNexport\DataBindingDemo', 'B:\PF\CSharpVisualStudio\repos\LargeNexport\DataBindingDemoSparse',
-    'B:\PF\CSharpVisualStudio\repos\WIthoutStudio', 'B:\PF\CSharpVisualStudio\repos\WPF-EF6-Sqlite',
-    'B:\PF\CSharpVisualStudio\repos\WPF-Samples', 'B:\PF\CSharpVisualStudio\repos\Wpf-Upgift
-      1', 'B:\PF\CSharpVisualStudio\repos\karlstad', 'B:\PF\CSharpVisualStudio\repos\karlstad2Calc_Lotto',
-    'B:\PF\CSharpVisualStudio\repos\upg11', 'B:\PF\CSharpVisualStudio\repos\karlstad\Calculator_CBrobäck',
-    'B:\PF\CSharpVisualStudio\repos\karlstad\KarlstadButik', 'B:\PF\CSharpVisualStudio\repos\karlstad\KarlstadButik\Calculator_CBrobäck',
-    'B:\PF\CSharpVisualStudio\repos\karlstad\KarlstadButik\KarlstadButik', 'B:\PF\CSharpVisualStudio\repos\ProjectBoras',
-    'B:\PF\CSharpVisualStudio\repos\karlstad\Wpf-Upgift 1', 'B:\PF\CSharpVisualStudio\repos\LargeNexport\WPF-Samples',
-    'B:\PF\CSharpVisualStudio\repos\LargeNexport\WPF-EF6-Sqlite', 'B:\PF\CSharpVisualStudio\repos\Wpf-Upgift
-      1\213c939651e0bef7612b2f910909a21d', 'B:\PF\CSharpVisualStudio\repos\Wpf-Upgift
-      1\3714794', 'B:\PF\CSharpVisualStudio\repos\Wpf-Upgift 1\7327483', 'B:\PF\CSharpVisualStudio\repos\Wpf-Upgift
-      1\DataBindingDemo', 'B:\PF\CSharpVisualStudio\repos\Wpf-Upgift 1\DataBindingDemoSparse',
-    'B:\PF\CSharpVisualStudio\repos\Wpf-Upgift 1\InvalidMarkup', 'B:\PF\CSharpVisualStudio\repos\Wpf-Upgift
-      1\upg11', 'B:\PF\CSharpVisualStudio\repos\Wpf-Upgift 1\upgift1', 'B:\PF\CSharpVisualStudio\repos\Wpf-Upgift
-      1\WindowsFormsControlLibrary1', 'B:\PF\CSharpVisualStudio\repos\Wpf-Upgift 1\WPF-Samples',
-    'B:\PF\CSharpVisualStudio\repos\Wpf-Upgift 1\8691414\WpfApp1', 'B:\PF\CSharpVisualStudio\repos\Wpf-Upgift
-      1\8691414\WpfApp4', 'B:\PF\CSharpVisualStudio\repos\Wpf-Upgift 1\Boras2\PetStore',
-    'B:\PF\CSharpVisualStudio\repos\Wpf-Upgift 1\borås\upgift1', 'B:\PF\CSharpVisualStudio\repos\Wpf-Upgift
-      1\Wpf-Upgift 1\WpfApp1', 'B:\PF\CSharpVisualStudio\repos\boras', 'B:\PF\CSharpVisualStudio\repos\boras\213c939651e0bef7612b2f910909a21d',
-    'B:\PF\CSharpVisualStudio\repos\boras\3714794', 'B:\PF\CSharpVisualStudio\repos\boras\7327483',
-    'B:\PF\CSharpVisualStudio\repos\boras\DataBindingDemo', 'B:\PF\CSharpVisualStudio\repos\boras\DataBindingDemoSparse',
-    'B:\PF\CSharpVisualStudio\repos\boras\InvalidMarkup', 'B:\PF\CSharpVisualStudio\repos\boras\upg11',
-    'B:\PF\CSharpVisualStudio\repos\boras\upgift1', 'B:\PF\CSharpVisualStudio\repos\boras\WindowsFormsControlLibrary1',
-    'B:\PF\CSharpVisualStudio\repos\boras\WPF-Samples', 'B:\PF\CSharpVisualStudio\repos\boras\8691414\WpfApp4',
-    'B:\PF\CSharpVisualStudio\repos\boras\8691414\WpfApp1', 'B:\PF\CSharpVisualStudio\repos\boras\borås\upgift1',
-    'B:\PF\CSharpVisualStudio\repos\boras\Wpf-Upgift 1\WpfApp1', 'B:\PF\CSharpVisualStudio\repos\karlstad\karlstad3\Lotto_CBrobäck.rar',
-    'B:\PF\CSharpVisualStudio\repos\karlstad\karlstad3\Calculator_CBrobäck.rar', 'L:\Users\virtual2\RiderProjects',
-    'L:\Users\virtual2\RiderProjects\CSharp-Bor-s-Inl-mning1', 'L:\Users\virtual2\RiderProjects\ghClient',
-    'L:\Users\virtual2\RiderProjects\karlstad2Calc_Lotto', 'L:\Users\virtual2\RiderProjects\karlstad3Notepad',
-    'L:\Users\virtual2\RiderProjects\Karlstad4Butik', 'L:\Users\virtual2\RiderProjects\Karlstad4Butik2',
-    'L:\Users\virtual2\RiderProjects\projectBoras', 'L:\Users\virtual2\RiderProjects\TextEditor',
-    'C:\ProgramData\scoop\buckets', 'C:\ProgramData\scoop\persist\BeondCompare4',
-    'B:\Users\target\BeondCompare4', ~\AppData\Roaming\Scooter Software\Beyond Compare
-      4, 'B:\PF\Archive\ToGit\scoopbucket-presist\AppData\Roaming\Scooter Software\Beyond
-      Compare 4', 'B:\PF\CSharpVisualStudio\repos\karlstad\KarlstadButik\New folder',
-    'B:\PF\CSharpVisualStudio\repos\karlstad\KarlstadButik\KarlstadButik\KarlstadButik',
-    'C:\ProgramData\scoop\persist', 'C:\ProgramData\scoop\persist\.config\git', 'C:\ProgramData\scoop\persist\.config\powershell',
-    'C:\ProgramData\scoop\persist\AHK', 'C:\ProgramData\scoop\persist\AHK-EverydayScripts',
-    'C:\ProgramData\scoop\persist\AdvancedRenamer', 'C:\ProgramData\scoop\persist\AppData',
-    'C:\ProgramData\scoop\persist\Cherrytree', 'C:\ProgramData\scoop\persist\Everything',
-    'C:\ProgramData\scoop\persist\Everything-Paf', 'C:\ProgramData\scoop\persist\JetBrains',
-    'C:\ProgramData\scoop\persist\OtherVersionControlledText', 'C:\ProgramData\scoop\persist\PortableProgramSuit',
-    'C:\ProgramData\scoop\persist\PowerShellCmdHist', 'C:\ProgramData\scoop\persist\Powershell',
-    'C:\ProgramData\scoop\persist\Vortex', 'C:\ProgramData\scoop\persist\portableAppsPlatform',
-    'C:\ProgramData\scoop\persist\steamapps', 'C:\ProgramData\scoop\persist\AHK-EverydayScripts\Fork\autoklick',
-    'C:\ProgramData\scoop\persist\Documents', 'C:\ProgramData\scoop\persist\Documents\PowerShell',
-    'C:\ProgramData\scoop\persist\Documents\WindowsPowerShell', 'B:\Users', 'B:\Users\New
-      folder', 'B:\Users\new folder 4', 'B:\Users\target', 'B:\Users\new folder 4\AHK',
-    'B:\Users\target\AHK', 'B:\Users\target\AdvancedRenamer', 'B:\Users\target\BashHistory',
-    'B:\Users\target\Cherrytree', 'B:\Users\target\Datagrip', 'B:\Users\target\Ditto',
-    'B:\Users\target\Powershell', 'B:\Users\target\Vortex', 'B:\Users\target\portableAppsPlatform',
-    'B:\Users\target\steamapps', 'B:\Users\target\Everything', 'B:\Users\New folder
-      (2)', 'B:\Users\New folder (2)\fallout3\masterlist', 'B:\Users\New folder (2)\fallout4\masterlist',
-    'B:\Users\New folder (2)\falloutnv\masterlist']
+    'B:\PF\Archive\ps1\Aggregation\TextProcessingProjectF\Tokenization', 'B:\PF\Archive\ps1\workflow\CsharpI',
+    'B:\PF\.git\modules\projectFolderBare']
   rootB:\ToGit:
     databaseCleanup: {}
     log:
@@ -5734,7 +5688,7 @@ gitRootSettingsSet:
     commitNotes: {}
     journal: {}
   rootB:\PF:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695208818659}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1697723337592}
     log:
       rootSettings: {baseRoots: "!local-branches://\t!remote://origin\tref://HEAD",
         extendedRoots: ''}
@@ -5752,7 +5706,7 @@ gitRootSettingsSet:
       - toRead
     journal: {}
   rootB:\PF\Archive\ps1:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695208962653}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1697723337375}
     log:
       rootSettings: {baseRoots: "!remote://archive\t!remote://GroupIntoFolder\t!local-tags://\t\
           !others://\tref://HEAD\tref://refs/heads/master", extendedRoots: ''}
@@ -6906,7 +6860,7 @@ gitRootSettingsSet:
       commitNotesHistory: [movedArround]
     journal: {}
   rootB:\PF\Archive:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1694205639708}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1697723338016}
     log:
       rootSettings: {baseRoots: "!local-branches://\tref://HEAD", extendedRoots: ''}
       fileFilterConfiguration: {}
@@ -8002,7 +7956,7 @@ gitRootSettingsSet:
     commitNotes: {}
     journal: {}
   rootB:\PF\NoteTakingProjectFolder:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695208818714}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1697118565989}
     log:
       rootSettings: {baseRoots: "!remote://gists\t!local-branches://\t!local-tags://\t\
           !remote://Notebook-Foam\t!others://\tref://HEAD", extendedRoots: ''}
@@ -8641,7 +8595,7 @@ gitRootSettingsSet:
     commitNotes: {}
     journal: {}
   rootB:\PF\NoteTakingProjectFolder\gists:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695208818857}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1697118565860}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
@@ -9983,7 +9937,7 @@ gitRootSettingsSet:
     commitNotes: {}
     journal: {}
   rootC:\Users\CrRoot\AppData\Roaming\Scooter Software\Beyond Compare 4:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695998083886}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1697318030382}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
@@ -10143,7 +10097,7 @@ gitRootSettingsSet:
       commitNotesHistory: [czxcf]
     journal: {}
   rootB:\PF\Archive\ps1\Aggregation\TextProcessingProjectF:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695208962527}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1697723337853}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
@@ -10154,7 +10108,7 @@ gitRootSettingsSet:
       commitNotesHistory: [TpRead]
     journal: {}
   rootB:\PF\Archive\ps1\git:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695208962411}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1697723337651}
     log:
       rootSettings: {baseRoots: "!remote://git-extras\t!remote://git-toolbelt\t!local-branches://\t\
           !local-tags://\t!remote://origin\tref://HEAD", extendedRoots: ''}
@@ -10178,7 +10132,7 @@ gitRootSettingsSet:
     commitNotes: {}
     journal: {}
   rootB:\PF\Archive\ps1\workflow\CsharpI:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695208962344}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1697723337535}
     log:
       rootSettings: {baseRoots: "!local-branches://\t!remote://origin\tref://HEAD",
         extendedRoots: ''}
@@ -10201,7 +10155,7 @@ gitRootSettingsSet:
       commitNotesHistory: [extracted functions, etc]
     journal: {}
   rootB:\PF\Archive\ps1\Aggregation\TextProcessingProjectF\Tokenization:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695208962704}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1697723337907}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
@@ -10354,7 +10308,7 @@ gitRootSettingsSet:
     commitNotes: {}
     journal: {}
   rootB:\PF\AhkProjectFolder:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695584597258}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1696781674934}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
@@ -10362,7 +10316,14 @@ gitRootSettingsSet:
       logRootSettings: {}
     push: {}
     commitNotes:
-      commitNotesHistory: [ads, as]
+      commitNotesHistory:
+      - "Merge branch 'HomeMain' into personal\n\n# Conflicts:\n#\t.gitmodules\n#\t\
+        .vscode/launch.json\n#\tFork/AppendToClipboard\n#\tFork/CheckIfProgIsRunning\n\
+        #\tFork/GetRunningProcess\n#\tFork/Launch If not Currently running Continously\n\
+        #\tFork/NoahHotell\n#\tFork/WindowToforeground\n#\tFork/autoklick"
+      - toread
+      - ads
+      - as
     journal: {}
   rootB:\PF\CSharpVisualStudio:
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695808470080}
@@ -10703,7 +10664,7 @@ gitRootSettingsSet:
       commitNotesHistory: [etc]
     journal: {}
   rootB:\PF\CSharpVisualStudio\repos\karlstad:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1696008550497}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1697495044095}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
@@ -10715,7 +10676,7 @@ gitRootSettingsSet:
           into Karlstad-BaseRepo]
     journal: {}
   rootB:\PF\CSharpVisualStudio\repos\karlstad\Calculator_CBrobäck:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695808469758}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1697495043969}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
@@ -10736,7 +10697,7 @@ gitRootSettingsSet:
     commitNotes: {}
     journal: {}
   rootB:\PF\CSharpVisualStudio\repos\karlstad\Wpf-Upgift 1:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695817645428}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1697495044025}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
@@ -11173,7 +11134,7 @@ gitRootSettingsSet:
     commitNotes: {}
     journal: {}
   rootB:\PF\Archive\dotFiles:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1693824536019}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1697712612198}
     log:
       rootSettings: {baseRoots: "!remote://deployed\t!remote://dotfiles\t!local-branches://\t\
           !local-tags://\t!others://\t!remote://scoop-persist\t!remote://windotfiles\t\
@@ -11238,7 +11199,7 @@ gitRootSettingsSet:
     commitNotes: {}
     journal: {}
   rootB:\Users\target\BeondCompare4:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1696704144386}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1697318090756}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
@@ -12220,7 +12181,7 @@ gitRootSettingsSet:
     commitNotes: {}
     journal: {}
   rootB:\PF\Archive\ToGit\scoopbucket-presist\AHK:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695584536563}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1697723337966}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
@@ -12848,7 +12809,7 @@ gitRootSettingsSet:
     commitNotes: {}
     journal: {}
   rootB:\PF\CSharpVisualStudio\repos\karlstad\karlstad3\Calculator_CBrobäck.rar:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695892147170}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1697495044292}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
@@ -12858,7 +12819,7 @@ gitRootSettingsSet:
     commitNotes: {}
     journal: {}
   rootB:\PF\CSharpVisualStudio\repos\karlstad\karlstad3\Lotto_CBrobäck.rar:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695891811931}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1697495044401}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
@@ -12909,7 +12870,7 @@ gitRootSettingsSet:
     commitNotes: {}
     journal: {}
   rootB:\PF\AhkProjectFolder\Fork\AppendToClipboard:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695584598399}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1696781675113}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
@@ -12919,7 +12880,7 @@ gitRootSettingsSet:
     commitNotes: {}
     journal: {}
   rootB:\PF\AhkProjectFolder\Fork\CheckIfProgIsRunning:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695584598047}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1696781675070}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
@@ -12929,7 +12890,7 @@ gitRootSettingsSet:
     commitNotes: {}
     journal: {}
   rootB:\PF\AhkProjectFolder\Fork\ExplorerAtPath:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695584597536}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1696781674805}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
@@ -12939,7 +12900,7 @@ gitRootSettingsSet:
     commitNotes: {}
     journal: {}
   rootB:\PF\AhkProjectFolder\Fork\GetRunningProcess:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695584597311}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1696781674671}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
@@ -12949,7 +12910,7 @@ gitRootSettingsSet:
     commitNotes: {}
     journal: {}
   rootB:\PF\AhkProjectFolder\Fork\Launch If not Currently running:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695584597481}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1696781675325}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
@@ -12959,17 +12920,18 @@ gitRootSettingsSet:
     commitNotes: {}
     journal: {}
   rootB:\PF\AhkProjectFolder\Fork\Launch If not Currently running Continously:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695584597711}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1696781674715}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
     merge:
       logRootSettings: {}
     push: {}
-    commitNotes: {}
+    commitNotes:
+      commitNotesHistory: [etc]
     journal: {}
   rootB:\PF\AhkProjectFolder\Fork\LaunchApplication:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695584597426}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1696781674978}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
@@ -12979,7 +12941,7 @@ gitRootSettingsSet:
     commitNotes: {}
     journal: {}
   rootB:\PF\AhkProjectFolder\Fork\MACRO RECORDER:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695584598340}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1696781674628}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
@@ -12989,7 +12951,7 @@ gitRootSettingsSet:
     commitNotes: {}
     journal: {}
   rootB:\PF\AhkProjectFolder\Fork\NoahHotell:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695584597937}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1696781674537}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
@@ -12999,7 +12961,7 @@ gitRootSettingsSet:
     commitNotes: {}
     journal: {}
   rootB:\PF\AhkProjectFolder\Fork\Selected Item In Explorer:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695584597992}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1696781675283}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
@@ -13009,7 +12971,7 @@ gitRootSettingsSet:
     commitNotes: {}
     journal: {}
   rootB:\PF\AhkProjectFolder\Fork\SelectedTextWithoutDisturbingClipboard:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695584597194}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1696781675367}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
@@ -13019,7 +12981,7 @@ gitRootSettingsSet:
     commitNotes: {}
     journal: {}
   rootB:\PF\AhkProjectFolder\Fork\WindowToforeground:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695584597032}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1696781674760}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
@@ -13029,7 +12991,7 @@ gitRootSettingsSet:
     commitNotes: {}
     journal: {}
   rootB:\PF\AhkProjectFolder\Fork\autoklick:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695584598578}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1696781674848}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
@@ -13039,7 +13001,7 @@ gitRootSettingsSet:
     commitNotes: {}
     journal: {}
   rootB:\PF\AhkProjectFolder\ahk_config:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695584597825}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1696782129562}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
@@ -13047,7 +13009,7 @@ gitRootSettingsSet:
       logRootSettings: {}
     push: {}
     commitNotes:
-      commitNotesHistory: [etc, 'Moved arround, now in project root']
+      commitNotesHistory: [deduped, etc, 'Moved arround, now in project root']
     journal: {}
   rootB:\PF\Modding\Diablo II ressurected:
     databaseCleanup: {}
@@ -13060,17 +13022,19 @@ gitRootSettingsSet:
     commitNotes: {}
     journal: {}
   rootB:\PF\Modding\Pascal:
-    databaseCleanup: {}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1697315191812}
     log:
-      rootSettings: {}
+      rootSettings: {baseRoots: "!local-branches://\t!remote://origin\tref://HEAD",
+        extendedRoots: ''}
       fileFilterConfiguration: {}
     merge:
       logRootSettings: {}
     push: {}
-    commitNotes: {}
+    commitNotes:
+      commitNotesHistory: [etc]
     journal: {}
   rootB:\PF\NoteTakingProjectFolder\Archive\Notebook-Foam\GistNotebook 1\useFullRegEdits:
-    databaseCleanup: {}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1697118565729}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
@@ -13080,7 +13044,7 @@ gitRootSettingsSet:
     commitNotes: {}
     journal: {}
   rootB:\PF\NoteTakingProjectFolder\Archive\Notebook-Foam\NoteTakingProjectFolder\other\useFullRegEdits:
-    databaseCleanup: {}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1697118565924}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
@@ -13150,7 +13114,7 @@ gitRootSettingsSet:
     commitNotes: {}
     journal: {}
   rootB:\PF\Modding\Pascal\Edit Scripts\FyTy:
-    databaseCleanup: {}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1697315191865}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
@@ -13190,7 +13154,7 @@ gitRootSettingsSet:
     commitNotes: {}
     journal: {}
   rootB:\PF\CSharpVisualStudio\repos\karlstad\KarlstadButik:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695897061456}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1697495044153}
     log:
       rootSettings: {baseRoots: "!local-branches://\t!local-tags://\t!remote://origin\t\
           !remote://pushto\tref://HEAD", extendedRoots: ''}
@@ -13199,7 +13163,29 @@ gitRootSettingsSet:
       logRootSettings: {}
     push: {}
     commitNotes:
-      commitNotesHistory: [asd]
+      commitNotesHistory:
+      - FromTheSemiStable
+      - major changes
+      - Minor Additions and changes
+      - additions FromTheSemiStable
+      - "before change of filososphy\n\nProper descerning of Shoppinglist and InventarieList\n\
+        \ncutting away last code duplicates\n\nimplemented static filehantering class\n\
+        \nfilhanterings classes should be static, why would i ever want to intialize\
+        \ it\n\ntabcontrol separate class, managing needs\n\nKassaTab type, we'll\
+        \ see what's relevant for this, it's supposed to be a container class for\
+        \ the kassaFonster\n\nlagerfonster might have bin two different types\n\n\
+        Major code Deduplication, restructoring, does kassa fonster require it's own\
+        \ InventarieGrid?\n\nwe've had two differnet definitions of the class butik\n\
+        \nfixed ErializeXML.cs\n\n# Conflicts:\n#\tErializeXML.cs\n\nfixed some errors\n\
+        \n# Conflicts:\n#\tCollectionHolder.cs\n#\tFilhantering.cs\n#\tKassaFonster.cs\n\
+        #\tLagerFonster.cs\n#\tbutik_1.cs\n\nDataColumnCollection' does not belong\
+        \ to table\n\n# Conflicts:\n#\tErializeXML.cs\n\nfixFix"
+      - "fixed ErializeXML.cs\n\n# Conflicts:\n#\tErializeXML.cs"
+      - "fixed some errors\n\n# Conflicts:\n#\tCollectionHolder.cs\n#\tFilhantering.cs\n\
+        #\tKassaFonster.cs\n#\tLagerFonster.cs\n#\tbutik_1.cs"
+      - "DataColumnCollection' does not belong to table\n\n# Conflicts:\n#\tErializeXML.cs"
+      - "Builds\nDataMember property 'ShoppingList_The' cannot be found on the DataSource.\n\
+        \n# Conflicts:\n#\tButik.cs\n#\tLagerFonster.cs\n#\tbutik_1.cs"
     journal: {}
   rootB:\Unsorted\tempRepo\New folder:
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695404990171}
@@ -13427,7 +13413,7 @@ gitRootSettingsSet:
       commitNotesHistory: [Removed To other copy of repo]
     journal: {}
   rootB:\PF\AhkProjectFolder\ahk_config\Fork\AppendToClipboard:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695584598218}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1696792138910}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
@@ -13437,7 +13423,7 @@ gitRootSettingsSet:
     commitNotes: {}
     journal: {}
   rootB:\PF\AhkProjectFolder\ahk_config\Fork\CheckIfProgIsRunning:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695584598458}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1696792144058}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
@@ -13447,7 +13433,7 @@ gitRootSettingsSet:
     commitNotes: {}
     journal: {}
   rootB:\PF\AhkProjectFolder\ahk_config\Fork\ExplorerAtPath:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695584598520}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1696792149053}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
@@ -13457,7 +13443,7 @@ gitRootSettingsSet:
     commitNotes: {}
     journal: {}
   rootB:\PF\AhkProjectFolder\ahk_config\Fork\GetRunningProcess:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695584597141}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1696792152786}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
@@ -13467,7 +13453,7 @@ gitRootSettingsSet:
     commitNotes: {}
     journal: {}
   rootB:\PF\AhkProjectFolder\ahk_config\Fork\Launch If not Currently running:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695584597367}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1696792157943}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
@@ -13477,7 +13463,7 @@ gitRootSettingsSet:
     commitNotes: {}
     journal: {}
   rootB:\PF\AhkProjectFolder\ahk_config\Fork\Launch If not Currently running Continously:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695584598280}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1696792172912}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
@@ -13487,7 +13473,7 @@ gitRootSettingsSet:
     commitNotes: {}
     journal: {}
   rootB:\PF\AhkProjectFolder\ahk_config\Fork\LaunchApplication:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695584598161}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1696792179859}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
@@ -13497,7 +13483,7 @@ gitRootSettingsSet:
     commitNotes: {}
     journal: {}
   rootB:\PF\AhkProjectFolder\ahk_config\Fork\MACRO RECORDER:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695584597770}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1696792188438}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
@@ -13507,7 +13493,7 @@ gitRootSettingsSet:
     commitNotes: {}
     journal: {}
   rootB:\PF\AhkProjectFolder\ahk_config\Fork\Selected Item In Explorer:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695584597653}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1696792197108}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
@@ -13517,7 +13503,7 @@ gitRootSettingsSet:
     commitNotes: {}
     journal: {}
   rootB:\PF\AhkProjectFolder\ahk_config\Fork\SelectedTextWithoutDisturbingClipboard:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695584597596}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1696792204809}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
@@ -13527,7 +13513,7 @@ gitRootSettingsSet:
     commitNotes: {}
     journal: {}
   rootB:\PF\AhkProjectFolder\ahk_config\Fork\WindowToforeground:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695584597086}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1696792212821}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
@@ -13537,7 +13523,7 @@ gitRootSettingsSet:
     commitNotes: {}
     journal: {}
   rootB:\PF\AhkProjectFolder\ahk_config\script\Fork\GetRunningProcess:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695584598104}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1696792124583}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
@@ -13547,7 +13533,7 @@ gitRootSettingsSet:
     commitNotes: {}
     journal: {}
   rootB:\PF\AhkProjectFolder\ahk_config\script\Fork\NoahHotell:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695584597883}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1696792132766}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
@@ -13567,7 +13553,7 @@ gitRootSettingsSet:
     commitNotes: {}
     journal: {}
   rootB:\PF\Archive\ToGit\scoopbucket-presist\AHK\script\Fork\CheckIfProgIsRunning:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695585590556}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1697723337290}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
@@ -13578,7 +13564,7 @@ gitRootSettingsSet:
       commitNotesHistory: [ayh]
     journal: {}
   rootB:\PF\Archive\ToGit\scoopbucket-presist\AHK\script\Fork\ExplorerAtPath:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695585590337}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1697723337753}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
@@ -13588,7 +13574,7 @@ gitRootSettingsSet:
     commitNotes: {}
     journal: {}
   rootB:\PF\Archive\ToGit\scoopbucket-presist\AHK\script\Fork\Launch If not Currently running:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695585590285}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1697723337702}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
@@ -13598,7 +13584,7 @@ gitRootSettingsSet:
     commitNotes: {}
     journal: {}
   rootB:\PF\Archive\ToGit\scoopbucket-presist\AHK\script\Fork\LaunchApplication:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695585590618}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1697723337426}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
@@ -13608,7 +13594,7 @@ gitRootSettingsSet:
     commitNotes: {}
     journal: {}
   rootB:\PF\Archive\ToGit\scoopbucket-presist\AHK\script\Fork\Selected Item In Explorer:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695585590389}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1697723337483}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
@@ -13618,7 +13604,7 @@ gitRootSettingsSet:
     commitNotes: {}
     journal: {}
   rootB:\PF\Archive\ToGit\scoopbucket-presist\AHK\script\Fork\SelectedTextWithoutDisturbingClipboard:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695585590444}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1697723337801}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
@@ -13710,7 +13696,7 @@ gitRootSettingsSet:
     commitNotes: {}
     journal: {}
   rootB:\PF\AhkProjectFolder\script\Fork\CheckIfProgIsRunning:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695589489858}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1696781675200}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
@@ -13720,7 +13706,7 @@ gitRootSettingsSet:
     commitNotes: {}
     journal: {}
   rootB:\PF\AhkProjectFolder\script\Fork\ExplorerAtPath:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695589489802}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1696781675156}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
@@ -13730,7 +13716,7 @@ gitRootSettingsSet:
     commitNotes: {}
     journal: {}
   rootB:\PF\AhkProjectFolder\script\Fork\Launch If not Currently running:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695589490028}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1696781674579}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
@@ -13740,7 +13726,7 @@ gitRootSettingsSet:
     commitNotes: {}
     journal: {}
   rootB:\PF\AhkProjectFolder\script\Fork\LaunchApplication:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695589490084}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1696781675019}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
@@ -13750,7 +13736,7 @@ gitRootSettingsSet:
     commitNotes: {}
     journal: {}
   rootB:\PF\AhkProjectFolder\script\Fork\Selected Item In Explorer:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695589489912}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1696781675240}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
@@ -13760,7 +13746,7 @@ gitRootSettingsSet:
     commitNotes: {}
     journal: {}
   rootB:\PF\AhkProjectFolder\script\Fork\SelectedTextWithoutDisturbingClipboard:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695589489970}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1696781674891}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
@@ -13930,7 +13916,7 @@ gitRootSettingsSet:
     commitNotes: {}
     journal: {}
   rootB:\PF\CSharpVisualStudio\repos\karlstad\KarlstadButik\KarlstadButik:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695815206596}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1697495043865}
     log:
       rootSettings: {baseRoots: "!local-branches://\t!local-tags://\t!remote://origin\t\
           ref://refs/heads/Experiment\tref://HEAD\tref://refs/heads/Only_CollectionHolder\t\
@@ -13945,6 +13931,14 @@ gitRootSettingsSet:
     push: {}
     commitNotes:
       commitNotesHistory:
+      - "fixed to libral constructor in inventarie ressulting in product being initalized\
+        \ with metadata\n\n# Conflicts:\n#\tInventarie.cs"
+      - cosmetic
+      - naming convention change, increment deincrement instead of add and substract
+      - fix faulty class structure
+      - shoppinglistitem -> collectionHolder.shoppinglistitem
+      - modifications
+      - additions
       - O_KeyV_AntaLista' cannot be found on the DataSource
       - "System.ArgumentException: Column 'System.Data.DataColumnCollection' does\
         \ not belong to table .\n   at System.Data.DataRow.GetDataColumn(String columnName)\n\
@@ -13952,64 +13946,6 @@ gitRootSettingsSet:
         \ Karlstad4Butik.Filhantering.CsvReaderToTable(String filename, DataTable\
         \ table) in C:\\Users\\virtual2\\RiderProjects\\Karlstad4Butik\\Filhantering.cs:line\
         \ 168\n\n# Conflicts:\n#\tCollectionHolder.ShoppingList.cs"
-      - |-
-        removed xmlSerialisers Specific collection updation, to just a single collection, this ressults in lagerfönster not being updated
-
-        child list can't be created
-
-        interanl collection is not properly updated
-
-        should be loaded into inventarie type atleast
-      - |-
-        SafeEdits? removed xmlSerialisers Specific collection updation, to just a single collection, this ressults in lagerfönster not being updated
-
-        child list can't be created
-
-        interanl collection is not properly updated
-
-        should be loaded into inventarie type atleast
-      - "pulled up properties of Inventarie.cs into product\n\n# Conflicts:\n#\tCollectionHolder.ShoppingList.cs\n\
-        #\tCollectionHolder.cs\n#\tErializeXML.cs\n#\tFilhantering.cs\n#\tInventarie.cs\n\
-        #\tproduct.cs\n\nO_KeyV_AntaLista' cannot be found\n\nBuilds but can't run\n\
-        \ndoes not build, cleaned up warnings,   Microsoft.Common.CurrentVersion.targets(3312,\
-        \ 5): [MSB3577] Two output file names resolved to the same output path: \"\
-        obj\\Debug\\Karlstad4Butik.Butik.resources\"\n\nUnhandled exception when Clicking\
-        \ on kundkorgs items,\nLoads csv invisible ressulting in duplicates in the\
-        \ kundkorg view, as if csv wasn't loaded initialliy\n\nUnable to Cast Error\n\
-        \nSystem.NullReferenceException: Object reference not set to an instance of\
-        \ an object.\n   at Karlstad4Butik.ErializeXML.<XmlToDataTable>g__FCV|6_3(XmlElement\
-        \ bx, String localname) in C:\\Users\\virtual2\\RiderProjects\\Karlstad4Butik\\\
-        ErializeXML.cs:line 171\n\nrefactor KassaFonster.cs\n\n# Conflicts:\n#\tCollectionHolder.cs\n\
-        #\tLagerFonster.cs\n#\tbutik_1.cs"
-      - "SafeEDits?\r\npulled up properties of Inventarie.cs into product\n\n# Conflicts:\n\
-        #\tCollectionHolder.ShoppingList.cs\n#\tCollectionHolder.cs\n#\tErializeXML.cs\n\
-        #\tFilhantering.cs\n#\tInventarie.cs\n#\tproduct.cs\n\nO_KeyV_AntaLista' cannot\
-        \ be found\n\nBuilds but can't run\n\ndoes not build, cleaned up warnings,\
-        \   Microsoft.Common.CurrentVersion.targets(3312, 5): [MSB3577] Two output\
-        \ file names resolved to the same output path: \"obj\\Debug\\Karlstad4Butik.Butik.resources\"\
-        \n\nUnhandled exception when Clicking on kundkorgs items,\nLoads csv invisible\
-        \ ressulting in duplicates in the kundkorg view, as if csv wasn't loaded initialliy\n\
-        \nUnable to Cast Error\n\nSystem.NullReferenceException: Object reference\
-        \ not set to an instance of an object.\n   at Karlstad4Butik.ErializeXML.<XmlToDataTable>g__FCV|6_3(XmlElement\
-        \ bx, String localname) in C:\\Users\\virtual2\\RiderProjects\\Karlstad4Butik\\\
-        ErializeXML.cs:line 171\n\nrefactor KassaFonster.cs\n\n# Conflicts:\n#\tCollectionHolder.cs\n\
-        #\tLagerFonster.cs\n#\tbutik_1.cs"
-      - uio
-      - Column 'System.Data.DataColumnCollection' does not belong to table
-      - "Column 'System.Data.DataColumnCollection' does not belong to table\n\npulled\
-        \ up properties of Inventarie.cs into product\n\n# Conflicts:\n#\tCollectionHolder.ShoppingList.cs\n\
-        #\tCollectionHolder.cs\n#\tErializeXML.cs\n#\tFilhantering.cs\n#\tInventarie.cs\n\
-        #\tproduct.cs\n\nO_KeyV_AntaLista' cannot be found\n\nBuilds but can't run\n\
-        \ndoes not build, cleaned up warnings,   Microsoft.Common.CurrentVersion.targets(3312,\
-        \ 5): [MSB3577] Two output file names resolved to the same output path: \"\
-        obj\\Debug\\Karlstad4Butik.Butik.resources\"\n\nUnhandled exception when Clicking\
-        \ on kundkorgs items,\nLoads csv invisible ressulting in duplicates in the\
-        \ kundkorg view, as if csv wasn't loaded initialliy\n\nUnable to Cast Error\n\
-        \nSystem.NullReferenceException: Object reference not set to an instance of\
-        \ an object.\n   at Karlstad4Butik.ErializeXML.<XmlToDataTable>g__FCV|6_3(XmlElement\
-        \ bx, String localname) in C:\\Users\\virtual2\\RiderProjects\\Karlstad4Butik\\\
-        ErializeXML.cs:line 171\n\nrefactor KassaFonster.cs\n\n# Conflicts:\n#\tCollectionHolder.cs\n\
-        #\tLagerFonster.cs\n#\tbutik_1.cs"
     journal: {}
   rootB:\PF\CSharpVisualStudio\repos\ProjectBoras:
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1695816010096}
@@ -14455,7 +14391,7 @@ gitRootSettingsSet:
     commitNotes: {}
     journal: {}
   rootB:\PF\Archive\ToGit\scoopbucket-presist\AppData\Roaming\Scooter Software\Beyond Compare 4:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1696004539188}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1697318063522}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
@@ -14466,7 +14402,7 @@ gitRootSettingsSet:
       commitNotesHistory: [etc]
     journal: {}
   rootB:\PF\CSharpVisualStudio\repos\karlstad\KarlstadButik\New folder:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1696117747379}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1697495044228}
     log:
       rootSettings: {baseRoots: "!local-branches://\t!local-tags://\tref://HEAD",
         extendedRoots: ''}
@@ -14495,7 +14431,7 @@ gitRootSettingsSet:
       commitNotes: ShoppinglistItem is now derived from tupple
     journal: {}
   rootB:\PF\CSharpVisualStudio\repos\karlstad\KarlstadButik\KarlstadButik\KarlstadButik:
-    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1696156508849}
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1696858753907}
     log:
       rootSettings: {}
       fileFilterConfiguration: {}
@@ -14644,6 +14580,786 @@ gitRootSettingsSet:
     databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1696705443269}
     log:
       rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\AhkProjectFolder\Fork\clipboardbuffer:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1696837253491}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\AhkProjectFolder\Fork\ChangeSkypeStatus:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1696837259905}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\Users\20231011202412429:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1697049548765}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\Users\CompressedNotebook:
+    databaseCleanup: {}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\Users\target\AppData\Roaming\Scooter Software\Beyond Compare 4:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1697318146603}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\Archive\dotFiles\dotbot:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1697712702094}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\Archive\dotFiles\dotbot\lib\pyyaml:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1697712702050}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootC:\Users\Public\Documents:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1697713430917}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootC:\Users\Public\Documents\PowerShell:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1697713492447}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootC:\Users\Public\Documents\WindowsPowerShell:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1697713492399}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\Users\target\Documents\PowerShell:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1697714891882}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes:
+      commitNotesHistory: ['[toVerify ] Merged state to']
+    journal: {}
+  rootB:\Users\target\Documents\PowerShell\Scripts:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1697714892011}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\Users\target\Documents\PowerShell\xScripts:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1697719759949}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes:
+      commitNotesHistory: [etc, moved back to root, state]
+    journal: {}
+  rootB:\Users\target\Documents\PowerShell\xScripts\scripts:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1697721360877}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes:
+      commitNotesHistory:
+      - etc
+      - "[chore] Reorganised\n[todo] need to fix new submodule positions\n\n[feature]\
+        \ submodule ScoopBucket\n\nasdad\n\nSquashed commit of the following:\n\n\
+        commit 2d3313854ed331247f3af8dfeb8775d1d0e0a34f\nMerge: 0beb0a5 d19380a 3b6b4f1\n\
+        Author: perXautomatik <christoffer.broback@gmail.com>\nDate:   Sun Sep 25\
+        \ 16:27:30 2022 +0200\n\n    WIP on (no branch): 0beb0a5 [chore] Renamed,\
+        \ restructured\n\ncommit d19380a6e26c0e06691932d3ad7e1473772dd614\nAuthor:\
+        \ perXautomatik <christoffer.broback@gmail.com>\nDate:   Sun Sep 25 16:27:30\
+        \ 2022 +0200\n\n    index on (no branch): 0beb0a5 [chore] Renamed, restructured\n\
+        \ncommit 3b6b4f11a615fe196700e90f0d9ec2c873119f83\nAuthor: perXautomatik <christoffer.broback@gmail.com>\n\
+        Date:   Sun Sep 25 16:27:30 2022 +0200\n\n    untracked files on (no branch):\
+        \ 0beb0a5 [chore] Renamed, restructured\n\ncommit 0beb0a5fe420702c901168608a28d2ca4acd97f6\n\
+        Author: perXautomatik <christoffer.broback@gmail.com>\nDate:   Tue May 3 16:09:44\
+        \ 2022 +0200\n\n    [chore] Renamed, restructured\n\n    [chore] Reorganized,\
+        \ deduped,\n\n    [chore] renamed\n    dsd\n    auto\n    adasd\n    sdf\n\
+        \    initial\n\ncommit f93f82bad86581d438e5e4941e3d7fd812dc201c\nAuthor: perXautomatik\
+        \ <christoffer.broback@gmail.com>\nDate:   Wed Jun 15 16:50:51 2022 +0200\n\
+        \n    auto\n\ncommit 0e563e4a8f24f5b4d7bb6d59d7a26555e5e31fa1\nAuthor: perXautomatik\
+        \ <christoffer.broback@gmail.com>\nDate:   Mon May 9 14:03:33 2022 +0200\n\
+        \n    adasd\n\ncommit c1dbbf543fcf1df78a1fdfe93d0c16bab36bea52\nAuthor: perXautomatik\
+        \ <christoffer.broback@gmail.com>\nDate:   Tue May 3 17:01:23 2022 +0200\n\
+        \n    sdf\n\ncommit bba864b1e3aaf6d40f8218cfa1c0610b60479abb\nAuthor: perXautomatik\
+        \ <christoffer.broback@gmail.com>\nDate:   Tue May 3 16:09:44 2022 +0200\n\
+        \n    initial\n\ncommit 47eee6e7f8132229d450b7e7d62e522ce6b17348\nAuthor:\
+        \ perXautomatik <christoffer.broback@gmail.com>\nDate:   Sun May 1 20:14:42\
+        \ 2022 +0200\n\n    [feaute} started writing of auto Modules\n\ncommit 33ee724938e9740f24878c102a0f721d2bdd7051\n\
+        Author: perXautomatik <christoffer.broback@gmail.com>\nDate:   Fri Apr 29\
+        \ 13:36:34 2022 +0200\n\n    [feature] workspace imroved\n\ncommit 77bc705a8ec7f276b60a9d73bf9e46f4053c3454\n\
+        Author: perXautomatik <christoffer.broback@gmail.com>\nDate:   Wed Mar 30\
+        \ 10:51:12 2022 +0200\n\n    general\n\ncommit 1f544a1d9a3fb3b96ad9a236dde857af2f3df21f\n\
+        Author: perXautomatik <christoffer.broback@gmail.com>\nDate:   Tue Mar 29\
+        \ 13:04:15 2022 +0200\n\n    [chore] submodule readded winadmin\n\ncommit\
+        \ 69719e843f94f6d4601ec28a1148aa5ab8f362f8\nAuthor: perXautomatik <christoffer.broback@gmail.com>\n\
+        Date:   Tue Mar 29 12:13:54 2022 +0200\n\n    [chroe] readding submodule\n\
+        \ncommit 43c4bb4f9add938e36f1b8a9bad74c88cbec1b04\nAuthor: perXautomatik <christoffer.broback@gmail.com>\n\
+        Date:   Tue Mar 29 12:05:46 2022 +0200\n\n    [chore] Sudmodules have now\
+        \ bin readded\n\ncommit 3bc05a74aac5dee52f5caa3873babd4d7d967646\nAuthor:\
+        \ perXautomatik <christoffer.broback@gmail.com>\nDate:   Tue Mar 29 11:52:55\
+        \ 2022 +0200\n\n    [chore] resubmoduling\n\ncommit 8608283e118da7754845b47ea53b1c30f1461325\n\
+        Author: perXautomatik <christoffer.broback@gmail.com>\nDate:   Tue Mar 29\
+        \ 11:49:30 2022 +0200\n\n    [chore] reorganizing submodules\n\ncommit f58379f6addbfa27cc0d2487176fde7caf0217dc\n\
+        Merge: 732e12e a115570\nAuthor: perXautomatik <christoffer.broback@gmail.com>\n\
+        Date:   Tue Mar 29 11:22:59 2022 +0200\n\n    Merge branch 'MakeSoftlink'\
+        \ of https://github.com/perXautomatik/PowerShell-Scripts into MakeSoftlink\n\
+        \n    # Conflicts:\n    #\t.gitmodules\n    #\tConvertExcelToCsvInBatch.ps1\n\
+        \    #\tTodoProjects/Nytt textdokument.json\n    #\tTodoProjects/bsArch-packextension.ps1\n\
+        \    #\tTodoProjects/hcomm.jsonc\n    #\tfilesystem/createToutchedFile\n \
+        \   #\tpshell\n\ncommit 732e12e55c30ae6c3f1108e36d4d5fff4023b686\nAuthor:\
+        \ perXautomatik <christoffer.broback@gmail.com>\nDate:   Tue Mar 29 11:06:10\
+        \ 2022 +0200\n\n    [todo] should be submodule\n\ncommit 15d496e2e8f115cf3f14352d4194e47dc901acee\n\
+        Author: perXautomatik <christoffer.broback@gmail.com>\nDate:   Fri Mar 18\
+        \ 18:40:13 2022 +0100\n\n    [accident?]\n\ncommit 2cec53ed7eec5c9e24be8a6e15361e090bf0ed62\n\
+        Author: perXautomatik <christoffer.broback@gmail.com>\nDate:   Mon Mar 14\
+        \ 15:42:52 2022 +0100\n\n    AutoCommit\n\ncommit a115570eb8d473b3fbb91038b2b9a25621758dd3\n\
+        Author: perXautomatik <christoffer.broback@gmail.com>\nDate:   Fri Mar 11\
+        \ 22:12:58 2022 +0100\n\n    Textransformation reoganisation\n\ncommit 4b1d48165a80e75a7be57ca816cab991951436a9\n\
+        Author: perXautomatik <christoffer.broback@gmail.com>\nDate:   Fri Mar 11\
+        \ 21:59:55 2022 +0100\n\n    asdasd\n\ncommit 1da05e6c6d54c6105e2e6eee1d6d081a575c7a8e\n\
+        Author: perXautomatik <christoffer.broback@gmail.com>\nDate:   Fri Mar 11\
+        \ 17:54:01 2022 +0100\n\n    AutoCommit\n\ncommit 95ec1b2d86c6bfdc11b564ed372d9c535cb66906\n\
+        Author: perXautomatik <christoffer.broback@gmail.com>\nDate:   Fri Mar 11\
+        \ 17:35:04 2022 +0100\n\n    AutoCommit\n\ncommit 8836d8634718a7df0a71e989cfc60c7ed9e92379\n\
+        Author: perXautomatik <christoffer.broback@gmail.com>\nDate:   Fri Mar 11\
+        \ 17:24:06 2022 +0100\n\n    AutoCommit\n\ncommit 0580e34a47df99713f4222210cce326b5c206840\n\
+        Author: perXautomatik <christoffer.broback@gmail.com>\nDate:   Wed Mar 9 14:14:24\
+        \ 2022 +0100\n\n    [feature] added outside file\n    [chore] submoduled GitCompare\n\
+        \ncommit c937a279ee74ed17fd20ed589c52f7534129105b\nAuthor: perXautomatik <christoffer.broback@gmail.com>\n\
+        Date:   Wed Mar 9 13:44:19 2022 +0100\n\n    [feature] more submodules\n\n\
+        commit 9d07a59ca557a708debc49f8fd9c4955134f99d3\nAuthor: perXautomatik <christoffer.broback@gmail.com>\n\
+        Date:   Wed Mar 9 11:38:51 2022 +0100\n\n    git branch to submodule+WindowsAdmin\n\
+        \ncommit ba4c9978b3baa4b8ba1c83e2e71d30734a416d34\nAuthor: perXautomatik <christoffer.broback@gmail.com>\n\
+        Date:   Tue Mar 8 22:45:16 2022 +0100\n\n    removing WindowsAdmin folder\n\
+        \ncommit b2774a19f974de1454fbf17244bea09fc0ce1701\nAuthor: perXautomatik <christoffer.broback@gmail.com>\n\
+        Date:   Mon Mar 7 10:47:16 2022 +0100\n\n    dunno\n\ncommit ac718673e9707cda3def3214be44304a517d27c9\n\
+        Author: perXautomatik <christoffer.broback@gmail.com>\nDate:   Sat Feb 12\
+        \ 12:27:27 2022 +0100\n\n    ad\n\ncommit 1c80f692b02c780f0fde5f4e617cec5113bd1a6d\n\
+        Author: perXautomatik <christoffer.broback@gmail.com>\nDate:   Thu Feb 10\
+        \ 20:52:32 2022 +0100\n\n    ad\n\ncommit 9fb4c99e5e99d0e6579a76480c98c7df464b22f1\n\
+        Author: perXautomatik <christoffer.broback@gmail.com>\nDate:   Tue Feb 8 16:40:19\
+        \ 2022 +0100\n\n    as submodule\n\ncommit 3cc9400653e870c7443f1496fb572e77729ba222\n\
+        Author: perXautomatik <christoffer.broback@gmail.com>\nDate:   Tue Feb 8 16:37:45\
+        \ 2022 +0100\n\n    sAS\n\ncommit f9986005df10d75e8a192d1c1c1a9d6b12d49c75\n\
+        Author: perXautomatik <christoffer.broback@gmail.com>\nDate:   Tue Feb 8 16:26:40\
+        \ 2022 +0100\n\n    more submodules\n\ncommit 803040740e0261f0200de6acea86a89abc6ff2a7\n\
+        Author: perXautomatik <christoffer.broback@gmail.com>\nDate:   Tue Feb 8 16:19:31\
+        \ 2022 +0100\n\n    more submodules\n\ncommit 6a88309e43a7a926ae7d5a203d8fd649f407388d\n\
+        Author: perXautomatik <christoffer.broback@gmail.com>\nDate:   Tue Feb 8 16:02:44\
+        \ 2022 +0100\n\n    going through stared gists\n\ncommit 8b1dfe50cdbadc2129720069672854880e3e7c7a\n\
+        Author: perXautomatik <christoffer.broback@gmail.com>\nDate:   Tue Feb 8 15:49:41\
+        \ 2022 +0100\n\n    more submodules\n\ncommit 5bc1e5afc5ced72e46ad648d0e54fc5abc86a532\n\
+        Author: perXautomatik <christoffer.broback@gmail.com>\nDate:   Tue Feb 8 15:23:14\
+        \ 2022 +0100\n\n    submodule\n\ncommit 87c300ddc0b46788085467a4e0930c9dfd8382a2\n\
+        Author: perXautomatik <christoffer.broback@gmail.com>\nDate:   Tue Feb 8 15:20:56\
+        \ 2022 +0100\n\n    sdfsd\n\ncommit 33f131b2d5a543ea106357b877114450733202ad\n\
+        Author: perXautomatik <christoffer.broback@gmail.com>\nDate:   Tue Feb 8 15:00:20\
+        \ 2022 +0100\n\n    dasd\n\ncommit 8ee2d94e7c5dc40a15b2320d0c0db22fec8ff1c4\n\
+        Author: perXautomatik <christoffer.broback@gmail.com>\nDate:   Tue Feb 8 14:56:33\
+        \ 2022 +0100\n\n    is submodlue\n\ncommit 8e1d05d7609497e73422a3b3e2aee18674d81132\n\
+        Author: perXautomatik <christoffer.broback@gmail.com>\nDate:   Tue Feb 8 14:29:02\
+        \ 2022 +0100\n\n    added\n\ncommit 5bdca8d2cd1b70afac657f9234aab4e57931c0ca\n\
+        Author: perXautomatik <christoffer.broback@gmail.com>\nDate:   Tue Feb 8 14:24:13\
+        \ 2022 +0100\n\n    to submodule\n\ncommit 025ecd7f194f951f43605f0f28b55de7d7d99622\n\
+        Author: perXautomatik <christoffer.broback@gmail.com>\nDate:   Tue Feb 8 13:40:59\
+        \ 2022 +0100\n\n    dasd\n\ncommit 55d04f00ebc9ceaedd635086adb8bd0830798bec\n\
+        Author: perXautomatik <christoffer.broback@gmail.com>\nDate:   Tue Feb 8 13:31:39\
+        \ 2022 +0100\n\n    now with submodule\n\ncommit 07c1623520379b5650e3b6878b398d023aeaf1ae\n\
+        Author: perXautomatik <christoffer.broback@gmail.com>\nDate:   Tue Feb 8 13:24:25\
+        \ 2022 +0100\n\n    NowSubmule\n\ncommit d6fff100468015c6e6f71f4232b7c9ddd22a5a02\n\
+        Author: perXautomatik <christoffer.broback@gmail.com>\nDate:   Tue Feb 8 11:41:32\
+        \ 2022 +0100\n\n    after merge\n\ncommit 7f37086e4c935af98f78b051210281bd44b3ac5d\n\
+        Merge: d6911d0 86a5b51\nAuthor: perXautomatik <christoffer.broback@gmail.com>\n\
+        Date:   Tue Feb 8 11:39:31 2022 +0100\n\n    Merge remote-tracking branch\
+        \ 'remotes/origin/ProjectFolderWithScriptsFolder' into MakeSoftlink\n\ncommit\
+        \ d6911d0ffa843643485bd424cf0f8b9460117e26\nMerge: b550693 07740b1\nAuthor:\
+        \ perXautomatik <christoffer.broback@gmail.com>\nDate:   Mon Jan 24 17:02:20\
+        \ 2022 +0100\n\n    Merge remote-tracking branch 'remotes/origin/ModulesAndScripts'\
+        \ into MakeSoftlink\n\n    # Conflicts:\n    #\tPdf/MergeWithBlankPage.ps1\n\
+        \    #\tPdf/PdfSharp5.ps1\n    #\tPdf/firstPageOfEachPDfFromList.ps1\n   \
+        \ #\tSymLinks/MakeSoftlink.ps1\n    #\tSymLinks/newSymbolicLink.ps1\n    #\t\
+        filesystem/SplitFileLineByLine.ps1\n    #\tjson/actOnJson.ps1\n\ncommit b550693b81f8b53d9101a4c9af52b0470a109974\n\
+        Author: perXautomatik <christoffer.broback@gmail.com>\nDate:   Fri Dec 31\
+        \ 19:26:15 2021 +0100\n\n    need to reorganize\n\ncommit 86a5b51639ea01b4c91ee7e24ca69db1db65bb93\n\
+        Author: perXautomatik <christoffer.broback@gmail.com>\nDate:   Tue Dec 28\
+        \ 15:27:00 2021 +0100\n\n    obeus dupes\n\ncommit 2a0de691b18ba36b7efeb7221ae025017b75fd67\n\
+        Author: perXautomatik <christoffer.broback@gmail.com>\nDate:   Tue Dec 28\
+        \ 14:25:27 2021 +0100\n\n    continued\n\ncommit 61dcefb0969d175ca93ec3bc063ead1c5e59278a\n\
+        Author: perXautomatik <christoffer.broback@gmail.com>\nDate:   Tue Dec 28\
+        \ 14:15:49 2021 +0100\n\n    experimenting with naming conventions\n\ncommit\
+        \ 838f48ca158ea094f4ab744e1f1f812a8579200e\nAuthor: perXautomatik <christoffer.broback@gmail.com>\n\
+        Date:   Tue Dec 28 13:52:01 2021 +0100\n\n    manually added more\n\ncommit\
+        \ a3de7a5a512fb2c37ee9b0a0be293e6131600766\nMerge: 32d3b57 5fcaf0a\nAuthor:\
+        \ perXautomatik <christoffer.broback@gmail.com>\nDate:   Tue Dec 28 13:39:50\
+        \ 2021 +0100\n\n    Merge remote-tracking branch 'remotes/origin/ProjectFolderWithScriptsFolder'\
+        \ into ProjectFolderWithScriptsFolder\n\ncommit 32d3b57fd502f562bbd6f6c73676dd383b1eac4e\n\
+        Author: perXautomatik <christoffer.broback@gmail.com>\nDate:   Mon Dec 27\
+        \ 17:01:12 2021 +0100\n\n    furtherReorganization\n\ncommit 5fcaf0a53e2da38389e847c36bade2d0d8de64fa\n\
+        Author: perXautomatik <christoffer.broback@gmail.com>\nDate:   Mon Dec 27\
+        \ 17:01:12 2021 +0100\n\n    furtherReorganization\n\ncommit 27608043639231aa6ed04ac0f38e2025d26b80ed\n\
+        Author: perXautomatik <christoffer.broback@gmail.com>\nDate:   Mon Dec 27\
+        \ 16:27:11 2021 +0100\n\n    Moved submodules from old projectfolder into\
+        \ empty submodulefolders in repo\n\ncommit a90f735bda84bbdb29915f90edaf660db874192a\n\
+        Author: perXautomatik <christoffer.broback@gmail.com>\nDate:   Mon Dec 27\
+        \ 16:18:05 2021 +0100\n\n    joined with lost files in old projectfolder\n\
+        \ncommit a4d09ec30d59882b9962c4d70ec1fe96614b0d40\nAuthor: perXautomatik <christoffer.broback@gmail.com>\n\
+        Date:   Mon Dec 27 16:14:45 2021 +0100\n\n    reverted, past was dupes...\
+        \ maybe the symlink ressults in git deleting the files for real\n\ncommit\
+        \ 98606802931c9380d437cc6e5622fb128e315530\nAuthor: perXautomatik <christoffer.broback@gmail.com>\n\
+        Date:   Mon Dec 27 16:08:30 2021 +0100\n\n    dupesRemoved,MovedToScripts\n\
+        \ncommit 1dd0517e5e3698fc428105bb606757f0f65858b8\nAuthor: perXautomatik <christoffer.broback@gmail.com>\n\
+        Date:   Mon Dec 27 16:07:41 2021 +0100\n\n    movedToScriptFolder,Excluded\
+        \ Dupes\n\ncommit f205e0c45e9c2c3af4a3c9bc4e1182ed7e512aaf\nAuthor: perXautomatik\
+        \ <christoffer.broback@gmail.com>\nDate:   Mon Dec 27 15:59:34 2021 +0100\n\
+        \n    removed dupes and restored some order\n\ncommit b7948a7cb43a8bf06eff4db8935f2a92c95c601b\n\
+        Author: perXautomatik <christoffer.broback@gmail.com>\nDate:   Mon Dec 27\
+        \ 15:50:57 2021 +0100\n\n    bunchOfExcavations\n\ncommit 922c545e289828452148bedf234a43769b46db4b\n\
+        Author: perXautomatik <christoffer.broback@gmail.com>\nDate:   Mon Dec 27\
+        \ 14:36:17 2021 +0100\n\n    merging with projectfolders\n\ncommit d8386ae49e85833fd525bf04388663c5032e2cdc\n\
+        Author: perXautomatik <christoffer.broback@gmail.com>\nDate:   Mon Dec 27\
+        \ 14:30:39 2021 +0100\n\n    renamed\n\ncommit 54e5e3b7feb1b0605c98a6fe60fd60a17c7e91ac\n\
+        Author: perXautomatik <christoffer.broback@gmail.com>\nDate:   Mon Dec 27\
+        \ 14:29:04 2021 +0100\n\n    reverted some empty folders\n\ncommit dfebe1af4ef0b79081a88243be96e3ba0f3250e1\n\
+        Author: perXautomatik <christoffer.broback@gmail.com>\nDate:   Mon Dec 27\
+        \ 14:21:22 2021 +0100\n\n    addingsubmodules\n\ncommit 07740b1ddbf0ebb47a736cebdd33721efceb80d3\n\
+        Author: perXautomatik <christoffer.broback@gmail.com>\nDate:   Mon Dec 27\
+        \ 14:01:44 2021 +0100\n\n    should be in subrepos\n\ncommit 89b61542971fd44f01ca69179adcc67eda137c4b\n\
+        Author: perXautomatik <christoffer.broback@gmail.com>\nDate:   Mon Dec 27\
+        \ 13:57:47 2021 +0100\n\n    merged with old\n\ncommit 783f5147eec7e5010f7f50ca2a7dbe0a7f4e4cc0\n\
+        Author: perXautomatik <christoffer.broback@gmail.com>\nDate:   Mon Dec 27\
+        \ 13:43:51 2021 +0100\n\n    reverted modules\n\ncommit 8ee9aa21d2a4cb8a23d6b18b79af158e390e6c5a\n\
+        Merge: d077a68 421e029\nAuthor: perXautomatik <christoffer.broback@gmail.com>\n\
+        Date:   Mon Dec 27 13:31:41 2021 +0100\n\n    Merge branch 'ModulesAndScripts'\
+        \ of https://github.com/perXautomatik/PowerShellCmdHist into ModulesAndScripts\n\
+        \n    # Conflicts:\n    #\tPSReadline\n    #\tScripts\n\ncommit d077a68d0111b525c4e56535c944610324e94496\n\
+        Author: perXautomatik <christoffer.broback@gmail.com>\nDate:   Mon Dec 27\
+        \ 13:28:30 2021 +0100\n\n    access test\n\ncommit 97f17975ffd45209fe8e24f9944d9acc17866a24\n\
+        Author: perXautomatik <christoffer.broback@gmail.com>\nDate:   Mon Dec 27\
+        \ 11:34:16 2021 +0100\n\n    asd\n\ncommit d4f5523cb5dbf82473642bbcf11f17a0521c19e1\n\
+        Author: perXautomatik <christoffer.broback@gmail.com>\nDate:   Mon Dec 27\
+        \ 11:30:23 2021 +0100\n\n    asdas\n\ncommit 421e029ed40dd3da71f785cbbd718d8e332e55bf\n\
+        Author: perXautomatik <christoffer.broback@gmail.com>\nDate:   Sat Dec 11\
+        \ 16:46:00 2021 +0100\n\n    dpakd\n\ncommit 0896a692f6bb1c651ab80e019e9c2313b6450283\n\
+        Merge: 92dc8eb b4d3159\nAuthor: perXautomatik <christoffer.broback@gmail.com>\n\
+        Date:   Sat Dec 11 16:41:56 2021 +0100\n\n    Merge branch 'master' into ModulesAndScripts\n\
+        \n    # Conflicts:\n    #\t.gitmodules\n    #\tPSReadline/ConsoleHost_history.txt\n\
+        \    #\tPSReadline/Visual Studio Code Host_history.txt\n    #\tPSReadline/Windows\
+        \ PowerShell ISE Host_history.txt\n    #\tScripts\n    #\tScripts/PdfSharp5.ps1\n\
+        \    #\tScripts/newSymbolicLink.ps1\n\ncommit 92dc8eb29707fa32a375bb10737666c9dd2eb856\n\
+        Author: perXautomatik <christoffer.broback@gmail.com>\nDate:   Sat Dec 4 16:15:51\
+        \ 2021 +0100\n\n    dasd\n\ncommit b4d31597e249a7dc64fee4604f7b6b2089beabe6\n\
+        Author: perXautomatik <christoffer.broback@gmail.com>\nDate:   Sat Dec 4 16:06:26\
+        \ 2021 +0100\n\n    after computer reset\n\ncommit ad69ccce0475fb1fb13738e378e12a88c35d1bf2\n\
+        Author: perXautomatik <christoffer.broback@gmail.com>\nDate:   Tue Nov 23\
+        \ 21:26:20 2021 +0100\n\n    dud\n\ncommit 7e2a5278537e4fd4abbb38b4648dc2b4f55fb5d3\n\
+        Author: perXautomatik <christoffer.broback@gmail.com>\nDate:   Fri Oct 1 14:19:16\
+        \ 2021 +0200\n\n    asd\n\ncommit 1c3bb6af598db13b88a8970c8f7325ed38884833\n\
+        Author: perXautomatik <christoffer.broback@gmail.com>\nDate:   Mon Sep 27\
+        \ 13:48:05 2021 +0200\n\n    think this is how the submodules should look\
+        \ like\n\ncommit 98c5d925efa7c1be9feb1c20db61ced75b547131\nAuthor: perXautomatik\
+        \ <christoffer.broback@gmail.com>\nDate:   Mon Sep 27 13:16:35 2021 +0200\n\
+        \n    moved into submodule\n\ncommit 95e499dcea81e1268524c654503ff0b06db09898\n\
+        Author: perXautomatik <christoffer.broback@gmail.com>\nDate:   Mon Sep 27\
+        \ 12:31:49 2021 +0200\n\n    movedToSeparateSubmodule\n\ncommit aa7377cc95f644b816bf68c4da75bf9ce834a603\n\
+        Author: perXautomatik <christoffer.broback@gmail.com>\nDate:   Mon Sep 27\
+        \ 12:25:09 2021 +0200\n\n    shouldn'tve bin here\n\ncommit b0fd95b32dea7702c0787be41f4ef4c81624fe09\n\
+        Author: perXautomatik <christoffer.broback@gmail.com>\nDate:   Mon Sep 27\
+        \ 12:24:08 2021 +0200\n\n    probably usefull\n\ncommit b5f6bca59572fc4c0c4243c1faf92ebb26d531c1\n\
+        Author: perXautomatik <christoffer.broback@gmail.com>\nDate:   Mon Sep 27\
+        \ 12:22:47 2021 +0200\n\n    asd\n\ncommit 5cf6af4bfe78c15549745d4eb135419cf4daf14e\n\
+        Merge: 6363dd6 3e426a8\nAuthor: perXautomatik <christoffer.broback@gmail.com>\n\
+        Date:   Mon Sep 27 12:20:53 2021 +0200\n\n    Merge commit '3e426a8fcf85f3c7b1fa591de5098df39c33913f'\
+        \ into ModulesAndScripts\n\n    # Conflicts:\n    #\t.gitmodules\n    #\t\
+        PSReadline/Windows PowerShell ISE Host_history.txt\n    #\tScripts\n    #\t\
+        Scripts/ConvertExcelToCsvInBatch.ps1\n    #\tScripts/ExportRegestrykey3.ps1\n\
+        \    #\tScripts/MergeWithBlankPage.ps1\n    #\tScripts/PdfSharp5.ps1\n   \
+        \ #\tScripts/Powershell-CreateTouchedFile\n    #\tScripts/Restart-Process.ps1\n\
+        \    #\tScripts/Skicka pdfer till skrivare.ps1\n    #\tScripts/alteringExplorerRegestry.ps1\n\
+        \    #\tScripts/firstPageOfEachPDfFromList.ps1\n    #\tScripts/mergePDf.ps1\n\
+        \    #\tScripts/newSymbolicLink.ps1\n    #\tScripts/powershell-GroupIntoFolder\n\
+        \    #\tScripts/replaceAlInstances.ps1\n\ncommit 6363dd616f89010cbcb20c475f19203749dc62c2\n\
+        Author: perXautomatik <christoffer.broback@gmail.com>\nDate:   Mon Sep 27\
+        \ 12:08:02 2021 +0200\n\n    shouldnt' bin deleted\n\ncommit e646df1808cc112eafde26f0e5c4f1cbe7fe7b25\n\
+        Merge: f3fc963 5c75e8b\nAuthor: perXautomatik <christoffer.broback@gmail.com>\n\
+        Date:   Mon Sep 27 12:00:55 2021 +0200\n\n    Merge branch 'CmdHist' into\
+        \ ModulesAndScripts\n\ncommit 5c75e8b77a647a40a1666bdebc26954be28732c4\nMerge:\
+        \ 464e3b4 fbe9eb3\nAuthor: perXautomatik <christoffer.broback@gmail.com>\n\
+        Date:   Mon Sep 27 11:48:16 2021 +0200\n\n    Merge commit 'fbe9eb3507437063e4689a67f6727e20e2892ffe'\
+        \ into CmdHist\n\n    # Conflicts:\n    #\tPSReadline/Windows PowerShell ISE\
+        \ Host_history.txt\n    #\tUntitled5.ps1\n\ncommit 464e3b4e0464a91b2f99593c6249c4f80ed3ab19\n\
+        Merge: 76a20cf 3f852eb\nAuthor: perXautomatik <christoffer.broback@gmail.com>\n\
+        Date:   Mon Sep 27 11:45:18 2021 +0200\n\n    Merge commit '3f852eba35953423e2e45feff4dcbf2df482c508'\
+        \ into CmdHist\n\ncommit 76a20cf77d28c574f50b0365ce1b78452d5fe240\nMerge:\
+        \ 228ca6a 5fdf88c\nAuthor: perXautomatik <christoffer.broback@gmail.com>\n\
+        Date:   Mon Sep 27 11:44:58 2021 +0200\n\n    Merge commit '5fdf88cf728768312963bc985f57c717d076fc5b'\
+        \ into CmdHist\n\ncommit 228ca6af2f1116e47aa9b346408aa6fd13565cca\nMerge:\
+        \ 96f43a7 5c3a5f0\nAuthor: perXautomatik <christoffer.broback@gmail.com>\n\
+        Date:   Mon Sep 27 11:44:39 2021 +0200\n\n    Merge commit '5c3a5f0e4345796a2222507434a2c27d7d5cab03'\
+        \ into CmdHist\n\n    # Conflicts:\n    #\tPSReadline/ConsoleHost_history.txt\n\
+        \    #\tcreate hard or softlink with powershell.ps1\n\ncommit 96f43a7538db6e2ab54b86f7249f0b4c5ead467d\n\
+        Merge: efefdda 4450a14\nAuthor: perXautomatik <christoffer.broback@gmail.com>\n\
+        Date:   Mon Sep 27 11:42:37 2021 +0200\n\n    Merge commit '4450a14078fbc553e10e4f7df1e059146bd85651'\
+        \ into CmdHist\n\n    # Conflicts:\n    #\tPSReadline/Windows PowerShell ISE\
+        \ Host_history.txt\n\ncommit efefddaad79c18419c3acab7d309151d477a72e5\nMerge:\
+        \ 5d5e32a 4876082\nAuthor: perXautomatik <christoffer.broback@gmail.com>\n\
+        Date:   Mon Sep 27 11:40:38 2021 +0200\n\n    Merge commit '48760825f7e36f6d5537d52d4aa0c0007726501b'\
+        \ into CmdHist\n\ncommit 5d5e32afc3037816a8b4779a4a0490a2eeb03260\nMerge:\
+        \ fa5ca0a 680b054\nAuthor: perXautomatik <christoffer.broback@gmail.com>\n\
+        Date:   Mon Sep 27 11:39:58 2021 +0200\n\n    Merge commit '680b054029af7160b26430823c69ae633346d063'\
+        \ into CmdHist\n\n    # Conflicts:\n    #\tPSReadline/ConsoleHost_history.txt\n\
+        \    #\tPSReadline/Windows PowerShell ISE Host_history.txt\n\ncommit fa5ca0a94a780a199f33abc0b82e6157939e4c55\n\
+        Author: perXautomatik <christoffer.broback@gmail.com>\nDate:   Mon Sep 27\
+        \ 11:31:39 2021 +0200\n\n    initial\n\ncommit f3fc9634a5778b12b5c5e2351fdc9250b56377f7\n\
+        Author: perXautomatik <christoffer.broback@gmail.com>\nDate:   Mon Sep 27\
+        \ 10:08:23 2021 +0200\n\n    fsdf\n\ncommit 637d9c1075463941a11bc00425fc9310de0243d1\n\
+        Author: perXautomatik <christoffer.broback@gmail.com>\nDate:   Fri Sep 24\
+        \ 12:28:28 2021 +0200\n\n    asd\n\ncommit 2503fb0e30a8714d0a93aeb707bb76212f92a878\n\
+        Author: perXautomatik <christoffer.broback@gmail.com>\nDate:   Mon Sep 20\
+        \ 08:52:12 2021 +0200\n\n    asda\n\ncommit b6be456b8e1ef816f2d53e6e4413bf11978c24e6\n\
+        Author: perXautomatik <christoffer.broback@gmail.com>\nDate:   Mon Sep 20\
+        \ 08:15:57 2021 +0200\n\n    sdf\n\ncommit 80e0f2bf6511ec23f5c29b451948ff23ef1af05c\n\
+        Author: perXautomatik <christoffer.broback@gmail.com>\nDate:   Sun Sep 19\
+        \ 16:15:45 2021 +0200\n\n    asd\n\ncommit 57e81ef041724221cd7db562e5413fa2fe9026ba\n\
+        Author: perXautomatik <christoffer.broback@gmail.com>\nDate:   Sun Sep 19\
+        \ 14:32:01 2021 +0200\n\n    Reorganized\n\ncommit ff8242e60515a6512a87fb086ea7e4c3c7880dca\n\
+        Author: perXautomatik <christoffer.broback@gmail.com>\nDate:   Sun Sep 19\
+        \ 14:05:41 2021 +0200\n\n    organizin\n\ncommit 6405954d0c36bdba707fc8905080db6fc4aef38d\n\
+        Author: perXautomatik <christoffer.broback@gmail.com>\nDate:   Sun Sep 19\
+        \ 13:10:07 2021 +0200\n\n    reorganized\n\ncommit eba8b2eb285313053c7c9ad6f8279f584e13f624\n\
+        Author: perXautomatik <christoffer.broback@gmail.com>\nDate:   Fri Sep 17\
+        \ 16:58:13 2021 +0200\n\n    more organizing, splitting up code\n\ncommit\
+        \ 287bb507dd35b3bc704a03e7df7bf30db129f359\nAuthor: perXautomatik <christoffer.broback@gmail.com>\n\
+        Date:   Fri Sep 17 16:47:15 2021 +0200\n\n    organizing code\n\ncommit 5835b2b301a7b4dad799a7cebfbfb028bee4db40\n\
+        Author: perXautomatik <christoffer.broback@gmail.com>\nDate:   Fri Sep 17\
+        \ 16:21:38 2021 +0200\n\n    where is the urls? i suppose it's stored in some\
+        \ sort of arrayNonArray\n\ncommit 715686ddbd0734019cbbf0b1aedc88a443855f1c\n\
+        Author: perXautomatik <christoffer.broback@gmail.com>\nDate:   Fri Sep 17\
+        \ 16:02:39 2021 +0200\n\n    maybe it got to do with powershell guessing what\
+        \ outputformat i want the ressult in, and that sqews the output accordingly\n\
+        \ncommit fd79160732cd0cf3c8203ecd831d91b43c29ae1a\nAuthor: perXautomatik <christoffer.broback@gmail.com>\n\
+        Date:   Fri Sep 17 15:52:51 2021 +0200\n\n    many things i don't understand,\
+        \ but i think it's due to powershell being built to execute in one line and\
+        \ thererfore strange eventually when writing blocks\n\ncommit e32ca4c815236550c938fb35d67848ebff5ee9dd\n\
+        Author: perXautomatik <christoffer.broback@gmail.com>\nDate:   Fri Sep 17\
+        \ 15:38:07 2021 +0200\n\n    it presents, but not how i'd like it\n\ncommit\
+        \ d707a09d0ffde0e23ba9feee6dee5a861f7cb0fb\nAuthor: perXautomatik <christoffer.broback@gmail.com>\n\
+        Date:   Fri Sep 17 15:36:16 2021 +0200\n\n    confusing\n\ncommit ddec72d22d1b6be45715e6ce03835e20beabaaf9\n\
+        Author: perXautomatik <christoffer.broback@gmail.com>\nDate:   Fri Sep 17\
+        \ 15:26:08 2021 +0200\n\n    suddenly don't parse each entry indevidually\n\
+        \ncommit e318b8839c1fef9418f69fe72f97d2141bdac434\nAuthor: perXautomatik <christoffer.broback@gmail.com>\n\
+        Date:   Fri Sep 17 15:01:24 2021 +0200\n\n    interesting\n\ncommit c1b6b2ac5d5198bdeba66310ae358b854643e585\n\
+        Author: perXautomatik <christoffer.broback@gmail.com>\nDate:   Fri Sep 17\
+        \ 14:45:59 2021 +0200\n\n    seems to recure properly now to printing\n\n\
+        commit d5dc5ef0f021aea86b07efac8e4c289c3a09a4e5\nAuthor: perXautomatik <christoffer.broback@gmail.com>\n\
+        Date:   Fri Sep 17 14:04:16 2021 +0200\n\n    branch on if collection rather\
+        \ than if 0\n\ncommit 2d904520bcb5d104d6744e9a0e5915720c026924\nAuthor: perXautomatik\
+        \ <christoffer.broback@gmail.com>\nDate:   Fri Sep 17 13:15:50 2021 +0200\n\
+        \n    asds\n\ncommit e2dce09bbe49feea568f77cefbc07fa92ed6a99c\nAuthor: perXautomatik\
+        \ <christoffer.broback@gmail.com>\nDate:   Fri Sep 17 12:54:31 2021 +0200\n\
+        \n    problems calling the external presentation method\n\ncommit 7d0755ca3cfb80c7025b12de155efcb5223cf738\n\
+        Author: perXautomatik <christoffer.broback@gmail.com>\nDate:   Fri Sep 17\
+        \ 11:52:53 2021 +0200\n\n    continued experiments, currently not working\n\
+        \ncommit 969cbb827ad1446c516b91d4591d1a4cb99c672a\nAuthor: perXautomatik <christoffer.broback@gmail.com>\n\
+        Date:   Fri Sep 17 10:40:37 2021 +0200\n\n    experimenting with recursive\
+        \ presentation, including passing functions as variables\n\ncommit 82623c8cfdad55299d0c7fb609db5ab7704721d0\n\
+        Author: perXautomatik <christoffer.broback@gmail.com>\nDate:   Fri Sep 17\
+        \ 10:01:45 2021 +0200\n\n    reorganized, removed dupe\n\ncommit 4fa94b62611240115720ea2d2ebc4dc4881da817\n\
+        Author: perXautomatik <christoffer.broback@gmail.com>\nDate:   Fri Sep 17\
+        \ 10:01:17 2021 +0200\n\n    retored files from f874d40275761cf2039c3e510a299b64012b3609\n\
+        \ncommit f90323263252895e96f57896a4570a281bca25e5\nAuthor: perXautomatik <christoffer.broback@gmail.com>\n\
+        Date:   Fri Sep 17 09:56:38 2021 +0200\n\n    bout to restore\n\ncommit a0723d1354eceb903ac8e5bd0722e2c53e9bd4c1\n\
+        Author: perXautomatik <christoffer.broback@gmail.com>\nDate:   Thu Sep 16\
+        \ 14:07:34 2021 +0200\n\n    Revert \"Merge branch 'master' of https://github.com/perXautomatik/PowerShell-Scripts\"\
+        \n\n    This reverts commit 0c83539d044aed7879f9c246f0d3b8edf2b70b71, reversing\n\
+        \    changes made to 7726bf0cae62e36246af2f256ffa16e49485b0d6.\n\ncommit 0c83539d044aed7879f9c246f0d3b8edf2b70b71\n\
+        Merge: 7726bf0 12e2cb8\nAuthor: perXautomatik <christoffer.broback@gmail.com>\n\
+        Date:   Thu Sep 16 14:04:55 2021 +0200\n\n    Merge branch 'master' of https://github.com/perXautomatik/PowerShell-Scripts\n\
+        \ncommit 7726bf0cae62e36246af2f256ffa16e49485b0d6\nAuthor: perXautomatik <christoffer.broback@gmail.com>\n\
+        Date:   Thu Sep 16 14:04:32 2021 +0200\n\n    dasd\n\ncommit 12e2cb8e4243789a0fcc8ace68388a6f317c7c0d\n\
+        Author: perXautomatik <christoffer.broback@gmail.com>\nDate:   Thu Sep 16\
+        \ 14:01:52 2021 +0200\n\n    fsdf\n\ncommit 15bccab9f99ba7022ff5be46ff158c232037e25a\n\
+        Merge: 18beed9 f1a2f74\nAuthor: perXautomatik <christoffer.broback@gmail.com>\n\
+        Date:   Thu Sep 16 14:01:39 2021 +0200\n\n    Merge branch 'master' of https://github.com/perXautomatik/PowerShell-Scripts\n\
+        \ncommit 18beed9acf2b6db9c2e6fb8f9655e60e9b32e2f2\nAuthor: perXautomatik <christoffer.broback@gmail.com>\n\
+        Date:   Thu Sep 16 14:01:12 2021 +0200\n\n    asdasd\n\ncommit b746e87245d1d7b1ec83c60919d6e781cd23d5aa\n\
+        Author: perXautomatik <christoffer.broback@gmail.com>\nDate:   Thu Sep 16\
+        \ 13:54:00 2021 +0200\n\n    asd\n\ncommit 89e85a546da142b7802f7a0388e61e1eeec9033d\n\
+        Author: perXautomatik <christoffer.broback@gmail.com>\nDate:   Thu Sep 16\
+        \ 13:53:20 2021 +0200\n\n    asd\n\ncommit d313050d6e92ff85319913036a9e980f61600429\n\
+        Author: perXautomatik <christoffer.broback@gmail.com>\nDate:   Thu Sep 16\
+        \ 13:45:45 2021 +0200\n\n    dasdsa\n\ncommit a6587c76e443dea048b8c5efeb9feb9918f39461\n\
+        Author: perXautomatik <christoffer.broback@gmail.com>\nDate:   Thu Sep 16\
+        \ 13:43:29 2021 +0200\n\n    dasd\n\ncommit d1e9663ed74253bbae8cba85df39ae51776f9484\n\
+        Author: perXautomatik <christoffer.broback@gmail.com>\nDate:   Thu Sep 16\
+        \ 13:42:40 2021 +0200\n\n    sdf\n\ncommit 0e2c6f2f921dcb24877d77c61c87ed7693f085de\n\
+        Author: perXautomatik <christoffer.broback@gmail.com>\nDate:   Thu Sep 16\
+        \ 13:36:55 2021 +0200\n\n    asdsd\n\ncommit 024a9b013214e4b7fc5d7302b09f4ee2d4801ea4\n\
+        Author: perXautomatik <christoffer.broback@gmail.com>\nDate:   Thu Sep 16\
+        \ 13:34:51 2021 +0200\n\n    asd\n\ncommit f1a2f743e62355699622ff563506bdd7942174e4\n\
+        Author: perXautomatik <christoffer.broback@gmail.com>\nDate:   Thu Sep 16\
+        \ 13:34:41 2021 +0200\n\n    asd\n\ncommit 1be0df184d24a74056754dbfcce1d55d3bcc51f6\n\
+        Author: perXautomatik <christoffer.broback@gmail.com>\nDate:   Thu Sep 16\
+        \ 13:25:14 2021 +0200\n\n    some reprganisation\n\ncommit 4f3784b3161edfdb3927a755441eb5dbe1e47c59\n\
+        Author: perXautomatik <christoffer.broback@gmail.com>\nDate:   Thu Sep 16\
+        \ 12:35:30 2021 +0200\n\n    getting up to date with files\n\ncommit d6e93516942767033c4724ec1d8d09ccd8ef1245\n\
+        Author: perXautomatik <christoffer.broback@gmail.com>\nDate:   Thu Sep 16\
+        \ 12:34:38 2021 +0200\n\n    CleanedUp, Moved to other branch\n\ncommit bcfc5922eeabbde1bf848471b012ded08d8af43b\n\
+        Author: perXautomatik <christoffer.broback@gmail.com>\nDate:   Thu Sep 16\
+        \ 12:26:53 2021 +0200\n\n    asdasd\n\ncommit d2f8dcaa2428276f7647717c9dd31ee774169778\n\
+        Author: perXautomatik <christoffer.broback@gmail.com>\nDate:   Thu Sep 16\
+        \ 12:26:21 2021 +0200\n\n    sdf\n\ncommit e3ece016f366c9b0af247843cbf5d29ce8e4cfcf\n\
+        Author: perXautomatik <christoffer.broback@gmail.com>\nDate:   Thu Sep 16\
+        \ 12:25:35 2021 +0200\n\n    dsdf\n\ncommit 495f68e98b2166b0cd0fb419f44c0039c5ef039a\n\
+        Author: perXautomatik <christoffer.broback@gmail.com>\nDate:   Thu Sep 16\
+        \ 12:24:45 2021 +0200\n\n    Only modules\n\ncommit 692a7a84b386a1ed0bd8167b6af1df2fa07cd85b\n\
+        Author: perXautomatik <christoffer.broback@gmail.com>\nDate:   Thu Sep 16\
+        \ 12:17:35 2021 +0200\n\n    restored\n\ncommit 413effc923c3229e9d6b310508112fa89b23bb74\n\
+        Author: perXautomatik <christoffer.broback@gmail.com>\nDate:   Thu Sep 16\
+        \ 12:16:57 2021 +0200\n\n    yaml ConsoleHost_history.txt\n\ncommit e5d797043d1b9c0586d0fd64b4191bd15695dcea\n\
+        Author: perXautomatik <christoffer.broback@gmail.com>\nDate:   Thu Sep 16\
+        \ 12:14:34 2021 +0200\n\n    restored corrupted content (splitting it of and\
+        \ letting bcompare identify)\n\ncommit a86b99819d854df786ff920bbb1a557737b02edd\n\
+        Author: perXautomatik <christoffer.broback@gmail.com>\nDate:   Thu Sep 16\
+        \ 12:10:19 2021 +0200\n\n    added more old\n\ncommit 1173f2629e3ee3a32c253e94b37a8d185a24033a\n\
+        Author: perXautomatik <christoffer.broback@gmail.com>\nDate:   Thu Sep 16\
+        \ 12:07:41 2021 +0200\n\n    oldVersion\n\ncommit 18e1c4b882caa61411eecb2c67153109ebc54926\n\
+        Author: perXautomatik <christoffer.broback@gmail.com>\nDate:   Thu Sep 16\
+        \ 12:06:38 2021 +0200\n\n    CleanUp\n\ncommit 0f07f69a93c12a8e8858e9caf1ad87249850f3d7\n\
+        Author: perXautomatik <christoffer.broback@gmail.com>\nDate:   Thu Sep 16\
+        \ 12:01:04 2021 +0200\n\n    Organized\n\ncommit be1eac9e6473e917326600981eeb35255a362eb2\n\
+        Merge: 4163eb4 6b6505f\nAuthor: perXautomatik <christoffer.broback@gmail.com>\n\
+        Date:   Thu Sep 16 11:59:22 2021 +0200\n\n    Merge branch 'master' of https://github.com/perXautomatik/PowerShellCmdHist\n\
+        \n    # Conflicts:\n    #\tPowershell-CreateTouchedFile\n    #\tpowershell-GroupIntoFolder\n\
+        \ncommit 4163eb4b29750c3801a3afa3585e3a69ff9126ce\nAuthor: perXautomatik <christoffer.broback@gmail.com>\n\
+        Date:   Thu Sep 16 11:56:36 2021 +0200\n\n    from work2\n\ncommit 3e426a8fcf85f3c7b1fa591de5098df39c33913f\n\
+        Author: perXautomatik <christoffer.broback@gmail.com>\nDate:   Thu Sep 16\
+        \ 09:22:03 2021 +0200\n\n    Merged with work branch\n\ncommit 16986c6f64758d220b0123734a0a08ae17bafa67\n\
+        Author: perXautomatik <christoffer.broback@gmail.com>\nDate:   Thu Sep 16\
+        \ 09:14:47 2021 +0200\n\n    older commit, including tidyHistory.ps1\n\ncommit\
+        \ 64ef268f96e00892ded4526cb6256faa8a5a2145\nAuthor: perXautomatik <christoffer.broback@gmail.com>\n\
+        Date:   Thu Sep 16 09:13:07 2021 +0200\n\n    caught up with main\n\ncommit\
+        \ 2fa23229db39037b59b07bab6c248c8c71fc1fa0\nAuthor: perXautomatik <christoffer.broback@gmail.com>\n\
+        Date:   Thu Sep 16 09:10:10 2021 +0200\n\n    merge with old\n\ncommit 3cf3ab4e555c3716e8906b8d8e8e5463ecebdc10\n\
+        Author: cb <christoffer.broback@gmail.com>\nDate:   Wed Sep 15 21:06:05 2021\
+        \ +0200\n\n    organized\n\ncommit 0f8543aaf5ad003a1a81552e16f774b320a2d7b0\n\
+        Author: cb <christoffer.broback@gmail.com>\nDate:   Wed Sep 15 20:27:24 2021\
+        \ +0200\n\n    asd\n\ncommit 0d044a85c6a1b99085f4b7b5e4a67bba62d8beca\nAuthor:\
+        \ cb <christoffer.broback@gmail.com>\nDate:   Wed Sep 15 20:15:10 2021 +0200\n\
+        \n    Restored from old Forks\n\ncommit afc884ebed50790d909a0aad60d6f8021f44c347\n\
+        Author: cb <christoffer.broback@gmail.com>\nDate:   Wed Sep 15 19:56:34 2021\
+        \ +0200\n\n    NowMergedWithWork\n\ncommit 4b2f65ff22e16aedd65d972eeba45536a30ee90d\n\
+        Author: cb <christoffer.broback@gmail.com>\nDate:   Wed Sep 15 19:44:20 2021\
+        \ +0200\n\n    trying to merge work with home\n\ncommit bbc6b2eec53f1984c58505112a1270a6c60b4a38\n\
+        Author: cb <christoffer.broback@gmail.com>\nDate:   Wed Sep 15 19:33:49 2021\
+        \ +0200\n\n    home\n\ncommit 3042c1194f3a71aceb12a4fe60f2feeb5e6f55d7\nAuthor:\
+        \ cb <christoffer.broback@gmail.com>\nDate:   Thu Aug 5 10:41:07 2021 +0200\n\
+        \n    initial\n\ncommit 6b6505fcd4825ab26c91be8795b4b195b29336dd\nAuthor:\
+        \ cb <christoffer.broback@gmail.com>\nDate:   Wed Sep 15 19:33:49 2021 +0200\n\
+        \n    home\n\ncommit 624b8451d6a324335ed60d3eedc8ef193aaab78b\nAuthor: perXautomatik\
+        \ <christoffer.broback@gmail.com>\nDate:   Wed Sep 15 17:23:00 2021 +0200\n\
+        \n    now with submodules\n\ncommit 847bd620bb4f7354c27a0347fb4e880ef8b14700\n\
+        Author: perXautomatik <christoffer.broback@gmail.com>\nDate:   Wed Sep 15\
+        \ 17:13:33 2021 +0200\n\n    sadasd\n\ncommit a31eee356aba922fc9056aecac9aa1b26f8e5c9a\n\
+        Author: perXautomatik <christoffer.broback@gmail.com>\nDate:   Wed Sep 15\
+        \ 17:12:59 2021 +0200\n\n    sdasd\n\ncommit 153206035b71666a4a0aafbc282b87f07942cbe9\n\
+        Author: perXautomatik <christoffer.broback@gmail.com>\nDate:   Wed Sep 15\
+        \ 17:10:09 2021 +0200\n\n    organizing, before merge with other repo\n\n\
+        commit 77303a250aeb0aecb106f89a4c337ba95d07b4cd\nMerge: 67d731c 7c2b782\n\
+        Author: perXautomatik <christoffer.broback@gmail.com>\nDate:   Wed Sep 15\
+        \ 17:07:32 2021 +0200\n\n    Merge branch 'master' of https://github.com/perXautomatik/PowerShell-and-bash\n\
+        \n    # Conflicts:\n    #\tGroupIntoFolder.ps1\n\ncommit 67d731c8236c3dd90115a8da33a9ff8961af8ad5\n\
+        Author: perXautomatik <christoffer.broback@gmail.com>\nDate:   Wed Sep 15\
+        \ 17:04:40 2021 +0200\n\n    asdas\n\ncommit f874d40275761cf2039c3e510a299b64012b3609\n\
+        Author: perXautomatik <christoffer.broback@gmail.com>\nDate:   Wed Sep 15\
+        \ 16:12:15 2021 +0200\n\n    buckets & piechart\n\ncommit e97275f1907b43f6c5c5897d7ea71e043367d815\n\
+        Author: perXautomatik <christoffer.broback@gmail.com>\nDate:   Wed Sep 15\
+        \ 14:36:12 2021 +0200\n\n    sads\n\ncommit 968edfc03e4ca1be775a7e433d1e07adb93e14e2\n\
+        Author: perXautomatik <christoffer.broback@gmail.com>\nDate:   Wed Sep 15\
+        \ 14:35:35 2021 +0200\n\n    sadsa\n\ncommit 3fdefa58d2e3a7e367e06488a0b2bbc5b97dba0a\n\
+        Author: perXautomatik <christoffer.broback@gmail.com>\nDate:   Wed Sep 15\
+        \ 14:34:42 2021 +0200\n\n    Reorganized\n\ncommit 7722f0d747f1ed6dc096123667fbd8585c2088b8\n\
+        Author: perXautomatik <christoffer.broback@gmail.com>\nDate:   Thu Sep 9 07:59:47\
+        \ 2021 +0200\n\n    organization\n\ncommit fbe9eb3507437063e4689a67f6727e20e2892ffe\n\
+        Merge: 51fffb9 ed71130\nAuthor: cb <christoffer.broback@gmail.com>\nDate:\
+        \   Thu Aug 5 11:07:42 2021 +0200\n\n    Merge remote-tracking branch 'remotes/origin/work'\n\
+        \n    # Conflicts:\n    #\tUntitled1.ps1\n    #\tUntitled5.ps1\n\ncommit 51fffb9417a8f0a8bf1047d9f8e0d8a3b116ead2\n\
+        Author: cb <christoffer.broback@gmail.com>\nDate:   Thu Aug 5 10:41:07 2021\
+        \ +0200\n\n    initial\n\ncommit ed711303727d6512c9236b555315a6ed4430deb9\n\
+        Author: perXautomatik <christoffer.broback@gmail.com>\nDate:   Wed Aug 4 15:02:33\
+        \ 2021 +0200\n\n    springcleaning\n\ncommit a471816df1b7e6f63bbbeacf5445a9afdf964485\n\
+        Author: perXautomatik <christoffer.broback@gmail.com>\nDate:   Tue Apr 20\
+        \ 17:17:44 2021 +0200\n\n    dasådasd\n\ncommit 7c2b7821305e5e0e9db98848c80b49ea19484817\n\
+        Author: perXautomatik <christoffer.broback@gmail.com>\nDate:   Sun Nov 22\
+        \ 03:02:15 2020 +0100\n\n    HomeFolder\n\ncommit 3f852eba35953423e2e45feff4dcbf2df482c508\n\
+        Author: perXautomatik <christoffer.broback@gmail.com>\nDate:   Wed Oct 21\
+        \ 11:01:10 2020 +0200\n\n    trying to improve the tidyHistory.ps1\n\ncommit\
+        \ 5fdf88cf728768312963bc985f57c717d076fc5b\nAuthor: perXautomatik <christoffer.broback@gmail.com>\n\
+        Date:   Wed Oct 21 10:59:17 2020 +0200\n\n    trying to access history from\
+        \ powershell ise\n\ncommit 5c3a5f0e4345796a2222507434a2c27d7d5cab03\nAuthor:\
+        \ perXautomatik <christoffer.broback@gmail.com>\nDate:   Thu Oct 15 16:14:46\
+        \ 2020 +0200\n\n    some altering\n\ncommit 4450a14078fbc553e10e4f7df1e059146bd85651\n\
+        Author: perXautomatik <christoffer.broback@gmail.com>\nDate:   Thu Oct 15\
+        \ 15:25:57 2020 +0200\n\n    seems to work\n\ncommit 48760825f7e36f6d5537d52d4aa0c0007726501b\n\
+        Merge: 680b054 78ecb22\nAuthor: perXautomatik <christoffer.broback@gmail.com>\n\
+        Date:   Thu Oct 15 15:25:17 2020 +0200\n\n    Merge branch 'work' of https://github.com/perXautomatik/PowerShellCmdHist\
+        \ into work\n\n    # Conflicts:\n    #\tPSReadline/ConsoleHost_history.txt\n\
+        \ncommit 680b054029af7160b26430823c69ae633346d063\nAuthor: perXautomatik <christoffer.broback@gmail.com>\n\
+        Date:   Thu Oct 15 15:19:50 2020 +0200\n\n    moved to C:\\Users\\crbk01\\\
+        OneDrive - Region Gotland\\WindowsPowerShell\n    now with junction\n\ncommit\
+        \ 78ecb228d04a6c13f3214abd83c666ee3c6855da\nAuthor: perXautomatik <christoffer.broback@gmail.com>\n\
+        Date:   Thu Oct 15 15:19:50 2020 +0200\n\n    moved to C:\\Users\\crbk01\\\
+        OneDrive - Region Gotland\\WindowsPowerShell\n\ncommit 99613dc5cfd004f6a8413d721c5d4f0d43f776ef\n\
+        Author: perXautomatik <christoffer.broback@gmail.com>\nDate:   Thu Oct 15\
+        \ 15:18:47 2020 +0200\n\n    dirty\n\ncommit d5eaf3c41bbee43cff4c6743fbf06829a9bc70a0\n\
+        Author: perXautomatik <christoffer.broback@gmail.com>\nDate:   Thu Oct 15\
+        \ 13:49:35 2020 +0200\n\n    adasd\n\ncommit 7e3ced384aaf9bda9c93d8942917d646c64395c9\n\
+        Author: perXautomatik <christoffer.broback@gmail.com>\nDate:   Thu Apr 2 01:37:31\
+        \ 2020 +0200\n\n    Revert \"reorganization\"\n\n    This reverts commit c69676e92040f99936c59b8681b60b700d0b93d3.\n\
+        \ncommit 931f9efc80dd6adaa6780de65a4eafa77e835a5a\nAuthor: perXautomatik <christoffer.broback@gmail.com>\n\
+        Date:   Thu Apr 2 01:25:12 2020 +0200\n\n    dasdas\n\ncommit 006e03b5c40f85f482ee129d6226facf1db142d2\n\
+        Author: perXautomatik <christoffer.broback@gmail.com>\nDate:   Thu Apr 2 01:04:18\
+        \ 2020 +0200\n\n    asdas\n\ncommit 9f5082aceef298fe7709ba9a7c439520a41f864f\n\
+        Author: perXautomatik <christoffer.broback@gmail.com>\nDate:   Mon Mar 30\
+        \ 18:10:39 2020 +0200\n\n    gone\n\ncommit 5fa75fc9f1e701454bb319855907137a9636d8ab\n\
+        Author: perXautomatik <christoffer.broback@gmail.com>\nDate:   Mon Mar 30\
+        \ 18:07:35 2020 +0200\n\n    Merged at home\n\ncommit 313aecc299d3906b740210b65d67a14b72a5fad2\n\
+        Author: perXautomatik <christoffer.broback@gmail.com>\nDate:   Mon Mar 30\
+        \ 17:05:52 2020 +0200\n\n    Join with Vscode\n\ncommit c192520b4b0a5d90483258d9d6aa6a4d79414682\n\
+        Author: perXautomatik <christoffer.broback@gmail.com>\nDate:   Thu Feb 20\
+        \ 09:52:31 2020 +0100\n\n    Create ConsoleHost_history.txt\n\ncommit 1ecaeed56eebae7358f2e8942c78fe58d03036c6\n\
+        Author: perXautomatik <christoffer.broback@gmail.com>\nDate:   Mon Jan 6 21:30:22\
+        \ 2020 +0100\n\n    Update GroupIntoFolder.ps1\n\ncommit e48ef8e7cd878f383d0ac14697e2a544776698e3\n\
+        Author: perXautomatik <christoffer.broback@gmail.com>\nDate:   Wed Oct 30\
+        \ 16:19:19 2019 +0100\n\n    Update GroupIntoFolder.ps1\n\ncommit c69676e92040f99936c59b8681b60b700d0b93d3\n\
+        Author: perXautomatik <christoffer.broback@gmail.com>\nDate:   Mon Oct 28\
+        \ 14:47:50 2019 +0100\n\n    reorganization\n\ncommit 52b25e3843210264374ee825f0ecbf47c5218b67\n\
+        Author: perXautomatik <christoffer.broback@gmail.com>\nDate:   Mon Oct 28\
+        \ 14:43:10 2019 +0100\n\n    firstCommit\n\ncommit 99ce6e5bf9f17af556852aa5b4a65bdfa285f1f6\n\
+        Author: perXautomatik <christoffer.broback@gmail.com>\nDate:   Mon Oct 28\
+        \ 14:42:17 2019 +0100\n\n    Initial commit\n\ndfdfs\n\nNobranch\n\nupdated\
+        \ false module name,moved irrelevant back to script root\n\n[chore] submodule\
+        \ readding:\nas submodule forked-sysadmin\nas submodule my-windows\nforgot\
+        \ about forked-sysadmin\nas submodule forked-sysadmin\nas submodule TakeOwnerShip\n\
+        forgot about my-windows\nas submodule my-windows\n\n[feature] added some usefule\
+        \ scripts\n[chore] fixing submodules\n\n# Conflicts:\n#\tmy-windows\n\nOrganized\
+        \ before merge with Buckets\n\n# Conflicts:\n#\t.gitmodules\n\n- forked-sysadmin\n\
+        \n+ Pwsh"
+    journal: {}
+  rootB:\Users\target\Documents\PowerShell\xScripts\AllowAccessWindowsDefender:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1697721399988}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\Users\target\Documents\PowerShell\xScripts\Fork\DiagramPswriteHtml:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1697721399897}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\Users\target\Documents\PowerShell\xScripts\Fork\ExportChromeBook:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1697721399942}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\Users\target\Documents\PowerShell\xScripts\GetInstalled:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1697721400081}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\Users\target\Documents\PowerShell\xScripts\TodoProjects\Ast-IdentifyCodeBlocks:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1697721400036}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\Users\target\Documents\PowerShell\xScripts\scripts\AllowAccessWindowsDefender:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1697721416089}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\Users\target\Documents\PowerShell\xScripts\scripts\Export-Inst-Choco:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1697721416138}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\Users\target\Documents\PowerShell\xScripts\scripts\GetInstalled:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1697721416327}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\Users\target\Documents\PowerShell\xScripts\scripts\Pwsh:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1697721416235}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\Users\target\Documents\PowerShell\xScripts\scripts\TakeOwnerShip:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1697721416188}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\Users\target\Documents\PowerShell\xScripts\scripts\powershellAliasesUserProfile:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1697721416281}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\Users\target\Documents\PowerShell\xScripts\Fork\ExportChromeExtensions:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1697721427514}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\Users\target\Documents\PowerShell\xScripts\Fork\xml2Csv:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1697721427462}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes:
+      commitNotesHistory: [aha]
+    journal: {}
+  rootB:\Users\target\Documents\PowerShell\xScripts\git\BreakRepoIntoTwo\fork\6387904f5666f83f401afed94a869379:
+    databaseCleanup: {lastKnownTimeWhereRepositoryWasOK: 1697721427406}
+    log:
+      rootSettings: {}
+      fileFilterConfiguration: {}
+    merge:
+      logRootSettings: {}
+    push: {}
+    commitNotes: {}
+    journal: {}
+  rootB:\PF\.git\modules\projectFolderBare:
+    databaseCleanup: {}
+    log:
+      rootSettings: {baseRoots: "!local-branches://\t!remote://origin\tref://HEAD",
+        extendedRoots: '!stashes://'}
       fileFilterConfiguration: {}
     merge:
       logRootSettings: {}

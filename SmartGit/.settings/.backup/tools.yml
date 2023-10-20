@@ -45,10 +45,24 @@ tools:
   waitUntilFinished: false
   filePattern: '*'
   confirmationMessage: --cd=${repositoryRootPath} -c "git rm --cached -r ${fileName}"
-- name: Add Remote From Clipboard
-  fileStarter: {command: powershell.exe, parameters: 'cd "${filePath}" ; git remote
-      add origin (get-clipboard) ; git fetch --all ;  git checkout --track remotes/origin/master'}
-  useForOpen: true
+- name: Open GitDir
+  fileStarter: {command: powershell.exe, parameters: 'set-location "${repositoryRootPath}"
+      ; $pathx = invoke-expression ''git rev-parse --git-dir'' ; explorer ( resolve-path
+      "$pathx" )'}
+  useForOpen: false
+  waitUntilFinished: false
+  filePattern: '*'
+- name: Analyze with Git-FilterRepo
+  fileStarter: {command: powershell.exe, parameters: 'set-location "${repositoryRootPath}"
+      ; git filter-repo --analyze --force'}
+  useForOpen: false
+  waitUntilFinished: true
+  filePattern: '*'
+- name: Set Remote Origin From Clipboard
+  fileStarter: {command: powershell.exe, parameters: 'set-location "${repositoryRootPath}"
+      ; git remote add origin (get-clipboard) ; git fetch --all ;  git checkout --track
+      remotes/origin/master'}
+  useForOpen: false
   waitUntilFinished: false
   filePattern: '*'
 - name: path to clipboard
@@ -90,6 +104,12 @@ tools:
   fileStarter: {command: 'C:\Program Files\TortoiseGit\bin\TortoiseGitProc.exe', parameters: '/command:revisiongraph
       /path ${filePath}'}
   useForOpen: true
+  waitUntilFinished: false
+  filePattern: '*'
+- name: Settingss TGit
+  fileStarter: {command: 'C:\Program Files\TortoiseGit\bin\TortoiseGitProc.exe', parameters: '/command:Settings
+      /path ${filePath}'}
+  useForOpen: false
   waitUntilFinished: false
   filePattern: '*'
 - name: sync with TGit

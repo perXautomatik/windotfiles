@@ -87,6 +87,11 @@
     "scoop install Weidows-projects_scoop-3rd/Dependency-Walker": 1,
     "scoop install anaconda": 1,
     "user.pictures": 1,
-    "sudo scoop install anderlli0053_DEV-tools/scoop-check": 1
+    "sudo scoop install anderlli0053_DEV-tools/scoop-check": 1,
+    "regjump \u0027{10A0FDD2-B0C0-4CD4-A7AE-E594CE3B91C8}\u0027": 1,
+    "scoop install DiskInfo": 2,
+    "scoop install extras/ndm": 1,
+    "choco install watchman": 1,
+    "choco uninstall watchman": 1
   }
 }

@@ -9,6 +9,7 @@
 	menu(title='New File' image=icon.new_file)
 	{
 		var { dt = sys.datetime("ymdHMSs")}
+		item(title='Git' cmd=io.file.create('.git', 'gitdir: '))
 		item(title='TXT' cmd=io.file.create('@(dt).txt', 'Hello World!'))
 		item(title='XML' cmd=io.file.create('@(dt).xml', '<root>Hello World!</root>'))
 		item(title='JSON' cmd=io.file.create('@(dt).json', '[]'))

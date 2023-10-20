@@ -1,2 +1,6 @@
-2023-10-08 18:06:36.511 - INFO    - Beeftext started.
-2023-10-08 18:06:36.511 - INFO    - Build info: Visual Studio 2022 - Release (64bit) - Qt v6.4.1
+2023-10-19 19:42:54.601 - INFO    - Beeftext started.
+2023-10-19 19:42:54.601 - INFO    - Build info: Visual Studio 2022 - Release (64bit) - Qt v6.4.1
+2023-10-20 14:36:54.561 - INFO    - Update check started. Installed version is Beeftext 16.0.
+2023-10-20 14:36:54.974 - INFO    - Downloaded latest version information. Latest version is Beeftext 16.0.
+2023-10-20 14:36:54.975 - INFO    - No new version is available.
+2023-10-20 14:36:54.975 - INFO    - Update check ended.

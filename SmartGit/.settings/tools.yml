@@ -56,9 +56,9 @@ tools:
   fileStarter: {command: powershell.exe, parameters: 'set-location "${repositoryRootPath}"
       ; git filter-repo --analyze --force'}
   useForOpen: false
-  waitUntilFinished: false
+  waitUntilFinished: true
   filePattern: '*'
-- name: Add Remote From Clipboard
+- name: Set Remote Origin From Clipboard
   fileStarter: {command: powershell.exe, parameters: 'set-location "${repositoryRootPath}"
       ; git remote add origin (get-clipboard) ; git fetch --all ;  git checkout --track
       remotes/origin/master'}
@@ -104,6 +104,12 @@ tools:
   fileStarter: {command: 'C:\Program Files\TortoiseGit\bin\TortoiseGitProc.exe', parameters: '/command:revisiongraph
       /path ${filePath}'}
   useForOpen: true
+  waitUntilFinished: false
+  filePattern: '*'
+- name: Settingss TGit
+  fileStarter: {command: 'C:\Program Files\TortoiseGit\bin\TortoiseGitProc.exe', parameters: '/command:Settings
+      /path ${filePath}'}
+  useForOpen: false
   waitUntilFinished: false
   filePattern: '*'
 - name: sync with TGit

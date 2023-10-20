@@ -20,8 +20,10 @@ toolbars:
     - {id: annotate}
     - {id: investigate}
     - {stretching: true}
-    - {id: flowContext}
-    - {stretching: false}
+    - {id: ignore}
+    - {id: flowIntegrateDevelop}
+    - {id: log}
+    - {id: windowLayoutSetReview}
     - {id: merge}
     - {id: rebaseHeadTo}
     textBelowIcon: true

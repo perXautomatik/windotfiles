@@ -1,134 +1,91 @@
-header: {started: 1694607870521, uid: 3OVVOEten4s, licenseType: foundation, build: 19285,
-  os: windows+10, osv: '10.0', transferred: 1694607870521}
+header: {started: 1697202260364, uid: 3OVVOEten4s, licenseType: foundation, build: 19285,
+  os: windows+10, osv: '10.0', transferred: 1697202260364}
 stats:
-  action.stage: {invocations: 263, invocationLast: 20231007, invocationDays: 17}
-  changesview.syntax.<unknown>: {invocations: 1823, invocationLast: 20231007, invocationDays: 17}
-  toolbar.main.action.commit: {invocations: 224, invocationLast: 20231007, invocationDays: 14}
-  action.commit: {invocations: 246, invocationLast: 20231007, invocationDays: 17}
-  action.submoduleInit: {invocations: 85, invocationLast: 20231006, invocationDays: 9}
-  action.discard: {invocations: 11, invocationLast: 20231007, invocationDays: 5}
-  action.resolveTheirs: {invocations: 9, invocationLast: 20230926, invocationDays: 3}
-  action.refresh: {invocations: 50, invocationLast: 20231007, invocationDays: 11}
-  action.submoduleRegister: {invocations: 181, invocationLast: 20231007, invocationDays: 14}
-  action.submoduleUnregister: {invocations: 6, invocationLast: 20230913, invocationDays: 1}
-  action.remove: {invocations: 31, invocationLast: 20230928, invocationDays: 4}
-  action.rename: {invocations: 48, invocationLast: 20230921, invocationDays: 4}
-  changesview.syntax.json: {invocations: 17, invocationLast: 20231007, invocationDays: 5}
-  action.remoteRename: {invocations: 10, invocationLast: 20230924, invocationDays: 2}
-  changesview.syntax.shell script: {invocations: 12, invocationLast: 20231006, invocationDays: 5}
-  changesview.syntax.yaml: {invocations: 14, invocationLast: 20231006, invocationDays: 8}
-  window.conflictSolver: {invocations: 5, invocationLast: 20231004, invocationDays: 3}
-  changesview.syntax.xml: {invocations: 144, invocationLast: 20231002, invocationDays: 9}
-  action.unstage: {invocations: 40, invocationLast: 20231004, invocationDays: 12}
-  repo.opens.wt: {invocations: 305, invocationLast: 20231007, invocationDays: 16}
-  repo.opens.wt.files.0: {invocations: 23, invocationLast: 20231007, invocationDays: 10}
-  repo.opens.wt.submodules.0: {invocations: 284, invocationLast: 20231007, invocationDays: 16}
-  repo.opens.wt.config: {invocations: 305, invocationLast: 20231007, invocationDays: 16}
-  repo.opens.wt.config.ignoreCase.true: {invocations: 304, invocationLast: 20231007,
-    invocationDays: 16}
-  repo.opens.wt.config.lfsEnabled.true: {invocations: 68, invocationLast: 20231007,
-    invocationDays: 8}
-  repo.opens.wt.config.evaluateLfsState.true: {invocations: 305, invocationLast: 20231007,
-    invocationDays: 16}
-  repo.opens.wt.config.actuallyEvaluateLfsState.true: {invocations: 68, invocationLast: 20231007,
-    invocationDays: 8}
-  repo.opens.type.git: {invocations: 305, invocationLast: 20231007, invocationDays: 16}
-  action.copyPath: {invocations: 2, invocationLast: 20231007, invocationDays: 2}
-  repo.opens.wt.files.0-1000: {invocations: 253, invocationLast: 20231007, invocationDays: 16}
-  repo.opens.wt.config.lfsEnabled.false: {invocations: 237, invocationLast: 20231007,
-    invocationDays: 16}
-  repo.opens.wt.config.actuallyEvaluateLfsState.false: {invocations: 237, invocationLast: 20231007,
-    invocationDays: 16}
-  changesview.syntax.c#: {invocations: 1727, invocationLast: 20231004, invocationDays: 10}
-  changesview.syntax.javascript/typescript: {invocations: 3, invocationLast: 20231007,
+  started: {invocations: 3, invocationLast: 20231017, invocationDays: 2}
+  system.os: {invocations: 3, invocationLast: 20231017, invocationDays: 2}
+  system.os.name.windows+10: {invocations: 3, invocationLast: 20231017, invocationDays: 2}
+  system.os.version.windows+10/10.0: {invocations: 3, invocationLast: 20231017, invocationDays: 2}
+  system.java.version.17.0.2: {invocations: 3, invocationLast: 20231017, invocationDays: 2}
+  i18n.locale.<null>: {invocations: 3, invocationLast: 20231017, invocationDays: 2}
+  preferences.mainWindow.wt: {invocations: 3, invocationLast: 20231017, invocationDays: 2}
+  preferences.theme.auto: {invocations: 3, invocationLast: 20231017, invocationDays: 2}
+  window.wt: {invocations: 3, invocationLast: 20231017, invocationDays: 2}
+  repo.opens.wt: {invocations: 75, invocationLast: 20231019, invocationDays: 3}
+  repo.opens.wt.files.0-1000: {invocations: 68, invocationLast: 20231019, invocationDays: 3}
+  repo.opens.wt.submodules.0: {invocations: 60, invocationLast: 20231019, invocationDays: 3}
+  repo.opens.wt.config: {invocations: 75, invocationLast: 20231019, invocationDays: 3}
+  repo.opens.wt.config.ignoreCase.true: {invocations: 73, invocationLast: 20231019,
     invocationDays: 3}
-  action.delete: {invocations: 78, invocationLast: 20231001, invocationDays: 4}
-  toolbar.main.action.stashApply: {invocations: 1, invocationLast: 20230914, invocationDays: 1}
-  action.stashApply: {invocations: 1, invocationLast: 20230914, invocationDays: 1}
-  repo.opens.wt.submodules.1-2: {invocations: 8, invocationLast: 20231006, invocationDays: 6}
-  action.viewUnchanged: {invocations: 8, invocationLast: 20230928, invocationDays: 6}
-  changesview.syntax.properties: {invocations: 1, invocationLast: 20230914, invocationDays: 1}
-  changesview.syntax.cmd: {invocations: 2, invocationLast: 20230921, invocationDays: 2}
-  started: {invocations: 3, invocationLast: 20230926, invocationDays: 2}
-  system.os: {invocations: 3, invocationLast: 20230926, invocationDays: 2}
-  system.os.name.windows+10: {invocations: 3, invocationLast: 20230926, invocationDays: 2}
-  system.os.version.windows+10/10.0: {invocations: 3, invocationLast: 20230926, invocationDays: 2}
-  system.java.version.17.0.2: {invocations: 3, invocationLast: 20230926, invocationDays: 2}
-  i18n.locale.<null>: {invocations: 3, invocationLast: 20230926, invocationDays: 2}
-  preferences.mainWindow.wt: {invocations: 3, invocationLast: 20230926, invocationDays: 2}
-  preferences.theme.auto: {invocations: 3, invocationLast: 20230926, invocationDays: 2}
-  window.wt: {invocations: 9, invocationLast: 20231006, invocationDays: 5}
-  log.perspective.main: {invocations: 6, invocationLast: 20231001, invocationDays: 5}
-  window.log: {invocations: 6, invocationLast: 20231001, invocationDays: 5}
-  github.refresh: {invocations: 1434, invocationLast: 20231007, invocationDays: 11}
-  action.windowWorkingTree: {invocations: 3, invocationLast: 20231006, invocationDays: 3}
-  repo.opens.wt.files.1000-10000: {invocations: 28, invocationLast: 20231006, invocationDays: 4}
-  repo.opens.wt.submodules.10-20: {invocations: 6, invocationLast: 20230926, invocationDays: 3}
-  toolbar.main.action.fetch: {invocations: 27, invocationLast: 20231007, invocationDays: 10}
-  action.fetch: {invocations: 30, invocationLast: 20231007, invocationDays: 12}
-  action.repositorySettings: {invocations: 2, invocationLast: 20230928, invocationDays: 2}
-  toolbar.main.action.sync: {invocations: 1, invocationLast: 20230915, invocationDays: 1}
-  action.sync: {invocations: 1, invocationLast: 20230915, invocationDays: 1}
-  toolbar.main.action.push: {invocations: 81, invocationLast: 20231007, invocationDays: 12}
-  action.push: {invocations: 144, invocationLast: 20231007, invocationDays: 16}
-  action.push.0: {invocations: 121, invocationLast: 20231007, invocationDays: 16}
-  action.push.jira: {invocations: 132, invocationLast: 20231007, invocationDays: 16}
-  action.branchAbort: {invocations: 9, invocationLast: 20231002, invocationDays: 4}
-  action.checkout: {invocations: 53, invocationLast: 20231007, invocationDays: 11}
-  action.pushTo: {invocations: 5, invocationLast: 20231002, invocationDays: 4}
-  window.compare: {invocations: 32, invocationLast: 20231007, invocationDays: 7}
-  action.branchContinue: {invocations: 66, invocationLast: 20231007, invocationDays: 9}
-  repo.opens.wt.submodules.2-5: {invocations: 5, invocationLast: 20230927, invocationDays: 3}
-  action.push.1: {invocations: 11, invocationLast: 20231002, invocationDays: 4}
-  toolbar.main.action.remoteFetchAll: {invocations: 50, invocationLast: 20231007,
-    invocationDays: 8}
-  action.remoteFetchAll: {invocations: 89, invocationLast: 20231007, invocationDays: 11}
-  action.reset: {invocations: 10, invocationLast: 20231004, invocationDays: 6}
-  action.indexEditor: {invocations: 1, invocationLast: 20230920, invocationDays: 1}
-  window.indexEditor: {invocations: 2, invocationLast: 20231001, invocationDays: 2}
-  action.repositoryClose: {invocations: 11, invocationLast: 20230929, invocationDays: 3}
-  action.remoteCopyUrl: {invocations: 1, invocationLast: 20230921, invocationDays: 1}
-  repo.opens.wt.files.10000-50000: {invocations: 1, invocationLast: 20230924, invocationDays: 1}
-  repo.opens.wt.config.ignoreCase.false: {invocations: 1, invocationLast: 20230924,
-    invocationDays: 1}
-  action.ignore: {invocations: 1, invocationLast: 20230924, invocationDays: 1}
-  action.repositoryAddGroup: {invocations: 2, invocationLast: 20230929, invocationDays: 2}
-  action.repositoryRename: {invocations: 1, invocationLast: 20230924, invocationDays: 1}
-  action.branchSetTracking: {invocations: 29, invocationLast: 20231007, invocationDays: 8}
-  action.open: {invocations: 8, invocationLast: 20231007, invocationDays: 4}
-  action.repositoryOpen: {invocations: 1, invocationLast: 20230924, invocationDays: 1}
-  action.resolveOurs: {invocations: 9, invocationLast: 20231007, invocationDays: 5}
-  repo.opens.wt.submodules.5-10: {invocations: 2, invocationLast: 20230927, invocationDays: 2}
-  action.branchResetTracking: {invocations: 12, invocationLast: 20231007, invocationDays: 6}
-  action.rebaseHeadTo: {invocations: 1, invocationLast: 20230927, invocationDays: 1}
-  repo.opens.commits: {invocations: 2, invocationLast: 20231006, invocationDays: 2}
-  repo.opens.commits.0: {invocations: 1, invocationLast: 20230927, invocationDays: 1}
-  action.log: {invocations: 2, invocationLast: 20231001, invocationDays: 2}
-  action.remoteFetchMore: {invocations: 1, invocationLast: 20230928, invocationDays: 1}
-  action.branchDelete: {invocations: 5, invocationLast: 20230929, invocationDays: 2}
-  action.repositoryRemove: {invocations: 2, invocationLast: 20230929, invocationDays: 1}
-  changesview.syntax.basic: {invocations: 1, invocationLast: 20230929, invocationDays: 1}
-  action.editCommitMessage: {invocations: 7, invocationLast: 20231002, invocationDays: 2}
-  action.editCommitAuthor: {invocations: 1, invocationLast: 20231001, invocationDays: 1}
-  toolbar.main.action.logRepository: {invocations: 2, invocationLast: 20231001, invocationDays: 1}
-  action.logRepository: {invocations: 2, invocationLast: 20231001, invocationDays: 1}
-  action.modifyCommit: {invocations: 3, invocationLast: 20231001, invocationDays: 1}
-  action.modifyCommit.log.modify: {invocations: 3, invocationLast: 20231001, invocationDays: 1}
-  action.splitCommit: {invocations: 21, invocationLast: 20231004, invocationDays: 3}
-  action.splitCommit.log.split: {invocations: 18, invocationLast: 20231004, invocationDays: 3}
-  action.commit.view.log: {invocations: 50, invocationLast: 20231001, invocationDays: 1}
-  action.squashCommits: {invocations: 8, invocationLast: 20231007, invocationDays: 3}
-  action.showChanges: {invocations: 10, invocationLast: 20231007, invocationDays: 2}
-  toolbar.log.root.action.push: {invocations: 19, invocationLast: 20231007, invocationDays: 5}
-  action.branchRename: {invocations: 2, invocationLast: 20231001, invocationDays: 1}
-  toolbar.log.root.action.remoteFetchAll: {invocations: 41, invocationLast: 20231004,
+  repo.opens.wt.config.lfsEnabled.false: {invocations: 67, invocationLast: 20231019,
+    invocationDays: 3}
+  repo.opens.wt.config.evaluateLfsState.true: {invocations: 74, invocationLast: 20231019,
+    invocationDays: 3}
+  repo.opens.wt.config.actuallyEvaluateLfsState.false: {invocations: 67, invocationLast: 20231019,
+    invocationDays: 3}
+  repo.opens.type.git: {invocations: 75, invocationLast: 20231019, invocationDays: 3}
+  action.repositorySettings: {invocations: 1, invocationLast: 20231014, invocationDays: 1}
+  action.repositoryAddGroup: {invocations: 3, invocationLast: 20231019, invocationDays: 2}
+  repo.opens.wt.submodules.5-10: {invocations: 4, invocationLast: 20231019, invocationDays: 3}
+  repo.opens.wt.submodules.2-5: {invocations: 7, invocationLast: 20231019, invocationDays: 3}
+  action.viewUnchanged: {invocations: 1, invocationLast: 20231014, invocationDays: 1}
+  changesview.syntax.<unknown>: {invocations: 85, invocationLast: 20231019, invocationDays: 3}
+  changesview.syntax.c#: {invocations: 128, invocationLast: 20231019, invocationDays: 3}
+  toolbar.main.action.log: {invocations: 1, invocationLast: 20231014, invocationDays: 1}
+  action.log: {invocations: 3, invocationLast: 20231019, invocationDays: 2}
+  window.logFile: {invocations: 1, invocationLast: 20231014, invocationDays: 1}
+  toolbar.main.action.investigate: {invocations: 2, invocationLast: 20231014, invocationDays: 1}
+  action.investigate: {invocations: 2, invocationLast: 20231014, invocationDays: 1}
+  window.investigate: {invocations: 1, invocationLast: 20231014, invocationDays: 1}
+  repo.opens.wt.files.1000-10000: {invocations: 3, invocationLast: 20231019, invocationDays: 2}
+  repo.opens.wt.submodules.1-2: {invocations: 4, invocationLast: 20231019, invocationDays: 2}
+  toolbar.main.action.commit: {invocations: 26, invocationLast: 20231019, invocationDays: 3}
+  action.commit: {invocations: 29, invocationLast: 20231019, invocationDays: 3}
+  log.perspective.main: {invocations: 2, invocationLast: 20231019, invocationDays: 2}
+  window.log: {invocations: 2, invocationLast: 20231019, invocationDays: 2}
+  github.refresh: {invocations: 5, invocationLast: 20231019, invocationDays: 2}
+  action.submoduleRegister: {invocations: 14, invocationLast: 20231019, invocationDays: 2}
+  action.unstage: {invocations: 3, invocationLast: 20231017, invocationDays: 2}
+  changesview.syntax.pascal: {invocations: 6, invocationLast: 20231014, invocationDays: 1}
+  repo.opens.wt.config.lfsEnabled.true: {invocations: 8, invocationLast: 20231019,
+    invocationDays: 3}
+  repo.opens.wt.config.actuallyEvaluateLfsState.true: {invocations: 8, invocationLast: 20231019,
+    invocationDays: 3}
+  toolbar.main.action.remoteFetchAll: {invocations: 19, invocationLast: 20231019,
     invocationDays: 4}
-  toolbar.log.root.action.commit: {invocations: 15, invocationLast: 20231007, invocationDays: 5}
-  action.pushTo.0: {invocations: 1, invocationLast: 20231001, invocationDays: 1}
-  toolbar.log.root.action.fetch: {invocations: 1, invocationLast: 20231001, invocationDays: 1}
-  action.editFile: {invocations: 1, invocationLast: 20231001, invocationDays: 1}
-  action.revealHomeCommit: {invocations: 1, invocationLast: 20231002, invocationDays: 1}
-  action.cherryPick: {invocations: 1, invocationLast: 20231002, invocationDays: 1}
-  action.revert: {invocations: 1, invocationLast: 20231004, invocationDays: 1}
-  repo.opens.commits.1000-10000: {invocations: 1, invocationLast: 20231006, invocationDays: 1}
-  action.compareWithWorkingTree: {invocations: 1, invocationLast: 20231006, invocationDays: 1}
+  action.remoteFetchAll: {invocations: 18, invocationLast: 20231019, invocationDays: 4}
+  repo.opens.wt.config.ignoreCase.false: {invocations: 2, invocationLast: 20231019,
+    invocationDays: 2}
+  toolbar.main.action.push: {invocations: 12, invocationLast: 20231019, invocationDays: 4}
+  action.push: {invocations: 23, invocationLast: 20231019, invocationDays: 4}
+  action.push.0: {invocations: 22, invocationLast: 20231019, invocationDays: 4}
+  action.push.jira: {invocations: 23, invocationLast: 20231019, invocationDays: 4}
+  changesview.syntax.html: {invocations: 1, invocationLast: 20231014, invocationDays: 1}
+  action.delete: {invocations: 1, invocationLast: 20231014, invocationDays: 1}
+  changesview.syntax.xml: {invocations: 17, invocationLast: 20231017, invocationDays: 2}
+  window.compare: {invocations: 6, invocationLast: 20231017, invocationDays: 2}
+  action.branchSetTracking: {invocations: 11, invocationLast: 20231019, invocationDays: 4}
+  action.repositoryClose: {invocations: 5, invocationLast: 20231019, invocationDays: 2}
+  action.repositoryOpen: {invocations: 1, invocationLast: 20231014, invocationDays: 1}
+  action.refresh: {invocations: 7, invocationLast: 20231019, invocationDays: 3}
+  action.remoteCopyUrl: {invocations: 1, invocationLast: 20231014, invocationDays: 1}
+  toolbar.main.action.indexEditor: {invocations: 2, invocationLast: 20231017, invocationDays: 1}
+  action.indexEditor: {invocations: 2, invocationLast: 20231017, invocationDays: 1}
+  window.indexEditor: {invocations: 2, invocationLast: 20231017, invocationDays: 1}
+  action.push.1: {invocations: 1, invocationLast: 20231017, invocationDays: 1}
+  action.splitCommit: {invocations: 3, invocationLast: 20231017, invocationDays: 1}
+  action.splitCommit.journal.split: {invocations: 2, invocationLast: 20231017, invocationDays: 1}
+  action.branchContinue: {invocations: 4, invocationLast: 20231017, invocationDays: 1}
+  changesview.syntax.yaml: {invocations: 1, invocationLast: 20231017, invocationDays: 1}
+  changesview.syntax.json: {invocations: 1, invocationLast: 20231017, invocationDays: 1}
+  action.stage: {invocations: 13, invocationLast: 20231019, invocationDays: 2}
+  action.branchResetTracking: {invocations: 6, invocationLast: 20231019, invocationDays: 1}
+  toolbar.main.action.fetch: {invocations: 1, invocationLast: 20231019, invocationDays: 1}
+  action.fetch: {invocations: 1, invocationLast: 20231019, invocationDays: 1}
+  action.checkout: {invocations: 16, invocationLast: 20231019, invocationDays: 1}
+  action.branchDelete: {invocations: 2, invocationLast: 20231019, invocationDays: 1}
+  repo.opens.wt.files.0: {invocations: 3, invocationLast: 20231019, invocationDays: 1}
+  repo.opens.wt.files.10000-50000: {invocations: 1, invocationLast: 20231019, invocationDays: 1}
+  repo.opens.wt.config.evaluateLfsState.false: {invocations: 1, invocationLast: 20231019,
+    invocationDays: 1}
+  repo.opens.commits: {invocations: 1, invocationLast: 20231019, invocationDays: 1}
+  repo.opens.commits.50000-100000: {invocations: 1, invocationLast: 20231019, invocationDays: 1}

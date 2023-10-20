@@ -3,13 +3,28 @@ structure:
   children:
   - name: chris
     children:
-    - {name: chris, path: 'B:\PF\chris'}
-    - {name: AppData, path: 'C:\Users\CrRoot\AppData'}
-    - {name: NoteTakingProjectFolder, path: 'B:\PF\NoteTakingProjectFolder', favorite: true}
     - name: SteamLibrary
       children:
       - {name: steamapps, path: 'B:\SteamLibrary\steamapps'}
-      expanded: false
+      expanded: true
+    - name: Notebook
+      children:
+      - {name: NoteTakingProjectFolder, path: 'B:\PF\NoteTakingProjectFolder', favorite: true}
+      - {name: '20231011202412429', path: 'B:\Users\20231011202412429'}
+      - {name: '20231011202613080', path: 'B:\Users\20231011202613080'}
+      - {name: CompressedNotebook, path: 'B:\Users\CompressedNotebook'}
+    - name: userSettings
+      children:
+      - {name: Deployed, path: 'C:\ProgramData\scoop\buckets'}
+      - {name: Deployed-persist, path: 'C:\ProgramData\scoop\persist'}
+      - {name: presist-dotFiles, path: 'B:\PF\Archive\dotFiles'}
+      - {name: target, path: 'B:\Users\target'}
+      - {name: AppData, path: 'C:\Users\CrRoot\AppData'}
+      - {name: chris, path: 'B:\PF\chris'}
+      expanded: true
+    - name: Documents
+      children:
+      - {name: Documents, path: 'C:\Users\Public\Documents'}
     expanded: false
   - name: psw
     children:
@@ -29,18 +44,21 @@ structure:
     - {name: virtual1, path: 'E:\Users\virtual1'}
     - {name: ps1, path: 'B:\Unsorted\ps1'}
     - {name: Users, path: 'B:\Users'}
+    - {name: Pascal, path: 'B:\PF\Modding\Pascal'}
+    - {name: projectFolderBare, path: 'B:\PF\.git\modules\projectFolderBare'}
+    - {name: chris, path: 'B:\chris'}
     expanded: false
   - name: AHK
     children:
     - {name: AHK, path: 'B:\Users\target\AHK'}
-    - {name: AHK-EverydayScripts, path: 'C:\ProgramData\scoop\persist\AHK-EverydayScripts'}
+    - {name: AHK-unstable, path: 'C:\ProgramData\scoop\persist\AHK-EverydayScripts'}
     - {name: AutoHotkeyPortable, path: 'U:\WindowsShare\backs\PortableApps\4, windows
         enhance\PortableApps\AutoHotkeyPortable'}
     - {name: AHK, path: 'B:\PF\Archive\ToGit\scoopbucket-presist\AHK'}
     - {name: AhkProjectFolder, path: 'B:\PF\AhkProjectFolder'}
     - {name: ahk_config, path: 'B:\PF\Archive\ToGit\scoopbucket-presist\AHK\ahk_config'}
     - {name: WindowsPowerShell, path: 'C:\ProgramData\scoop\persist\Documents\WindowsPowerShell'}
-    expanded: false
+    expanded: true
   - name: BeyondCompare
     children:
     - {name: BeondCompare4, path: 'B:\Users\target\BeondCompare4'}
@@ -48,6 +66,11 @@ structure:
         Software\Beyond Compare 4'}
     - {name: Beyond Compare 4, path: 'C:\Users\CrRoot\AppData\Roaming\Scooter Software\Beyond
         Compare 4'}
+    - {name: Beyond Compare 4, path: 'B:\Users\target\AppData\Roaming\Scooter Software\Beyond
+        Compare 4'}
+    - {name: PowerShell, path: 'B:\Users\target\Documents\PowerShell'}
+    - {name: xScripts, path: 'B:\Users\target\Documents\PowerShell\xScripts'}
+    expanded: true
   expanded: true
 - name: I:\Downloads\2022
   children: []
@@ -59,29 +82,29 @@ structure:
   - {name: repos, path: 'B:\PF\CSharpVisualStudio\repos'}
   - {name: InvalidMarkup, path: 'B:\PF\CSharpVisualStudio\repos\InvalidMarkup'}
   - {name: boras, path: 'B:\PF\CSharpVisualStudio\repos\boras'}
+  - {name: KarlstadButik, path: 'B:\PF\CSharpVisualStudio\repos\karlstad\KarlstadButik\KarlstadButik'}
   expanded: true
 - name: Scoop
   children:
-  - {name: Deployed, path: 'C:\ProgramData\scoop\buckets'}
   - {name: scoopbucket-1, path: 'B:\PF\scoopbucket-1'}
-  - {name: Deployed-persist, path: 'C:\ProgramData\scoop\persist'}
-  - {name: presist-dotFiles, path: 'B:\PF\Archive\dotFiles'}
-  - {name: target, path: 'B:\Users\target'}
   expanded: true
-- {name: RiderProjects, path: 'L:\Users\virtual2\RiderProjects'}
-recentlyUsed: ['C:\ProgramData\scoop\persist', 'B:\PF\AhkProjectFolder', 'C:\ProgramData\scoop\persist\AHK-EverydayScripts',
-  'B:\Users', 'C:\ProgramData\scoop\persist\Documents\WindowsPowerShell', 'B:\PF',
-  'B:\PF\CSharpVisualStudio\repos\karlstad', 'B:\PF\CSharpVisualStudio', 'B:\Users\target\BeondCompare4',
-  'C:\Users\CrRoot\AppData\Roaming\Scooter Software\Beyond Compare 4', 'B:\PF\Archive\ToGit\scoopbucket-presist\AppData\Roaming\Scooter
-    Software\Beyond Compare 4', 'C:\ProgramData\scoop\buckets', 'L:\Users\virtual2\RiderProjects',
+recentlyUsed: ['C:\ProgramData\scoop\persist', 'B:\chris', 'B:\PF\CSharpVisualStudio\repos\karlstad\KarlstadButik\KarlstadButik',
+  'B:\PF\.git\modules\projectFolderBare', 'B:\PF', 'B:\Users\target\Documents\PowerShell\xScripts',
+  'B:\Users\target\Documents\PowerShell', 'C:\Users\Public\Documents', 'B:\PF\Archive\dotFiles',
+  'B:\PF\CSharpVisualStudio\repos\karlstad', 'C:\Users\CrRoot\AppData\Roaming\Scooter
+    Software\Beyond Compare 4', 'B:\Users\target\BeondCompare4', 'B:\Users\target\AppData\Roaming\Scooter
+    Software\Beyond Compare 4', 'B:\PF\Archive\ToGit\scoopbucket-presist\AppData\Roaming\Scooter
+    Software\Beyond Compare 4', 'B:\PF\Modding\Pascal', 'B:\Users\20231011202412429',
+  'B:\Users\CompressedNotebook', 'B:\PF\NoteTakingProjectFolder', 'C:\ProgramData\scoop\buckets',
+  'B:\Users\20231011202613080', 'B:\PF\AhkProjectFolder', 'C:\ProgramData\scoop\persist\AHK-EverydayScripts',
+  'B:\Users', 'C:\ProgramData\scoop\persist\Documents\WindowsPowerShell', 'B:\PF\CSharpVisualStudio',
   'B:\PF\CSharpVisualStudio\repos\boras', 'B:\Unsorted\ps1', 'B:\PF\Archive\ps1',
   'B:\PF\Archive\ToGit\scoopbucket-presist\AHK', 'B:\PF\Archive\ToGit\scoopbucket-presist\AHK\ahk_config',
   'B:\Users\target\AHK', 'U:\WindowsShare\backs\PortableApps\4, windows enhance\PortableApps\AutoHotkeyPortable',
   'B:\Users\target', 'E:\Users\virtual1', 'B:\PF\Archive\ps1\git', 'B:\Unsorted\tempRepo\New
-    folder', 'B:\PF\NoteTakingProjectFolder', 'B:\PF\CSharpVisualStudio\repos', 'B:\PF\CSharpVisualStudio\repos\InvalidMarkup',
+    folder', 'B:\PF\CSharpVisualStudio\repos', 'B:\PF\CSharpVisualStudio\repos\InvalidMarkup',
   'B:\PF\PowershellProjectFolder\Modules\Personal\filesystem\group\ps1', 'B:\PF\Archive\NewWindows',
   'B:\PF\CSharpVisualStudio\repos\karlstad2Calc_Lotto', 'B:\PF\Archive\ToGit\scoopbucket-presist',
   'B:\PF\Archive\ToGit\scoopbucket-presist\Documents\WindowsPowerShell', 'C:\Users\CrRoot\.config',
-  'C:\Users\CrRoot\.config\powershell', 'B:\PF\scoopbucket-1', 'B:\PF\Archive\dotFiles',
-  'C:\Users\CrRoot\AppData', 'B:\SteamLibrary\steamapps', 'B:\PF\chris', 'B:\PF\Archive',
-  'B:\PF\PowershellProjectFolder']
+  'C:\Users\CrRoot\.config\powershell', 'B:\PF\scoopbucket-1', 'C:\Users\CrRoot\AppData',
+  'B:\SteamLibrary\steamapps', 'B:\PF\chris', 'B:\PF\Archive', 'B:\PF\PowershellProjectFolder']
